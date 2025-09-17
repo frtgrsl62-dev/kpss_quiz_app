@@ -207,9 +207,12 @@ def soru_goster_page():
     soru = secilen_test[index]
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-    # Seçenekleri "A) Metin" formatında göster
-    secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
-    secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}")
+# Seçenekleri "A) Metin" formatında göster
+secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
+
+# index=None ekleyerek hiçbir seçenek seçili gelmesin
+secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}", index=None)
+
 
     # Daha önce cevaplanmış mı kontrol et
     cevap_key = f"cevap_{index}"
@@ -302,6 +305,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
