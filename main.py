@@ -128,35 +128,111 @@ def konu_secim_page(ders):
         st.rerun()
 
 # ===============================
-# Test Sayfası
+# Test Seçimi Ekranı
 # ===============================
-def test_secim_page(ders, konu):
-    st.header(f"{ders} - {konu} Test")
-    tum_sorular = soru_bankasi[ders][konu]
+def test_secim_page(secilen_ders, secilen_konu):
+    st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
+    tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
 
-    # Sonuçları başlat
-    if ders not in sonuclar:
-        sonuclar[ders] = {}
-    if konu not in sonuclar[ders]:
-        sonuclar[ders][konu] = {"dogru": 0, "yanlis": 0}
+    if not tum_sorular:
+        st.info("Bu konu için henüz soru eklenmemiş.")
+        if st.button("Geri"):
+            st.session_state["page"] = "konu"
+            st.rerun()
+        return
 
-    for i, soru in enumerate(tum_sorular, start=1):
-        st.subheader(f"Soru {i}")
-        st.write(soru["soru"])
-        secim = st.radio("Cevap Seçin:", list(soru["secenekler"].keys()), key=f"{ders}_{konu}_{i}")
+    soru_grubu_sayisi = 10
+    test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
 
-        if st.button("Cevapla", key=f"btn_{ders}_{konu}_{i}"):
-            if secim == soru["dogru_cevap"]:
-                st.success("✅ Doğru!")
-                sonuclar[ders][konu]["dogru"] += 1
-            else:
-                st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
-                sonuclar[ders][konu]["yanlis"] += 1
-            st.info(f"Çözüm: {soru['cozum']}")
+    for i in range(test_sayisi):
+        baslangic = i * soru_grubu_sayisi
+        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
+        test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
+
+        # Test butonu
+        if st.button(test_adi, key=f"testbtn_{i}"):
+            if secilen_ders not in sonuclar:
+                sonuclar[secilen_ders] = {}
+            if secilen_konu not in sonuclar[secilen_ders]:
+                sonuclar[secilen_ders][secilen_konu] = {"dogru": 0, "yanlis": 0}
+
+            secilen_test = tum_sorular[baslangic:bitis]
+            st.session_state["current_test"] = {
+                "test": secilen_test,
+                "index": 0,
+                "ders": secilen_ders,
+                "konu": secilen_konu,
+                "test_no": i+1,
+                "test_sayisi": test_sayisi
+            }
+            st.session_state["page"] = "soru"
+            st.rerun()
 
     if st.button("Geri"):
         st.session_state["page"] = "konu"
         st.rerun()
+# ===============================
+# Soru Gösterim Sayfası
+# ===============================
+def soru_goster_page():
+    current = st.session_state["current_test"]
+    secilen_test = current["test"]
+    index = current["index"]
+    secilen_ders = current["ders"]
+    secilen_konu = current["konu"]
+    test_no = current["test_no"]
+    test_sayisi = current["test_sayisi"]
+
+    if index >= len(secilen_test):
+        # Test Sonucu
+        dogru = sonuclar[secilen_ders][secilen_konu]["dogru"]
+        yanlis = sonuclar[secilen_ders][secilen_konu]["yanlis"]
+
+        # Test sonuçlarını kaydet
+        sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {
+            "dogru": dogru,
+            "yanlis": yanlis
+        }
+
+        st.markdown(f"**Test tamamlandı!**\n\n✅ Doğru: {dogru}\n❌ Yanlış: {yanlis}")
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            if test_no < test_sayisi and st.button("Sonraki Test"):
+                st.session_state["page"] = "test"
+                st.rerun()
+        with col2:
+            if st.button("Ana Menü"):
+                st.session_state["page"] = "ders"
+                st.rerun()
+        with col3:
+            if test_no == test_sayisi and st.button("Genel Raporu Gör"):
+                st.session_state["page"] = "rapor"
+                st.rerun()
+        return
+
+    soru = secilen_test[index]
+    st.markdown(f"**Test {test_no}/{test_sayisi} - Soru {index+1}/{len(secilen_test)}**")
+    st.markdown(f"**Soru {index+1}:** {soru['soru']}")
+
+    secim = st.radio("Cevap Seçin:", list(soru["secenekler"].keys()), key=f"soru_radio_{index}")
+
+    if st.button("Cevapla"):
+        if secim == soru["dogru_cevap"]:
+            st.success("✅ Doğru!")
+            sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
+        else:
+            st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
+            sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
+        st.info(f"**Çözüm:** {soru['cozum']}")
+        # Sonraki soru
+        st.session_state["current_test"]["index"] += 1
+        st.experimental_rerun()
+
+    if st.button("Geri"):
+        st.session_state["page"] = "test"
+        st.rerun()
+
 
 # ===============================
 # Genel Rapor
@@ -191,5 +267,8 @@ elif st.session_state["page"] == "konu":
     konu_secim_page(st.session_state["ders"])
 elif st.session_state["page"] == "test":
     test_secim_page(st.session_state["ders"], st.session_state["konu"])
+elif st.session_state["page"] == "soru":
+    soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
