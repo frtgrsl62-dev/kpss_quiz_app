@@ -1,11 +1,7 @@
-from soru_bankasi import soru_bankasi
-
-# ===============================
-# main.py
-# ===============================
 import streamlit as st
 import time
 import math
+from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
 
 # ===============================
 # Kullanıcı Bilgileri
@@ -18,7 +14,7 @@ kullanicilar = {}
 sonuclar = {}
 
 # ===============================
-# Kullanıcı Girişi (Form ile)
+# Kullanıcı Girişi
 # ===============================
 def login_page():
     st.title("Giriş Ekranı")
@@ -32,10 +28,12 @@ def login_page():
     if giris_btn:
         if k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre:
             st.session_state["user"] = k_adi
-            ders_secim_page()
+            st.session_state["page"] = "ders_secim"
+            st.experimental_rerun()
         elif k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre:
             st.session_state["user"] = k_adi
-            ders_secim_page()
+            st.session_state["page"] = "ders_secim"
+            st.experimental_rerun()
         else:
             st.error("❌ Hatalı kullanıcı adı veya şifre!")
 
@@ -45,7 +43,7 @@ def login_page():
 
 
 # ===============================
-# Kayıt Sayfası (Form ile)
+# Kayıt Sayfası
 # ===============================
 def kayit_page():
     st.title("Kayıt Ol")
@@ -79,42 +77,52 @@ def kayit_page():
         st.experimental_rerun()
 
 
-
 # ===============================
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
     st.title("Ders Seçiniz")
     for ders in soru_bankasi.keys():
-        if st.button(ders):
+        if st.button(ders, key=f"ders_{ders}"):
             st.session_state["ders"] = ders
-            konu_secim_page(ders)
+            st.session_state["page"] = "konu_secim"
+            st.experimental_rerun()
     
-    if st.button("Genel Raporu Gör"):
-        genel_rapor_page()
+    if st.button("Genel Raporu Gör", key="rapor"):
+        st.session_state["page"] = "rapor"
+        st.experimental_rerun()
     
-    if st.button("Çıkış Yap"):
+    if st.button("Çıkış Yap", key="cikis"):
         st.session_state.clear()
-        login_page()
+        st.session_state["page"] = "login"
+        st.experimental_rerun()
+
 
 # ===============================
 # Konu Seçim Sayfası
 # ===============================
-def konu_secim_page(ders):
+def konu_secim_page():
+    ders = st.session_state["ders"]
     st.header(f"{ders} - Konu Seçimi")
     for konu in soru_bankasi[ders].keys():
-        if st.button(konu):
+        if st.button(konu, key=f"konu_{konu}"):
             st.session_state["konu"] = konu
-            test_secim_page(ders, konu)
+            st.session_state["page"] = "test"
+            st.experimental_rerun()
     
-    if st.button("Geri"):
-        ders_secim_page()
+    if st.button("Geri", key="geri_ders"):
+        st.session_state["page"] = "ders_secim"
+        st.experimental_rerun()
+
 
 # ===============================
-# Test Seçimi
+# Test Sayfası
 # ===============================
-def test_secim_page(ders, konu):
-    st.header(f"{ders} - {konu} Test Seçimi")
+def test_secim_page():
+    ders = st.session_state["ders"]
+    konu = st.session_state["konu"]
+    st.header(f"{ders} - {konu} Test")
+
     tum_sorular = soru_bankasi[ders][konu]
     
     for i, soru in enumerate(tum_sorular, start=1):
@@ -128,9 +136,11 @@ def test_secim_page(ders, konu):
             else:
                 st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
             st.info(f"Çözüm: {soru['cozum']}")
-    
-    if st.button("Geri"):
-        konu_secim_page(ders)
+
+    if st.button("Geri", key="geri_konu"):
+        st.session_state["page"] = "konu_secim"
+        st.experimental_rerun()
+
 
 # ===============================
 # Genel Rapor
@@ -142,15 +152,28 @@ def genel_rapor_page():
         for konu, sonuc in konular.items():
             st.write(f"{konu}: ✅ {sonuc['dogru']} | ❌ {sonuc['yanlis']}")
     
-    if st.button("Ana Menü"):
-        ders_secim_page()
+    if st.button("Ana Menü", key="ana_menu"):
+        st.session_state["page"] = "ders_secim"
+        st.experimental_rerun()
+
 
 # ===============================
-# Başlat
+# Başlatıcı
 # ===============================
+if "page" not in st.session_state:
+    st.session_state["page"] = "login"
+
 if "user" not in st.session_state:
-    login_page()
+    if st.session_state["page"] == "login":
+        login_page()
+    elif st.session_state["page"] == "kayit":
+        kayit_page()
 else:
-    ders_secim_page()
-
-
+    if st.session_state["page"] == "ders_secim":
+        ders_secim_page()
+    elif st.session_state["page"] == "konu_secim":
+        konu_secim_page()
+    elif st.session_state["page"] == "test":
+        test_secim_page()
+    elif st.session_state["page"] == "rapor":
+        genel_rapor_page()
