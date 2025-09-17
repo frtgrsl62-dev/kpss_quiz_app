@@ -133,16 +133,27 @@ def konu_secim_page(ders):
 def test_secim_page(ders, konu):
     st.header(f"{ders} - {konu} Test")
     tum_sorular = soru_bankasi[ders][konu]
+
+    # Sonuçları başlat
+    if ders not in sonuclar:
+        sonuclar[ders] = {}
+    if konu not in sonuclar[ders]:
+        sonuclar[ders][konu] = {"dogru": 0, "yanlis": 0}
+
     for i, soru in enumerate(tum_sorular, start=1):
         st.subheader(f"Soru {i}")
         st.write(soru["soru"])
         secim = st.radio("Cevap Seçin:", list(soru["secenekler"].keys()), key=f"{ders}_{konu}_{i}")
+
         if st.button("Cevapla", key=f"btn_{ders}_{konu}_{i}"):
             if secim == soru["dogru_cevap"]:
                 st.success("✅ Doğru!")
+                sonuclar[ders][konu]["dogru"] += 1
             else:
                 st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
+                sonuclar[ders][konu]["yanlis"] += 1
             st.info(f"Çözüm: {soru['cozum']}")
+
     if st.button("Geri"):
         st.session_state["page"] = "konu"
         st.rerun()
@@ -152,6 +163,10 @@ def test_secim_page(ders, konu):
 # ===============================
 def genel_rapor_page():
     st.header("Genel Rapor")
+    if not sonuclar:
+        st.info("Henüz herhangi bir test çözülmedi.")
+        return
+
     for ders, konular in sonuclar.items():
         st.subheader(ders)
         for konu, sonuc in konular.items():
