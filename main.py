@@ -187,18 +187,17 @@ def soru_goster_page():
         yanlis = sonuclar[secilen_ders][secilen_konu]["yanlis"]
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
-        col1, col2, col3 = st.columns(3)
+        col1, col2 = st.columns([1, 1])
         with col1:
-            if test_no < test_sayisi and st.button("Sonraki Test"):
+            if st.button("⬅️ Geri", type="secondary", key="geri_test_bitti"):
                 st.session_state["page"] = "test"
                 st.rerun()
         with col2:
-            if st.button("Ana Menü"):
-                st.session_state["page"] = "ders"
+            if test_no < test_sayisi and st.button("Sonraki Test ➡️"):
+                st.session_state["page"] = "test"
                 st.rerun()
-        with col3:
-            if test_no == test_sayisi and st.button("Genel Raporu Gör"):
-                st.session_state["page"] = "rapor"
+            elif test_no == test_sayisi and st.button("🏠 Ana Menü"):
+                st.session_state["page"] = "ders"
                 st.rerun()
         return
 
@@ -231,15 +230,28 @@ def soru_goster_page():
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
 
-        col1, col2 = st.columns(2)
+        # Butonlar: Geri (sol) - Sonraki (sağ)
+        col1, col2 = st.columns([1, 1])
         with col1:
-            if st.button("Sonraki Soru", key=f"sonraki_{index}"):
-                current["index"] += 1
+            if st.button("⬅️ Geri", type="secondary", key=f"geri_{index}"):
+                if current["index"] > 0:
+                    current["index"] -= 1
+                else:
+                    st.session_state["page"] = "test"
                 st.rerun()
         with col2:
-            if st.button("Geri", key=f"geri_{index}"):
-                st.session_state["page"] = "test"
-                st.rerun()
+            if index < len(secilen_test) - 1:
+                if st.button("Sonraki Soru ➡️", key=f"sonraki_{index}"):
+                    current["index"] += 1
+                    st.rerun()
+            else:
+                if test_no < test_sayisi and st.button("Sonraki Test ➡️", key="next_test"):
+                    st.session_state["page"] = "test"
+                    st.rerun()
+                elif test_no == test_sayisi and st.button("🏠 Ana Menü", key="main_menu"):
+                    st.session_state["page"] = "ders"
+                    st.rerun()
+
 
 
 
@@ -280,6 +292,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
