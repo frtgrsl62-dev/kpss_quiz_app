@@ -18,14 +18,18 @@ kullanicilar = {}
 sonuclar = {}
 
 # ===============================
-# Kullanıcı Girişi
+# Kullanıcı Girişi (Form ile)
 # ===============================
 def login_page():
     st.title("Giriş Ekranı")
-    k_adi = st.text_input("Kullanıcı Adı", key="login_kadi")
-    sifre = st.text_input("Şifre", type="password", key="login_sifre")
-    
-    if st.button("Giriş Yap", key="login_btn"):
+
+    with st.form("login_form"):
+        k_adi = st.text_input("Kullanıcı Adı")
+        sifre = st.text_input("Şifre", type="password")
+        giris_btn = st.form_submit_button("Giriş Yap")
+        kayit_btn = st.form_submit_button("Kayıt Ol")
+
+    if giris_btn:
         if k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre:
             st.session_state["user"] = k_adi
             ders_secim_page()
@@ -34,22 +38,27 @@ def login_page():
             ders_secim_page()
         else:
             st.error("❌ Hatalı kullanıcı adı veya şifre!")
-    
-    if st.button("Kayıt Ol", key="goto_kayit"):
-        kayit_page()
+
+    if kayit_btn:
+        st.session_state["page"] = "kayit"
+        st.experimental_rerun()
 
 
 # ===============================
-# Kayıt Sayfası
+# Kayıt Sayfası (Form ile)
 # ===============================
 def kayit_page():
     st.title("Kayıt Ol")
-    isim = st.text_input("İsim Soyisim", key="kayit_isim")
-    k_adi = st.text_input("Kullanıcı Adı", key="kayit_kadi")
-    sifre = st.text_input("Şifre", type="password", key="kayit_sifre")
-    sifre_tekrar = st.text_input("Şifre Tekrar", type="password", key="kayit_sifre_tekrar")
-    
-    if st.button("Kaydet", key="kayit_btn"):
+
+    with st.form("kayit_form"):
+        isim = st.text_input("İsim Soyisim")
+        k_adi = st.text_input("Kullanıcı Adı")
+        sifre = st.text_input("Şifre", type="password")
+        sifre_tekrar = st.text_input("Şifre Tekrar", type="password")
+        kaydet_btn = st.form_submit_button("Kaydet")
+        geri_btn = st.form_submit_button("Geri")
+
+    if kaydet_btn:
         if not isim or not k_adi or not sifre or not sifre_tekrar:
             st.error("❌ Lütfen tüm alanları doldurun!")
             return
@@ -62,7 +71,13 @@ def kayit_page():
         kullanicilar[k_adi] = {"isim": isim, "sifre": sifre}
         st.success(f"✅ {isim} başarıyla kaydedildi!")
         time.sleep(1)
-        login_page()
+        st.session_state["page"] = "login"
+        st.experimental_rerun()
+
+    if geri_btn:
+        st.session_state["page"] = "login"
+        st.experimental_rerun()
+
 
 
 # ===============================
@@ -137,4 +152,5 @@ if "user" not in st.session_state:
     login_page()
 else:
     ders_secim_page()
+
 
