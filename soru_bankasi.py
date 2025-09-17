@@ -4,24 +4,24 @@
 soru_bankasi = {
 
 "Türkçe": {
-    "1. Sözcükte Yapı": [],
-    "2. Sözcük Türleri": [],
-    "3. Söz Dizimi": [],
-    "4. Ses Bilgisi": [],
-    "5. Yazım Kuralları": [],
-    "6. Noktalama İşaretleri": [],
-    "7. Sözcükte Anlam": [],
-    "8. Cümlede Anlam": [],
-    "9. Anlatım Biçimleri": [],
-    "10. Paragraf": [],
-    "11. Anlatım Bozukluğu": []
+    "1) Sözcükte Yapı": [],
+    "2) Sözcük Türleri": [],
+    "3) Söz Dizimi": [],
+    "4) Ses Bilgisi": [],
+    "5) Yazım Kuralları": [],
+    "6) Noktalama İşaretleri": [],
+    "7) Sözcükte Anlam": [],
+    "8) Cümlede Anlam": [],
+    "9) Anlatım Biçimleri": [],
+    "10) Paragraf": [],
+    "11) Anlatım Bozukluğu": []
 },
 
  "Matematik": {
  },
 
     "Tarih": {
-    "1. İslamiyet Öncesi Türk Tarihi": [
+    "1_ İslamiyet Öncesi Türk Tarihi": [
         {
             "soru": "İslamiyetten önceki Türk devletlerinde, hatunun kurultay toplantılarına katılması, kağanla birlikte elçileri kabul etmesi ve kendine ait buyruklarının bulunması aşağıdakilerden hangisinin bir göstergesidir?",
             "secenekler": {
@@ -4334,3 +4334,4 @@ soru_bankasi = {
         "2. Sanat ve Edebiyat": []
     }
 }
+
