@@ -204,22 +204,36 @@ def soru_goster_page():
     soru = secilen_test[index]
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-    secim = st.radio("Cevap Seçin:", list(soru["secenekler"].keys()), key=f"soru_radio_{index}")
-
-    if st.button("Cevapla", key=f"cevapla_{index}"):
+    # Seçim yapılmamışsa
+    if f"cevap_{index}" not in st.session_state:
+        secim = st.radio("Cevap Seçin:", list(soru["secenekler"].keys()), key=f"soru_radio_{index}")
+        if st.button("Cevapla", key=f"cevapla_{index}"):
+            st.session_state[f"cevap_{index}"] = secim
+            if secim == soru["dogru_cevap"]:
+                sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
+                sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
+            else:
+                sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
+                sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
+            st.rerun()
+    else:
+        secim = st.session_state[f"cevap_{index}"]
         if secim == soru["dogru_cevap"]:
             st.success("✅ Doğru!")
-            sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
         else:
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
-            sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
         st.info(f"**Çözüm:** {soru['cozum']}")
-        current["index"] += 1
-        st.experimental_rerun()  # Butona basınca sonraki soruya geç
 
-    if st.button("Geri"):
-        st.session_state["page"] = "test"
-        st.rerun()
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("Sonraki Soru", key=f"sonraki_{index}"):
+                current["index"] += 1
+                st.rerun()
+        with col2:
+            if st.button("Geri", key=f"geri_{index}"):
+                st.session_state["page"] = "test"
+                st.rerun()
+
 
 
 # ===============================
@@ -259,6 +273,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
