@@ -168,6 +168,8 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.session_state["page"] = "konu"
         st.rerun()
 
+
+
 # ===============================
 # Soru Gösterim Sayfası
 # ===============================
@@ -263,6 +265,7 @@ def soru_goster_page():
 
 
 
+
 # ===============================
 # Genel Rapor
 # ===============================
@@ -300,6 +303,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
