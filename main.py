@@ -261,4 +261,9 @@ elif st.session_state["page"] == "konu":
     konu_secim_page(st.session_state["ders"])
 elif st.session_state["page"] == "test":
     test_secim_page(st.session_state["ders"], st.session_state["konu"])
-elif st.session_state["page"] ==
+elif st.session_state["page"] == "soru":
+    soru_goster_page()
+elif st.session_state["page"] == "rapor":
+    genel_rapor_page()
+
+
