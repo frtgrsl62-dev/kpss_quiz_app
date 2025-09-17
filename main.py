@@ -144,7 +144,7 @@ def test_secim_page(secilen_ders, secilen_konu):
             st.rerun()
         return
 
-    soru_grubu_sayisi = 10
+    soru_grubu_sayisi = 3
     test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
 
     for i in range(test_sayisi):
@@ -205,14 +205,14 @@ def soru_goster_page():
 
     # Şimdiki soru
     soru = secilen_test[index]
+    st.markdown(f"**{secilen_ders} - {secilen_konu}**")
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-# Seçenekleri "A) Metin" formatında göster
-secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
+    # Seçenekleri "A) Metin" formatında göster
+    secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
 
-# index=None ekleyerek hiçbir seçenek seçili gelmesin
-secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}", index=None)
-
+    # Hiçbir seçenek varsayılan seçili olmasın
+    secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}", index=None)
 
     # Daha önce cevaplanmış mı kontrol et
     cevap_key = f"cevap_{index}"
@@ -227,21 +227,23 @@ secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}", index=N
     else:
         # Cevaplanmamışsa cevapla butonu göster
         if st.button("Cevapla", key=f"cevapla_{index}"):
-            secilen_harf = secim.split(")")[0]
-            st.session_state[cevap_key] = secilen_harf
-            # Sonuçları kaydet
-            sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
-            if secilen_harf == soru["dogru_cevap"]:
-                sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
+            if not secim:
+                st.warning("⚠️ Lütfen bir seçenek seçin!")
             else:
-                sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
-            st.rerun()
+                secilen_harf = secim.split(")")[0]
+                st.session_state[cevap_key] = secilen_harf
+                # Sonuçları kaydet
+                sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
+                if secilen_harf == soru["dogru_cevap"]:
+                    sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
+                else:
+                    sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
+                st.rerun()
 
     # --- Navigasyon Butonları ---
     col1, col2 = st.columns([1, 1])
     with col1:
         if st.button("🔙 Geri", type="secondary", key=f"geri_{index}"):
-            # Artık önceki soruya değil, test seçim ekranına gider
             st.session_state["page"] = "test"
             st.rerun()
 
@@ -305,6 +307,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
