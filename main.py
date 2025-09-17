@@ -2,6 +2,7 @@ import streamlit as st
 import time
 import json
 import os
+import math
 from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
 
 # ===============================
@@ -128,7 +129,7 @@ def konu_secim_page(ders):
         st.rerun()
 
 # ===============================
-# Test Seçimi Ekranı
+# Test Seçimi Sayfası
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
@@ -149,7 +150,6 @@ def test_secim_page(secilen_ders, secilen_konu):
         bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
         test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
 
-        # Test butonu
         if st.button(test_adi, key=f"testbtn_{i}"):
             if secilen_ders not in sonuclar:
                 sonuclar[secilen_ders] = {}
@@ -171,6 +171,7 @@ def test_secim_page(secilen_ders, secilen_konu):
     if st.button("Geri"):
         st.session_state["page"] = "konu"
         st.rerun()
+
 # ===============================
 # Soru Gösterim Sayfası
 # ===============================
@@ -184,11 +185,9 @@ def soru_goster_page():
     test_sayisi = current["test_sayisi"]
 
     if index >= len(secilen_test):
-        # Test Sonucu
         dogru = sonuclar[secilen_ders][secilen_konu]["dogru"]
         yanlis = sonuclar[secilen_ders][secilen_konu]["yanlis"]
 
-        # Test sonuçlarını kaydet
         sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {
             "dogru": dogru,
             "yanlis": yanlis
@@ -225,14 +224,12 @@ def soru_goster_page():
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
             sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
         st.info(f"**Çözüm:** {soru['cozum']}")
-        # Sonraki soru
         st.session_state["current_test"]["index"] += 1
         st.experimental_rerun()
 
     if st.button("Geri"):
         st.session_state["page"] = "test"
         st.rerun()
-
 
 # ===============================
 # Genel Rapor
@@ -246,7 +243,9 @@ def genel_rapor_page():
     for ders, konular in sonuclar.items():
         st.subheader(ders)
         for konu, sonuc in konular.items():
-            st.write(f"{konu}: ✅ {sonuc['dogru']} | ❌ {sonuc['yanlis']}")
+            if isinstance(sonuc, dict) and "dogru" in sonuc:
+                st.markdown(f"{konu}: ✅ {sonuc['dogru']} | ❌ {sonuc['yanlis']}")
+
     if st.button("Ana Menü"):
         st.session_state["page"] = "ders"
         st.rerun()
@@ -271,4 +270,3 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
-
