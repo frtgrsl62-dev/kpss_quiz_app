@@ -191,7 +191,7 @@ def soru_goster_page():
 
         col1, col2 = st.columns([1, 1])
         with col1:
-            if st.button("⬅️ Geri", type="secondary", key="geri_test_bitti"):
+            if st.button("🔙 Geri", type="secondary", key="geri_test_bitti"):
                 st.session_state["page"] = "test"
                 st.rerun()
         with col2:
@@ -237,11 +237,9 @@ def soru_goster_page():
     # --- Navigasyon Butonları ---
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("⬅️ Geri", type="secondary", key=f"geri_{index}"):
-            if current["index"] > 0:
-                current["index"] -= 1
-            else:
-                st.session_state["page"] = "test"
+        if st.button("🔙 Geri", type="secondary", key=f"geri_{index}"):
+            # Artık önceki soruya değil, test seçim ekranına gider
+            st.session_state["page"] = "test"
             st.rerun()
 
     with col2:
@@ -260,6 +258,7 @@ def soru_goster_page():
             elif test_no == test_sayisi and st.button("🏠 Ana Menü", key="main_menu"):
                 st.session_state["page"] = "ders"
                 st.rerun()
+
 
 
 
@@ -303,6 +302,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
