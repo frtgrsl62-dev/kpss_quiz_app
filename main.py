@@ -120,7 +120,8 @@ def ders_secim_page():
 def konu_secim_page(ders):
     st.header(f"{ders} - Konu Seçimi")
     for konu in soru_bankasi[ders].keys():
-        if st.button(konu):
+        st.write(f"- {konu}")
+        if st.button(f"Giriş: {konu}", key=f"konu_{konu}"):
             st.session_state["konu"] = konu
             st.session_state["page"] = "test"
             st.rerun()
@@ -129,12 +130,11 @@ def konu_secim_page(ders):
         st.rerun()
 
 # ===============================
-# Test Seçimi Sayfası
+# Test Seçim Sayfası
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
-
     if not tum_sorular:
         st.info("Bu konu için henüz soru eklenmemiş.")
         if st.button("Geri"):
@@ -151,14 +151,8 @@ def test_secim_page(secilen_ders, secilen_konu):
         test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
 
         if st.button(test_adi, key=f"testbtn_{i}"):
-            if secilen_ders not in sonuclar:
-                sonuclar[secilen_ders] = {}
-            if secilen_konu not in sonuclar[secilen_ders]:
-                sonuclar[secilen_ders][secilen_konu] = {"dogru": 0, "yanlis": 0}
-
-            secilen_test = tum_sorular[baslangic:bitis]
             st.session_state["current_test"] = {
-                "test": secilen_test,
+                "test": tum_sorular[baslangic:bitis],
                 "index": 0,
                 "ders": secilen_ders,
                 "konu": secilen_konu,
@@ -208,6 +202,9 @@ def soru_goster_page():
             if test_no == test_sayisi and st.button("Genel Raporu Gör"):
                 st.session_state["page"] = "rapor"
                 st.rerun()
+        if st.button("Geri"):
+            st.session_state["page"] = "test"
+            st.rerun()
         return
 
     soru = secilen_test[index]
@@ -238,8 +235,6 @@ def genel_rapor_page():
     st.header("Genel Rapor")
     if not sonuclar:
         st.info("Henüz herhangi bir test çözülmedi.")
-        return
-
     for ders, konular in sonuclar.items():
         st.subheader(ders)
         for konu, sonuc in konular.items():
@@ -266,7 +261,4 @@ elif st.session_state["page"] == "konu":
     konu_secim_page(st.session_state["ders"])
 elif st.session_state["page"] == "test":
     test_secim_page(st.session_state["ders"], st.session_state["konu"])
-elif st.session_state["page"] == "soru":
-    soru_goster_page()
-elif st.session_state["page"] == "rapor":
-    genel_rapor_page()
+elif st.session_state["page"] ==
