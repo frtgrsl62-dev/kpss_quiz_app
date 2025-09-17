@@ -171,101 +171,94 @@ def test_secim_page(secilen_ders, secilen_konu):
 # ===============================
 # Soru Gösterim Sayfası
 # ===============================
-import streamlit as st
-import json
-import random
-from soru_bankasi import soru_bankasi
+def soru_goster_page():
+    current = st.session_state["current_test"]
+    secilen_test = current["test"]
+    index = current["index"]
+    secilen_ders = current["ders"]
+    secilen_konu = current["konu"]
+    test_no = current["test_no"]
+    test_sayisi = current["test_sayisi"]
 
-# Kullanıcıları yükle
-def load_users():
-    try:
-        with open("kullanicilar.json", "r", encoding="utf-8") as f:
-            return json.load(f)
-    except:
-        return {}
+    # Test bitti mi?
+    if index >= len(secilen_test):
+        st.success("Test tamamlandı!")
+        dogru = sonuclar[secilen_ders][secilen_konu]["dogru"]
+        yanlis = sonuclar[secilen_ders][secilen_konu]["yanlis"]
+        st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
-def save_users(users):
-    with open("kullanicilar.json", "w", encoding="utf-8") as f:
-        json.dump(users, f, ensure_ascii=False, indent=4)
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("⬅️ Geri", type="secondary", key="geri_test_bitti"):
+                st.session_state["page"] = "test"
+                st.rerun()
+        with col2:
+            if test_no < test_sayisi and st.button("Sonraki Test ➡️"):
+                st.session_state["page"] = "test"
+                st.rerun()
+            elif test_no == test_sayisi and st.button("🏠 Ana Menü"):
+                st.session_state["page"] = "ders"
+                st.rerun()
+        return
 
-# Kullanıcı oturumu
-if "page" not in st.session_state:
-    st.session_state.page = "menu"
-if "ders" not in st.session_state:
-    st.session_state.ders = None
-if "konu" not in st.session_state:
-    st.session_state.konu = None
-if "soru_index" not in st.session_state:
-    st.session_state.soru_index = 0
-if "sorular" not in st.session_state:
-    st.session_state.sorular = []
-if "cevaplar" not in st.session_state:
-    st.session_state.cevaplar = []
+    # Şimdiki soru
+    soru = secilen_test[index]
+    st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-# Ana menü
-if st.session_state.page == "menu":
-    st.title("KPSS Quiz Uygulaması")
-    dersler = list(soru_bankasi.keys())
-    secilen_ders = st.selectbox("Ders Seçiniz", dersler)
+    # Seçenekleri "A) Metin" formatında göster
+    secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
+    secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}")
 
-    if secilen_ders:
-        konular = list(soru_bankasi[secilen_ders].keys())
-        secilen_konu = st.selectbox("Konu Seçiniz", konular)
-
-        if st.button("Teste Başla"):
-            st.session_state.ders = secilen_ders
-            st.session_state.konu = secilen_konu
-            st.session_state.sorular = soru_bankasi[secilen_ders][secilen_konu]
-            st.session_state.soru_index = 0
-            st.session_state.cevaplar = [None] * len(st.session_state.sorular)
-            st.session_state.page = "quiz"
+    # Daha önce cevaplanmış mı kontrol et
+    cevap_key = f"cevap_{index}"
+    if cevap_key in st.session_state:
+        # Cevap verildiyse sonucu göster
+        secilen_harf = st.session_state[cevap_key]
+        if secilen_harf == soru["dogru_cevap"]:
+            st.success("✅ Doğru!")
+        else:
+            st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
+        st.info(f"**Çözüm:** {soru['cozum']}")
+    else:
+        # Cevaplanmamışsa cevapla butonu göster
+        if st.button("Cevapla", key=f"cevapla_{index}"):
+            secilen_harf = secim.split(")")[0]
+            st.session_state[cevap_key] = secilen_harf
+            # Sonuçları kaydet
+            sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
+            if secilen_harf == soru["dogru_cevap"]:
+                sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
+            else:
+                sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
             st.rerun()
 
-# Quiz ekranı
-elif st.session_state.page == "quiz":
-    sorular = st.session_state.sorular
-    soru_index = st.session_state.soru_index
-    soru = sorular[soru_index]
-
-    st.subheader(f"Soru {soru_index+1}/{len(sorular)}")
-    st.write(soru["soru"])
-
-    secenekler = soru["secenekler"]
-    cevap = st.radio("Şıklar", secenekler, index=None, key=f"cevap_{soru_index}")
-
-    if st.button("Cevabı Göster"):
-        dogru = soru["cevap"]
-        st.success(f"Doğru Cevap: {dogru}")
-        if "cozum" in soru:
-            st.info(f"Çözüm: {soru['cozum']}")
-
-    # Butonlar için iki kolon
+    # --- Navigasyon Butonları ---
     col1, col2 = st.columns([1, 1])
-
     with col1:
-        if st.button("⬅️ Geri", type="secondary", key=f"geri_{soru_index}"):
-            if st.session_state.soru_index > 0:
-                st.session_state.soru_index -= 1
-                st.rerun()
+        if st.button("⬅️ Geri", type="secondary", key=f"geri_{index}"):
+            if current["index"] > 0:
+                current["index"] -= 1
             else:
-                st.session_state.page = "menu"
-                st.rerun()
+                st.session_state["page"] = "test"
+            st.rerun()
 
     with col2:
-        if soru_index < len(sorular) - 1:
-            if st.button("Sonraki Soru ➡️", key=f"sonraki_{soru_index}"):
-                st.session_state.soru_index += 1
-                st.rerun()
+        if index < len(secilen_test) - 1:
+            if st.button("Sonraki Soru ➡️", key=f"sonraki_{index}"):
+                if cevap_key in st.session_state:
+                    current["index"] += 1
+                    st.rerun()
+                else:
+                    st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
         else:
-            # Test bitti
-            if st.button("Sonraki Test ➡️", key="next_test"):
-                # Konu içinde başka test mantığı buraya eklenebilir
-                st.session_state.page = "menu"
+            # Son soru
+            if test_no < test_sayisi and st.button("Sonraki Test ➡️", key="next_test"):
+                st.session_state["page"] = "test"
+                st.rerun()
+            elif test_no == test_sayisi and st.button("🏠 Ana Menü", key="main_menu"):
+                st.session_state["page"] = "ders"
                 st.rerun()
 
-            if st.button("🏠 Ana Menü", key="main_menu"):
-                st.session_state.page = "menu"
-                st.rerun()
 
 
 
@@ -307,6 +300,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
