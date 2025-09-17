@@ -70,16 +70,6 @@ soru_bankasi = {
             "dogru_cevap": "E",
             "cozum": "Bu soru tipi, her devlet hakkında birer kilit bilgi vererek genel tekrar yapmanı sağlar. Bir yanlış, dört doğru bilgi içerir.\n\nAnaliz: Seçenekleri tek tek kontrol edelim.\nA) Doğru. Mete Han onlu sistemi kurmuştu.\nB) Doğru. \"Türk\" adını kullanan ilk devlettir.\nC) Doğru. Hazarların en ayırt edici özelliğidir.\nD) Doğru. Uygurlar yerleşik hayatla birlikte matbaayı da kullanmıştır.\nE) Yanlış. İstanbul'u kuşatan ilk Türk devleti Avarlardır. Kırgızlar ise Manas Destanı ve Cengiz Han'a itaat eden ilk Türk devleti olmalarıyla bilinir.\n\nDoğru Cevap: E) Kırgızlar, İstanbul'u kuşatan ilk Türk devletidir.\n\nKoçunun Yorumu: ÖSYM, \"ilk\"leri sormayı sever. İstanbul'u kuşatan ilk Türk devleti (Avarlar), yerleşik hayata geçen ilk Türk devleti (Uygurlar), Türk adını kullanan ilk devlet (Göktürkler) gibi bilgileri ayrı bir yere not etmelisin. Bu soru, o notların ne kadar önemli olduğunu gösteriyor."
         },
-          {
-    "soru": "İslamiyet öncesi Türk toplumlarında görülen 'töre', sosyal hayatı düzenleyen kurallar bütünüydü. Yazılı olmamasına rağmen herkes için bağlayıcı olan bu kuralların oluşumunda aşağıdakilerden hangisinin etkili olduğu söylenemez?",
-    "A": "Hükümdarların koyduğu kurallar",
-    "B": "Kurultayda alınan kararlar",
-    "C": "Toplum içinde oluşan gelenekler",
-    "D": "Komşu medeniyetlerle yapılan antlaşmalar",
-    "E": "Gök Tanrı inancına dayalı kutsal inanışlar",
-    "dogru_cevap": "D",
-    "cozum": "Töre, toplumsal hayatı düzenleyen yazısız hukuk kurallarıdır. Kaynakları kağan emirleri, kurultay kararları, gelenekler ve dini inanışlardır. Komşu devletlerle yapılan antlaşmalar ise töreyi oluşturmaz."
-  },
   {
     "soru": "Avrupa'ya göç ederek burada devlet kuran Türk toplulukları, zamanla milli benliklerini kaybetmişlerdir. Bu duruma rağmen Balkanlar'da varlığını uzun süre devam ettiren ve özellikle Slavları devlet yönetimi ve askeri teşkilatlanma alanlarında etkileyen Türk devleti aşağıdakilerden hangisidir?",
     "A": "Avrupa Hunları",
@@ -4333,4 +4323,5 @@ soru_bankasi = {
         "1. Güncel Bilgiler": [],
         "2. Sanat ve Edebiyat": []
     }
+
 }
