@@ -122,7 +122,7 @@ def konu_secim_page(ders):
     for konu in soru_bankasi[ders].keys():
         st.write(f"- {konu}")
         if st.button(f"Giriş: {konu}", key=f"konu_{konu}"):
-            st.session_state["konu"] = konu
+           # st.session_state["konu"] = konu
             st.session_state["page"] = "test"
             st.rerun()
     if st.button("Geri"):
@@ -258,6 +258,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
