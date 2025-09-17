@@ -121,7 +121,7 @@ def konu_secim_page(ders):
     st.header(f"{ders} - Konu Seçimi")
     konular = list(soru_bankasi[ders].keys())
     for konu in konular:
-        if st.button(f"{konu}", key=f"konu_{konu}"):
+        if st.button(f"→ {konu}", key=f"konu_{konu}"):
             st.session_state["konu"] = konu
             st.session_state["page"] = "test"
             st.rerun()
@@ -259,6 +259,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
