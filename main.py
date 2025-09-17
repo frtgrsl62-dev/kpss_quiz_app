@@ -180,6 +180,7 @@ def soru_goster_page():
     test_no = current["test_no"]
     test_sayisi = current["test_sayisi"]
 
+    # Test bitti mi?
     if index >= len(secilen_test):
         st.success("Test tamamlandı!")
         dogru = sonuclar[secilen_ders][secilen_konu]["dogru"]
@@ -201,27 +202,33 @@ def soru_goster_page():
                 st.rerun()
         return
 
+    # Şimdiki soru
     soru = secilen_test[index]
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-    # Seçim yapılmamışsa
+    # Seçenekleri "A) Metin" formatında göster
+    secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
+    secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}")
+
+    # Daha önce cevaplanmış mı kontrol et
     if f"cevap_{index}" not in st.session_state:
-        secim = st.radio("Cevap Seçin:", list(soru["secenekler"].keys()), key=f"soru_radio_{index}")
         if st.button("Cevapla", key=f"cevapla_{index}"):
-            st.session_state[f"cevap_{index}"] = secim
-            if secim == soru["dogru_cevap"]:
-                sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
+            secilen_harf = secim.split(")")[0]  # sadece A/B/C/D/E al
+            st.session_state[f"cevap_{index}"] = secilen_harf
+            # Sonuçları kaydet
+            sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
+            if secilen_harf == soru["dogru_cevap"]:
                 sonuclar[secilen_ders][secilen_konu]["dogru"] += 1
             else:
-                sonuclar.setdefault(secilen_ders, {}).setdefault(secilen_konu, {"dogru": 0, "yanlis": 0})
                 sonuclar[secilen_ders][secilen_konu]["yanlis"] += 1
             st.rerun()
     else:
-        secim = st.session_state[f"cevap_{index}"]
-        if secim == soru["dogru_cevap"]:
+        # Cevap verildiyse sonucu göster
+        secilen_harf = st.session_state[f"cevap_{index}"]
+        if secilen_harf == soru["dogru_cevap"]:
             st.success("✅ Doğru!")
         else:
-            st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}")
+            st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
 
         col1, col2 = st.columns(2)
@@ -273,6 +280,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
