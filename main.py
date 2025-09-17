@@ -119,15 +119,16 @@ def ders_secim_page():
 # ===============================
 def konu_secim_page(ders):
     st.header(f"{ders} - Konu Seçimi")
-    for konu in soru_bankasi[ders].keys():
-        st.write(f"- {konu}")
-        if st.button(f"Giriş: {konu}", key=f"konu_{konu}"):
+    konular = list(soru_bankasi[ders].keys())
+    for konu in konular:
+        if st.button(konu, key=f"konu_{konu}"):
             st.session_state["konu"] = konu
-         #   st.session_state["page"] = "test"
+            st.session_state["page"] = "test"
             st.rerun()
     if st.button("Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
+
 
 
 # ===============================
@@ -258,6 +259,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
