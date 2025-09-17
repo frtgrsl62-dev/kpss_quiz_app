@@ -182,27 +182,6 @@ def soru_goster_page():
     test_no = current["test_no"]
     test_sayisi = current["test_sayisi"]
 
-    # Test bitti mi?
-    if index >= len(secilen_test):
-        st.success("Test tamamlandı!")
-        dogru = sonuclar[secilen_ders][secilen_konu]["dogru"]
-        yanlis = sonuclar[secilen_ders][secilen_konu]["yanlis"]
-        st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
-
-        col1, col2 = st.columns([1, 1])
-        with col1:
-            if st.button("🔙 Geri", type="secondary", key="geri_test_bitti"):
-                st.session_state["page"] = "test"
-                st.rerun()
-        with col2:
-            if test_no < test_sayisi and st.button("Sonraki Test ➡️"):
-                st.session_state["page"] = "test"
-                st.rerun()
-            elif test_no == test_sayisi and st.button("🏠 Ana Menü"):
-                st.session_state["page"] = "ders"
-                st.rerun()
-        return
-
     # Şimdiki soru
     soru = secilen_test[index]
     st.markdown(f"**{secilen_ders} - {secilen_konu}**")
@@ -214,10 +193,10 @@ def soru_goster_page():
     # Hiçbir seçenek varsayılan seçili olmasın
     secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}", index=None)
 
-    # Daha önce cevaplanmış mı kontrol et
     cevap_key = f"cevap_{index}"
+
+    # --- Cevapla Butonu ---
     if cevap_key in st.session_state:
-        # Cevap verildiyse sonucu göster
         secilen_harf = st.session_state[cevap_key]
         if secilen_harf == soru["dogru_cevap"]:
             st.success("✅ Doğru!")
@@ -225,7 +204,6 @@ def soru_goster_page():
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
     else:
-        # Cevaplanmamışsa cevapla butonu göster
         if st.button("Cevapla", key=f"cevapla_{index}"):
             if not secim:
                 st.warning("⚠️ Lütfen bir seçenek seçin!")
@@ -248,6 +226,7 @@ def soru_goster_page():
             st.rerun()
 
     with col2:
+        # Son soru kontrolü
         if index < len(secilen_test) - 1:
             if st.button("Sonraki Soru ➡️", key=f"sonraki_{index}"):
                 if cevap_key in st.session_state:
@@ -256,13 +235,22 @@ def soru_goster_page():
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
         else:
-            # Son soru
-            if test_no < test_sayisi and st.button("Sonraki Test ➡️", key="next_test"):
-                st.session_state["page"] = "test"
-                st.rerun()
+            # Testin son sorusu
+            if st.button("Sonraki Test ➡️", key="next_test"):
+                # Testi tamamlamadan geçişi engelle
+                if all(f"cevap_{i}" in st.session_state for i in range(len(secilen_test))):
+                    st.session_state["page"] = "test"
+                    st.rerun()
+                else:
+                    st.warning("⚠️ Lütfen tüm soruları cevaplayın!")
             elif test_no == test_sayisi and st.button("🏠 Ana Menü", key="main_menu"):
-                st.session_state["page"] = "ders"
-                st.rerun()
+                # Son test tamamlandıysa ana menüye izin ver
+                if all(f"cevap_{i}" in st.session_state for i in range(len(secilen_test))):
+                    st.session_state["page"] = "ders"
+                    st.rerun()
+                else:
+                    st.warning("⚠️ Lütfen tüm soruları cevaplayın!")
+
 
 
 
@@ -307,6 +295,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
