@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-import math
 from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
 
 # ===============================
@@ -29,17 +28,17 @@ def login_page():
         if k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre:
             st.session_state["user"] = k_adi
             st.session_state["page"] = "ders_secim"
-            st.experimental_rerun()
+            st.rerun()
         elif k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre:
             st.session_state["user"] = k_adi
             st.session_state["page"] = "ders_secim"
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("❌ Hatalı kullanıcı adı veya şifre!")
 
     if kayit_btn:
         st.session_state["page"] = "kayit"
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ===============================
@@ -70,11 +69,11 @@ def kayit_page():
         st.success(f"✅ {isim} başarıyla kaydedildi!")
         time.sleep(1)
         st.session_state["page"] = "login"
-        st.experimental_rerun()
+        st.rerun()
 
     if geri_btn:
         st.session_state["page"] = "login"
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ===============================
@@ -86,16 +85,16 @@ def ders_secim_page():
         if st.button(ders, key=f"ders_{ders}"):
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu_secim"
-            st.experimental_rerun()
+            st.rerun()
     
     if st.button("Genel Raporu Gör", key="rapor"):
         st.session_state["page"] = "rapor"
-        st.experimental_rerun()
+        st.rerun()
     
     if st.button("Çıkış Yap", key="cikis"):
         st.session_state.clear()
         st.session_state["page"] = "login"
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ===============================
@@ -108,11 +107,11 @@ def konu_secim_page():
         if st.button(konu, key=f"konu_{konu}"):
             st.session_state["konu"] = konu
             st.session_state["page"] = "test"
-            st.experimental_rerun()
+            st.rerun()
     
     if st.button("Geri", key="geri_ders"):
         st.session_state["page"] = "ders_secim"
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ===============================
@@ -139,7 +138,7 @@ def test_secim_page():
 
     if st.button("Geri", key="geri_konu"):
         st.session_state["page"] = "konu_secim"
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ===============================
@@ -154,7 +153,7 @@ def genel_rapor_page():
     
     if st.button("Ana Menü", key="ana_menu"):
         st.session_state["page"] = "ders_secim"
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ===============================
