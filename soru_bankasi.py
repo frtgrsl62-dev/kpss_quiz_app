@@ -21,7 +21,7 @@ soru_bankasi = {
  },
 
     "Tarih": {
-    "1_ İslamiyet Öncesi Türk Tarihi": [
+    "1) İslamiyet Öncesi Türk Tarihi": [
         {
             "soru": "İslamiyetten önceki Türk devletlerinde, hatunun kurultay toplantılarına katılması, kağanla birlikte elçileri kabul etmesi ve kendine ait buyruklarının bulunması aşağıdakilerden hangisinin bir göstergesidir?",
             "secenekler": {
@@ -102,7 +102,7 @@ soru_bankasi = {
   }
     ],
 
-    "2. İlk Türk-İslam Devletleri ve Beylikleri": [
+    "2) İlk Türk-İslam Devletleri ve Beylikleri": [
   {
     "soru": "Büyük Selçuklu Devleti'nde hükümdarın başkanlık ettiği, üst düzey devlet görevlileri hakkındaki şikayetlerin ve idari-adli uyuşmazlıkların karara bağlandığı yüksek mahkeme aşağıdakilerden hangisidir?",
     "A": "Divan-ı İstifa",
@@ -224,7 +224,7 @@ soru_bankasi = {
     "cozum": "İlk beylikler hem askeri hem kültürel hem de imar faaliyetleriyle Anadolu’nun Türkleşmesine ve İslamlaşmasına hizmet etmişlerdir."
   }
     ],
-    "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [
+    "3) Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [
       {
     "soru": "Türkiye Selçuklu Devleti'nin, Anadolu'daki ticaret yolları üzerinde belirli aralıklarla kervansaraylar inşa etmesinin temel amacı aşağıdakilerden hangisidir?",
     "A": "Tarımsal üretimi artırmak",
@@ -557,7 +557,7 @@ soru_bankasi = {
             "cozum": "Bu, Haçlı Seferleri dönemindeki önemli hükümdarı ve onun icraatlarını sormaktadır.\n\nAnaliz: I. Kılıç Arslan, I. Haçlı Seferi sırasında başkent İznik'i kaybetmiş ve devleti toparlamak için başkenti Konya'ya taşımıştır.\nDoğru Cevap: A) I. Kılıç Arslan\nKoçunun Yorumu: Haçlı Seferleri'nin Türk tarihine etkileri ve bu süreçte görev alan hükümdarlar önemli bir konudur. Bu tür sorularla sıkça karşılaşabilirsin."
         }
     ],
-    "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [
+    "4) Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [
   {
     "soru": "Aşağıdakilerden hangisi, Fatih Sultan Mehmet'in 1453'te İstanbul'u fethetmesinin sonuçlarından biri olarak gösterilemez?",
     "A": "Osmanlı Devleti'nin toprak bütünlüğünün sağlanması",
@@ -1272,7 +1272,7 @@ soru_bankasi = {
         }
     ],
 
-    "5. Osmanlı Devleti Kültür ve Medeniyeti": [
+    "5) Osmanlı Devleti Kültür ve Medeniyeti": [
   {
     "soru": "Osmanlı Devleti'nde Divan-ı Hümayun üyesi olan ve temel görevi adalet işlerini yürütmenin yanı sıra kadı ve müderrislerin atamasını yapmak olan görevli aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -1586,7 +1586,7 @@ soru_bankasi = {
             "cozum": "Bu soru, Osmanlı külliye mimarisinin ana bileşenini sorgulamaktadır.\n\nAnaliz: Külliye, bir caminin etrafında toplanmış, birden çok işlevi olan yapıların (medrese, darüşşifa, kütüphane vb.) oluşturduğu komplekstir. Bu yapıların merkezinde her zaman Cami yer alır.\nDoğru Cevap: C) Cami\nKoçunun Yorumu: Külliye yapısı, Osmanlı'nın çok fonksiyonlu ve bütüncül şehir planlamasının bir örneğidir."
         }
     ],
-    "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [
+    "6) 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [
   {
     "soru": "Osmanlı Devleti'nde 18. yüzyılda yapılan ıslahatların, 17. yüzyıldakilerden temel farkı aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -2333,7 +2333,7 @@ soru_bankasi = {
     "cozum": "Analiz: Tarhuncu Ahmet Paşa ilk kez devlet bütçesi hazırlamıştır.\nDoğru Cevap: C) Devletin gelir ve giderlerini hesaplayarak ilk modern bütçeyi hazırlamak\nKoçunun Yorumu: Tarhuncu’nun odak noktası maliye idi."
   }
     ],
-    "7. 19. yy (Dağılma) ve Islahatlar": [
+    "7) 19. yy (Dağılma) ve Islahatlar": [
       # 1
     {
         "soru": "Osmanlı Devleti'nde padişahın yetkilerini kanun gücüyle ilk kez sınırlayan ve anayasal düzene geçişin ilk adımı olarak kabul edilen belge aşağıdakilerden hangisidir?",
@@ -2638,7 +2638,7 @@ soru_bankasi = {
       #########
 
     ],
-    "8. Trablusgarp ve Balkan Savaşları": [
+    "8) Trablusgarp ve Balkan Savaşları": [
      {
       "soru_no": 1,
       "soru": "Osmanlı Devleti'nin, Trablusgarp Savaşı'nda İtalya'ya karşı karadan ve denizden etkili bir savunma yapamamasının temel nedeni aşağıdakilerden hangisidir?",
@@ -3084,7 +3084,7 @@ soru_bankasi = {
         "cozum": "Analiz: 1913 Babıali Baskını ile İttihat ve Terakki iktidarı ele geçirmiş ve Balkan Savaşları sonrası Osmanlı iç politikasına damga vurmuştur.\nDoğru Cevap: A) Babıali Baskını\nKoçunun Yorumu: Bu soru, askeri yenilgilerin siyasi sonuçlarını ölçer."
     }
     ],
-    "9. I. Dünya Savaşı ve Sonuçları": [
+    "9) I. Dünya Savaşı ve Sonuçları": [
     {
         "soru": "Osmanlı Devleti'nin, I. Dünya Savaşı'nın başında tarafsızlığını ilan etmesine rağmen kısa bir süre sonra İttifak Devletleri yanında savaşa girmesinde aşağıdakilerden hangisi etkili olmamıştır?",
         "secenekler": {
@@ -3913,7 +3913,7 @@ soru_bankasi = {
     "cozum": "Saltanatın kaldırılması Türkiye Cumhuriyeti döneminde gerçekleşmiştir, savaşın doğrudan bir sonucu değildir."
   }
      ],
-    "10. Milli Mücadele'nin Hazırlık Dönemi": [
+    "10) Milli Mücadele'nin Hazırlık Dönemi": [
   {
     "soru": "Mustafa Kemal'in 9. Ordu Müfettişi olarak Samsun'a gönderilmesindeki resmi görevi \"bölgedeki asayişi sağlamak ve Türklerin elindeki silahları toplamak\" iken, kendisinin asıl amacı Milli Mücadele'yi başlatmaktı. Bu durum, aşağıdakilerden hangisini en iyi şekilde açıklar?",
     "A": "Padişah Vahdettin'in Milli Mücadele'yi gizlice desteklediğini",
@@ -4144,7 +4144,6 @@ soru_bankasi = {
     "dogru_cevap": "B",
     "cozum": "Temsil Heyeti, Sivas Kongresi'nden sonra bir hükümet gibi hareket etmeye başlamıştır. Bir komutan ataması yapması, \"yürütme\" gücünü kullandığının en net kanıtıdır."
   },
-
     {
     "soru": "Mustafa Kemal'in 19 Mayıs 1919'da Samsun'a çıkış amacı aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -4290,48 +4289,48 @@ soru_bankasi = {
     "cozum": "Amasya Genelgesi, ilk kez ulusal irade ve egemenlik kavramını vurgulamıştır, Misak-ı Milli ve TBMM ise sonrasındaki gelişmelerdir."
  
   }
-
     ],
-    "11. Kurtuluş Savaşı Muharebeler Dönemi": [],
-    "12. Atatürk Dönemi İç ve Dış Politika": [],
-    "13. Çağdaş Türk ve Dünya Tarihi": []
-
+    "11) Kurtuluş Savaşı Muharebeler Dönemi": [],
+    "12) Atatürk Dönemi İç ve Dış Politika": [],
+    "13) Çağdaş Türk ve Dünya Tarihi": []
 },
+    
 "Coğrafya": {
-    "1. Türkiye'nin Coğrafi Konumu": [],
-    "2. İklim": [],
-    "3. Türkiye'nin Yer Şekilleri": [],
-    "3.1. Dağlar": [],
-    "3.2. Akarsular": [],
-    "3.3. Platolar": [],
-    "3.4. Ovalar": [],
-    "3.5. Göller": [],
-    "3.6. Doğal Afetler": [],
-    "3.7. Dış Kuvvetler": [],
-    "4. Türkiye'de Nüfus": [],
-    "5. Türkiye'de Tarım": [],
-    "6. Türkiye'de Hayvancılık": [],
-    "7. Madenler": [],
-    "8. Sanayi": [],
-    "9. Ulaşım - Ticaret - Turizm": [],
-    "10. Projeler": []
+    "1) Türkiye'nin Coğrafi Konumu": [],
+    "2) İklim": [],
+    "3) Türkiye'nin Yer Şekilleri": [],
+    "3.1) Dağlar": [],
+    "3.2) Akarsular": [],
+    "3.3) Platolar": [],
+    "3.4) Ovalar": [],
+    "3.5) Göller": [],
+    "3.6) Doğal Afetler": [],
+    "3.7) Dış Kuvvetler": [],
+    "4) Türkiye'de Nüfus": [],
+    "5) Türkiye'de Tarım": [],
+    "6) Türkiye'de Hayvancılık": [],
+    "7) Madenler": [],
+    "8) Sanayi": [],
+    "9) Ulaşım - Ticaret - Turizm": [],
+    "10) Projeler": []
 },
 
 "Vatandaşlık": {
-    "1. Hukukun Temel Kavramları": [],
-    "2. Anayasa Hukukuna Giriş": [],
-    "3. 1982 Anayasası'nın Genel Esasları": [],
-    "4. Temel Hak ve Ödevler": [],
-    "5. 1982 Anayasası'nda Yasama": [],
-    "6. 1982 Anayasası'nda Yürütme": [],
-    "7. 1982 Anayasası'nda Yargı": [],
-    "8. İdare Hukuku": [],
-    "9. Ulusal ve Uluslararası Kuruluşlar": []
+    "1) Hukukun Temel Kavramları": [],
+    "2) Anayasa Hukukuna Giriş": [],
+    "3) 1982 Anayasası'nın Genel Esasları": [],
+    "4) Temel Hak ve Ödevler": [],
+    "5) 1982 Anayasası'nda Yasama": [],
+    "6) 1982 Anayasası'nda Yürütme": [],
+    "7) 1982 Anayasası'nda Yargı": [],
+    "8) İdare Hukuku": [],
+    "9) Ulusal ve Uluslararası Kuruluşlar": []
     },
 
     "Genel Kültür": {
-        "1. Güncel Bilgiler": [],
-        "2. Sanat ve Edebiyat": []
+        "1) Güncel Bilgiler": [],
+        "2) Sanat ve Edebiyat": []
     }
 }
+
 
