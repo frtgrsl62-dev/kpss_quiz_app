@@ -492,6 +492,246 @@ soru_bankasi = {
     },
     "dogru_cevap": "E",
     "cozum": "İlk beylikler hem askeri hem kültürel hem de imar faaliyetleriyle Anadolu’nun Türkleşmesine ve İslamlaşmasına hizmet etmişlerdir."
+  },
+      {
+    "soru": "Mısır'da kurulan ilk Türk-İslam devleti olan Tolunoğulları, sosyal devlet anlayışının bir gereği olarak halka ücretsiz sağlık hizmeti veren ve 'Maristan' adı verilen yapılar inşa etmişlerdir. Bu bilgi, Tolunoğulları'nın hangi alanda gelişme gösterdiğinin kanıtıdır?",
+    "secenekler": {
+      "A": "Askeri teşkilatlanma",
+      "B": "Denizcilik",
+      "C": "Sağlık ve sosyal hizmetler",
+      "D": "Hukuk sistemi",
+      "E": "Tarımsal üretim"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Maristan, hastane anlamına gelir. Tolunoğulları'nın Maristanlar kurması, onların sağlık ve sosyal hizmetler alanında önemli çalışmalar yaptığını gösterir."
+  },
+  {
+    "soru": "Büyük Selçuklu Devleti'nin ünlü veziri Nizamülmülk tarafından yazılan 'Siyasetname' adlı eserin temel amacı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Türk dilinin üstünlüğünü kanıtlamak",
+      "B": "Hükümdara devlet yönetimi konusunda öğütler vermek",
+      "C": "İslam dininin esaslarını anlatmak",
+      "D": "Bilimsel gelişmeler hakkında bilgi vermek",
+      "E": "Fethedilen toprakları kayıt altına almak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Siyasetname, ideal bir devlet yönetiminin nasıl olması gerektiğini anlatan, hükümdara ve devlet adamlarına öğütler veren bir eserdir."
+  },
+  {
+    "soru": "I. Kılıç Arslan döneminde başkenti İznik'ten Konya'ya taşıyan ve Bizans'ı yenilgiye uğratarak Anadolu'nun kesin olarak Türk yurdu haline gelmesini sağlayan Miryokefalon Savaşı'nı yapan Türk-İslam devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Büyük Selçuklu Devleti",
+      "B": "Karahanlılar",
+      "C": "Anadolu Selçuklu Devleti",
+      "D": "Danişmentliler",
+      "E": "Harzemşahlar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Başkentin İznik'ten Konya'ya taşınması ve Miryokefalon (Yurt Tutan) Savaşı, Anadolu Selçuklu Devleti'nin en önemli siyasi olaylarındandır."
+  },
+  {
+    "soru": "Büyük Selçuklu Devleti'nde, melik adı verilen hükümdar çocuklarını eğitmekle görevli tecrübeli devlet adamlarına 'Atabey' denirdi. Zamanla Atabeyler, görev yaptıkları bölgelerde güçlenmişlerdir. Aşağıdakilerden hangisi bu durumun ortaya çıkardığı olumsuz sonuçlardan biridir?",
+    "secenekler": {
+      "A": "Meliklerin iyi bir eğitim alması",
+      "B": "Eyaletlerin daha iyi yönetilmesi",
+      "C": "Devletin yeni topraklar kazanması",
+      "D": "Merkezi otoritenin zayıflaması ve yeni devletçiklerin ortaya çıkması",
+      "E": "Ordunun güçlenmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Atabeylerin görevli oldukları bölgelerde güçlenerek bağımsızlıklarını ilan etmeleri, merkezi otoriteyi zayıflatmış ve Atabeylik adı verilen yeni devletçiklerin kurulmasına yol açmıştır."
+  },
+  {
+    "soru": "Anadolu Selçuklu Devleti'nin zayıflaması ve Moğol hakimiyetine girmesine neden olan, 1243 yılında Moğollarla yapılan savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Miryokefalon Savaşı",
+      "B": "Yassıçemen Savaşı",
+      "C": "Kösedağ Savaşı",
+      "D": "Pasinler Savaşı",
+      "E": "Katvan Savaşı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "1243 Kösedağ Savaşı, Anadolu Selçuklu Devleti'nin Moğollara yenilerek yıkılış sürecine girdiği savaştır."
+  },
+  {
+    "soru": "Anadolu'da kurulan ilk medrese olarak kabul edilen Yağıbasan Medresesi aşağıdaki Türk beyliklerinden hangisine aittir?",
+    "secenekler": {
+      "A": "Saltuklular",
+      "B": "Artuklular",
+      "C": "Mengücekliler",
+      "D": "Danişmentliler",
+      "E": "Çaka Beyliği"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Anadolu'daki ilk medrese olan Yağıbasan Medresesi, Danişmentliler tarafından Tokat-Niksar'da inşa edilmiştir."
+  },
+  {
+    "soru": "İlk Türk denizcisi olarak kabul edilen ve İzmir merkezli bir beylik kurarak donanmasıyla Bizans'a karşı mücadele eden bey aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Artuk Bey",
+      "B": "Saltuk Bey",
+      "C": "Danişment Gazi",
+      "D": "Mengücek Gazi",
+      "E": "Çaka Bey"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Çaka Bey, İzmir'de kurduğu beylik ve oluşturduğu donanma ile ilk Türk denizcisi olarak tarihe geçmiştir."
+  },
+  {
+    "soru": "Türk-İslam devletlerinde sosyal, dini ve ekonomik hayatta önemli bir rol oynayan vakıf sisteminin; \nI. Cami, medrese, hastane gibi kurumların masraflarını karşılamak\nII. Şehirlerin imarına katkıda bulunmak\nIII. Sosyal yardımlaşma ve dayanışmayı güçlendirmek\nişlevlerinden hangilerine sahip olduğu söylenebilir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Vakıflar; eğitim, sağlık, imar, sosyal yardım gibi birçok alanda faaliyet göstererek devletin yükünü hafifleten çok yönlü kurumlardır."
+  },
+  {
+    "soru": "'Sultan' unvanını ilk kez kullanan ve Hindistan'a düzenlediği 17 sefer ile İslamiyet'in bu bölgede yayılmasını sağlayan ünlü Türk hükümdarı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Tuğrul Bey",
+      "B": "Alparslan",
+      "C": "Gazneli Mahmut",
+      "D": "Satuk Buğra Han",
+      "E": "Melikşah"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Tarihte 'Sultan' unvanını ilk kez kullanan hükümdar Gazneli Mahmut'tur. Hindistan seferleriyle de tanınır."
+  },
+  {
+    "soru": "Büyük Selçuklu Devleti'nin Karahitaylar'a yenilerek yıkılış sürecine girmesine neden olan savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Dandanakan Savaşı",
+      "B": "Katvan Savaşı",
+      "C": "Malazgirt Savaşı",
+      "D": "Pasinler Savaşı",
+      "E": "Kösedağ Savaşı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "1141 yılında yapılan Katvan Savaşı, Sultan Sencer'in Karahitaylar'a yenilmesiyle sonuçlanmış ve Büyük Selçuklu Devleti için bir dönüm noktası olmuştur."
+  },
+  {
+    "soru": "Hoca Ahmed Yesevi tarafından, İslamiyet'in tasavvufi yönünü sade bir Türkçe ile halka anlatmak amacıyla yazılan eser aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Kutadgu Bilig",
+      "B": "Divanü Lügati't-Türk",
+      "C": "Siyasetname",
+      "D": "Atabetü'l Hakayık",
+      "E": "Divan-ı Hikmet"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Divan-ı Hikmet, Hoca Ahmed Yesevi'nin tasavvufi düşüncelerini ve hikmetlerini içeren, Türk tasavvuf edebiyatının ilk büyük eseridir."
+  },
+  {
+    "soru": "UNESCO Dünya Mirası Listesi'nde yer alan, taş işçiliğinin eşsiz örneklerini barındıran Divriği Ulu Camii ve Darüşşifası, aşağıdaki Anadolu beyliklerinden hangisinin dönemine aittir?",
+    "secenekler": {
+      "A": "Artuklular",
+      "B": "Saltuklular",
+      "C": "Mengücekliler",
+      "D": "Danişmentliler",
+      "E": "Ahlatşahlar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Divriği Ulu Camii ve Darüşşifası, Mengücekliler tarafından yaptırılmış ve mimari bir şaheser olarak kabul edilmektedir."
+  },
+  {
+    "soru": "Anadolu Selçuklu Devleti'nde ticareti geliştirmek amacıyla yapılan; \nI. Kervansaraylar inşa edilmesi\nII. Düşük gümrük vergileri uygulanması\nIII. Tüccarların mallarının devlet sigortası kapsamına alınması\nfaaliyetlerinden hangileri devletin ekonomiye doğrudan müdahale ettiğini gösterir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Kervansaray yapımı, vergi politikası ve dünyada ilk sigortacılık uygulaması olarak kabul edilen sistem, devletin ticareti canlandırmak için aldığı bilinçli önlemlerdir."
+  },
+  {
+    "soru": "Türk-İslam devletlerinde devletin iç ve dış yazışmalarından sorumlu olan divan aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Divan-ı Arz",
+      "B": "Divan-ı İstifa",
+      "C": "Divan-ı İşraf",
+      "D": "Divan-ı İnşa (Tuğra)",
+      "E": "Divan-ı Mezalim"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Divan-ı İnşa veya Divan-ı Tuğra, devletin bütün resmi yazışmalarını yürüten kurumdur. Başkanına 'Tuğrai' veya 'Münşi' denirdi."
+  },
+  {
+    "soru": "Türk-İslam devletlerinde, özellikle Selçuklularda yaygın olarak görülen, hükümdar veya devlet adamlarının anıt mezarı olarak inşa edilen, genellikle konik veya piramidal bir çatıya sahip olan mimari yapıya ne ad verilir?",
+    "secenekler": {
+      "A": "Külliye",
+      "B": "Kümbet",
+      "C": "Ribat",
+      "D": "Bedesten",
+      "E": "Darüşşifa"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kümbet, İslamiyet öncesi Türk çadır geleneğinin mimariye yansıması olarak kabul edilen, anıt mezar yapılarıdır."
+  },
+  {
+    "soru": "Büyük Selçuklu Devleti'nde Hasan Sabbah liderliğinde yürütülen, suikastlarla devlet adamlarını hedef alarak devleti içeriden zayıflatmayı amaçlayan yıkıcı faaliyetler aşağıdaki akımlardan hangisi tarafından gerçekleştirilmiştir?",
+    "secenekler": {
+      "A": "Haricilik",
+      "B": "Mutezile",
+      "C": "Bâtınilik (Haşhaşilik)",
+      "D": "Yesevilik",
+      "E": "Mevlevilik"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bâtınilik hareketi, Hasan Sabbah'ın Alamut Kalesi'nde kurduğu örgüt aracılığıyla Selçuklu Devleti için büyük bir iç tehdit oluşturmuştur."
+  },
+  {
+    "soru": "Selçuklular ve Bizans arasında yapılan ilk büyük savaş olması ve Selçukluların Anadolu'ya yönelik akınlarının hızlanması açısından önem taşıyan savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Dandanakan Savaşı",
+      "B": "Malazgirt Savaşı",
+      "C": "Pasinler Savaşı",
+      "D": "Miryokefalon Savaşı",
+      "E": "Katvan Savaşı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "1048 Pasinler Savaşı, Büyük Selçuklular ile Bizans ve Gürcü ittifakı arasında yapılmış ilk önemli savaştır ve Selçuklu zaferiyle sonuçlanmıştır."
+  },
+  {
+    "soru": "Edib Ahmet Yükneki tarafından hakikatlerin eşiği anlamına gelen, ahlaki öğütler içeren didaktik eser aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Kutadgu Bilig",
+      "B": "Divanü Lügati't-Türk",
+      "C": "Divan-ı Hikmet",
+      "D": "Atabetü'l Hakayık",
+      "E": "Muhakemetü'l-Lugateyn"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Atabetü'l Hakayık, Edib Ahmet Yükneki tarafından yazılmış, ahlaklı olmanın yollarını, bilginin önemini anlatan öğüt verici bir eserdir."
+  },
+  {
+    "soru": "Aşağıdaki devletlerden hangisi, Cengiz Han'ın ortaya çıkardığı Moğol istilası sonucunda yıkılmıştır?",
+    "secenekler": {
+      "A": "Büyük Selçuklu Devleti",
+      "B": "Gazneliler",
+      "C": "Karahanlılar",
+      "D": "Harzemşahlar",
+      "E": "Tolunoğulları"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Harzemşahlar, 'Otrar Faciası' olarak bilinen olayın ardından başlayan Moğol istilası sonucunda Cengiz Han tarafından ortadan kaldırılmıştır."
+  },
+  {
+    "soru": "Türk-İslam devletlerinde devşirme kökenli olup küçük yaşta saraya alınarak özel olarak yetiştirilen ve hükümdarın muhafız birliğini oluşturan askerlere ne ad verilir?",
+    "secenekler": {
+      "A": "Sipahi",
+      "B": "Gulam",
+      "C": "Akıncı",
+      "D": "Yeniçeri",
+      "E": "İkta Askeri"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Gulam sistemi, savaş esirleri veya satın alınan kölelerin sarayda yetiştirilerek ordu ve devlet hizmetinde kullanılmasıdır. Bu askerlere Gulam denir."
   }
 ],
 
@@ -4854,4 +5094,5 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
