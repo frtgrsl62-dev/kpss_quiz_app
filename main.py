@@ -189,34 +189,34 @@ def test_secim_page(secilen_ders, secilen_konu):
 
     sonuclar = st.session_state.get("sonuclar", {})
 
-    for i in range(test_sayisi):
-        baslangic = i * soru_grubu_sayisi
-        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
-        test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
+for i in range(test_sayisi):
+    baslangic = i * soru_grubu_sayisi
+    bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
+    test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
 
-        # Çözülmüş testleri renklendir: eğer kayıtlı test sonucu varsa ✅ göster, yoksa ⏺
-        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
-        if test_sonuc:
-            label = f"{test_adi} ✅ ({test_sonuc.get('dogru',0)}/{(bitis-baslangic)})"
-        else:
-            label = f"{test_adi} ⏺"
+    test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
+    if test_sonuc:
+        oran = test_sonuc["dogru"] / (bitis - baslangic)
+        simge = "✅" if oran >= 0.6 else "❌"
+        label = f"{test_adi} {simge} ({test_sonuc['dogru']}/{bitis-baslangic})"
+    else:
+        label = f"{test_adi} ⏺"
 
-        if st.button(label, key=f"testbtn_{i}", help=f"Test {i+1}"):
-            # önce önceki cevap anahtarlarını temizle
-            cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
-            for k in cevap_keys:
-                del st.session_state[k]
+    if st.button(label, key=f"testbtn_{i}"):
+        cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
+        for k in cevap_keys:
+            del st.session_state[k]
 
-            st.session_state["current_test"] = {
-                "test": tum_sorular[baslangic:bitis],
-                "index": 0,
-                "ders": secilen_ders,
-                "konu": secilen_konu,
-                "test_no": i+1,
-                "test_sayisi": test_sayisi
-            }
-            st.session_state["page"] = "soru"
-            st.rerun()
+        st.session_state["current_test"] = {
+            "test": tum_sorular[baslangic:bitis],
+            "index": 0,
+            "ders": secilen_ders,
+            "konu": secilen_konu,
+            "test_no": i+1,
+            "test_sayisi": test_sayisi
+        }
+        st.session_state["page"] = "soru"
+        st.rerun()
 
     if st.button("Geri"):
         st.session_state["page"] = "konu"
@@ -388,3 +388,4 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
