@@ -273,18 +273,22 @@ def soru_goster_page():
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
-    st.header("Genel Rapor")
+    st.header("📊 Genel Rapor")
     if not sonuclar:
         st.info("Henüz herhangi bir test çözülmedi.")
-    for ders, konular in sonuclar.items():
-        st.subheader(ders)
-        for konu, sonuc in konular.items():
-            if isinstance(sonuc, dict) and "dogru" in sonuc:
-                st.markdown(f"{konu}: ✅ {sonuc['dogru']} | ❌ {sonuc['yanlis']}")
+    else:
+        for ders, konular in sonuclar.items():
+            st.subheader(f"📘 {ders}")
+            for konu, sonuc in konular.items():
+                if isinstance(sonuc, dict) and "dogru" in sonuc:
+                    st.markdown(
+                        f"- **{konu}** → ✅ {sonuc['dogru']} | ❌ {sonuc['yanlis']}"
+                    )
 
-    if st.button("Ana Menü"):
+    if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
+
 
 # ===============================
 # Router
@@ -306,6 +310,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
