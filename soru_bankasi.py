@@ -105,6 +105,246 @@ soru_bankasi = {
     },
     "dogru_cevap": "B",
     "cozum": "Ölüyle birlikte değerli eşyaların konulması, İslamiyet öncesi Türklerde ahiret inancının varlığını gösterir. Kurganlar bu inancın en temel kanıtlarından biridir."
+  },
+    {
+    "soru": "İslamiyet öncesi Türk devletlerinde hükümdarın tanrı tarafından bu göreve getirildiğine inanılırdı. 'Kut' adı verilen bu anlayış, hükümdara yönetme yetkisinin Gök Tanrı tarafından verildiğini ifade ederdi. Buna göre, 'kut' anlayışının aşağıdakilerden hangisine neden olduğu söylenemez?",
+    "secenekler": {
+      "A": "Hükümdarın halk nezdindeki otoritesinin artmasına",
+      "B": "Taht kavgalarının yaşanmasına",
+      "C": "Hükümdarın mutlak egemenliğinin teokratik bir temele dayanmasına",
+      "D": "Hanedanın bütün erkek üyelerinin hükümdar olma hakkına sahip olmasına",
+      "E": "Devletin tamamen dini kurallarla yönetilmesine"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Kut anlayışı devleti teokratik (dine dayalı) bir temele oturtsa da devletin tamamen şeriat gibi dini kurallarla yönetildiği anlamına gelmez. Yönetimde asıl olan 'töre'dir."
+  },
+  {
+    "soru": "Göktürkler ve Asya Hunları gibi devletlerde ülke, genellikle doğu ve batı olmak üzere iki yönetim birimine ayrılırdı. Doğuyu asıl hükümdar (kağan) yönetirken, batıda ise genellikle 'yabgu' unvanlı hanedan üyesi bulunurdu. Bu yönetim anlayışının (ikili teşkilat) temel amacı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Federal bir yapı oluşturmak",
+      "B": "Ülke yönetimini kolaylaştırmak",
+      "C": "Taht kavgalarını engellemek",
+      "D": "Farklı dinlere hoşgörü göstermek",
+      "E": "Yerleşik hayata geçişi hızlandırmak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Geniş toprakları yönetmeyi kolaylaştırmak ve denetimi sağlamak temel amaçtır. Ancak bu sistem, taht kavgalarını engellememiş, aksine teşvik etmiştir."
+  },
+  {
+    "soru": "Orhun Abideleri;\nI. Türk adının geçtiği ilk Türkçe metin olması,\nII. Hükümdarın halka karşı sorumluluklarını belirtmesi,\nIII. Sasanilerle yapılan mücadeleleri anlatması\nözelliklerinden hangilerini taşımaktadır?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Orhun Abideleri Türk adının geçtiği, siyasi bir beyanname niteliğinde olan ilk Türkçe metinlerdir ve hükümdarın halka hesap verdiği bir sosyal devlet anlayışını yansıtır. Sasanilerle ilgili bilgi içermez."
+  },
+  {
+    "soru": "Uygurlar, kendilerinden önceki Göktürk ve Hun devletlerinden farklı olarak Maniheizm dinini benimsemiş ve zamanla yerleşik hayata geçmişlerdir. Bu kültürel değişimin Uygurlarda aşağıdakilerden hangisine yol açtığı savunulamaz?",
+    "secenekler": {
+      "A": "Tarımsal faaliyetlerin başlamasına",
+      "B": "Savaşçılık özelliklerinin zayıflamasına",
+      "C": "Şehir ve tapınak mimarisinin gelişmesine",
+      "D": "Yazılı kültür ve sanatın canlanmasına",
+      "E": "'Töre'nin tamamen ortadan kalkmasına"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Uygurların yerleşik hayata geçmesi ve din değiştirmesi töre kurallarını etkilemiş, bazı değişikliklere yol açmış ancak töre tamamen ortadan kalkmamıştır. Hukuk sistemi devam etmiştir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk devletlerinde devlet işlerinin görüşülüp karara bağlandığı meclise 'Kurultay' (Toy/Kengeş) denirdi. Aşağıdakilerden hangisi Kurultay'ın özelliklerinden biri değildir?",
+    "secenekler": {
+      "A": "Hükümdarın seçiminde rol oynaması",
+      "B": "Savaş ve barış kararları alması",
+      "C": "Törelerde değişiklik yapabilmesi",
+      "D": "Sadece hanedan üyelerinden oluşması",
+      "E": "Hükümdarın yetkilerini bir ölçüde sınırlandırması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Kurultaya kağan, hatun, hanedan üyeleri ve en önemlisi boy beyleri katılırdı. Sadece hanedan üyelerinden oluşmazdı."
+  },
+  {
+    "soru": "Avrupa’ya göç ederek burada devlet kuran Türk toplulukları, zamanla Hristiyanlığı benimseyerek milli kimliklerini büyük ölçüde yitirmişlerdir. Aşağıdakilerden hangisi bu genellemenin dışında kalarak günümüzdeki varlığını ve adını Macaristan olarak sürdüren devlettir?",
+    "secenekler": {
+      "A": "Avarlar",
+      "B": "Peçenekler",
+      "C": "Macarlar",
+      "D": "Tuna Bulgarları",
+      "E": "Kıpçaklar (Kumanlar)"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Macarlar (Magyarlar), Arpad liderliğinde bugünkü Macaristan'a yerleşmiş ve Hristiyanlığı benimsemelerine rağmen varlıklarını bir devlet olarak sürdürmüşlerdir."
+  },
+  {
+    "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;\nI. Türk siyasi birliğini sağlamıştır.\nII. Askeri alanda modern bir teşkilatlanma kurmuştur.\nIII. Çin medeniyetini tamamen ortadan kaldırmıştır.\nyargılarından hangilerine ulaşılabilir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Mete Han, Türk boylarını birleştirerek siyasi birliği sağlamış ve onlu sistemi kurarak orduyu modernize etmiştir. Ancak Çin'i ortadan kaldırmak gibi bir amacı olmamış, onu vergiye bağlamıştır."
+  },
+  {
+    "soru": "Eski Türklerde toplumsal hayatı düzenleyen yazısız hukuk kurallarına 'töre' denirdi. Kağanın bile uymak zorunda olduğu törenin değişmez hükümleri arasında adalet (köni), iyilik (uzluk) ve eşitlik (tüzlük) yer alırdı. Bu durum, İslamiyet öncesi Türk devletleriyle ilgili aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Hukuk devleti anlayışının ilkelerinin varlığının",
+      "B": "Özel mülkiyetin gelişmediğinin",
+      "C": "Göçebe yaşam tarzının hukuku şekillendirdiğinin",
+      "D": "Hukukun sadece kağan tarafından belirlendiğinin",
+      "E": "Dini kuralların töreden üstün olduğunun"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Kağanın bile töreye uymak zorunda olması ve törenin adalet, eşitlik gibi değişmez hükümler içermesi, keyfi yönetimin önünde bir engel olduğunu ve bir hukuk devleti anlayışının ilkel formunun varlığını gösterir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk toplumunda sosyal yapı; Oguş (aile), Urug (sülale), Boy (kabile) ve Budun (millet) şeklinde sıralanırdı. Boyların bir araya gelmesiyle Budun, Budun'un teşkilatlanmasıyla da 'İl' (devlet) ortaya çıkardı. Bu yapı aşağıdakilerden hangisini göstermektedir?",
+    "secenekler": {
+      "A": "Sınıflı bir toplum yapısının olduğunu",
+      "B": "Devletin, sosyal örgütlenmenin en üst aşaması olduğunu",
+      "C": "Yerleşik hayatın yaygın olduğunu",
+      "D": "Töre kurallarının geçerliliğini yitirdiğini",
+      "E": "Sadece askeri yapıya önem verildiğini"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Yapı, ailenin temel olduğu ve en üst teşkilatlanmanın devlet (İl) olduğunu gösteren hiyerarşik bir sosyal ve siyasi örgütlenmedir."
+  },
+  {
+    "soru": "Doğu Avrupa'da kurulan Hazarlar, ticarette ileri gitmiş ve farklı dinlerin bir arada barış içinde yaşadığı bir hoşgörü ortamı oluşturmuşlardır. Yöneticilerinin Museviliği benimsemesiyle de diğer Türk devletlerinden ayrılmışlardır. Bu bilgilere göre Hazarlar ile ilgili aşağıdakilerden hangisine ulaşılamaz?",
+    "secenekler": {
+      "A": "Dini hoşgörünün egemen olduğuna",
+      "B": "Yönetici sınıfının farklı bir dini benimsediğine",
+      "C": "Ekonomik yaşamlarının canlı olduğuna",
+      "D": "Gök Tanrı inancını tamamen terk ettiklerine",
+      "E": "Farklı medeniyetlerle etkileşim içinde olduklarına"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Hazarlarda yönetici sınıf Museviliği benimsemiş olsa da halk arasında Gök Tanrı inancı, Hristiyanlık ve Müslümanlık da yaygındı. Gök Tanrı inancı tamamen terk edilmemiştir."
+  },
+  {
+    "soru": "Uygurlarda görülen;\nI. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,\nII. Kağıt ve matbaanın kullanılması,\nIII. Sulama kanallarının yapılması\ngelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Fresk ve minyatür için tapınak/saray duvarı gerekir. Sulama kanalları tarım için, kağıt ve matbaa ise gelişmiş bir kültür ve kütüphane için gereklidir. Bunların üçü de doğrudan yerleşik hayatın kanıtıdır."
+  },
+  {
+    "soru": "Kavimler Göçü'nün sonucunda;\n- Roma İmparatorluğu ikiye ayrılmıştır.\n- Avrupa'nın bugünkü milletleri oluşmaya başlamıştır.\n- Avrupa'da feodalite (derebeylik) rejimi ortaya çıkmıştır.\nAşağıdakilerden hangisi Kavimler Göçü'nün sonuçlarından biri değildir?",
+    "secenekler": {
+      "A": "Avrupa’da skolastik düşüncenin zayıflaması",
+      "B": "İlk Çağ'ın sona erip Orta Çağ'ın başlaması",
+      "C": "Avrupa Hun Devleti'nin kurulması",
+      "D": "Avrupa’nın etnik yapısının değişmesi",
+      "E": "Hristiyanlığın barbar kavimler arasında yayılması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Kavimler Göçü sonrası Avrupa'da kilisenin baskısı artmış ve skolastik (dogmatik) düşünce güçlenmiştir. Zayıflaması Rönesans ve Reform ile olacaktır."
+  },
+  {
+    "soru": "Eski Türklerde ölen önemli kişiler için düzenlenen cenaze törenlerine 'yuğ', mezarlara ise 'kurgan' denirdi. Ayrıca ölen kişinin hayattayken öldürdüğü düşman sayısı kadar mezarının başına dikilen küçük heykellere de 'balbal' adı verilirdi. Balbal dikme geleneği, Türklerde aşağıdakilerden hangisinin varlığına işaret eder?",
+    "secenekler": {
+      "A": "Heykel sanatının gelişimine",
+      "B": "Ahiret inancına",
+      "C": "Yerleşik yaşama",
+      "D": "Özel mülkiyete",
+      "E": "Törenin önemine"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Öldürdüğü düşmanların öbür dünyada kendisine hizmet edeceğine olan inanç, balbal dikme geleneğinin temelini oluşturur. Bu da doğrudan ahiret inancının bir kanıtıdır."
+  },
+  {
+    "soru": "Tarihte 'Türk' adıyla kurulan ilk devlet aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Asya Hun Devleti",
+      "B": "Avrupa Hun Devleti",
+      "C": "Göktürk Kağanlığı",
+      "D": "Uygur Devleti",
+      "E": "Avar Kağanlığı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "'Türk' adını siyasi bir kimlik olarak kullanan ve bu isimle kurulan ilk devlet Göktürk Kağanlığı'dır."
+  },
+  {
+    "soru": "Eski Türklerde kağanın erkek çocukları olan tiginler, devlet tecrübesi kazanmaları için 'şad' unvanıyla ülkenin çeşitli bölgelerine yönetici olarak gönderilirdi. Bu uygulama aşağıdaki Osmanlı Devleti'ndeki sistemlerden hangisiyle benzerlik gösterir?",
+    "secenekler": {
+      "A": "Devşirme Sistemi",
+      "B": "Sancak Sistemi",
+      "C": "Tımar Sistemi",
+      "D": "Millet Sistemi",
+      "E": "İltizam Sistemi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Tiginlerin tecrübe kazanmak için eyaletlere gönderilmesi, Osmanlı'daki şehzadelerin sancaklara gönderilerek devlet yönetimini öğrenmesiyle birebir benzerlik gösterir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk ordusu büyük ölçüde atlı süvarilerden oluşur, savaşlarda hız ve manevra kabiliyeti ön planda tutulurdu. Sahte geri çekilme (turan/bozkır taktiği) en bilinen savaş stratejileriydi. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yerleşik hayata geçilmiş olması",
+      "B": "Sadece savunma savaşları yapılması",
+      "C": "Bozkır yaşam tarzının etkileri",
+      "D": "Ordu-millet anlayışının olmaması",
+      "E": "Komşu medeniyetlerden etkilenilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Göçebe ve atlı-konar göçer bozkır yaşam tarzı, ordunun hızlı, manevra kabiliyeti yüksek ve süvarilere dayalı olmasını zorunlu kılmıştır."
+  },
+  {
+    "soru": "İstanbul'u kuşatan ilk Türk devleti olarak bilinen ve hem Asya'da hem de Avrupa'da devlet kuran Türk topluluğu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Hunlar",
+      "B": "Avarlar",
+      "C": "Bulgarlar",
+      "D": "Hazarlar",
+      "E": "Peçenekler"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Avarlar, hem Göktürkler tarafından Orta Asya'dan sürülmüş hem de Bayan Kağan liderliğinde Avrupa'da devlet kurarak Sasanilerle birlikte İstanbul'u kuşatmışlardır (626)."
+  },
+  {
+    "soru": "I. Kutluk Devleti olarak da bilinen ve Orhun Abideleri'ni diken Türk devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Asya Hun Devleti",
+      "B": "I. Göktürk Kağanlığı",
+      "C": "Uygur Devleti",
+      "D": "II. Göktürk Kağanlığı",
+      "E": "Kırgızlar"
+    },
+    "dogru_cevap": "D",
+    "cozum": "II. Göktürk Kağanlığı, Kutluk Kağan (İlteriş) tarafından kurulduğu için Kutluk Devleti olarak da bilinir. Orhun Abideleri bu dönemde dikilmiştir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk devletlerinde hükümdarlar 'Kağan, Hakan, Şanyü, İlteber, İdikut' gibi çeşitli unvanlar kullanmışlardır. Bu durumun aşağıdakilerden hangisini gösterdiği savunulabilir?",
+    "secenekler": {
+      "A": "Hükümdarlık anlayışının zamanla değiştiğini",
+      "B": "Tek bir ortak kültürün olmadığını",
+      "C": "Farklı devlet ve dönemlerde çeşitli hükümdarlık geleneklerinin olduğunu",
+      "D": "Bütün unvanların Çince kökenli olduğunu",
+      "E": "Sadece askeri başarılara göre unvan verildiğini"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Farklı devletlerin, farklı coğrafyalarda ve dönemlerde kendi siyasi geleneklerine ve komşularıyla etkileşimlerine göre çeşitli unvanlar kullanması doğaldır."
+  },
+  {
+    "soru": "Tuna Bulgarları, Boris Han zamanında Hristiyanlığı benimsemiş ve zamanla Slav kültürü içinde asimile olarak Türklük özelliklerini kaybetmişlerdir. Bu durumun tam tersine, İslamiyet'i kabul ederek milli benliklerini koruyan ilk büyük Türk devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Göktürkler",
+      "B": "Karahanlılar",
+      "C": "Uygurlar",
+      "D": "Hazarlar",
+      "E": "Tolunoğulları"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Karahanlılar, Satuk Buğra Han zamanında topluca İslamiyet'i kabul etmiş ve Türk kültürünü İslamiyet ile sentezleyerek milli kimliklerini koruyan ilk büyük Türk-İslam devleti olmuşlardır."
   }
     ],
 ##
@@ -4614,3 +4854,4 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
