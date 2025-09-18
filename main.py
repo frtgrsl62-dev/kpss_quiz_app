@@ -145,28 +145,30 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-    st.markdown("<h1 style='color: ; font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # alt çizgi ile ayır
-    # st.title("Ders Seçiniz")
+    st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
+    st.markdown("---")  # üst çizgi
+
+    # Ders listesi
     for ders in soru_bankasi.keys():
         if st.button(ders):
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
             st.rerun()
-    
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("📊 Genel Raporu Gör"):
-            st.session_state["page"] = "rapor"
-            st.rerun()
+    # Genel Raporu Gör
+    if st.button("📊 Genel Raporu Gör"):
+        st.session_state["page"] = "rapor"
+        st.rerun()
+        
+    # Derslerden sonra çizgi
     st.markdown("---")
-    with col2:
-        if st.button("Çıkış Yap"):
-            # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
-            kaydet_sonuclar_to_user()
-            st.session_state.clear()
-            st.session_state["page"] = "login"
-            st.rerun()
+    # Çıkış Yap
+    if st.button("Çıkış Yap"):
+        # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
+        kaydet_sonuclar_to_user()
+        st.session_state.clear()
+        st.session_state["page"] = "login"
+        st.rerun()
+
 
 # ===============================
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
@@ -456,6 +458,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
