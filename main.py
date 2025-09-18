@@ -384,7 +384,7 @@ def soru_goster_page():
 
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("🔙 Geri"):
+        if st.button("↩️ Geri"):
             st.session_state["page"] = "test"
             st.rerun()
     with col2:
@@ -459,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
