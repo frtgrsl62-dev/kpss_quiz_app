@@ -163,7 +163,7 @@ def konu_secim_page(ders):
             # Dairesel yüzde göstergesi HTML + CSS
             st.markdown(f"""
             <div style="
-                width:50px; height:50px; border-radius:50%;
+                width:50px; height:50px; border-radius:40%;
                 background: conic-gradient(#4CAF50 {yuzde}%, #E0E0E0 {yuzde}%);
                 display:flex; align-items:center; justify-content:center;
                 font-weight:bold; color:black;">
@@ -417,6 +417,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
