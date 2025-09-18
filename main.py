@@ -277,9 +277,6 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.rerun()
 
 
-# ===============================
-# Soru Gösterim Sayfası (Radyo başta seçili gelmez)
-# ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
     secilen_test = current["test"]
@@ -337,29 +334,26 @@ def soru_goster_page():
         return
 
     soru = secilen_test[index]
-    # st.markdown(f"**{secilen_ders} - {secilen_konu}**")
     st.markdown(
-    f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>",
-    unsafe_allow_html=True
+        f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>",
+        unsafe_allow_html=True
     )
 
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
-    st.markdown(f" {soru['soru']}")
+    st.markdown(f"{soru['soru']}")
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
-    # Radyo butonunu boş seçili başlat
+    # Radyo butonunu boş seçili başlat (etiketsiz)
     if cevap_key in st.session_state:
-        # Cevap daha önce verilmişse normal radyo göster
         secim = st.radio(
-            "Cevap Seçin:",
+            label="",  # "Cevap Seçin:" yazısı kaldırıldı
             options=secenekler,
             key=f"soru_radio_{index}"
         )
     else:
-        # Henüz cevap verilmemişse, None ekleyip başta boş göster
         secim = st.radio(
-            "Cevap Seçin:",
+            label="",  # "Cevap Seçin:" yazısı kaldırıldı
             options=[None] + secenekler,
             index=0,
             format_func=lambda x: "" if x is None else x,
@@ -403,6 +397,7 @@ def soru_goster_page():
                     st.rerun()
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+
 
 
 
@@ -464,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
