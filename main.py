@@ -347,14 +347,14 @@ def soru_goster_page():
     if cevap_key in st.session_state:
         # Cevap daha önce verilmişse normal radyo göster
         secim = st.radio(
-            "",  # Burayı boş bıraktık
+            "Cevap Seçin:",
             options=secenekler,
             key=f"soru_radio_{index}"
         )
     else:
         # Henüz cevap verilmemişse, None ekleyip başta boş göster
         secim = st.radio(
-            "",  # Burayı boş bıraktık
+            "Cevap Seçin:",
             options=[None] + secenekler,
             index=0,
             format_func=lambda x: "" if x is None else x,
@@ -459,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
