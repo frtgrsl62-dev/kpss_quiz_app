@@ -277,7 +277,6 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.rerun()
 
 
-
 # ===============================
 # Soru Gösterim Sayfası (Radyo başta seçili gelmez)
 # ===============================
@@ -348,12 +347,21 @@ def soru_goster_page():
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
-    # Radyo butonu sadece şıklarla başlasın
-    secim = st.radio(
-        label="",  # Etiket kaldırıldı
-        options=secenekler,
-        key=f"soru_radio_{index}"
-    )
+    # Radyo butonu - boş seçeneği en alta taşıdık
+    if cevap_key in st.session_state:
+        secim = st.radio(
+            label="",
+            options=secenekler,
+            key=f"soru_radio_{index}"
+        )
+    else:
+        secim = st.radio(
+            label="",
+            options=secenekler + [None],  # boş seçenek en alta
+            index=len(secenekler),        # varsayılan None seçili
+            format_func=lambda x: "" if x is None else x,
+            key=f"soru_radio_{index}"
+        )
 
     # Cevap kontrol ve kaydetme
     if cevap_key in st.session_state:
@@ -365,7 +373,7 @@ def soru_goster_page():
         st.info(f"**Çözüm:** {soru['cozum']}")
     else:
         if st.button("Cevapla", key=f"cevapla_{index}"):
-            if not secim:  # Hiçbir şey seçilmemişse
+            if secim is None:
                 st.warning("⚠️ Lütfen bir seçenek seçin!")
             else:
                 secilen_harf = secim.split(")")[0]
@@ -392,11 +400,6 @@ def soru_goster_page():
                     st.rerun()
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
-
-
-
-
-
 
 
 # ===============================
@@ -454,6 +457,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
