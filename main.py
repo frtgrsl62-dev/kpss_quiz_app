@@ -108,7 +108,7 @@ def ders_secim_page():
     st.markdown("---")
     col1, col2 = st.columns(2)
     with col1:
-        if st.button("Genel Raporu Gör"):
+        if st.button("📊 Genel Raporu Gör"):
             st.session_state["page"] = "rapor"
             st.rerun()
     with col2:
@@ -317,3 +317,4 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
