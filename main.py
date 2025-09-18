@@ -105,6 +105,10 @@ def login_page():
 # Kayıt Sayfası
 # ===============================
 def kayit_page():
+    # Üst başlık
+    st.markdown("<h1 style='text-align: center; color: orange;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+    st.markdown("---")  # alt çizgi ile ayır
+    
     st.title("Kayıt Ol")
     with st.form("kayit_form"):
         isim = st.text_input("İsim Soyisim", key="register_name")
@@ -442,6 +446,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
