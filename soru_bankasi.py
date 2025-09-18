@@ -101,281 +101,336 @@ soru_bankasi = {
     "cozum": "Ölüyle birlikte değerli eşyaların konulması, İslamiyet öncesi Türklerde ahiret inancının varlığını gösterir. Kurganlar bu inancın en temel kanıtlarından biridir."
   }
     ],
-
-    "2) İlk Türk-İslam Devletleri ve Beylikleri": [
+##
+"2) İlk Türk-İslam Devletleri ve Beylikleri": [
   {
     "soru": "Büyük Selçuklu Devleti'nde hükümdarın başkanlık ettiği, üst düzey devlet görevlileri hakkındaki şikayetlerin ve idari-adli uyuşmazlıkların karara bağlandığı yüksek mahkeme aşağıdakilerden hangisidir?",
-    "A": "Divan-ı İstifa",
-    "B": "Divan-ı Arz",
-    "C": "Divan-ı İşraf",
-    "D": "Divan-ı Mezalim",
-    "E": "Divan-ı İnşa",
+    "secenekler": {
+      "A": "Divan-ı İstifa",
+      "B": "Divan-ı Arz",
+      "C": "Divan-ı İşraf",
+      "D": "Divan-ı Mezalim",
+      "E": "Divan-ı İnşa"
+    },
     "dogru_cevap": "D",
     "cozum": "Divan-ı Mezalim, zulümlerin ve yüksek düzey şikayetlerin görüşüldüğü, kadıların kararlarının temyiz edildiği en yüksek mahkemedir. Bizzat hükümdar başkanlık eder."
   },
   {
     "soru": "Malazgirt Savaşı'ndan sonra Alparslan'ın komutanlarına 'Gidiniz, fethettiğiniz topraklar sizindir.' demesi, aşağıdakilerden hangisine doğrudan ortam hazırlamıştır?",
-    "A": "Anadolu'da Türk nüfusunun azalmasına",
-    "B": "Bizans İmparatorluğu'nun güçlenmesine",
-    "C": "Anadolu'da ilk Türk beyliklerinin kurulmasına",
-    "D": "Haçlı Seferleri'nin sona ermesine",
-    "E": "Selçuklu taht kavgalarının başlamasına",
+    "secenekler": {
+      "A": "Anadolu'da Türk nüfusunun azalmasına",
+      "B": "Bizans İmparatorluğu'nun güçlenmesine",
+      "C": "Anadolu'da ilk Türk beyliklerinin kurulmasına",
+      "D": "Haçlı Seferleri'nin sona ermesine",
+      "E": "Selçuklu taht kavgalarının başlamasına"
+    },
     "dogru_cevap": "C",
     "cozum": "Alparslan'ın bu politikası, komutanların fethettikleri yerlerde beylikler kurmasına imkan sağlamış ve Anadolu'nun hızla Türkleşmesine yol açmıştır."
   },
   {
     "soru": "Kaşgarlı Mahmut tarafından, Araplara Türkçeyi öğretmek ve Türkçenin zenginliğini göstermek amacıyla kaleme alınan, içerisinde ilk Türk dünyası haritasının da yer aldığı eser aşağıdakilerden hangisidir?",
-    "A": "Kutadgu Bilig",
-    "B": "Divan-ı Hikmet",
-    "C": "Atabetü'l Hakayık",
-    "D": "Siyasetname",
-    "E": "Divanü Lügati't-Türk",
+    "secenekler": {
+      "A": "Kutadgu Bilig",
+      "B": "Divan-ı Hikmet",
+      "C": "Atabetü'l Hakayık",
+      "D": "Siyasetname",
+      "E": "Divanü Lügati't-Türk"
+    },
     "dogru_cevap": "E",
     "cozum": "Divanü Lügati't-Türk, Kaşgarlı Mahmut tarafından yazılmış, Araplara Türkçe öğretmeyi amaçlayan ve ilk Türk dünyası haritasını içeren eserdir."
   },
   {
     "soru": "Büyük Selçuklu hükümdarı Tuğrul Bey'in 1055'te Bağdat'a sefer düzenleyerek Şii Büveyhoğullarının baskısına son vermesi üzerine Abbasi Halifesi, Tuğrul Bey'e hangi unvanı vermiştir?",
-    "A": "Sultan-ı İklim-i Rum",
-    "B": "Gaziyan-ı Rum",
-    "C": "Sultanü'l-Azam",
-    "D": "El-Melikü'l-Adil",
-    "E": "Doğunun ve Batının Sultanı",
+    "secenekler": {
+      "A": "Sultan-ı İklim-i Rum",
+      "B": "Gaziyan-ı Rum",
+      "C": "Sultanü'l-Azam",
+      "D": "El-Melikü'l-Adil",
+      "E": "Doğunun ve Batının Sultanı"
+    },
     "dogru_cevap": "E",
     "cozum": "Abbasi Halifesi, Tuğrul Bey'e Doğunun ve Batının Sultanı unvanını vermiştir. Bu olay dini ve siyasi otoritenin ayrışmasını simgeler."
   },
   {
     "soru": "Karahanlılar döneminde ortaya çıkan ve başlangıçta askeri amaçlarla kullanılırken zamanla tüccarların konakladığı, yolcuların güvenliğini sağlayan ve ticareti geliştiren bir işlev kazanan yapılar aşağıdakilerden hangisidir?",
-    "A": "Kümbet",
-    "B": "Bimarhane",
-    "C": "Ribat",
-    "D": "Kapan",
-    "E": "Bedesten",
+    "secenekler": {
+      "A": "Kümbet",
+      "B": "Bimarhane",
+      "C": "Ribat",
+      "D": "Kapan",
+      "E": "Bedesten"
+    },
     "dogru_cevap": "C",
     "cozum": "Ribatlar başlangıçta sınır karakolu iken zamanla kervansaray işlevi kazanmış, tüccarların ve yolcuların güvenliğini sağlamıştır."
   },
   {
     "soru": "Malazgirt Savaşı'ndan sonra Anadolu'da kurulan ilk Türk beyliklerinden biri olan Saltuklular, aşağıdaki şehirlerin hangisi merkez olmak üzere kurulmuştur?",
-    "A": "Sivas",
-    "B": "Mardin",
-    "C": "Erzincan",
-    "D": "Erzurum",
-    "E": "İzmir",
+    "secenekler": {
+      "A": "Sivas",
+      "B": "Mardin",
+      "C": "Erzincan",
+      "D": "Erzurum",
+      "E": "İzmir"
+    },
     "dogru_cevap": "D",
     "cozum": "Saltuklular Erzurum merkezli olarak kurulmuştur. Diğer şehirler farklı beyliklerin merkezleridir."
   },
   {
     "soru": "Aşağıdakilerden hangisi Büyük Selçuklularda uygulanan ikta sisteminin sağladığı faydalardan biri değildir?",
-    "A": "Devlet hazinesine yük olmadan savaşa hazır bir ordu bulundurmak",
-    "B": "Göçebe Türkmenleri yerleşik hayata teşvik etmek",
-    "C": "Toprağın boş kalmasını engelleyerek üretimin devamlılığını sağlamak",
-    "D": "Ülkenin en ücra köşelerinde devlet otoritesini ve güvenliği sağlamak",
-    "E": "Merkezi otoriteyi zayıflatarak yerel beylerin güçlenmesini sağlamak",
+    "secenekler": {
+      "A": "Devlet hazinesine yük olmadan savaşa hazır bir ordu bulundurmak",
+      "B": "Göçebe Türkmenleri yerleşik hayata teşvik etmek",
+      "C": "Toprağın boş kalmasını engelleyerek üretimin devamlılığını sağlamak",
+      "D": "Ülkenin en ücra köşelerinde devlet otoritesini ve güvenliği sağlamak",
+      "E": "Merkezi otoriteyi zayıflatarak yerel beylerin güçlenmesini sağlamak"
+    },
     "dogru_cevap": "E",
     "cozum": "İkta sistemi merkezi otoriteyi güçlendirmeyi amaçlardı. E seçeneği sistemin bozulduğunda ortaya çıkan olumsuz sonuçtur."
   },
   {
     "soru": "Yusuf Has Hacip tarafından kaleme alınan ve 'mutluluk veren bilgi' anlamına gelen Kutadgu Bilig, aşağıdaki hükümdarlardan hangisine sunulmuştur?",
-    "A": "Gazneli Mahmut",
-    "B": "Satuk Buğra Han",
-    "C": "Sultan Alparslan",
-    "D": "Karahanlı Hükümdarı Tabgaç Buğra Han (Ulu Kara Buğra Han)",
-    "E": "Melikşah",
+    "secenekler": {
+      "A": "Gazneli Mahmut",
+      "B": "Satuk Buğra Han",
+      "C": "Sultan Alparslan",
+      "D": "Karahanlı Hükümdarı Tabgaç Buğra Han (Ulu Kara Buğra Han)",
+      "E": "Melikşah"
+    },
     "dogru_cevap": "D",
     "cozum": "Kutadgu Bilig, Yusuf Has Hacip tarafından Karahanlı hükümdarı Tabgaç Buğra Han’a sunulmuştur."
   },
   {
     "soru": "Gazneliler ile Selçuklular arasında yapılan ve Selçukluların zaferiyle sonuçlanarak Gaznelileri yıkılış sürecine sokan ve Büyük Selçuklu Devleti'nin resmen kurulmasını sağlayan savaş aşağıdakilerden hangisidir?",
-    "A": "Malazgirt Savaşı",
-    "B": "Pasinler Savaşı",
-    "C": "Dandanakan Savaşı",
-    "D": "Katvan Savaşı",
-    "E": "Yassıçemen Savaşı",
+    "secenekler": {
+      "A": "Malazgirt Savaşı",
+      "B": "Pasinler Savaşı",
+      "C": "Dandanakan Savaşı",
+      "D": "Katvan Savaşı",
+      "E": "Yassıçemen Savaşı"
+    },
     "dogru_cevap": "C",
     "cozum": "Dandanakan Savaşı Selçukluların zaferiyle sonuçlanmış, Büyük Selçuklu Devleti’nin resmen kurulmasını sağlamıştır."
   },
   {
     "soru": "Karahanlıların, Türk-İslam devletleri içinde milli kimliklerini en çok koruyan devlet olarak kabul edilmesinde; I. İkili yönetim anlayışını sürdürmeleri II. Uygur alfabesini kullanmaları III. Hükümdarlarının 'Han, Hakan' gibi unvanlar kullanması özelliklerinden hangileri kanıt olarak gösterilebilir?",
-    "A": "Yalnız I",
-    "B": "I ve II",
-    "C": "I ve III",
-    "D": "II ve III",
-    "E": "I, II ve III",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
     "dogru_cevap": "E",
     "cozum": "Karahanlılar hem ikili yönetim sistemini hem Uygur alfabesini hem de eski Türk unvanlarını kullanmaya devam ederek milli kimliklerini korumuşlardır."
   },
   {
     "soru": "Sibernetik biliminin kurucusu olarak kabul edilen, yaptığı mekanik ve robotik tasarımlarla tanınan ünlü bilim insanı El-Cezeri, aşağıdaki Türk beyliklerinden hangisinin himayesinde çalışmalarını yürütmüştür?",
-    "A": "Danişmentliler",
-    "B": "Saltuklular",
-    "C": "Mengücekliler",
-    "D": "Artuklular",
-    "E": "Çaka Beyliği",
+    "secenekler": {
+      "A": "Danişmentliler",
+      "B": "Saltuklular",
+      "C": "Mengücekliler",
+      "D": "Artuklular",
+      "E": "Çaka Beyliği"
+    },
     "dogru_cevap": "D",
     "cozum": "El-Cezeri, Artuklular himayesinde çalışmalar yapmış ve sibernetik alanında önemli eserler bırakmıştır."
   },
   {
     "soru": "Anadolu'da kurulan ilk Türk beyliklerinin; I. Anadolu'yu Haçlı ve Bizans saldırılarına karşı korumaları II. Kurdukları şehir ve köylere Türkçe isimler vermeleri III. Yaptıkları cami, medrese, kervansaray gibi eserlerle Anadolu'yu bayındır hale getirmeleri faaliyetlerinden hangileri Anadolu'nun Türkleşmesine ve İslamlaşmasına hizmet etmiştir?",
-    "A": "Yalnız I",
-    "B": "I ve II",
-    "C": "I ve III",
-    "D": "II ve III",
-    "E": "I, II ve III",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
     "dogru_cevap": "E",
     "cozum": "İlk beylikler hem askeri hem kültürel hem de imar faaliyetleriyle Anadolu’nun Türkleşmesine ve İslamlaşmasına hizmet etmişlerdir."
   }
-    ],
-    "3) Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [
-      {
+],
+
+##
+"3) Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [
+  {
     "soru": "Türkiye Selçuklu Devleti'nin, Anadolu'daki ticaret yolları üzerinde belirli aralıklarla kervansaraylar inşa etmesinin temel amacı aşağıdakilerden hangisidir?",
-    "A": "Tarımsal üretimi artırmak",
-    "B": "Göçebe Türkmenleri yerleşik hayata geçirmek",
-    "C": "Ticari faaliyetlerin güvenli ve sürekli bir şekilde yapılmasını sağlamak",
-    "D": "Ülkeyi Haçlı saldırılarına karşı korumak",
-    "E": "Yeni şehirler kurarak idari yapıyı güçlendirmek",
+    "secenekler": {
+      "A": "Tarımsal üretimi artırmak",
+      "B": "Göçebe Türkmenleri yerleşik hayata geçirmek",
+      "C": "Ticari faaliyetlerin güvenli ve sürekli bir şekilde yapılmasını sağlamak",
+      "D": "Ülkeyi Haçlı saldırılarına karşı korumak",
+      "E": "Yeni şehirler kurarak idari yapıyı güçlendirmek"
+    },
     "dogru_cevap": "C",
     "cozum": "Kervansaraylar, ticari faaliyetlerin güvenli ve sürekli yapılmasını sağlamak amacıyla inşa edilmiştir."
   },
   {
     "soru": "1243 Kösedağ Savaşı'nın Anadolu'daki en önemli siyasi sonucu aşağıdakilerden hangisidir?",
-    "A": "Türkiye Selçuklu Devleti'nin en parlak dönemine girmesi",
-    "B": "Anadolu'da ilk Türk beyliklerinin kurulması",
-    "C": "Anadolu'da Türk siyasi birliğinin bozularak ikinci beylikler döneminin başlaması",
-    "D": "Haçlı Seferleri'nin başlaması",
-    "E": "Bizans'ın Anadolu'daki varlığının sona ermesi",
+    "secenekler": {
+      "A": "Türkiye Selçuklu Devleti'nin en parlak dönemine girmesi",
+      "B": "Anadolu'da ilk Türk beyliklerinin kurulması",
+      "C": "Anadolu'da Türk siyasi birliğinin bozularak ikinci beylikler döneminin başlaması",
+      "D": "Haçlı Seferleri'nin başlaması",
+      "E": "Bizans'ın Anadolu'daki varlığının sona ermesi"
+    },
     "dogru_cevap": "C",
     "cozum": "Kösedağ yenilgisi sonrası Selçuklu otoritesi yıkıldı ve II. Beylikler dönemi başladı."
   },
   {
     "soru": "Anadolu'nun kesin olarak Türk yurdu hâline gelmesini sağlayan ve Bizans'ın Türkleri Anadolu'dan atma ümidini tamamen sona erdiren savaş aşağıdakilerden hangisidir?",
-    "A": "Dandanakan Savaşı",
-    "B": "Malazgirt Savaşı",
-    "C": "Miryokefalon Savaşı",
-    "D": "Kösedağ Savaşı",
-    "E": "Yassıçemen Savaşı",
+    "secenekler": {
+      "A": "Dandanakan Savaşı",
+      "B": "Malazgirt Savaşı",
+      "C": "Miryokefalon Savaşı",
+      "D": "Kösedağ Savaşı",
+      "E": "Yassıçemen Savaşı"
+    },
     "dogru_cevap": "C",
     "cozum": "Miryokefalon Savaşı ile Bizans'ın Anadolu'dan Türkleri atma umudu sona erdi."
   },
   {
     "soru": "Türkiye Selçuklularında, esnaf ve zanaatkârların kendi aralarında kurdukları; üyelerinin mesleki, dini ve ahlaki eğitiminden sorumlu olan, aynı zamanda üretilen malın kalitesini ve fiyatını denetleyen örgüte ne ad verilir?",
-    "A": "İkta",
-    "B": "Gulam",
-    "C": "Fütüvvet",
-    "D": "Ahilik",
-    "E": "Vakıf",
+    "secenekler": {
+      "A": "İkta",
+      "B": "Gulam",
+      "C": "Fütüvvet",
+      "D": "Ahilik",
+      "E": "Vakıf"
+    },
     "dogru_cevap": "D",
     "cozum": "Esnaf ve zanaatkârların örgütlenmesi Ahilik sistemiyle sağlanmıştır."
   },
   {
     "soru": "Aşağıdaki beyliklerden hangisi, kendisini Türkiye Selçuklu Devleti'nin mirasçısı olarak görmüş ve Türkçeyi resmi dil ilan ederek Osmanlı Devleti'ni en çok uğraştıran beylik olmuştur?",
-    "A": "Karesioğulları",
-    "B": "Germiyanoğulları",
-    "C": "Karamanoğulları",
-    "D": "Hamitoğulları",
-    "E": "Dulkadiroğulları",
+    "secenekler": {
+      "A": "Karesioğulları",
+      "B": "Germiyanoğulları",
+      "C": "Karamanoğulları",
+      "D": "Hamitoğulları",
+      "E": "Dulkadiroğulları"
+    },
     "dogru_cevap": "C",
     "cozum": "Karamanoğulları hem Türkçeyi resmi dil yaptı hem de Osmanlı'nın en büyük rakibi oldu."
   },
   {
     "soru": "Osmanlı Devleti'nin Rumeli'ye geçişini kolaylaştıran en önemli gelişme, aşağıdaki beyliklerden hangisinin donanmasıyla birlikte Osmanlı topraklarına katılmasıdır?",
-    "A": "Saruhanoğulları",
-    "B": "Karesioğulları",
-    "C": "Aydınoğulları",
-    "D": "Menteşeoğulları",
-    "E": "Candaroğulları",
+    "secenekler": {
+      "A": "Saruhanoğulları",
+      "B": "Karesioğulları",
+      "C": "Aydınoğulları",
+      "D": "Menteşeoğulları",
+      "E": "Candaroğulları"
+    },
     "dogru_cevap": "B",
     "cozum": "Karesioğulları'nın donanması Osmanlı'nın Rumeli'ye geçişini kolaylaştırmıştır."
   },
   {
     "soru": "Türkiye Selçukluları döneminde inşa edilen ve tıp eğitimi ile birlikte sağlık hizmetlerinin de verildiği, bu alanda Anadolu'daki en eski ve önemli merkezlerden olan yapı türü aşağıdakilerden hangisidir?",
-    "A": "Rasathane",
-    "B": "Kümbet",
-    "C": "Darüşşifa",
-    "D": "İmarethane",
-    "E": "Külliye",
+    "secenekler": {
+      "A": "Rasathane",
+      "B": "Kümbet",
+      "C": "Darüşşifa",
+      "D": "İmarethane",
+      "E": "Külliye"
+    },
     "dogru_cevap": "C",
     "cozum": "Darüşşifalar Selçuklular döneminde sağlık ve tıp eğitimi için yapılan kurumlardır."
   },
   {
     "soru": "Türkiye Selçuklu Sultanlarının, Venedik ve Ceneviz gibi devletlere düşük gümrük vergileri uygulaması ve Anadolu'da soyulan tüccarların zararını devlet hazinesinden karşılaması, aşağıdakilerden hangisine yönelik bir politikadır?",
-    "A": "Askeri gücü artırmaya",
-    "B": "Anadolu'daki ticari hayatı canlandırmaya",
-    "C": "Beylikleri kontrol altında tutmaya",
-    "D": "Tarımsal faaliyetleri desteklemeye",
-    "E": "Fetih hareketlerini hızlandırmaya",
+    "secenekler": {
+      "A": "Askeri gücü artırmaya",
+      "B": "Anadolu'daki ticari hayatı canlandırmaya",
+      "C": "Beylikleri kontrol altında tutmaya",
+      "D": "Tarımsal faaliyetleri desteklemeye",
+      "E": "Fetih hareketlerini hızlandırmaya"
+    },
     "dogru_cevap": "B",
     "cozum": "Düşük gümrük ve zarar telafisi ticari hayatı canlandırma politikalarıdır."
   },
   {
     "soru": "Türkiye Selçuklu Devleti'nin zayıflamasında etkili olan ve Moğol istilasına zemin hazırlayan, Anadolu'daki ilk büyük toplumsal ve dini nitelikli isyan aşağıdakilerden hangisidir?",
-    "A": "Şeyh Bedreddin İsyanı",
-    "B": "Baba İshak İsyanı",
-    "C": "Patrona Halil İsyanı",
-    "D": "Canberdi Gazali İsyanı",
-    "E": "Kalenderoğlu İsyanı",
+    "secenekler": {
+      "A": "Şeyh Bedreddin İsyanı",
+      "B": "Baba İshak İsyanı",
+      "C": "Patrona Halil İsyanı",
+      "D": "Canberdi Gazali İsyanı",
+      "E": "Kalenderoğlu İsyanı"
+    },
     "dogru_cevap": "B",
     "cozum": "Baba İshak İsyanı Selçuklu'yu zayıflatarak Moğol istilasına zemin hazırlamıştır."
   },
   {
     "soru": "Aşağıdaki beyliklerden hangisi, topraklarını Osmanlı Devleti'ne para karşılığı satarak Osmanlı egemenliğine girmiştir?",
-    "A": "Karamanoğulları",
-    "B": "Dulkadiroğulları",
-    "C": "Hamitoğulları",
-    "D": "Saruhanoğulları",
-    "E": "Aydınoğulları",
+    "secenekler": {
+      "A": "Karamanoğulları",
+      "B": "Dulkadiroğulları",
+      "C": "Hamitoğulları",
+      "D": "Saruhanoğulları",
+      "E": "Aydınoğulları"
+    },
     "dogru_cevap": "C",
     "cozum": "Hamitoğulları Beyliği topraklarını Osmanlı'ya para karşılığı satmıştır."
   },
   {
     "soru": "Mevlevilik düşüncesinin temelini atan, 'Mesnevi' adlı eseriyle dünya çapında tanınan Mevlana Celaleddin-i Rumi, hayatının büyük bir kısmını aşağıdaki şehirlerin hangisinde geçirmiş ve bu şehirle özdeşleşmiştir?",
-    "A": "Kayseri",
-    "B": "Sivas",
-    "C": "Erzurum",
-    "D": "Konya",
-    "E": "Bursa",
+    "secenekler": {
+      "A": "Kayseri",
+      "B": "Sivas",
+      "C": "Erzurum",
+      "D": "Konya",
+      "E": "Bursa"
+    },
     "dogru_cevap": "D",
     "cozum": "Mevlana, Konya'da yaşamış ve bu şehirle özdeşleşmiştir."
   },
   {
     "soru": "Yavuz Sultan Selim'in 1515 Turnadağ Savaşı ile Dulkadiroğulları Beyliği'ne son vermesinin en önemli sonucu aşağıdakilerden hangisidir?",
-    "A": "Osmanlı Devleti'nin kurulması",
-    "B": "İstanbul'un fethinin kolaylaşması",
-    "C": "Anadolu Türk siyasi birliğinin kesin olarak sağlanması",
-    "D": "Balkanlardaki fetihlerin başlaması",
-    "E": "Halifeliğin Osmanlı'ya geçmesi",
+    "secenekler": {
+      "A": "Osmanlı Devleti'nin kurulması",
+      "B": "İstanbul'un fethinin kolaylaşması",
+      "C": "Anadolu Türk siyasi birliğinin kesin olarak sağlanması",
+      "D": "Balkanlardaki fetihlerin başlaması",
+      "E": "Halifeliğin Osmanlı'ya geçmesi"
+    },
     "dogru_cevap": "C",
     "cozum": "Turnadağ Savaşı sonrası Dulkadiroğulları'na son verilerek Anadolu Türk siyasi birliği kesin olarak sağlandı."
   },
   {
     "soru": "Türkiye Selçuklularına ait anıt mezarlar, genellikle konik veya piramidal bir çatı ile örtülen silindirik veya çokgen gövdeli yapılardır. Bu yapı türüne verilen isim aşağıdakilerden hangisidir?",
-    "A": "Medrese",
-    "B": "Kümbet",
-    "C": "Han",
-    "D": "Kale",
-    "E": "Cami",
+    "secenekler": {
+      "A": "Medrese",
+      "B": "Kümbet",
+      "C": "Han",
+      "D": "Kale",
+      "E": "Cami"
+    },
     "dogru_cevap": "B",
     "cozum": "Selçukluların anıt mezarlarına Kümbet adı verilmiştir."
   },
   {
     "soru": "Aşağıdakilerden hangisi, II. Beylikler Dönemi'nin genel özelliklerinden biri değildir?",
-    "A": "Anadolu'da Türk siyasi birliğinin bozulmuş olması",
-    "B": "Moğol (İlhanlı) baskısının hissedilmesi",
-    "C": "Türkçenin bir edebiyat ve bilim dili olarak gelişme göstermesi",
-    "D": "Anadolu'nun tamamen Bizans egemenliğine girmesi",
-    "E": "Osmanlı Beyliği'nin de bu dönemde kurulmuş olması",
+    "secenekler": {
+      "A": "Anadolu'da Türk siyasi birliğinin bozulmuş olması",
+      "B": "Moğol (İlhanlı) baskısının hissedilmesi",
+      "C": "Türkçenin bir edebiyat ve bilim dili olarak gelişme göstermesi",
+      "D": "Anadolu'nun tamamen Bizans egemenliğine girmesi",
+      "E": "Osmanlı Beyliği'nin de bu dönemde kurulmuş olması"
+    },
     "dogru_cevap": "D",
     "cozum": "II. Beylikler Dönemi'nde Anadolu Bizans'ın egemenliğinde değil, beyliklerin hâkimiyetindeydi."
   },
   {
     "soru": "Türkiye Selçuklularında deniz ve kara ticaretinin gelişmesinde aşağıdakilerden hangisinin etkisi en azdır?",
-    "A": "Önemli liman şehirlerinin fethedilmesi",
-    "B": "Kervansaray ağının kurulması",
-    "C": "Yabancı tüccarlara düşük gümrük uygulanması",
-    "D": "Devlet sigorta sisteminin oluşturulması",
-    "E": "İkta sisteminin yaygınlaştırılması",
+    "secenekler": {
+      "A": "Önemli liman şehirlerinin fethedilmesi",
+      "B": "Kervansaray ağının kurulması",
+      "C": "Yabancı tüccarlara düşük gümrük uygulanması",
+      "D": "Devlet sigorta sisteminin oluşturulması",
+      "E": "İkta sisteminin yaygınlaştırılması"
+    },
     "dogru_cevap": "E",
     "cozum": "İkta sistemi tarım ve askeri düzenle ilgilidir; ticaretin gelişmesine en az katkı sağlayan unsurdur."
-  },    
-                                                                 
+  },
         {
             "soru": "I. Gıyaseddin Keyhüsrev döneminde, Venediklilerle ticaret antlaşması yapılarak Karadeniz'deki ticari faaliyetleri geliştirmek amacıyla kurulan liman şehri aşağıdakilerden hangisidir?",
             "secenekler": {
@@ -557,407 +612,249 @@ soru_bankasi = {
             "cozum": "Bu, Haçlı Seferleri dönemindeki önemli hükümdarı ve onun icraatlarını sormaktadır.\n\nAnaliz: I. Kılıç Arslan, I. Haçlı Seferi sırasında başkent İznik'i kaybetmiş ve devleti toparlamak için başkenti Konya'ya taşımıştır.\nDoğru Cevap: A) I. Kılıç Arslan\nKoçunun Yorumu: Haçlı Seferleri'nin Türk tarihine etkileri ve bu süreçte görev alan hükümdarlar önemli bir konudur. Bu tür sorularla sıkça karşılaşabilirsin."
         }
     ],
-    "4) Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [
+
+##
+"4) Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [
   {
     "soru": "Aşağıdakilerden hangisi, Fatih Sultan Mehmet'in 1453'te İstanbul'u fethetmesinin sonuçlarından biri olarak gösterilemez?",
-    "A": "Osmanlı Devleti'nin toprak bütünlüğünün sağlanması",
-    "B": "İpek Yolu'nun Avrupa'ya giden kolunun denetiminin Osmanlı'ya geçmesi",
-    "C": "Halifeliğin Osmanlı hanedanına geçmesi",
-    "D": "Osmanlı Devleti'nin imparatorluk aşamasına geçmesi",
-    "E": "Doğu Roma (Bizans) İmparatorluğu'nun sona ermesi",
+    "secenekler": {
+      "A": "Osmanlı Devleti'nin toprak bütünlüğünün sağlanması",
+      "B": "İpek Yolu'nun Avrupa'ya giden kolunun denetiminin Osmanlı'ya geçmesi",
+      "C": "Halifeliğin Osmanlı hanedanına geçmesi",
+      "D": "Osmanlı Devleti'nin imparatorluk aşamasına geçmesi",
+      "E": "Doğu Roma (Bizans) İmparatorluğu'nun sona ermesi"
+    },
     "dogru_cevap": "C",
     "cozum": "İstanbul'un Fethi sonucunda Osmanlı toprak bütünlüğünü sağladı, İpek Yolu'nun önemli kısmını denetim altına aldı, imparatorluk aşamasına geçti ve Bizans sona erdi. Ancak Halifelik, Yavuz Sultan Selim'in 1517 Mısır Seferi ile Osmanlı'ya geçti."
   },
   {
     "soru": "Şehzade Cem'in, abisi II. Bayezid'e karşı başlattığı taht mücadelesinde yenilerek Memlüklere, ardından Rodos Şövalyelerine ve Papalığa sığınması, Cem Sultan Olayı'nın hangi niteliğe bürünmesine yol açmıştır?",
-    "A": "Dini bir sorun olmasına",
-    "B": "Bir iç sorunken uluslararası bir sorun hâline gelmesine",
-    "C": "Ekonomik bir krize dönüşmesine",
-    "D": "Sadece hanedanı ilgilendiren bir mesele olarak kalmasına",
-    "E": "Osmanlı-Timur ilişkilerinin bozulmasına",
+    "secenekler": {
+      "A": "Dini bir sorun olmasına",
+      "B": "Bir iç sorunken uluslararası bir sorun hâline gelmesine",
+      "C": "Ekonomik bir krize dönüşmesine",
+      "D": "Sadece hanedanı ilgilendiren bir mesele olarak kalmasına",
+      "E": "Osmanlı-Timur ilişkilerinin bozulmasına"
+    },
     "dogru_cevap": "B",
     "cozum": "Başlangıçta bir iç sorun olan Cem Sultan meselesi, Cem'in Avrupa'ya sığınmasıyla uluslararası bir sorun haline gelmiştir."
   },
   {
     "soru": "Orhan Bey döneminde Karesioğulları Beyliği'nin Osmanlı topraklarına katılması, Osmanlı Devleti'ne öncelikle hangi alanda büyük bir avantaj sağlamıştır?",
-    "A": "Tarımsal üretimde",
-    "B": "Halifelik makamı üzerinde etkinlik kurmada",
-    "C": "Denizcilik faaliyetlerinde ve Rumeli'ye geçişte",
-    "D": "Doğuya yönelik fetihlerde",
-    "E": "Veraset sisteminin düzenlenmesinde",
+    "secenekler": {
+      "A": "Tarımsal üretimde",
+      "B": "Halifelik makamı üzerinde etkinlik kurmada",
+      "C": "Denizcilik faaliyetlerinde ve Rumeli'ye geçişte",
+      "D": "Doğuya yönelik fetihlerde",
+      "E": "Veraset sisteminin düzenlenmesinde"
+    },
     "dogru_cevap": "C",
     "cozum": "Karesioğulları denizci bir beylikti. Onların alınması Osmanlı'ya donanma ve denizcilik deneyimi kazandırmış, Rumeli'ye geçişi kolaylaştırmıştır."
   },
   {
     "soru": "1402'de Osmanlı Devleti ile Timur İmparatorluğu arasında yapılan Ankara Savaşı, Osmanlı Devleti'nde aşağıdakilerden hangisine yol açmıştır?",
-    "A": "Balkanlardaki hâkimiyetin tamamen kaybedilmesine",
-    "B": "İlk kez top teknolojisinin kullanılmasına",
-    "C": "Devletin yıkılmasına",
-    "D": "Padişah değişikliğine ve Fetret Devri'nin başlamasına",
-    "E": "Halifeliğin Timur'a geçmesine",
+    "secenekler": {
+      "A": "Balkanlardaki hâkimiyetin tamamen kaybedilmesine",
+      "B": "İlk kez top teknolojisinin kullanılmasına",
+      "C": "Devletin yıkılmasına",
+      "D": "Padişah değişikliğine ve Fetret Devri'nin başlamasına",
+      "E": "Halifeliğin Timur'a geçmesine"
+    },
     "dogru_cevap": "D",
     "cozum": "Ankara Savaşı'nda Yıldırım Bayezid esir düştü ve bu durum oğulları arasında taht kavgaları doğurdu. Osmanlı'da Fetret Devri başladı."
   },
   {
     "soru": "Kanuni Sultan Süleyman döneminde Fransa'ya kapitülasyonlar verilmesinin temel amacı aşağıdakilerden hangisidir?",
-    "A": "Fransa'yı ekonomik olarak Osmanlı'ya bağımlı kılmak",
-    "B": "Coğrafi Keşiflerin olumsuz etkisini azaltmak ve Avrupa Hristiyan birliğini parçalamak",
-    "C": "Osmanlı parasının değerini korumak",
-    "D": "Fetret Devri'ni sona erdirmek",
-    "E": "Akdeniz'deki Venedik üstünlüğüne son vermek",
+    "secenekler": {
+      "A": "Fransa'yı ekonomik olarak Osmanlı'ya bağımlı kılmak",
+      "B": "Coğrafi Keşiflerin olumsuz etkisini azaltmak ve Avrupa Hristiyan birliğini parçalamak",
+      "C": "Osmanlı parasının değerini korumak",
+      "D": "Fetret Devri'ni sona erdirmek",
+      "E": "Akdeniz'deki Venedik üstünlüğüne son vermek"
+    },
     "dogru_cevap": "B",
     "cozum": "Kapitülasyonların amacı, Coğrafi Keşiflerin olumsuz etkisini azaltmak ve Habsburglara karşı Fransa'yı yanına çekerek Avrupa birliğini parçalamaktı."
   },
   {
-    "soru": "Yavuz Sultan Selim'in 1516-1517 Mısır Seferi sonucunda aşağıdaki gelişmelerden hangileri yaşanmıştır? I. Halifelik Osmanlılara geçti II. Kutsal Emanetler İstanbul'a getirildi III. Baharat Yolu denetim altına alındı",
-    "A": "Yalnız I",
-    "B": "I ve II",
-    "C": "I ve III",
-    "D": "II ve III",
-    "E": "I, II ve III",
-    "dogru_cevap": "E",
-    "cozum": "Mısır Seferi ile Memlükler yıkıldı, Halifelik Osmanlı'ya geçti, Kutsal Emanetler İstanbul'a getirildi ve Baharat Yolu Osmanlı denetimine girdi."
-  },
-  {
-    "soru": "Osmanlı Devleti'nde Balkanlarda fethedilen topraklara Anadolu'dan getirilen Türkmen ailelerin yerleştirilmesine dayanan politika aşağıdakilerden hangisidir?",
-    "A": "İstimalet",
-    "B": "İskân",
-    "C": "Müsadere",
-    "D": "Pençik",
-    "E": "Tımar",
+    "soru": "I. Murad döneminde kurulan ve Osmanlı ordusunun temel gücünü oluşturan, devşirme sistemiyle asker alınan ocak aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Tımarlı Sipahiler",
+      "B": "Yeniçeri Ocağı",
+      "C": "Akıncılar",
+      "D": "Cebeciler",
+      "E": "Topçu Ocağı"
+    },
     "dogru_cevap": "B",
-    "cozum": "Fethedilen yerlere Anadolu'dan Türkmen aileler yerleştirilmesi 'İskân' politikasıdır."
+    "cozum": "I. Murad döneminde kurulan Yeniçeri Ocağı, Osmanlı'nın en önemli kapıkulu askerî teşkilatıdır."
   },
   {
-    "soru": "Balkanların kesin olarak Türk yurdu hâline gelmesini sağlayan ve Haçlıların umutlarını sona erdiren savaş aşağıdakilerden hangisidir?",
-    "A": "Sırpsındığı Savaşı",
-    "B": "I. Kosova Savaşı",
-    "C": "Niğbolu Savaşı",
-    "D": "Varna Savaşı",
-    "E": "II. Kosova Savaşı",
-    "dogru_cevap": "E",
-    "cozum": "II. Kosova Savaşı Balkanların Osmanlı yurdu olduğunu kesinleştirdi ve Haçlıların umutlarını bitirdi."
+    "soru": "Osmanlı Devleti'nde 'Kanunname-i Ali Osman' adıyla bilinen ve veraset sistemini düzenleyen kanunları çıkaran padişah kimdir?",
+    "secenekler": {
+      "A": "Orhan Bey",
+      "B": "I. Murad",
+      "C": "Fatih Sultan Mehmet",
+      "D": "II. Bayezid",
+      "E": "Kanuni Sultan Süleyman"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Fatih Sultan Mehmet, Kanunname-i Ali Osman ile veraset ve devlet yönetimi hakkında kuralları yazılı hale getirmiştir."
   },
   {
-    "soru": "Fatih Sultan Mehmet'in hazırlattığı Kanunname-i Âli Osman'da geçen ifade ile hangi uygulama yasalaştırılmıştır? 'Saltanat nasip olan şehzadenin, nizam-ı âlem için kardeşlerini öldürmesi uygundur.'",
-    "A": "Müsadere",
-    "B": "Devşirme",
-    "C": "Sancağa çıkma",
-    "D": "Kardeş katli",
-    "E": "Padişahın Divan'a başkanlık yapması",
+    "soru": "Osmanlı Devleti'nde Balkanlarda fethedilen topraklara Türk nüfus yerleştirilmesi, tımar sisteminin uygulanması ve iskân politikası aşağıdakilerden hangisini amaçlamaktadır?",
+    "secenekler": {
+      "A": "Balkanlarda Türk-İslam kültürünün yerleşmesini sağlamak",
+      "B": "Osmanlı'nın doğuya yönelik seferlerini kolaylaştırmak",
+      "C": "Halifeliği Osmanlı'ya geçirmek",
+      "D": "Anadolu'daki siyasi birliği bozmak",
+      "E": "Avrupa'da Coğrafi Keşifleri hızlandırmak"
+    },
+    "dogru_cevap": "A",
+    "cozum": "İskân ve tımar uygulamalarıyla Balkanlarda Türk-İslam kültürü yerleşmiş ve Osmanlı hâkimiyeti pekişmiştir."
+  },
+  {
+    "soru": "II. Mehmet'in İstanbul'u kuşatmasında büyük topların kullanılması aşağıdakilerden hangisinin göstergesidir?",
+    "secenekler": {
+      "A": "Osmanlı'nın denizcilikte ilerlediğini",
+      "B": "Osmanlı'nın Batı Avrupa'yla diplomatik ilişkilerini güçlendirdiğini",
+      "C": "Askeri teknolojiden yararlanıldığını",
+      "D": "Bizans'ın Osmanlı'ya üstün olduğunu",
+      "E": "Osmanlı'nın doğuya yöneldiğini"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İstanbul’un Fethi sırasında Şahi toplarının kullanılması Osmanlı'nın teknolojiyi savaşlarda etkin biçimde kullandığını göstermektedir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin klasik dönemde en geniş sınırlarına ulaştığı padişah aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "I. Murad",
+      "B": "Yıldırım Bayezid",
+      "C": "Fatih Sultan Mehmet",
+      "D": "Kanuni Sultan Süleyman",
+      "E": "II. Selim"
+    },
     "dogru_cevap": "D",
-    "cozum": "Kanunname-i Âli Osman'daki bu ifade, kardeş katlini yasalaştırmıştır."
+    "cozum": "Kanuni Sultan Süleyman döneminde Osmanlı hem doğuda hem batıda en geniş sınırlarına ulaşmıştır."
   },
-  {
-    "soru": "1538'de kazanılan Preveze Deniz Zaferi'nin en önemli sonucu aşağıdakilerden hangisidir?",
-    "A": "Karadeniz bir Türk gölü hâline gelmiştir.",
-    "B": "Akdeniz'de Türk üstünlüğü sağlanmıştır.",
-    "C": "Baharat Yolu denetim altına alınmıştır.",
-    "D": "Kıbrıs fethedilmiştir.",
-    "E": "İspanya fethedilmiştir.",
-    "dogru_cevap": "B",
-    "cozum": "Preveze Zaferi ile Akdeniz'de Osmanlı üstünlüğü sağlanmıştır."
-  },
-  {
-    "soru": "I. Murad döneminde savaş esirlerinin beşte birinin asker olarak yetiştirilmesi esasına dayanan sistem aşağıdakilerden hangisidir?",
-    "A": "Tımar",
-    "B": "İskân",
-    "C": "Devşirme",
-    "D": "Müsadere",
-    "E": "Pençik",
-    "dogru_cevap": "E",
-    "cozum": "Beşte bir anlamına gelen 'Pençik' sistemi savaş esirlerinden asker yetiştirilmesini esas alır."
-  },
-  {
-    "soru": "Yıldırım Bayezid'in 1396 Niğbolu Zaferi'nden sonra Abbasi Halifesi tarafından kendisine verilen unvan aşağıdakilerden hangisidir?",
-    "A": "Padişah-ı Âlem",
-    "B": "Halife-i Rûy-i Zemin",
-    "C": "Sultan-ı İklim-i Rum",
-    "D": "Hadimü'l-Haremeyni'ş-Şerifeyn",
-    "E": "Fatih",
-    "dogru_cevap": "C",
-    "cozum": "Niğbolu Zaferi sonrası Yıldırım Bayezid'e 'Sultan-ı İklim-i Rum' unvanı verilmiştir."
-  },
-  {
-    "soru": "Aşağıdakilerden hangisi Osmanlı Beyliği'nin kısa sürede büyüyerek bir devlet hâline gelmesinin nedenlerinden biri değildir?",
-    "A": "Coğrafi konumunun Bizans sınırında olması",
-    "B": "Yetenekli padişahların başa geçmesi",
-    "C": "Balkanlarda güçlü bir siyasi otoritenin bulunmaması",
-    "D": "Adaletli ve hoşgörülü bir politika (İstimalet) izlemesi",
-    "E": "Doğu'da güçlü Timur İmparatorluğu ile komşu olması",
-    "dogru_cevap": "E",
-    "cozum": "Timur İmparatorluğu Osmanlı için bir avantaj değil, tehdit oluşturmuştur."
-  },
-  {
-    "soru": "Osmanlı Devleti'nde ilk vezirlik, ilk düzenli ordu ve ilk medrese gibi kurumların oluşmasında rol oynayan ve Orhan Bey'in kardeşi olan devlet adamı kimdir?",
-    "A": "Çandarlı Halil Paşa",
-    "B": "Alaeddin Paşa",
-    "C": "Köprülü Mehmet Paşa",
-    "D": "Sokullu Mehmet Paşa",
-    "E": "Malkoçoğlu Bali Bey",
-    "dogru_cevap": "B",
-    "cozum": "Orhan Bey'in kardeşi Alaeddin Paşa, ilk vezirlik ve diğer kurumların oluşumunda etkili olmuştur."
-  },
-  {
-    "soru": "Kanuni Sultan Süleyman döneminde, 1526'da Macaristan ile yapılan ve çok kısa sürede Osmanlı zaferiyle sonuçlanan savaş aşağıdakilerden hangisidir?",
-    "A": "I. Kosova Savaşı",
-    "B": "Varna Savaşı",
-    "C": "Çaldıran Savaşı",
-    "D": "Mohaç Meydan Muharebesi",
-    "E": "Preveze Deniz Zaferi",
-    "dogru_cevap": "D",
-    "cozum": "Mohaç Meydan Muharebesi iki saat sürmüş ve Osmanlı zaferiyle sonuçlanmıştır."
-  },
-  {
-    "soru": "Osmanlı Devleti'nin Kuruluş Dönemi'nde sistemleştirdiği, devlete ait toprakların gelirlerinin maaş karşılığı olarak askerlere ve memurlara verilmesine dayanan sistem aşağıdakilerden hangisidir?",
-    "A": "İltizam",
-    "B": "Müsadere",
-    "C": "Devşirme",
-    "D": "Tımar",
-    "E": "Vakıf",
-    "dogru_cevap": "D",
-    "cozum": "Selçuklulardaki İkta'nın devamı olan Tımar sistemi Osmanlı'da toprak gelirine dayalıdır."
-  },
-  {
-    "soru": "Osmanlı Devleti'nin Fetret Devri'nde Balkanlarda önemli bir toprak kaybı yaşamamasının temel nedeni nedir?",
-    "A": "Bizans'ın Osmanlı'ya yardım etmesi",
-    "B": "Timur'un Balkanlara ilerlememesi",
-    "C": "Beyliklerin Osmanlı'ya destek olması",
-    "D": "Osmanlı'nın uyguladığı adaletli ve hoşgörülü (İstimalet) politika",
-    "E": "Haçlıların kendi aralarında savaşması",
-    "dogru_cevap": "D",
-    "cozum": "Osmanlı'nın hoşgörülü ve adaletli istimalet politikası sayesinde Balkanlarda huzur korunmuş, toprak kaybı yaşanmamıştır."
-  },
-  {
-    "soru": "Anadolu Türk Siyasi Birliği'ni sağlamak için en çok mücadele eden ve bu birliği büyük ölçüde gerçekleştiren ilk Osmanlı padişahı kimdir?",
-    "A": "Orhan Bey",
-    "B": "I. Murad",
-    "C": "Yıldırım Bayezid",
-    "D": "I. Mehmed",
-    "E": "II. Murad",
-    "dogru_cevap": "C",
-    "cozum": "Yıldırım Bayezid Anadolu Türk Siyasi Birliği'ni büyük ölçüde sağlamış ilk padişahtır."
-  },
-  {
-    "soru": "Osmanlı Devleti'nde 'Ülke hanedanın ortak malıdır' anlayışından 'Ülke padişah ve oğullarının ortak malıdır' anlayışına geçerek taht kavgalarını sınırlandırmayı amaçlayan ilk padişah kimdir?",
-    "A": "Osman Bey",
-    "B": "Orhan Bey",
-    "C": "I. Murad",
-    "D": "Yıldırım Bayezid",
-    "E": "Fatih Sultan Mehmet",
-    "dogru_cevap": "C",
-    "cozum": "I. Murad döneminde veraset anlayışı değiştirilerek taht kavgaları sınırlanmaya çalışılmıştır."
-  },
-  {
-    "soru": "Fatih Sultan Mehmet döneminde Karadeniz'in bir Türk gölü hâline gelmesini sağlayan en önemli gelişme aşağıdakilerden hangisidir?",
-    "A": "İstanbul'un fethedilmesi",
-    "B": "Trabzon Rum İmparatorluğu'na son verilmesi",
-    "C": "Kırım Hanlığı'nın Osmanlı himayesine alınması",
-    "D": "Amasra'nın Cenevizlilerden alınması",
-    "E": "Eflak ve Boğdan'ın vergiye bağlanması",
-    "dogru_cevap": "C",
-    "cozum": "Kırım Hanlığı'nın Osmanlı himayesine alınmasıyla Karadeniz Türk gölü haline gelmiştir."
-  },
- {
-    "soru": "Osmanlı Beyliği'nin kurulduğu coğrafyanın Bizans sınırında (uç bölgede) yer almasının; I. Gaza ve cihat ideolojisini canlı tutması, II. Diğer beyliklerle çatışmaktan uzak kalması, III. Alperen ve gaziyan gibi savaşçı gruplar için bir çekim merkezi olması gibi durumlardan hangilerine ortam hazırladığı söylenebilir?",
-    "A": "Yalnız I",
-    "B": "I ve II",
-    "C": "I ve III",
-    "D": "II ve III",
-    "E": "I, II ve III",
-    "dogru_cevap": "E",
-    "cozum": "Osmanlı'nın uç beyliği konumu gaza ruhunu canlı tutmuş, diğer beyliklerle çatışmayı azaltmış ve savaşçı grupları kendine çekmiştir. Bu üçü de gerçekleşmiştir."
-  },
-  {
-    "soru": "Orhan Bey döneminde gerçekleştirilen aşağıdaki faaliyetlerden hangisinin, Osmanlı Devleti'nin yönetim ve idari alanda teşkilatlanmasına yönelik olduğu söylenemez?",
-    "A": "Divan-ı Hümayun'un kurulması",
-    "B": "Vezirlik makamının oluşturulması",
-    "C": "Karesioğulları Beyliği'nin alınması",
-    "D": "İznik'te ilk medresenin açılması",
-    "E": "Yaya ve Müsellem adıyla ilk düzenli ordunun kurulması",
-    "dogru_cevap": "C",
-    "cozum": "C seçeneği fetihle ilgilidir, idari teşkilatlanma değildir. Diğerleri kurumsallaşma faaliyetleridir."
-  },
-  {
-    "soru": "I. Murad döneminde veraset sisteminde yapılan değişiklikle 'Ülke padişah ve oğullarının malıdır' anlayışının getirilmesinin temel amacı aşağıdakilerden hangisidir?",
-    "A": "Şehzadelerin yönetime katılmasını sağlamak",
-    "B": "Taht üzerinde hak iddia edebilecek hanedan üyesi sayısını azaltarak merkezi otoriteyi güçlendirmek",
-    "C": "Ülkenin daha kolay yönetilmesi için eyaletlere ayrılmasını sağlamak",
-    "D": "Türk töresini tamamen ortadan kaldırmak",
-    "E": "Bizans'taki veraset sistemini örnek almak",
-    "dogru_cevap": "B",
-    "cozum": "Amaç, taht kavgalarını azaltmak ve merkezi otoriteyi güçlendirmektir."
-  },
-  {
-    "soru": "Aşağıdaki savaşlardan hangisinin sonucunda, Ankara Savaşı ile bozulan Anadolu Türk Siyasi Birliği'nin kesin olarak yeniden sağlandığı söylenebilir?",
-    "A": "Çaldıran Savaşı",
-    "B": "Otlukbeli Savaşı",
-    "C": "Mercidabık Savaşı",
-    "D": "Turnadağ Savaşı",
-    "E": "Ridaniye Savaşı",
-    "dogru_cevap": "D",
-    "cozum": "Turnadağ Savaşı ile Dulkadiroğulları alınmış, Anadolu Türk Siyasi Birliği kesin olarak sağlanmıştır."
-  },
-  {
-    "soru": "Fatih Sultan Mehmet döneminde; I. Divan başkanlığının sadrazama bırakılması, II. Kırım'ın fethedilmesi, III. Kanunname-i Âli Osman'ın hazırlanması gelişmelerinden hangileri, padişahın otoritesini artırmaya ve mutlak monarşiyi güçlendirmeye yöneliktir?",
-    "A": "Yalnız I",
-    "B": "Yalnız III",
-    "C": "I ve II",
-    "D": "I ve III",
-    "E": "II ve III",
-    "dogru_cevap": "D",
-    "cozum": "Divan başkanlığını bırakması ve Kanunname-i Âli Osman, padişahın mutlak gücünü artırmıştır."
-  },
-  {
-    "soru": "Yıldırım Bayezid döneminde İstanbul ilk kez kuşatılmış ancak alınamamıştır. Aşağıdakilerden hangisi bu kuşatmaların başarısızlıkla sonuçlanmasının nedenlerinden biri değildir?",
-    "A": "Timur tehlikesinin doğuda belirmesi",
-    "B": "Niğbolu Savaşı'nın çıkması ve Haçlı ordusunun gelmesi",
-    "C": "Karamanoğulları'nın isyan etmesi",
-    "D": "Bizans'a Venedik donanmasının yardım getirmesi",
-    "E": "Surları yıkacak güçte büyük topların henüz geliştirilmemiş olması",
-    "dogru_cevap": "D",
-    "cozum": "Bu dönemde Venedik’in doğrudan yardımı olmamıştır. Diğerleri başarısızlık nedenidir."
-  },
-  {
-    "soru": "Aşağıdakilerden hangisi, Yavuz Sultan Selim'in Mısır Seferi'nin doğrudan bir sonucu olarak ortaya çıkan dini ve siyasi bir gelişmedir?",
-    "A": "Baharat Yolu'nun tamamen Osmanlı denetimine girmesi",
-    "B": "Venedik'in Kıbrıs için Memlüklere ödediği vergiyi Osmanlı'ya ödemeye başlaması",
-    "C": "Safevi Devleti ile ilk resmi antlaşmanın imzalanması",
-    "D": "Halifelik makamının Osmanlı padişahlarına geçmesi",
-    "E": "Anadolu Türk Siyasi Birliği'nin sağlanması",
-    "dogru_cevap": "D",
-    "cozum": "Mısır Seferi sonrası halifelik Osmanlı’ya geçti, bu hem dini hem siyasi bir sonuçtur."
-  },
-  {
-    "soru": "Kanuni Sultan Süleyman döneminde Barbaros Hayrettin Paşa'nın Kaptan-ı Deryalığa getirilmesi ve Fransa'ya kapitülasyonların verilmesi gibi politikaların ortak amacı aşağıdakilerden hangisidir?",
-    "A": "Safevi Devleti'ni doğuda baskı altına almak",
-    "B": "Avusturya ve Kutsal Roma-Germen İmparatorluğu'na (Habsburglar) karşı Akdeniz'de ve Avrupa'da üstünlük kurmak",
-    "C": "Coğrafi Keşifleri başlatmak",
-    "D": "Veraset sistemini yeniden düzenlemek",
-    "E": "Balkanlardaki isyanları bastırmak",
-    "dogru_cevap": "B",
-    "cozum": "Her iki politika da Habsburglara karşı Osmanlı üstünlüğünü pekiştirmeye yöneliktir."
-  },
-  {
-    "soru": "Osmanlı Devleti'nin Kuruluş Dönemi'nde Balkanlarda fethettiği topraklara karşı uyguladığı 'İstimalet Politikası' aşağıdakilerden hangisini ifade eder?",
-    "A": "Fethedilen yerlere Türkmenleri yerleştirme",
-    "B": "Savaş esirlerini asker yapma",
-    "C": "Yerel halkın dinine, diline ve geleneklerine karışmayarak gönüllerini kazanma",
-    "D": "Devlet adamlarının mallarına el koyma",
-    "E": "Toprakları gelirine göre bölümlere ayırma",
-    "dogru_cevap": "C",
-    "cozum": "İstimalet, gönül alma, hoşgörü politikasıdır."
-  },
-  {
-    "soru": "I. Mehmed'in (Çelebi) Osmanlı tarihinde 'devletin ikinci kurucusu' olarak anılmasının temel nedeni nedir?",
-    "A": "İstanbul'u fethetmesi",
-    "B": "Anadolu Türk Siyasi Birliği'ni ilk kez sağlaması",
-    "C": "Ankara Savaşı sonrası yaşanan Fetret Devri'ne son vererek devleti yeniden toparlaması",
-    "D": "İlk Osmanlı kanunnamesini hazırlatması",
-    "E": "Donanmayı kurarak denizlere açılması",
-    "dogru_cevap": "C",
-    "cozum": "Fetret Devri’ni bitirip devleti yeniden toparladığı için ikinci kurucu kabul edilir."
-  },
-  {
-    "soru": "Aşağıdakilerden hangisi II. Kosova Savaşı'nın (1448) sonuçlarından biridir?",
-    "A": "Anadolu'nun kesin olarak Türk yurdu haline gelmesi",
-    "B": "Osmanlı Devleti'nin Fetret Devri'ne girmesi",
-    "C": "Balkanların kesin olarak Türk yurdu hâline gelmesi ve Haçlıların savunmaya geçmesi",
-    "D": "Karesioğulları Beyliği'nin Osmanlı'ya katılması",
-    "E": "Edirne'nin başkent yapılması",
-    "dogru_cevap": "C",
-    "cozum": "II. Kosova, Balkanların kesin olarak Osmanlı yurdu olmasını sağlamıştır."
-  },
-  {
-    "soru": "Osmanlı Devleti'nde Fatih Sultan Mehmet ile başlayan padişahların Divan toplantılarına doğrudan başkanlık etmeyip, toplantıları 'Kasr-ı Adl' adı verilen bir pencereden takip etme geleneğinin temel amacı nedir?",
-    "A": "Toplantıların daha hızlı yapılmasını sağlamak",
-    "B": "Divan'ın önemini azaltmak",
-    "C": "Padişahın mutlak otoritesini ve Divan üyelerinden daha üstün bir konumda olduğunu vurgulamak",
-    "D": "Veziriazamın yetkilerini kısıtlamak",
-    "E": "Toplantılarda daha fazla konunun görüşülmesine olanak tanımak",
-    "dogru_cevap": "C",
-    "cozum": "Padişahın Divan’ın üstünde mutlak otoriteye sahip olduğunu göstermek amaçlanmıştır."
-  },
-  {
-    "soru": "Fatih Sultan Mehmet'in Trabzon Rum İmparatorluğu'na son vermesi ve Kırım'ı Osmanlı'ya bağlaması, aşağıdaki denizlerden hangisindeki Osmanlı hâkimiyetini pekiştirmeye yönelik bir politikadır?",
-    "A": "Akdeniz",
-    "B": "Ege Denizi",
-    "C": "Karadeniz",
-    "D": "Kızıldeniz",
-    "E": "Marmara Denizi",
-    "dogru_cevap": "C",
-    "cozum": "Trabzon ve Kırım’ın alınması Karadeniz hâkimiyetini pekiştirmeye yöneliktir."
-  },
-  {
-    "soru": "Aşağıdaki padişahlardan hangisinin dönemi, kardeşi Cem Sultan ile yaşadığı taht mücadelesinin uluslararası bir soruna dönüşmesi nedeniyle fetihler açısından diğerlerine göre daha sönük geçmiştir?",
-    "A": "Fatih Sultan Mehmet",
-    "B": "II. Bayezid",
-    "C": "Yavuz Sultan Selim",
-    "D": "Kanuni Sultan Süleyman",
-    "E": "I. Murad",
-    "dogru_cevap": "B",
-    "cozum": "Cem Sultan Olayı, II. Bayezid dönemini fetihler açısından sönük kılmıştır."
-  },
-  {
-    "soru": "Kanuni Sultan Süleyman döneminde Fransa'ya verilen kapitülasyonların, ilerleyen yüzyıllarda Osmanlı Devleti için büyük bir ekonomik soruna dönüşmesinin temel nedeni nedir?",
-    "A": "Fransa'nın bu ayrıcalıkları kötüye kullanması",
-    "B": "Diğer Avrupa devletlerine de benzer ayrıcalıkların tanınması ve tek taraflı olmaktan çıkması",
-    "C": "Osmanlı padişahlarının kapitülasyonları sık sık iptal etmesi",
-    "D": "Osmanlı sanayisinin Avrupa ile rekabet edebilecek güce ulaşması",
-    "E": "Baharat Yolu'nun yeniden önem kazanması",
-    "dogru_cevap": "B",
-    "cozum": "Kapitülasyonlar zamanla tüm Avrupa’ya yayıldı ve Osmanlı ekonomisini zayıflattı."
-  },
-  {
-    "soru": "Osmanlı donanmasının tarihinde kazandığı ilk büyük zafer olan ve Akdeniz'de Osmanlı üstünlüğünü başlatan Preveze Deniz Zaferi, aşağıdaki padişahlardan hangisinin döneminde gerçekleşmiştir?",
-    "A": "II. Mehmet",
-    "B": "II. Bayezid",
-    "C": "I. Selim",
-    "D": "I. Süleyman",
-    "E": "III. Murad",
-    "dogru_cevap": "D",
-    "cozum": "Preveze Deniz Zaferi (1538), Kanuni döneminde kazanılmıştır."
-  },
-  {
-    "soru": "\"Osmanlılar, Bizans'a komşu olmalarına rağmen ilk fetihlerini doğuya, diğer Türk beyliklerine doğru yapmışlardır.\" Yukarıdaki bilgi neden yanlıştır?",
-    "A": "Osmanlılar ilk fetihlerini Balkanlara doğru yapmıştır.",
-    "B": "Osmanlılar ilk fetihlerini Bizans'a ait topraklar üzerine yaparak batıya doğru ilerlemiştir.",
-    "C": "Osmanlılar diğer beyliklerle hiç savaşmamıştır.",
-    "D": "Osmanlılar ilk olarak Memlükler ile savaşmıştır.",
-    "E": "Timur, Osmanlıların doğuya ilerlemesini engellemiştir.",
-    "dogru_cevap": "B",
-    "cozum": "Osmanlı ilk fetihlerini Bizans’a karşı batıya doğru yapmıştır."
-  },
-  {
-    "soru": "I. Koyunhisar Savaşı, II. Sazlıdere Savaşı, III. I. Kosova Savaşı. Yukarıdaki savaşların ortak özelliği aşağıdakilerden hangisidir?",
-    "A": "Haçlı ordularına karşı yapılmış olmaları",
-    "B": "Balkanlarda gerçekleşmiş olmaları",
-    "C": "Kuruluş Dönemi'nde Osmanlı'nın zaferiyle sonuçlanmaları",
-    "D": "Padişahların savaş meydanında şehit düşmesi",
-    "E": "İstanbul'un fethini kolaylaştırmaları",
-    "dogru_cevap": "C",
-    "cozum": "Üçü de Kuruluş Dönemi’nde Osmanlı zaferiyle sonuçlanmıştır."
-  },
-  {
-    "soru": "Aşağıdakilerden hangisi, Osmanlı Devleti'nin Yükselme Dönemi'nde Akdeniz ve Karadeniz'deki hâkimiyetini güçlendirmeye yönelik faaliyetlerinden biri değildir?",
-    "A": "Rodos Adası'nın fethi",
-    "B": "Kıbrıs Adası'nın fethi",
-    "C": "Preveze Deniz Zaferi'nin kazanılması",
-    "D": "Belgrad'ın fethi",
-    "E": "Kırım'ın himaye altına alınması",
-    "dogru_cevap": "D",
-    "cozum": "Belgrad kara hâkimiyetini ilgilendirir, diğerleri deniz hâkimiyetiyle ilgilidir."
-  },
-  {
-    "soru": "Yükselme Dönemi Osmanlı padişahları, Venedik ve Ceneviz gibi denizci İtalyan şehir devletleriyle genellikle mücadele içinde olmuşlardır. Bu mücadelenin temel nedeni aşağıdakilerden hangisidir?",
-    "A": "Venedik ve Ceneviz'in Protestanlığı desteklemesi",
-    "B": "Doğu Akdeniz ve Karadeniz ticaret yolları üzerindeki hâkimiyet rekabeti",
-    "C": "Osmanlı şehzadelerini taht için kışkırtmaları",
-    "D": "İki tarafın da Balkanlarda yayılma amacı gütmesi",
-    "E": "İtalya'nın siyasi birliğini kurmak istemeleri",
-    "dogru_cevap": "B",
-    "cozum": "Mücadelenin sebebi ticaret yolları üzerindeki hâkimiyet rekabetidir."
-  },
+    {
+      "soru": "Osmanlı Devleti'nde Rumeli'de fethedilen topraklarda uygulanan 'İstimalet Politikası'nın temel amacı aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Hristiyan halka zorla İslamiyet’i kabul ettirmek",
+        "B": "Yerel halka hoşgörülü davranarak Osmanlı yönetimine ısındırmak",
+        "C": "Balkanlarda kalıcı Türk nüfusunu azaltmak",
+        "D": "Rumeli’de Bizans kültürünü yaşatmak",
+        "E": "Halifeliği Osmanlı hanedanına geçirmek"
+      },
+      "dogru_cevap": "B",
+      "cozum": "İstimalet politikası, fethedilen bölgelerde halka hoşgörüyle yaklaşarak Osmanlı yönetimine bağlılığı artırmayı amaçlamıştır."
+    },
+    {
+      "soru": "Osmanlı Devleti'nde ilk medrese hangi padişah döneminde ve nerede kurulmuştur?",
+      "secenekler": {
+        "A": "Osman Bey – Söğüt",
+        "B": "Orhan Bey – İznik",
+        "C": "I. Murad – Edirne",
+        "D": "Yıldırım Bayezid – Bursa",
+        "E": "Fatih Sultan Mehmet – İstanbul"
+      },
+      "dogru_cevap": "B",
+      "cozum": "İlk Osmanlı medresesi 1331’de Orhan Bey döneminde İznik’te açılmıştır."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde Balkanlarda uygulanan 'Devşirme Sistemi'nin amacı aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Türk halkının vergi yükünü azaltmak",
+        "B": "Hristiyan halktan alınan çocukları eğiterek devlet hizmetine kazandırmak",
+        "C": "Yeni toprakların Osmanlı topraklarına katılmasını hızlandırmak",
+        "D": "İslamiyet’in Balkanlarda yayılmasını engellemek",
+        "E": "Beyliklerin Osmanlı’ya bağlanmasını sağlamak"
+      },
+      "dogru_cevap": "B",
+      "cozum": "Devşirme sistemi ile Hristiyan çocuklar alınarak eğitiliyor ve kapıkulu ocaklarına kazandırılıyordu."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde 1444 yılında imzalanan Edirne-Segedin Antlaşması, hangi olayın ardından bozulmuştur?",
+      "secenekler": {
+        "A": "Varna Savaşı",
+        "B": "Kosova Savaşı",
+        "C": "Niğbolu Savaşı",
+        "D": "İstanbul’un Fethi",
+        "E": "Ankara Savaşı"
+      },
+      "dogru_cevap": "A",
+      "cozum": "1444 Edirne-Segedin Antlaşması Haçlıların saldırısıyla bozuldu, ardından Osmanlı Varna Savaşı’nı kazandı."
+    },
+    {
+      "soru": "Osmanlı Devleti'nde II. Mehmet’in tahta geçmeden önce imzaladığı 'Çandarlı Halil Paşa'nın yetkilerini sınırlayan' uygulama aşağıdakilerden hangisinin göstergesidir?",
+      "secenekler": {
+        "A": "Merkezi otoritenin zayıflaması",
+        "B": "Padişahın mutlak otoritesini güçlendirmesi",
+        "C": "Şeyhülislamlığın kaldırılması",
+        "D": "Divan-ı Hümayun’un yetkilerinin tamamen kaldırılması",
+        "E": "Osmanlı’da veraset sisteminin değişmesi"
+      },
+      "dogru_cevap": "B",
+      "cozum": "Fatih, Çandarlı Halil Paşa’nın yetkilerini sınırlayarak padişahın mutlak otoritesini güçlendirmiştir."
+    },
+    {
+      "soru": "Osmanlı Devleti’nin Balkanlarda kalıcı olmasını sağlayan en önemli unsur aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "İstimalet ve iskân politikaları",
+        "B": "Denizcilik faaliyetleri",
+        "C": "İpek Yolu ticaretini kontrol altına almak",
+        "D": "Halifelik makamını ele geçirmek",
+        "E": "Doğu seferleri"
+      },
+      "dogru_cevap": "A",
+      "cozum": "Balkanlarda iskân ve istimalet politikaları Osmanlı’nın kalıcı olmasını sağlamıştır."
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi Yıldırım Bayezid döneminde yaşanmıştır?",
+      "secenekler": {
+        "A": "İlk medresenin açılması",
+        "B": "İlk kez cülus bahşişi verilmesi",
+        "C": "İlk defa top kullanılması",
+        "D": "İlk Osmanlı donanmasının kurulması",
+        "E": "İstanbul’un kuşatılması"
+      },
+      "dogru_cevap": "E",
+      "cozum": "Yıldırım Bayezid, İstanbul’u ilk kez kuşatan Osmanlı padişahıdır."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde I. Murad döneminde kurulan ve savaşlarda büyük yararlılık gösteren süvari birliklerine ne ad verilirdi?",
+      "secenekler": {
+        "A": "Yeniçeriler",
+        "B": "Tımarlı Sipahiler",
+        "C": "Akıncılar",
+        "D": "Azaplar",
+        "E": "Cebeciler"
+      },
+      "dogru_cevap": "C",
+      "cozum": "Akıncılar, Osmanlı’nın öncü süvari birlikleriydi ve keşif, akın görevlerinde bulunuyorlardı."
+    },
+    {
+      "soru": "Osmanlı Devleti’nin kuruluş döneminde Bizans ile yapılan ilk savaş aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Maltepe (Pelekanon) Savaşı",
+        "B": "Koyunhisar Savaşı",
+        "C": "Sırpsındığı Savaşı",
+        "D": "Kosova Savaşı",
+        "E": "Varna Savaşı"
+      },
+      "dogru_cevap": "B",
+      "cozum": "1302’de Koyunhisar Savaşı Osmanlı ile Bizans arasındaki ilk savaştır."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde yükselme döneminde 'Kanuni Sultan Süleyman' döneminde çıkarılan 'Kanunname' hangi alandaki gelişmeyi göstermektedir?",
+      "secenekler": {
+        "A": "Hukuk alanında şeri ve örfi kanunların düzenlenmesi",
+        "B": "Eğitim sisteminin medrese merkezli olması",
+        "C": "Devletin doğuya yönelmesi",
+        "D": "Halifeliğin Osmanlı’ya geçmesi",
+        "E": "Yeniçeri Ocağı’nın kapatılması"
+      },
+      "dogru_cevap": "A",
+      "cozum": "Kanuni, şeri hukuk ile örfi hukuku birlikte düzenleyerek Osmanlı hukuk sistemini geliştirmiştir."
+    },
         {
             "soru": "Osmanlı Devleti'nin kuruluşunda ve ilk dönemlerinde, Bizans'a karşı fetihleri kolaylaştıran \"Gaza ve Cihad\" anlayışına en uygun düşen grup aşağıdakilerden hangisidir?",
             "secenekler": {
@@ -1272,6 +1169,7 @@ soru_bankasi = {
         }
     ],
 
+##
     "5) Osmanlı Devleti Kültür ve Medeniyeti": [
   {
     "soru": "Osmanlı Devleti'nde Divan-ı Hümayun üyesi olan ve temel görevi adalet işlerini yürütmenin yanı sıra kadı ve müderrislerin atamasını yapmak olan görevli aşağıdakilerden hangisidir?",
@@ -1586,6 +1484,8 @@ soru_bankasi = {
             "cozum": "Bu soru, Osmanlı külliye mimarisinin ana bileşenini sorgulamaktadır.\n\nAnaliz: Külliye, bir caminin etrafında toplanmış, birden çok işlevi olan yapıların (medrese, darüşşifa, kütüphane vb.) oluşturduğu komplekstir. Bu yapıların merkezinde her zaman Cami yer alır.\nDoğru Cevap: C) Cami\nKoçunun Yorumu: Külliye yapısı, Osmanlı'nın çok fonksiyonlu ve bütüncül şehir planlamasının bir örneğidir."
         }
     ],
+
+##
     "6) 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [
   {
     "soru": "Osmanlı Devleti'nde 18. yüzyılda yapılan ıslahatların, 17. yüzyıldakilerden temel farkı aşağıdakilerden hangisidir?",
@@ -2163,7 +2063,6 @@ soru_bankasi = {
     "dogru_cevap": "D",
     "cozum": "Özellikle Almanya’ya dayatılan Versay Antlaşması, Alman halkında öfke ve intikam duygusu yarattı. Bu da Hitler’in yükselişine ve II. Dünya Savaşı’na zemin hazırladı.\nDoğru Cevap: D) Almanya'da hoşnutsuzluğun artması ve II. Dünya Savaşı'na zemin hazırlaması\nKoçunun Yorumu: Tarih bir bütündür; I. Dünya Savaşı'nın sonuçları, II. Dünya Savaşı'nın nedenlerini oluşturur."
   },
-    ##### ### ##### ### ##### ### ##### ###
   {
     "soru": "Osmanlı Devleti'nde 18. yüzyılda yapılan ıslahatların, 17. yüzyıldakilerden temel farkı aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -2332,6 +2231,8 @@ soru_bankasi = {
     "dogru_cevap": "C",
     "cozum": "Analiz: Tarhuncu Ahmet Paşa ilk kez devlet bütçesi hazırlamıştır.\nDoğru Cevap: C) Devletin gelir ve giderlerini hesaplayarak ilk modern bütçeyi hazırlamak\nKoçunun Yorumu: Tarhuncu’nun odak noktası maliye idi."
   }
+
+##
     ],
     "7) 19. yy (Dağılma) ve Islahatlar": [
       # 1
@@ -2635,8 +2536,8 @@ soru_bankasi = {
         "cozum": "II. Mahmut taşradaki yerel güçleri zayıflatıp merkezi otoriteyi güçlendirmeyi hedefledi.",
         "kocunun_yorumu": "Yaptığı her reformun temelinde merkeziyetçilik vardır."
     }
-      #########
-
+      
+##
     ],
     "8) Trablusgarp ve Balkan Savaşları": [
      {
@@ -3084,6 +2985,8 @@ soru_bankasi = {
         "cozum": "Analiz: 1913 Babıali Baskını ile İttihat ve Terakki iktidarı ele geçirmiş ve Balkan Savaşları sonrası Osmanlı iç politikasına damga vurmuştur.\nDoğru Cevap: A) Babıali Baskını\nKoçunun Yorumu: Bu soru, askeri yenilgilerin siyasi sonuçlarını ölçer."
     }
     ],
+
+##
     "9) I. Dünya Savaşı ve Sonuçları": [
     {
         "soru": "Osmanlı Devleti'nin, I. Dünya Savaşı'nın başında tarafsızlığını ilan etmesine rağmen kısa bir süre sonra İttifak Devletleri yanında savaşa girmesinde aşağıdakilerden hangisi etkili olmamıştır?",
@@ -3912,235 +3815,284 @@ soru_bankasi = {
     "dogru_cevap": "D",
     "cozum": "Saltanatın kaldırılması Türkiye Cumhuriyeti döneminde gerçekleşmiştir, savaşın doğrudan bir sonucu değildir."
   }
-     ],
+    ],
+    
+##
     "10) Milli Mücadele'nin Hazırlık Dönemi": [
   {
     "soru": "Mustafa Kemal'in 9. Ordu Müfettişi olarak Samsun'a gönderilmesindeki resmi görevi \"bölgedeki asayişi sağlamak ve Türklerin elindeki silahları toplamak\" iken, kendisinin asıl amacı Milli Mücadele'yi başlatmaktı. Bu durum, aşağıdakilerden hangisini en iyi şekilde açıklar?",
-    "A": "Padişah Vahdettin'in Milli Mücadele'yi gizlice desteklediğini",
-    "B": "Mustafa Kemal'in, İstanbul Hükûmeti'nin verdiği görevi kendi amaçları doğrultusunda bir fırsat olarak kullandığını",
-    "C": "İtilaf Devletleri'nin Mustafa Kemal'in Samsun'a çıkışına izin verdiğini",
-    "D": "İstanbul Hükûmeti'nin Anadolu'daki direnişi örgütlemek istediğini",
-    "E": "Bölgedeki Rum çetelerinin çok güçlü olduğunu",
+    "secenekler": {
+      "A": "Padişah Vahdettin'in Milli Mücadele'yi gizlice desteklediğini",
+      "B": "Mustafa Kemal'in, İstanbul Hükûmeti'nin verdiği görevi kendi amaçları doğrultusunda bir fırsat olarak kullandığını",
+      "C": "İtilaf Devletleri'nin Mustafa Kemal'in Samsun'a çıkışına izin verdiğini",
+      "D": "İstanbul Hükûmeti'nin Anadolu'daki direnişi örgütlemek istediğini",
+      "E": "Bölgedeki Rum çetelerinin çok güçlü olduğunu"
+    },
     "dogru_cevap": "B",
     "cozum": "Soru, Mustafa Kemal'in stratejik dehasını sorguluyor. O, kendisine verilen yasal ve resmi bir görevi, tam tersi bir amaç için, yani milli bir direniş başlatmak için bir kalkan ve bir fırsat olarak kullanmıştır."
   },
   {
     "soru": "Amasya Genelgesi'nin \"Milletin bağımsızlığını, yine milletin azim ve kararı kurtaracaktır.\" maddesi, Kurtuluş Savaşı'nın hangi iki temel unsurunu bir arada belirtmiştir?",
-    "A": "Gerekçe ve Yöntem",
-    "B": "Amaç ve Yöntem",
-    "C": "Gerekçe ve Süre",
-    "D": "Amaç ve Lider",
-    "E": "Yöntem ve Süre",
+    "secenekler": {
+      "A": "Gerekçe ve Yöntem",
+      "B": "Amaç ve Yöntem",
+      "C": "Gerekçe ve Süre",
+      "D": "Amaç ve Lider",
+      "E": "Yöntem ve Süre"
+    },
     "dogru_cevap": "B",
     "cozum": "Bu, genelgenin en can alıcı maddesidir. Maddenin ilk kısmı, \"milletin bağımsızlığı\", mücadelenin amacını belirtir. İkinci kısım, \"milletin azim ve kararı\", bu amaca nasıl ulaşılacağını, yani yöntemi belirtir."
   },
   {
     "soru": "Erzurum Kongresi'nin \"toplanış amacı bakımından bölgesel, aldığı kararlar bakımından ulusal\" olarak nitelendirilmesinin nedeni aşağıdakilerden hangisidir?",
-    "A": "Sadece Doğu illerinden delegelerin katılmasına rağmen, alınan kararların tüm vatanı ilgilendirmesi",
-    "B": "Kongre'nin Erzurum gibi doğuda bir şehirde toplanması",
-    "C": "Kongre'ye katılan delege sayısının az olması",
-    "D": "Padişahın onayıyla toplanmış olması",
-    "E": "Kararların İtilaf Devletleri tarafından tanınması",
+    "secenekler": {
+      "A": "Sadece Doğu illerinden delegelerin katılmasına rağmen, alınan kararların tüm vatanı ilgilendirmesi",
+      "B": "Kongre'nin Erzurum gibi doğuda bir şehirde toplanması",
+      "C": "Kongre'ye katılan delege sayısının az olması",
+      "D": "Padişahın onayıyla toplanmış olması",
+      "E": "Kararların İtilaf Devletleri tarafından tanınması"
+    },
     "dogru_cevap": "A",
     "cozum": "Kongre, Doğu Anadolu Müdafaa-i Hukuk Cemiyeti tarafından, yani Doğu illerini temsilen toplanmıştır (bölgesel amaç). Ancak kongrede alınan \"Milli sınırlar içinde vatan bir bütündür\" veya \"Manda ve himaye kabul olunamaz\" gibi kararlar, sadece Doğu'yu değil, tüm ülkeyi (ulusu) ilgilendiren kararlardır."
   },
   {
     "soru": "Milli Mücadele'nin hazırlık döneminde \"manda ve himaye\" fikrinin ilk kez reddedildiği ve kesin olarak reddedildiği kongreler, sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
-    "A": "Havza - Amasya",
-    "B": "Erzurum - Sivas",
-    "C": "Sivas - Erzurum",
-    "D": "Amasya - Sivas",
-    "E": "Erzurum - Amasya Görüşmeleri",
+    "secenekler": {
+      "A": "Havza - Amasya",
+      "B": "Erzurum - Sivas",
+      "C": "Sivas - Erzurum",
+      "D": "Amasya - Sivas",
+      "E": "Erzurum - Amasya Görüşmeleri"
+    },
     "dogru_cevap": "B",
     "cozum": "Tam bağımsızlığa aykırı olan manda ve himaye fikri, ilk kez Erzurum Kongresi'nde \"kabul edilemez\" denilerek reddedilmiştir. Ancak tartışmalar devam edince, Sivas Kongresi'nde \"bir daha gündeme gelmemek üzere kesin olarak\" reddedilmiştir."
   },
   {
     "soru": "İstanbul Hükûmeti'nin, Temsil Heyeti'nin siyasi varlığını ve Anadolu'daki Milli Mücadele hareketini resmen tanıdığı ilk gelişme aşağıdakilerden hangisidir?",
-    "A": "Havza Genelgesi'nin yayınlanması",
-    "B": "Erzurum Kongresi'nin toplanması",
-    "C": "Sivas Kongresi sonrası Damat Ferit Paşa'nın istifa etmesi ve Ali Rıza Paşa Hükûmeti ile Amasya Görüşmeleri'nin yapılması",
-    "D": "Son Osmanlı Mebusan Meclisi'nin toplanması",
-    "E": "Misakımillî'nin kabul edilmesi",
+    "secenekler": {
+      "A": "Havza Genelgesi'nin yayınlanması",
+      "B": "Erzurum Kongresi'nin toplanması",
+      "C": "Sivas Kongresi sonrası Damat Ferit Paşa'nın istifa etmesi ve Ali Rıza Paşa Hükûmeti ile Amasya Görüşmeleri'nin yapılması",
+      "D": "Son Osmanlı Mebusan Meclisi'nin toplanması",
+      "E": "Misakımillî'nin kabul edilmesi"
+    },
     "dogru_cevap": "C",
     "cozum": "Sivas Kongresi'nin gücü karşısında direnemeyen Damat Ferit Hükûmeti'nin istifası, Anadolu hareketinin ilk siyasi zaferidir. Yerine kurulan ılımlı Ali Rıza Paşa Hükûmeti'nin, Temsil Heyeti ile masaya oturup Amasya Görüşmeleri'ni yapması ise, isyancı olarak gördüğü bu hareketi artık resmen bir muhatap olarak kabul ettiğini, yani \"resmen tanıdığını\" gösterir."
   },
   {
     "soru": "Sivas Kongresi'nde tüm milli cemiyetlerin \"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti\" adı altında birleştirilmesinin temel amacı nedir?",
-    "A": "Padişaha bağlılığı bildirmek",
-    "B": "İtilaf Devletleri'nden yardım istemek",
-    "C": "Manda ve himayeyi kabul etmek",
-    "D": "Milli Mücadele'yi tek bir merkezden yöneterek ulusal birliği sağlamak",
-    "E": "Yeni bir anayasa hazırlamak",
+    "secenekler": {
+      "A": "Padişaha bağlılığı bildirmek",
+      "B": "İtilaf Devletleri'nden yardım istemek",
+      "C": "Manda ve himayeyi kabul etmek",
+      "D": "Milli Mücadele'yi tek bir merkezden yöneterek ulusal birliği sağlamak",
+      "E": "Yeni bir anayasa hazırlamak"
+    },
     "dogru_cevap": "D",
     "cozum": "Dağınık ve bölgesel direnişleri tek bir çatı altında toplayarak, mücadeleye ulusal bir karakter kazandırmak ve daha etkili kılmak amaçlanmıştır. Bu karar, Milli Mücadele'nin \"örgütlenme\" aşamasının zirvesidir."
   },
   {
     "soru": "Aşağıdakilerden hangisi, Temsil Heyeti'nin Sivas Kongresi'nden sonra Ankara'yı Milli Mücadele'nin merkezi olarak seçmesinin nedenlerinden biri değildir?",
-    "A": "Batı Cephesi'ne yakın olması",
-    "B": "İşgal altında olmaması ve güvenli bir konumda bulunması",
-    "C": "İstanbul'daki Mebusan Meclisi çalışmalarını yakından takip etme imkânı sunması",
-    "D": "Ulaşım ve haberleşme hatlarının kesişim noktasında yer alması",
-    "E": "Ankara'nın Osmanlı Devleti'ne başkentlik yapmış olması",
+    "secenekler": {
+      "A": "Batı Cephesi'ne yakın olması",
+      "B": "İşgal altında olmaması ve güvenli bir konumda bulunması",
+      "C": "İstanbul'daki Mebusan Meclisi çalışmalarını yakından takip etme imkânı sunması",
+      "D": "Ulaşım ve haberleşme hatlarının kesişim noktasında yer alması",
+      "E": "Ankara'nın Osmanlı Devleti'ne başkentlik yapmış olması"
+    },
     "dogru_cevap": "E",
     "cozum": "Ankara, Osmanlı'ya hiç başkentlik yapmamıştır. Bu seçim tamamen stratejik ve coğrafi nedenlere dayanmaktadır. ÖSYM, bir kararın arkasındaki \"stratejik\" nedenleri sorgular. Ankara'nın seçimi, tesadüf değil, iyi düşünülmüş bir askeri ve siyasi hamledir."
   },
   {
     "soru": "Son Osmanlı Mebusan Meclisi'nde kabul edilen Misakımillî kararları arasında, Kars, Ardahan, Batum ve Batı Trakya'nın geleceğinin belirlenmesi için hangi yönteme başvurulması istenmiştir?",
-    "A": "İtilaf Devletleri'nin kararına",
-    "B": "Padişahın fermanına",
-    "C": "Milletler Cemiyeti'nin hakemliğine",
-    "D": "Halk oylamasına (Referandum)",
-    "E": "Silahlı mücadeleye",
+    "secenekler": {
+      "A": "İtilaf Devletleri'nin kararına",
+      "B": "Padişahın fermanına",
+      "C": "Milletler Cemiyeti'nin hakemliğine",
+      "D": "Halk oylamasına (Referandum)",
+      "E": "Silahlı mücadeleye"
+    },
     "dogru_cevap": "D",
     "cozum": "Misakımillî, Wilson İlkeleri'ndeki \"self-determinasyon\" (halkların kendi kaderini tayin etmesi) ilkesine dayanarak, bu bölgelerin geleceğine halkın kendisinin karar vermesi gerektiğini savunmuştur. Bu madde, Milli Mücadele'nin ne kadar demokratik ve uluslararası hukuka uygun bir zemine dayandırılmaya çalışıldığının kanıtıdır."
   },
   {
     "soru": "Misakımillî'de yer alan \"Siyasi, adli ve mali gelişmemizi engelleyen her türlü sınırlamalar (kapitülasyonlar) kaldırılmalıdır.\" maddesi ile aşağıdakilerden hangisine ilk kez açıkça karşı çıkılmıştır?",
-    "A": "Padişahın otoritesine",
-    "B": "Azınlık haklarına",
-    "C": "Manda ve himayeye",
-    "D": "Kapitülasyonlara",
-    "E": "Dış borçlara",
+    "secenekler": {
+      "A": "Padişahın otoritesine",
+      "B": "Azınlık haklarına",
+      "C": "Manda ve himayeye",
+      "D": "Kapitülasyonlara",
+      "E": "Dış borçlara"
+    },
     "dogru_cevap": "D",
     "cozum": "Manda ve himaye kongrelerde reddedilmişti. Kapitülasyonların, yani ekonomik bağımsızlığı yok eden ayrıcalıkların kaldırılması fikri ise ilk kez resmi bir metin olan Misakımillî'de bu kadar net bir şekilde ifade edilmiştir. Misakımillî, sadece toprak bütünlüğünü değil, aynı zamanda \"tam bağımsızlığı\" (ekonomik, siyasi, adli) hedefler."
   },
   {
     "soru": "İtilaf Devletleri'nin 16 Mart 1920'de İstanbul'u resmen işgal etmelerinin doğrudan nedeni aşağıdakilerden hangisidir?",
-    "A": "Sivas Kongresi'nin toplanması",
-    "B": "Temsil Heyeti'nin Ankara'ya gelmesi",
-    "C": "Son Osmanlı Mebusan Meclisi'nin Misakımillî'yi kabul etmesi",
-    "D": "Mustafa Kemal'in Samsun'a çıkması",
-    "E": "Havza Genelgesi'nin yayınlanması",
+    "secenekler": {
+      "A": "Sivas Kongresi'nin toplanması",
+      "B": "Temsil Heyeti'nin Ankara'ya gelmesi",
+      "C": "Son Osmanlı Mebusan Meclisi'nin Misakımillî'yi kabul etmesi",
+      "D": "Mustafa Kemal'in Samsun'a çıkması",
+      "E": "Havza Genelgesi'nin yayınlanması"
+    },
     "dogru_cevap": "C",
     "cozum": "İtilaf Devletleri, kendi kontrollerinde toplandığını düşündükleri meclisten, Sevr'i kabul etmesini beklerken, tam tersine bir bağımsızlık yemini olan Misakımillî'nin çıkması üzerine planları bozulmuş ve işgale başvurmuşlardır. İstanbul'un işgali, Milli Mücadele için olumsuz bir olay gibi görünse de, aslında Mustafa Kemal'in haklılığını ortaya çıkarmış ve Ankara'da yeni bir meclisin (TBMM) kurulmasını meşrulaştırmıştır."
   },
   {
     "soru": "Amasya Genelgesi'nin, Mustafa Kemal'in tek başına aldığı bir karar olmadığını, Kazım Karabekir, Rauf Orbay, Refet Bele ve Ali Fuat Cebesoy gibi komutanların da onayını aldığını göstermesi, aşağıdakilerden hangisine yöneliktir?",
-    "A": "Padişaha bağlılığı sürdürmeye",
-    "B": "Mücadeleyi kişisel olmaktan çıkarıp, ulusa mal etmeye",
-    "C": "İtilaf Devletleri ile uzlaşma aramaya",
-    "D": "İstanbul Hükûmeti ile ortak hareket etmeye",
-    "E": "Bolşevik Rusya'dan yardım istemeye",
+    "secenekler": {
+      "A": "Padişaha bağlılığı sürdürmeye",
+      "B": "Mücadeleyi kişisel olmaktan çıkarıp, ulusa mal etmeye",
+      "C": "İtilaf Devletleri ile uzlaşma aramaya",
+      "D": "İstanbul Hükûmeti ile ortak hareket etmeye",
+      "E": "Bolşevik Rusya'dan yardım istemeye"
+    },
     "dogru_cevap": "B",
     "cozum": "Mustafa Kemal, en başından beri hareketin tek bir kişinin değil, ordunun ve milletin ortak hareketi olduğunu göstermeye çalışmıştır. Bu, mücadeleye katılımı ve meşruiyeti artırmıştır. Mustafa Kemal'in liderliğinin en önemli özelliği, hep \"millet adına\" hareket ettiğini vurgulaması ve önemli kararlara saygın komutanları da dahil etmesidir."
   },
+
   {
     "soru": "Havza Genelgesi'nin temel amacı olan \"milli bilinci uyandırmak\" için önerdiği yöntem ne olmuştur?",
+    "secenekler": {
     "A": "Silahlı direniş başlatmak",
     "B": "Kongreler toplamak",
     "C": "Yabancı devletlere telgraflar çekmek",
     "D": "İşgallere karşı mitingler ve protestolar düzenlemek",
     "E": "İstanbul'a bir heyet göndermek",
+    },
     "dogru_cevap": "D",
     "cozum": "Havza'daki ilk adım, halkın işgallere karşı sessiz kalmamasını sağlamak, tepkisini organize ve sivil bir şekilde göstermesini teşvik etmekti. Milli Mücadele, önce \"fikir\" ve \"protesto\" olarak başlamış, sonra \"örgütlenme\" ve en sonunda \"silahlı mücadele\"ye dönüşmüştür. Havza, bu sürecin ilk adımıdır."
   },
   {
     "soru": "Erzurum Kongresi'nde kurulan Temsil Heyeti'nin yetkisi, Sivas Kongresi'nde nasıl bir değişikliğe uğramıştır?",
+    "secenekler": {
     "A": "Yetkisi tamamen kaldırılmıştır.",
     "B": "Yetkisi sadece Doğu illerini kapsayacak şekilde sınırlandırılmıştır.",
     "C": "Yetkisi tüm yurdu kapsayacak şekilde genişletilmiştir.",
     "D": "Yetkisi İstanbul Hükûmeti'ne devredilmiştir.",
     "E": "Yetkisi sadece askeri konularla sınırlandırılmıştır.",
+    },
     "dogru_cevap": "C",
     "cozum": "Erzurum'da sadece Doğu illerini temsil eden heyet, Sivas'ta tüm Anadolu ve Rumeli'yi temsil eden ulusal bir organ haline getirilmiştir. Temsil Heyeti'nin bu evrimi, Milli Mücadele'nin bölgesellikten ulusallığa geçişinin en somut göstergesidir."
   },
   {
     "soru": "Sivas Kongresi sırasında yaşanan en önemli tartışma konusu aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Saltanatın kaldırılması",
     "B": "Cumhuriyetin ilanı",
     "C": "Kongre başkanlığı ve manda ve himaye fikri",
     "D": "Yeni bir anayasa hazırlanması",
     "E": "Başkentin Ankara'ya taşınması",
+    },
     "dogru_cevap": "C",
     "cozum": "Kongre başlamadan önce Mustafa Kemal'in başkanlığına karşı çıkanlar olmuş, kongre sırasında ise bazı delegeler kurtuluşun ancak bir büyük devletin (ABD) mandası altına girmekle mümkün olacağını savunmuş, ancak bu fikir kesin olarak reddedilmiştir. Bu tartışmalar, Milli Mücadele'nin başlangıcında tam bir fikir birliği olmadığını, \"tam bağımsızlık\" fikrinin Mustafa Kemal'in liderliğinde zorlu tartışmalarla kabul ettirildiğini gösterir."
   },
   {
     "soru": "Amasya Genelgesi'nde yer alan \"Milletin durumunu ve davranışını belirlemek ve sesini dünyaya duyurmak için her türlü etki ve denetimden uzak milli bir kurulun varlığı gereklidir.\" maddesi, aşağıdakilerden hangisinin kurulmasına işaret etmektedir?",
+    "secenekler": {
     "A": "TBMM",
     "B": "Kuvayımilliye",
     "C": "Tekâlif-i Milliye",
     "D": "Temsil Heyeti",
     "E": "Müdafaa-i Hukuk Grubu",
+    },
     "dogru_cevap": "D",
     "cozum": "Bu \"milli kurul\" ifadesi, Erzurum Kongresi'nde vücut bulacak olan ve Sivas'ta ulusallaşacak olan Temsil Heyeti'nin ilk teorik temelidir. Amasya Genelgesi bir \"plan\", Erzurum ve Sivas ise bu \"planın uygulamasıdır\"."
   },
   {
     "soru": "Aşağıdaki gelişmelerden hangisi, kronolojik olarak diğerlerinden daha sonra gerçekleşmiştir?",
+    "secenekler": {
     "A": "Amasya Genelgesi'nin yayınlanması",
     "B": "Erzurum Kongresi'nin toplanması",
     "C": "Misakımillî'nin kabul edilmesi",
     "D": "Havza Genelgesi'nin yayınlanması",
     "E": "Sivas Kongresi'nin toplanması",
+    },
     "dogru_cevap": "C",
     "cozum": "Sıralama: Havza (Mayıs 1919) -> Amasya G. (Haziran 1919) -> Erzurum (Temmuz 1919) -> Sivas (Eylül 1919) -> Misakımillî (Ocak 1920). Hazırlık döneminin kronolojisine hakim olmak, bu dönemden gelecek soruların yarısını doğru çözmek demektir."
   },
   {
     "soru": "Son Osmanlı Mebusan Meclisi'ndeki milli mücadele yanlısı milletvekillerinin, Misakımillî'yi kabul etmek için oluşturdukları grubun adı nedir?",
+    "secenekler": {
     "A": "Müdafaa-i Hukuk Grubu",
     "B": "İttihat ve Terakki Fırkası",
     "C": "Felâh-ı Vatan Grubu",
     "D": "Tesanüt Grubu",
     "E": "Halk Zümresi",
+    },
     "dogru_cevap": "C",
     "cozum": "Mustafa Kemal, vekillerden mecliste bir Müdafaa-i Hukuk Grubu kurmalarını istemişti. Ancak padişahın ve İtilaf Devletleri'nin baskısından çekinen vekiller, daha ılımlı bir isim olan \"Vatanın Kurtuluşu\" anlamına gelen Felâh-ı Vatan grubunu kurmuşlardır. Bu isim değişikliği bile, meclisin İstanbul'da ne kadar büyük bir baskı altında çalıştığının bir göstergesidir."
   },
   {
     "soru": "Aşağıdakilerden hangisi, Sivas Kongresi'nde alınan kararlardan biri değildir?",
+    "secenekler": {
     "A": "Manda ve himayenin kesin olarak reddedilmesi",
     "B": "Tüm milli cemiyetlerin tek çatı altında birleştirilmesi",
     "C": "Temsil Heyeti'nin yetkilerinin tüm ülkeyi kapsayacak şekilde genişletilmesi",
     "D": "İrade-i Milliye adıyla bir gazete çıkarılması",
     "E": "Ankara'da yeni bir meclisin toplanması",
+    },
     "dogru_cevap": "E",
     "cozum": "Ankara'da yeni bir meclis toplanması kararı, Sivas Kongresi'nde değil, Son Osmanlı Mebusan Meclisi'nin İstanbul'da İtilaf Devletleri tarafından dağıtılmasından sonra alınmıştır. Her olayın kararını kendi bağlamında bilmek önemlidir. TBMM'nin açılışı, Misakımillî'nin ve İstanbul'un işgalinin bir sonucudur."
   },
   {
     "soru": "\"Vatanın bütünlüğü ve milletin bağımsızlığı tehlikededir.\" hükmü, Milli Mücadele'nin hangi temel belgesinde yer almıştır?",
+    "secenekler": {
     "A": "Havza Genelgesi",
     "B": "Amasya Genelgesi",
     "C": "Erzurum Kongresi Kararları",
     "D": "Misakımillî",
     "E": "Sivas Kongresi Kararları",
+    },
     "dogru_cevap": "B",
     "cozum": "Bu madde, Milli Mücadele'nin \"gerekçesini\", yani \"Neden savaşıyoruz?\" sorusunun cevabını ortaya koyan maddedir. Her belgenin bir \"anahtar cümlesi\" vardır. Amasya Genelgesi'nin anahtar cümlelerinden biri budur."
   },
   {
     "soru": "Damat Ferit Paşa Hükûmeti'nin, Sivas Kongresi'ni engellemek amacıyla Ali Galip'i görevlendirmesi ve bu girişimin başarısız olması, aşağıdakilerden hangisini göstermiştir?",
+    "secenekler": {
     "A": "Milli Mücadele'nin sona erdiğini",
     "B": "Padişahın Temsil Heyeti'ni desteklediğini",
     "C": "Temsil Heyeti'nin İstanbul Hükûmeti karşısındaki siyasi ve askeri gücünü ve kararlılığını",
     "D": "İtilaf Devletleri'nin kongreyi desteklediğini",
     "E": "Ali Galip'in Temsil Heyeti'ne katıldığını",
+   },
     "dogru_cevap": "C",
     "cozum": "Bu olay, Temsil Heyeti'nin artık sadece kararlar alan bir kurul değil, aynı zamanda bu kararları uygulayabilecek ve kendisine yönelik saldırıları püskürtebilecek bir güce ulaştığını göstermiştir. Bu olayın sonunda Damat Ferit istifa etmek zorunda kalmıştır."
   },
   {
     "soru": "Aşağıdaki kararlardan hangisinin alınmasında, diğerlerinden farklı olarak, Wilson İlkeleri'nde yer alan \"self-determinasyon\" ilkesinden yararlanma amacı vardır?",
+    "secenekler": {
     "A": "\"Manda ve himaye kabul olunamaz.\"",
     "B": "\"Milli sınırlar içinde vatan bir bütündür.\"",
     "C": "\"Kuvayımilliyeyi etken ve milli iradeyi hakim kılmak esastır.\"",
     "D": "\"Batı Trakya'nın hukuki durumunun tespitinde halkoyuna başvurulmalıdır.\"",
     "E": "\"Kapitülasyonlar kaldırılmalıdır.\"",
+    },
     "dogru_cevap": "D",
     "cozum": "Wilson İlkeleri, bir bölgenin geleceğine orada yaşayan halkın karar vermesi gerektiğini savunuyordu. Misakımillî'de Batı Trakya ve \"Elviye-i Selase\" için referandum (halk oylaması) istenmesi, bu ilkenin kendi lehimize kullanılma çabasıdır."
   },
   {
     "soru": "Mustafa Kemal'in askerlik görevinden ve resmi müfettişlik yetkisinden istifa etmesi, hangi olaydan hemen sonra gerçekleşmiştir?",
+    "secenekler": {
     "A": "Samsun'a çıktıktan sonra",
     "B": "Havza Genelgesi'nden sonra",
     "C": "Amasya Genelgesi'nden sonra",
     "D": "Erzurum Kongresi'nden sonra",
     "E": "Sivas Kongresi'nden sonra",
+    },
     "dogru_cevap": "C",
     "cozum": "Amasya Genelgesi'nin ihtilalci karakteri nedeniyle İstanbul Hükûmeti tarafından geri çağrılan Mustafa Kemal, bu emre uymayarak Erzurum Kongresi öncesinde \"sine-i millete\" yani milletin sinesine döndüğünü belirterek tüm resmi görevlerinden istifa etmiştir. Artık o bir sivildir."
   },
   {
     "soru": "Milli Mücadele'nin hazırlık döneminde, yürütme gücünü kullanarak Ali Fuat Paşa'yı Batı Cephesi Komutanlığı'na atayan organ hangisidir?",
+    "secenekler": {
     "A": "Son Osmanlı Mebusan Meclisi",
     "B": "Sivas Kongresi'nde yetkileri genişletilen Temsil Heyeti",
     "C": "Erzurum Kongresi",
     "D": "İstanbul Hükûmeti",
     "E": "Balıkesir Kongresi",
+   }, 
     "dogru_cevap": "B",
     "cozum": "Temsil Heyeti, Sivas Kongresi'nden sonra bir hükümet gibi hareket etmeye başlamıştır. Bir komutan ataması yapması, \"yürütme\" gücünü kullandığının en net kanıtıdır."
   },
@@ -4287,14 +4239,14 @@ soru_bankasi = {
     },
     "dogru_cevap": "A",
     "cozum": "Amasya Genelgesi, ilk kez ulusal irade ve egemenlik kavramını vurgulamıştır, Misak-ı Milli ve TBMM ise sonrasındaki gelişmelerdir."
- 
   }
+
     ],
     "11) Kurtuluş Savaşı Muharebeler Dönemi": [],
     "12) Atatürk Dönemi İç ve Dış Politika": [],
     "13) Çağdaş Türk ve Dünya Tarihi": []
+
 },
-    
 "Coğrafya": {
     "1) Türkiye'nin Coğrafi Konumu": [],
     "2) İklim": [],
@@ -4332,5 +4284,3 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
-
-
