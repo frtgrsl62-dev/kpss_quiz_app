@@ -163,7 +163,7 @@ def ders_secim_page():
             kaydet_sonuclar_to_user()
             st.session_state.clear()
             st.session_state["page"] = "login"
-            st.rerun()
+
 # CSS sadece exit_button için geçerli olacak
 st.markdown(
     """
@@ -183,7 +183,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+            st.rerun()
 
 # ===============================
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
@@ -471,6 +471,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
