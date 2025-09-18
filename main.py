@@ -166,7 +166,7 @@ def konu_secim_page(ders):
         # Yüzdeyi çözülen test sayısına göre hesapla
         yuzde = int(cozulmus_test_sayisi / toplam_test_sayisi * 100) if toplam_test_sayisi > 0 else 0
 
-        col1, col2 = st.columns([1, 5])
+        col1, col2 = st.columns([1, 3])
         with col1:
             # Dairesel yüzde göstergesi HTML + CSS
             st.markdown(f"""
@@ -426,6 +426,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
