@@ -144,7 +144,7 @@ def test_secim_page(secilen_ders, secilen_konu):
             st.rerun()
         return
 
-    soru_grubu_sayisi = 10
+    soru_grubu_sayisi = 3
     test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
 
     for i in range(test_sayisi):
@@ -306,6 +306,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
