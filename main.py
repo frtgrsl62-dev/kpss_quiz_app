@@ -67,7 +67,7 @@ def kullanici_sonuclarini_yukle_to_session(user):
 # ===============================
 def login_page():
     # Üst başlık
-    st.markdown("<h1 style='text-align: center; color: #1E90FF;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: orange;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
     st.markdown("---")  # alt çizgi ile ayır
 
 # color: → yazının rengini ayarlar.
@@ -77,7 +77,7 @@ def login_page():
 # text-align: center; → ortalar
     
     #st.title("Giriş Ekranı")
-    st.markdown("<h1 style='color: orange;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: white;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
         sifre = st.text_input("Şifre", type="password", key="login_pass")
@@ -442,6 +442,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
