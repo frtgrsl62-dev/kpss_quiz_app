@@ -338,11 +338,11 @@ def soru_goster_page():
     unsafe_allow_html=True
     )
     st.markdown(
-    f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_test} - Soru {index+1}/{len(secilen_test)}</h2>",
+    f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_test} - </h2>",
     unsafe_allow_html=True
     )
-#**Soru {index+1}/{len(secilen_test)}:**
-    
+
+    st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
     st.markdown(f" {soru['soru']}")
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
@@ -463,6 +463,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
