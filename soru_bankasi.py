@@ -72,31 +72,37 @@ soru_bankasi = {
         },
           {
     "soru": "İslamiyet öncesi Türk toplumlarında görülen 'töre', sosyal hayatı düzenleyen kurallar bütünüydü. Yazılı olmamasına rağmen herkes için bağlayıcı olan bu kuralların oluşumunda aşağıdakilerden hangisinin etkili olduğu söylenemez?",
+    "secenekler": {
     "A": "Hükümdarların koyduğu kurallar",
     "B": "Kurultayda alınan kararlar",
     "C": "Toplum içinde oluşan gelenekler",
     "D": "Komşu medeniyetlerle yapılan antlaşmalar",
     "E": "Gök Tanrı inancına dayalı kutsal inanışlar",
+    },
     "dogru_cevap": "D",
     "cozum": "Töre, toplumsal hayatı düzenleyen yazısız hukuk kurallarıdır. Kaynakları kağan emirleri, kurultay kararları, gelenekler ve dini inanışlardır. Komşu devletlerle yapılan antlaşmalar ise töreyi oluşturmaz."
   },
   {
     "soru": "Avrupa'ya göç ederek burada devlet kuran Türk toplulukları, zamanla milli benliklerini kaybetmişlerdir. Bu duruma rağmen Balkanlar'da varlığını uzun süre devam ettiren ve özellikle Slavları devlet yönetimi ve askeri teşkilatlanma alanlarında etkileyen Türk devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Avrupa Hunları",
     "B": "Avarlar",
     "C": "Tuna Bulgarları",
     "D": "Macarlar",
     "E": "Kıpçaklar",
+    },
     "dogru_cevap": "C",
     "cozum": "Tuna Bulgarları, Balkanlar'da uzun süre varlık göstermiş ve Slavları devlet yönetimi ve askeri teşkilatlanma açısından etkilemiştir. 'Çar' unvanı gibi izler bu etkileşimin göstergesidir."
   },
   {
     "soru": "İslamiyet öncesi Türk devletlerinde 'kurgan' adı verilen mezarların oda şeklinde yapılması ve bu mezarlara ölüyle birlikte değerli eşyaların konulması, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
     "A": "Özel mülkiyetin geliştiğinin",
     "B": "Ahiret inancının varlığının",
     "C": "Yazılı hukukun başladığının",
     "D": "Yerleşik hayata geçildiğinin",
     "E": "Ticaretin yaygın olduğunun",
+    },
     "dogru_cevap": "B",
     "cozum": "Ölüyle birlikte değerli eşyaların konulması, İslamiyet öncesi Türklerde ahiret inancının varlığını gösterir. Kurganlar bu inancın en temel kanıtlarından biridir."
   }
