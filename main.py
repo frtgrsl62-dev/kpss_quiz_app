@@ -117,8 +117,8 @@ def kayit_page():
         k_adi = st.text_input("Kullanıcı Adı", key="register_user")
         sifre = st.text_input("Şifre", type="password", key="register_pass")
         sifre_tekrar = st.text_input("Şifre Tekrar", type="password", key="register_pass2")
-        kaydet_btn = st.form_submit_button("Kaydet")
-        geri_btn = st.form_submit_button("Geri Dön")
+        kaydet_btn = st.form_submit_button("Kaydet 🟩")
+        geri_btn = st.form_submit_button("↩️ Geri Dön")
 
     if kaydet_btn:
         if not isim or not k_adi or not sifre or not sifre_tekrar:
@@ -384,7 +384,7 @@ def soru_goster_page():
 
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("↩️ Geri"):
+        if st.button("🔙 Geri"):
             st.session_state["page"] = "test"
             st.rerun()
     with col2:
@@ -459,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
