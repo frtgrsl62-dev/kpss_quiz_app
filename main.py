@@ -249,7 +249,7 @@ def test_secim_page(secilen_ders, secilen_konu):
 
 
 # ===============================
-# Soru Gösterim Sayfası (Radyo başta seçili gelmez)
+# Soru Gösterim Sayfası (Radyo başta gözükmez)
 # ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
@@ -314,37 +314,32 @@ def soru_goster_page():
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
-    # Radyo butonunu boş seçili başlat
     if cevap_key in st.session_state:
-        # Cevap daha önce verilmişse normal radyo göster
+        # Daha önce cevap verilmişse radyo göster
         secim = st.radio(
             "Cevap Seçin:",
             options=secenekler,
             key=f"soru_radio_{index}"
         )
-    else:
-        # Henüz cevap verilmemişse, None ekleyip başta boş göster
-        secim = st.radio(
-            "Cevap Seçin:",
-            options=[None] + secenekler,
-            index=0,
-            format_func=lambda x: "" if x is None else x,
-            key=f"soru_radio_{index}"
-        )
 
-    # Cevap kontrol ve kaydetme
-    if cevap_key in st.session_state:
+        # Cevap kontrol ve göster
         secilen_harf = st.session_state[cevap_key]
         if secilen_harf == soru["dogru_cevap"]:
             st.success("✅ Doğru!")
         else:
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
+
     else:
+        # Henüz cevap verilmemişse radyo gösterme, sadece buton
+        st.info("⚠️ Bu soruyu cevaplamak için aşağıdaki butona basın")
         if st.button("Cevapla", key=f"cevapla_{index}"):
-            if secim is None:
-                st.warning("⚠️ Lütfen bir seçenek seçin!")
-            else:
+            secim = st.radio(
+                "Cevap Seçin:",
+                options=secenekler,
+                key=f"soru_radio_{index}"
+            )
+            if secim:
                 secilen_harf = secim.split(")")[0]
                 st.session_state[cevap_key] = secilen_harf
                 st.rerun()
@@ -369,6 +364,7 @@ def soru_goster_page():
                     st.rerun()
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+
 
 
 # ===============================
@@ -426,6 +422,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
