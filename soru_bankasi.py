@@ -106,7 +106,7 @@ soru_bankasi = {
     "dogru_cevap": "B",
     "cozum": "Ölüyle birlikte değerli eşyaların konulması, İslamiyet öncesi Türklerde ahiret inancının varlığını gösterir. Kurganlar bu inancın en temel kanıtlarından biridir."
   },
-    {
+     {
     "soru": "İslamiyet öncesi Türk devletlerinde hükümdarın tanrı tarafından bu göreve getirildiğine inanılırdı. 'Kut' adı verilen bu anlayış, hükümdara yönetme yetkisinin Gök Tanrı tarafından verildiğini ifade ederdi. Buna göre, 'kut' anlayışının aşağıdakilerden hangisine neden olduğu söylenemez?",
     "secenekler": {
       "A": "Hükümdarın halk nezdindeki otoritesinin artmasına",
@@ -345,7 +345,8 @@ soru_bankasi = {
     },
     "dogru_cevap": "B",
     "cozum": "Karahanlılar, Satuk Buğra Han zamanında topluca İslamiyet'i kabul etmiş ve Türk kültürünü İslamiyet ile sentezleyerek milli kimliklerini koruyan ilk büyük Türk-İslam devleti olmuşlardır."
-  }
+  }     
+
     ],
 ##
 "2) İlk Türk-İslam Devletleri ve Beylikleri": [
@@ -493,8 +494,7 @@ soru_bankasi = {
     "dogru_cevap": "E",
     "cozum": "İlk beylikler hem askeri hem kültürel hem de imar faaliyetleriyle Anadolu’nun Türkleşmesine ve İslamlaşmasına hizmet etmişlerdir."
   },
-    ##
-  {
+    {
     "soru": "Mısır'da kurulan ilk Türk-İslam devleti olan Tolunoğulları, sosyal devlet anlayışının bir gereği olarak halka ücretsiz sağlık hizmeti veren ve 'Maristan' adı verilen yapılar inşa etmişlerdir. Bu bilgi, Tolunoğulları'nın hangi alanda gelişme gösterdiğinin kanıtıdır?",
     "secenekler": {
       "A": "Askeri teşkilatlanma",
@@ -4267,7 +4267,7 @@ soru_bankasi = {
   },
   {
     "soru": "Osmanlı Devleti'nin savaştığı cephelerden hangisi savaş sonrası işgallere gerekçe yapılmamıştır?",
-    "secenekler": { 
+    "secenekler": {
     "A": "Kafkas",
     "B": "Çanakkale",
     "C": "Irak",
@@ -5095,6 +5095,3 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
-
-
-
