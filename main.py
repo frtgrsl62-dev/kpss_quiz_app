@@ -144,7 +144,8 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-    st.title("Ders Seçiniz")
+    st.markdown("<h1 style='color: white; font-size:30px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
+    # st.title("Ders Seçiniz")
     for ders in soru_bankasi.keys():
         if st.button(ders):
             st.session_state["ders"] = ders
@@ -447,6 +448,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
