@@ -243,7 +243,7 @@ def test_secim_page(secilen_ders, secilen_konu):
             st.session_state["page"] = "soru"
             st.rerun()
 
-    if st.button("Geri"):
+    if st.button("🔙 Geri"):
         st.session_state["page"] = "konu"
         st.rerun()
 
@@ -427,6 +427,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
