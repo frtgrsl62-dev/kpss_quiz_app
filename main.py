@@ -3,15 +3,24 @@ import time
 import json
 import os
 import math
-from soru_bankasi import soru_bankasi
+from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
 
+# ===============================
+# Dosya yolu
+# ===============================
 DOSYA = "kullanicilar.json"
 
+# ===============================
+# Sabit kullanıcılar
+# ===============================
 sabit_kullanicilar = {
     "a": {"isim": "Yönetici", "sifre": "1"},
     "m": {"isim": "Misafir Kullanıcı", "sifre": "0"},
 }
 
+# ===============================
+# Kullanıcı yükle / oluştur
+# ===============================
 def kullanicilari_yukle():
     if not os.path.exists(DOSYA):
         with open(DOSYA, "w", encoding="utf-8") as f:
@@ -23,11 +32,14 @@ def kullanicilari_kaydet():
     with open(DOSYA, "w", encoding="utf-8") as f:
         json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
 
+# ===============================
+# Global değişkenler
+# ===============================
 kullanicilar = kullanicilari_yukle()
 
-# ----------------------
-# Login
-# ----------------------
+# ===============================
+# Login Sayfası
+# ===============================
 def login_page():
     st.title("Giriş Ekranı")
     with st.form("login_form"):
@@ -49,9 +61,9 @@ def login_page():
         st.session_state["page"] = "kayit"
         st.rerun()
 
-# ----------------------
-# Kayıt
-# ----------------------
+# ===============================
+# Kayıt Sayfası
+# ===============================
 def kayit_page():
     st.title("Kayıt Ol")
     with st.form("kayit_form"):
@@ -83,9 +95,9 @@ def kayit_page():
         st.session_state["page"] = "login"
         st.rerun()
 
-# ----------------------
-# Ders seçimi
-# ----------------------
+# ===============================
+# Ders Seçim Sayfası
+# ===============================
 def ders_secim_page():
     st.title("Ders Seçiniz")
     for ders in soru_bankasi.keys():
@@ -105,23 +117,24 @@ def ders_secim_page():
             st.session_state["page"] = "login"
             st.rerun()
 
-# ----------------------
-# Konu seçimi (daire doluluk)
-# ----------------------
+# ===============================
+# Konu Seçim Sayfası (İlerleme çubuğu eklendi)
+# ===============================
 def konu_secim_page(ders):
     st.header(f"{ders} - Konu Seçimi")
     konular = list(soru_bankasi[ders].keys())
     sonuclar = st.session_state.get("sonuclar", {})
-    user = st.session_state["user"]
 
     for konu in konular:
-        toplam_soru = len(soru_bankasi[ders][konu])
-        dogru = 0
-        if user in sonuclar and ders in sonuclar[user] and konu in sonuclar[user][ders]:
-            dogru = sonuclar[user][ders][konu].get("dogru",0)
-        oran = int((dogru / max(1, toplam_soru))*100)
-        buton_text = f"→ {konu}  {'●'* (oran//10)}{'○'* (10 - oran//10)} {oran}%"
-        if st.button(buton_text, key=f"konu_{konu}"):
+        dogru = sonuclar.get(ders, {}).get(konu, {}).get("dogru", 0)
+        yanlis = sonuclar.get(ders, {}).get(konu, {}).get("yanlis", 0)
+        toplam = dogru + yanlis
+        soru_sayisi = len(soru_bankasi[ders][konu])
+        yuzde = int(dogru / soru_sayisi * 100) if soru_sayisi > 0 else 0
+
+        st.progress(min(yuzde, 100), text=f"{yuzde}% Çözüldü")
+
+        if st.button(f"→ {konu} ({yuzde}%)", key=f"konu_{konu}"):
             st.session_state["konu"] = konu
             st.session_state["page"] = "test"
             st.rerun()
@@ -130,9 +143,9 @@ def konu_secim_page(ders):
         st.session_state["page"] = "ders"
         st.rerun()
 
-# ----------------------
-# Test seçimi (tamamlanan test ikonlu)
-# ----------------------
+# ===============================
+# Test Seçim Sayfası (Çözülen test renklendirme eklendi)
+# ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
@@ -144,25 +157,26 @@ def test_secim_page(secilen_ders, secilen_konu):
         return
 
     soru_grubu_sayisi = 5
-    test_sayisi = math.ceil(len(tum_sorular)/soru_grubu_sayisi)
-    user = st.session_state["user"]
+    test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
+
     sonuclar = st.session_state.get("sonuclar", {})
 
     for i in range(test_sayisi):
-        baslangic = i*soru_grubu_sayisi
-        bitis = min((i+1)*soru_grubu_sayisi,len(tum_sorular))
+        baslangic = i * soru_grubu_sayisi
+        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
         test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
-        icon = ""
-        if user in sonuclar and secilen_ders in sonuclar[user] and secilen_konu in sonuclar[user][secilen_ders]:
-            test_key = f"test_{i+1}"
-            if test_key in sonuclar[user][secilen_ders][secilen_konu]:
-                icon = "✅"
 
-        if st.button(f"{test_adi} {icon}", key=f"testbtn_{i}"):
-            # Cevapları temizle
-            for k in list(st.session_state.keys()):
-                if k.startswith("cevap_"):
-                    del st.session_state[k]
+        # Çözülmüş testleri renklendir
+        test_dogru = 0
+        test_yanlis = 0
+        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}", {})
+        test_dogru = test_sonuc.get("dogru", 0)
+        test_yanlis = test_sonuc.get("yanlis", 0)
+        # Renkli buton yerine tooltip kullanıldı
+        if st.button(test_adi, key=f"testbtn_{i}", help=f"✅ {test_dogru} ❌ {test_yanlis}"):
+            cevap_keys = [k for k in st.session_state.keys() if k.startswith("cevap_")]
+            for k in cevap_keys:
+                del st.session_state[k]
 
             st.session_state["current_test"] = {
                 "test": tum_sorular[baslangic:bitis],
@@ -179,9 +193,9 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.session_state["page"] = "konu"
         st.rerun()
 
-# ----------------------
-# Soru gösterimi (son soruda testi bitir)
-# ----------------------
+# ===============================
+# Soru Gösterim Sayfası (Son soruda ana menü butonu eklendi)
+# ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
     secilen_test = current["test"]
@@ -190,21 +204,17 @@ def soru_goster_page():
     secilen_konu = current["konu"]
     test_no = current["test_no"]
     test_sayisi = current["test_sayisi"]
-    user = st.session_state["user"]
 
     if index >= len(secilen_test):
         st.success("Test tamamlandı!")
 
         if "sonuclar" not in st.session_state:
             st.session_state["sonuclar"] = {}
-
         sonuclar = st.session_state["sonuclar"]
-        if user not in sonuclar:
-            sonuclar[user] = {}
-        if secilen_ders not in sonuclar[user]:
-            sonuclar[user][secilen_ders] = {}
-        if secilen_konu not in sonuclar[user][secilen_ders]:
-            sonuclar[user][secilen_ders][secilen_konu] = {"dogru":0,"yanlis":0}
+        if secilen_ders not in sonuclar:
+            sonuclar[secilen_ders] = {}
+        if secilen_konu not in sonuclar[secilen_ders]:
+            sonuclar[secilen_ders][secilen_konu] = {"dogru": 0, "yanlis": 0}
 
         cevap_keys = [k for k in st.session_state.keys() if k.startswith("cevap_")]
         dogru = 0
@@ -218,22 +228,28 @@ def soru_goster_page():
             else:
                 yanlis += 1
 
+        sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
+        sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
         # Test bazında kaydet
-        sonuclar[user][secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru":dogru,"yanlis":yanlis}
-        # Genel
-        sonuclar[user][secilen_ders][secilen_konu]["dogru"] += dogru
-        sonuclar[user][secilen_ders][secilen_konu]["yanlis"] += yanlis
+        sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
         st.session_state["sonuclar"] = sonuclar
-        kullanicilari_kaydet()  # JSON'a kaydet
 
-        st.markdown(f"✅ Doğru: {dogru} | ❌ Yanlış: {yanlis}")
+        st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
-        if st.button("▶️ Testi Bitir"):
-            st.session_state["page"] = "test"
-            st.rerun()
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("🔙 Geri"):
+                st.session_state["page"] = "test"
+                st.rerun()
+        with col2:
+            if test_no < test_sayisi and st.button("Sonraki Test ➡️"):
+                st.session_state["page"] = "test"
+                st.rerun()
+            elif test_no == test_sayisi and st.button("🏠 Ana Menü"):
+                st.session_state["page"] = "ders"
+                st.rerun()
         return
 
-    # Soru gösterimi
     soru = secilen_test[index]
     st.markdown(f"**{secilen_ders} - {secilen_konu}**")
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
@@ -247,60 +263,62 @@ def soru_goster_page():
         if secilen_harf == soru["dogru_cevap"]:
             st.success("✅ Doğru!")
         else:
-            st.error(f"❌ Yanlış! Doğru: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
+            st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
     else:
         if st.button("Cevapla", key=f"cevapla_{index}"):
             if not secim:
                 st.warning("⚠️ Lütfen bir seçenek seçin!")
             else:
-                st.session_state[cevap_key] = secim.split(")")[0]
+                secilen_harf = secim.split(")")[0]
+                st.session_state[cevap_key] = secilen_harf
                 st.rerun()
 
-    col1, col2 = st.columns([1,1])
+    col1, col2 = st.columns([1, 1])
     with col1:
         if st.button("🔙 Geri"):
             st.session_state["page"] = "test"
             st.rerun()
     with col2:
-        if index < len(secilen_test)-1:
+        if index < len(secilen_test) - 1:
             if st.button("Sonraki Soru ➡️"):
                 if cevap_key in st.session_state:
                     current["index"] += 1
                     st.rerun()
                 else:
-                    st.warning("⚠️ Lütfen önce cevabı seçin!")
+                    st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+        else:
+            if st.button("🏠 Ana Menü"):
+                st.session_state["page"] = "ders"
+                st.rerun()
 
-# ----------------------
+# ===============================
 # Genel Rapor
-# ----------------------
+# ===============================
 def genel_rapor_page():
     st.header("📊 Genel Rapor")
     sonuclar = st.session_state.get("sonuclar", {})
-    user = st.session_state["user"]
 
-    if user not in sonuclar:
-        st.info("Henüz test çözülmedi.")
-        return
+    if not sonuclar:
+        st.info("Henüz herhangi bir test çözülmedi.")
+    else:
+        for ders, konular in sonuclar.items():
+            st.subheader(f"📘 {ders}")
+            for konu, sonuc in konular.items():
+                dogru = sonuc.get("dogru", 0)
+                yanlis = sonuc.get("yanlis", 0)
+                toplam = dogru + yanlis
+                oran = f"{dogru/ toplam * 100:.0f}%" if toplam > 0 else "0%"
+                st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
 
-    for ders, konular in sonuclar[user].items():
-        st.subheader(f"📘 {ders}")
-        for konu, sonuc in konular.items():
-            if not isinstance(sonuc, dict) or "dogru" not in sonuc:
-                continue
-            dogru = sonuc.get("dogru",0)
-            yanlis = sonuc.get("yanlis",0)
-            toplam = dogru + yanlis
-            oran = f"{(dogru/ toplam*100):.0f}%" if toplam>0 else "0%"
-            st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
-
+    st.markdown("---")
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
 
-# ----------------------
+# ===============================
 # Router
-# ----------------------
+# ===============================
 if "page" not in st.session_state:
     st.session_state["page"] = "login"
 
