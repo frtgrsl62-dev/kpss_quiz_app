@@ -4,7 +4,7 @@ import json
 import os
 import math
 from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # ===============================
 # Dosya yolu
@@ -406,6 +406,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
