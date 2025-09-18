@@ -227,6 +227,8 @@ def konu_secim_page(ders):
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
+
+
 # ===============================
 # Test Seçim Sayfası
 # ===============================
@@ -285,6 +287,8 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.session_state["page"] = "konu"
         st.rerun()
 
+    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 # ===============================
 # Soru Gösterim Sayfası (Radyo başta seçili gelmez)
@@ -411,6 +415,8 @@ def soru_goster_page():
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
 
+    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 # ===============================
 # Genel Rapor
@@ -467,6 +473,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
