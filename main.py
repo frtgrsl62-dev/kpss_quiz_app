@@ -224,8 +224,8 @@ def konu_secim_page(ders):
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.markdown(
-    f"<h2 style='color: ; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
-    unsafe_allow_html=True
+        f"<h2 style='color: ; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
+        unsafe_allow_html=True
     )
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
     if not tum_sorular:
@@ -240,21 +240,19 @@ def test_secim_page(secilen_ders, secilen_konu):
 
     sonuclar = st.session_state.get("sonuclar", {})
 
-for i in range(test_sayisi):
-    baslangic = i * soru_grubu_sayisi
-    bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
-    soru_sayisi = bitis - baslangic
-    test_adi = f"Test {i+1}: ({soru_sayisi} Soru)"
-
+    for i in range(test_sayisi):
+        baslangic = i * soru_grubu_sayisi
+        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
+        soru_sayisi = bitis - baslangic
+        test_adi = f"Test {i+1}: ({soru_sayisi} Soru)"
 
         # Çözülmüş testleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
         test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
         if test_sonuc:
-            dogru_sayi = test_sonuc.get('dogru',0)
-            toplam_soru = bitis - baslangic
-            oran = dogru_sayi / toplam_soru
+            dogru_sayi = test_sonuc.get('dogru', 0)
+            oran = dogru_sayi / soru_sayisi
             simge = "✅" if oran >= 0.6 else "❌"
-            label = f"{test_adi} {simge} ({dogru_sayi}/{toplam_soru})"
+            label = f"{test_adi} {simge} ({dogru_sayi}/{soru_sayisi})"
         else:
             label = f"{test_adi} ⏺"
 
@@ -460,6 +458,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
