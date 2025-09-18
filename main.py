@@ -159,44 +159,17 @@ def konu_secim_page(ders):
         soru_sayisi = len(soru_bankasi[ders][konu])
         yuzde = int(dogru / soru_sayisi * 100) if soru_sayisi > 0 else 0
 
-        # streamlit progress bar gösterimi
-        st.progress(min(yuzde, 100), text=f"{yuzde}% Çözüldü")
-
-        # Testlerin genel durumunu göster (çözülmüş test varsa işaretli)
-        if st.button(f"→ {konu} ({yuzde}%)", key=f"konu_{konu}"):
-            st.session_state["konu"] = konu
-            st.session_state["page"] = "test"
-            st.rerun()
-
-    if st.button("🔙 Geri"):
-        st.session_state["page"] = "ders"
-        st.rerun()
-
-def konu_secim_page(ders):
-    st.header(f"{ders} - Konu Seçimi")
-    konular = list(soru_bankasi[ders].keys())
-    sonuclar = st.session_state.get("sonuclar", {})
-
-    for konu in konular:
-        dogru = sonuclar.get(ders, {}).get(konu, {}).get("dogru", 0)
-        yanlis = sonuclar.get(ders, {}).get(konu, {}).get("yanlis", 0)
-        soru_sayisi = len(soru_bankasi[ders][konu])
-        yuzde = int(dogru / soru_sayisi * 100) if soru_sayisi > 0 else 0
-
         col1, col2 = st.columns([1, 5])
         with col1:
-            # Dairesel yüzde göstergesi HTML + CSS
-            st.markdown(f"""
-            <div style="
-                width:50px; height:50px; border-radius:50%;
-                background: conic-gradient(#4CAF50 {yuzde}%, #E0E0E0 {yuzde}%);
-                display:flex; align-items:center; justify-content:center;
-                font-weight:bold; color:black;">
-                {yuzde}%
-            </div>
-            """, unsafe_allow_html=True)
-
+            # Dairesel gösterim için matplotlib
+            fig, ax = plt.subplots(figsize=(1.2,1.2))
+            ax.pie([yuzde, 100-yuzde], colors=["#4CAF50", "#E0E0E0"], startangle=90, counterclock=False,
+                   wedgeprops={"width":0.3, "edgecolor":"white"})
+            ax.text(0, 0, f"{yuzde}%", ha='center', va='center', fontsize=10)
+            ax.axis('equal')
+            st.pyplot(fig)
         with col2:
+            # Konu butonu
             if st.button(f"→ {konu}", key=f"konu_{konu}"):
                 st.session_state["konu"] = konu
                 st.session_state["page"] = "test"
@@ -441,6 +414,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
