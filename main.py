@@ -4,6 +4,7 @@ import json
 import os
 import math
 from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
+import matplotlib.pyplot as plt
 
 # ===============================
 # Dosya yolu
@@ -144,7 +145,7 @@ def ders_secim_page():
             st.rerun()
 
 # ===============================
-# Konu Seçim Sayfası (İlerleme çubuğu eklendi)
+# Konu Seçim Sayfası (Dairesel yüzde gösterimi)
 # ===============================
 def konu_secim_page(ders):
     st.header(f"{ders} - Konu Seçimi")
@@ -158,14 +159,21 @@ def konu_secim_page(ders):
         soru_sayisi = len(soru_bankasi[ders][konu])
         yuzde = int(dogru / soru_sayisi * 100) if soru_sayisi > 0 else 0
 
-        # streamlit progress bar gösterimi
-        st.progress(min(yuzde, 100), text=f"{yuzde}% Çözüldü")
-
-        # Testlerin genel durumunu göster (çözülmüş test varsa işaretli)
-        if st.button(f"→ {konu} ({yuzde}%)", key=f"konu_{konu}"):
-            st.session_state["konu"] = konu
-            st.session_state["page"] = "test"
-            st.rerun()
+        col1, col2 = st.columns([1, 5])
+        with col1:
+            # Dairesel gösterim için matplotlib
+            fig, ax = plt.subplots(figsize=(1.2,1.2))
+            ax.pie([yuzde, 100-yuzde], colors=["#4CAF50", "#E0E0E0"], startangle=90, counterclock=False,
+                   wedgeprops={"width":0.3, "edgecolor":"white"})
+            ax.text(0, 0, f"{yuzde}%", ha='center', va='center', fontsize=10)
+            ax.axis('equal')
+            st.pyplot(fig)
+        with col2:
+            # Konu butonu
+            if st.button(f"→ {konu}", key=f"konu_{konu}"):
+                st.session_state["konu"] = konu
+                st.session_state["page"] = "test"
+                st.rerun()
 
     if st.button("🔙 Geri"):
         st.session_state["page"] = "ders"
@@ -405,6 +413,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
