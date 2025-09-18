@@ -74,10 +74,11 @@ def login_page():
     # yeşil = #4CAF50
     # mavi = #1E90FF
     # red
+    # açık mavi #ADD8E6    #87CEEB
 # text-align: center; → ortalar
     
     #st.title("Giriş Ekranı")
-    st.markdown("<h1 style='color: white;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: ;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
         sifre = st.text_input("Şifre", type="password", key="login_pass")
@@ -109,7 +110,7 @@ def kayit_page():
     st.markdown("<h1 style='text-align: center; color: orange; font-size:36px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
     st.markdown("---")  # alt çizgi ile ayır
 
-    st.markdown("<h1 style='color: white;'>Kayıt Ol</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: ;'>Kayıt Ol</h1>", unsafe_allow_html=True)
     # st.title("Kayıt Ol")
     with st.form("kayit_form"):
         isim = st.text_input("İsim Soyisim", key="register_name")
@@ -144,7 +145,7 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-    st.markdown("<h1 style='color: white; font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: ; font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
     st.markdown("---")  # alt çizgi ile ayır
     # st.title("Ders Seçiniz")
     for ders in soru_bankasi.keys():
@@ -172,7 +173,7 @@ def ders_secim_page():
 def konu_secim_page(ders):
     # st.header(f"{ders} - Konu Seçimi")
     st.markdown(
-    f"<h2 style='color: white; font-size:30px;'>{ders} - Konu Seçimi</h2>",
+    f"<h2 style='color: ; font-size:30px;'>{ders} - Konu Seçimi</h2>",
     unsafe_allow_html=True
     )
     konular = list(soru_bankasi[ders].keys())
@@ -215,15 +216,12 @@ def konu_secim_page(ders):
         st.session_state["page"] = "ders"
         st.rerun()
 
-
-
-
 # ===============================
 # Test Seçim Sayfası
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.markdown(
-    f"<h2 style='color: #ADD8E6; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
+    f"<h2 style='color: ; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
     unsafe_allow_html=True
     )
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
@@ -338,7 +336,7 @@ def soru_goster_page():
 
     soru = secilen_test[index]
     st.markdown(
-        f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>",
+        f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>",
         unsafe_allow_html=True
     )
 
@@ -457,6 +455,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
