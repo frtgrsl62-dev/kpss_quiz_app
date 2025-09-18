@@ -172,7 +172,7 @@ def ders_secim_page():
 def konu_secim_page(ders):
     # st.header(f"{ders} - Konu Seçimi")
     st.markdown(
-    f"<h2 style='color: #B0E0E6; font-size:30px;'>{ders} - Konu Seçimi</h2>",
+    f"<h2 style='color: white; font-size:30px;'>{ders} - Konu Seçimi</h2>",
     unsafe_allow_html=True
     )
     konular = list(soru_bankasi[ders].keys())
@@ -464,6 +464,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
