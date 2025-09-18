@@ -217,13 +217,10 @@ def konu_secim_page(ders):
 # Test Seçim Sayfası
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
-    #st.markdown("<h1 style='color: white; font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
-    #st.markdown("<h1 style='color: white; font-size:38px;'></h1>", unsafe_allow_html=True)
     st.markdown(
-    f"<h2 style='color:blue; font-size:30px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
+    f"<h2 style='color: white; font-size:30px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
     unsafe_allow_html=True
     )
-    #st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
     if not tum_sorular:
         st.info("Bu konu için henüz soru eklenmemiş.")
@@ -454,6 +451,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
