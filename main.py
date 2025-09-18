@@ -118,22 +118,33 @@ def ders_secim_page():
             st.rerun()
 
 # ===============================
-# Konu Seçim Sayfası
+# Konu Seçim Sayfası (İlerleme çubuğu eklendi)
 # ===============================
 def konu_secim_page(ders):
     st.header(f"{ders} - Konu Seçimi")
     konular = list(soru_bankasi[ders].keys())
+    sonuclar = st.session_state.get("sonuclar", {})
+
     for konu in konular:
-        if st.button(f"→ {konu}", key=f"konu_{konu}"):
+        dogru = sonuclar.get(ders, {}).get(konu, {}).get("dogru", 0)
+        yanlis = sonuclar.get(ders, {}).get(konu, {}).get("yanlis", 0)
+        toplam = dogru + yanlis
+        soru_sayisi = len(soru_bankasi[ders][konu])
+        yuzde = int(dogru / soru_sayisi * 100) if soru_sayisi > 0 else 0
+
+        st.progress(min(yuzde, 100), text=f"{yuzde}% Çözüldü")
+
+        if st.button(f"→ {konu} ({yuzde}%)", key=f"konu_{konu}"):
             st.session_state["konu"] = konu
             st.session_state["page"] = "test"
             st.rerun()
+
     if st.button("🔙 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
 
 # ===============================
-# Test Seçim Sayfası
+# Test Seçim Sayfası (Çözülen test renklendirme eklendi)
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
@@ -148,13 +159,21 @@ def test_secim_page(secilen_ders, secilen_konu):
     soru_grubu_sayisi = 5
     test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
 
+    sonuclar = st.session_state.get("sonuclar", {})
+
     for i in range(test_sayisi):
         baslangic = i * soru_grubu_sayisi
         bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
         test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
 
-        if st.button(test_adi, key=f"testbtn_{i}"):
-            # Önceki test cevaplarını temizle
+        # Çözülmüş testleri renklendir
+        test_dogru = 0
+        test_yanlis = 0
+        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}", {})
+        test_dogru = test_sonuc.get("dogru", 0)
+        test_yanlis = test_sonuc.get("yanlis", 0)
+        # Renkli buton yerine tooltip kullanıldı
+        if st.button(test_adi, key=f"testbtn_{i}", help=f"✅ {test_dogru} ❌ {test_yanlis}"):
             cevap_keys = [k for k in st.session_state.keys() if k.startswith("cevap_")]
             for k in cevap_keys:
                 del st.session_state[k]
@@ -175,7 +194,7 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.rerun()
 
 # ===============================
-# Soru Gösterim Sayfası
+# Soru Gösterim Sayfası (Son soruda ana menü butonu eklendi)
 # ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
@@ -186,11 +205,9 @@ def soru_goster_page():
     test_no = current["test_no"]
     test_sayisi = current["test_sayisi"]
 
-    # Test bitti mi?
     if index >= len(secilen_test):
         st.success("Test tamamlandı!")
 
-        # Sonuçları kaydet
         if "sonuclar" not in st.session_state:
             st.session_state["sonuclar"] = {}
         sonuclar = st.session_state["sonuclar"]
@@ -199,7 +216,6 @@ def soru_goster_page():
         if secilen_konu not in sonuclar[secilen_ders]:
             sonuclar[secilen_ders][secilen_konu] = {"dogru": 0, "yanlis": 0}
 
-        # session_state'de cevaplanan sorular
         cevap_keys = [k for k in st.session_state.keys() if k.startswith("cevap_")]
         dogru = 0
         yanlis = 0
@@ -214,13 +230,15 @@ def soru_goster_page():
 
         sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
         sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
+        # Test bazında kaydet
+        sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
         st.session_state["sonuclar"] = sonuclar
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
         col1, col2 = st.columns([1, 1])
         with col1:
-            if st.button("🔙 Geri", type="secondary"):
+            if st.button("🔙 Geri"):
                 st.session_state["page"] = "test"
                 st.rerun()
         with col2:
@@ -232,7 +250,6 @@ def soru_goster_page():
                 st.rerun()
         return
 
-    # Şimdiki soru
     soru = secilen_test[index]
     st.markdown(f"**{secilen_ders} - {secilen_konu}**")
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
@@ -257,10 +274,9 @@ def soru_goster_page():
                 st.session_state[cevap_key] = secilen_harf
                 st.rerun()
 
-    # Navigasyon
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("🔙 Geri", type="secondary"):
+        if st.button("🔙 Geri"):
             st.session_state["page"] = "test"
             st.rerun()
     with col2:
@@ -271,13 +287,16 @@ def soru_goster_page():
                     st.rerun()
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+        else:
+            if st.button("🏠 Ana Menü"):
+                st.session_state["page"] = "ders"
+                st.rerun()
 
 # ===============================
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
     st.header("📊 Genel Rapor")
-
     sonuclar = st.session_state.get("sonuclar", {})
 
     if not sonuclar:
@@ -317,4 +336,3 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
-
