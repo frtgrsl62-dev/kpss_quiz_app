@@ -338,7 +338,7 @@ def soru_goster_page():
     unsafe_allow_html=True
     )
     st.markdown(
-    f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_test} - </h2>",
+    f"<h2 style='color: #87CEEB; font-size:20px;'>{test_num} - </h2>",
     unsafe_allow_html=True
     )
 
@@ -463,6 +463,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
