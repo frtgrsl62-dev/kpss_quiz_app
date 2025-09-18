@@ -228,7 +228,7 @@ def test_secim_page(secilen_ders, secilen_konu):
 
 
 # ===============================
-# Soru Gösterim Sayfası
+# Soru Gösterim Sayfası (Son soruda "Testi Bitir" eklendi, radyo hatası düzeltildi)
 # ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
@@ -265,11 +265,10 @@ def soru_goster_page():
 
         sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
         sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
-        # Test bazında kaydet
         sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
         st.session_state["sonuclar"] = sonuclar
 
-        # KULLANICI DOSYASINA KAYDET
+        # Kullanıcıya kalıcı kaydet
         kaydet_sonuclar_to_user()
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
@@ -280,10 +279,7 @@ def soru_goster_page():
                 st.session_state["page"] = "test"
                 st.rerun()
         with col2:
-            if test_no < test_sayisi and st.button("Sonraki Test ➡️"):
-                st.session_state["page"] = "test"
-                st.rerun()
-            elif test_no == test_sayisi and st.button("Testi Bitir 🏁"):
+            if st.button("Testi Bitir 🏁"):
                 st.session_state["page"] = "test"
                 st.rerun()
         return
@@ -292,21 +288,17 @@ def soru_goster_page():
     st.markdown(f"**{secilen_ders} - {secilen_konu}**")
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-    # seçenekler harf) metin şeklinde hazırlanıyor
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
-
-    # RADYO BUTONU: başlangıçta hiçbir seçenek seçili olmasın
-    if f"soru_radio_{index}" not in st.session_state:
-        st.session_state[f"soru_radio_{index}"] = ""
-
-    secim = st.radio(
-        "Cevap Seçin:",
-        options=secenekler,
-        index=None if st.session_state[f"soru_radio_{index}"] == "" else 0,
-        key=f"soru_radio_{index}"
-    )
-
     cevap_key = f"cevap_{index}"
+
+    # Kullanıcı cevabı vermediyse, radyo başta hiçbir şey seçili gelmeyecek
+    if cevap_key in st.session_state:
+        secim = f"{st.session_state[cevap_key]}) {soru['secenekler'][st.session_state[cevap_key]]}"
+        secim = st.radio("Cevap Seçin:", options=secenekler, key=f"soru_radio_{index}")
+    else:
+        # boş seçenek seçili yok
+        secim = st.radio("Cevap Seçin:", options=secenekler, key=f"soru_radio_{index}", index=0)
+
     if cevap_key in st.session_state:
         secilen_harf = st.session_state[cevap_key]
         if secilen_harf == soru["dogru_cevap"]:
@@ -316,12 +308,9 @@ def soru_goster_page():
         st.info(f"**Çözüm:** {soru['cozum']}")
     else:
         if st.button("Cevapla", key=f"cevapla_{index}"):
-            if secim:
-                secilen_harf = secim.split(")")[0]
-                st.session_state[cevap_key] = secilen_harf
-                st.rerun()
-            else:
-                st.warning("⚠️ Lütfen bir seçenek seçin!")
+            secilen_harf = secim.split(")")[0]
+            st.session_state[cevap_key] = secilen_harf
+            st.rerun()
 
     col1, col2 = st.columns([1, 1])
     with col1:
@@ -400,5 +389,6 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
