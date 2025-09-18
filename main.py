@@ -337,10 +337,6 @@ def soru_goster_page():
     f"<h2 style='color: #87CEEB; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>",
     unsafe_allow_html=True
     )
-st.markdown(
-    f"<h2 style='color: #87CEEB; font-size:20px;'>Test {test_num} -S</h2>",
-    unsafe_allow_html=True
-)
 
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
     st.markdown(f" {soru['soru']}")
@@ -463,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
