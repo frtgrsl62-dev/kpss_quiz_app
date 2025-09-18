@@ -218,7 +218,7 @@ def konu_secim_page(ders):
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.markdown(
-    f"<h2 style='color: white; font-size:30px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
+    f"<h2 style='color: yellow; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
     unsafe_allow_html=True
     )
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
@@ -332,7 +332,12 @@ def soru_goster_page():
         return
 
     soru = secilen_test[index]
-    st.markdown(f"**{secilen_ders} - {secilen_konu}**")
+    # st.markdown(f"**{secilen_ders} - {secilen_konu}**")
+    st.markdown(
+    f"<h2 style='color: yellow; font-size:20px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
+    unsafe_allow_html=True
+    )
+    
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
@@ -454,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
