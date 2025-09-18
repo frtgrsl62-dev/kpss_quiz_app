@@ -172,7 +172,7 @@ def konu_secim_page(ders):
         st.rerun()
 
 # ===============================
-# Test Seçim Sayfası (Çözülen test renklendirme eklendi)
+# Test Seçim Sayfası
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
     st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
@@ -194,17 +194,16 @@ def test_secim_page(secilen_ders, secilen_konu):
         bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
         test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
 
- # Çözülmüş testleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
-test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
-if test_sonuc:
-    dogru_sayi = test_sonuc.get('dogru',0)
-    toplam_soru = bitis - baslangic
-    oran = dogru_sayi / toplam_soru
-    simge = "✅" if oran >= 0.6 else "❌"
-    label = f"{test_adi} {simge} ({dogru_sayi}/{toplam_soru})"
-else:
-    label = f"{test_adi} ⏺"
-
+        # Çözülmüş testleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
+        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
+        if test_sonuc:
+            dogru_sayi = test_sonuc.get('dogru',0)
+            toplam_soru = bitis - baslangic
+            oran = dogru_sayi / toplam_soru
+            simge = "✅" if oran >= 0.6 else "❌"
+            label = f"{test_adi} {simge} ({dogru_sayi}/{toplam_soru})"
+        else:
+            label = f"{test_adi} ⏺"
 
         if st.button(label, key=f"testbtn_{i}", help=f"Test {i+1}"):
             # önce önceki cevap anahtarlarını temizle
@@ -227,8 +226,9 @@ else:
         st.session_state["page"] = "konu"
         st.rerun()
 
+
 # ===============================
-# Soru Gösterim Sayfası (Son soruda "Testi Bitir" eklendi)
+# Soru Gösterim Sayfası
 # ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
@@ -256,7 +256,6 @@ def soru_goster_page():
         for k in cevap_keys:
             secilen_harf = st.session_state[k]
             soru_index = int(k.split("_")[1])
-            # soru_index test içindeki indekstir
             if soru_index < len(secilen_test):
                 soru = secilen_test[soru_index]
                 if secilen_harf == soru["dogru_cevap"]:
@@ -270,7 +269,7 @@ def soru_goster_page():
         sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
         st.session_state["sonuclar"] = sonuclar
 
-        # KULLANICI DOSYASINA KAYDET (kalıcı)
+        # KULLANICI DOSYASINA KAYDET
         kaydet_sonuclar_to_user()
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
@@ -281,12 +280,10 @@ def soru_goster_page():
                 st.session_state["page"] = "test"
                 st.rerun()
         with col2:
-            # önceki mantık: eğer test_no < test_sayisi -> sonraki test, else ana menü
             if test_no < test_sayisi and st.button("Sonraki Test ➡️"):
                 st.session_state["page"] = "test"
                 st.rerun()
             elif test_no == test_sayisi and st.button("Testi Bitir 🏁"):
-                # son testse, test sayfalarına dön (isteğe göre ana menü de yapılabilir)
                 st.session_state["page"] = "test"
                 st.rerun()
         return
@@ -295,10 +292,19 @@ def soru_goster_page():
     st.markdown(f"**{secilen_ders} - {secilen_konu}**")
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:** {soru['soru']}")
 
-    # seçenekleri harf) metin şeklinde hazırlıyoruz
+    # seçenekler harf) metin şeklinde hazırlanıyor
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
-    # NOT: Streamlit radyo her zaman bir seçenek seçer; index=None hataya sebep olur. Burada varsayılan seçim kabul ediliyor.
-    secim = st.radio("Cevap Seçin:", secenekler, key=f"soru_radio_{index}")
+
+    # RADYO BUTONU: başlangıçta hiçbir seçenek seçili olmasın
+    if f"soru_radio_{index}" not in st.session_state:
+        st.session_state[f"soru_radio_{index}"] = ""
+
+    secim = st.radio(
+        "Cevap Seçin:",
+        options=secenekler,
+        index=None if st.session_state[f"soru_radio_{index}"] == "" else 0,
+        key=f"soru_radio_{index}"
+    )
 
     cevap_key = f"cevap_{index}"
     if cevap_key in st.session_state:
@@ -309,11 +315,13 @@ def soru_goster_page():
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
     else:
-        # artık secim her zaman dolu olduğu için bu uyarı gerekli değil; doğrudan kaydetme yapılır
         if st.button("Cevapla", key=f"cevapla_{index}"):
-            secilen_harf = secim.split(")")[0]
-            st.session_state[cevap_key] = secilen_harf
-            st.rerun()
+            if secim:
+                secilen_harf = secim.split(")")[0]
+                st.session_state[cevap_key] = secilen_harf
+                st.rerun()
+            else:
+                st.warning("⚠️ Lütfen bir seçenek seçin!")
 
     col1, col2 = st.columns([1, 1])
     with col1:
@@ -329,14 +337,13 @@ def soru_goster_page():
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
         else:
-            # son soruda "Testi Bitir" olacak; basılınca test seçimine dönsün
             if st.button("Testi Bitir 🏁"):
-                # eğer son soruda test tamamlanmamışsa index'i sonrakine alıp tamamlanma akışını başlat
                 if cevap_key in st.session_state:
                     current["index"] += 1
                     st.rerun()
                 else:
                     st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+
 
 # ===============================
 # Genel Rapor
@@ -393,4 +400,5 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
