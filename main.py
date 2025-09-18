@@ -171,7 +171,7 @@ def ders_secim_page():
 
     
     st.markdown("---")  # alt çizgi ile ayır
-    st.markdown("<h1 style='text-align: center; color: orange; font-size:5px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
 
@@ -223,6 +223,9 @@ def konu_secim_page(ders):
     if st.button("🔙 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
+
+    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 # ===============================
 # Test Seçim Sayfası
@@ -464,6 +467,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
