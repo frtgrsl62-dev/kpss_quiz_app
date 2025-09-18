@@ -139,46 +139,37 @@ def konu_secim_page(ders):
 
 
 # ===============================
-# Test Seçim Sayfası
+# Test Sonucu Sayfası
 # ===============================
-def test_secim_page(secilen_ders, secilen_konu):
-    st.header(f"{secilen_ders} - {secilen_konu} Test Seçimi")
-    tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
-    if not tum_sorular:
-        st.info("Bu konu için henüz soru eklenmemiş.")
-        if st.button("Geri"):
-            st.session_state["page"] = "konu"
-            st.rerun()
-        return
+def test_sonucu_page(dogru, yanlis, bos, ders, konu):
+    st.header("✅ Test Tamamlandı!")
 
-    soru_grubu_sayisi = 5
-    test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
+    st.success(f"Doğru Sayısı : {dogru}")
+    st.error(f"Yanlış Sayısı : {yanlis}")
+    st.info(f"Boş Sayısı   : {bos}")
 
-    for i in range(test_sayisi):
-        baslangic = i * soru_grubu_sayisi
-        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
-        test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
+    # --- Sonuçları kaydet ---
+    if "sonuclar" not in st.session_state:
+        st.session_state["sonuclar"] = {}
 
-        if st.button(test_adi, key=f"testbtn_{i}"):
-            # Önceki test cevaplarını temizle
-            cevap_keys = [k for k in st.session_state.keys() if k.startswith("cevap_")]
-            for k in cevap_keys:
-                del st.session_state[k]
+    sonuclar = st.session_state["sonuclar"]
 
-            st.session_state["current_test"] = {
-                "test": tum_sorular[baslangic:bitis],
-                "index": 0,
-                "ders": secilen_ders,
-                "konu": secilen_konu,
-                "test_no": i+1,
-                "test_sayisi": test_sayisi
-            }
-            st.session_state["page"] = "soru"
-            st.rerun()
+    if ders not in sonuclar:
+        sonuclar[ders] = {}
 
-    if st.button("Geri"):
-        st.session_state["page"] = "konu"
+    if konu not in sonuclar[ders]:
+        sonuclar[ders][konu] = {"dogru": 0, "yanlis": 0}
+
+    sonuclar[ders][konu]["dogru"] += dogru
+    sonuclar[ders][konu]["yanlis"] += yanlis
+
+    st.session_state["sonuclar"] = sonuclar
+
+    st.markdown("---")
+    if st.button("📚 Ana Menüye Dön"):
+        st.session_state["page"] = "ders"
         st.rerun()
+
 
 
 # ===============================
@@ -319,6 +310,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
