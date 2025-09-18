@@ -2542,12 +2542,11 @@ soru_bankasi = {
         "cozum": "II. Mahmut taşradaki yerel güçleri zayıflatıp merkezi otoriteyi güçlendirmeyi hedefledi.",
         "kocunun_yorumu": "Yaptığı her reformun temelinde merkeziyetçilik vardır."
     }
-      
+
 ##
     ],
     "8) Trablusgarp ve Balkan Savaşları": [
      {
-      "soru_no": 1,
       "soru": "Osmanlı Devleti'nin, Trablusgarp Savaşı'nda İtalya'ya karşı karadan ve denizden etkili bir savunma yapamamasının temel nedeni aşağıdakilerden hangisidir?",
       "secenekler": {
         "A": "Balkan devletlerinin İtalya'yı desteklemesi",
@@ -2561,7 +2560,6 @@ soru_bankasi = {
       "koc_yorumu": "ÖSYM neden-sonuç ilişkisini sever. Trablusgarp kaybının sebebi savaşı kaybetmek değil, savaşa ulaşamamaktır."
     },
     {
-      "soru_no": 2,
       "soru": "Aşağıdakilerden hangisi Balkan Savaşları'nın sonuçlarından biri değildir?",
       "secenekler": {
         "A": "Balkanlarda kalan Türklerin azınlık statüsüne düşmesi",
@@ -2575,7 +2573,6 @@ soru_bankasi = {
       "koc_yorumu": "ÖSYM yakın tarihli olayların sonuçlarını karıştırmaya yönelik sorular sorar. Trablusgarp = Kuzey Afrika kaybı, Balkan Savaşları = Rumeli kaybı."
     },
     {
-      "soru_no": 3,
       "soru": "Mustafa Kemal'in, 'Gazeteci Şerif' takma adıyla gönüllü olarak katıldığı ve ilk askeri başarısını kazandığı savaş aşağıdakilerden hangisidir?",
       "secenekler": {
         "A": "I. Balkan Savaşı",
@@ -2589,7 +2586,6 @@ soru_bankasi = {
       "koc_yorumu": "ÖSYM Mustafa Kemal’in katıldığı savaşları sıkça sorar. Trablusgarp = ilk askeri başarı."
     },
     {
-      "soru_no": 4,
       "soru": "I. Balkan Savaşı'nda Osmanlı ordusunun ağır bir yenilgi alması ve Edirne'yi kaybetmesi, aşağıdaki iç siyasi gelişmelerden hangisine zemin hazırlamıştır?",
       "secenekler": {
         "A": "31 Mart Olayı'na",
@@ -2603,7 +2599,6 @@ soru_bankasi = {
       "koc_yorumu": "ÖSYM dış politika hezimetlerinin iç siyasetteki yansımalarını sorar."
     },
     {
-      "soru_no": 5,
       "soru": "1912 Uşi Antlaşması ile İtalya'ya bırakılan Oniki Ada'nın statüsü ile ilgili aşağıdakilerden hangisi doğrudur?",
       "secenekler": {
         "A": "Kalıcı olarak İtalya'ya verilmiştir.",
@@ -2617,7 +2612,6 @@ soru_bankasi = {
       "koc_yorumu": "Diplomatik belgelerdeki 'geçici' ifadeler ÖSYM’nin klasik tuzak sorusudur."
     },
     {
-      "soru_no": 6,
       "soru": "Aşağıdaki Balkan devletlerinden hangisi, I. Balkan Savaşı'na katılmadığı halde, II. Balkan Savaşı'na katılmıştır?",
       "secenekler": {
         "A": "Bulgaristan",
@@ -2631,7 +2625,6 @@ soru_bankasi = {
       "koc_yorumu": "İki Balkan Savaşı’na katılan devlet farkı kritik bir ayrıntıdır."
     },
     {
-      "soru_no": 7,
       "soru": "Balkan Savaşları'nda, Osmanlı vatandaşı olan Arnavut, Bulgar, Sırp gibi milletlerin hep birlikte Osmanlı'ya karşı savaşması, aşağıdaki fikir akımlarından hangisinin geçerliliğini tamamen yitirdiğini göstermiştir?",
       "secenekler": {
         "A": "Batıcılık",
@@ -2645,7 +2638,6 @@ soru_bankasi = {
       "koc_yorumu": "Balkan Savaşları = Osmanlıcılığın iflası."
     },
     {
-      "soru_no": 8,
       "soru": "Osmanlı Devleti'nden ayrılarak bağımsızlığını ilan eden son Balkan ulusu aşağıdakilerden hangisidir?",
       "secenekler": {
         "A": "Sırbistan",
@@ -2659,7 +2651,6 @@ soru_bankasi = {
       "koc_yorumu": "İlkler kadar son bağımsız olan devlet de önemlidir."
     },
     {
-      "soru_no": 9,
       "soru": "Aşağıdakilerden hangisi II. Balkan Savaşı'nın çıkmasının temel nedenidir?",
       "secenekler": {
         "A": "Osmanlı Devleti'nin kaybettiği toprakları geri almak istemesi",
@@ -2673,7 +2664,6 @@ soru_bankasi = {
       "koc_yorumu": "I. Balkan Savaşı = Osmanlı’ya karşı, II. Balkan Savaşı = galipler arası paylaşım kavgası."
     },
     {
-      "soru_no": 10,
       "soru": "Balkan Savaşları sonunda Bulgaristan ile imzalanan İstanbul Antlaşması ile belirlenen ve günümüz Türkiye-Bulgaristan sınırını büyük ölçüde çizen nehir aşağıdakilerden hangisidir?",
       "secenekler": {
         "A": "Tuna",
@@ -2687,7 +2677,6 @@ soru_bankasi = {
       "koc_yorumu": "Kasr-ı Şirin doğu sınırını belirlerken, İstanbul Antlaşması batı sınırını şekillendirdi."
     },
     {
-      "soru_no": 11,
       "soru": "Trablusgarp Savaşı sonunda imzalanan Uşi Antlaşması ile Osmanlı Devleti, aşağıdaki bölgelerden hangisindeki hâkimiyetini kaybetmiştir?",
       "secenekler": {
         "A": "Balkanlar",
@@ -2701,7 +2690,6 @@ soru_bankasi = {
       "koc_yorumu": "Her savaşın en temel sonucu bilinmeli. Trablusgarp = Kuzey Afrika kaybı."
     },
     {
-      "soru_no": 12,
       "soru": "Osmanlı Devleti'nin, II. Balkan Savaşı'nda Balkan devletlerinin kendi aralarında savaşmasından faydalanarak geri aldığı topraklar arasında aşağıdakilerden hangisi yer alır?",
       "secenekler": {
         "A": "Selanik ve Manastır",
@@ -2715,7 +2703,6 @@ soru_bankasi = {
       "koc_yorumu": "II. Balkan Savaşı Osmanlı için kısmi kazanım sağlamıştır."
     },
     {
-      "soru_no": 13,
       "soru": "Balkan Savaşları'ndan sonra Balkanlardan Anadolu'ya yaşanan yoğun Türk göçleri ve bölgedeki Müslümanlara yönelik katliamlar, Osmanlı aydınları ve halkı arasında hangi fikir akımının güçlenmesine neden olmuştur?",
       "secenekler": {
         "A": "Osmanlıcılık",
@@ -2729,7 +2716,6 @@ soru_bankasi = {
       "koc_yorumu": "Balkan felaketi Osmanlıcılığı bitirdi, Türkçülüğü güçlendirdi."
     },
     {
-      "soru_no": 14,
       "soru": "I. Balkan Savaşı'nı sona erdiren ve Osmanlı Devleti'nin Midye-Enez hattının batısındaki tüm topraklarını kaybettiği antlaşma hangisidir?",
       "secenekler": {
         "A": "Bükreş Antlaşması",
@@ -2743,7 +2729,6 @@ soru_bankasi = {
       "koc_yorumu": "Savaşları bitiren antlaşmalar temel ezber bilgisidir."
     },
     {
-      "soru_no": 15,
       "soru": "Trablusgarp Savaşı'nın başlamasında İtalya'yı cesaretlendiren en önemli dış etken aşağıdakilerden hangisidir?",
       "secenekler": {
         "A": "Almanya'nın İtalya'yı desteklemesi",
@@ -3573,256 +3558,306 @@ soru_bankasi = {
   },
      {
     "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na katılmasında en önemli etkenlerden biri aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Rusya ile ilişkileri düzeltmek",
     "B": "Kaybettiği toprakları geri almak",
     "C": "İngiltere ile ittifak kurmak",
     "D": "Fransa'nın desteğini sağlamak",
     "E": "ABD ile yakınlaşmak",
+    },
     "dogru_cevap": "B",
     "cozum": "Osmanlı Devleti savaşa girerken temel amacı kaybettiği toprakları geri almak ve eski gücünü kazanabilmekti. Bu yüzden Almanya ile ittifak yaptı."
   },
   {
     "soru": "Mondros Ateşkes Antlaşması'nın 7. maddesi İtilaf Devletlerine ne gibi bir hak tanımıştır?",
+    "secenekler": {
     "A": "Osmanlı ordusunu terhis etme",
     "B": "Boğazları işgal etme",
     "C": "Güvenliklerini tehdit eden bölgeleri işgal etme",
     "D": "Saltanatı kaldırma",
     "E": "Vergi toplama yetkisini devralma",
+    },
     "dogru_cevap": "C",
     "cozum": "7. maddeye göre İtilaf Devletleri, güvenliklerini tehdit eden herhangi bir stratejik bölgeyi işgal edebilecekti. Bu madde işgallerin temel dayanağı olmuştur."
   },
   {
     "soru": "Aşağıdakilerden hangisi Osmanlı Devleti'nin I. Dünya Savaşı'nda başarılı olduğu cephedir?",
+    "secenekler": {
     "A": "Kafkas Cephesi",
     "B": "Kanal Cephesi",
     "C": "Çanakkale Cephesi",
     "D": "Suriye-Filistin Cephesi",
     "E": "Hicaz-Yemen Cephesi",
+    },
     "dogru_cevap": "C",
     "cozum": "Osmanlı Devleti Çanakkale Cephesi'nde başarılı olmuş, İtilaf Devletleri boğazları geçememiştir. Bu sonuç Rusya'ya yardım ulaşamamasına neden olmuştur."
   },
   {
     "soru": "Sarıkamış Harekâtı hangi cephede gerçekleşmiştir?",
+    "secenekler": {
     "A": "Irak Cephesi",
     "B": "Kafkas Cephesi",
     "C": "Çanakkale Cephesi",
     "D": "Suriye Cephesi",
     "E": "Kanal Cephesi",
+    },
     "dogru_cevap": "B",
     "cozum": "Sarıkamış Harekâtı 1914 yılında Kafkas Cephesi'nde gerçekleşmiş ve Osmanlı büyük kayıplar vermiştir."
   },
   {
     "soru": "Mustafa Kemal I. Dünya Savaşı'nda aşağıdaki cephelerin hangisinde görev yapmamıştır?",
+    "secenekler": {
     "A": "Çanakkale",
     "B": "Kafkas",
     "C": "Suriye-Filistin",
     "D": "Trablusgarp",
     "E": "Irak",
+    },
     "dogru_cevap": "E",
     "cozum": "Mustafa Kemal Irak Cephesi'nde görev yapmamıştır. Çanakkale, Kafkas ve Suriye-Filistin cephelerinde görev almıştır."
   },
   {
     "soru": "Mondros Ateşkes Antlaşması'nın 24. maddesi hangi bölgeyi ilgilendirmektedir?",
+    "secenekler": {
     "A": "Boğazlar",
     "B": "Trakya",
     "C": "Doğu Anadolu",
     "D": "İzmir ve çevresi",
     "E": "Musul",
+    },
     "dogru_cevap": "C",
     "cozum": "24. madde, Doğu Anadolu’daki 6 vilayeti kapsamaktadır. Bu bölgelerde karışıklık çıkarsa İtilaf Devletleri işgal edebilecekti."
   },
   {
     "soru": "Osmanlı Devleti'nin savaştığı yardım cephelerinden biri aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Çanakkale",
     "B": "Kafkas",
     "C": "Galiçya",
     "D": "Suriye",
     "E": "Irak",
+    },
     "dogru_cevap": "C",
     "cozum": "Galiçya, Osmanlı'nın müttefiklerine asker göndererek destek verdiği yardım cephelerinden biridir."
   },
   {
     "soru": "Aşağıdaki antlaşmalardan hangisi I. Dünya Savaşı’nı Osmanlı Devleti açısından sona erdirmiştir?",
+    "secenekler": {
     "A": "Lozan",
     "B": "Mondros",
     "C": "Sevr",
     "D": "Mudanya",
     "E": "Ankara",
+    },
     "dogru_cevap": "B",
     "cozum": "Osmanlı Devleti, 30 Ekim 1918'de imzalanan Mondros Ateşkes Antlaşması ile I. Dünya Savaşı’ndan çekilmiştir."
   },
   {
     "soru": "Kut'ül Amare Zaferi hangi cephede kazanılmıştır?",
+    "secenekler": {
     "A": "Çanakkale",
     "B": "Irak",
     "C": "Kafkas",
     "D": "Kanal",
     "E": "Suriye",
+    },
     "dogru_cevap": "B",
     "cozum": "1916 yılında Osmanlı ordusu Irak Cephesi’nde İngilizlere karşı Kut’ül Amare Zaferi’ni kazanmıştır."
   },
   {
     "soru": "Aşağıdakilerden hangisi I. Dünya Savaşı'nın genel sonuçlarından biri değildir?",
+    "secenekler": {
     "A": "Milletler Cemiyeti'nin kurulması",
     "B": "Yeni devletlerin kurulması",
     "C": "Saltanatın kaldırılması",
     "D": "Osmanlı İmparatorluğu'nun yıkılması",
     "E": "Avusturya-Macaristan'ın parçalanması",
+    },
     "dogru_cevap": "C",
     "cozum": "Saltanatın kaldırılması I. Dünya Savaşı'nın değil, Cumhuriyet döneminin sonucudur."
   },
   {
     "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti’nin İngiltere’ye karşı açtığı taarruz cephesi aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Çanakkale",
     "B": "Irak",
     "C": "Kanal",
     "D": "Suriye",
     "E": "Hicaz",
+    },
     "dogru_cevap": "C",
     "cozum": "Osmanlı, Süveyş Kanalı'nı ele geçirmek amacıyla Kanal Cephesi'nde İngiltere'ye karşı taarruz başlatmıştır."
   },
   {
     "soru": "Mustafa Kemal'in 'Anafartalar Kahramanı' unvanını aldığı savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Sakarya Meydan Muharebesi",
     "B": "I. İnönü Savaşı",
     "C": "Çanakkale Savaşı",
     "D": "Büyük Taarruz",
     "E": "Kafkas Cephesi",
+    },
     "dogru_cevap": "C",
     "cozum": "Mustafa Kemal, Çanakkale Cephesi’nde Anafartalar Muharebesi'ndeki başarısından dolayı 'Anafartalar Kahramanı' unvanını almıştır."
   },
   {
     "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na katılmasıyla aşağıdakilerden hangisi amaçlanmamıştır?",
+    "secenekler": {
     "A": "Kapitülasyonlardan kurtulmak",
     "B": "Kaybettiği toprakları geri almak",
     "C": "Almanya’ya yakınlaşmak",
     "D": "Saltanatı kaldırmak",
     "E": "Halifelik gücünü kullanmak",
+    },
     "dogru_cevap": "D",
     "cozum": "Saltanatın kaldırılması Osmanlı’nın savaşa giriş amaçları arasında değildir. Bu Cumhuriyet dönemine aittir."
   },
   {
     "soru": "Osmanlı Devleti, I. Dünya Savaşı'nda hangi cephede İngiliz destekli Arap isyanıyla uğraşmıştır?",
+    "secenekler": {
     "A": "Kafkas",
     "B": "Irak",
     "C": "Hicaz-Yemen",
     "D": "Kanal",
     "E": "Suriye",
+    },
     "dogru_cevap": "C",
     "cozum": "Osmanlı, Hicaz-Yemen Cephesi'nde Şerif Hüseyin önderliğinde İngiliz destekli Arap isyanı ile karşılaşmıştır."
   },
   {
     "soru": "Aşağıdakilerden hangisi Çanakkale Cephesi’nin sonuçlarından biri değildir?",
+    "secenekler": {
     "A": "Rusya’ya yardım ulaştırılamadı",
     "B": "Bulgaristan İttifak Devletleri yanında savaşa katıldı",
     "C": "Mustafa Kemal komutan olarak tanındı",
     "D": "İtilaf Devletleri büyük kayıp verdi",
     "E": "İngiltere Musul’u işgal etti",
+    },
     "dogru_cevap": "E",
     "cozum": "İngiltere’nin Musul’u işgali Çanakkale ile ilgili değil, Mondros’tan sonra gerçekleşmiştir."
   },
   {
     "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti'nin savaştığı cephelerden hangisi savaşın genel seyrini değiştirmiştir?",
+    "secenekler": {
     "A": "Kafkas",
     "B": "Irak",
     "C": "Çanakkale",
     "D": "Kanal",
     "E": "Hicaz-Yemen",
+    },
     "dogru_cevap": "C",
     "cozum": "Çanakkale Cephesi İtilaf Devletleri için başarısızlıkla sonuçlanmış, Rusya’ya yardım ulaşamamış ve savaşın genel seyrini değiştirmiştir."
   },
   {
     "soru": "Mondros Ateşkes Antlaşması hangi tarihte imzalanmıştır?",
+    "secenekler": {
     "A": "30 Ekim 1918",
     "B": "23 Nisan 1920",
     "C": "24 Temmuz 1923",
     "D": "29 Ekim 1923",
     "E": "10 Ağustos 1920",
+    },
     "dogru_cevap": "A",
     "cozum": "Mondros Ateşkes Antlaşması 30 Ekim 1918’de imzalanmıştır."
   },
   {
     "soru": "Aşağıdaki antlaşmalardan hangisi Almanya’nın I. Dünya Savaşı sonrasında imzaladığı antlaşmadır?",
+    "secenekler": {
     "A": "Nöyyi",
     "B": "Trianon",
     "C": "Versay",
     "D": "Sen Jermen",
     "E": "Sevr",
+    },
     "dogru_cevap": "C",
     "cozum": "Almanya I. Dünya Savaşı sonunda Versay Antlaşması’nı imzalamıştır."
   },
   {
     "soru": "Aşağıdaki devletlerden hangisi I. Dünya Savaşı'nda İtilaf Devletleri arasında yer almıştır?",
+    "secenekler": {
     "A": "Almanya",
     "B": "Avusturya-Macaristan",
     "C": "Bulgaristan",
     "D": "İtalya",
     "E": "Osmanlı",
+    },
     "dogru_cevap": "D",
     "cozum": "İtalya başlangıçta tarafsız kalmış, 1915’te İtilaf Devletleri yanında savaşa katılmıştır."
   },
   {
     "soru": "Osmanlı Devleti'nin savaştığı cephelerden hangisi savaş sonrası işgallere gerekçe yapılmamıştır?",
+    "secenekler": { 
     "A": "Kafkas",
     "B": "Çanakkale",
     "C": "Irak",
     "D": "Suriye",
     "E": "Hicaz",
+    },
     "dogru_cevap": "B",
     "cozum": "Çanakkale Cephesi Osmanlı’nın başarı gösterdiği cephe olduğundan işgallere gerekçe oluşturmadı."
   },
   {
     "soru": "I. Dünya Savaşı sonucunda aşağıdaki imparatorluklardan hangisi yıkılmamıştır?",
+    "secenekler": {
     "A": "Avusturya-Macaristan",
     "B": "Almanya",
     "C": "Rusya",
     "D": "Osmanlı",
     "E": "İspanya",
+    },
     "dogru_cevap": "E",
     "cozum": "İspanya savaşa katılmamış ve imparatorluğu devam etmiştir. Diğer imparatorluklar yıkılmıştır."
   },
   {
     "soru": "Osmanlı Devleti hangi cephede İngiltere’ye karşı Kut’ül Amare Zaferi’ni kazanmıştır?",
+    "secenekler": {
     "A": "Çanakkale",
     "B": "Irak",
     "C": "Suriye",
     "D": "Kanal",
     "E": "Hicaz",
+    },
     "dogru_cevap": "B",
     "cozum": "Kut’ül Amare Zaferi Irak Cephesi’nde kazanılmıştır."
   },
   {
     "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti'nin asker gönderdiği Avrupa cephesi aşağıdakilerden hangisidir?",
+    "secenekler": {
     "A": "Makedonya",
     "B": "Kafkasya",
     "C": "Suriye",
     "D": "Hicaz",
     "E": "Irak",
+    },
     "dogru_cevap": "A",
     "cozum": "Osmanlı, müttefiklerine destek için Makedonya’ya asker göndermiştir."
   },
   {
     "soru": "Mondros Ateşkes Antlaşması ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "secenekler": {
     "A": "Osmanlı ordusu terhis edilecektir",
     "B": "Boğazlar İtilaf Devletlerine açılacaktır",
     "C": "İtilaf Devletleri her yeri işgal edebilir",
     "D": "Toros Tünelleri işgal edilecektir",
     "E": "Osmanlı hükümeti yargılanacaktır",
+    },
     "dogru_cevap": "E",
     "cozum": "Mondros’ta Osmanlı hükümetinin yargılanacağına dair bir madde yoktur. Diğer maddeler doğru ifadelerdir."
   },
   {
     "soru": "Aşağıdaki gelişmelerden hangisi I. Dünya Savaşı'nın sonuçları arasında gösterilemez?",
+    "secenekler": {
     "A": "Cemiyet-i Akvam’ın kurulması",
     "B": "SSCB’nin kurulması",
     "C": "Yeni devletlerin ortaya çıkması",
     "D": "Saltanatın kaldırılması",
     "E": "İmparatorlukların dağılması",
+    },
     "dogru_cevap": "D",
     "cozum": "Saltanatın kaldırılması Türkiye Cumhuriyeti döneminde gerçekleşmiştir, savaşın doğrudan bir sonucu değildir."
   }
     ],
-    
+
 ##
     "10) Milli Mücadele'nin Hazırlık Dönemi": [
   {
@@ -4098,7 +4133,7 @@ soru_bankasi = {
     "C": "Erzurum Kongresi",
     "D": "İstanbul Hükûmeti",
     "E": "Balıkesir Kongresi",
-   }, 
+   },
     "dogru_cevap": "B",
     "cozum": "Temsil Heyeti, Sivas Kongresi'nden sonra bir hükümet gibi hareket etmeye başlamıştır. Bir komutan ataması yapması, \"yürütme\" gücünü kullandığının en net kanıtıdır."
   },
@@ -4245,6 +4280,295 @@ soru_bankasi = {
     },
     "dogru_cevap": "A",
     "cozum": "Amasya Genelgesi, ilk kez ulusal irade ve egemenlik kavramını vurgulamıştır, Misak-ı Milli ve TBMM ise sonrasındaki gelişmelerdir."
+  },
+  ###
+    {
+    "soru": "Mustafa Kemal'in Havza'dan sonra Amasya'ya geçerek burada bir genelge yayımlamasının temel amacı, Havza'daki çağrısını hangi yönde geliştirmektir?",
+    "secenekler": {
+      "A": "Protestoları sonlandırmak",
+      "B": "Milli bilinci, organize bir eylem planına dönüştürmek",
+      "C": "İstanbul Hükûmeti ile uzlaşmak",
+      "D": "Padişaha bağlılık bildirmek",
+      "E": "Silahlı direnişi derhal başlatmak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Havza'da uyandırılan milli bilinci, Amasya'da Kurtuluş Savaşı'nın amaç, gerekçe ve yöntemini belirleyen somut bir yol haritasına dönüştürmüştür. Havza'da 'tepki' gösterilmesi istendi, Amasya'da ise bu tepkinin 'nasıl' ve 'ne için' yapılacağı açıklandı."
+  },
+  {
+    "soru": "Amasya Genelgesi'nde yer alan 'İstanbul Hükûmeti, üzerine aldığı sorumluluğun gereğini yerine getirememektedir.' maddesi, Milli Mücadele'nin hangi meşruiyet temelini oluşturur?",
+    "secenekler": {
+      "A": "Askeri meşruiyet",
+      "B": "Hukuki ve siyasi meşruiyet",
+      "C": "Dini meşruiyet",
+      "D": "Ekonomik meşruiyet",
+      "E": "Sosyal meşruiyet"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Mevcut hükümet görevini yapamıyorsa, milletin kendi kaderini eline almasının hukuki ve siyasi olarak meşru olduğunu savunur. Bu madde, 'Mevcut otorite görevini yapmıyorsa, halk kendi kendini yönetme hakkına sahiptir' ilkesine dayanır."
+  },
+  {
+    "soru": "Erzurum Kongresi kararlarından olan 'Kuvayımilliyeyi etken ve milli iradeyi hâkim kılmak esastır.' ilkesi, gelecekte hangi iki temel kurumun kurulacağına işaret etmektedir?",
+    "secenekler": {
+      "A": "Temsil Heyeti ve Mebusan Meclisi",
+      "B": "Tekâlif-i Milliye ve İstiklal Mahkemeleri",
+      "C": "Düzenli Ordu ve Türkiye Büyük Millet Meclisi",
+      "D": "Müdafaa-i Hukuk Cemiyetleri ve Reddi-i İlhak Cemiyeti",
+      "E": "Jandarma Teşkilatı ve Saltanat Şurası"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kuvayımilliyeyi 'etken' kılmak, onu dağınık bir güçten düzenli bir orduya dönüştürmeyi; 'milli iradeyi hâkim kılmak' ise milletin temsilcilerinden oluşan bir meclisin (TBMM) kurulmasını ifade eder."
+  },
+  {
+    "soru": "Sivas Kongresi'nin, Erzurum Kongresi'nden farklı olarak, toplanış şekli ve katılım açısından 'ulusal' bir nitelik taşımasının en önemli kanıtı nedir?",
+    "secenekler": {
+      "A": "Daha fazla karar alınmış olması",
+      "B": "Mustafa Kemal'in kongre başkanı seçilmesi",
+      "C": "Yurdun her bölgesinden seçilen delegelerin katılmış olması",
+      "D": "İrade-i Milliye gazetesinin çıkarılması",
+      "E": "Manda ve himayenin kesin olarak reddedilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Erzurum'a sadece Doğu illerinden delegeler katılırken, Sivas'a tüm yurttan (Anadolu ve Rumeli) delegeler katılmıştır. Bu da kongreyi ulusal yapar. Bir kongrenin 'ulusal' olmasını sağlayan şey, temsil ettiği coğrafyanın genişliğidir."
+  },
+  {
+    "soru": "Temsil Heyeti'nin, Ali Fuat Paşa'yı Batı Cephesi Komutanlığı'na ataması, hangi yetkiyi kullandığının bir göstergesidir?",
+    "secenekler": {
+      "A": "Yasama yetkisi",
+      "B": "Yargı yetkisi",
+      "C": "Yürütme yetkisi",
+      "D": "Danışma yetkisi",
+      "E": "Mali yetki"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Devlet adına atama yapmak, karar almak ve uygulamak, bir hükümet gibi davranmaktır ve bu da yürütme yetkisini kullanmak anlamına gelir. Bu olay, Temsil Heyeti'nin artık sadece bir danışma kurulu değil, fiilen bir hükümet gibi hareket etmeye başladığının en net kanıtıdır."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Misakımillî'de 'sınırlar' konusunun belirlenmesinde temel alınan ilkedir?",
+    "secenekler": {
+      "A": "1914 yılındaki sınırlar",
+      "B": "Osmanlı Devleti'nin en geniş sınırları",
+      "C": "Mondros Ateşkes Antlaşması imzalandığı sırada işgal edilmemiş olan ve Türk-İslam çoğunluğunun yaşadığı topraklar",
+      "D": "Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti'nin kontrol ettiği topraklar",
+      "E": "I. Balkan Savaşı öncesindeki sınırlar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Misakımillî, hem fiili durumu (işgal edilmemiş topraklar) hem de Wilson İlkeleri'ni (milletlerin çoğunlukta olduğu yerler) temel alan bir sınır tanımı yapmıştır. Misakımillî hayalperest değildir; gerçekçi, hukuki ve savunulabilir bir sınır çizgisi belirlemiştir."
+  },
+  {
+    "soru": "Temsil Heyeti'nin Sivas Kongresi'nden sonra Damat Ferit Paşa Hükûmeti'ni istifaya zorlayarak yerine Ali Rıza Paşa Hükûmeti'nin kurulmasını sağlaması, nasıl bir başarı olarak nitelendirilebilir?",
+    "secenekler": {
+      "A": "Askeri bir zafer",
+      "B": "Ekonomik bir kazanım",
+      "C": "Milli Mücadele'nin İstanbul Hükûmeti'ne karşı kazandığı ilk siyasi zafer",
+      "D": "Manda ve himayenin kabulü yönünde bir adım",
+      "E": "İtilaf Devletleri ile yapılan bir antlaşma"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Anadolu'daki hareketin gücü, İstanbul'da bir hükümeti istifa ettirecek seviyeye gelmiştir. Bu, Temsil Heyeti'nin siyasi otoritesini kanıtlar ve Milli Mücadele'nin artık yok sayılamayacak bir güç olduğunu gösterir."
+  },
+  {
+    "soru": "Misakımillî kararları ilk olarak nerede kabul edilmiştir?",
+    "secenekler": {
+      "A": "Sivas Kongresi",
+      "B": "Erzurum Kongresi",
+      "C": "Amasya Görüşmeleri",
+      "D": "Son Osmanlı Mebusan Meclisi",
+      "E": "Balıkesir Kongresi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Erzurum ve Sivas Kongresi kararlarının bir özeti ve programı niteliğindeki Misakımillî, İstanbul'da toplanan meclis tarafından kabul edilerek resmiyet kazanmıştır. Kararların, padişahın meclisi tarafından kabul edilmesi, Milli Mücadele'ye hem iç hem de dış siyasette büyük bir meşruiyet sağlamıştır."
+  },
+  {
+    "soru": "Amasya Genelgesi'nin yayımlanmasından hemen sonra Mustafa Kemal'in askerlik görevinden istifa etmesi, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Milli Mücadele'den vazgeçtiğinin",
+      "B": "Mücadeleyi artık sivil bir halk hareketi olarak sürdüreceğinin",
+      "C": "İstanbul Hükûmeti ile anlaştığının",
+      "D": "Padişahın emrine uyduğunun",
+      "E": "İtilaf Devletleri'nden çekindiğinin"
+    },
+    "dogru_cevap": "B",
+    "cozum": "İstanbul Hükûmeti'nin kendisini görevden alma girişimine karşı, onlardan önce davranarak istifa etmiş ve 'sine-i millete' (milletin sinesine) döndüğünü, yani mücadelenin liderliğini artık bir sivil olarak yapacağını ilan etmiştir."
+  },
+  {
+    "soru": "'Milli sınırlar içinde vatan bir bütündür, parçalanamaz.' kararı ilk kez nerede alınmıştır?",
+    "secenekler": {
+      "A": "Havza Genelgesi",
+      "B": "Amasya Genelgesi",
+      "C": "Erzurum Kongresi",
+      "D": "Sivas Kongresi",
+      "E": "Amasya Görüşmeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Misakımillî'nin temelini oluşturan bu ilke, vatan topraklarının bir bütün olduğu ve Mondros Ateşkesi'nin dayattığı parçalanmanın kabul edilmeyeceği fikrini ilk kez net bir şekilde ortaya koymuştur. Bu madde, Milli Mücadele'nin 'toprak bütünlüğü' ve 'tam bağımsızlık' hedeflerinin ilk somut ifadesidir."
+  },
+  {
+    "soru": "İstanbul Hükûmeti'nin, Sivas Kongresi'ni engellemek amacıyla Ali Galip'i görevlendirmesi ancak başarısız olması neyi kanıtlar?",
+    "secenekler": {
+      "A": "İstanbul Hükûmeti'nin Anadolu'daki otoritesinin kalmadığını",
+      "B": "Ali Galip'in Milli Mücadele'ye katıldığını",
+      "C": "Padişahın kongreyi gizlice desteklediğini",
+      "D": "Kongrenin yasa dışı olduğunu",
+      "E": "İtilaf Devletleri'nin Milli Mücadele'ye destek verdiğini"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Merkezden gönderilen bir valinin, Anadolu'daki milli güçler karşısında aciz kalması, İstanbul'un Anadolu'ya söz geçiremediğini ve Temsil Heyeti'nin fiili otorite haline geldiğini gösterir. Bu olay, Damat Ferit Hükûmeti'nin sonunu getiren ve Amasya Görüşmeleri'ne zemin hazırlayan önemli bir güç gösterisidir."
+  },
+  {
+    "soru": "Aşağıdaki gelişmelerden hangisinin, Ankara'da Türkiye Büyük Millet Meclisi'nin açılmasına doğrudan zemin hazırladığı söylenebilir?",
+    "secenekler": {
+      "A": "Amasya Genelgesi'nin yayımlanması",
+      "B": "Sivas Kongresi'nin toplanması",
+      "C": "Amasya Görüşmeleri'nin yapılması",
+      "D": "İstanbul'un resmen işgal edilerek Mebusan Meclisi'nin dağıtılması",
+      "E": "Temsil Heyeti'nin Ankara'ya gelmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Milli iradenin tecelli ettiği Mebusan Meclisi'nin İtilaf Devletleri tarafından kapatılması, millet iradesini temsil edecek yeni ve tam bağımsız bir meclisin Ankara'da açılmasını zorunlu ve meşru kılmıştır. İtilaf Devletleri, Mebusan Meclisi'ni kapatarak milli iradeyi yok edeceklerini sandılar ama aslında farkında olmadan Ankara'da daha güçlü bir şekilde doğmasına neden oldular."
+  },
+  {
+    "soru": "'Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.' ilkesi, aşağıdakilerden hangisine ilk kez işaret etmiştir?",
+    "secenekler": {
+      "A": "Saltanatın devamlılığına",
+      "B": "Manda ve himaye fikrine",
+      "C": "Milli egemenlik anlayışına",
+      "D": "Dış yardım alınması gerektiğine",
+      "E": "Halifeliğin gücüne"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kurtuluşun padişah veya halifeden değil, bizzat 'milletin kendi kararından' geleceğini söylemek, yönetme gücünün (egemenliğin) kaynağının millet olduğunu üstü kapalı bir şekilde ifade etmektir. Bu madde, Kurtuluş Savaşı'nın sadece bir 'milli bağımsızlık' mücadelesi değil, aynı zamanda bir 'milli egemenlik' mücadelesi olacağının da ilk sinyalidir."
+  },
+  {
+    "soru": "Misakımillî'de aşağıdaki konulardan hangisiyle ilgili bir karar yoktur?",
+    "secenekler": {
+      "A": "Kapitülasyonlar",
+      "B": "Boğazlar",
+      "C": "Azınlık Hakları",
+      "D": "Saltanatın geleceği",
+      "E": "Dış Borçlar"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Misakımillî, ülkenin sınırları ve bağımsızlığı ile ilgili bir metindir. Henüz milli birlik ve beraberliğin en çok ihtiyaç duyulduğu bu aşamada, saltanat veya rejim gibi tartışmalı bir konuya girmekten özellikle kaçınılmıştır. Milli Mücadele'nin hazırlık dönemindeki strateji, öncelikle 'tam bağımsızlığı' sağlamak, rejim tartışmalarını ise daha sonraya bırakmaktı."
+  },
+  {
+    "soru": "Milli Mücadele'nin hazırlık döneminde kurulan Temsil Heyeti'nin görevi ne zaman sona ermiştir?",
+    "secenekler": {
+      "A": "Sivas Kongresi'nde",
+      "B": "Amasya Görüşmeleri'nde",
+      "C": "Misakımillî'nin kabulüyle",
+      "D": "Türkiye Büyük Millet Meclisi'nin açılmasıyla",
+      "E": "Mudanya Ateşkes Antlaşması'yla"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Temsil Heyeti, geçici bir hükümet gibi görev yapıyordu. 23 Nisan 1920'de, milletin temsilcilerinden oluşan ve tüm yetkileri elinde toplayan TBMM açılınca, Temsil Heyeti'nin görevi de doğal olarak sona ermiştir. Temsil Heyeti'nin görevinin TBMM'nin açılmasıyla sona ermesi, gücün ve yetkinin kişilerden ve kurullardan alınıp tamamen milletin meclisine devredildiğini gösterir."
+  },
+  {
+    "soru": "Mustafa Kemal'e '9. Ordu Müfettişi' olarak verilen yetkilerin genişliği, onun Anadolu'daki valilere ve komutanlara emir verebilmesini sağlamıştır. Bu durumun Milli Mücadele açısından en önemli sonucu ne olmuştur?",
+    "secenekler": {
+      "A": "Padişahın güvenini kazanması",
+      "B": "İstanbul Hükûmeti ile arasının açılması",
+      "C": "Milli Mücadele'yi örgütlemek için kendisine yasal bir zemin ve hareket alanı sağlaması",
+      "D": "İtilaf Devletleri'nin desteğini alması",
+      "E": "Askerlikten istifa etmesini engellemesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Mustafa Kemal, bu geniş yetkileri kullanarak komutanlarla ve valilerle temas kurmuş, genelgeler yayımlamış ve kongreler için hazırlık yapmıştır. Yani resmi bir görevi, milli bir amaç için kullanmıştır. Bu, Mustafa Kemal'in ne kadar zeki bir stratejist olduğunun kanıtıdır."
+  },
+  {
+    "soru": "Balıkesir ve Alaşehir Kongreleri gibi yerel kongrelerin, Sivas Kongresi'nden temel farkı nedir?",
+    "secenekler": {
+      "A": "Padişaha bağlılık bildirmeleri",
+      "B": "Mustafa Kemal tarafından toplanmaları",
+      "C": "Ulusal kararlar yerine sadece kendi bölgelerini kurtarmayı amaçlayan bölgesel nitelikte olmaları",
+      "D": "İtilaf Devletleri tarafından tanınmaları",
+      "E": "Silahlı mücadeleyi reddetmeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bu kongreler, Yunan işgaline karşı Batı Anadolu'yu savunmak amacıyla toplanmış ve kararları da bu bölgeyle sınırlı kalmıştır. Sivas Kongresi ise tüm yurdu kapsayan kararlar almıştır. Sivas Kongresi'nin en önemli işlevlerinden biri, bu tür faydalı ama dağınık bölgesel hareketleri tek bir ulusal çatı altında birleştirmek olmuştur."
+  },
+  {
+    "soru": "Mustafa Kemal'in Son Osmanlı Mebusan Meclisi'ne Erzurum mebusu seçilmesine rağmen İstanbul'a gitmeyip Ankara'da kalmasının temel nedeni nedir?",
+    "secenekler": {
+      "A": "Ankara'nın başkent olmasını istemesi",
+      "B": "İstanbul'da can güvenliğinin olmaması ve tutuklanma riskinin bulunması",
+      "C": "Diğer milletvekilleriyle anlaşamaması",
+      "D": "Hastalığını bahane etmesi",
+      "E": "Batı Cephesi'ni bizzat yönetmek istemesi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Hakkında tutuklama kararı olan ve İtilaf Devletleri'nin kontrolündeki bir şehre gitmek, Milli Mücadele liderinin esir düşmesi anlamına gelecekti. Bu nedenle mücadeleyi Ankara'dan yönetmeye devam etmiştir. Bu karar, Mustafa Kemal'in ne kadar tedbirli ve gerçekçi olduğunu gösterir."
+  },
+  {
+    "soru": "Temsil Heyeti'nin Sivas Kongresi'nden sonra İstanbul ile her türlü haberleşmeyi kesmesi ve Damat Ferit Paşa Hükûmeti'nin istifasını sağlaması, hangi gücünü kullandığını gösterir?",
+    "secenekler": {
+      "A": "Siyasi ve idari gücünü",
+      "B": "Yargı gücünü",
+      "C": "Sadece askeri gücünü",
+      "D": "Ekonomik gücünü",
+      "E": "Dini gücünü"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Anadolu'nun İstanbul ile iletişimini kesmek, devletin iletişim ağını kontrol etmek demektir. Bu da fiili bir hükümet gibi davranarak siyasi ve idari bir güç kullanmaktır. Bu eylem, Temsil Heyeti'nin İstanbul'a karşı ne kadar etkili bir baskı unsuru haline geldiğini ve Anadolu'ya hakim olduğunu gösteren somut bir örnektir."
+  },
+  {
+    "soru": "Erzurum Kongresi'nde alınan 'Geçici bir hükümet kurulacaktır.' kararı, aşağıdakilerden hangisinin hayata geçirildiğini gösterir?",
+    "secenekler": {
+      "A": "Türkiye Büyük Millet Meclisi'nin",
+      "B": "Temsil Heyeti'nin",
+      "C": "Bakanlar Kurulu'nun",
+      "D": "Düzenli Ordunun",
+      "E": "İstiklal Mahkemeleri'nin"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Erzurum Kongresi, İstanbul Hükûmeti'nin ülkeyi koruyamadığı varsayımından hareketle, onun yerine geçici olarak görev yapacak bir kurul oluşturmuştur. Bu kurul Temsil Heyeti'dir. Bu karar, İstanbul Hükûmeti'ne karşı alternatif bir otoritenin kurulduğunun ilk resmi ilanıdır."
+  },
+  {
+    "soru": "Milli Mücadele'nin hazırlık döneminde halkı bilgilendirmek ve propaganda yapmak amacıyla Sivas Kongresi'nde çıkarılmasına karar verilen gazetenin adı nedir?",
+    "secenekler": {
+      "A": "Hâkimiyet-i Milliye",
+      "B": "Albayrak",
+      "C": "İrade-i Milliye",
+      "D": "Peyam-ı Sabah",
+      "E": "Minber"
+    },
+    "dogru_cevap": "C",
+    "cozum": "'Milletin İradesi' anlamına gelen bu gazete, Sivas Kongresi'nde alınan kararları ve Milli Mücadele'nin haklılığını halka duyurmak için bir propaganda aracı olarak kullanılmıştır. Milli Mücadele sadece silahla değil, aynı zamanda basın ve propaganda yoluyla da yürütülmüştür."
+  },
+  {
+    "soru": "Misakımillî'yi kabul eden Son Osmanlı Mebusan Meclisi'ndeki milletvekillerinin oluşturduğu grubun adı nedir?",
+    "secenekler": {
+      "A": "Müdafaa-i Hukuk Grubu",
+      "B": "Felâh-ı Vatan Grubu",
+      "C": "İttihat ve Terakki Fırkası",
+      "D": "Tesanüt Grubu",
+      "E": "Halk Zümresi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Mustafa Kemal, vekillerden mecliste bir Müdafaa-i Hukuk Grubu kurmalarını istemişti. Ancak padişahın ve İtilaf Devletleri'nin baskısından çekinen vekiller, daha ılımlı bir isim olan 'Vatanın Kurtuluşu' anlamına gelen Felâh-ı Vatan grubunu kurmuşlardır."
+  },
+  {
+    "soru": "Havza Genelgesi'nin ardından İstanbul Hükûmeti'nin Mustafa Kemal'i ilk kez geri çağırmasının temel nedeni nedir?",
+    "secenekler": {
+      "A": "Kendisine daha önemli bir görev vermek istemesi",
+      "B": "Faaliyetlerinin, verilen resmi görevin dışına çıktığını ve İngilizleri rahatsız ettiğini düşünmesi",
+      "C": "Sağlık durumunu merak etmesi",
+      "D": "Kongre hazırlıkları yapmasını istemesi",
+      "E": "Rusya ile diplomatik temas kurmasını istemesi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Mustafa Kemal'in görevi asayişi sağlamaktı, ancak o mitingler ve protestolar düzenlenmesini isteyerek tam tersini yapmıştır. Bu durum, İngilizlerin baskısıyla İstanbul Hükûmeti'ni harekete geçirmiştir. Bu geri çağırma emri, Mustafa Kemal ile İstanbul Hükûmeti arasındaki ilk ciddi kopuşun sinyalidir."
+  },
+  {
+    "soru": "'Her türlü yabancı işgal ve müdahalesine karşı... Osmanlı Hükûmeti'nin dağılması halinde... millet kendini savunacak ve direnecektir.' kararı, Milli Mücadele'nin hangi ilkesini vurgular?",
+    "secenekler": {
+      "A": "Milli egemenlik",
+      "B": "Tam bağımsızlık",
+      "C": "Barışçılık",
+      "D": "Devletçilik",
+      "E": "Laiklik"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Bu ifadeler, vatan toprakları üzerinde yabancı bir gücün işgalini ve müdahalesini kabul etmeme, yani kayıtsız şartsız bağımsızlık arzusunu ifade eder. Milli Mücadele'nin iki temel ilkesi vardır: 'Tam Bağımsızlık' (düşmandan kurtulma) ve 'Milli Egemenlik' (yönetimi halka verme)."
   }
 
     ],
