@@ -348,11 +348,12 @@ def soru_goster_page():
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
-    # Radyo butonu - boş seçeneği en alta taşıdık
+    # Radyo butonu: cevap yoksa boş başla, cevap varsa seçilen şıkta kal
     if cevap_key in st.session_state:
         secim = st.radio(
             label="",
             options=secenekler,
+            index=[s.split(")")[0] for s in secenekler].index(st.session_state[cevap_key]),
             key=f"soru_radio_{index}"
         )
     else:
@@ -458,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
