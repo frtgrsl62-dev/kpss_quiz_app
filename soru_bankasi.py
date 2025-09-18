@@ -3,7 +3,7 @@
 # ===============================
 soru_bankasi = {
 
-"Türkçe": {
+"📖 Türkçe": {
     "1) Sözcükte Yapı": [],
     "2) Sözcük Türleri": [],
     "3) Söz Dizimi": [],
@@ -17,10 +17,10 @@ soru_bankasi = {
     "11) Anlatım Bozukluğu": []
 },
 
- "Matematik": {
+ "➗ Matematik": {
  },
 
-    "Tarih": {
+    "📜 Tarih": {
     "1) İslamiyet Öncesi Türk Tarihi": [
         {
             "soru": "İslamiyetten önceki Türk devletlerinde, hatunun kurultay toplantılarına katılması, kağanla birlikte elçileri kabul etmesi ve kendine ait buyruklarının bulunması aşağıdakilerden hangisinin bir göstergesidir?",
@@ -5058,7 +5058,7 @@ soru_bankasi = {
     "13) Çağdaş Türk ve Dünya Tarihi": []
 
 },
-"Coğrafya": {
+"🌍 Coğrafya": {
     "1) Türkiye'nin Coğrafi Konumu": [],
     "2) İklim": [],
     "3) Türkiye'nin Yer Şekilleri": [],
@@ -5078,7 +5078,7 @@ soru_bankasi = {
     "10) Projeler": []
 },
 
-"Vatandaşlık": {
+"🏛️ Vatandaşlık": {
     "1) Hukukun Temel Kavramları": [],
     "2) Anayasa Hukukuna Giriş": [],
     "3) 1982 Anayasası'nın Genel Esasları": [],
@@ -5090,7 +5090,7 @@ soru_bankasi = {
     "9) Ulusal ve Uluslararası Kuruluşlar": []
     },
 
-    "Genel Kültür": {
+    "🌟 Genel Kültür": {
         "1) Güncel Bilgiler": [],
         "2) Sanat ve Edebiyat": []
     }
