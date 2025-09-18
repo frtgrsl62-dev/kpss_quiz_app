@@ -158,6 +158,18 @@ def ders_secim_page():
             st.session_state["page"] = "rapor"
             st.rerun()
     with col2:
+        st.markdown(
+    """
+    <style>
+    div.stButton > button:first-child {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
         if st.button("Çıkış Yap"):
             # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
             kaydet_sonuclar_to_user()
@@ -451,6 +463,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
