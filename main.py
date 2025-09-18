@@ -153,17 +153,25 @@ def konu_secim_page(ders):
     sonuclar = st.session_state.get("sonuclar", {})
 
     for konu in konular:
-        dogru = sonuclar.get(ders, {}).get(konu, {}).get("dogru", 0)
-        yanlis = sonuclar.get(ders, {}).get(konu, {}).get("yanlis", 0)
-        soru_sayisi = len(soru_bankasi[ders][konu])
-        yuzde = int(dogru / soru_sayisi * 100) if soru_sayisi > 0 else 0
+        tum_sorular = soru_bankasi[ders][konu]
+        soru_grubu_sayisi = 5
+        toplam_test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
+
+        # Çözülen test sayısını bul
+        testler = sonuclar.get(ders, {}).get(konu, {})
+        cozulmus_test_sayisi = sum(
+            1 for key in testler if key.startswith("test_")
+        )
+
+        # Yüzdeyi çözülen test sayısına göre hesapla
+        yuzde = int(cozulmus_test_sayisi / toplam_test_sayisi * 100) if toplam_test_sayisi > 0 else 0
 
         col1, col2 = st.columns([1, 5])
         with col1:
             # Dairesel yüzde göstergesi HTML + CSS
             st.markdown(f"""
             <div style="
-                width:50px; height:50px; border-radius:40%;
+                width:50px; height:50px; border-radius:50%;
                 background: conic-gradient(#4CAF50 {yuzde}%, #E0E0E0 {yuzde}%);
                 display:flex; align-items:center; justify-content:center;
                 font-weight:bold; color:black;">
@@ -180,6 +188,7 @@ def konu_secim_page(ders):
     if st.button("🔙 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
+
 
 
 
@@ -417,6 +426,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
