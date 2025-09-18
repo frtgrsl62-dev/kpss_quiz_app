@@ -164,19 +164,25 @@ def ders_secim_page():
             st.session_state.clear()
             st.session_state["page"] = "login"
             st.rerun()
-           # CSS ile sadece exit_button'u kırmızı yap
-            st.markdown(
-            """
-           <style>
-           div.stButton > button[kind="secondary"] {
-            background-color: red !important;
-            color: white !important;
-            font-weight: bold;
-          }
-          </style>
-           """,
-          unsafe_allow_html=True
-          )
+# CSS ile sadece exit_button butonunu kırmızı yap
+st.markdown(
+    """
+    <style>
+    div[data-testid="stButton"][data-baseweb="button"]:has(button[data-testid="baseButton-secondary"][aria-label="🚪 Çıkış Yap"]) button {
+        background-color: red !important;
+        color: white !important;
+        font-weight: bold !important;
+        border-radius: 8px !important;
+        border: 2px solid darkred !important;
+    }
+    div[data-testid="stButton"][data-baseweb="button"]:has(button[data-testid="baseButton-secondary"][aria-label="🚪 Çıkış Yap"]) button:hover {
+        background-color: darkred !important;
+        border-color: black !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # ===============================
@@ -465,6 +471,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
