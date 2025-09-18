@@ -100,16 +100,23 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-    st.title("Ders Seçiniz")
+    st.title("📚 Ders Seçiniz")
+    
+    # Dersler buton olarak listeleniyor
     for ders in soru_bankasi.keys():
         if st.button(ders):
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
             st.rerun()
-    if st.button("Genel Raporu Gör"):
+
+    st.markdown("---")
+    # Genel rapor butonu
+    if st.button("📊 Genel Raporu Gör"):
         st.session_state["page"] = "rapor"
         st.rerun()
-    if st.button("Çıkış Yap"):
+
+    # Çıkış butonu
+    if st.button("🚪 Çıkış Yap"):
         st.session_state.clear()
         st.session_state["page"] = "login"
         st.rerun()
@@ -274,21 +281,23 @@ def soru_goster_page():
 # ===============================
 def genel_rapor_page():
     st.header("📊 Genel Rapor")
+
     if not sonuclar:
         st.info("Henüz herhangi bir test çözülmedi.")
     else:
         for ders, konular in sonuclar.items():
             st.subheader(f"📘 {ders}")
+            if not konular:
+                st.write("Bu derste henüz çözülmüş konu yok.")
             for konu, sonuc in konular.items():
-                if isinstance(sonuc, dict) and "dogru" in sonuc:
-                    st.markdown(
-                        f"- **{konu}** → ✅ {sonuc['dogru']} | ❌ {sonuc['yanlis']}"
-                    )
+                dogru = sonuc.get("dogru", 0)
+                yanlis = sonuc.get("yanlis", 0)
+                st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis}")
 
+    st.markdown("---")
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
-
 
 # ===============================
 # Router
@@ -310,6 +319,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
