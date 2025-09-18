@@ -82,8 +82,8 @@ def login_page():
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
         sifre = st.text_input("Şifre", type="password", key="login_pass")
-        giris_btn = st.form_submit_button("Giriş Yap")
-        kayit_btn = st.form_submit_button("Kayıt Ol")
+        giris_btn = st.form_submit_button("🟢 Giriş Yap 🟢")
+        kayit_btn = st.form_submit_button("🔹 Kayıt Ol 🔹")
 
     if giris_btn:
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
@@ -374,7 +374,7 @@ def soru_goster_page():
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
         st.info(f"**Çözüm:** {soru['cozum']}")
     else:
-        if st.button("Cevapla", key=f"cevapla_{index}"):
+        if st.button("🎯 Cevapla", key=f"cevapla_{index}"):
             if secim is None:
                 st.warning("⚠️ Lütfen bir seçenek seçin!")
             else:
@@ -459,6 +459,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
