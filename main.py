@@ -169,6 +169,11 @@ def ders_secim_page():
         st.session_state["page"] = "login"
         st.rerun()
 
+    
+    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:5px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
+
 
 # ===============================
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
@@ -459,6 +464,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
