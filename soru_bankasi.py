@@ -493,7 +493,8 @@ soru_bankasi = {
     "dogru_cevap": "E",
     "cozum": "İlk beylikler hem askeri hem kültürel hem de imar faaliyetleriyle Anadolu’nun Türkleşmesine ve İslamlaşmasına hizmet etmişlerdir."
   },
-      {
+    ##
+  {
     "soru": "Mısır'da kurulan ilk Türk-İslam devleti olan Tolunoğulları, sosyal devlet anlayışının bir gereği olarak halka ücretsiz sağlık hizmeti veren ve 'Maristan' adı verilen yapılar inşa etmişlerdir. Bu bilgi, Tolunoğulları'nın hangi alanda gelişme gösterdiğinin kanıtıdır?",
     "secenekler": {
       "A": "Askeri teşkilatlanma",
@@ -5094,5 +5095,6 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
