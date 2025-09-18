@@ -164,6 +164,26 @@ def ders_secim_page():
             st.session_state.clear()
             st.session_state["page"] = "login"
             st.rerun()
+    # CSS: sadece exit_btn kırmızı olsun
+    st.markdown(
+        """
+        <style>
+        div[data-testid="stButton"][key="exit_btn"] button {
+            background-color: red !important;
+            color: white !important;
+            font-weight: bold !important;
+            border-radius: 8px !important;
+            border: 2px solid darkred !important;
+        }
+        div[data-testid="stButton"][key="exit_btn"] button:hover {
+            background-color: darkred !important;
+            border-color: black !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 # ===============================
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
@@ -451,6 +471,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
