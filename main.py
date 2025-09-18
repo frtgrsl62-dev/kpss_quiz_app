@@ -64,6 +64,10 @@ def kullanici_sonuclarini_yukle_to_session(user):
 # Login Sayfası
 # ===============================
 def login_page():
+    # Üst başlık
+    st.markdown("<h1 style='text-align: center; color: #4CAF50;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+    st.markdown("---")  # alt çizgi ile ayır
+
     st.title("Giriş Ekranı")
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
@@ -85,6 +89,7 @@ def login_page():
     if kayit_btn:
         st.session_state["page"] = "kayit"
         st.rerun()
+
 
 # ===============================
 # Kayıt Sayfası
@@ -427,6 +432,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
