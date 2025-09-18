@@ -145,6 +145,7 @@ def kayit_page():
 # ===============================
 def ders_secim_page():
     st.markdown("<h1 style='color: white; font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
+    st.markdown("---")  # alt çizgi ile ayır
     # st.title("Ders Seçiniz")
     for ders in soru_bankasi.keys():
         if st.button(ders):
@@ -174,7 +175,6 @@ def konu_secim_page(ders):
     f"<h2 style='color: #B0E0E6; font-size:30px;'>{ders} - Konu Seçimi</h2>",
     unsafe_allow_html=True
     )
-    st.markdown("---")  # alt çizgi ile ayır
     konular = list(soru_bankasi[ders].keys())
     sonuclar = st.session_state.get("sonuclar", {})
 
@@ -464,6 +464,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
