@@ -139,36 +139,55 @@ def konu_secim_page(ders):
 
 
 # ===============================
-# Test Sonucu Sayfası
+# Test Sayfası
 # ===============================
-def test_sonucu_page(dogru, yanlis, bos, ders, konu):
-    st.header("✅ Test Tamamlandı!")
+def test_page(ders, konu):
+    clear_output()
 
-    st.success(f"Doğru Sayısı : {dogru}")
-    st.error(f"Yanlış Sayısı : {yanlis}")
-    st.info(f"Boş Sayısı   : {bos}")
+    # Test sorularını al
+    sorular = soru_bankasi[ders][konu]
 
-    # --- Sonuçları kaydet ---
-    if "sonuclar" not in st.session_state:
-        st.session_state["sonuclar"] = {}
+    dogru = 0
+    yanlis = 0
+    bos = 0
 
-    sonuclar = st.session_state["sonuclar"]
+    cevaplar = {}
 
-    if ders not in sonuclar:
-        sonuclar[ders] = {}
+    # Her soru için seçenekler
+    for idx, soru in enumerate(sorular, 1):
+        display(widgets.HTML(f"<b>{idx}. {soru['soru']}</b>"))
+        secenekler = list(soru["secenekler"].keys())
+        radio = widgets.RadioButtons(options=secenekler, description='')
+        display(radio)
+        cevaplar[idx] = (radio, soru["dogru_cevap"])
 
-    if konu not in sonuclar[ders]:
-        sonuclar[ders][konu] = {"dogru": 0, "yanlis": 0}
+    def bitir_callback(b):
+        nonlocal dogru, yanlis, bos
 
-    sonuclar[ders][konu]["dogru"] += dogru
-    sonuclar[ders][konu]["yanlis"] += yanlis
+        for idx, (radio, dogru_cevap) in cevaplar.items():
+            if radio.value is None:
+                bos += 1
+            elif radio.value == dogru_cevap:
+                dogru += 1
+            else:
+                yanlis += 1
 
-    st.session_state["sonuclar"] = sonuclar
+        # Sonuçları kaydet
+        if ders not in sonuclar:
+            sonuclar[ders] = {}
+        if konu not in sonuclar[ders]:
+            sonuclar[ders][konu] = {"dogru": 0, "yanlis": 0}
 
-    st.markdown("---")
-    if st.button("📚 Ana Menüye Dön"):
-        st.session_state["page"] = "ders"
-        st.rerun()
+        sonuclar[ders][konu]["dogru"] += dogru
+        sonuclar[ders][konu]["yanlis"] += yanlis
+
+        # Test sonucu sayfasına geç
+        test_sonucu_page(dogru, yanlis, bos, ders, konu)
+
+    bitir_btn = widgets.Button(description="Testi Bitir", button_style='success')
+    bitir_btn.on_click(bitir_callback)
+    display(bitir_btn)
+
 
 
 
@@ -310,6 +329,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
