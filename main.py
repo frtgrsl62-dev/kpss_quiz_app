@@ -194,12 +194,17 @@ def test_secim_page(secilen_ders, secilen_konu):
         bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
         test_adi = f"Test {i+1}: Soru {baslangic+1}-{bitis}"
 
-        # Çözülmüş testleri renklendir: eğer kayıtlı test sonucu varsa ✅ göster, yoksa ⏺
-        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
-        if test_sonuc:
-            label = f"{test_adi} ✅ ({test_sonuc.get('dogru',0)}/{(bitis-baslangic)})"
-        else:
-            label = f"{test_adi} ⏺"
+ # Çözülmüş testleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
+test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
+if test_sonuc:
+    dogru_sayi = test_sonuc.get('dogru',0)
+    toplam_soru = bitis - baslangic
+    oran = dogru_sayi / toplam_soru
+    simge = "✅" if oran >= 0.6 else "❌"
+    label = f"{test_adi} {simge} ({dogru_sayi}/{toplam_soru})"
+else:
+    label = f"{test_adi} ⏺"
+
 
         if st.button(label, key=f"testbtn_{i}", help=f"Test {i+1}"):
             # önce önceki cevap anahtarlarını temizle
@@ -388,3 +393,4 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
