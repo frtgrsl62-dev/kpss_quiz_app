@@ -171,12 +171,12 @@ def ders_secim_page():
     # Derslerden sonra çizgi
     st.markdown("---")
     # Çıkış Yap
-    if st.button("🔻 Çıkış Yap 🔻"):
-        # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
-        kaydet_sonuclar_to_user()
-        st.session_state.clear()
-        st.session_state["page"] = "login"
-        st.rerun()
+if st.button("🔻 Çıkış Yap 🔻"):
+    # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
+    kaydet_sonuclar_to_user(st.session_state.get("current_user"))
+    st.session_state.clear()
+    st.session_state["page"] = "login"
+    st.rerun()
 
     
     st.markdown("---")  # alt çizgi ile ayır
@@ -482,4 +482,5 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
