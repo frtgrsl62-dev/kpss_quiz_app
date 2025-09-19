@@ -97,7 +97,7 @@ def login_page():
     if giris_btn:
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
-            st.session_state["user"] = k_adi
+            st.session_state["current_user"] = k_adi
             aktif_kullanici_kaydet(k_adi)
             kullanici_sonuclarini_yukle_to_session(k_adi)
             st.session_state["page"] = "ders"
@@ -174,9 +174,9 @@ def ders_secim_page():
 
     # Çıkış Yap (altta kalsın)
     if st.button("🔻 Çıkış Yap 🔻"):
-        # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        st.session_state.clear()
+        aktif_kullanici_sil()
+        st.session_state["current_user"] = None
         st.session_state["page"] = "login"
         st.rerun()
 
@@ -467,6 +467,11 @@ def genel_rapor_page():
 # ===============================
 # Router
 # ===============================
+if "current_user" not in st.session_state:
+    st.session_state["current_user"] = aktif_kullanici_yukle()
+    if st.session_state["current_user"]:
+        kullanici_sonuclarini_yukle_to_session(st.session_state["current_user"])
+
 if "page" not in st.session_state:
     st.session_state["page"] = "login"
 
@@ -477,14 +482,12 @@ elif st.session_state["page"] == "kayit":
 elif st.session_state["page"] == "ders":
     ders_secim_page()
 elif st.session_state["page"] == "konu":
-    # güvenlik: ders mevcut mu kontrolü
     if "ders" in st.session_state:
         konu_secim_page(st.session_state["ders"])
     else:
         st.session_state["page"] = "ders"
         st.rerun()
 elif st.session_state["page"] == "test":
-    # güvenlik: ders/konu mevcut mu
     if "ders" in st.session_state and "konu" in st.session_state:
         test_secim_page(st.session_state["ders"], st.session_state["konu"])
     else:
