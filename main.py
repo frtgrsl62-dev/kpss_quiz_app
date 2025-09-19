@@ -163,6 +163,7 @@ def ders_secim_page():
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
             st.rerun()
+
     # Genel Raporu Gör
     if st.button("Genel Raporu Gör 📊"):
         st.session_state["page"] = "rapor"
@@ -170,17 +171,18 @@ def ders_secim_page():
         
     # Derslerden sonra çizgi
     st.markdown("---")
-    # Çıkış Yap
-if st.button("🔻 Çıkış Yap 🔻"):
-    # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
-    kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-    st.session_state.clear()
-    st.session_state["page"] = "login"
-    st.rerun()
 
-    
+    # Çıkış Yap (altta kalsın)
+    if st.button("🔻 Çıkış Yap 🔻"):
+        # çıkış yaparken oturum bilgilerini temizle ama sonuçları kaydet
+        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
+        st.session_state.clear()
+        st.session_state["page"] = "login"
+        st.rerun()
+
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
 
 
 
@@ -482,5 +484,6 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
