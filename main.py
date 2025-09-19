@@ -323,6 +323,12 @@ def soru_goster_page():
     test_no = current["test_no"]
     test_sayisi = current["test_sayisi"]
 
+    # ===== Sol üst geri butonu =====
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "test"
+        st.rerun()
+
+    # ===== Test tamamlandıysa =====
     if index >= len(secilen_test):
         st.success("Test tamamlandı!")
 
@@ -359,23 +365,21 @@ def soru_goster_page():
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
+        # Alt kısımda sadece Testi Bitir butonu
         if st.button("Testi Bitir 🏁"):
             st.session_state["page"] = "test"
             st.rerun()
         return
 
+    # ===== Soruyu Göster =====
     soru = secilen_test[index]
-    st.markdown(
-        f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>",
-        unsafe_allow_html=True
-    )
-
+    st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
     st.markdown(f"{soru['soru']}")
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
-    # Radyo butonu: cevap yoksa boş başla, cevap varsa seçilen şıkta kal
+    # Radyo butonu
     if cevap_key in st.session_state:
         secim = st.radio(
             label="",
@@ -386,8 +390,8 @@ def soru_goster_page():
     else:
         secim = st.radio(
             label="",
-            options=secenekler + [None],  # boş seçenek en alta
-            index=len(secenekler),        # varsayılan None seçili
+            options=secenekler + [None],
+            index=len(secenekler),
             format_func=lambda x: "" if x is None else x,
             key=f"soru_radio_{index}"
         )
@@ -409,29 +413,30 @@ def soru_goster_page():
                 st.session_state[cevap_key] = secilen_harf
                 st.rerun()
 
-    col1, col2 = st.columns([1, 1])
+    # ===== Alt kısım: Önceki / Sonraki / Testi Bitir =====
+    col1, col2, col3 = st.columns([1, 1, 1])
     with col1:
-        if st.button("🔙 Geri"):
-            st.session_state["page"] = "test"
+        if index > 0 and st.button("⬅️ Önceki Soru"):
+            current["index"] -= 1
             st.rerun()
     with col2:
-        if index < len(secilen_test) - 1:
-            if st.button("Sonraki Soru ➡️"):
-                if cevap_key in st.session_state:
-                    current["index"] += 1
-                    st.rerun()
-                else:
-                    st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
-        else:
-            if st.button("Testi Bitir 🏁"):
-                if cevap_key in st.session_state:
-                    current["index"] += 1
-                    st.rerun()
-                else:
-                    st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+        if index < len(secilen_test) - 1 and st.button("Sonraki Soru ➡️"):
+            if cevap_key in st.session_state:
+                current["index"] += 1
+                st.rerun()
+            else:
+                st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
+    with col3:
+        if index == len(secilen_test) - 1 and st.button("Testi Bitir 🏁"):
+            if cevap_key in st.session_state:
+                current["index"] += 1
+                st.rerun()
+            else:
+                st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
 
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
 
 
 # ===============================
@@ -489,6 +494,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
