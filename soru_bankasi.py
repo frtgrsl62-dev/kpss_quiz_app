@@ -5097,7 +5097,7 @@ soru_bankasi = {
     "cozum": "Jeopolitik önem, bir ülkenin bulunduğu coğrafi konumun, uluslararası ilişkiler ve güç dengeleri üzerindeki etkisidir. Genellikle özel konumla ilgilidir.\n\nA) Özellikle Orta Doğu enerji kaynaklarına yakınlık, jeopolitik önemi artırır. Bu özel konumdur.\n\nB) Uluslararası deniz ticaretinde kilit rol oynaması, jeopolitik önemi artırır. Bu özel konumdur.\n\nC) Kültürel ve ticari geçiş noktası olması, jeopolitik önemi artırır. Bu özel konumdur.\n\nD) Bu durum, Türkiye'nin yer şekilleri ve genç oluşumlu yapısıyla ilgili bir özelliktir. Ülkenin iç ulaşımını, iklimini etkiler ancak doğrudan jeopolitik önemini artıran bir faktör değildir. Jeopolitik önem daha çok uluslararası ilişkiler, stratejik noktalar ve kaynaklarla ilişkilidir.\n\nE) Tarihi ve güncel ticaret yolları üzerinde olması, jeopolitik önemi artırır. Bu özel konumdur.\n\nDoğru Cevap: D"
 },
 {
-    "soru": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe; I. Gece-gündüz süre farkının artması II. Deniz suyu sıcaklığının azalması III. Tarım ürünlerinin olgunlaşma süresinin uzaması IV. Yerel saat farkının artması durumlarından hangileri, Türkiye'nin matematik konumuyla doğrudan ilişkilidir?",
+    "soru": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe;\nI. Gece-gündüz süre farkının artması\nII. Deniz suyu sıcaklığının azalması\nIII. Tarım ürünlerinin olgunlaşma süresinin uzaması\nIV. Yerel saat farkının artması\nDurumlarından hangileri, Türkiye'nin matematik konumuyla doğrudan ilişkilidir?",
     "secenekler": {
         "A": "I ve II",
         "B": "I ve IV",
@@ -5107,7 +5107,8 @@ soru_bankasi = {
     },
     "dogru_cevap": "D",
     "cozum": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe, Ekvator'dan uzaklaşıp kutuplara yaklaşırız. Bu da enlem etkisine yani matematik konuma işaret eder.\n\nI. Gece-gündüz süre farkının artması: Ekvator'dan kutuplara gidildikçe gece-gündüz süre farkı artar. Matematik konumun sonucudur.\n\nII. Deniz suyu sıcaklığının azalması: Ekvator'dan kutuplara gidildikçe sıcaklıklar düşer, deniz suyu sıcaklığı da buna paralel olarak azalır. Matematik konumun sonucudur.\n\nIII. Tarım ürünlerinin olgunlaşma süresinin uzaması: Kuzeye gidildikçe sıcaklıkların düşmesi nedeniyle bitkilerin olgunlaşma süresi uzar. Matematik konumun sonucudur.\n\nIV. Yerel saat farkının artması: Yerel saat farkı doğu-batı yönünde meridyen farkına bağlıdır, güney-kuzey yönünde değişmez. Dolayısıyla matematik konumla ilgili olsa da bu spesifik soru için geçerli bir ifade değildir.\n\nDoğru Cevap: D"
-}   
+}
+  
     ],
     "2) İklim": [],
     "3) Türkiye'nin Yer Şekilleri": [],
@@ -5144,4 +5145,5 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
