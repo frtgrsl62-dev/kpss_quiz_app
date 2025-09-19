@@ -493,7 +493,7 @@ def profil_page():
         return
 
     # Sol üst geri butonu
-    if st.button("🔙 Geri"):
+    if st.button("🏠 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
 
@@ -576,6 +576,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
