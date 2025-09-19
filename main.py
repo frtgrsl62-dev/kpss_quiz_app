@@ -155,7 +155,8 @@ def kayit_page():
 # ===============================
 def ders_secim_page():
     st.title("Ders Seçiniz")
-    for ders in soru_bankasi.keys():
+unsafe_allow_html=True)
+        
         if st.button(ders):
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
@@ -477,6 +478,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
