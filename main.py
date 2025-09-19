@@ -154,6 +154,15 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
+        # Sağ üst kullanıcı butonu
+    col1, col2 = st.columns([8, 2])
+    with col2:
+        user = st.session_state.get("current_user")
+        if user:
+            if st.button(f"👤 {user}"):
+                st.session_state["page"] = "profil"
+                st.rerun()
+    
     st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
     st.markdown("---")  # üst çizgi
 
@@ -471,6 +480,56 @@ def genel_rapor_page():
         st.session_state["page"] = "ders"
         st.rerun()
 
+
+# ===============================
+# Profil Sayfası
+# ===============================
+def profil_page():
+    user = st.session_state.get("current_user")
+    if not user or user not in kullanicilar:
+        st.warning("❌ Kullanıcı bilgisi bulunamadı!")
+        st.session_state["page"] = "login"
+        st.rerun()
+        return
+
+    # Sol üst geri butonu
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "ders"
+        st.rerun()
+
+    st.markdown("<h2>👤 Kullanıcı Bilgileri</h2>", unsafe_allow_html=True)
+
+    bilgiler = kullanicilar[user]
+    isim = bilgiler.get("isim", "")
+    k_adi = user
+    sifre = bilgiler.get("sifre", "")
+
+    st.write(f"**İsim Soyisim:** {isim}")
+    st.write(f"**Kullanıcı Adı:** {k_adi}")
+    st.write(f"**Şifre:** {'*' * len(sifre)}")
+
+    # Şifre değiştirme formu
+    with st.expander("🔑 Şifre Değiştir"):
+        eski = st.text_input("Eski Şifre", type="password", key="old_pass")
+        yeni = st.text_input("Yeni Şifre", type="password", key="new_pass")
+        yeni2 = st.text_input("Yeni Şifre (Tekrar)", type="password", key="new_pass2")
+        if st.button("Şifreyi Güncelle"):
+            if eski != sifre:
+                st.error("❌ Eski şifre yanlış!")
+            elif not yeni or not yeni2:
+                st.error("❌ Yeni şifre alanları boş olamaz!")
+            elif yeni != yeni2:
+                st.error("❌ Yeni şifreler uyuşmuyor!")
+            else:
+                kullanicilar[user]["sifre"] = yeni
+                kullanicilari_kaydet()
+                st.success("✅ Şifre başarıyla güncellendi!")
+
+    st.markdown("---")
+    st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
+
+
 # ===============================
 # Router
 # ===============================
@@ -513,6 +572,8 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+elif st.session_state["page"] == "profil":
+    profil_page()
 
 
 
