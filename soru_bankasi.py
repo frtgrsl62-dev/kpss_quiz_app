@@ -5059,7 +5059,56 @@ soru_bankasi = {
 
 },
 "🌍 Coğrafya": {
-    "1) Türkiye'nin Coğrafi Konumu": [],
+    "1) Türkiye'nin Coğrafi Konumu": [
+     {
+    "soru": "Aşağıdakilerden hangisi, Türkiye'nin matematik konumu ile açıklanabilecek bir durum değildir?",
+    "secenekler": {
+        "A": "Dört mevsimin belirgin olarak yaşanması",
+        "B": "Kuzeyine gidildikçe sıcaklık ortalamalarının azalması",
+        "C": "Güneyden esen rüzgarların sıcaklığı artırması",
+        "D": "Gerçek alanı ile izdüşüm alanı arasındaki farkın fazla olması",
+        "E": "Akdeniz iklim özelliklerinin görülmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Matematik konum, paralel ve meridyenlere göre konumun sonuçlarıdır. Bunlar genellikle enlem ve boylam etkileriyle ilgilidir.\n\nA) Türkiye'nin orta kuşakta (30°-60° enlemleri arası) yer almasının bir sonucudur. Matematik konumla ilgilidir.\n\nB) Ekvator'dan kutuplara doğru gidildikçe güneş ışınlarının düşme açısının küçülmesiyle ilgilidir. Matematik konumun (enlem) bir sonucudur.\n\nC) Güneyden gelen rüzgarların Ekvator yönünden gelip sıcaklığı artırması, Kuzey Yarım Küre'de olmamızın (matematik konum) bir sonucudur.\n\nD) Bu durum, Türkiye'nin yükseltisinin fazla ve yer şekillerinin engebeli olmasından kaynaklanır. Bu ise ülkenin özel konumu ile ilgilidir, matematik konumuyla değil.\n\nE) Akdeniz iklimi, orta kuşakta görülen bir iklim tipidir. Türkiye'nin orta kuşakta yer alması matematik konumunun bir sonucudur.\n\nDoğru Cevap: D"
+},
+{
+    "soru": "Türkiye'nin 26° - 45° Doğu meridyenleri arasında yer almasının temel coğrafi sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+        "A": "Üç tarafının denizlerle çevrili olması",
+        "B": "Aynı anda birden fazla mevsim özelliğinin yaşanması",
+        "C": "Doğusu ile batısı arasında yerel saat farkının bulunması",
+        "D": "Farklı kültürlerin etkileşim alanında yer alması",
+        "E": "Önemli su kaynaklarına sahip olması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Meridyenler (boylam), yerel saat üzerinde etkilidir.\n\nA) Üç tarafının denizlerle çevrili olması: Özel konumdur.\n\nB) Aynı anda birden fazla mevsim özelliğinin yaşanması: Yükselti ve özel konumun (denizellik, karasallık) bir sonucudur.\n\nC) Bir ülkenin doğu-batı yönündeki meridyen genişliğinin bir sonucudur ve matematik konumla ilgilidir. Türkiye'nin 26°-45° Doğu meridyenleri arasında olması, 19 meridyenlik bir farka ve dolayısıyla 76 dakikalık yerel saat farkına neden olur.\n\nD) Farklı kültürlerin etkileşim alanında yer alması: Kıtalar arası köprü olması gibi özel konum sonuçlarıdır.\n\nE) Önemli su kaynaklarına sahip olması: Özel konumdur.\n\nDoğru Cevap: C"
+},
+{
+    "soru": "Türkiye'nin sahip olduğu aşağıdaki özelliklerden hangisi, ülkenin jeopolitik önemini artıran faktörlerden biri değildir?",
+    "secenekler": {
+        "A": "Önemli enerji kaynaklarına yakınlığı",
+        "B": "İstanbul ve Çanakkale Boğazlarına sahip olması",
+        "C": "Asya, Avrupa ve Afrika kıtaları arasında köprü görevi görmesi",
+        "D": "Yükseltisinin batıdan doğuya doğru artması",
+        "E": "Önemli ticaret yolları üzerinde bulunması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Jeopolitik önem, bir ülkenin bulunduğu coğrafi konumun, uluslararası ilişkiler ve güç dengeleri üzerindeki etkisidir. Genellikle özel konumla ilgilidir.\n\nA) Özellikle Orta Doğu enerji kaynaklarına yakınlık, jeopolitik önemi artırır. Bu özel konumdur.\n\nB) Uluslararası deniz ticaretinde kilit rol oynaması, jeopolitik önemi artırır. Bu özel konumdur.\n\nC) Kültürel ve ticari geçiş noktası olması, jeopolitik önemi artırır. Bu özel konumdur.\n\nD) Bu durum, Türkiye'nin yer şekilleri ve genç oluşumlu yapısıyla ilgili bir özelliktir. Ülkenin iç ulaşımını, iklimini etkiler ancak doğrudan jeopolitik önemini artıran bir faktör değildir. Jeopolitik önem daha çok uluslararası ilişkiler, stratejik noktalar ve kaynaklarla ilişkilidir.\n\nE) Tarihi ve güncel ticaret yolları üzerinde olması, jeopolitik önemi artırır. Bu özel konumdur.\n\nDoğru Cevap: D"
+},
+{
+    "soru": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe; I. Gece-gündüz süre farkının artması II. Deniz suyu sıcaklığının azalması III. Tarım ürünlerinin olgunlaşma süresinin uzaması IV. Yerel saat farkının artması durumlarından hangileri, Türkiye'nin matematik konumuyla doğrudan ilişkilidir?",
+    "secenekler": {
+        "A": "I ve II",
+        "B": "I ve IV",
+        "C": "II ve III",
+        "D": "I, II ve III",
+        "E": "II, III ve IV"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe, Ekvator'dan uzaklaşıp kutuplara yaklaşırız. Bu da enlem etkisine yani matematik konuma işaret eder.\n\nI. Gece-gündüz süre farkının artması: Ekvator'dan kutuplara gidildikçe gece-gündüz süre farkı artar. Matematik konumun sonucudur.\n\nII. Deniz suyu sıcaklığının azalması: Ekvator'dan kutuplara gidildikçe sıcaklıklar düşer, deniz suyu sıcaklığı da buna paralel olarak azalır. Matematik konumun sonucudur.\n\nIII. Tarım ürünlerinin olgunlaşma süresinin uzaması: Kuzeye gidildikçe sıcaklıkların düşmesi nedeniyle bitkilerin olgunlaşma süresi uzar. Matematik konumun sonucudur.\n\nIV. Yerel saat farkının artması: Yerel saat farkı doğu-batı yönünde meridyen farkına bağlıdır, güney-kuzey yönünde değişmez. Dolayısıyla matematik konumla ilgili olsa da bu spesifik soru için geçerli bir ifade değildir.\n\nDoğru Cevap: D"
+}   
+    ],
     "2) İklim": [],
     "3) Türkiye'nin Yer Şekilleri": [],
     "3.1) Dağlar": [],
@@ -5095,3 +5144,4 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
