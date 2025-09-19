@@ -467,6 +467,15 @@ def genel_rapor_page():
 # ===============================
 # Router
 # ===============================
+# Session başlatılırken aktif kullanıcıyı yükle
+if "current_user" not in st.session_state:
+    user = aktif_kullanici_yukle()  # dosyadan aktif kullanıcıyı al
+    st.session_state["current_user"] = user
+    if user:
+        st.session_state["user"] = user
+        kullanici_sonuclarini_yukle_to_session(user)
+        st.session_state["page"] = "ders"  # sayfa yenilenince direkt ders sayfasına git
+
 if "current_user" not in st.session_state:
     st.session_state["current_user"] = aktif_kullanici_yukle()
     if st.session_state["current_user"]:
@@ -497,5 +506,6 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
