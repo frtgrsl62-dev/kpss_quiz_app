@@ -493,7 +493,7 @@ def profil_page():
         return
 
     # Sol üst geri butonu
-    if st.button("🏠 Geri"):
+    if st.button("🔙 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
 
@@ -508,11 +508,8 @@ def profil_page():
     st.write(f"**Kullanıcı Adı:** {k_adi}")
     st.write(f"**Şifre:** {'*' * len(sifre)}")
 
-    # Varsayılan expander kontrolü
-    if "show_pass_change" not in st.session_state:
-        st.session_state["show_pass_change"] = False
-
-    with st.expander("🔑 Şifre Değiştir", expanded=st.session_state["show_pass_change"]):
+    # Şifre değiştirme formu
+    with st.expander("🔑 Şifre Değiştir"):
         eski = st.text_input("Eski Şifre", type="password", key="old_pass")
         yeni = st.text_input("Yeni Şifre", type="password", key="new_pass")
         yeni2 = st.text_input("Yeni Şifre (Tekrar)", type="password", key="new_pass2")
@@ -528,17 +525,9 @@ def profil_page():
                 kullanicilari_kaydet()
                 st.success("✅ Şifre başarıyla güncellendi!")
 
-                # Şifre alanlarını temizle
-                st.session_state["old_pass"] = ""
-                st.session_state["new_pass"] = ""
-                st.session_state["new_pass2"] = ""
-
-                # Expander’ı kapat
-                st.session_state["show_pass_change"] = False
-                st.rerun()
-
     st.markdown("---")
     st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
 
 
 
@@ -587,6 +576,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
