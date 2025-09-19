@@ -173,12 +173,13 @@ def ders_secim_page():
     st.markdown("---")
 
     # Çıkış Yap (altta kalsın)
-    if st.button("🔻 Çıkış Yap 🔻"):
-        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        aktif_kullanici_sil()
-        st.session_state["current_user"] = None
-        st.session_state["page"] = "login"
-        st.rerun()
+if st.button("🔻 Çıkış Yap 🔻"):
+    kaydet_sonuclar_to_user(st.session_state.get("current_user"))
+    aktif_kullanici_sil()  # aktif kullanıcıyı sil
+    st.session_state["current_user"] = None
+    st.session_state["page"] = "login"
+    st.rerun()
+        
 
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -467,6 +468,7 @@ def genel_rapor_page():
 # ===============================
 # Router
 # ===============================
+# Router başında
 if "current_user" not in st.session_state:
     st.session_state["current_user"] = aktif_kullanici_yukle()
     if st.session_state["current_user"]:
@@ -497,6 +499,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
