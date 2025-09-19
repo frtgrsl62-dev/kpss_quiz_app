@@ -192,7 +192,7 @@ def ders_secim_page():
 def konu_secim_page(ders):
 
     # Geri butonu sol üst
-    if st.button("🔙 Geri"):
+    if st.button("🏠 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
     
@@ -494,6 +494,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
