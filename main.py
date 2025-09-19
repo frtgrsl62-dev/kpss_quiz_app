@@ -160,13 +160,13 @@ def ders_secim_page():
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
             st.rerun()
-    st.markdown("---")
-    col1, col2 = st.columns(2)
-    with col1:
+   # st.markdown("---")
+ #   col1, col2 = st.columns(2)
+ #   with col1:
         if st.button("📊 Genel Raporu Gör"):
             st.session_state["page"] = "rapor"
             st.rerun()
-    with col2:
+   # with col2:
         if st.button("Çıkış Yap"):
             kaydet_sonuclar_to_user(st.session_state["user"])
             aktif_kullanici_sil()
@@ -477,6 +477,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
