@@ -190,6 +190,12 @@ def ders_secim_page():
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
 # ===============================
 def konu_secim_page(ders):
+       # Geri butonu sol üst
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "ders"
+        st.rerun()
+    
+    
     # st.header(f"{ders} - Konu Seçimi")
     st.markdown(
     f"<h2 style='color: ; font-size:30px;'>{ders} - Konu Seçimi</h2>",
@@ -231,9 +237,9 @@ def konu_secim_page(ders):
                 st.session_state["page"] = "test"
                 st.rerun()
 
-    if st.button("🔙 Geri"):
-        st.session_state["page"] = "ders"
-        st.rerun()
+   # if st.button("🔙 Geri"):
+     #   st.session_state["page"] = "ders"
+    #   st.rerun()
 
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -480,6 +486,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
