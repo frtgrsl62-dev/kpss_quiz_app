@@ -354,19 +354,18 @@ def soru_goster_page():
                 else:
                     yanlis += 1
 
-# Önce eski test değerlerini kontrol et
-onceki_test = sonuclar[secilen_ders][secilen_konu].get(f"test_{test_no}")
-if onceki_test:
-    # Eski değerleri çıkar
-    sonuclar[secilen_ders][secilen_konu]["dogru"] -= onceki_test.get("dogru", 0)
-    sonuclar[secilen_ders][secilen_konu]["yanlis"] -= onceki_test.get("yanlis", 0)
+        # ===== ÖNEMLİ DEĞİŞİKLİK: Önceki test değerlerini çıkar =====
+        onceki_test = sonuclar[secilen_ders][secilen_konu].get(f"test_{test_no}")
+        if onceki_test:
+            sonuclar[secilen_ders][secilen_konu]["dogru"] -= onceki_test.get("dogru", 0)
+            sonuclar[secilen_ders][secilen_konu]["yanlis"] -= onceki_test.get("yanlis", 0)
 
-# Yeni test sonuçlarını ekle
-sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
-sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
-sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
+        # Yeni test sonuçlarını ekle
+        sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
+        sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
+        sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
 
-st.session_state["sonuclar"] = sonuclar
+        st.session_state["sonuclar"] = sonuclar
 
         # Kullanıcı dosyasına kaydet
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
@@ -514,6 +513,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
