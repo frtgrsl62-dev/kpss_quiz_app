@@ -4,12 +4,12 @@ import json
 import os
 import math
 from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
-# import matplotlib.pyplot as plt
 
 # ===============================
-# Kullanıcı Verileri Yönetimi
+# Dosya yolları
 # ===============================
-KULLANICI_DOSYA = "kullanicilar.json"
+DOSYA = "kullanicilar.json"
+AKTIF_DOSYA = "aktif_kullanici.json"
 
 # ===============================
 # Sabit kullanıcılar
@@ -20,33 +20,56 @@ sabit_kullanicilar = {
 }
 
 # ===============================
-# Kullanıcı Verileri Yönetimi
+# Kullanıcı yükle / kaydet
 # ===============================
-KULLANICI_DOSYA = "kullanicilar.json"
-
 def kullanicilari_yukle():
-    if os.path.exists(KULLANICI_DOSYA):
-        with open(KULLANICI_DOSYA, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+    if not os.path.exists(DOSYA):
+        with open(DOSYA, "w", encoding="utf-8") as f:
+            f.write("{}")
+    with open(DOSYA, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def kullanicilari_kaydet():
-    with open(KULLANICI_DOSYA, "w", encoding="utf-8") as f:
+    with open(DOSYA, "w", encoding="utf-8") as f:
         json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
 
-def kullanici_sonuclarini_yukle_to_session(kullanici):
-    if "sonuclar" not in st.session_state:
-        st.session_state["sonuclar"] = {}
-    if kullanici in kullanicilar:
-        st.session_state["sonuclar"] = kullanicilar[kullanici].get("sonuclar", {})
+# ===============================
+# Aktif kullanıcı dosyası
+# ===============================
+def aktif_kullanici_kaydet(user):
+    with open(AKTIF_DOSYA, "w", encoding="utf-8") as f:
+        json.dump({"user": user}, f)
 
-def kullanici_sonuclarini_kaydet(kullanici):
-    if kullanici in kullanicilar:
-        kullanicilar[kullanici]["sonuclar"] = st.session_state.get("sonuclar", {})
-        kullanicilari_kaydet()
+def aktif_kullanici_yukle():
+    if os.path.exists(AKTIF_DOSYA):
+        with open(AKTIF_DOSYA, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("user")
+    return None
 
-# Global kullanıcı listesi
+def aktif_kullanici_sil():
+    if os.path.exists(AKTIF_DOSYA):
+        os.remove(AKTIF_DOSYA)
+
+# ===============================
+# Sonuçları kullanıcıya kaydet
+# ===============================
+def kaydet_sonuclar_to_user(user):
+    if user not in kullanicilar:
+        return
+    kullanicilar[user]["sonuclar"] = st.session_state.get("sonuclar", {})
+    kullanicilari_kaydet()
+
+def kullanici_sonuclarini_yukle_to_session(user):
+    if user in kullanicilar and "sonuclar" in kullanicilar[user]:
+        st.session_state["sonuclar"] = kullanicilar[user]["sonuclar"]
+
+# ===============================
+# Global değişkenler
+# ===============================
 kullanicilar = kullanicilari_yukle()
+
+
     
 # ===============================
 # Login Sayfası
@@ -65,7 +88,6 @@ def login_page():
     
     #st.title("Giriş Ekranı")
     st.markdown("<h1 style='color: ;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
-
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
         sifre = st.text_input("Şifre", type="password", key="login_pass")
@@ -73,12 +95,10 @@ def login_page():
         kayit_btn = st.form_submit_button("🔹 Kayıt Ol 🔹")
 
     if giris_btn:
-        global kullanicilar
-        kullanicilar = kullanicilari_yukle()  # 🔹 güncel listeyi oku
-
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
             st.session_state["user"] = k_adi
+            aktif_kullanici_kaydet(k_adi)
             kullanici_sonuclarini_yukle_to_session(k_adi)
             st.session_state["page"] = "ders"
             st.rerun()
@@ -88,7 +108,6 @@ def login_page():
     if kayit_btn:
         st.session_state["page"] = "kayit"
         st.rerun()
-
 
 
 
@@ -102,28 +121,34 @@ def kayit_page():
 
     st.markdown("<h1 style='color: ;'>Kayıt Ol</h1>", unsafe_allow_html=True)
     # st.title("Kayıt Ol")
-    with st.form("register_form"):
-        isim = st.text_input("İsim Soyisim")
-        k_adi = st.text_input("Kullanıcı Adı")
-        sifre = st.text_input("Şifre", type="password")
-        kaydet_btn = st.form_submit_button("✅ Kaydı Tamamla")
+    with st.form("kayit_form"):
+        isim = st.text_input("İsim Soyisim", key="register_name")
+        k_adi = st.text_input("Kullanıcı Adı", key="register_user")
+        sifre = st.text_input("Şifre", type="password", key="register_pass")
+        sifre_tekrar = st.text_input("Şifre Tekrar", type="password", key="register_pass2")
+        kaydet_btn = st.form_submit_button("Kaydet ✅")
+        geri_btn = st.form_submit_button("↩️ Geri Dön")
 
     if kaydet_btn:
-        global kullanicilar
-        kullanicilar = kullanicilari_yukle()
+        if not isim or not k_adi or not sifre or not sifre_tekrar:
+            st.error("❌ Lütfen tüm alanları doldurun!")
+            return
+        if sifre != sifre_tekrar:
+            st.error("❌ Şifreler uyuşmuyor!")
+            return
+        if k_adi in sabit_kullanicilar or k_adi in kullanicilar:
+            st.error("❌ Bu kullanıcı adı zaten kayıtlı!")
+            return
+        kullanicilar[k_adi] = {"isim": isim, "sifre": sifre}
+        kullanicilari_kaydet()
+        st.success(f"✅ {isim} başarıyla kaydedildi!")
+        time.sleep(1)
+        st.session_state["page"] = "login"
+        st.rerun()
 
-        if k_adi in kullanicilar or k_adi in sabit_kullanicilar:
-            st.error("❌ Bu kullanıcı adı zaten alınmış.")
-        else:
-            kullanicilar[k_adi] = {"isim": isim, "sifre": sifre, "sonuclar": {}}
-            kullanicilari_kaydet()
-            kullanicilar = kullanicilari_yukle()  # 🔹 kayıt sonrası yeniden yükle
-
-            st.success(f"✅ {isim} başarıyla kaydedildi!")
-            time.sleep(1)
-            st.session_state["page"] = "login"
-            st.rerun()
-
+    if geri_btn:
+        st.session_state["page"] = "login"
+        st.rerun()
 
 # ===============================
 # Ders Seçim Sayfası
@@ -457,61 +482,6 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
