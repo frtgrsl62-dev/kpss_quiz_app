@@ -190,11 +190,9 @@ def ders_secim_page():
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
 # ===============================
 def konu_secim_page(ders):
-       # Geri butonu sol üst
-    if st.button("🔙 Geri"):
+       if st.button("🔙 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
-    
     
     # st.header(f"{ders} - Konu Seçimi")
     st.markdown(
@@ -237,9 +235,7 @@ def konu_secim_page(ders):
                 st.session_state["page"] = "test"
                 st.rerun()
 
-   # if st.button("🔙 Geri"):
-     #   st.session_state["page"] = "ders"
-    #   st.rerun()
+
 
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -250,10 +246,6 @@ def konu_secim_page(ders):
 # Test Seçim Sayfası
 # ===============================
 def test_secim_page(secilen_ders, secilen_konu):
-        if st.button("🔙 Geri"):
-        st.session_state["page"] = "konu"
-        st.rerun()
-    
     st.markdown(
         f"<h2 style='color: ; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
         unsafe_allow_html=True
@@ -304,6 +296,9 @@ def test_secim_page(secilen_ders, secilen_konu):
             st.session_state["page"] = "soru"
             st.rerun()
 
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "konu"
+        st.rerun()
 
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -312,8 +307,6 @@ def test_secim_page(secilen_ders, secilen_konu):
 # Soru Gösterim Sayfası (Radyo başta seçili gelmez)
 # ===============================
 def soru_goster_page():
-   
-    
     current = st.session_state["current_test"]
     secilen_test = current["test"]
 
@@ -489,8 +482,6 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
-
-
 
 
 
