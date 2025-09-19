@@ -307,6 +307,7 @@ def test_secim_page(secilen_ders, secilen_konu):
 def soru_goster_page():
     current = st.session_state["current_test"]
     secilen_test = current["test"]
+
     index = current["index"]
     secilen_ders = current["ders"]
     secilen_konu = current["konu"]
@@ -345,19 +346,13 @@ def soru_goster_page():
         st.session_state["sonuclar"] = sonuclar
 
         # Kullanıcı dosyasına kaydet
-        kaydet_sonuclar_to_user()
+        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
-        col1, col2 = st.columns([1, 1])
-        with col1:
-            if st.button("🔙 Geri"):
-                st.session_state["page"] = "test"
-                st.rerun()
-        with col2:
-            if st.button("Testi Bitir 🏁"):
-                st.session_state["page"] = "test"
-                st.rerun()
+        if st.button("Testi Bitir 🏁"):
+            st.session_state["page"] = "test"
+            st.rerun()
         return
 
     soru = secilen_test[index]
@@ -429,6 +424,7 @@ def soru_goster_page():
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
+
 # ===============================
 # Genel Rapor
 # ===============================
@@ -484,6 +480,7 @@ elif st.session_state["page"] == "soru":
     soru_goster_page()
 elif st.session_state["page"] == "rapor":
     genel_rapor_page()
+
 
 
 
