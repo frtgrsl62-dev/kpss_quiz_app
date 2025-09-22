@@ -186,7 +186,7 @@ soru_bankasi = {
   {
     "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
             "maddeler": [
-      "I. Türk siyasi birliğini sağlamıştır.",
+    "I. Türk siyasi birliğini sağlamıştır.",
     "II. Askeri alanda modern bir teşkilatlanma kurmuştur.",
     "III. Çin medeniyetini tamamen ortadan kaldırmıştır.\nyargılarından hangilerine ulaşılabilir?",
           },          
@@ -235,23 +235,6 @@ soru_bankasi = {
     },
     "dogru_cevap": "D",
     "cozum": "Hazarlarda yönetici sınıf Museviliği benimsemiş olsa da halk arasında Gök Tanrı inancı, Hristiyanlık ve Müslümanlık da yaygındı. Gök Tanrı inancı tamamen terk edilmemiştir."
-  },
-  {
-    "soru": "Uygurlarda görülen;",
-       "maddeler": [   
-    "I. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,",
-    "II. Kağıt ve matbaanın kullanılması,",
-    "III. Sulama kanallarının yapılması\ngelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?",
-      },
-    "secenekler": {
-      "A": "Yalnız I",
-      "B": "Yalnız III",
-      "C": "I ve II",
-      "D": "II ve III",
-      "E": "I, II ve III"
-         ], 
-    "dogru_cevap": "E",
-    "cozum": "Fresk ve minyatür için tapınak/saray duvarı gerekir. Sulama kanalları tarım için, kağıt ve matbaa ise gelişmiş bir kültür ve kütüphane için gereklidir. Bunların üçü de doğrudan yerleşik hayatın kanıtıdır."
   },
   {
     "soru": "Kavimler Göçü'nün sonucunda;\n- Roma İmparatorluğu ikiye ayrılmıştır.\n- Avrupa'nın bugünkü milletleri oluşmaya başlamıştır.\n- Avrupa'da feodalite (derebeylik) rejimi ortaya çıkmıştır.\nAşağıdakilerden hangisi Kavimler Göçü'nün sonuçlarından biri değildir?",
@@ -5731,6 +5714,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
