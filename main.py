@@ -323,108 +323,47 @@ def test_secim_page(secilen_ders, secilen_konu):
 # Soru Gösterim Sayfası (Radyo başta seçili gelmez)
 # ===============================
 def soru_goster_page():
-    current = st.session_state["current_test"]
-    secilen_test = current["test"]
+    current = st.session_state.get("current_test")
+    if not current:
+        st.error("⚠️ Test verisi yüklenmemiş.")
+        return
 
-    index = current["index"]
-    secilen_ders = current["ders"]
-    secilen_konu = current["konu"]
-    test_no = current["test_no"]
-    test_sayisi = current["test_sayisi"]
+    secilen_test = current.get("test")
+    index = current.get("index", 0)
+    secilen_ders = current.get("ders", "")
+    secilen_konu = current.get("konu", "")
+    test_no = current.get("test_no", 0)
+    test_sayisi = current.get("test_sayisi", 0)
+
+    if not secilen_test or index >= len(secilen_test):
+        st.success("Test tamamlandı!")
+        return
+
+    soru = secilen_test[index]
+    if isinstance(soru, str):
+        import json
+        soru = json.loads(soru)
 
     # ===== Sol üst geri butonu =====
     if st.button("🔙 Geri"):
         st.session_state["page"] = "test"
         st.rerun()
 
-    # ===== Test tamamlandıysa =====
-    if index >= len(secilen_test):
-        st.success("Test tamamlandı!")
+    # ===== Soruyu göster =====
+    st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
+    st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
+    st.markdown(f"{soru['soru']}")  
 
-        if "sonuclar" not in st.session_state:
-            st.session_state["sonuclar"] = {}
-        sonuclar = st.session_state["sonuclar"]
-        if secilen_ders not in sonuclar:
-            sonuclar[secilen_ders] = {}
-        if secilen_konu not in sonuclar[secilen_ders]:
-            sonuclar[secilen_ders][secilen_konu] = {"dogru": 0, "yanlis": 0}
+    # ===== Maddeler varsa alt alta yaz =====
+    if isinstance(soru.get("maddeler"), list):
+        for madde in soru["maddeler"]:
+            st.markdown(madde)
 
-        # Cevapları topla
-        cevap_keys = [k for k in st.session_state.keys() if k.startswith("cevap_")]
-        dogru = 0
-        yanlis = 0
-        for k in cevap_keys:
-            secilen_harf = st.session_state[k]
-            soru_index = int(k.split("_")[1])
-            if soru_index < len(secilen_test):
-                soru = secilen_test[soru_index]
-                if secilen_harf == soru["dogru_cevap"]:
-                    dogru += 1
-                else:
-                    yanlis += 1
+    # ===== Seçenekleri hazırla =====
+    secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
+    cevap_key = f"cevap_{index}"
 
-        # ===== ÖNEMLİ DEĞİŞİKLİK: Önceki test değerlerini çıkar =====
-        onceki_test = sonuclar[secilen_ders][secilen_konu].get(f"test_{test_no}")
-        if onceki_test:
-            sonuclar[secilen_ders][secilen_konu]["dogru"] -= onceki_test.get("dogru", 0)
-            sonuclar[secilen_ders][secilen_konu]["yanlis"] -= onceki_test.get("yanlis", 0)
-
-        # Yeni test sonuçlarını ekle
-        sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
-        sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
-        sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
-
-        st.session_state["sonuclar"] = sonuclar
-
-        # Kullanıcı dosyasına kaydet
-        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-
-        st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
-
-        # Alt kısımda sadece Testi Bitir butonu
-        if st.button("Testi Bitir 🏁"):
-            st.session_state["page"] = "test"
-            st.rerun()
-        return
-
-    
-# ===== Soruyu Göster =====
-soru = secilen_test[index]
-
-st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
-st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
-st.markdown(f"{soru['soru']}")  
-
-# ===== Maddeler varsa alt alta yaz =====
-if isinstance(soru.get("maddeler"), list):
-    for madde in soru["maddeler"]:
-        st.markdown(madde)
-
-# ===== Seçenekleri hazırla =====
-secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
-cevap_key = f"cevap_{index}"
-
-# ===== Radyo butonu =====
-if cevap_key in st.session_state:
-    secim = st.radio(
-        label="",
-        options=secenekler,
-        index=[s.split(")")[0] for s in secenekler].index(st.session_state[cevap_key]),
-        key=f"soru_radio_{index}"
-    )
-else:
-    secim = st.radio(
-        label="",
-        options=secenekler + [None],
-        index=len(secenekler),
-        format_func=lambda x: "" if x is None else x,
-        key=f"soru_radio_{index}"
-    )
-
-
-
-
-    # Radyo butonu
+    # ===== Radyo butonu =====
     if cevap_key in st.session_state:
         secim = st.radio(
             label="",
@@ -441,14 +380,14 @@ else:
             key=f"soru_radio_{index}"
         )
 
-    # Cevap kontrol ve kaydetme
+    # ===== Cevap kontrol ve kaydetme =====
     if cevap_key in st.session_state:
         secilen_harf = st.session_state[cevap_key]
         if secilen_harf == soru["dogru_cevap"]:
             st.success("✅ Doğru!")
         else:
             st.error(f"❌ Yanlış! Doğru Cevap: {soru['dogru_cevap']}) {soru['secenekler'][soru['dogru_cevap']]}")
-        st.info(f"**Çözüm:** {soru['cozum']}")
+        st.info(f"**Çözüm:** {soru.get('cozum','')}")
     else:
         if st.button("🎯 Cevapla", key=f"cevapla_{index}"):
             if secim is None:
@@ -459,20 +398,20 @@ else:
                 st.rerun()
 
     # ===== Alt kısım: Önceki / Sonraki / Testi Bitir =====
-    col1, col2, col3 = st.columns([1, 1, 1])
+    col1, col2, col3 = st.columns([1,1,1])
     with col1:
         if index > 0 and st.button("⬅️ Önceki Soru"):
             current["index"] -= 1
             st.rerun()
     with col2:
-        if index < len(secilen_test) - 1 and st.button("Sonraki Soru ➡️"):
+        if index < len(secilen_test)-1 and st.button("Sonraki Soru ➡️"):
             if cevap_key in st.session_state:
                 current["index"] += 1
                 st.rerun()
             else:
                 st.warning("⚠️ Lütfen önce bu soruyu cevaplayın!")
     with col3:
-        if index == len(secilen_test) - 1 and st.button("Testi Bitir 🏁"):
+        if index == len(secilen_test)-1 and st.button("Testi Bitir 🏁"):
             if cevap_key in st.session_state:
                 current["index"] += 1
                 st.rerun()
@@ -481,7 +420,6 @@ else:
 
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-
 
 
 # ===============================
@@ -605,6 +543,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
