@@ -196,7 +196,7 @@ soru_bankasi = {
       "C": "I ve II",
       "D": "II ve III",
       "E": "I, II ve III"
-    },
+         ], 
     "dogru_cevap": "C",
     "cozum": "Mete Han, Türk boylarını birleştirerek siyasi birliği sağlamış ve onlu sistemi kurarak orduyu modernize etmiştir. Ancak Çin'i ortadan kaldırmak gibi bir amacı olmamış, onu vergiye bağlamıştır."
   },
@@ -249,7 +249,7 @@ soru_bankasi = {
       "C": "I ve II",
       "D": "II ve III",
       "E": "I, II ve III"
-    },
+         ], 
     "dogru_cevap": "E",
     "cozum": "Fresk ve minyatür için tapınak/saray duvarı gerekir. Sulama kanalları tarım için, kağıt ve matbaa ise gelişmiş bir kültür ve kütüphane için gereklidir. Bunların üçü de doğrudan yerleşik hayatın kanıtıdır."
   },
@@ -5731,6 +5731,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
