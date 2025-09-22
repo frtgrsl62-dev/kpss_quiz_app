@@ -387,20 +387,14 @@ def soru_goster_page():
             st.rerun()
         return
 
-# ===== Soruyu Göster =====
-soru = secilen_test[index]
-st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
-st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
-st.markdown(f"{soru['soru']}")
+    # ===== Soruyu Göster =====
+    soru = secilen_test[index]
+    st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
+    st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
+    st.markdown(f"{soru['soru']}")
+    secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
+    cevap_key = f"cevap_{index}"
 
-# ===== Maddeler varsa alt alta ve sıkışık göster =====
-if isinstance(soru.get("maddeler"), list):
-    for madde in soru["maddeler"]:
-        madde_html = madde.replace("\n", "<br>")  # Satır sonları varsa <br> ile kır
-        st.markdown(f"<div style='margin:2px 0'>{madde_html}</div>", unsafe_allow_html=True)
-
-secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
-cevap_key = f"cevap_{index}"
     # Radyo butonu
     if cevap_key in st.session_state:
         secim = st.radio(
@@ -463,6 +457,7 @@ cevap_key = f"cevap_{index}"
 
 
 
+
 # ===============================
 # Router
 # ===============================
@@ -507,6 +502,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
