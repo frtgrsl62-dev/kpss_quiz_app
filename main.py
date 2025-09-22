@@ -354,10 +354,10 @@ def soru_goster_page():
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
     st.markdown(f"{soru['soru']}")  
 
-    # ===== Maddeler varsa alt alta yaz =====
+    # ===== Maddeler varsa alt alta, sıkışık göster =====
     if isinstance(soru.get("maddeler"), list):
         for madde in soru["maddeler"]:
-            st.markdown(madde)
+            st.markdown(f"<div style='margin:2px 0'>{madde}</div>", unsafe_allow_html=True)
 
     # ===== Seçenekleri hazırla =====
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
@@ -422,81 +422,6 @@ def soru_goster_page():
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
-# ===============================
-# Genel Rapor
-# ===============================
-def genel_rapor_page():
-    st.header("📊 Genel Rapor")
-    sonuclar = st.session_state.get("sonuclar", {})
-
-    if not sonuclar:
-        st.info("Henüz herhangi bir test çözülmedi.")
-    else:
-        for ders, konular in sonuclar.items():
-            st.subheader(f"📘 {ders}")
-            for konu, sonuc in konular.items():
-                # test_* anahtarlarını hariç tutarak sadece toplam dogru/yanlis oku
-                dogru = sonuc.get("dogru", 0)
-                yanlis = sonuc.get("yanlis", 0)
-                toplam = dogru + yanlis
-                oran = f"{dogru/ toplam * 100:.0f}%" if toplam > 0 else "0%"
-                st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
-
-    st.markdown("---")
-    if st.button("🏠 Ana Menüye Dön"):
-        st.session_state["page"] = "ders"
-        st.rerun()
-
-
-# ===============================
-# Profil Sayfası
-# ===============================
-def profil_page():
-    user = st.session_state.get("current_user")
-    if not user or user not in kullanicilar:
-        st.warning("❌ Kullanıcı bilgisi bulunamadı!")
-        st.session_state["page"] = "login"
-        st.rerun()
-        return
-
-    # Sol üst geri butonu
-    if st.button("🏠 Geri"):
-        st.session_state["page"] = "ders"
-        st.rerun()
-
-    st.markdown("<h2>👤 Kullanıcı Bilgileri</h2>", unsafe_allow_html=True)
-
-    bilgiler = kullanicilar[user]
-    isim = bilgiler.get("isim", "")
-    k_adi = user
-    sifre = bilgiler.get("sifre", "")
-
-    st.write(f"**İsim Soyisim:** {isim}")
-    st.write(f"**Kullanıcı Adı:** {k_adi}")
-    st.write(f"**Şifre:** {'*' * len(sifre)}")
-
-    # Şifre değiştirme formu
-    with st.expander("🔑 Şifre Değiştir"):
-        eski = st.text_input("Eski Şifre", type="password", key="old_pass")
-        yeni = st.text_input("Yeni Şifre", type="password", key="new_pass")
-        yeni2 = st.text_input("Yeni Şifre (Tekrar)", type="password", key="new_pass2")
-        if st.button("Şifreyi Güncelle"):
-            if eski != sifre:
-                st.error("❌ Eski şifre yanlış!")
-            elif not yeni or not yeni2:
-                st.error("❌ Yeni şifre alanları boş olamaz!")
-            elif yeni != yeni2:
-                st.error("❌ Yeni şifreler uyuşmuyor!")
-            else:
-                kullanicilar[user]["sifre"] = yeni
-                kullanicilari_kaydet()
-                st.success("✅ Şifre başarıyla güncellendi!")
-
-    st.markdown("---")
-    st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-
-
-
 
 
 # ===============================
@@ -543,6 +468,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
