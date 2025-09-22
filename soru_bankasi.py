@@ -182,24 +182,7 @@ soru_bankasi = {
     },
     "dogru_cevap": "C",
     "cozum": "Macarlar (Magyarlar), Arpad liderliğinde bugünkü Macaristan'a yerleşmiş ve Hristiyanlığı benimsemelerine rağmen varlıklarını bir devlet olarak sürdürmüşlerdir."
-  },
-  {
-    "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
-            "maddeler": [
-    "I. Türk siyasi birliğini sağlamıştır.",
-    "II. Askeri alanda modern bir teşkilatlanma kurmuştur.",
-    "III. Çin medeniyetini tamamen ortadan kaldırmıştır.\nyargılarından hangilerine ulaşılabilir?",
-          },          
-    "secenekler": {
-      "A": "Yalnız I",
-      "B": "Yalnız II",
-      "C": "I ve II",
-      "D": "II ve III",
-      "E": "I, II ve III"
-         ], 
-    "dogru_cevap": "C",
-    "cozum": "Mete Han, Türk boylarını birleştirerek siyasi birliği sağlamış ve onlu sistemi kurarak orduyu modernize etmiştir. Ancak Çin'i ortadan kaldırmak gibi bir amacı olmamış, onu vergiye bağlamıştır."
-  },
+  }, 
   {
     "soru": "Eski Türklerde toplumsal hayatı düzenleyen yazısız hukuk kurallarına 'töre' denirdi. Kağanın bile uymak zorunda olduğu törenin değişmez hükümleri arasında adalet (köni), iyilik (uzluk) ve eşitlik (tüzlük) yer alırdı. Bu durum, İslamiyet öncesi Türk devletleriyle ilgili aşağıdakilerden hangisinin bir göstergesidir?",
     "secenekler": {
@@ -5714,6 +5697,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
