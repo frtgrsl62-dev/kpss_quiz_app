@@ -5341,6 +5341,270 @@ soru_bankasi = {
     },
     "dogru_cevap": "C",
     "cozum": "Analiz: Mudanya sonrası Lozan Barış Konferansı toplanmıştır.\n\nDoğru Cevap: C) Lozan Konferansı\n\nKoçunun Yorumu: Ateşkes → barış görüşmeleri sıralamasını unutma."
+  },
+     {
+    "soru": "Doğu Cephesi'nde kazanılan zaferin ardından imzalanan Gümrü Antlaşması'nın, TBMM'nin uluslararası alanda tanınması sürecindeki en önemli rolü aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "İtilaf Devletleri tarafından tanınmasını sağlaması",
+      "B": "Sovyet Rusya ile ittifak kurulmasına zemin hazırlaması",
+      "C": "TBMM'nin imzaladığı ilk uluslararası antlaşma olarak siyasi bir varlık olduğunu kanıtlaması",
+      "D": "Ermenistan'ın Milletler Cemiyeti'ne üye olmasını engellemesi",
+      "E": "Doğu sınırını son şekliyle belirlemesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bir devletin uluslararası alanda tanınmasının kanıtı, antlaşmalar imzalayabilmesidir. Gümrü Antlaşması TBMM’nin siyasi bir varlık olduğunu gösteren ilk uluslararası belgedir."
+  },
+  {
+    "soru": "I. İnönü Zaferi'nin ardından toplanan Londra Konferansı'na İtilaf Devletleri'nin hem İstanbul Hükûmeti'ni hem de TBMM'yi birlikte çağırmasının arkasındaki asıl diplomatik taktik nedir?",
+    "secenekler": {
+      "A": "İki hükümet arasındaki anlaşmazlıkları çözmek",
+      "B": "Türk tarafını bölerek kendi tezlerini daha kolay kabul ettirmek",
+      "C": "Padişahın desteğini alarak halkı sakinleştirmek",
+      "D": "Wilson İlkeleri'ne uygun hareket ettiklerini göstermek",
+      "E": "Savaşın seyrini değiştirecek bir barış teklifi sunmak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Amaç, iki hükümeti karşı karşıya getirip Türk tarafını bölmekti. Ancak Tevfik Paşa’nın tutumu bu oyunu bozdu."
+  },
+  {
+    "soru": "Güney Cephesi'ndeki mücadelenin, Doğu ve Batı Cephelerinden temel farkı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Düşmanın daha güçlü olması",
+      "B": "Savaşın daha uzun sürmesi",
+      "C": "Düzenli ordu yerine Kuvayımilliye birlikleri tarafından yürütülmesi",
+      "D": "Savaş sonunda toprak kazanılması",
+      "E": "Savaşın bir antlaşma ile sona ermesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Doğu ve Batı cephelerinde düzenli ordu, Güney’de ise halkın oluşturduğu Kuvayımilliye güçleri savaşmıştır."
+  },
+  {
+    "soru": "Kütahya-Eskişehir Muharebeleri'ndeki yenilginin ardından Mustafa Kemal'in emriyle ordunun Sakarya Nehri'nin doğusuna çekilmesinin temel stratejik amacı nedir?",
+    "secenekler": {
+      "A": "Yunan ordusunu pusuya düşürmek",
+      "B": "Düşmanı ikmal hatlarından uzaklaştırarak yıpratmak ve orduya toparlanması için zaman kazandırmak",
+      "C": "Ankara'yı boşaltarak başkenti Kayseri'ye taşımak",
+      "D": "Sovyet Rusya'dan gelecek askeri yardımı beklemek",
+      "E": "İtilaf Devletleri'nin arabuluculuk yapmasını sağlamak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Amaç ordunun yok olmasını önlemek, savunmayı güçlendirmek ve Yunan’ı ikmalden uzaklaştırmaktı."
+  },
+  {
+    "soru": "Sakarya Meydan Muharebesi'nin kazanılması, TBMM tarafından Mustafa Kemal'e hangi unvan ve rütbenin verilmesini sağlamıştır?",
+    "secenekler": {
+      "A": "Başkomutan ve Orgeneral",
+      "B": "Başöğretmen ve Korgeneral",
+      "C": "Gazi ve Mareşal",
+      "D": "Edirne Fatihi ve Mirliva",
+      "E": "Anafartalar Kahramanı ve Albay"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Zafer sonrası Mustafa Kemal’e TBMM tarafından Gazi unvanı ve Mareşal rütbesi verilmiştir."
+  },
+  {
+    "soru": "\"Milletin makûs talihini yendiğimiz yer\" olarak da anılan ve İtalya'nın Anadolu'dan çekilme kararını hızlandıran gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "I. İnönü Zaferi",
+      "B": "II. İnönü Zaferi",
+      "C": "Sakarya Zaferi",
+      "D": "Büyük Taarruz",
+      "E": "Gediz Muharebeleri"
+    },
+    "dogru_cevap": "B",
+    "cozum": "II. İnönü Zaferi hem içeride hem dışarıda moral etkisi yarattı ve İtalya çekilmeye başladı."
+  },
+  {
+    "soru": "Mudanya Ateşkes Antlaşması'nın, Osmanlı Devleti'nin hukuken sona erdiğinin kanıtı olarak kabul edilmesinin temel nedeni nedir?",
+    "secenekler": {
+      "A": "Padişah Vahdettin'in yurt dışına kaçması",
+      "B": "Saltanatın kaldırılması kararının alınması",
+      "C": "Başkent İstanbul'un ve Boğazların yönetiminin TBMM'ye bırakılması",
+      "D": "Antlaşmayı TBMM adına İsmet Paşa'nın imzalaması",
+      "E": "Doğu Trakya'nın savaşsız alınması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İstanbul ve Boğazların TBMM’ye bırakılması Osmanlı’nın fiilen sona erdiğinin göstergesidir."
+  },
+  {
+    "soru": "Fransa'nın, Güney Cephesi'ni kapatan 1921 Ankara Antlaşması'nı imzalamasında en etkili olan gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Maraş ve Antep'teki halk direnişi",
+      "B": "Sovyet Rusya'nın TBMM'yi desteklemesi",
+      "C": "Batı Cephesi'nde kazanılan Sakarya Zaferi",
+      "D": "İtalya'nın Anadolu'dan çekilmesi",
+      "E": "Kâzım Karabekir'in Doğu'daki zaferi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Sakarya Zaferi sonrası Fransa savaşı sürdürmenin anlamsızlığını görerek TBMM ile anlaşmıştır."
+  },
+  {
+    "soru": "Mustafa Kemal'in Başkomutanlık yetkisiyle yayımladığı Tekâlif-i Milliye Emirleri, Kurtuluş Savaşı'nın hangi karakteristiğini en iyi şekilde yansıtır?",
+    "secenekler": {
+      "A": "Sadece düzenli orduya dayandığını",
+      "B": "Emperyalist bir savaş olduğunu",
+      "C": "Milletin tüm imkanlarıyla topyekûn bir seferberliğe giriştiğini",
+      "D": "Dış yardımlarla finanse edildiğini",
+      "E": "Padişahın emriyle yürütüldüğünü"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Tekâlif-i Milliye Emirleri savaşın milletin tüm imkânlarıyla yürütüldüğünü gösterir."
+  },
+  {
+    "soru": "Doğu Cephesi'nde Mondros Ateşkesi'ne uymayarak ordusunu terhis etmeyen ve Ermenilere karşı zafer kazanan komutan kimdir?",
+    "secenekler": {
+      "A": "Ali Fuat Cebesoy",
+      "B": "Refet Bele",
+      "C": "İsmet İnönü",
+      "D": "Kâzım Karabekir",
+      "E": "Fevzi Çakmak"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Kâzım Karabekir 15. Kolordu’yu dağıtmadı ve Doğu Cephesi’nde zafer kazandı."
+  },
+  {
+    "soru": "1921 Ankara Antlaşması ile Güney Cephesi'nin kapanmasına rağmen Misakımillî'den taviz verilen yer neresidir?",
+    "secenekler": {
+      "A": "Musul",
+      "B": "Batı Trakya",
+      "C": "Batum",
+      "D": "Boğazlar",
+      "E": "Hatay"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Ankara Antlaşması ile Hatay Fransa mandasına bırakıldı, bu Misakımillî’den bir tavizdir."
+  },
+  {
+    "soru": "Londra Konferansı'nın, TBMM Hükûmeti açısından en önemli sonucu ne olmuştur?",
+    "secenekler": {
+      "A": "Sevr Antlaşması'nın iptal edilmesi",
+      "B": "Misakımillî'nin İtilaf Devletleri tarafından resmen tanınması",
+      "C": "TBMM'nin varlığının İtilaf Devletleri tarafından hukuken tanınması",
+      "D": "Yunanistan'ın Anadolu'dan çekilmesi",
+      "E": "İtalya ve Fransa ile ittifak kurulması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Konferansa davet TBMM’nin hukuken tanındığını göstermektedir."
+  },
+  {
+    "soru": "Moskova Antlaşması'nda yer alan \"Sovyet Rusya, Kapitülasyonların kaldırıldığını kabul edecektir.\" maddesinin önemi nedir?",
+    "secenekler": {
+      "A": "TBMM'nin ekonomik bağımsızlığının ilk kez büyük bir devlet tarafından tanınması",
+      "B": "Rusya'nın Osmanlı borçlarını üstlenmesi",
+      "C": "Boğazların ortak yönetime açılması",
+      "D": "Rusya'dan ekonomik yardım alınması",
+      "E": "İki ülke arasında gümrük birliği kurulması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Kapitülasyonların kaldırılması TBMM’nin ekonomik bağımsızlığının tanınmasıdır."
+  },
+  {
+    "soru": "Halkının kahramanca direnişi nedeniyle TBMM tarafından \"Gazi\" unvanı verilen Güney Cephesi şehrimiz hangisidir?",
+    "secenekler": {
+      "A": "Maraş",
+      "B": "Urfa",
+      "C": "Adana",
+      "D": "Mersin",
+      "E": "Antep"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Antep halkının direnişi sonrası şehre \"Gazi\" unvanı verilmiştir."
+  },
+  {
+    "soru": "Mustafa Kemal'e, meclisin yasama ve yürütme yetkilerini üç ay süreyle devreden Başkomutanlık Kanunu'nun çıkarılmasına neden olan olay hangisidir?",
+    "secenekler": {
+      "A": "I. İnönü Zaferi",
+      "B": "Sakarya Meydan Muharebesi",
+      "C": "Kütahya-Eskişehir Muharebeleri'ndeki yenilgi",
+      "D": "İstanbul'un işgali",
+      "E": "Anzavur İsyanı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kütahya-Eskişehir yenilgisi sonrası meclis olağanüstü yetkileri Mustafa Kemal’e devretmiştir."
+  },
+  {
+    "soru": "Aşağıdaki muharebelerin kronolojik sıralaması hangisinde doğru verilmiştir?",
+    "secenekler": {
+      "A": "Sakarya - I. İnönü - Büyük Taarruz - II. İnönü",
+      "B": "I. İnönü - II. İnönü - Sakarya - Büyük Taarruz",
+      "C": "II. İnönü - I. İnönü - Kütahya-Eskişehir - Sakarya",
+      "D": "I. İnönü - Sakarya - II. İnönü - Büyük Taarruz",
+      "E": "I. İnönü - II. İnönü - Kütahya-Eskişehir - Sakarya - Büyük Taarruz"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Doğru sıralama: I. İnönü → II. İnönü → Kütahya-Eskişehir → Sakarya → Büyük Taarruz."
+  },
+  {
+    "soru": "Doğu sınırımızın bugünkü şekliyle kesin olarak çizilmesini sağlayan ve Sakarya Zaferi'nin bir diplomatik sonucu olan antlaşma hangisidir?",
+    "secenekler": {
+      "A": "Moskova Antlaşması",
+      "B": "Ankara Antlaşması",
+      "C": "Gümrü Antlaşması",
+      "D": "Kars Antlaşması",
+      "E": "Lozan Antlaşması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Kars Antlaşması ile Doğu sınırımız kesinleşmiştir."
+  },
+  {
+    "soru": "\"Ordular! İlk hedefiniz Akdeniz'dir, ileri!\" emri, hangi savaşın sonucunda Kurtuluş Savaşı'nın askeri safhasını sona erdirmiştir?",
+    "secenekler": {
+      "A": "Sakarya Meydan Muharebesi",
+      "B": "II. İnönü Muharebesi",
+      "C": "I. İnönü Muharebesi",
+      "D": "Başkomutanlık Meydan Muharebesi (Büyük Taarruz)",
+      "E": "Kütahya-Eskişehir Muharebeleri"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Mustafa Kemal bu emri Büyük Taarruz’un zaferle sonuçlanmasının ardından vermiştir."
+  },
+  {
+    "soru": "Güney Cephesi'nde Antep savunmasıyla özdeşleşen ve \"Benim cesedimi çiğnemeden Antep'e giremezsiniz!\" sözüyle tanınan Kuvayımilliye komutanı kimdir?",
+    "secenekler": {
+      "A": "Sütçü İmam",
+      "B": "Ali Saip Bey",
+      "C": "Şahin Bey",
+      "D": "Yörük Ali Efe",
+      "E": "Kara Fatma"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Antep savunmasının sembol ismi Şahin Bey’dir."
+  },
+  {
+    "soru": "Kütahya-Eskişehir Muharebeleri sonrasında Meclis'te yaşanan moral bozukluğu ve sert tartışmalar sırasında gündeme gelen en radikal öneri ne olmuştur?",
+    "secenekler": {
+      "A": "Saltanatın kaldırılması",
+      "B": "Manda ve himayenin kabul edilmesi",
+      "C": "Meclis'in Kayseri'ye taşınması",
+      "D": "Sovyet sistemi gibi bir yönetime geçilmesi",
+      "E": "İstanbul Hükûmeti ile birleşilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Yunan ordusunun Ankara’ya yaklaşması üzerine Meclis’in Kayseri’ye taşınması önerildi."
+  },
+  {
+    "soru": "Yeni Türk Devleti'nin ilk anayasası olan 1921 Anayasası'nın kabul edilmesini hızlandıran gelişme hangisidir?",
+    "secenekler": {
+      "A": "Sivas Kongresi",
+      "B": "Amasya Genelgesi",
+      "C": "I. İnönü Zaferi",
+      "D": "Sakarya Zaferi",
+      "E": "TBMM'nin açılışı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "I. İnönü Zaferi sonrası meclis otoritesi güçlenmiş, 1921 Anayasası kabul edilmiştir."
+  },
+  {
+    "soru": "Mudanya Ateşkes Antlaşması'nın aşağıdaki kazanımlarından hangisi, askeri bir başarıdan çok diplomatik bir zaferin sonucudur?",
+    "secenekler": {
+      "A": "Batı Anadolu'nun Yunan işgalinden kurtarılması",
+      "B": "Afyon ve Kütahya'nın geri alınması",
+      "C": "Doğu Trakya, İstanbul ve Boğazların savaşılmadan kurtarılması",
+      "D": "Ordunun İzmir'e girmesi",
+      "E": "Yunan ordusunun imha edilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Mudanya Antlaşması ile Doğu Trakya, İstanbul ve Boğazlar savaşsız kazanılmıştır."
   }
     ],
     "12) Atatürk Dönemi İç ve Dış Politika": [],
@@ -5434,6 +5698,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
