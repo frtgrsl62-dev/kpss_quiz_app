@@ -5630,7 +5630,7 @@ soru_bankasi = {
     },
     "dogru_cevap": "D",
     "cozum": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe, Ekvator'dan uzaklaşıp kutuplara yaklaşırız. Bu da enlem etkisine yani matematik konuma işaret eder.\n\nI. Gece-gündüz süre farkının artması: Ekvator'dan kutuplara gidildikçe gece-gündüz süre farkı artar. Matematik konumun sonucudur.\n\nII. Deniz suyu sıcaklığının azalması: Ekvator'dan kutuplara gidildikçe sıcaklıklar düşer, deniz suyu sıcaklığı da buna paralel olarak azalır. Matematik konumun sonucudur.\n\nIII. Tarım ürünlerinin olgunlaşma süresinin uzaması: Kuzeye gidildikçe sıcaklıkların düşmesi nedeniyle bitkilerin olgunlaşma süresi uzar. Matematik konumun sonucudur.\n\nIV. Yerel saat farkının artması: Yerel saat farkı doğu-batı yönünde meridyen farkına bağlıdır, güney-kuzey yönünde değişmez. Dolayısıyla matematik konumla ilgili olsa da bu spesifik soru için geçerli bir ifade değildir.\n\nDoğru Cevap: D"
-}
+},
      {
     "soru": "Aşağıdakilerden hangisi, Türkiye'nin matematik konumu ile açıklanabilecek bir durum değildir?",
     "secenekler": {
@@ -5716,6 +5716,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
