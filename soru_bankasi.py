@@ -131,7 +131,12 @@ soru_bankasi = {
     "cozum": "Geniş toprakları yönetmeyi kolaylaştırmak ve denetimi sağlamak temel amaçtır. Ancak bu sistem, taht kavgalarını engellememiş, aksine teşvik etmiştir."
   },
   {
-    "soru": "Orhun Abideleri;\nI. Türk adının geçtiği ilk Türkçe metin olması,\nII. Hükümdarın halka karşı sorumluluklarını belirtmesi,\nIII. Sasanilerle yapılan mücadeleleri anlatması\nözelliklerinden hangilerini taşımaktadır?",
+    "soru": "Orhun Abideleri;",
+        "maddeler": [
+      "I. Türk adının geçtiği ilk Türkçe metin olması,",
+      "II. Hükümdarın halka karşı sorumluluklarını belirtmesi,",
+      "III. Sasanilerle yapılan mücadeleleri anlatması\nözelliklerinden hangilerini taşımaktadır?",
+          ],   
     "secenekler": {
       "A": "Yalnız I",
       "B": "Yalnız II",
@@ -5716,6 +5721,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
