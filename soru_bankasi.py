@@ -22,23 +22,40 @@ soru_bankasi = {
 
     "📜 Tarih": {
     "1) İslamiyet Öncesi Türk Tarihi": [
-    {
+  {
+    "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
+    "maddeler": [
+      "I. Türk siyasi birliğini sağlamıştır.",
+      "II. Askeri alanda modern bir teşkilatlanma kurmuştur.",
+      "III. Çin medeniyetini tamamen ortadan kaldırmıştır. Yargılarından hangilerine ulaşılabilir?"
+    ],          
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    }, 
+    "dogru_cevap": "C",
+    "cozum": "Mete Han, Türk boylarını birleştirerek siyasi birliği sağlamış ve onlu sistemi kurarak orduyu modernize etmiştir. Ancak Çin'i ortadan kaldırmak gibi bir amacı olmamış, onu vergiye bağlamıştır."
+  },
+  {
     "soru": "Uygurlarda görülen;",
-       "maddeler": [   
-    "I. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,",
-    "II. Kağıt ve matbaanın kullanılması,",
-    "III. Sulama kanallarının yapılması\ngelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?",
-      },
+    "maddeler": [   
+      "I. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,",
+      "II. Kağıt ve matbaanın kullanılması,",
+      "III. Sulama kanallarının yapılması. Gelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?"
+    ],
     "secenekler": {
       "A": "Yalnız I",
       "B": "Yalnız III",
       "C": "I ve II",
       "D": "II ve III",
       "E": "I, II ve III"
-         ], 
+    }, 
     "dogru_cevap": "E",
     "cozum": "Fresk ve minyatür için tapınak/saray duvarı gerekir. Sulama kanalları tarım için, kağıt ve matbaa ise gelişmiş bir kültür ve kütüphane için gereklidir. Bunların üçü de doğrudan yerleşik hayatın kanıtıdır."
-  },   
+  },
         {
             "soru": "İslamiyetten önceki Türk devletlerinde, hatunun kurultay toplantılarına katılması, kağanla birlikte elçileri kabul etmesi ve kendine ait buyruklarının bulunması aşağıdakilerden hangisinin bir göstergesidir?",
             "secenekler": {
@@ -5714,6 +5731,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
