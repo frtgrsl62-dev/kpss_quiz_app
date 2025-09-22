@@ -22,6 +22,23 @@ soru_bankasi = {
 
     "📜 Tarih": {
     "1) İslamiyet Öncesi Türk Tarihi": [
+    {
+    "soru": "Uygurlarda görülen;",
+       "maddeler": [   
+    "I. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,",
+    "II. Kağıt ve matbaanın kullanılması,",
+    "III. Sulama kanallarının yapılması\ngelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?",
+      },
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+         ], 
+    "dogru_cevap": "E",
+    "cozum": "Fresk ve minyatür için tapınak/saray duvarı gerekir. Sulama kanalları tarım için, kağıt ve matbaa ise gelişmiş bir kültür ve kütüphane için gereklidir. Bunların üçü de doğrudan yerleşik hayatın kanıtıdır."
+  },   
         {
             "soru": "İslamiyetten önceki Türk devletlerinde, hatunun kurultay toplantılarına katılması, kağanla birlikte elçileri kabul etmesi ve kendine ait buyruklarının bulunması aşağıdakilerden hangisinin bir göstergesidir?",
             "secenekler": {
@@ -5697,6 +5714,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
