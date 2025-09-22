@@ -5342,7 +5342,6 @@ soru_bankasi = {
     "dogru_cevap": "C",
     "cozum": "Analiz: Mudanya sonrası Lozan Barış Konferansı toplanmıştır.\n\nDoğru Cevap: C) Lozan Konferansı\n\nKoçunun Yorumu: Ateşkes → barış görüşmeleri sıralamasını unutma."
   }
-
     ],
     "12) Atatürk Dönemi İç ve Dış Politika": [],
     "13) Çağdaş Türk ve Dünya Tarihi": []
@@ -5435,6 +5434,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
