@@ -388,7 +388,7 @@ def soru_goster_page():
         return
 
     
-  # ===== Soruyu Göster =====
+# ===== Soruyu Göster =====
 soru = secilen_test[index]
 
 st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
@@ -403,6 +403,24 @@ if "maddeler" in soru and isinstance(soru["maddeler"], list):
 # ===== Seçenekleri hazırla =====
 secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
 cevap_key = f"cevap_{index}"
+
+# ===== Radyo butonu =====
+if cevap_key in st.session_state:
+    secim = st.radio(
+        label="",
+        options=secenekler,
+        index=[s.split(")")[0] for s in secenekler].index(st.session_state[cevap_key]),
+        key=f"soru_radio_{index}"
+    )
+else:
+    secim = st.radio(
+        label="",
+        options=secenekler + [None],
+        index=len(secenekler),
+        format_func=lambda x: "" if x is None else x,
+        key=f"soru_radio_{index}"
+    )
+
 
 
     # Radyo butonu
@@ -586,6 +604,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
