@@ -5614,7 +5614,13 @@ soru_bankasi = {
 "🌍 Coğrafya": {
     "1) Türkiye'nin Coğrafi Konumu": [
     {
-    "soru": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe;\nI. Gece-gündüz süre farkının artması\nII. Deniz suyu sıcaklığının azalması\nIII. Tarım ürünlerinin olgunlaşma süresinin uzaması\nIV. Yerel saat farkının artması",
+    "soru": "Türkiye'nin güneyinden kuzeyine doğru gidildikçe;",
+    "maddeler": [
+        "I. Gece-gündüz süre farkının artması",
+        "II. Deniz suyu sıcaklığının azalması",
+        "III. Tarım ürünlerinin olgunlaşma süresinin uzaması",
+        "IV. Yerel saat farkının artması"
+    ],
     "secenekler": {
         "A": "I ve II",
         "B": "I ve IV",
@@ -5710,6 +5716,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
