@@ -392,6 +392,12 @@ def soru_goster_page():
     st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
     st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
     st.markdown(f"{soru['soru']}")
+
+    # Eğer maddeler varsa alt alta yazdır
+if "maddeler" in soru:
+    for madde in soru["maddeler"]:
+        st.markdown(madde)
+        
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
@@ -576,6 +582,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
