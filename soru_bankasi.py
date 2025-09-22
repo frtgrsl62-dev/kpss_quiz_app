@@ -5053,7 +5053,297 @@ soru_bankasi = {
   }
 
     ],
-    "11) Kurtuluş Savaşı Muharebeler Dönemi": [],
+    "11) Kurtuluş Savaşı Muharebeler Dönemi": [
+     {
+    "soru": "TBMM Hükûmeti'nin uluslararası alanda imzaladığı ilk antlaşma olan ve kazandığı ilk askeri ve siyasi zafer olarak kabul edilen antlaşma aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Moskova Antlaşması",
+      "B": "Gümrü Antlaşması",
+      "C": "Ankara Antlaşması",
+      "D": "Kars Antlaşması",
+      "E": "Mudanya Ateşkes Antlaşması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Doğu Cephesi'nde Kâzım Karabekir komutasındaki ordunun Ermenilere karşı kazandığı zafer sonrası imzalanan Gümrü Antlaşması, TBMM'nin ilk siyasi ve askeri başarısıdır.\n\nDoğru Cevap: B) Gümrü Antlaşması\n\nKoçunun Yorumu: TBMM'nin 'ilk'leri ÖSYM'nin favori konusudur."
+  },
+  {
+    "soru": "Mustafa Kemal Paşa'nın, İsmet Paşa'ya gönderdiği telgrafta 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözleriyle övdüğü savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "I. İnönü Muharebesi",
+      "B": "II. İnönü Muharebesi",
+      "C": "Sakarya Meydan Muharebesi",
+      "D": "Kütahya-Eskişehir Muharebeleri",
+      "E": "Büyük Taarruz"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Bu söz, II. İnönü Muharebesi sonrası söylenmiştir. Halk ve ordu için büyük moral kaynağıdır.\n\nDoğru Cevap: B) II. İnönü Muharebesi\n\nKoçunun Yorumu: Liderlerin ünlü sözleri genellikle direkt soru olarak gelir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, I. İnönü Muharebesi'nin kazanılmasının uluslararası sonuçlarından biri değildir?",
+    "secenekler": {
+      "A": "Londra Konferansı'nın toplanması",
+      "B": "Afganistan ile Dostluk Antlaşması'nın imzalanması",
+      "C": "Sovyet Rusya ile Moskova Antlaşması'nın imzalanması",
+      "D": "İstiklal Marşı'nın kabul edilmesi",
+      "E": "İtilaf Devletleri'nin TBMM'yi hukuken tanıması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: İstiklal Marşı'nın kabulü iç politika sonucudur, diğerleri dış politika sonuçlarıdır.\n\nDoğru Cevap: D) İstiklal Marşı'nın kabul edilmesi\n\nKoçunun Yorumu: İç ve dış sonuç ayrımı ÖSYM'nin sevdiği soru tarzıdır."
+  },
+  {
+    "soru": "Kütahya-Eskişehir Muharebeleri'ndeki yenilgi sonrası Meclis'te yaşanan tartışmalar üzerine, Mustafa Kemal Paşa'ya üç ay süreyle TBMM'nin tüm yetkilerinin verildiği kanun aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Teşkilat-ı Esasiye Kanunu",
+      "B": "Hıyanet-i Vataniye Kanunu",
+      "C": "Başkomutanlık Kanunu",
+      "D": "Takrir-i Sükûn Kanunu",
+      "E": "Tekâlif-i Milliye Emirleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: TBMM, olağanüstü yetkileri Mustafa Kemal'e devretmiştir. Bu kanun Başkomutanlık Kanunu’dur.\n\nDoğru Cevap: C) Başkomutanlık Kanunu\n\nKoçunun Yorumu: Başkomutanlık Kanunu → Tekâlif-i Milliye Emirleri zincirini unutma."
+  },
+  {
+    "soru": "Mustafa Kemal Paşa'ya 'Gazi' unvanı ve 'Mareşal' rütbesinin verildiği, Türk ordusunun 1683'ten beri süregelen geri çekilişini sona erdiren ve 'Subaylar Savaşı' olarak da bilinen savaş hangisidir?",
+    "secenekler": {
+      "A": "I. İnönü Muharebesi",
+      "B": "II. İnönü Muharebesi",
+      "C": "Kütahya-Eskişehir Muharebeleri",
+      "D": "Sakarya Meydan Muharebesi",
+      "E": "Başkomutanlık Meydan Muharebesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Sakarya Meydan Muharebesi Türk ordusunun son savunma savaşıdır. Sonucunda Mustafa Kemal'e Gazi ve Mareşal unvanı verilmiştir.\n\nDoğru Cevap: D) Sakarya Meydan Muharebesi\n\nKoçunun Yorumu: Sakarya'nın kimliği: Son savunma savaşı + Gazi/Mareşal unvanı."
+  },
+  {
+    "soru": "Fransa'nın, TBMM Hükûmeti'ni ve Misakımillî'yi tanıyan ilk İtilaf Devleti olması aşağıdaki gelişmelerden hangisinin sonucundadır?",
+    "secenekler": {
+      "A": "I. İnönü Zaferi",
+      "B": "Moskova Antlaşması",
+      "C": "Sakarya Zaferi sonrası imzalanan Ankara Antlaşması",
+      "D": "Büyük Taarruz'un kazanılması",
+      "E": "Gümrü Antlaşması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Sakarya Zaferi sonrası imzalanan Ankara Antlaşması ile Fransa TBMM'yi tanımıştır.\n\nDoğru Cevap: C) Ankara Antlaşması\n\nKoçunun Yorumu: Askeri zafer = diplomatik kazanç. Sakarya'nın en önemli dış sonucu budur."
+  },
+  {
+    "soru": "Kurtuluş Savaşı'nda Maraş, Urfa ve Antep'te Fransızlara karşı mücadelenin, düzenli ordu yerine Kuvayımilliye tarafından yürütülmesi bu cepheye hangi özelliği kazandırmıştır?",
+    "secenekler": {
+      "A": "TBMM'nin açtığı ilk cephe olması",
+      "B": "En uzun süren cephe olması",
+      "C": "Direnişin halkın kendi imkânlarıyla yapıldığı bir halk savaşı olması",
+      "D": "En çok subay kaybının yaşandığı cephe olması",
+      "E": "Düşmanın ilk kez denizden çıkarıldığı cephe olması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Güney Cephesi, Kuvayımilliye karakteriyle halk savaşı özelliği taşır.\n\nDoğru Cevap: C) Halk savaşı olması\n\nKoçunun Yorumu: Doğu ve Batı düzenli ordu, Güney = Kuvayımilliye farkını bil."
+  },
+  {
+    "soru": "Mudanya Ateşkes Antlaşması'nın aşağıdaki maddelerinden hangisi Osmanlı Devleti'nin hukuken sona erdiğinin göstergesidir?",
+    "secenekler": {
+      "A": "Türk ve Yunan kuvvetleri arasındaki savaşın sona ermesi",
+      "B": "İtilaf Devletleri'nin İstanbul'da kalması",
+      "C": "İstanbul ve Boğazlar yönetiminin TBMM Hükûmeti'ne bırakılması",
+      "D": "Doğu Trakya'nın boşaltılması",
+      "E": "TBMM'nin Doğu Trakya'da 8000 jandarma bulundurması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Başkent İstanbul'un yönetiminin TBMM'ye geçmesi Osmanlı'nın hukuken bittiğini gösterir.\n\nDoğru Cevap: C) İstanbul ve Boğazlar yönetimi\n\nKoçunun Yorumu: Mudanya = Osmanlı'nın hukuken sonu."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Kütahya-Eskişehir Muharebeleri'nin sonuçlarından biri değildir?",
+    "secenekler": {
+      "A": "Türk ordusunun Sakarya Nehri'nin doğusuna çekilmesi",
+      "B": "Meclis'in Kayseri'ye taşınmasının gündeme gelmesi",
+      "C": "Mustafa Kemal'e Başkomutanlık yetkisinin verilmesi",
+      "D": "İtalya'nın Anadolu'dan çekilmeye başlaması",
+      "E": "TBMM'ye olan güvenin sarsılması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: İtalya II. İnönü sonrası çekilmeye başlamıştır, Kütahya-Eskişehir sonrası değil.\n\nDoğru Cevap: D) İtalya'nın çekilmesi\n\nKoçunun Yorumu: Zafer ve yenilgilerin dış sonuçlarını karıştırma."
+  },
+  {
+    "soru": "Doğu Cephesi'nde Ermenilere karşı mücadele ederek Gümrü Antlaşması'nı imzalayan 15. Kolordu Komutanı kimdir?",
+    "secenekler": {
+      "A": "İsmet (İnönü) Paşa",
+      "B": "Fevzi (Çakmak) Paşa",
+      "C": "Ali Fuat (Cebesoy) Paşa",
+      "D": "Refet (Bele) Paşa",
+      "E": "Kâzım (Karabekir) Paşa"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Doğu Cephesi'nin kahramanı Kâzım Karabekir'dir.\n\nDoğru Cevap: E) Kâzım Karabekir\n\nKoçunun Yorumu: Cephe – komutan eşleşmeleri sınavların favorisi."
+  },
+  {
+    "soru": "Moskova Antlaşması'nda 'Taraflardan birinin tanımadığı antlaşmayı diğeri de tanımayacaktır.' maddesi hangi antlaşmaya karşı ortak tavırdır?",
+    "secenekler": {
+      "A": "Mondros Ateşkes Antlaşması",
+      "B": "Sevr Antlaşması",
+      "C": "Gümrü Antlaşması",
+      "D": "Londra Konferansı kararları",
+      "E": "Wilson İlkeleri"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Moskova Antlaşması ile Sovyetler ve TBMM Sevr'i tanımadıklarını ilan ettiler.\n\nDoğru Cevap: B) Sevr Antlaşması\n\nKoçunun Yorumu: Sevr karşıtlığı iki yeni rejimi birbirine yaklaştırmıştır."
+  },
+  {
+    "soru": "Mustafa Kemal'in, ordunun ihtiyaçlarını karşılamak için yayımladığı emirler aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Hıyanet-i Vataniye Kanunu",
+      "B": "Firariler Kanunu",
+      "C": "Men-i İsrafat Kanunu",
+      "D": "Tekâlif-i Milliye Emirleri",
+      "E": "Nisab-ı Müzakere Kanunu"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Tekâlif-i Milliye Emirleri halktan malzeme toplanmasını düzenlemiştir.\n\nDoğru Cevap: D) Tekâlif-i Milliye Emirleri\n\nKoçunun Yorumu: Milli seferberliğin belgesidir."
+  },
+  {
+    "soru": "Büyük Taarruz'un başarıyla sonuçlanması doğrudan hangisine ortam hazırlamıştır?",
+    "secenekler": {
+      "A": "Saltanatın kaldırılması",
+      "B": "Lozan Barış Konferansı",
+      "C": "Ankara'nın başkent olması",
+      "D": "Cumhuriyetin ilanı",
+      "E": "Mudanya Ateşkes Antlaşması"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Büyük Taarruz sonrası Mudanya Ateşkesi imzalanmıştır.\n\nDoğru Cevap: E) Mudanya Ateşkes Antlaşması\n\nKoçunun Yorumu: Askeri zaferler hep diplomasiye kapı açar."
+  },
+  {
+    "soru": "Sakarya Zaferi'nden sonra Kafkas Cumhuriyetleri ile imzalanan ve Doğu sınırını kesinleştiren antlaşma hangisidir?",
+    "secenekler": {
+      "A": "Gümrü Antlaşması",
+      "B": "Moskova Antlaşması",
+      "C": "Ankara Antlaşması",
+      "D": "Kars Antlaşması",
+      "E": "Brest-Litovsk Antlaşması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Doğu sınırını kesinleştiren antlaşma Kars’tır.\n\nDoğru Cevap: D) Kars Antlaşması\n\nKoçunun Yorumu: Gümrü – Moskova – Kars üçlüsünü sırayla bil."
+  },
+  {
+    "soru": "Londra Konferansı'na hem İstanbul Hükûmeti'ni hem de TBMM'yi birlikte çağırmalarının amacı neydi?",
+    "secenekler": {
+      "A": "İki hükümeti barıştırmak",
+      "B": "Türk halkının temsilcisini öğrenmek",
+      "C": "Padişahın desteğini almak",
+      "D": "İki hükümet arasında ikilik çıkararak Sevr'i kabul ettirmek",
+      "E": "Yunanlılara zaman kazandırmak"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Amaç, iki hükümeti karşı karşıya getirip Sevr'i kabul ettirmekti.\n\nDoğru Cevap: D) İkilik çıkarma\n\nKoçunun Yorumu: Tevfik Paşa'nın 'Sözü TBMM heyetine bırakıyorum' sözü bu planı bozmuştur."
+  },
+  {
+    "soru": "'Hattı müdafaa yoktur, sathı müdafaa vardır. O satıh, bütün vatandır.' emri hangi savaş sırasında verilmiştir?",
+    "secenekler": {
+      "A": "II. İnönü Muharebesi",
+      "B": "Kütahya-Eskişehir Muharebeleri",
+      "C": "Sakarya Meydan Muharebesi",
+      "D": "Büyük Taarruz",
+      "E": "Çanakkale Savaşları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Bu emir Sakarya Meydan Muharebesi sırasında verilmiştir.\n\nDoğru Cevap: C) Sakarya Meydan Muharebesi\n\nKoçunun Yorumu: Stratejik savunmadan topyekûn savunmaya geçişin simgesidir."
+  },
+  {
+    "soru": "TBMM'yi tanıyan ilk Müslüman devlet aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sovyet Rusya",
+      "B": "Mısır",
+      "C": "Azerbaycan",
+      "D": "Pakistan",
+      "E": "Afganistan"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Afganistan, TBMM'yi tanıyan ilk Müslüman devlettir.\n\nDoğru Cevap: E) Afganistan\n\nKoçunun Yorumu: Afganistan → ilk Müslüman tanıyan devlet bilgisi kesin sorulardan biridir."
+  },
+  {
+    "soru": "Mudanya Ateşkes Antlaşması ile savaşılmadan kurtarılan yerlerden biri değildir?",
+    "secenekler": {
+      "A": "İstanbul",
+      "B": "Boğazlar",
+      "C": "Doğu Trakya",
+      "D": "İzmir",
+      "E": "Edirne"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: İzmir, savaşarak Büyük Taarruz ile kurtarılmıştır.\n\nDoğru Cevap: D) İzmir\n\nKoçunun Yorumu: İzmir = savaşarak, İstanbul/Edirne/Boğazlar = diplomasiyle."
+  },
+  {
+    "soru": "TBMM'nin ilk anayasası olan 1921 Anayasası hangi savaş sonrası kabul edilmiştir?",
+    "secenekler": {
+      "A": "Sakarya Meydan Muharebesi",
+      "B": "II. İnönü Muharebesi",
+      "C": "Büyük Taarruz",
+      "D": "I. İnönü Muharebesi",
+      "E": "Kütahya-Eskişehir Muharebeleri"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: I. İnönü Zaferi sonrası kabul edilmiştir.\n\nDoğru Cevap: D) I. İnönü Muharebesi\n\nKoçunun Yorumu: Zafer sonrası siyasi düzenlemeler kuralını unutma."
+  },
+  {
+    "soru": "İtilaf Devletleri'nin 'Yunan yenilirse, barış görüşmeleri Türklerle yapılacaktır.' kararını almalarına sebep olan gelişme hangisidir?",
+    "secenekler": {
+      "A": "Kütahya-Eskişehir Muharebeleri",
+      "B": "II. İnönü Muharebesi",
+      "C": "Sakarya Meydan Muharebesi",
+      "D": "Büyük Taarruz",
+      "E": "Mudanya Ateşkes Antlaşması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Sakarya Zaferi sonrası İtilaf Devletleri Yunan'a güveni kaybetmiştir.\n\nDoğru Cevap: C) Sakarya Meydan Muharebesi\n\nKoçunun Yorumu: Sakarya'nın diplomatik sonucu çok önemli."
+  },
+  {
+    "soru": "Büyük Taarruz için taarruz planını hazırlayan ve ordunun başında uygulayan kişi kimdir?",
+    "secenekler": {
+      "A": "Mustafa Kemal Paşa",
+      "B": "İsmet (İnönü) Paşa",
+      "C": "Fevzi (Çakmak) Paşa",
+      "D": "Kâzım (Karabekir) Paşa",
+      "E": "Refet (Bele) Paşa"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: Taarruz planını hazırlayan ve uygulayan Mustafa Kemal Paşa’dır.\n\nDoğru Cevap: A) Mustafa Kemal Paşa\n\nKoçunun Yorumu: Askeri deha sorusu → direkt Mustafa Kemal."
+  },
+  {
+    "soru": "Gümrü Antlaşması ile kazanılan yerler daha sonra hangi antlaşma ile kesinleşmiştir?",
+    "secenekler": {
+      "A": "Moskova Antlaşması",
+      "B": "Kars Antlaşması",
+      "C": "Lozan Antlaşması",
+      "D": "Ankara Antlaşması",
+      "E": "Mudanya Ateşkes Antlaşması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: Gümrü ile alınan yerler Moskova ile kesinleşmiş, Kars ile netleştirilmiştir.\n\nDoğru Cevap: A) Moskova Antlaşması\n\nKoçunun Yorumu: Antlaşmaların birbirini nasıl tamamladığını bil."
+  },
+  {
+    "soru": "Yunan ordusunun Anadolu'daki ilerleyişi hangi muharebe sonrasında tamamen durmuştur?",
+    "secenekler": {
+      "A": "I. İnönü Muharebesi",
+      "B": "II. İnönü Muharebesi",
+      "C": "Sakarya Meydan Muharebesi",
+      "D": "Kütahya-Eskişehir Muharebeleri",
+      "E": "Afyon-Eskişehir Muharebeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Sakarya Meydan Muharebesi sonrası Yunan ilerleyişi durmuştur.\n\nDoğru Cevap: C) Sakarya Meydan Muharebesi\n\nKoçunun Yorumu: Sakarya → 'Son savunma savaşı' + 'Yunan ilerleyişi bitti'."
+  },
+  {
+    "soru": "Mudanya Ateşkes Antlaşması sonrasında toplanan barış görüşmeleri aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sevr Konferansı",
+      "B": "Moskova Konferansı",
+      "C": "Lozan Konferansı",
+      "D": "Londra Konferansı",
+      "E": "Ankara Konferansı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Mudanya sonrası Lozan Barış Konferansı toplanmıştır.\n\nDoğru Cevap: C) Lozan Konferansı\n\nKoçunun Yorumu: Ateşkes → barış görüşmeleri sıralamasını unutma."
+  }
+
+    ],
     "12) Atatürk Dönemi İç ve Dış Politika": [],
     "13) Çağdaş Türk ve Dünya Tarihi": []
 
@@ -5145,5 +5435,6 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
