@@ -184,7 +184,12 @@ soru_bankasi = {
     "cozum": "Macarlar (Magyarlar), Arpad liderliğinde bugünkü Macaristan'a yerleşmiş ve Hristiyanlığı benimsemelerine rağmen varlıklarını bir devlet olarak sürdürmüşlerdir."
   },
   {
-    "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;\nI. Türk siyasi birliğini sağlamıştır.\nII. Askeri alanda modern bir teşkilatlanma kurmuştur.\nIII. Çin medeniyetini tamamen ortadan kaldırmıştır.\nyargılarından hangilerine ulaşılabilir?",
+    "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
+            "maddeler": [
+      "I. Türk siyasi birliğini sağlamıştır.",
+    "II. Askeri alanda modern bir teşkilatlanma kurmuştur.",
+    "III. Çin medeniyetini tamamen ortadan kaldırmıştır.\nyargılarından hangilerine ulaşılabilir?",
+          },          
     "secenekler": {
       "A": "Yalnız I",
       "B": "Yalnız II",
@@ -232,7 +237,12 @@ soru_bankasi = {
     "cozum": "Hazarlarda yönetici sınıf Museviliği benimsemiş olsa da halk arasında Gök Tanrı inancı, Hristiyanlık ve Müslümanlık da yaygındı. Gök Tanrı inancı tamamen terk edilmemiştir."
   },
   {
-    "soru": "Uygurlarda görülen;\nI. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,\nII. Kağıt ve matbaanın kullanılması,\nIII. Sulama kanallarının yapılması\ngelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?",
+    "soru": "Uygurlarda görülen;",
+       "maddeler": [   
+    "I. Fresk (duvar resmi) ve minyatür sanatının gelişmesi,",
+    "II. Kağıt ve matbaanın kullanılması,",
+    "III. Sulama kanallarının yapılması\ngelişmelerinden hangileri, yerleşik hayata geçildiğinin doğrudan kanıtları arasında yer alır?",
+      },
     "secenekler": {
       "A": "Yalnız I",
       "B": "Yalnız III",
@@ -5721,6 +5731,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
