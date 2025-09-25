@@ -400,7 +400,8 @@ def soru_goster_page():
     # Eğer maddeler varsa liste halinde göster
     if "maddeler" in soru:
         for madde in soru["maddeler"]:
-            st.markdown(f"- {madde}")
+            # st.markdown(f"- {madde}")
+             st.markdown(f"<div style='margin:2px 0'>{madde}</div>", unsafe_allow_html=True)
 
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
@@ -465,6 +466,40 @@ def soru_goster_page():
 
 
 
+# ===============================
+# Genel Rapor Sayfası
+# ===============================
+def genel_rapor_page():
+    st.title("📊 Genel Rapor")
+
+    if "sonuclar" not in st.session_state or not st.session_state["sonuclar"]:
+        st.info("Henüz çözülmüş test bulunmamaktadır.")
+        return
+
+    sonuclar = st.session_state["sonuclar"]
+
+    # Ders - Konu bazlı tablo
+    for ders, konular in sonuclar.items():
+        st.subheader(f"📘 {ders}")
+        for konu, veriler in konular.items():
+            if not isinstance(veriler, dict):
+                continue
+
+            dogru = veriler.get("dogru", 0)
+            yanlis = veriler.get("yanlis", 0)
+            toplam = dogru + yanlis
+
+            st.markdown(f"**📌 {konu}**")
+            st.markdown(f"- ✅ Doğru: {dogru}")
+            st.markdown(f"- ❌ Yanlış: {yanlis}")
+            st.markdown(f"- 📊 Başarı Oranı: { (dogru / toplam * 100):.1f}%") if toplam > 0 else st.markdown("- 📊 Başarı Oranı: -")
+
+            # Alt testleri (test_1, test_2...) listele
+            testler = {k:v for k,v in veriler.items() if k.startswith("test_")}
+            if testler:
+                with st.expander("📑 Çözülen Testler"):
+                    for t_no, t_sonuc in testler.items():
+                        st.write(f"➡️ {t_no} | ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
 
 
 # ===============================
@@ -511,6 +546,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
