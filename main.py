@@ -470,17 +470,18 @@ def soru_goster_page():
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
-    # Sol üste sabit "Ana Menüye Dön" butonu (turuncu, yuvarlak köşeli)
+    # Sol üste sabit "Ana Menüye Dön" butonu
     st.markdown(
         """
         <style>
-        .top-left-btn {
+        div[data-testid="stSidebar"] {visibility: visible;}
+        .top-left {
             position: fixed;
             top: 15px;
             left: 15px;
             z-index: 9999;
         }
-        .top-left-btn button {
+        .stButton>button {
             background-color: orange;
             color: white;
             border: none;
@@ -488,25 +489,24 @@ def genel_rapor_page():
             padding: 8px 14px;
             font-size: 14px;
             font-weight: bold;
-            cursor: pointer;
         }
-        .top-left-btn button:hover {
+        .stButton>button:hover {
             background-color: darkorange;
+            color: white;
         }
         </style>
-        <div class="top-left-btn">
-            <form action="#" method="post">
-                <button name="back_home">🏠 Ana Menüye Dön</button>
-            </form>
-        </div>
         """,
         unsafe_allow_html=True
     )
 
-    # Buton işlevi
-    if "back_home" in st.session_state:
-        st.session_state["page"] = "ders"
-        st.rerun()
+    # Konteyner ile sabitle
+    top_left = st.container()
+    with top_left:
+        col1, col2 = st.columns([0.2, 0.8])
+        with col1:
+            if st.button("🏠 Ana Menüye Dön"):
+                st.session_state["page"] = "ders"
+                st.rerun()
 
     st.header("📊 Genel Rapor")
     sonuclar = st.session_state.get("sonuclar", {})
@@ -520,7 +520,6 @@ def genel_rapor_page():
                     if not isinstance(sonuc, dict):
                         continue
 
-                    # test_* alt testlerini hariç tutarak sadece toplamları oku
                     dogru = sonuc.get("dogru", 0)
                     yanlis = sonuc.get("yanlis", 0)
                     toplam = dogru + yanlis
@@ -528,7 +527,6 @@ def genel_rapor_page():
 
                     st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
 
-                    # Alt testleri ayrı göster
                     testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
                     if testler:
                         with st.expander(f"📑 {konu} Test Detayları"):
@@ -584,6 +582,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
