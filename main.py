@@ -470,10 +470,44 @@ def soru_goster_page():
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
-      if st.button("🔙 Geri"):
-        st.session_state["page"] = "konu"
+    # Sol üste sabit "Ana Menüye Dön" butonu (turuncu, yuvarlak köşeli)
+    st.markdown(
+        """
+        <style>
+        .top-left-btn {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            z-index: 9999;
+        }
+        .top-left-btn button {
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 8px 14px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .top-left-btn button:hover {
+            background-color: darkorange;
+        }
+        </style>
+        <div class="top-left-btn">
+            <form action="#" method="post">
+                <button name="back_home">🏠 Ana Menüye Dön</button>
+            </form>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Buton işlevi
+    if "back_home" in st.session_state:
+        st.session_state["page"] = "ders"
         st.rerun()
-        
+
     st.header("📊 Genel Rapor")
     sonuclar = st.session_state.get("sonuclar", {})
 
@@ -500,11 +534,6 @@ def genel_rapor_page():
                         with st.expander(f"📑 {konu} Test Detayları"):
                             for test_no, t_sonuc in testler.items():
                                 st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
-       #  st.markdown("---")
-    if st.button("🏠 Ana Menüye Dön"):
-        st.session_state["page"] = "ders"
-        st.rerun()
- 
 
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -555,6 +584,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
