@@ -470,7 +470,9 @@ def soru_goster_page():
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
-
+      if st.button("🔙 Geri"):
+        st.session_state["page"] = "konu"
+        st.rerun()
         
     st.header("📊 Genel Rapor")
     sonuclar = st.session_state.get("sonuclar", {})
@@ -553,6 +555,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
