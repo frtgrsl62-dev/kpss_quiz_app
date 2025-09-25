@@ -324,9 +324,16 @@ def test_secim_page(secilen_ders, secilen_konu):
 # ===============================
 def soru_goster_page():
     current = st.session_state["current_test"]
-    secilen_test = current["test"]
+    secilen_test = current.get("test", [])
+    index = current.get("index", 0)
 
-    index = current["index"]
+    if not secilen_test or index < 0 or index > len(secilen_test):
+        st.error("❌ Geçersiz test verisi!")
+        if st.button("🔙 Geri Dön"):
+            st.session_state["page"] = "test"
+            st.rerun()
+        return
+
     secilen_ders = current["ders"]
     secilen_konu = current["konu"]
     test_no = current["test_no"]
@@ -363,40 +370,38 @@ def soru_goster_page():
                 else:
                     yanlis += 1
 
-        # ===== ÖNEMLİ DEĞİŞİKLİK: Önceki test değerlerini çıkar =====
+        # Önceki test sonuçlarını sıfırla
         onceki_test = sonuclar[secilen_ders][secilen_konu].get(f"test_{test_no}")
         if onceki_test:
             sonuclar[secilen_ders][secilen_konu]["dogru"] -= onceki_test.get("dogru", 0)
             sonuclar[secilen_ders][secilen_konu]["yanlis"] -= onceki_test.get("yanlis", 0)
 
-        # Yeni test sonuçlarını ekle
+        # Yeni sonuçları ekle
         sonuclar[secilen_ders][secilen_konu]["dogru"] += dogru
         sonuclar[secilen_ders][secilen_konu]["yanlis"] += yanlis
         sonuclar[secilen_ders][secilen_konu][f"test_{test_no}"] = {"dogru": dogru, "yanlis": yanlis}
 
         st.session_state["sonuclar"] = sonuclar
-
-        # Kullanıcı dosyasına kaydet
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
-        # Alt kısımda sadece Testi Bitir butonu
         if st.button("Testi Bitir 🏁"):
             st.session_state["page"] = "test"
             st.rerun()
         return
 
-# ===== Soruyu Göster =====
-soru = secilen_test[index]
-st.markdown(f"<h2 style='color: ; font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
-st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
-st.markdown(f"{soru['soru']}")
+    # ===== Soruyu Göster =====
+    soru = secilen_test[index]
+    st.markdown(f"<h2 style='font-size:20px;'>{secilen_ders} - {secilen_konu}</h2>", unsafe_allow_html=True)
+    st.markdown(f"**Soru {index+1}/{len(secilen_test)}:**")   
+    st.markdown(f"{soru['soru']}")
 
-# Eğer maddeler varsa alt alta göster
-if "maddeler" in soru and isinstance(soru["maddeler"], list):
-    for madde in soru["maddeler"]:
-        st.markdown(f"- {madde}")
+    # Eğer maddeler varsa liste halinde göster
+    if "maddeler" in soru:
+        for madde in soru["maddeler"]:
+            st.markdown(f"- {madde}")
+
     secenekler = [f"{harf}) {metin}" for harf, metin in soru["secenekler"].items()]
     cevap_key = f"cevap_{index}"
 
@@ -462,7 +467,6 @@ if "maddeler" in soru and isinstance(soru["maddeler"], list):
 
 
 
-
 # ===============================
 # Router
 # ===============================
@@ -507,6 +511,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
