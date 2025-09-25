@@ -555,33 +555,21 @@ def profil_page():
         return
 
     # ===== Geri Butonu (Mor) =====
-    st.markdown(
-        """
-        <style>
-        /* Geri butonunu sayfanın sol üstüne sabitle */
-        .top-left {
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            z-index: 9999;
-        }
-        /* Geri buton rengi ve stil */
-        .geriButton>button {
-            background-color: purple;   /* Buton arka plan rengi */
-            color: white;               /* Yazı rengi */
-            border: none;               /* Kenarlık yok */
-            border-radius: 12px;        /* Yuvarlatılmış köşe */
-            padding: 8px 14px;          /* Dış boşluk: dikey, yatay */
-            font-size: 14px;            /* Yazı boyutu */
-            font-weight: bold;          /* Yazı kalın */
-        }
-        .geriButton>button:hover {
-            background-color: darkviolet;  /* Hover efekti */
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+st.markdown("""
+<div style="position:fixed; top:15px; left:15px; z-index:9999;">
+    <form action="" method="get">
+        <button style="
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 8px 14px;
+            font-size: 14px;
+            font-weight: bold;
+        ">🔙 Geri</button>
+    </form>
+</div>
+""", unsafe_allow_html=True)
 
     # container ile CSS sınıfını uygula
     top_left = st.container()
@@ -695,6 +683,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
