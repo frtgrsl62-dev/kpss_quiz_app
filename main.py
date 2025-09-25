@@ -486,16 +486,18 @@ def genel_rapor_page():
             color: white;
             border: none;
             border-radius: 12px;
-            padding: 20px 20px;
+            padding: 6px 40px;
             font-size: 14px;
             font-weight: bold;
         }
         .stButton>button:hover {
-            background-color: darkorange;
+            background-color: ;
             color: white;
         }
         </style>
         """,
+# darkorange
+        
         unsafe_allow_html=True
     )
 
@@ -582,6 +584,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
