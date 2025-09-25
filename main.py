@@ -470,34 +470,39 @@ def soru_goster_page():
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
-    # Sol üste sabit "Ana Menüye Dön" butonu
+   # ===== Butonun stilini tanımlıyoruz =====
     st.markdown(
         """
         <style>
+        /* Sidebar görünür olsun */
         div[data-testid="stSidebar"] {visibility: visible;}
+        
+        /* Butonu sol üst köşeye sabitle */
         .top-left {
             position: fixed;
-            top: 15px;
-            left: 15px;
-            z-index: 9999;
+            top: 15px;    /* Üstten boşluk */
+            left: 15px;   /* Soldan boşluk */
+            z-index: 9999; /* Diğer elementlerin üstünde olsun */
         }
+
+        /* Butonun temel stil ayarları */
         .stButton>button {
-            background-color: ;
-            color: white;
-            border: none;
-            border-radius: 12px;
-            padding: 6px 4px;
-            font-size: 14px;
-            font-weight: bold;
+            background-color: transparent;   /* Arka plan rengi */
+            color: white;               /* Yazı rengi */
+            border: none;               /* Kenarlık yok */
+            border-radius: 12px;        /* Köşelerin yuvarlanması */
+            padding: 8px 14px;          /* İç boşluk (üst/alt 8px, sağ/sol 14px) */
+            font-size: 14px;            /* Yazı boyutu */
+            font-weight: bold;          /* Yazıyı kalın yap */
         }
+
+        /* Hover efekti */
         .stButton>button:hover {
-            background-color: darkorange;
-            color: white;
+            background-color: darkorange; /* Üzerine gelince arka plan rengi */
+            color: white;                 /* Üzerine gelince yazı rengi */
         }
         </style>
         """,
-# darkorange
-        
         unsafe_allow_html=True
     )
 
@@ -584,6 +589,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
