@@ -477,8 +477,8 @@ def genel_rapor_page():
         div[data-testid="stSidebar"] {visibility: visible;}
         .top-left {
             position: fixed;
-            top: 10px;
-            left: 40px;
+            top: 15px;
+            left: 15px;
             z-index: 9999;
         }
         .stButton>button {
@@ -487,7 +487,7 @@ def genel_rapor_page():
             border: none;
             border-radius: 12px;
             padding: 6px 14px;
-            font-size: 14px;
+            font-size: 30px;
             font-weight: bold;
         }
         .stButton>button:hover {
@@ -584,6 +584,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
