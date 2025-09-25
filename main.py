@@ -491,7 +491,7 @@ def genel_rapor_page():
             color: white;               /* Yazı rengi */
             border: none;               /* Kenarlık yok */
             border-radius: 12px;        /* Köşelerin yuvarlanması */
-            padding: 8px 50px;          /* İç boşluk (üst/alt 8px, sağ/sol 14px) */
+            padding: 8px 2px;          /* İç boşluk (üst/alt 8px, sağ/sol 14px) */
             font-size: 14px;            /* Yazı boyutu */
             font-weight: bold;          /* Yazıyı kalın yap */
         }
@@ -589,6 +589,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
