@@ -470,7 +470,7 @@ def soru_goster_page():
 # Genel Rapor
 # ===============================
 def genel_rapor_page():
-
+        st.markdown("---")
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
@@ -501,8 +501,11 @@ def genel_rapor_page():
                         with st.expander(f"📑 {konu} Test Detayları"):
                             for test_no, t_sonuc in testler.items():
                                 st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
-     st.markdown("---")
+
  
+
+    st.markdown("---")
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
 
@@ -550,6 +553,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
