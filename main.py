@@ -477,32 +477,31 @@ def genel_rapor_page():
         st.info("Henüz herhangi bir test çözülmedi.")
     else:
         for ders, konular in sonuclar.items():
-            st.subheader(f"📘 {ders}")
-            for konu, sonuc in konular.items():
-                if not isinstance(sonuc, dict):
-                    continue
+            with st.expander(f"📘 {ders}"):
+                for konu, sonuc in konular.items():
+                    if not isinstance(sonuc, dict):
+                        continue
 
-                # test_* alt testlerini hariç tutarak sadece toplamları oku
-                dogru = sonuc.get("dogru", 0)
-                yanlis = sonuc.get("yanlis", 0)
-                toplam = dogru + yanlis
-                oran = f"{dogru / toplam * 100:.0f}%" if toplam > 0 else "0%"
+                    # test_* alt testlerini hariç tutarak sadece toplamları oku
+                    dogru = sonuc.get("dogru", 0)
+                    yanlis = sonuc.get("yanlis", 0)
+                    toplam = dogru + yanlis
+                    oran = f"{dogru / toplam * 100:.0f}%" if toplam > 0 else "0%"
 
-                st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
+                    st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
 
-                # Alt testleri ayrı göster
-                testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
-                if testler:
-                    with st.expander(f"📑 {konu} Test Detayları"):
-                        for test_no, t_sonuc in testler.items():
-                            st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
+                    # Alt testleri ayrı göster
+                    testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
+                    if testler:
+                        with st.expander(f"📑 {konu} Test Detayları"):
+                            for test_no, t_sonuc in testler.items():
+                                st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
 
     st.markdown("---")
 
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
-
 
 
 
@@ -550,6 +549,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
