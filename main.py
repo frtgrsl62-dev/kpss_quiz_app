@@ -498,7 +498,7 @@ def genel_rapor_page():
 
         /* Hover efekti */
         .stButton>button:hover {
-            background-color: darkorange; /* Üzerine gelince arka plan rengi */
+            background-color: ; /* Üzerine gelince arka plan rengi  darkorange  */
             color: white;                 /* Üzerine gelince yazı rengi */
         }
         </style>
@@ -635,6 +635,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
