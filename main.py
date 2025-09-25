@@ -543,6 +543,7 @@ def genel_rapor_page():
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
+
 # ===============================
 # Profil Sayfası
 # ===============================
@@ -554,31 +555,10 @@ def profil_page():
         st.rerun()
         return
 
-    # ===== Geri Butonu (Mor) =====
-st.markdown("""
-<div style="position:fixed; top:15px; left:15px; z-index:9999;">
-    <form action="" method="get">
-        <button style="
-            background-color: purple;
-            color: white;
-            border: none;
-            border-radius: 12px;
-            padding: 8px 14px;
-            font-size: 14px;
-            font-weight: bold;
-        ">🔙 Geri</button>
-    </form>
-</div>
-""", unsafe_allow_html=True)
-
-    # container ile CSS sınıfını uygula
-    top_left = st.container()
-    with top_left:
-        col1, col2 = st.columns([0.2, 0.8])
-        with col1:
-            if st.button("🔙 Geri", key="geri_btn"):
-                st.session_state["page"] = "ders"
-                st.rerun()
+    # Sol üst geri butonu
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "ders"
+        st.rerun()
 
     st.markdown("<h2>👤 Kullanıcı Bilgileri</h2>", unsafe_allow_html=True)
 
@@ -591,52 +571,27 @@ st.markdown("""
     st.write(f"**Kullanıcı Adı:** {k_adi}")
     st.write(f"**Şifre:** {'*' * len(sifre)}")
 
-    # ===== Şifre Güncelle Butonu (Turuncu) =====
-    st.markdown(
-        """
-        <style>
-        .sifreButton>button {
-            background-color: orange;   /* Arka plan rengi */
-            color: white;               /* Yazı rengi */
-            border: none;               /* Kenarlık yok */
-            border-radius: 12px;        /* Yuvarlatılmış köşe */
-            padding: 8px 14px;          /* Dış boşluk */
-            font-size: 14px;            /* Yazı boyutu */
-            font-weight: bold;          /* Yazı kalın */
-        }
-        .sifreButton>button:hover {
-            background-color: darkorange;  /* Hover efekti */
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
     # Şifre değiştirme formu
     with st.expander("🔑 Şifre Değiştir"):
         eski = st.text_input("Eski Şifre", type="password", key="old_pass")
         yeni = st.text_input("Yeni Şifre", type="password", key="new_pass")
         yeni2 = st.text_input("Yeni Şifre (Tekrar)", type="password", key="new_pass2")
-
-        # container ile CSS sınıfı uygula
-        with st.container():
-            if st.button("Şifreyi Güncelle", key="sifre_btn"):
-                if eski != sifre:
-                    st.error("❌ Eski şifre yanlış!")
-                elif not yeni or not yeni2:
-                    st.error("❌ Yeni şifre alanları boş olamaz!")
-                elif yeni != yeni2:
-                    st.error("❌ Yeni şifreler uyuşmuyor!")
-                else:
-                    kullanicilar[user]["sifre"] = yeni
-                    kullanicilari_kaydet()
-                    st.success("✅ Şifre başarıyla güncellendi!")
+        if st.button("Şifreyi Güncelle"):
+            if eski != sifre:
+                st.error("❌ Eski şifre yanlış!")
+            elif not yeni or not yeni2:
+                st.error("❌ Yeni şifre alanları boş olamaz!")
+            elif yeni != yeni2:
+                st.error("❌ Yeni şifreler uyuşmuyor!")
+            else:
+                kullanicilar[user]["sifre"] = yeni
+                kullanicilari_kaydet()
+                st.success("✅ Şifre başarıyla güncellendi!")
 
     st.markdown("---")
-    st.markdown(
-        "<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>",
-        unsafe_allow_html=True
-    )
+    st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
+
 
 
 # ===============================
@@ -683,6 +638,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
