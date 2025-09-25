@@ -554,11 +554,49 @@ def profil_page():
         st.rerun()
         return
 
-    # Sol üst geri butonu
-    if st.button("🔙 Geri"):
-        st.session_state["page"] = "ders"
-        st.rerun()
+    # ===== Buton stilini tanımlıyoruz =====
+    st.markdown(
+        """
+        <style>
+        /* Geri butonunu sol üst köşeye sabitle */
+        .top-left {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            z-index: 9999;
+        }
 
+        /* Butonun temel stil ayarları */
+        .stButton>button {
+            background-color: purple;   /* Buton rengi */
+            color: white;               /* Yazı rengi */
+            border: none;
+            border-radius: 12px;
+            padding: 8px 14px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Hover efekti */
+        .stButton>button:hover {
+            background-color: darkviolet;
+            color: white;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # ===== Sol üst köşeye sabit buton =====
+    top_left = st.container()
+    with top_left:
+        col1, col2 = st.columns([0.2, 0.8])
+        with col1:
+            if st.button("🔙 Geri"):
+                st.session_state["page"] = "ders"
+                st.rerun()
+
+    # ===== Kullanıcı Bilgileri =====
     st.markdown("<h2>👤 Kullanıcı Bilgileri</h2>", unsafe_allow_html=True)
 
     bilgiler = kullanicilar[user]
@@ -570,7 +608,7 @@ def profil_page():
     st.write(f"**Kullanıcı Adı:** {k_adi}")
     st.write(f"**Şifre:** {'*' * len(sifre)}")
 
-    # Şifre değiştirme formu
+    # ===== Şifre değiştirme formu =====
     with st.expander("🔑 Şifre Değiştir"):
         eski = st.text_input("Eski Şifre", type="password", key="old_pass")
         yeni = st.text_input("Yeni Şifre", type="password", key="new_pass")
@@ -589,7 +627,6 @@ def profil_page():
 
     st.markdown("---")
     st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-
 
 # ===============================
 # Router
@@ -635,6 +672,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
