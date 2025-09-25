@@ -488,7 +488,7 @@ def genel_rapor_page():
         /* Butonun temel stil ayarları */
         .stButton>button {
             background-color: transparent;   /* Arka plan rengi */
-            color: white;               /* Yazı rengi */
+            color: ;               /* Yazı rengi */
             border: none;               /* Kenarlık yok */
             border-radius: 12px;        /* Köşelerin yuvarlanması */
             padding: 2px 1px;          /* İç boşluk (üst/alt 8px, sağ/sol 14px) */
@@ -672,6 +672,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
