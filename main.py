@@ -482,11 +482,11 @@ def genel_rapor_page():
             z-index: 9999;
         }
         .stButton>button {
-            background-color: orange;
+            background-color: ;
             color: white;
             border: none;
             border-radius: 12px;
-            padding: 8px 14px;
+            padding: 8px 20px;
             font-size: 14px;
             font-weight: bold;
         }
@@ -582,6 +582,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
