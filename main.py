@@ -486,6 +486,13 @@ def genel_rapor_page():
                 oran = f"{dogru/ toplam * 100:.0f}%" if toplam > 0 else "0%"
                 st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
 
+     # Alt testleri (test_1, test_2...) listele
+            testler = {k:v for k,v in veriler.items() if k.startswith("test_")}
+            if testler:
+                with st.expander("📑 Çözülen Testler"):
+                    for t_no, t_sonuc in testler.items():
+                        st.write(f"➡️ {t_no} | ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
+
     st.markdown("---")
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
@@ -537,6 +544,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
