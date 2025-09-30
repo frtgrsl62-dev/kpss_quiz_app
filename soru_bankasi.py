@@ -5622,7 +5622,298 @@ soru_bankasi = {
     "cozum": "Mudanya Antlaşması ile Doğu Trakya, İstanbul ve Boğazlar savaşsız kazanılmıştır."
   }
     ],
-    "12) Atatürk Dönemi İç ve Dış Politika": [],
+        
+    "12) Atatürk Dönemi İç ve Dış Politika": [
+      {
+    "soru": "Türk Medeni Kanunu'nun kabulüyle kadınlara evlenme, boşanma, miras ve velayet konularında erkeklerle eşit haklar tanınması, öncelikle aşağıdaki Atatürk ilkelerinden hangisiyle ilgilidir?",
+    "secenekler": {
+      "A": "Devletçilik",
+      "B": "Cumhuriyetçilik",
+      "C": "Milliyetçilik",
+      "D": "Halkçılık",
+      "E": "İnkılapçılık"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Medeni Kanun eşitlik sağlar, bu doğrudan Halkçılıkla ilgilidir. Laiklik bağlantısı da vardır, ama 'öncelikle' Halkçılık.\n\nDoğru Cevap: D) Halkçılık\n\nKoçunun Yorumu: Medeni Kanun = Eşitlik = Halkçılık."
+  },
+  {
+    "soru": "Atatürk Dönemi Türk dış politikasının en büyük diplomatik başarısı olarak kabul edilen ve Türkiye'nin Boğazlar üzerindeki tam egemenliğini sağlayan gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "1926 Ankara Antlaşması",
+      "B": "Balkan Antantı",
+      "C": "1936 Montrö Boğazlar Sözleşmesi",
+      "D": "Sadabat Paktı",
+      "E": "Hatay'ın anavatana katılması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Lozan'da sınırlı egemenlik vardı, Montrö ile Boğazlarda tam egemenlik sağlandı.\n\nDoğru Cevap: C) 1936 Montrö Boğazlar Sözleşmesi\n\nKoçunun Yorumu: Dış politikada Montrö ve Hatay iki büyük başarıdır. Montrö 'en büyük diplomatik zafer'dir."
+  },
+  {
+    "soru": "1 Kasım 1922'de Saltanatın kaldırılmasını hızlandıran en önemli gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Cumhuriyetin ilan edilecek olması",
+      "B": "Padişah Vahdettin'in yurt dışına kaçması",
+      "C": "Lozan Barış Konferansı'na hem İstanbul Hükûmeti'nin hem de TBMM'nin birlikte davet edilmesi",
+      "D": "Halifeliğin siyasi bir güç olarak görülmesi",
+      "E": "Ankara'nın başkent olması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: İtilaf Devletleri Lozan’a iki hükümeti çağırdı. TBMM tek temsilci olduğunu göstermek için saltanatı kaldırdı.\n\nDoğru Cevap: C) Lozan’a iki davet\n\nKoçunun Yorumu: İnkılapların arkasındaki diplomatik nedenlere dikkat et."
+  },
+  {
+    "soru": "Atatürk'ün 'Türkiye Cumhuriyeti, şeyhler, dervişler, müritler, mensuplar memleketi olamaz. En doğru, en hakiki tarikat, medeniyet tarikatıdır.' sözü, hangi ilkenin önemini vurgulamaktadır?",
+    "secenekler": {
+      "A": "Milliyetçilik",
+      "B": "Devletçilik",
+      "C": "Laiklik",
+      "D": "Cumhuriyetçilik",
+      "E": "Halkçılık"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Tarikat ve din etkisinin reddi, akıl ve bilimin esas alınması → Laiklik.\n\nDoğru Cevap: C) Laiklik\n\nKoçunun Yorumu: ÖSYM 'söz → ilke' eşleştirmeyi çok sever."
+  },
+  {
+    "soru": "Terakkiperver Cumhuriyet Fırkası'nın programında yer alan 'Partimiz dini inançlara saygılıdır.' maddesi, aşağıdaki gelişmelerden hangisine zemin hazırladığı gerekçesiyle partinin kapatılmasına yol açmıştır?",
+    "secenekler": {
+      "A": "Menemen Olayı",
+      "B": "Şeyh Sait İsyanı",
+      "C": "İzmir Suikastı",
+      "D": "Ağrı İsyanları",
+      "E": "Dersim Olayları"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Doğu’da çıkan Şeyh Sait İsyanı, bu partinin 'dini inanç' maddesi üzerinden güç buldu.\n\nDoğru Cevap: B) Şeyh Sait İsyanı\n\nKoçunun Yorumu: Terakkiperver = Şeyh Sait, Serbest Fırka = Menemen bağlantısını unutma."
+  },
+  {
+    "soru": "Türkiye'de özel sermayenin yetersizliği ve 1929 Dünya Ekonomik Krizi'nin olumsuz etkileri nedeniyle, büyük sanayi yatırımlarının devlet tarafından yapılmasını ifade eden Atatürk ilkesi hangisidir?",
+    "secenekler": {
+      "A": "Milliyetçilik",
+      "B": "Halkçılık",
+      "C": "Laiklik",
+      "D": "Cumhuriyetçilik",
+      "E": "Devletçilik"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Ekonomi, fabrika, planlı kalkınma → Devletçilik.\n\nDoğru Cevap: E) Devletçilik\n\nKoçunun Yorumu: Kriz + özel sermaye yetersizliği = Devletçilik."
+  },
+  {
+    "soru": "Lozan'dan kalan sorunlardan hangisi, Atatürk'ün 'Bu benim şahsi meselem.' dediği ve ölümünden sonra çözülen tek konudur?",
+    "secenekler": {
+      "A": "Musul",
+      "B": "Boğazlar",
+      "C": "Hatay",
+      "D": "Batı Trakya",
+      "E": "Ege Adaları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Hatay, Atatürk’ün şahsi meselesi idi. 1939’da anavatana katıldı.\n\nDoğru Cevap: C) Hatay\n\nKoçunun Yorumu: Misakımillî’ye sonradan katılan tek toprak = Hatay."
+  },
+  {
+    "soru": "3 Mart 1924’te Halifeliğin kaldırılması, Tevhid-i Tedrisat Kanunu ve Şer’iye ve Evkaf Vekâleti’nin kaldırılmasının ortak amacı nedir?",
+    "secenekler": {
+      "A": "Ekonomik kalkınmayı sağlamak",
+      "B": "Çok partili hayata geçmek",
+      "C": "Yönetimde, eğitimde ve hukukta laik ve ulusal bir yapı oluşturmak",
+      "D": "Dış borçları ödemek",
+      "E": "Orduyu modernize etmek"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 3 Mart 1924 → Laiklik paketi.\n\nDoğru Cevap: C) Laik ve ulusal yapı oluşturmak\n\nKoçunun Yorumu: 3 Mart = Laiklik üçlüsü (Halifelik, Tevhid-i Tedrisat, Şer’iye)."
+  },
+  {
+    "soru": "Türkiye'nin İsviçre Medeni Kanunu'nu kabul etmesinin nedenleri arasında hangisi yer almaz?",
+    "secenekler": {
+      "A": "Akılcı ve pratik çözümler sunması",
+      "B": "Kadın-erkek eşitliğine dayanması",
+      "C": "Demokratik bir yapıya sahip olması",
+      "D": "İsviçre'nin de dağlık bir ülke olması",
+      "E": "Alanında hazırlanmış en yeni kanunlardan biri olması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Coğrafya alakasızdır.\n\nDoğru Cevap: D) İsviçre'nin dağlık olması\n\nKoçunun Yorumu: Kanun seçiminde modernlik, eşitlik, pratiklik önemlidir; coğrafya değil."
+  },
+  {
+    "soru": "Türk karasularında yolcu ve yük taşıma hakkını yabancılardan alıp sadece Türklere veren kanun aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Teşvik-i Sanayi Kanunu",
+      "B": "Kabotaj Kanunu",
+      "C": "Medeni Kanun",
+      "D": "Tevhid-i Tedrisat Kanunu",
+      "E": "Takrir-i Sükûn Kanunu"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Kabotaj Kanunu, ekonomik bağımsızlık adımıdır.\n\nDoğru Cevap: B) Kabotaj Kanunu\n\nKoçunun Yorumu: Kabotaj = Milliyetçilik + Ekonomik bağımsızlık."
+  },
+     {
+    "soru": "Aşağıdakilerden hangisi Atatürk döneminde yapılan ekonomik gelişmelerden biridir?",
+    "secenekler": {
+      "A": "Aşar Vergisi'nin kaldırılması",
+      "B": "Kapitülasyonların kaldırılması",
+      "C": "Lozan Antlaşması'nın imzalanması",
+      "D": "Toprak Reformu'nun yapılması",
+      "E": "Köy Enstitüleri'nin açılması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: Aşar'ın kaldırılması köylüyü rahatlatmıştır. Kapitülasyonlar Lozan’la, Köy Enstitüleri Atatürk’ten sonra.\n\nDoğru Cevap: A) Aşar Vergisi'nin kaldırılması\n\nKoçunun Yorumu: Atatürk dönemi ekonomi → Aşar, Kabotaj, fabrikalar."
+  },
+  {
+    "soru": "1929 Dünya Ekonomik Krizi'nden sonra Türkiye'nin uyguladığı ekonomi politikası aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Liberalizm",
+      "B": "Kapitalizm",
+      "C": "Devletçilik",
+      "D": "Emperyalizm",
+      "E": "İzolasyon"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Kriz sonrası özel sermaye yetmeyince devlet öncülüğünde kalkınma başladı.\n\nDoğru Cevap: C) Devletçilik\n\nKoçunun Yorumu: 1929 Krizi → Devletçilik."
+  },
+  {
+    "soru": "Atatürk'ün 'Yurtta sulh, cihanda sulh' sözü hangi dış politika anlayışını özetler?",
+    "secenekler": {
+      "A": "Yayılmacı politika",
+      "B": "Statükocu politika",
+      "C": "Emperyalist politika",
+      "D": "Saldırgan politika",
+      "E": "İzolasyon politikası"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Mevcut sınırları koruma ve barışçıl politika → Statükoculuk.\n\nDoğru Cevap: B) Statükocu politika\n\nKoçunun Yorumu: Atatürk dış politikası → Barışçıl, statükocu, dengeci."
+  },
+  {
+    "soru": "Türkiye'nin Milletler Cemiyeti'ne üye olması hangi yıl gerçekleşmiştir?",
+    "secenekler": {
+      "A": "1925",
+      "B": "1927",
+      "C": "1930",
+      "D": "1932",
+      "E": "1934"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Türkiye 1932’de, Cemiyet’in daveti üzerine üye oldu.\n\nDoğru Cevap: D) 1932\n\nKoçunun Yorumu: Milletler Cemiyeti → 1932, davet üzerine."
+  },
+  {
+    "soru": "Soyadı Kanunu hangi yılda kabul edilmiştir?",
+    "secenekler": {
+      "A": "1924",
+      "B": "1926",
+      "C": "1930",
+      "D": "1934",
+      "E": "1938"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: 1934’te kabul edilmiştir. Aynı yıl kadınlara seçme ve seçilme hakkı da verilmiştir.\n\nDoğru Cevap: D) 1934\n\nKoçunun Yorumu: 1934 = Soyadı Kanunu + Kadınlara siyasi haklar."
+  },
+  {
+    "soru": "1930’da kurulan Serbest Cumhuriyet Fırkası’nın kapatılmasına yol açan gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Şeyh Sait İsyanı",
+      "B": "Menemen Olayı",
+      "C": "İzmir Suikastı",
+      "D": "Kürt İsyanları",
+      "E": "Sakarya Zaferi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Menemen Olayı sonrası rejime tehdit olarak görülmüş ve SCF kapatılmıştır.\n\nDoğru Cevap: B) Menemen Olayı\n\nKoçunun Yorumu: SCF = Menemen bağlantısını ezberle."
+  },
+  {
+    "soru": "1934’te kabul edilen Kadınlara Seçme ve Seçilme Hakkı hangi Atatürk ilkesiyle doğrudan ilgilidir?",
+    "secenekler": {
+      "A": "Laiklik",
+      "B": "Cumhuriyetçilik",
+      "C": "Milliyetçilik",
+      "D": "Devletçilik",
+      "E": "Halkçılık"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Kadınların siyasi hakları = Cumhuriyetçilik.\n\nDoğru Cevap: B) Cumhuriyetçilik\n\nKoçunun Yorumu: Siyasi hak = Cumhuriyetçilik, sosyal eşitlik = Halkçılık."
+  },
+  {
+    "soru": "Türkiye'nin Balkan Antantı'na katılmasının temel amacı nedir?",
+    "secenekler": {
+      "A": "Balkan ülkeleriyle ekonomik iş birliği yapmak",
+      "B": "Komünizmin yayılmasını önlemek",
+      "C": "İtalya ve Almanya’nın Balkanlara yayılmasını önlemek",
+      "D": "Sovyetler Birliği ile ittifak yapmak",
+      "E": "Boğazların statüsünü değiştirmek"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Balkan Antantı → İtalya ve Almanya yayılmacılığına karşı güvenlik amacıyla.\n\nDoğru Cevap: C) İtalya ve Almanya’nın yayılmasını önlemek\n\nKoçunun Yorumu: Kolektif güvenlik → Balkan Antantı ve Sadabat Paktı."
+  },
+  {
+    "soru": "Sadabat Paktı hangi ülkeler arasında imzalanmıştır?",
+    "secenekler": {
+      "A": "Türkiye, İran, Irak, Afganistan",
+      "B": "Türkiye, Yunanistan, Romanya, Yugoslavya",
+      "C": "Türkiye, İngiltere, Fransa, İtalya",
+      "D": "Türkiye, SSCB, Bulgaristan, Yugoslavya",
+      "E": "Türkiye, Mısır, Lübnan, Suriye"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: 1937’de Türkiye, İran, Irak, Afganistan arasında imzalanmıştır.\n\nDoğru Cevap: A) Türkiye, İran, Irak, Afganistan\n\nKoçunun Yorumu: Sadabat = Ortadoğu paktı, Balkan Antantı = Balkan güvenliği."
+  },
+  {
+    "soru": "Atatürk Dönemi’nde açılan Halkevlerinin temel amacı nedir?",
+    "secenekler": {
+      "A": "Köylüye toprak dağıtmak",
+      "B": "Halkın kültür ve eğitim seviyesini yükseltmek",
+      "C": "Üniversiteleri reforme etmek",
+      "D": "Kadınlara siyasi haklar vermek",
+      "E": "Sanayi yatırımlarını artırmak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Halkevleri, halkı inkılaplara alıştırmak, kültür ve eğitim düzeyini yükseltmek için açıldı.\n\nDoğru Cevap: B) Halkın kültür ve eğitim seviyesini yükseltmek\n\nKoçunun Yorumu: Halkevleri = Halkı inkılaplara hazırlayan kurum."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Atatürk döneminde çıkarılan kanunlardan biri değildir?",
+    "secenekler": {
+      "A": "Medeni Kanun",
+      "B": "Soyadı Kanunu",
+      "C": "Takrir-i Sükûn Kanunu",
+      "D": "Kabotaj Kanunu",
+      "E": "Toprak Reformu Kanunu"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Toprak Reformu Atatürk döneminde çıkmamıştır, sonraki dönemlerde gündeme gelmiştir.\n\nDoğru Cevap: E) Toprak Reformu Kanunu\n\nKoçunun Yorumu: Atatürk dönemi kanunlarını tarihleriyle bil."
+  },
+  {
+    "soru": "1933 Üniversite Reformu ile hangi gelişme yaşanmıştır?",
+    "secenekler": {
+      "A": "İstanbul Üniversitesi kurulmuştur",
+      "B": "Köy Enstitüleri açılmıştır",
+      "C": "Milli Eğitim Bakanlığı kurulmuştur",
+      "D": "Darülfünun kapatılarak yerine modern üniversite açılmıştır",
+      "E": "Türk Dil Kurumu açılmıştır"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Darülfünun kapatıldı, İstanbul Üniversitesi kuruldu.\n\nDoğru Cevap: D) Darülfünun kapatılarak modern üniversite açıldı\n\nKoçunun Yorumu: Üniversite Reformu = 1933, Atatürk döneminde."
+  },
+  {
+    "soru": "Atatürk’ün ölümünden önceki son büyük dış politika başarısı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Balkan Antantı",
+      "B": "Sadabat Paktı",
+      "C": "Hatay’ın Türkiye’ye katılması",
+      "D": "Montrö Boğazlar Sözleşmesi",
+      "E": "Türkiye’nin Milletler Cemiyeti’ne üye olması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Atatürk 1938’de Hatay için uğraştı, vefatından kısa süre sonra Hatay Türkiye’ye katıldı.\n\nDoğru Cevap: C) Hatay’ın Türkiye’ye katılması\n\nKoçunun Yorumu: Atatürk’ün şahsi meselesi = Hatay."
+  },
+  {
+    "soru": "Türk Tarih Kurumu’nun kuruluş amacı nedir?",
+    "secenekler": {
+      "A": "Dil devrimini gerçekleştirmek",
+      "B": "Türk tarihini araştırmak ve genç nesillere doğru öğretmek",
+      "C": "Yabancı bilim insanlarını ülkeye getirmek",
+      "D": "Eğitimde birliği sağlamak",
+      "E": "Türk sanatını geliştirmek"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: TTK, Türk milletinin tarihini bilimsel esaslarla ortaya koymak için kuruldu.\n\nDoğru Cevap: B) Türk tarihini araştırmak\n\nKoçunun Yorumu: TDK = Dil, TTK = Tarih."
+  }
+    ],
+        
     "13) Çağdaş Türk ve Dünya Tarihi": []
 
 },
@@ -5731,6 +6022,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
