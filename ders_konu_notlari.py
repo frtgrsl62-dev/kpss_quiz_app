@@ -17,6 +17,8 @@ ders_konu_notlari = {
     },
 
     "➗ Matematik": {
+        "__ders_notu__": "https://drive.google.com/drive/folders/1qW82dDevDAnstzbWOPhV90vjiKvw0kH8?usp=drive_link",     
+        "1) Temel Kavramlar ve İşlem Becerileri": "", 
     },
     
     "📜 Tarih": {
@@ -37,6 +39,7 @@ ders_konu_notlari = {
     },
 
     "🌍 Coğrafya": {
+       "__ders_notu__": "https://drive.google.com/drive/folders/1mWKpWMEkdwQMZdNqz15PjzjuSckvrLph?usp=drive_link",        
         "1) Türkiye'nin Coğrafi Konumu": "https://drive.google.com/file/d/1DlD5FqdOIzHTKO50tgemjA5hvzPH4_29/view?usp=drive_link",
         "2) İklim": "",
         "3) Türkiye'nin Yer Şekilleri": "",
@@ -57,6 +60,7 @@ ders_konu_notlari = {
     },
 
     "🏛️ Vatandaşlık": {
+       "__ders_notu__": "https://drive.google.com/drive/folders/1Cl06OHZZrVPBLN7sxVpPpTO5udooJlqH?usp=drive_link",   
         "1) Hukukun Temel Kavramları": "https://drive.google.com/file/d/1qC69kkFvSUL99H_Ak9k8XfZ2NdmYMYhm/view?usp=drive_link",
         "2) Anayasa Hukukuna Giriş": "",
         "3) 1982 Anayasası'nın Genel Esasları": "",
@@ -69,9 +73,11 @@ ders_konu_notlari = {
     },
 
     "🌟 Genel Kültür": {
+       "__ders_notu__": "https://drive.google.com/drive/folders/1usi2wIlwVOj-h7KCAaY6io9DNCG4cGJX?usp=drive_link",   
         "1) Güncel Bilgiler": "",
         "2) Sanat ve Edebiyat": ""
     }
 }
+
 
 
