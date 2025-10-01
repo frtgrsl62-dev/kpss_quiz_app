@@ -274,15 +274,32 @@ def test_secim_page(secilen_ders, secilen_konu):
             '</a>',
             unsafe_allow_html=True
         )
-        st.markdown("---")  # altına çizgi ekleyelim, testlerden ayrı dursun
+        st.markdown("---")
 
     # Testleri listele
     tum_sorular = soru_bankasi.get(secilen_ders, {}).get(secilen_konu, {})
+
     if not tum_sorular:
         st.warning("Bu konu için test bulunamadı.")
         return
 
-    for i, (test_no, sorular) in enumerate(tum_sorular.items(), 1):
+    # Eğer dict ise items() ile dön
+    if isinstance(tum_sorular, dict):
+        iterator = tum_sorular.items()
+    # Eğer liste ise enumerate ile dön
+    elif isinstance(tum_sorular, list):
+        iterator = enumerate(tum_sorular, 1)
+    else:
+        st.error("❌ Beklenmedik test formatı!")
+        return
+
+    for i, data in enumerate(iterator, 1):
+        # data dict’ten mi listeden mi geldi ayır
+        if isinstance(data, tuple) and len(data) == 2:
+            test_no, sorular = data
+        else:
+            test_no, sorular = f"test_{i}", data
+
         if st.button(f"📝 Test {i}", key=f"{secilen_ders}_{secilen_konu}_{i}"):
             st.session_state["current_test"] = {
                 "ders": secilen_ders,
@@ -302,6 +319,7 @@ def test_secim_page(secilen_ders, secilen_konu):
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
+
 
 
     st.markdown("---")  # alt çizgi ile ayır
@@ -626,6 +644,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
