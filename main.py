@@ -214,13 +214,14 @@ def konu_secim_page(ders):
         unsafe_allow_html=True
     )
 
-    # 📘 Ders Notu (transparan, sadece yazı şeklinde)
+    # 📘 Ders Notu butonu
     ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
     if ders_notu_link:
         st.markdown(
-            f"<a href='{ders_notu_link}' target='_blank' style='text-decoration:none; font-weight:bold; color:#007BFF;'>📘 Ders Notu</a>",
+            f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: ; color: ; padding:10px; border:none; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",
             unsafe_allow_html=True
         )
+
 
     konular = list(soru_bankasi[ders].keys())
     sonuclar = st.session_state.get("sonuclar", {})
@@ -263,7 +264,7 @@ def konu_secim_page(ders):
             konu_link = ders_konu_notlari.get(ders, {}).get(konu, "")
             if konu_link:
                 st.markdown(
-                    f"<a href='{konu_link}' target='_blank' style='text-decoration:none; color:#007BFF;'>📘 Not</a>",
+                    f"<a href='{konu_link}' target='_blank' style='text-decoration:none; color:#007BFF;'>📕 pdf</a>",
                     unsafe_allow_html=True
                 )
 
@@ -554,7 +555,7 @@ def genel_rapor_page():
         st.info("Henüz herhangi bir test çözülmedi.")
     else:
         for ders, konular in sonuclar.items():
-            with st.expander(f"📘 {ders}"):
+            with st.expander(f" {ders}"):    #📕📙📚📘📗#
                 for konu, sonuc in konular.items():
                     if not isinstance(sonuc, dict):
                         continue
@@ -670,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
