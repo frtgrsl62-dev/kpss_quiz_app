@@ -289,11 +289,11 @@ def test_secim_page(secilen_ders, secilen_konu):
         unsafe_allow_html=True
     )
 
-    # 📘 Konu Notu butonu
+    # 📕 Konu Notu butonu
     konu_link = ders_konu_notlari.get(secilen_ders, {}).get(secilen_konu, "")
     if konu_link:  # Link varsa göster
         st.markdown(
-            f"<a href='{konu_link}' target='_blank'><button style='background-color:transparan; color: ; padding:10px; border:none; border-radius:8px; cursor:pointer;'>📘 Konu Notu</button></a>",
+            f"<a href='{konu_link}' target='_blank'><button style='background-color:transparan; color: ; padding:10px; border:none; border-radius:8px; cursor:pointer;'>📕 Konu Notu</button></a>",
             unsafe_allow_html=True
         )
     else:  # Link yoksa bilgi ver
@@ -671,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
