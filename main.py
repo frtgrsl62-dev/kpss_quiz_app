@@ -204,7 +204,7 @@ from ders_konu_notlari import ders_konu_notlari
 
 def konu_secim_page(ders):
 
-    # Geri butonu sol üst
+    # Geri butonu
     if st.button("🏠 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
@@ -214,11 +214,11 @@ def konu_secim_page(ders):
         unsafe_allow_html=True
     )
 
-    # 📘 Ders Notu butonu
+    # 📘 Ders Notu (transparan, sadece yazı şeklinde)
     ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
     if ders_notu_link:
         st.markdown(
-            f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: ; color: ; padding:10px; border:none; border-radius:8px; cursor:pointer;'>📘 Ders Notu</button></a>",
+            f"<a href='{ders_notu_link}' target='_blank' style='text-decoration:none; font-weight:bold; color:#007BFF;'>📘 Ders Notu</a>",
             unsafe_allow_html=True
         )
 
@@ -236,11 +236,12 @@ def konu_secim_page(ders):
             1 for key in testler if key.startswith("test_")
         )
 
-        # Yüzdeyi çözülen test sayısına göre hesapla
+        # Yüzdeyi hesapla
         yuzde = int(cozulmus_test_sayisi / toplam_test_sayisi * 100) if toplam_test_sayisi > 0 else 0
 
-        col1, col2 = st.columns([1, 10])
+        col1, col2, col3 = st.columns([1, 8, 2])
         with col1:
+            # Dairesel progress
             st.markdown(f"""
             <div style="
                 width:40px; height:40px; border-radius:40%;
@@ -257,8 +258,18 @@ def konu_secim_page(ders):
                 st.session_state["page"] = "test"
                 st.rerun()
 
-    st.markdown("---")  # alt çizgi ile ayır
+        with col3:
+            # Konu linki varsa Not butonu
+            konu_link = ders_konu_notlari.get(ders, {}).get(konu, "")
+            if konu_link:
+                st.markdown(
+                    f"<a href='{konu_link}' target='_blank' style='text-decoration:none; color:#007BFF;'>📘 Not</a>",
+                    unsafe_allow_html=True
+                )
+
+    st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
 
 
 # ===============================
@@ -659,6 +670,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
