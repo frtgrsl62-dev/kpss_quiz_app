@@ -5911,6 +5911,306 @@ soru_bankasi = {
     },
     "dogru_cevap": "B",
     "cozum": "Analiz: TTK, Türk milletinin tarihini bilimsel esaslarla ortaya koymak için kuruldu.\n\nDoğru Cevap: B) Türk tarihini araştırmak\n\nKoçunun Yorumu: TDK = Dil, TTK = Tarih."
+  },
+    {
+    "soru": "1 Kasım 1922'de Saltanatın kaldırılması, doğrudan Cumhuriyetçilik ilkesiyle ilgili olmasına rağmen, aynı zamanda Laiklik yolunda atılmış en önemli adımlardan biri olarak kabul edilir. Bu durumun temel nedeni nedir?",
+    "secenekler": {
+      "A": "Padişahın aynı zamanda halife olması",
+      "B": "Padişahın ekonomiye müdahale etmesi",
+      "C": "Osmanlı hanedanının Türk olmaması",
+      "D": "Padişahın orduyu yönetmesi",
+      "E": "Padişahın başkentte oturması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Padişahlık, dünyevi (siyasi) bir makamken, aynı kişi dini lider olan halifelik unvanını da taşıyordu. Saltanatın kaldırılması, bu ikili yapıyı bozarak devletin laikleşmesi önündeki en büyük siyasi engeli kaldırmış ve bir sonraki adım olan Halifeliğin kaldırılmasına zemin hazırlamıştır. Koçunun Yorumu: ÖSYM, bir inkılabın birden fazla ilkeyle olan ilişkisini sorgulamayı sever. Saltanatın kaldırılmasının hem milli egemenliği (Cumhuriyetçilik) hem de din-devlet işlerinin ayrılmasını (Laiklik) nasıl etkilediğini anlamak, bu tür analiz sorularının anahtarıdır."
+  },
+  {
+    "soru": "Atatürk Dönemi'nde kurulan Serbest Cumhuriyet Fırkası'nın, kurucusu Fethi Okyar tarafından kısa bir süre sonra kapatılmasının temel nedeni nedir?",
+    "secenekler": {
+      "A": "Partinin seçimlerde başarısız olması",
+      "B": "Mustafa Kemal'in partinin kapatılmasını istemesi",
+      "C": "Parti etrafında rejim karşıtı ve gerici unsurların toplanmaya başlaması",
+      "D": "Partinin ekonomik programının yetersiz olması",
+      "E": "İtalya ile yaşanan gerginlikler"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Partinin liberal ve ekonomik özgürlükçü söylemleri, kısa sürede saltanat ve hilafet yanlılarının partiyi bir sığınak olarak görmesine neden olmuş, Fethi Okyar bu tehlikeyi ve rejimin henüz bu tür bir muhalefete hazır olmadığını görerek partiyi kendisi kapatmıştır. Koçunun Yorumu: Bu olay, Atatürk Dönemi'ndeki çok partili hayata geçiş denemelerinin neden kesintiye uğradığını gösterir. Toplumun henüz devrimleri tam olarak sindiremediği ve muhalefetin rejim karşıtlığına dönüşme riski taşıdığı anlaşılmıştır."
+  },
+  {
+    "soru": "Tevhid-i Tedrisat Kanunu ile eğitimde birlik sağlanırken, medreselerin kapatılması en çok hangi ilkenin güçlenmesini sağlamıştır?",
+    "secenekler": {
+      "A": "Devletçilik",
+      "B": "Halkçılık",
+      "C": "Cumhuriyetçilik",
+      "D": "Laiklik",
+      "E": "İnkılapçılık"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Eğitimin temelini oluşturan ve dini esaslara göre eğitim veren kurumların (medreseler) kapatılması ve tüm eğitimin Milli Eğitim Bakanlığı'na bağlanarak akla ve bilime dayandırılması, laikleşme yolundaki en önemli adımlardan biridir. Koçunun Yorumu: Tevhid-i Tedrisat Kanunu'nun iki temel sonucu vardır: Milli Eğitim'e bağlanması Milliyetçilik, medreselerin kapatılması ise Laiklik ilkesini güçlendirir. Soru hangisini vurguluyorsa ona odaklanmalısın."
+  },
+  {
+    "soru": "Atatürk'ün dış politikadaki 'Yurtta sulh, cihanda sulh' ilkesi, aşağıdakilerden hangisini temel alır?",
+    "secenekler": {
+      "A": "Yayılmacı ve maceracı bir politika izlemeyi",
+      "B": "Diğer ülkelerin iç işlerine karışmayı",
+      "C": "Tam bağımsızlığa saygı duyan, barışçıl ve gerçekçi bir diplomasi yürütmeyi",
+      "D": "Yalnızlık (izolasyonizm) politikası izlemeyi",
+      "E": "Batılı devletlere karşı bir blok oluşturmayı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bu ilke, Türkiye'nin kendi barış ve güvenliğini, dünyanın barış ve güvenliğinin bir parçası olarak görür ve sorunları diplomasi, uluslararası hukuk ve ittifaklar yoluyla çözmeyi hedefler. Koçunun Yorumu: Bu ilke, pasif bir 'barışseverlik' değil, aktif, akılcı ve caydırıcı güce dayalı bir barış politikasıdır. Hem kendi bağımsızlığından taviz vermemeyi hem de başka ülkelerin bağımsızlığına saygı duymayı içerir."
+  },
+  {
+    "soru": "Cumhuriyet'in ilanından hemen sonra Atatürk'ün ilk hükümeti kurma görevini verdiği kişi kimdir?",
+    "secenekler": {
+      "A": "Kazım Karabekir",
+      "B": "Fethi Okyar",
+      "C": "İsmet İnönü",
+      "D": "Rauf Orbay",
+      "E": "Celal Bayar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Cumhuriyet'in ilanından hemen sonra hükümeti kurma görevi İsmet Paşa'ya (İnönü) verilmiştir. Koçunun Yorumu: İsmet İnönü, Atatürk'ün en güvendiği dava arkadaşıydı ve Cumhuriyet'in ilanından sonra ilk Başbakan olması doğal bir sonuçtur."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Atatürk Dönemi'nde imzalanmamıştır?",
+    "secenekler": {
+      "A": "Lozan Antlaşması",
+      "B": "Kars Antlaşması",
+      "C": "Sadabat Paktı",
+      "D": "Montrö Boğazlar Sözleşmesi",
+      "E": "Balkan Antantı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kars Antlaşması 1921'de imzalanmıştır ve Atatürk Dönemi'nde değil, TBMM Hükümeti Dönemi'nde yapılmıştır. Koçunun Yorumu: Zamanlama çok önemli. Lozan (1923) sonrası Atatürk Dönemi sayılır; 1921 Kars ise öncesindedir."
+  },
+  {
+    "soru": "Şeyh Sait İsyanı'nın çıkmasında aşağıdakilerden hangisi etkili olmuştur?",
+    "secenekler": {
+      "A": "Ekonomik kriz",
+      "B": "Hilafetin kaldırılması",
+      "C": "Toprak reformu",
+      "D": "Balkan Antantı",
+      "E": "İzmir İktisat Kongresi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Şeyh Sait İsyanı, dini istismar eden bir hareketti ve hilafetin kaldırılmasından sonra çıkmıştır. Koçunun Yorumu: İsyanlar genelde ya 'bölgesel çıkarlar' ya da 'dini istismar' üzerinden çıkar. Şeyh Sait, hilafet sonrası tipik bir dini istismar isyanıdır."
+  },
+  {
+    "soru": "Atatürk'ün 'Hayatta en hakiki mürşit ilimdir' sözü aşağıdaki ilkelerden hangisiyle doğrudan ilişkilidir?",
+    "secenekler": {
+      "A": "Halkçılık",
+      "B": "Laiklik",
+      "C": "İnkılapçılık",
+      "D": "Devletçilik",
+      "E": "Milliyetçilik"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bu söz, değişimin ve yenileşmenin ancak bilim yoluyla olabileceğini vurgular. Koçunun Yorumu: İnkılapçılık → sürekli yenilik ve bilime dayalı ilerleme. Bu sözü duyunca aklına hemen İnkılapçılık gelmeli."
+  },
+  {
+    "soru": "Türkiye'nin Milletler Cemiyeti'ne üye olması hangi olaydan sonra gerçekleşmiştir?",
+    "secenekler": {
+      "A": "Lozan Antlaşması",
+      "B": "Balkan Antantı",
+      "C": "Musul Sorununun çözülmesi",
+      "D": "Sadabat Paktı",
+      "E": "Montreux Boğazlar Sözleşmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Musul sorununun çözülmesiyle birlikte Türkiye'nin uluslararası itibarı artmış ve Milletler Cemiyeti'ne üye olmuştur (1932). Koçunun Yorumu: Türkiye'nin Cemiyet'e katılması barışçı dış politikasının kabul görmesiyle ilgilidir."
+  },
+  {
+    "soru": "Atatürk'ün 'Bir milletin doğrudan doğruya hayatı ile ilgili olan şey, o milletin iktisadiyatıdır.' sözü hangi kongrede söylenmiştir?",
+    "secenekler": {
+      "A": "Sivas Kongresi",
+      "B": "Erzurum Kongresi",
+      "C": "İzmir İktisat Kongresi",
+      "D": "Lozan Konferansı",
+      "E": "Ankara İktisat Kongresi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bu söz, İzmir İktisat Kongresi'nde (1923) söylenmiştir. Koçunun Yorumu: İzmir İktisat Kongresi → ekonomi ile ilgili her şey burada. ÖSYM genelde bu sözü buraya bağlar."
+  },
+    {
+    "soru": "Misak-ı Milli kararları arasında aşağıdakilerden hangisi yer almaz?",
+    "secenekler": {
+      "A": "Milli sınırlar içinde vatan bir bütündür, bölünemez.",
+      "B": "Azınlıkların hakları, komşu ülkelerdeki Müslümanlara tanınan haklar ölçüsünde korunacaktır.",
+      "C": "İstanbul ve Boğazların güvenliği sağlandığı takdirde, boğazlar dünya ticaretine açılacaktır.",
+      "D": "Kapitülasyonlar hiçbir şekilde kabul edilmeyecektir.",
+      "E": "Cumhuriyet ilan edilecektir."
+    },
+    "dogru_cevap": "E",
+    "cozum": "Misak-ı Milli kararlarında Cumhuriyet’in ilanı yoktur. Koçunun Yorumu: Misak-ı Milli → tamamen dış politikayla ilgilidir. Cumhuriyet ise iç işidir."
+  },
+  {
+    "soru": "Aşağıdaki savaşlardan hangisi Kurtuluş Savaşı sırasında yapılmamıştır?",
+    "secenekler": {
+      "A": "I. İnönü",
+      "B": "II. İnönü",
+      "C": "Sakarya",
+      "D": "Büyük Taarruz",
+      "E": "Çanakkale"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Çanakkale Savaşı, I. Dünya Savaşı'nda yapılmıştır. Koçunun Yorumu: Kronolojiye dikkat et; Kurtuluş Savaşı 1919–1922 arasıdır."
+  },
+  {
+    "soru": "Lozan Antlaşması ile çözüme kavuşturulan sorunlardan biri aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Boğazlar",
+      "B": "Hatay",
+      "C": "Musul",
+      "D": "Kıbrıs",
+      "E": "Montreux"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Lozan’da Boğazlar uluslararası bir komisyon tarafından yönetilmek üzere düzenlenmiştir. Koçunun Yorumu: Hatay ve Musul Lozan’da çözülememiştir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Sakarya Meydan Muharebesi’nin sonuçlarından biridir?",
+    "secenekler": {
+      "A": "İtilaf Devletleri arasında görüş ayrılığı artmıştır.",
+      "B": "Lozan Antlaşması imzalanmıştır.",
+      "C": "Sevr Antlaşması imzalanmıştır.",
+      "D": "Kars Antlaşması imzalanmıştır.",
+      "E": "Cumhuriyet ilan edilmiştir."
+    },
+    "dogru_cevap": "A",
+    "cozum": "Sakarya sonrası İtilaf Devletleri Türklerle barış görüşmelerine yönelmiştir. Koçunun Yorumu: Sakarya → askeri ve diplomatik dönüm noktasıdır."
+  },
+  {
+    "soru": "Cumhuriyet’in ilanı hangi sorun nedeniyle gündeme gelmiştir?",
+    "secenekler": {
+      "A": "Kabine krizleri",
+      "B": "Ekonomik kriz",
+      "C": "Lozan’ın uygulanamaması",
+      "D": "Halifelik tartışmaları",
+      "E": "Şeyh Sait İsyanı"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Meclis hükümeti sistemi sık sık kabine krizlerine yol açıyordu. Koçunun Yorumu: Cumhuriyet ilanı → hükümet bunalımı çözmek içindir."
+  },
+  {
+    "soru": "Atatürk Dönemi’nde Türkiye’nin dış politikadaki en büyük başarısı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Musul’un alınması",
+      "B": "Hatay’ın katılması",
+      "C": "NATO’ya girmek",
+      "D": "AB ile ilişkiler",
+      "E": "Kıbrıs Barış Harekâtı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "1939’da Hatay Türkiye’ye katılmıştır. Koçunun Yorumu: Atatürk’ün 'milli dava' dediği mesele budur."
+  },
+  {
+    "soru": "Atatürk ilkelerinden hangisi diğer tüm ilkeleri yönlendirici özelliktedir?",
+    "secenekler": {
+      "A": "Cumhuriyetçilik",
+      "B": "Milliyetçilik",
+      "C": "İnkılapçılık",
+      "D": "Laiklik",
+      "E": "Halkçılık"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İnkılapçılık, yenilikçilik ruhu ile diğer tüm ilkeleri sürekli canlı tutar. Koçunun Yorumu: 'Motor ilke' diye hatırla."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Atatürk’ün dış politikada takip ettiği temel ilkelerden biri değildir?",
+    "secenekler": {
+      "A": "Gerçekçilik",
+      "B": "Barışçılık",
+      "C": "Maceracılık",
+      "D": "Tam bağımsızlık",
+      "E": "Statükoculuk"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Atatürk maceracı ve hayalci politikalardan uzak durmuş, barışçı ve gerçekçi davranmıştır. Koçunun Yorumu: 'Maceracı' olanı ele."
+  },
+  {
+    "soru": "Aşağıdaki antlaşmalardan hangisiyle Türkiye’nin doğu sınırı kesinlik kazanmıştır?",
+    "secenekler": {
+      "A": "Moskova",
+      "B": "Lozan",
+      "C": "Kars",
+      "D": "Ankara",
+      "E": "Montreux"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kars Antlaşması (1921) ile doğu sınırı kesinleşmiştir. Koçunun Yorumu: Doğu sınırı → Kars. Batı sınırı → Lozan."
+  },
+  {
+    "soru": "Cumhuriyet’in ilanından sonra ilk kez çok partili hayata geçiş denemesi hangi partiyle olmuştur?",
+    "secenekler": {
+      "A": "Terakkiperver Cumhuriyet Fırkası",
+      "B": "Serbest Cumhuriyet Fırkası",
+      "C": "Halk Fırkası",
+      "D": "Demokrat Parti",
+      "E": "Adalet Partisi"
+    },
+    "dogru_cevap": "A",
+    "cozum": "1924’te kurulan Terakkiperver Cumhuriyet Fırkası çok partili hayatın ilk denemesidir. Koçunun Yorumu: T harfi → 'ilk' diye hatırla."
+  },
+  {
+    "soru": "Lozan Antlaşması ile çözülemeyen sorun aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Kapitülasyonlar",
+      "B": "Boğazlar",
+      "C": "Patrikhane",
+      "D": "Musul",
+      "E": "Azınlıklar"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Musul meselesi Lozan’da çözülememiş, Milletler Cemiyeti’ne bırakılmıştır. Koçunun Yorumu: Lozan’da çözülemeyen → Musul."
+  },
+  {
+    "soru": "Aşağıdaki inkılaplardan hangisi doğrudan kadın haklarıyla ilgilidir?",
+    "secenekler": {
+      "A": "Soyadı Kanunu",
+      "B": "Medeni Kanun",
+      "C": "Tevhid-i Tedrisat",
+      "D": "Saltanatın kaldırılması",
+      "E": "Şapka Kanunu"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Medeni Kanun (1926) kadınlara sosyal ve hukuki haklar tanımıştır. Koçunun Yorumu: Kadın hakları sorulursa → Medeni Kanun."
+  },
+  {
+    "soru": "Atatürk’ün ölümünden sonra yerine Cumhurbaşkanı olarak kim geçmiştir?",
+    "secenekler": {
+      "A": "Celal Bayar",
+      "B": "İsmet İnönü",
+      "C": "Kazım Karabekir",
+      "D": "Rauf Orbay",
+      "E": "Adnan Menderes"
+    },
+    "dogru_cevap": "B",
+    "cozum": "1938’de Atatürk’ün ölümünden sonra İsmet İnönü Cumhurbaşkanı olmuştur. Koçunun Yorumu: 'Milli Şef' → İsmet İnönü."
+  },
+  {
+    "soru": "Cumhuriyet’in temel dayanağı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Egemenlik kayıtsız şartsız milletindir",
+      "B": "Saltanat",
+      "C": "Hilafet",
+      "D": "Monarşi",
+      "E": "Oligarşi"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Cumhuriyet halk egemenliği demektir. Koçunun Yorumu: Bu bir 'tanım' sorusu, direkt cevabı veriyor."
+  },
+  {
+    "soru": "Atatürk’ün milliyetçilik anlayışında esas alınan unsur aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Irk birliği",
+      "B": "Din birliği",
+      "C": "Kültür birliği",
+      "D": "Soy birliği",
+      "E": "Dil birliği"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Atatürk’ün milliyetçilik anlayışı ırk ya da din değil, kültür temellidir. Koçunun Yorumu: ÖSYM → 'kültür birliği'ni vurgular."
   }
     ],
         
@@ -6022,6 +6322,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
