@@ -259,14 +259,14 @@ def konu_secim_page(ders):
                 st.session_state["page"] = "test"
                 st.rerun()
 
-    ("""    with col3:
-            # Konu linki varsa Not butonu
-            konu_link = ders_konu_notlari.get(ders, {}).get(konu, "")
-            if konu_link:
-                st.markdown(
-                    f"<a href='{konu_link}' target='_blank' style='text-decoration:none; color:#007BFF;'>📕 pdf</a>",
-                    unsafe_allow_html=True
-                )  """)
+ #       with col3:
+ #           # Konu linki varsa Not butonu
+ #           konu_link = ders_konu_notlari.get(ders, {}).get(konu, "")
+ #           if konu_link:
+ #              st.markdown(
+ #                  f"<a href='{konu_link}' target='_blank' style='text-decoration:none; color:#007BFF;'>📕 pdf</a>",
+ #                  unsafe_allow_html=True
+ #               )  
 
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -671,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
