@@ -6,11 +6,11 @@ ders_konu_notlari = {
         "1) Sözcükte Yapı": "https://drive.google.com/file/d/11_yXT1WQuuuHUDCIDfg9ixEBHp0fFqMq/view?usp=drive_link",
         "2) Sözcük Türleri": "https://drive.google.com/file/d/1egipd7yFQ9Y1s-HsCO7svtkV6BSj1I-d/view?usp=drive_link",
         "3) Söz Dizimi": "https://drive.google.com/file/d/1DCXEpvGonGiFZz_nmoEluk5NRJ6MZ8xw/view?usp=drive_link",
-        "4) Ses Bilgisi": "",
-        "5) Yazım Kuralları": "",
-        "6) Noktalama İşaretleri": "",
-        "7) Sözcükte Anlam": "",
-        "8) Cümlede Anlam": "",
+        "4) Ses Bilgisi": "https://drive.google.com/file/d/1EaXYIkwjEUxKtExkzQlJ4Kw4ysobOM1N/view?usp=drive_link",
+        "5) Yazım Kuralları": "https://drive.google.com/file/d/1NrvZJpDOPIzHFx92YN6-51bMPx8JRnrP/view?usp=drive_link",
+        "6) Noktalama İşaretleri": "https://drive.google.com/file/d/1WjpZkpT9Zns3m613dpMRvdoEKBZzImcy/view?usp=drive_link",
+        "7) Sözcükte Anlam": "https://drive.google.com/file/d/11sf95Fe0QHFFWjI9degrHlTmRajlGX7z/view?usp=drive_link",
+        "8) Cümlede Anlam": "https://drive.google.com/file/d/1CEtpoNLlQpTCzG9yIv7gjWfvzPDgiUcp/view?usp=drive_link",
         "9) Anlatım Biçimleri": "",
         "10) Paragraf": "",
         "11) Anlatım Bozukluğu": "" 
@@ -26,8 +26,8 @@ ders_konu_notlari = {
         "1) İslamiyet Öncesi Türk Tarihi": "https://drive.google.com/file/d/1DlD5FqdOIzHTKO50tgemjA5hvzPH4_29/view?usp=drive_link",
         "2) İlk Türk-İslam Devletleri ve Beylikleri": "https://drive.google.com/file/d/19R9jf1jmjocqSuIMbYGIxecwq4D973eR/view?usp=drive_link",
         "3) Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": "https://drive.google.com/file/d/18_uVtru36alT25trtLieRe-jbV1ESOn7/view?usp=drive_link",
-        "4) Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": "",
-        "5) Osmanlı Devleti Kültür ve Medeniyeti": "",
+        "4) Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": "https://drive.google.com/file/d/1Rj-N8oCMkRj-ntM-xu10hrEjvEtGt7aO/view?usp=drive_link",
+        "5) Osmanlı Devleti Kültür ve Medeniyeti": "https://drive.google.com/file/d/1XaraM1Ub0323n52n1KeFwcp8LvKnuS-d/view?usp=drive_link",
         "6) 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": "",
         "7) 19. yy (Dağılma) ve Islahatlar": "",
         "8) Trablusgarp ve Balkan Savaşları": "",
@@ -50,7 +50,7 @@ ders_konu_notlari = {
         "3.5) Göller": "",
         "3.6) Doğal Afetler": "",
         "3.7) Dış Kuvvetler": "",
-        "4) Türkiye'de Nüfus": "",
+        "4) Türkiye'de Nüfus": "https://drive.google.com/file/d/1AELkowunqhNluuosm2s6LDmSktELMrUw/view?usp=drive_link",
         "5) Türkiye'de Tarım": "",
         "6) Türkiye'de Hayvancılık": "",
         "7) Madenler": "",
@@ -78,6 +78,7 @@ ders_konu_notlari = {
         "2) Sanat ve Edebiyat": ""
     }
 }
+
 
 
 
