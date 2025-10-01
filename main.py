@@ -285,7 +285,7 @@ def test_secim_page(secilen_ders, secilen_konu):
         st.rerun()
     
     st.markdown(
-        f"<h2 style='font-size:25px; border: 1px solid #007BFF;'>{secilen_ders} - {secilen_konu} </h2>",
+        f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu} </h2>",
         unsafe_allow_html=True
     )
 
@@ -671,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
