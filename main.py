@@ -258,16 +258,29 @@ def konu_secim_page(ders):
 # ===============================
 # Test Seçim Sayfası
 # ===============================
+from ders_konu_notlari import ders_konu_notlari
+
 def test_secim_page(secilen_ders, secilen_konu):
-        # Geri butonu sol üst
+    # Geri butonu sol üst
     if st.button("🔙 Geri"):
         st.session_state["page"] = "konu"
         st.rerun()
     
     st.markdown(
-        f"<h2 style='color: ; font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
+        f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu} Test Seçimi</h2>",
         unsafe_allow_html=True
     )
+
+    # 📘 Konu Notu butonu
+    konu_link = ders_konu_notlari.get(secilen_ders, {}).get(secilen_konu, "")
+    if konu_link:  # Link varsa göster
+        st.markdown(
+            f"<a href='{konu_link}' target='_blank'><button style='background-color:#4CAF50; color:white; padding:10px; border:none; border-radius:8px; cursor:pointer;'>📘 Konu Notu</button></a>",
+            unsafe_allow_html=True
+        )
+    else:  # Link yoksa bilgi ver
+        st.info("Bu konu için henüz not eklenmemiştir.")
+
     tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
     if not tum_sorular:
         st.info("Bu konu için henüz soru eklenmemiş.")
@@ -298,7 +311,8 @@ def test_secim_page(secilen_ders, secilen_konu):
             label = f"{test_adi} ⏺"
 
         if st.button(label, key=f"testbtn_{i}", help=f"Test {i+1}"):
-            # önce önceki cevap anahtarlarını temizle
+
+            # önceki cevapları temizle
             cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
             for k in cevap_keys:
                 del st.session_state[k]
@@ -314,12 +328,9 @@ def test_secim_page(secilen_ders, secilen_konu):
             st.session_state["page"] = "soru"
             st.rerun()
 
-     # if st.button("🔙 Geri"):
-     #  st.session_state["page"] = "konu"
-     #  st.rerun()
-
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")  # alt çizgi
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
 
 
 
@@ -642,6 +653,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
