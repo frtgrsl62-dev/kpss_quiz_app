@@ -218,7 +218,7 @@ def konu_secim_page(ders):
     ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
     if ders_notu_link:
         st.markdown(
-          f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: transparent; color: ; border: 1px solid #ccc; padding:8px; border:none; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",      
+          f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:8px; border: 1px solid #ccc; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",      
             unsafe_allow_html=True
         )
 
@@ -671,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
