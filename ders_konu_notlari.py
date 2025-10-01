@@ -2,6 +2,7 @@
 
 ders_konu_notlari = {
     "📖 Türkçe": {
+        "__ders_notu__": "https://drive.google.com/drive/folders/1qVjDhmdvPuCDeiZmQLDAw-1-rywzDdOx?usp=drive_link",
         "1) Sözcükte Yapı": "https://drive.google.com/file/d/11_yXT1WQuuuHUDCIDfg9ixEBHp0fFqMq/view?usp=drive_link",
         "2) Sözcük Türleri": "https://drive.google.com/file/d/1egipd7yFQ9Y1s-HsCO7svtkV6BSj1I-d/view?usp=drive_link",
         "3) Söz Dizimi": "https://drive.google.com/file/d/1DCXEpvGonGiFZz_nmoEluk5NRJ6MZ8xw/view?usp=drive_link",
@@ -19,6 +20,7 @@ ders_konu_notlari = {
     },
     
     "📜 Tarih": {
+       "__ders_notu__": "https://drive.google.com/drive/folders/1v-AcgixpmUQ44ES22C4q9TmVPJ8zPls6?usp=drive_link",        
         "1) İslamiyet Öncesi Türk Tarihi": "https://drive.google.com/file/d/1DlD5FqdOIzHTKO50tgemjA5hvzPH4_29/view?usp=drive_link",
         "2) İlk Türk-İslam Devletleri ve Beylikleri": "https://drive.google.com/file/d/19R9jf1jmjocqSuIMbYGIxecwq4D973eR/view?usp=drive_link",
         "3) Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": "https://drive.google.com/file/d/18_uVtru36alT25trtLieRe-jbV1ESOn7/view?usp=drive_link",
@@ -71,4 +73,5 @@ ders_konu_notlari = {
         "2) Sanat ve Edebiyat": ""
     }
 }
+
 
