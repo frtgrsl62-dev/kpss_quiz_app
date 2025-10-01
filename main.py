@@ -200,6 +200,8 @@ def ders_secim_page():
 # ===============================
 # Konu Seçim Sayfası (Dairesel yüzde gösterimi)
 # ===============================
+from ders_konu_notlari import ders_konu_notlari
+
 def konu_secim_page(ders):
 
     # Geri butonu sol üst
@@ -207,11 +209,19 @@ def konu_secim_page(ders):
         st.session_state["page"] = "ders"
         st.rerun()
     
-    # st.header(f"{ders} - Konu Seçimi")
     st.markdown(
-    f"<h2 style='color: ; font-size:30px;'>{ders} - Konu Seçimi</h2>",
-    unsafe_allow_html=True
+        f"<h2 style='font-size:30px;'>{ders} - Konu Seçimi</h2>",
+        unsafe_allow_html=True
     )
+
+    # 📘 Ders Notu butonu
+    ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
+    if ders_notu_link:
+        st.markdown(
+            f"<a href='{ders_notu_link}' target='_blank'><button style='background-color:#2196F3; color:white; padding:10px; border:none; border-radius:8px; cursor:pointer;'>📘 Ders Notu</button></a>",
+            unsafe_allow_html=True
+        )
+
     konular = list(soru_bankasi[ders].keys())
     sonuclar = st.session_state.get("sonuclar", {})
 
@@ -231,7 +241,6 @@ def konu_secim_page(ders):
 
         col1, col2 = st.columns([1, 10])
         with col1:
-            # Dairesel yüzde göstergesi HTML + CSS
             st.markdown(f"""
             <div style="
                 width:40px; height:40px; border-radius:40%;
@@ -248,11 +257,8 @@ def konu_secim_page(ders):
                 st.session_state["page"] = "test"
                 st.rerun()
 
-
-
     st.markdown("---")  # alt çizgi ile ayır
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-
 
 
 # ===============================
@@ -653,6 +659,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
