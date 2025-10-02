@@ -280,41 +280,9 @@ from ders_konu_notlari import ders_konu_notlari
 
 def test_secim_page(secilen_ders, secilen_konu):
     # Geri butonu sol üst
-#    if st.button("🔙 Geri"):
-#        st.session_state["page"] = "konu"
-#       st.rerun()
-
-    # 🔙 Geri butonu (HTML ile görselleştirilmiş)
-
-    # transparent 
-    
-    # CSS ile stil tanımı
-    st.markdown(
-        """
-        <style>
-        .geri-btn > button {
-            background-color: transparent;
-            color: black;
-            padding: 6px 12px;
-            border: 1px solid #ff6347;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-        .geri-btn > button:hover {
-            background-color: #007BFF;
-            color: white;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-    # 🔙 Geri butonu
-    col1, col2 = st.columns([0.15, 0.85])
-    with col1:
-        if st.button("🔙 Geri", key="geri_buton", help="Önceki sayfaya dön", type="secondary"):
-            st.session_state["page"] = "konu"
-            st.rerun()
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "konu"
+       st.rerun()
 
     st.markdown(
         f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu}</h2>",
@@ -703,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
