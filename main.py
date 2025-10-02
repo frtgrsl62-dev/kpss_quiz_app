@@ -282,10 +282,10 @@ def test_secim_page(secilen_ders, secilen_konu):
     # Geri butonu sol üst
     if st.button("🔙 Geri"):
         st.session_state["page"] = "konu"
-       st.rerun()
-
+        st.rerun()
+    
     st.markdown(
-        f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu}</h2>",
+        f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu} </h2>",
         unsafe_allow_html=True
     )
 
@@ -671,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
