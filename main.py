@@ -539,7 +539,7 @@ def genel_rapor_page():
         unsafe_allow_html=True
     )
 
-   # Konteyner ile sabitle
+    # Konteyner ile sabitle
     top_left = st.container()
     with top_left:
         col1, col2 = st.columns([0.2, 0.8])
@@ -555,7 +555,7 @@ def genel_rapor_page():
         st.info("Henüz herhangi bir test çözülmedi.")
     else:
         for ders, konular in sonuclar.items():
-            with st.expander(f"📘 {ders}"):    
+            with st.expander(f" {ders}"):    #📕📙📚📘📗#
                 for konu, sonuc in konular.items():
                     if not isinstance(sonuc, dict):
                         continue
@@ -565,16 +565,13 @@ def genel_rapor_page():
                     toplam = dogru + yanlis
                     oran = f"{dogru / toplam * 100:.0f}%" if toplam > 0 else "0%"
 
-                    # Satırı tek satırda yaz, yanına expander ekle
-                    col1, col2 = st.columns([4,1])
-                    with col1:
-                        st.markdown(f"**{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
-                    with col2:
-                        testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
-                        if testler:
-                            with st.expander("📑 Test Detayları"):
-                                for test_no, t_sonuc in testler.items():
-                                    st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
+                    st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
+
+                    testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
+                    if testler:
+                        with st.expander(f"📑 Test Detayları"):
+                            for test_no, t_sonuc in testler.items():
+                                st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
 
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -674,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
