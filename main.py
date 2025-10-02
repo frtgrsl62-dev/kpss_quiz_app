@@ -280,9 +280,28 @@ from ders_konu_notlari import ders_konu_notlari
 
 def test_secim_page(secilen_ders, secilen_konu):
     # Geri butonu sol üst
-    if st.button("🔙 Geri"):
-        st.session_state["page"] = "konu"
-        st.rerun()
+#    if st.button("🔙 Geri"):
+#        st.session_state["page"] = "konu"
+#       st.rerun()
+
+# 🔙 Geri butonu (HTML ile görselleştirilmiş)
+geri_buton = st.markdown(
+    f"""
+    <a href='#' onclick="window.parent.postMessage({{ type: 'streamlit:setSessionState', key: 'page', value: 'konu' }}, '*')">
+        <button style="
+            background-color: transparent; 
+            color: black; 
+            padding: 6px 12px; 
+            border: 1px solid #007BFF; 
+            border-radius: 8px; 
+            cursor: pointer;">
+            🔙 Geri
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+    
     
     st.markdown(
         f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu} </h2>",
@@ -671,6 +690,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
