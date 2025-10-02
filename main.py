@@ -285,14 +285,17 @@ def test_secim_page(secilen_ders, secilen_konu):
 #       st.rerun()
 
     # 🔙 Geri butonu (HTML ile görselleştirilmiş)
+
+    # transparent 
+    
     st.markdown(
         f"""
         <a href='#' onclick="window.parent.postMessage({{ type: 'streamlit:setSessionState', key: 'page', value: 'konu' }}, '*')">
             <button style="
-                background-color: transparent; 
-                color: black; 
+                background-color: #ff6347;  
+                color: ; 
                 padding: 6px 12px; 
-                border: 1px solid #007BFF; 
+                border: 1px solid #a52a2a; 
                 border-radius: 8px; 
                 cursor: pointer;">
                 🔙 Geri
@@ -689,6 +692,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
