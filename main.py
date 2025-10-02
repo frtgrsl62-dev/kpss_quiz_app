@@ -569,7 +569,7 @@ def genel_rapor_page():
 
                     testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
                     if testler:
-                        with st.expander(f"📑 Test Detayları"):
+                        with st.expander(f"📑 {konu} Test Detayları"):
                             for test_no, t_sonuc in testler.items():
                                 st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
 
@@ -671,6 +671,7 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+
 
 
 
