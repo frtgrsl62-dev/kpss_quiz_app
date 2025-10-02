@@ -7111,7 +7111,584 @@ soru_bankasi = {
   }
     ],
         
-    "13) Çağdaş Türk ve Dünya Tarihi": []
+    "13) Çağdaş Türk ve Dünya Tarihi": [
+          {
+    "soru": "II. Dünya Savaşı sırasında Cumhurbaşkanı İsmet İnönü liderliğindeki Türkiye'nin izlediği temel dış politika aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Mihver Devletleri yanında savaşa girmek",
+      "B": "Müttefik Devletler ile birlikte Balkanlarda yeni bir cephe açmak",
+      "C": "Tarafsız kalarak savaşın dışında kalmaya çalışmak (Denge Politikası)",
+      "D": "Sovyetler Birliği ile askeri bir ittifak kurmak",
+      "E": "Kaybedilen toprakları geri almak için yayılmacı bir politika izlemek"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Türkiye'nin II. Dünya Savaşı'ndaki temel amacı, I. Dünya Savaşı'ndaki gibi bir yıkım yaşamamak ve ülke bütünlüğünü korumaktı. Bu amaçla, her iki tarafı da idare eden ve savaşa fiilen girmemeyi hedefleyen bir Denge Politikası izlenmiştir. Koçunun Yorumu: Türkiye'nin bu savaştaki en büyük başarısı, savaşa girmemiş olmasıdır. ÖSYM, bu denge politikasını sıkça sorgular."
+  },
+  {
+    "soru": "II. Dünya Savaşı'ndan sonra ABD'nin, Sovyet tehdidi altındaki ülkelerin komünizme karşı direnmelerine yardımcı olmak amacıyla, ilk olarak Türkiye ve Yunanistan'a askeri yardım yapmasını öngören politika aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Marshall Planı",
+      "B": "Truman Doktrini",
+      "C": "Eisenhower Doktrini",
+      "D": "Monroe Doktrini",
+      "E": "Balfour Deklarasyonu"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Sovyetler Birliği'nin Türkiye'den Boğazlarda üs ve doğuda toprak talep etmesi üzerine ABD Başkanı Truman, SSCB'nin yayılmacılığına karşı çevreleme politikasını başlatmış ve bu doktrinle Türkiye ve Yunanistan'a acil askeri yardım yapma kararı almıştır. Koçunun Yorumu: Truman Doktrini (askeri yardım) ile Marshall Planı'nı (ekonomik yardım) ayırt etmek çok önemlidir."
+  },
+  {
+    "soru": "Türkiye'nin 1952 yılında NATO'ya (Kuzey Atlantik Paktı) üye olarak kabul edilmesinde, aşağıdaki gelişmelerden hangisi en etkili olmuştur?",
+    "secenekler": {
+      "A": "II. Dünya Savaşı'na fiilen katılması",
+      "B": "Demokrat Parti'nin iktidara gelmesi",
+      "C": "Kore Savaşı'na asker göndermesi",
+      "D": "Birleşmiş Milletler'e üye olması",
+      "E": "Balkan Antantı'nı imzalaması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kore Savaşı'na TBMM'nin asker gönderme kararı ve Türk tugayının kahramanlıkları, Türkiye'nin Batı ittifakı için güvenilir müttefik olduğunu kanıtlamış ve NATO'ya girişini hızlandırmıştır. Koçunun Yorumu: Kore'ye asker göndermek 'bedel', NATO üyeliği ise 'ödül'dür."
+  },
+  {
+    "soru": "1974 Kıbrıs Barış Harekâtı'nın parolası olan 'Ayşe tatile çıksın' ifadesini kullanan dönemin Dışişleri Bakanı kimdir?",
+    "secenekler": {
+      "A": "İsmet İnönü",
+      "B": "Bülent Ecevit",
+      "C": "Turan Güneş",
+      "D": "Necmettin Erbakan",
+      "E": "Süleyman Demirel"
+    },
+    "dogru_cevap": "C",
+    "cozum": "1974'te Başbakan Bülent Ecevit ve Başbakan Yardımcısı Necmettin Erbakan'ın kararıyla yapılan harekâtın başladığını bildirmek için Turan Güneş'e 'Ayşe tatile çıksın' parolası iletilmiştir. Koçunun Yorumu: Detay bilgisi gerektirir; Başbakan Ecevit olsa da parola Dışişleri Bakanı Turan Güneş'e iletilmiştir."
+  },
+  {
+    "soru": "Sovyetler Birliği'nin 1991'de dağılmasının ardından, Türk Cumhuriyetleri ile Türkiye arasındaki kültürel ilişkileri geliştirmek amacıyla kurulan teşkilat aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "TİKA",
+      "B": "TÜRKSOY",
+      "C": "NATO",
+      "D": "Avrupa Konseyi",
+      "E": "Karadeniz Ekonomik İşbirliği (KEİ)"
+    },
+    "dogru_cevap": "B",
+    "cozum": "TÜRKSOY, Türk halkları arasında ortak kültürü, dili ve sanatı yaşatmak amacıyla kurulmuştur. TİKA ise ekonomik-teknik işbirliği odaklıdır. Koçunun Yorumu: 'Kültürel' kelimesi sorunun anahtar kelimesidir."
+  },
+  {
+    "soru": "II. Dünya Savaşı'ndan sonra çok partili hayata geçişin ilk adımı olarak kabul edilen 'Dörtlü Takrir'i veren siyasetçilerin kurduğu parti hangisidir?",
+    "secenekler": {
+      "A": "Millet Partisi",
+      "B": "Milli Kalkınma Partisi",
+      "C": "Demokrat Parti",
+      "D": "Adalet Partisi",
+      "E": "Hürriyet Partisi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan tarafından CHP içinde verilen 'Dörtlü Takrir'in reddedilmesi üzerine Demokrat Parti kurulmuştur. Koçunun Yorumu: Bu olay, çok partili demokratik hayatın başlangıcıdır."
+  },
+  {
+    "soru": "1962 yılında Sovyetler Birliği'nin Küba'ya, ABD'nin ise Türkiye'ye nükleer füzeler yerleştirmesiyle yaşanan kriz hangisidir?",
+    "secenekler": {
+      "A": "Vietnam Savaşı",
+      "B": "Süveyş Krizi",
+      "C": "Berlin Buhranı",
+      "D": "Küba Füze Krizi",
+      "E": "Kore Savaşı"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Soğuk Savaş'ın en tehlikeli anıdır. Türkiye'deki Jüpiter Füzeleri pazarlık konusu yapılmış, kriz Yumuşama (Détente) dönemini başlatmıştır."
+  },
+  {
+    "soru": "ABD ile Çin arasındaki 'Ping-Pong Diplomasisi' hangi dönemin karakteristik olayıdır?",
+    "secenekler": {
+      "A": "II. Dünya Savaşı",
+      "B": "Soğuk Savaş'ın ilk yılları",
+      "C": "Yumuşama (Détente) Dönemi",
+      "D": "Küreselleşme Dönemi",
+      "E": "Bağlantısızlar Hareketi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "ABD'nin Çin ile ilişkileri yumuşatması, SSCB'ye karşı denge unsuru yaratma hamlesidir. Koçunun Yorumu: Bu olay Yumuşama Dönemi'nin sembolik başlangıçlarındandır."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi II. Dünya Savaşı yıllarında Türkiye'de alınan ekonomik tedbirlerden biri değildir?",
+    "secenekler": {
+      "A": "Milli Korunma Kanunu'nun çıkarılması",
+      "B": "Ekmek karnesi uygulamasına geçilmesi",
+      "C": "Varlık Vergisi'nin konulması",
+      "D": "Aşar vergisinin kaldırılması",
+      "E": "Narh uygulamasına geçilmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Aşar vergisi 1925'te kaldırılmıştır. Diğerleri savaşın yarattığı olağanüstü ekonomik tedbirlerdir."
+  },
+  {
+    "soru": "1990'larda Yugoslavya'nın dağılması sırasında Bosnalı Müslümanlara yönelik gerçekleştirilen soykırım olayı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Hocalı Katliamı",
+      "B": "Srebrenitsa Katliamı",
+      "C": "Halepçe Katliamı",
+      "D": "Kanlı Noel",
+      "E": "Baas Katliamı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "1995'te Srebrenitsa'da 8 binden fazla Boşnak sivil katledilmiştir. Avrupa'da II. Dünya Savaşı'ndan sonra yaşanan en büyük soykırımdır."
+  },
+  {
+    "soru": "Winston Churchill'in, Doğu Avrupa ve Batı arasındaki bölünmeyi tanımlamak için kullandığı ifade hangisidir?",
+    "secenekler": {
+      "A": "Demir Perde",
+      "B": "Domino Teorisi",
+      "C": "Çevreleme Politikası",
+      "D": "Açık Kapı Politikası",
+      "E": "Hayat Sahası"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Churchill, bu ifadeyle Soğuk Savaş'ın ideolojik-siyasi bölünmesini simgeleştirmiştir."
+  },
+  {
+    "soru": "1956 yılında Mısır'ın Süveyş Kanalı'nı millileştirmesiyle başlayan kriz aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Küba Füze Krizi",
+      "B": "Berlin Buhranı",
+      "C": "Süveyş Krizi",
+      "D": "Vietnam Savaşı",
+      "E": "Yom Kippur Savaşı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İngiltere, Fransa ve İsrail'in saldırısıyla başlayan bu kriz ABD ve SSCB'nin müdahalesiyle sona ermiştir."
+  },
+  {
+    "soru": "Türkiye'nin II. Dünya Savaşı'nın sonlarında Almanya ve Japonya'ya sembolik savaş ilan etmesinin amacı nedir?",
+    "secenekler": {
+      "A": "Mihver Devletleri'nden toprak almak",
+      "B": "Sovyet yayılmasını engellemek",
+      "C": "BM'ye kurucu üye olmak",
+      "D": "İngiltere-Fransa'dan yardım almak",
+      "E": "Orduya savaş tecrübesi kazandırmak"
+    },
+    "dogru_cevap": "C",
+    "cozum": "San Francisco Konferansı'na katılarak BM'nin kurucu üyelerinden olmak amacıyla sembolik savaş ilan edilmiştir."
+  },
+  {
+    "soru": "1955 yılında Sovyetler Birliği'nin öncülüğünde NATO'ya karşı kurulan askeri pakt hangisidir?",
+    "secenekler": {
+      "A": "CENTO",
+      "B": "SEATO",
+      "C": "Varşova Paktı",
+      "D": "Balkan Paktı",
+      "E": "ANZUS Paktı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Varşova Paktı, NATO'ya karşı Doğu Bloku ülkeleri arasında kuruldu."
+  },
+  {
+    "soru": "1950 seçimlerinde Demokrat Parti'nin iktidara gelmesiyle tek parti döneminin sona ermesi hangi adla anılır?",
+    "secenekler": {
+      "A": "Beyaz Devrim",
+      "B": "Kadife Devrim",
+      "C": "Turuncu Devrim",
+      "D": "Karanfil Devrimi",
+      "E": "Kültür Devrimi"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Halkın oylarıyla kansız bir şekilde iktidarın el değiştirmesi 'Beyaz Devrim' olarak adlandırılmıştır."
+  },
+  {
+    "soru": "Bağlantısızlar Hareketi'nin temelleri hangi konferansta atılmıştır?",
+    "secenekler": {
+      "A": "Yalta",
+      "B": "Potsdam",
+      "C": "San Francisco",
+      "D": "Bandung",
+      "E": "Helsinki"
+    },
+    "dogru_cevap": "D",
+    "cozum": "1955 Bandung Konferansı'nda ABD ve SSCB'den bağımsız 'üçüncü yol' hareketi doğmuştur."
+  },
+  {
+    "soru": "Kıbrıs Cumhuriyeti'nin kurulmasını sağlayan antlaşmalar aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Paris ve Londra",
+      "B": "Zürih ve Londra",
+      "C": "Atina ve Ankara",
+      "D": "Lozan ve Montrö",
+      "E": "Sevr ve Lozan"
+    },
+    "dogru_cevap": "B",
+    "cozum": "1959 Zürih ve Londra Antlaşmaları'yla 1960'da Kıbrıs Cumhuriyeti kurulmuştur."
+  },
+  {
+    "soru": "Soğuk Savaş'ın sona ermesine yol açan gelişmelerden hangisi en belirleyicidir?",
+    "secenekler": {
+      "A": "Vietnam Savaşı",
+      "B": "Küba Füze Krizi",
+      "C": "Helsinki Nihai Senedi",
+      "D": "Berlin Duvarı'nın yıkılması ve SSCB'nin dağılması",
+      "E": "11 Eylül Saldırıları"
+    },
+    "dogru_cevap": "D",
+    "cozum": "1989'da Berlin Duvarı'nın yıkılması sembolik, 1991'de SSCB'nin dağılması ise resmî sonu getirmiştir."
+  },
+  {
+    "soru": "1950'de Demokrat Parti'nin iktidara gelmesiyle Türkiye'nin ilk sivil kökenli cumhurbaşkanı kim olmuştur?",
+    "secenekler": {
+      "A": "İsmet İnönü",
+      "B": "Adnan Menderes",
+      "C": "Celal Bayar",
+      "D": "Refik Koraltan",
+      "E": "Fuat Köprülü"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Celal Bayar Cumhurbaşkanı, Adnan Menderes ise Başbakan olmuştur."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Mihver Devletleri liderlerinden biri değildir?",
+    "secenekler": {
+      "A": "Adolf Hitler",
+      "B": "Benito Mussolini",
+      "C": "İmparator Hirohito",
+      "D": "Francisco Franco",
+      "E": "Hideki Tojo"
+    },
+    "dogru_cevap": "D",
+    "cozum": "İspanya lideri Franco tarafsız kalmıştır, diğerleri Mihver liderleridir."
+  },
+  {
+    "soru": "Kıbrıs Barış Harekâtı'ndan sonra ABD'nin silah ambargosu Türkiye'yi hangi alanda sanayi geliştirmeye yöneltmiştir?",
+    "secenekler": {
+      "A": "Tarım",
+      "B": "Tekstil",
+      "C": "Turizm",
+      "D": "İletişim",
+      "E": "Savunma Sanayii"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Ambargo ASELSAN, ROKETSAN gibi savunma sanayii kurumlarının gelişmesine yol açtı."
+  },
+  {
+    "soru": "SSCB lideri Gorbaçov'un başlattığı, 'yeniden yapılanma' ve 'açıklık' politikalarının adı nedir?",
+    "secenekler": {
+      "A": "Kominform",
+      "B": "Molotov Planı",
+      "C": "Brejnev Doktrini",
+      "D": "Perestroyka ve Glasnost",
+      "E": "Kruşçev'in Çözülmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Perestroyka (ekonomik reform), Glasnost (siyasi açıklık). Ancak reformlar SSCB'nin çöküşünü hızlandırmıştır."
+  },
+     {
+    "soru": "1970'lerde petrol fiyatlarının artışıyla başlayan ekonomik kriz hangi savaşın sonucunda ortaya çıkmıştır?",
+    "secenekler": {
+      "A": "Vietnam Savaşı",
+      "B": "1973 Arap-İsrail (Yom Kippur) Savaşı",
+      "C": "Kore Savaşı",
+      "D": "İran-Irak Savaşı",
+      "E": "Altı Gün Savaşları"
+    },
+    "dogru_cevap": "B",
+       "cozum": "1973 Arap-İsrail (Yom Kippur) Savaşı. Bu savaş sırasında Arap petrol üreticisi ülkelerin (OAPEC), İsrail'i destekleyen Batılı ülkelere petrol ambargosu uygulaması, dünya çapında bir petrol krizine ve ekonomik durgunluğa yol açmıştır."
+  },
+    {
+    "soru": "II. Dünya Savaşı sırasında Türkiye'nin savaşa girmemesi için diplomatik çaba harcayan ve İngiltere Başbakanı Churchill ile Adana ve Kahire'de görüşmeler yapan Türk devlet adamı kimdir?",
+    "secenekler": {
+      "A": "Celal Bayar",
+      "B": "Fevzi Çakmak",
+      "C": "İsmet İnönü",
+      "D": "Şükrü Saraçoğlu",
+      "E": "Numan Menemencioğlu"
+    },
+    "dogru_cevap": "C",
+    "cozum": "II. Dünya Savaşı yıllarında Türkiye'nin Cumhurbaşkanı İsmet İnönü'dür. 'Milli Şef' unvanıyla anılan İnönü, savaş boyunca hem Mihver hem de Müttefik devletler arasında çok hassas bir 'Denge Politikası' yürütmüştür. Churchill ile yaptığı Adana ve Kahire görüşmeleri, Müttefiklerin Türkiye'yi savaşa sokma yönündeki baskılarına karşı, ordunun yetersizliğini öne sürerek bu baskıları savuşturduğu en kritik diplomatik hamlelerdir."
+  },
+  {
+    "soru": "II. Dünya Savaşı'ndan sonra Sovyetler Birliği'nin Türkiye'den toprak ve Boğazlarda üs talep etmesi, Türkiye'yi aşağıdaki adımlardan hangisini atmaya doğrudan yöneltmiştir?",
+    "secenekler": {
+      "A": "Bağlantısızlar Hareketi'ne katılmaya",
+      "B": "Güvenlik arayışı içinde ABD ve Batı Bloku'na yakınlaşmaya",
+      "C": "Mihver Devletleri ile ittifak kurmaya",
+      "D": "Orta Doğu'da yeni bir pakt kurmaya",
+      "E": "Milletler Cemiyeti'nden ayrılmaya"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Savaş sonrası yalnız kalan Türkiye, SSCB'nin Kars, Ardahan'ı ve Boğazlarda askeri üs talep etmesiyle büyük bir güvenlik tehdidi altına girmiştir. Bu tehdit karşısında tek başına direnemeyeceğini anlayan Türkiye, mecburen ABD ve Batı Avrupa devletlerinin oluşturduğu Batı Bloku'na dahil olma politikası izlemiştir. Truman Doktrini ve Marshall Planı'ndan yararlanması bu politikanın ilk adımlarıdır."
+  },
+  {
+    "soru": "'Demir Perde' ifadesini, II. Dünya Savaşı sonrası Avrupa'daki Sovyet yayılmacılığını ve kıtanın ikiye bölünmüşlüğünü anlatmak için ilk kez kullanan siyasetçi kimdir?",
+    "secenekler": {
+      "A": "Franklin D. Roosevelt",
+      "B": "Harry S. Truman",
+      "C": "Joseph Stalin",
+      "D": "Winston Churchill",
+      "E": "Charles de Gaulle"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Winston Churchill, 1946'da ABD'nin Fulton şehrinde yaptığı bir konuşmada 'Baltık'taki Stettin'den Adriyatik'teki Trieste'ye kadar, Avrupa kıtasının üzerine bir demir perde inmiştir.' demiştir. Bu ifade, Soğuk Savaş'ın başlangıcını ve Avrupa'nın ideolojik olarak ikiye bölündüğünü simgeleyen en ünlü metafor haline gelmiştir."
+  },
+  {
+    "soru": "1947'de Hindistan'ın bağımsızlık sürecine liderlik eden ve 'pasif direniş' (Satyagraha) felsefesiyle tanınan lider aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Mahatma Gandhi",
+      "B": "Muhammed Ali Cinnah",
+      "C": "Jawaharlal Nehru",
+      "D": "Nelson Mandela",
+      "E": "Subhas Chandra Bose"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Gandhi, İngiliz sömürgeciliğine karşı şiddet içermeyen sivil itaatsizlik ve pasif direniş eylemleriyle Hindistan halkına önderlik etmiştir. Muhammed Ali Cinnah ise aynı süreçte Müslümanlar için ayrı bir devlet (Pakistan) kurulması mücadelesini veren liderdir."
+  },
+  {
+    "soru": "1950-1953 yılları arasında yaşanan Kore Savaşı'nda, Türkiye'nin Birleşmiş Milletler gücü altında asker göndermesinin temel stratejik amacı neydi?",
+    "secenekler": {
+      "A": "Komünizmin Kore'de yayılmasını engellemek",
+      "B": "Uzak Doğu'da toprak elde etmek",
+      "C": "Sovyetler Birliği'ne karşı askeri gücünü göstermek",
+      "D": "Batı ittifakına olan bağlılığını kanıtlayarak NATO'ya üye olabilmek",
+      "E": "Birleşmiş Milletler Güvenlik Konseyi'nde yer almak"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Soğuk Savaş'ın başlarında Türkiye, NATO'ya girmek istese de bazı üyeler buna sıcak bakmıyordu. Kore Savaşı, Türkiye için Batı Bloku'na olan sadakatini ve askeri fedakârlık yapabileceğini kanıtlama fırsatı oldu. Türk tugayının Kore'deki başarıları, Türkiye'nin 1952'de NATO'ya kabul edilmesinde kilit rol oynamıştır."
+  },
+  {
+    "soru": "Soğuk Savaş döneminde Ortadoğu'da Sovyet etkisini kırmak amacıyla Türkiye, Irak, İran, Pakistan ve İngiltere'nin katılımıyla 1955'te kurulan pakt aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "NATO",
+      "B": "Varşova Paktı",
+      "C": "Balkan Paktı",
+      "D": "Bağdat Paktı (CENTO)",
+      "E": "Sadabat Paktı"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Bu pakt, NATO'nun Ortadoğu'daki tamamlayıcısı olarak, Sovyetler Birliği'ni güneyden çevreleme politikasının bir parçasıydı. Irak'ın 1959'da paktan çekilmesi üzerine merkez Ankara'ya taşınmış ve adı CENTO olarak değiştirilmiştir."
+  },
+  {
+    "soru": "Mısır lideri Cemal Abdülnasır'ın öncülük ettiği, Arap milliyetçiliğini ve sosyalizmini birleştiren siyasi ideolojiye ne ad verilir?",
+    "secenekler": {
+      "A": "Baasçılık",
+      "B": "Siyonizm",
+      "C": "Apartheid",
+      "D": "Enosis",
+      "E": "Panslavizm"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Baas Partisi'nin temel ideolojisi olan Baasçılık, Suriye ve Irak gibi ülkelerde etkili olmuş, 'Tek bir Arap ulusu' yaratma hedefini gütmüştür. Arap milliyetçiliği, anti-emperyalizm ve sosyalizm bu ideolojinin temel taşlarıdır."
+  },
+  {
+    "soru": "1964'te Türkiye'nin Kıbrıs'a müdahalesini engellemek amacıyla ABD Başkanı tarafından Başbakan İsmet İnönü'ye gönderilen ve Türk-Amerikan ilişkilerinde bir krize yol açan mektup hangisidir?",
+    "secenekler": {
+      "A": "Truman Mektubu",
+      "B": "Marshall Mektubu",
+      "C": "Johnson Mektubu",
+      "D": "Eisenhower Mektubu",
+      "E": "Nixon Mektubu"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kıbrıs'ta Türklere yönelik saldırıların artması üzerine Türkiye'nin müdahale hazırlığı yapması, ABD Başkanı Johnson'ın çok sert ve tehditkar bir dille yazdığı mektupla engellenmiştir. Bu mektup, Türkiye'nin NATO müttefiklerine ne kadar güvenebileceği konusunda büyük bir hayal kırıklığı yaratmıştır."
+  },
+  {
+    "soru": "1980'li yıllarda SSCB lideri Mihail Gorbaçov'un başlattığı ve 'açıklık' anlamına gelen, siyasi eleştirilere ve basın özgürlüğüne sınırlı da olsa izin veren politika hangisidir?",
+    "secenekler": {
+      "A": "Perestroyka",
+      "B": "Glasnost",
+      "C": "Brejnev Doktrini",
+      "D": "Kominform",
+      "E": "Molotov Planı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Gorbaçov'un reformları iki ayaklıydı: Perestroyka (yeniden yapılanma) ekonomik reformları, Glasnost (açıklık) ise siyasi ve sosyal reformları ifade ediyordu. Glasnost, komünist rejimin baskıcı yapısını gevşetmeyi amaçlasa da, bastırılmış muhalefetin ortaya çıkmasını ve birliğin dağılmasını hızlandırmıştır."
+  },
+  {
+    "soru": "1989'da Soğuk Savaş'ın sona erişinin en önemli sembolü haline gelen gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Vietnam Savaşı'nın bitmesi",
+      "B": "Küba Füze Krizi'nin çözülmesi",
+      "C": "Berlin Duvarı'nın yıkılması",
+      "D": "SSCB'nin Afganistan'ı işgal etmesi",
+      "E": "SALT-II Antlaşması'nın imzalanması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Doğu ve Batı Almanya'yı, dolayısıyla komünist ve kapitalist dünyayı birbirinden ayıran Berlin Duvarı, Soğuk Savaş'ın en somut sembolüydü. 1989'da Doğu Alman halkının duvarı yıkması, Doğu Bloku'nun çöktüğünü ve Soğuk Savaş'ın fiilen bittiğini tüm dünyaya ilan eden sembolik bir olay olmuştur."
+  },
+  {
+    "soru": "I. İnönü Zaferi'nden sonra TBMM'nin itibarı artmış ve Londra Konferansı'na davet edilmiştir. Bu durum aşağıdakilerden hangisini gösterir?",
+    "secenekler": {
+      "A": "TBMM'nin uluslararası alanda tanınmaya başladığını",
+      "B": "Saltanatın yeniden güç kazandığını",
+      "C": "Sevr Antlaşması'nın kabul edildiğini",
+      "D": "TBMM’nin kapatıldığını",
+      "E": "Yunanistan’ın savaştan çekildiğini"
+    },
+    "dogru_cevap": "A",
+    "cozum": "I. İnönü Zaferi, TBMM’nin uluslararası meşruiyetini artırmış ve Londra Konferansı’na davet edilmesini sağlamıştır. Bu, TBMM’nin artık yok sayılamayacak bir güç olduğunu gösterir. → Doğru cevap A."
+  },
+  {
+    "soru": "I. ve II. İnönü Savaşlarının ortak sonuçları arasında aşağıdakilerden hangisi yer almaz?",
+    "secenekler": {
+      "A": "TBMM’nin otoritesi güçlenmiştir",
+      "B": "Halkın TBMM’ye güveni artmıştır",
+      "C": "Düzenli ordunun ilk başarıları elde edilmiştir",
+      "D": "Saltanat makamının güçlenmesi sağlanmıştır",
+      "E": "Milli Mücadele’nin uluslararası itibarı yükselmiştir"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Her iki zafer de TBMM’yi ve düzenli orduyu güçlendirmiştir. Ancak saltanat makamının güçlenmesi söz konusu değildir. → Doğru cevap D."
+  },
+  {
+    "soru": "II. İnönü Savaşı’ndan sonra Mustafa Kemal’in 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözü aşağıdakilerden hangisini vurgular?",
+    "secenekler": {
+      "A": "Halkın TBMM’ye güveninin artmasını",
+      "B": "Saltanatın sona ermesini",
+      "C": "İstanbul’un işgalden kurtarılmasını",
+      "D": "Lozan Antlaşması’nın imzalanmasını",
+      "E": "Anadolu’nun tamamen düşmandan temizlenmesini"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Mustafa Kemal’in sözleri, Türk milletinin moral kazanımını ve TBMM’ye güvenin artışını vurgulamaktadır. → Doğru cevap A."
+  },
+  {
+    "soru": "Kütahya–Eskişehir Savaşları'nın Türk ordusu açısından en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Ankara’nın işgal edilmesi",
+      "B": "Ordunun Sakarya Nehri’nin doğusuna çekilmesi",
+      "C": "Lozan Antlaşması’nın imzalanması",
+      "D": "Sevr Antlaşması’nın kabul edilmesi",
+      "E": "Saltanatın kaldırılması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kütahya–Eskişehir Savaşları sonrası Türk ordusu Sakarya Nehri’nin doğusuna çekilmiş, ancak bu durum stratejik bir savunma için gerekli olmuştur. → Doğru cevap B."
+  },
+  {
+    "soru": "Kütahya–Eskişehir Savaşları’nın ardından TBMM’nin çıkardığı 'Başkomutanlık Kanunu' ile Mustafa Kemal’e hangi yetki verilmiştir?",
+    "secenekler": {
+      "A": "TBMM’yi kapatma yetkisi",
+      "B": "Saltanatı kaldırma yetkisi",
+      "C": "Meclisin tüm yetkilerini kullanma yetkisi",
+      "D": "Lozan’a delege gönderme yetkisi",
+      "E": "İtilaf devletleriyle ateşkes yapma yetkisi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Başkomutanlık Kanunu ile Mustafa Kemal, meclisin tüm yetkilerini kullanarak orduyu yeniden düzenleme yetkisine sahip olmuştur. → Doğru cevap C."
+  },
+  {
+    "soru": "Tekâlif-i Milliye Emirleri hangi savaş öncesinde yayımlanmıştır?",
+    "secenekler": {
+      "A": "I. İnönü",
+      "B": "II. İnönü",
+      "C": "Kütahya–Eskişehir",
+      "D": "Sakarya",
+      "E": "Büyük Taarruz"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Tekâlif-i Milliye Emirleri, Sakarya Meydan Muharebesi öncesinde orduyu donatmak için yayımlanmıştır. → Doğru cevap D."
+  },
+  {
+    "soru": "Sakarya Meydan Muharebesi'nin en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "İtilaf Devletleri arasında birlik bozulmuştur",
+      "B": "Saltanat kaldırılmıştır",
+      "C": "İstanbul işgalden kurtarılmıştır",
+      "D": "Lozan Antlaşması imzalanmıştır",
+      "E": "Cumhuriyet ilan edilmiştir"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Sakarya Zaferi sonrası İtilaf Devletleri arasındaki birlik bozulmuş, İtalya tamamen Anadolu’dan çekilmiştir. → Doğru cevap A."
+  },
+  {
+    "soru": "Sakarya Meydan Muharebesi’nden sonra imzalanan Kars Antlaşması hangi devletlerle yapılmıştır?",
+    "secenekler": {
+      "A": "İtalya, Yunanistan, İngiltere",
+      "B": "Sovyetler Birliği ve Kafkas devletleri",
+      "C": "Fransa ve İtalya",
+      "D": "Yunanistan ve İngiltere",
+      "E": "Bulgaristan ve Romanya"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kars Antlaşması, Türkiye ile Sovyetler Birliği’nin etkisindeki Kafkas devletleri (Azerbaycan, Gürcistan, Ermenistan) arasında imzalanmıştır. → Doğru cevap B."
+  },
+  {
+    "soru": "Sakarya Meydan Muharebesi sonrasında Fransızlarla imzalanan antlaşma aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Moskova Antlaşması",
+      "B": "Lozan Antlaşması",
+      "C": "Kars Antlaşması",
+      "D": "Ankara Antlaşması",
+      "E": "Mudanya Ateşkesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Sakarya Zaferi’nden sonra Fransa ile Ankara Antlaşması imzalanmış, Güney Cephesi kapanmıştır. → Doğru cevap D."
+  },
+  {
+    "soru": "Büyük Taarruz’un hemen öncesinde ordunun başına geçen Mustafa Kemal hangi unvanla savaşı yönetmiştir?",
+    "secenekler": {
+      "A": "Başbakan",
+      "B": "Başkomutan",
+      "C": "Cumhurbaşkanı",
+      "D": "Genelkurmay Başkanı",
+      "E": "Mareşal"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Büyük Taarruz sırasında Mustafa Kemal, TBMM’nin kendisine verdiği Başkomutanlık yetkisi ile savaşı yönetmiştir. → Doğru cevap B."
+  },
+  {
+    "soru": "Büyük Taarruz ve Başkomutanlık Meydan Muharebesi’nin en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yunan ordusunun tamamen Anadolu’dan çıkarılması",
+      "B": "Lozan Antlaşması’nın imzalanması",
+      "C": "Saltanatın kaldırılması",
+      "D": "Cumhuriyet’in ilanı",
+      "E": "İzmir İktisat Kongresi’nin toplanması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Büyük Taarruz’un en önemli sonucu Yunan ordusunun tamamen Anadolu’dan çıkarılmasıdır. → Doğru cevap A."
+  },
+  {
+    "soru": "Büyük Taarruz’dan sonra imzalanan ateşkes antlaşması aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Lozan Antlaşması",
+      "B": "Mondros Ateşkesi",
+      "C": "Mudanya Ateşkesi",
+      "D": "Ankara Antlaşması",
+      "E": "Sevr Antlaşması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Büyük Taarruz zaferinden sonra İtilaf Devletleri ile Mudanya Ateşkesi imzalanmıştır. → Doğru cevap C."
+  },
+  {
+    "soru": "Mudanya Ateşkesi’nin en önemli maddesi aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Doğu sınırlarının belirlenmesi",
+      "B": "Boğazların uluslararası komisyona bırakılması",
+      "C": "Doğu Trakya’nın savaş yapılmadan Türk topraklarına katılması",
+      "D": "Saltanatın kaldırılması",
+      "E": "Cumhuriyetin ilanı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Mudanya Ateşkesi ile Doğu Trakya savaş yapılmadan Türk topraklarına katılmıştır. → Doğru cevap C."
+  },
+  {
+    "soru": "Kurtuluş Savaşı’nın askeri safhasını bitiren gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sakarya Meydan Muharebesi",
+      "B": "Lozan Antlaşması",
+      "C": "Mudanya Ateşkesi",
+      "D": "Büyük Taarruz",
+      "E": "II. İnönü Savaşı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Mudanya Ateşkesi ile Kurtuluş Savaşı’nın askeri safhası bitmiş, siyasi dönem başlamıştır. → Doğru cevap C."
+  },
+  {
+    "soru": "Kurtuluş Savaşı'nın siyasi safhasını başlatan gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Lozan Antlaşması görüşmelerinin başlaması",
+      "B": "Saltanatın kaldırılması",
+      "C": "Cumhuriyetin ilanı",
+      "D": "İzmir İktisat Kongresi",
+      "E": "Moskova Antlaşması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Mudanya Ateşkesi’nin ardından Lozan görüşmeleri başlamış, böylece siyasi dönem açılmıştır. → Doğru cevap A."
+  }   
+    ]
 
 },
 "🌍 Coğrafya": {
@@ -7219,6 +7796,7 @@ soru_bankasi = {
         "2) Sanat ve Edebiyat": []
     }
 }
+
 
 
 
