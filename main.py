@@ -628,6 +628,7 @@ def profil_page():
     st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
+
 # ===============================
 # Deneme Sınavları
 # ===============================
@@ -648,7 +649,7 @@ def deneme_secim_page():
                 # Çözülmüş testleri renklendir
                 test_sonuc = sonuclar.get("📝 Deneme Sınavı", {}).get(deneme_adi, {}).get(alt_baslik)
                 if test_sonuc:
-                    dogru_sayi = test_sonuc.get('dogru', 0)
+                    dogru_sayi = test_sonuc.get("dogru", 0)
                     oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
                     simge = "✅" if oran >= 0.6 else "❌"
                     label = f"{alt_baslik} ({soru_sayisi} soru) {simge} ({dogru_sayi}/{soru_sayisi})"
@@ -664,7 +665,7 @@ def deneme_secim_page():
                     st.session_state["current_test"] = {
                         "test": sorular,
                         "index": 0,
-                        "ders": "📝 Deneme Sınavı",
+                        "ders": "📝 Deneme Sınavı",   # aynı key ile kayıt için
                         "konu": f"{deneme_adi} - {alt_baslik}",
                         "test_no": 1,
                         "test_sayisi": 1
@@ -673,8 +674,10 @@ def deneme_secim_page():
                     st.rerun()
 
     st.markdown("---")
-    st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-
+    st.markdown(
+        "<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>",
+        unsafe_allow_html=True
+    )
 
 
 # ===============================
@@ -723,6 +726,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
