@@ -638,16 +638,40 @@ def deneme_secim_page():
 
     st.markdown("<h2>📝 Deneme Sınavları</h2>", unsafe_allow_html=True)
 
-    # Her deneme yılı için
-    for deneme_adi, testler in deneme_sinavlari.items():
+    sonuclar = st.session_state.get("sonuclar", {})
+
+    for deneme_adi, alt_basliklar in deneme_sinavlari.items():
         with st.expander(f"📘 {deneme_adi}"):
-            for ders_adi, sorular in testler.items():
-                if st.button(f"➡️ {ders_adi}", key=f"{deneme_adi}_{ders_adi}"):
+            for alt_baslik, sorular in alt_basliklar.items():
+                # Önce test sonuçlarını al
+                test_sonuc = sonuclar.get("Deneme", {}).get(deneme_adi, {}).get(alt_baslik, {})
+                dogru_sayi = test_sonuc.get("dogru", 0)
+                yanlis_sayi = test_sonuc.get("yanlis", 0)
+                soru_sayisi = len(sorular)
+                bos_sayi = soru_sayisi - (dogru_sayi + yanlis_sayi)
+
+                label = f"{alt_baslik} ({soru_sayisi} Soru)"
+                if soru_sayisi > 0:
+                    oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
+                    simge = "✅" if oran >= 0.6 else "❌"
+                    label = f"{label} {simge} ({dogru_sayi}/{soru_sayisi})"
+
+                # Expander içinde göster
+                st.write(f"➡️ Doğru: ✅ {dogru_sayi}")
+                st.write(f"➡️ Yanlış: ❌ {yanlis_sayi}")
+                st.write(f"➡️ Boş: ⭕ {bos_sayi}")
+
+                if st.button(f"📌 {alt_baslik} Çöz", key=f"deneme_{deneme_adi}_{alt_baslik}"):
+                    # önceki cevapları temizle
+                    cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
+                    for k in cevap_keys:
+                        del st.session_state[k]
+
                     st.session_state["current_test"] = {
                         "test": sorular,
                         "index": 0,
                         "ders": "Deneme",
-                        "konu": f"{deneme_adi} - {ders_adi}",
+                        "konu": f"{deneme_adi} - {alt_baslik}",
                         "test_no": 1,
                         "test_sayisi": 1
                     }
@@ -705,6 +729,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
