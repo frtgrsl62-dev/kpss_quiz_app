@@ -152,11 +152,11 @@ def kayit_page():
         st.session_state["page"] = "login"
         st.rerun()
 
+
 # ===============================
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-        # Sağ üst kullanıcı butonu
     col1, col2 = st.columns([8, 2])
     with col2:
         user = st.session_state.get("current_user")
@@ -166,30 +166,25 @@ def ders_secim_page():
                 st.rerun()
     
     st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # üst çizgi
+    st.markdown("---")
 
-    # Ders listesi
     for ders in soru_bankasi.keys():
         if st.button(ders):
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
             st.rerun()
 
-    # Genel Raporun üstüne Deneme Sınavları butonu
-     if st.button("📝 Deneme Sınavları"):
+    # 🔹 Hatalı girintiyi düzelttim
+    if st.button("📝 Deneme Sınavları"):
         st.session_state["page"] = "deneme"
         st.rerun()
-
     
-    # Genel Raporu Gör
     if st.button("Genel Raporu Gör 📊"):
         st.session_state["page"] = "rapor"
         st.rerun()
         
-    # Derslerden sonra çizgi
     st.markdown("---")
 
-    # Çıkış Yap (altta kalsın)
     if st.button("🔻 Çıkış Yap 🔻"):
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
         aktif_kullanici_sil()
@@ -197,7 +192,7 @@ def ders_secim_page():
         st.session_state["page"] = "login"
         st.rerun()
 
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
@@ -705,41 +700,6 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
