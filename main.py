@@ -638,19 +638,22 @@ def deneme_secim_page():
 
     st.markdown("<h2>📝 Deneme Sınavları</h2>", unsafe_allow_html=True)
 
-    for deneme_adi, sorular in deneme_sinavlari.items():
-        if st.button(deneme_adi, key=f"deneme_{deneme_adi}"):
-            st.session_state["current_test"] = {
-                "test": sorular,
-                "index": 0,
-                "ders": "Deneme",
-                "konu": deneme_adi,
-                "test_no": 1,
-                "test_sayisi": 1
-            }
-            st.session_state["page"] = "soru"
-            st.rerun()
-            
+    # Her deneme yılı için
+    for deneme_adi, testler in deneme_sinavlari.items():
+        with st.expander(f"📘 {deneme_adi}"):
+            for ders_adi, sorular in testler.items():
+                if st.button(f"➡️ {ders_adi}", key=f"{deneme_adi}_{ders_adi}"):
+                    st.session_state["current_test"] = {
+                        "test": sorular,
+                        "index": 0,
+                        "ders": "Deneme",
+                        "konu": f"{deneme_adi} - {ders_adi}",
+                        "test_no": 1,
+                        "test_sayisi": 1
+                    }
+                    st.session_state["page"] = "soru"
+                    st.rerun()
+
     st.markdown("---")
     st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
@@ -702,6 +705,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
