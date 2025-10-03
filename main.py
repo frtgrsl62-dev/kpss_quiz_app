@@ -664,7 +664,7 @@ def deneme_secim_page():
                     st.session_state["current_test"] = {
                         "test": sorular,
                         "index": 0,
-                        "ders": "Deneme",
+                        "ders": "📝 Deneme Sınavı",
                         "konu": f"{deneme_adi} - {alt_baslik}",
                         "test_no": 1,
                         "test_sayisi": 1
@@ -723,6 +723,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
