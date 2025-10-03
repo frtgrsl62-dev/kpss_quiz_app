@@ -648,20 +648,12 @@ def deneme_secim_page():
                 dogru_sayi = test_sonuc.get("dogru", 0)
                 yanlis_sayi = test_sonuc.get("yanlis", 0)
                 soru_sayisi = len(sorular)
-                bos_sayi = soru_sayisi - (dogru_sayi + yanlis_sayi)
 
-                label = f"{alt_baslik} ({soru_sayisi} Soru)"
-                if soru_sayisi > 0:
-                    oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
-                    simge = "✅" if oran >= 0.6 else "❌"
-                    label = f"{label} {simge} ({dogru_sayi}/{soru_sayisi})"
+                oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
+                simge = "✅" if oran >= 0.6 else "❌"
+                label = f"{alt_baslik} ({soru_sayisi} soru) {simge} ({dogru_sayi}/{soru_sayisi})"
 
-                # Expander içinde göster
-                st.write(f"➡️ Doğru: ✅ {dogru_sayi}")
-                st.write(f"➡️ Yanlış: ❌ {yanlis_sayi}")
-                st.write(f"➡️ Boş: ⭕ {bos_sayi}")
-
-                if st.button(f"📌 {alt_baslik} Çöz", key=f"deneme_{deneme_adi}_{alt_baslik}"):
+                if st.button(label, key=f"deneme_{deneme_adi}_{alt_baslik}"):
                     # önceki cevapları temizle
                     cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
                     for k in cevap_keys:
@@ -729,6 +721,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
