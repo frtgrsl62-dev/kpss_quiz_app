@@ -5,7 +5,7 @@ import os
 import math
 from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
 from ders_konu_notlari import ders_konu_notlari
-
+from deneme_sinavlari import deneme_sinavlari
 
 # ===============================
 # Dosya yolları
@@ -175,6 +175,12 @@ def ders_secim_page():
             st.session_state["page"] = "konu"
             st.rerun()
 
+    # Genel Raporun üstüne Deneme Sınavları butonu
+     if st.button("📝 Deneme Sınavları"):
+        st.session_state["page"] = "deneme"
+        st.rerun()
+
+    
     # Genel Raporu Gör
     if st.button("Genel Raporu Gör 📊"):
         st.session_state["page"] = "rapor"
@@ -625,6 +631,32 @@ def profil_page():
     st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
+# ===============================
+# Deneme Sınavları
+# ===============================
+def deneme_secim_page():
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "ders"
+        st.rerun()
+
+    st.markdown("<h2>📝 Deneme Sınavları</h2>", unsafe_allow_html=True)
+
+    for deneme_adi, sorular in deneme_sinavlari.items():
+        if st.button(deneme_adi, key=f"deneme_{deneme_adi}"):
+            st.session_state["current_test"] = {
+                "test": sorular,
+                "index": 0,
+                "ders": "Deneme",
+                "konu": deneme_adi,
+                "test_no": 1,
+                "test_sayisi": 1
+            }
+            st.session_state["page"] = "soru"
+            st.rerun()
+            
+    st.markdown("---")
+    st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
 
 
 # ===============================
@@ -671,6 +703,12 @@ elif st.session_state["page"] == "rapor":
     genel_rapor_page()
 elif st.session_state["page"] == "profil":
     profil_page()
+elif st.session_state["page"] == "deneme":
+    deneme_secim_page()
+
+
+
+
 
 
 
