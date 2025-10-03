@@ -157,6 +157,7 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
+        # Sağ üst kullanıcı butonu
     col1, col2 = st.columns([8, 2])
     with col2:
         user = st.session_state.get("current_user")
@@ -166,7 +167,8 @@ def ders_secim_page():
                 st.rerun()
     
     st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
-    st.markdown("---")
+    st.markdown("---")  # üst çizgi
+
 
     for ders in soru_bankasi.keys():
         if st.button(ders):
@@ -700,6 +702,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
