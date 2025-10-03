@@ -1,7 +1,7 @@
 # deneme_sinavlari.py
 
 deneme_sinavlari = {
-   "2024 KPSS Lisans": {
+   "2023 KPSS Lisans": {
        "Genel Yetenek Türkce": [
          {
             "soru": "Osmanlı Devleti hangi yıl yıkılmıştır?",
@@ -51,6 +51,7 @@ deneme_sinavlari = {
    "2024 KPSS Lisans": {}
 
 }
+
 
 
 
