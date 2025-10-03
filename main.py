@@ -643,15 +643,17 @@ def deneme_secim_page():
     for deneme_adi, alt_basliklar in deneme_sinavlari.items():
         with st.expander(f"📘 {deneme_adi}"):
             for alt_baslik, sorular in alt_basliklar.items():
-                # Önce test sonuçlarını al
-                test_sonuc = sonuclar.get("Deneme", {}).get(deneme_adi, {}).get(alt_baslik, {})
-                dogru_sayi = test_sonuc.get("dogru", 0)
-                yanlis_sayi = test_sonuc.get("yanlis", 0)
                 soru_sayisi = len(sorular)
 
-                oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
-                simge = "✅" if oran >= 0.6 else "❌"
-                label = f"{alt_baslik} ({soru_sayisi} soru) {simge} ({dogru_sayi}/{soru_sayisi})"
+                # Çözülmüş testleri renklendir
+                test_sonuc = sonuclar.get("Deneme", {}).get(deneme_adi, {}).get(alt_baslik)
+                if test_sonuc:
+                    dogru_sayi = test_sonuc.get('dogru', 0)
+                    oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
+                    simge = "✅" if oran >= 0.6 else "❌"
+                    label = f"{alt_baslik} ({soru_sayisi} soru) {simge} ({dogru_sayi}/{soru_sayisi})"
+                else:
+                    label = f"{alt_baslik} ({soru_sayisi} soru) ⏺"
 
                 if st.button(label, key=f"deneme_{deneme_adi}_{alt_baslik}"):
                     # önceki cevapları temizle
@@ -721,6 +723,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
