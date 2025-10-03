@@ -48,8 +48,10 @@ deneme_sinavlari = {
     }.   
 
    
-   "2024 KPSS Lisans": {}.
+   "2024 KPSS Lisans": {}
+
 }
+
 
 
 
