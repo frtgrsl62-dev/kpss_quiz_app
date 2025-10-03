@@ -646,7 +646,7 @@ def deneme_secim_page():
                 soru_sayisi = len(sorular)
 
                 # Çözülmüş testleri renklendir
-                test_sonuc = sonuclar.get("Deneme", {}).get(deneme_adi, {}).get(alt_baslik)
+                test_sonuc = sonuclar.get("📝 Deneme Sınavı", {}).get(deneme_adi, {}).get(alt_baslik)
                 if test_sonuc:
                     dogru_sayi = test_sonuc.get('dogru', 0)
                     oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
@@ -723,6 +723,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
