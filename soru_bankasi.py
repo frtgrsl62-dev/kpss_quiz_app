@@ -7794,14 +7794,10 @@ soru_bankasi = {
     "🌟 Genel Kültür": {
         "1) Güncel Bilgiler": [],
         "2) Sanat ve Edebiyat": []
-    },
-
-    "Denemeler": {
-#        "1) 2023 KPSS Lisans": [],
-#       "2) 2024 KPSS Lisans": []
     }
     
 }
+
 
 
 
