@@ -27,7 +27,7 @@ deneme_sinavlari = {
             "dogru_cevap": "D",
             "cozum": "29 Ekim 1923’te Cumhuriyet ilan edildi."
         }
-    ],
+           ],
        
        "Genel Yetenek Matamatik": [],
            
@@ -44,10 +44,12 @@ deneme_sinavlari = {
             "dogru_cevap": "B",
             "cozum": "Kuvayi Milliye gönüllü halk direnişidir."
         }
-    ]
+           ]
+    }.   
 
-
-    }   
+   
+   "2024 KPSS Lisans": {}.
 }
+
 
 
