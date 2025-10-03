@@ -1,8 +1,9 @@
 # deneme_sinavlari.py
 
 deneme_sinavlari = {
-    "Deneme 1": [
-        {
+   "2024 KPSS Lisans": {
+       "Genel Yetenek Türkce": [
+         {
             "soru": "Osmanlı Devleti hangi yıl yıkılmıştır?",
             "secenekler": {
                 "A": "1918",
@@ -27,7 +28,10 @@ deneme_sinavlari = {
             "cozum": "29 Ekim 1923’te Cumhuriyet ilan edildi."
         }
     ],
-    "Deneme 2": [
+       
+       "Genel Yetenek Matamatik": [],
+           
+       "Kültür Yetenek ": [
         {
             "soru": "Kuvayi Milliye birliklerinin en önemli özelliği nedir?",
             "secenekler": {
@@ -41,4 +45,9 @@ deneme_sinavlari = {
             "cozum": "Kuvayi Milliye gönüllü halk direnişidir."
         }
     ]
+
+
+    }   
 }
+
+
