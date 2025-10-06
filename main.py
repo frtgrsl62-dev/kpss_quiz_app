@@ -657,13 +657,17 @@ def deneme_secim_page():
         with st.expander(f"📘 {deneme_adi}"):
             for alt_baslik, sorular in alt_basliklar.items():
                 soru_sayisi = len(sorular)
+                ders_key = "📝 Deneme Sınavı"
+                konu_key = f"{deneme_adi} - {alt_baslik}"
 
-                # Çözülmüş denemeleri renklendir
-                test_sonuc = (
-                    sonuclar.get("📝 Deneme Sınavı", {})
-                    .get(deneme_adi, {})
-                    .get(alt_baslik)
-                )
+                # Farklı olası kaydetme biçimlerine göre test sonucunu bul
+                test_sonuc = None
+                if ders_key in sonuclar:
+                    # 1️⃣ Doğrudan konu adıyla kaydedilmiş olabilir
+                    test_sonuc = sonuclar[ders_key].get(konu_key)
+                    # 2️⃣ Veya alt başlık düzeyinde (örnek: sonuclar["📝 Deneme Sınavı"]["2023 KPSS Lisans"]["Genel Yetenek Türkçe"])
+                    if test_sonuc is None:
+                        test_sonuc = sonuclar[ders_key].get(deneme_adi, {}).get(alt_baslik)
 
                 if test_sonuc:
                     dogru_sayi = test_sonuc.get("dogru", 0)
@@ -684,8 +688,8 @@ def deneme_secim_page():
                     st.session_state["current_test"] = {
                         "test": sorular,
                         "index": 0,
-                        "ders": "📝 Deneme Sınavı",
-                        "konu": f"{deneme_adi} - {alt_baslik}",
+                        "ders": ders_key,
+                        "konu": konu_key,
                         "test_no": 1,
                         "test_sayisi": 1
                     }
@@ -745,6 +749,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
