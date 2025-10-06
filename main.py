@@ -366,7 +366,11 @@ def soru_goster_page():
     if not secilen_test or index < 0 or index > len(secilen_test):
         st.error("❌ Geçersiz test verisi!")
         if st.button("🔙 Geri Dön"):
-            st.session_state["page"] = "test"
+            # Hatalı test durumunda yönlendirme
+            if current.get("ders") == "📝 Deneme Sınavı":
+                st.session_state["page"] = "deneme"
+            else:
+                st.session_state["page"] = "test"
             st.rerun()
         return
 
@@ -377,7 +381,11 @@ def soru_goster_page():
 
     # ===== Sol üst geri butonu =====
     if st.button("🔙 Geri"):
-        st.session_state["page"] = "test"
+        # Eğer deneme sınavıysa, deneme sayfasına dön
+        if secilen_ders == "📝 Deneme Sınavı":
+            st.session_state["page"] = "deneme"
+        else:
+            st.session_state["page"] = "test"
         st.rerun()
 
     # ===== Test tamamlandıysa =====
@@ -726,6 +734,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
