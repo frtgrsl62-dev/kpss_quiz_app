@@ -3,8 +3,6 @@ import time
 import json
 import os
 import math
-from datetime import datetime, timedelta  # Cookie için süre belirlemede kullanacağız
-from streamlit_cookies_manager import EncryptedCookieManager # YENİ: Cookie kütüphanesini import et
 from soru_bankasi import soru_bankasi
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
@@ -13,18 +11,7 @@ from deneme_sinavlari import deneme_sinavlari
 # Dosya yolları
 # ===============================
 DOSYA = "kullanicilar.json"
-
-# ===============================
-# YENİ: Cookie Yöneticisini Başlat
-# Bu anahtar, çerezlerin şifrelenmesi için kullanılır. Rastgele bir şey olabilir.
-# Projenizi başkalarıyla paylaşacaksanız bu anahtarı gizli tutun.
-# st.secrets kullanmak daha güvenli bir yöntemdir.
-cookies = EncryptedCookieManager(
-    password="my_super_secret_password_12345", # Lütfen bu parolayı değiştirin
-)
-if not cookies.ready():
-    st.stop()
-# ===============================
+# AKTIF_DOSYA = "aktif_kullanici.json" # <-- KALDIRILDI: Bu dosya çoklu oturum sorununa neden oluyordu.
 
 # ===============================
 # Sabit kullanıcılar
@@ -42,6 +29,7 @@ def kullanicilari_yukle():
         with open(DOSYA, "w", encoding="utf-8") as f:
             f.write("{}")
     with open(DOSYA, "r", encoding="utf-8") as f:
+        # Dosya boşsa veya bozuksa oluşabilecek hatayı önle
         try:
             return json.load(f)
         except json.JSONDecodeError:
@@ -52,19 +40,25 @@ def kullanicilari_kaydet():
         json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
 
 # ===============================
-# Sonuçları kullanıcıya kaydet ve yükle
+# Aktif kullanıcı fonksiyonları KALDIRILDI
+# Bu fonksiyonlar tek bir dosyaya bağımlı olduğu için çoklu oturumu engelliyordu.
+# ===============================
+
+# ===============================
+# Sonuçları kullanıcıya kaydet
 # ===============================
 def kaydet_sonuclar_to_user(user):
-    if not user or (user not in kullanicilar and user not in sabit_kullanicilar):
+    # Kullanıcı None ise veya sistemde kayıtlı değilse işlem yapma
+    if not user or user not in kullanicilar:
         return
-    if user in kullanicilar: # Sadece dinamik kullanıcıların sonuçları kaydedilir
-        kullanicilar[user]["sonuclar"] = st.session_state.get("sonuclar", {})
-        kullanicilari_kaydet()
+    kullanicilar[user]["sonuclar"] = st.session_state.get("sonuclar", {})
+    kullanicilari_kaydet()
 
 def kullanici_sonuclarini_yukle_to_session(user):
     if user in kullanicilar and "sonuclar" in kullanicilar[user]:
         st.session_state["sonuclar"] = kullanicilar[user]["sonuclar"]
     else:
+        # Kullanıcının daha önce kaydedilmiş sonucu yoksa boş başlat
         st.session_state["sonuclar"] = {}
 
 # ===============================
@@ -87,16 +81,10 @@ def login_page():
         kayit_btn = st.form_submit_button("🔹 Kayıt Ol 🔹")
 
     if giris_btn:
-        user_exists_in_dynamic = k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre
-        user_exists_in_static = k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre
-
-        if user_exists_in_dynamic or user_exists_in_static:
+        if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
+           (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
             st.session_state["current_user"] = k_adi
-            
-            # YENİ: Giriş yapıldığında cookie ayarla. 30 gün boyunca geçerli olsun.
-            expires_at = datetime.now() + timedelta(days=30)
-            cookies.set('kpss_user', k_adi, expires_at=expires_at)
-            
+            # aktif_kullanici_kaydet(k_adi) # <-- KALDIRILDI
             kullanici_sonuclarini_yukle_to_session(k_adi)
             st.session_state["page"] = "ders"
             st.rerun()
@@ -106,16 +94,15 @@ def login_page():
     if kayit_btn:
         st.session_state["page"] = "kayit"
         st.rerun()
-        
+
 # ===============================
 # Kayıt Sayfası
 # ===============================
-# Bu fonksiyonda değişiklik yok, olduğu gibi kalabilir
 def kayit_page():
-    # ... Bu fonksiyonun içeriği aynı ...
     st.markdown("<h1 style='text-align: center; color: orange; font-size:36px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
     st.markdown("---")
     st.markdown("<h1>Kayıt Ol</h1>", unsafe_allow_html=True)
+
     with st.form("kayit_form"):
         isim = st.text_input("İsim Soyisim", key="register_name")
         k_adi = st.text_input("Kullanıcı Adı", key="register_user")
@@ -144,11 +131,11 @@ def kayit_page():
     if geri_btn:
         st.session_state["page"] = "login"
         st.rerun()
+
 # ===============================
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-    # ... fonksiyonun üst kısmı aynı ...
     col1, col2 = st.columns([8, 2])
     with col2:
         user = st.session_state.get("current_user")
@@ -175,22 +162,21 @@ def ders_secim_page():
         st.rerun()
 
     st.markdown("---")
-    
+
     if st.button("🔻 Çıkış Yap 🔻"):
+        # Çıkış yapmadan önce son sonuçları kaydet
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        
-        # YENİ: Çıkış yaparken cookie'yi sil
-        cookies.delete('kpss_user')
-        
+        # aktif_kullanici_sil() # <-- KALDIRILDI
+        # Session state'den kullanıcıyı silerek oturumu sonlandır
         if "current_user" in st.session_state:
             del st.session_state["current_user"]
-        
         st.session_state["page"] = "login"
         st.rerun()
 
     st.markdown("---")
     st.markdown("<p style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</p>", unsafe_allow_html=True)
 
+# 
 
 
 # ===============================
@@ -696,36 +682,22 @@ def profil_page():
 
 
 
-# ==========================================================
-# YÖNLENDİRİCİ (ROUTER) - OTURUM YÖNETİMİ İLE GÜNCELLENDİ
-# ==========================================================
+# ===============================
+# YENİ ve DOĞRU ROUTER (YÖNLENDİRİCİ)
+# ===============================
+# Bu mantık, her kullanıcının oturumunu kendi içinde yönetir.
 
-# Adım 1: Oturumda kullanıcı yoksa, çerezi kontrol et.
-if "current_user" not in st.session_state or st.session_state.current_user is None:
-    user_from_cookie = cookies.get('kpss_user')
-    # Çerezde kullanıcı varsa ve bu kullanıcı sistemde kayıtlıysa, oturumu başlat.
-    if user_from_cookie and (user_from_cookie in kullanicilar or user_from_cookie in sabit_kullanicilar):
-        st.session_state.current_user = user_from_cookie
-        kullanici_sonuclarini_yukle_to_session(user_from_cookie)
-        # Eğer page bilgisi yoksa veya login'de kalmışsa 'ders' sayfasına yönlendir
-        if 'page' not in st.session_state or st.session_state.page in ['login', 'kayit']:
-            st.session_state.page = "ders"
-    else:
-        # Geçersiz çerez varsa temizle
-        if user_from_cookie:
-            cookies.delete('kpss_user')
-        st.session_state.page = "login"
-
-# Adım 2: Sayfa bilgisini yönet.
-if 'page' not in st.session_state:
+# 1. Oturumda bir sayfa bilgisi yoksa, başlangıç sayfası 'login' olsun.
+if "page" not in st.session_state:
     st.session_state.page = "login"
 
-# Adım 3: Giriş yapılmamışsa ve izinli sayfalarda değilse login'e yönlendir.
+# 2. Oturumda bir kullanıcı yoksa (None veya tanımsız) ve gidilmek istenen sayfa
+#    login veya kayıt değilse, kullanıcıyı login sayfasına yönlendir.
 if st.session_state.get("current_user") is None:
     if st.session_state.page not in ["login", "kayit"]:
         st.session_state.page = "login"
 
-# Adım 4: Sayfaları göster.
+# 3. Mevcut sayfaya göre ilgili fonksiyonu çalıştır.
 page = st.session_state.page
 
 if page == "login":
@@ -755,4 +727,3 @@ elif page == "rapor":
 elif page == "profil":
     profil_page()
     
-
