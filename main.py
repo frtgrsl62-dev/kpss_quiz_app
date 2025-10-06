@@ -3,7 +3,7 @@ import time
 import json
 import os
 import math
-from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
+from soru_bankasi import soru_bankasi
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
 
@@ -11,7 +11,7 @@ from deneme_sinavlari import deneme_sinavlari
 # Dosya yolları
 # ===============================
 DOSYA = "kullanicilar.json"
-AKTIF_DOSYA = "aktif_kullanici.json"
+# AKTIF_DOSYA = "aktif_kullanici.json" # <-- KALDIRILDI: Bu dosya çoklu oturum sorununa neden oluyordu.
 
 # ===============================
 # Sabit kullanıcılar
@@ -29,35 +29,27 @@ def kullanicilari_yukle():
         with open(DOSYA, "w", encoding="utf-8") as f:
             f.write("{}")
     with open(DOSYA, "r", encoding="utf-8") as f:
-        return json.load(f)
+        # Dosya boşsa veya bozuksa oluşabilecek hatayı önle
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return {}
 
 def kullanicilari_kaydet():
     with open(DOSYA, "w", encoding="utf-8") as f:
         json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
 
 # ===============================
-# Aktif kullanıcı dosyası
+# Aktif kullanıcı fonksiyonları KALDIRILDI
+# Bu fonksiyonlar tek bir dosyaya bağımlı olduğu için çoklu oturumu engelliyordu.
 # ===============================
-def aktif_kullanici_kaydet(user):
-    with open(AKTIF_DOSYA, "w", encoding="utf-8") as f:
-        json.dump({"user": user}, f)
-
-def aktif_kullanici_yukle():
-    if os.path.exists(AKTIF_DOSYA):
-        with open(AKTIF_DOSYA, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return data.get("user")
-    return None
-
-def aktif_kullanici_sil():
-    if os.path.exists(AKTIF_DOSYA):
-        os.remove(AKTIF_DOSYA)
 
 # ===============================
 # Sonuçları kullanıcıya kaydet
 # ===============================
 def kaydet_sonuclar_to_user(user):
-    if user not in kullanicilar:
+    # Kullanıcı None ise veya sistemde kayıtlı değilse işlem yapma
+    if not user or user not in kullanicilar:
         return
     kullanicilar[user]["sonuclar"] = st.session_state.get("sonuclar", {})
     kullanicilari_kaydet()
@@ -65,31 +57,23 @@ def kaydet_sonuclar_to_user(user):
 def kullanici_sonuclarini_yukle_to_session(user):
     if user in kullanicilar and "sonuclar" in kullanicilar[user]:
         st.session_state["sonuclar"] = kullanicilar[user]["sonuclar"]
+    else:
+        # Kullanıcının daha önce kaydedilmiş sonucu yoksa boş başlat
+        st.session_state["sonuclar"] = {}
 
 # ===============================
 # Global değişkenler
 # ===============================
 kullanicilar = kullanicilari_yukle()
 
-
-    
 # ===============================
 # Login Sayfası
 # ===============================
 def login_page():
-    # Üst başlık
     st.markdown("<h1 style='text-align: center; color: orange;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")
+    st.markdown("<h1>Giriş Ekranı</h1>", unsafe_allow_html=True)
 
-# color: → yazının rengini ayarlar.
-    # yeşil = #4CAF50
-    # mavi = #1E90FF
-    # red
-    # açık mavi #ADD8E6    #87CEEB
-# text-align: center; → ortalar
-    
-    #st.title("Giriş Ekranı")
-    st.markdown("<h1 style='color: ;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
         sifre = st.text_input("Şifre", type="password", key="login_pass")
@@ -100,7 +84,7 @@ def login_page():
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
             st.session_state["current_user"] = k_adi
-            aktif_kullanici_kaydet(k_adi)
+            # aktif_kullanici_kaydet(k_adi) # <-- KALDIRILDI
             kullanici_sonuclarini_yukle_to_session(k_adi)
             st.session_state["page"] = "ders"
             st.rerun()
@@ -111,18 +95,14 @@ def login_page():
         st.session_state["page"] = "kayit"
         st.rerun()
 
-
-
 # ===============================
 # Kayıt Sayfası
 # ===============================
 def kayit_page():
-    # Üst başlık
     st.markdown("<h1 style='text-align: center; color: orange; font-size:36px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")
+    st.markdown("<h1>Kayıt Ol</h1>", unsafe_allow_html=True)
 
-    st.markdown("<h1 style='color: ;'>Kayıt Ol</h1>", unsafe_allow_html=True)
-    # st.title("Kayıt Ol")
     with st.form("kayit_form"):
         isim = st.text_input("İsim Soyisim", key="register_name")
         k_adi = st.text_input("Kullanıcı Adı", key="register_user")
@@ -141,9 +121,9 @@ def kayit_page():
         if k_adi in sabit_kullanicilar or k_adi in kullanicilar:
             st.error("❌ Bu kullanıcı adı zaten kayıtlı!")
             return
-        kullanicilar[k_adi] = {"isim": isim, "sifre": sifre}
+        kullanicilar[k_adi] = {"isim": isim, "sifre": sifre, "sonuclar": {}}
         kullanicilari_kaydet()
-        st.success(f"✅ {isim} başarıyla kaydedildi!")
+        st.success(f"✅ {isim} başarıyla kaydedildi! Lütfen giriş yapın.")
         time.sleep(1)
         st.session_state["page"] = "login"
         st.rerun()
@@ -152,12 +132,10 @@ def kayit_page():
         st.session_state["page"] = "login"
         st.rerun()
 
-
 # ===============================
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-        # Sağ üst kullanıcı butonu
     col1, col2 = st.columns([8, 2])
     with col2:
         user = st.session_state.get("current_user")
@@ -165,39 +143,40 @@ def ders_secim_page():
             if st.button(f"👤 {user}"):
                 st.session_state["page"] = "profil"
                 st.rerun()
-    
-    st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # üst çizgi
 
+    st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
+    st.markdown("---")
 
     for ders in soru_bankasi.keys():
-        if st.button(ders):
+        if st.button(ders, key=f"ders_{ders}"):
             st.session_state["ders"] = ders
             st.session_state["page"] = "konu"
             st.rerun()
 
-    # 🔹 Hatalı girintiyi düzelttim
     if st.button("📝 Deneme Sınavları"):
         st.session_state["page"] = "deneme"
         st.rerun()
-    
+
     if st.button("Genel Raporu Gör 📊"):
         st.session_state["page"] = "rapor"
         st.rerun()
-        
+
     st.markdown("---")
 
     if st.button("🔻 Çıkış Yap 🔻"):
+        # Çıkış yapmadan önce son sonuçları kaydet
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        aktif_kullanici_sil()
-        st.session_state["current_user"] = None
+        # aktif_kullanici_sil() # <-- KALDIRILDI
+        # Session state'den kullanıcıyı silerek oturumu sonlandır
+        if "current_user" in st.session_state:
+            del st.session_state["current_user"]
         st.session_state["page"] = "login"
         st.rerun()
 
     st.markdown("---")
-    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</p>", unsafe_allow_html=True)
 
-
+# 
 
 
 # ===============================
@@ -704,57 +683,47 @@ def profil_page():
 
 
 # ===============================
-# Router
+# YENİ ve DOĞRU ROUTER (YÖNLENDİRİCİ)
 # ===============================
-# Session başlatılırken aktif kullanıcıyı yükle
-if "current_user" not in st.session_state:
-    user = aktif_kullanici_yukle()  # dosyadan aktif kullanıcıyı al
-    st.session_state["current_user"] = user
-    if user:
-        st.session_state["user"] = user
-        kullanici_sonuclarini_yukle_to_session(user)
-        st.session_state["page"] = "ders"  # sayfa yenilenince direkt ders sayfasına git
+# Bu mantık, her kullanıcının oturumunu kendi içinde yönetir.
 
-if "current_user" not in st.session_state:
-    st.session_state["current_user"] = aktif_kullanici_yukle()
-    if st.session_state["current_user"]:
-        kullanici_sonuclarini_yukle_to_session(st.session_state["current_user"])
-
+# 1. Oturumda bir sayfa bilgisi yoksa, başlangıç sayfası 'login' olsun.
 if "page" not in st.session_state:
-    st.session_state["page"] = "login"
+    st.session_state.page = "login"
 
-if st.session_state["page"] == "login":
+# 2. Oturumda bir kullanıcı yoksa (None veya tanımsız) ve gidilmek istenen sayfa
+#    login veya kayıt değilse, kullanıcıyı login sayfasına yönlendir.
+if st.session_state.get("current_user") is None:
+    if st.session_state.page not in ["login", "kayit"]:
+        st.session_state.page = "login"
+
+# 3. Mevcut sayfaya göre ilgili fonksiyonu çalıştır.
+page = st.session_state.page
+
+if page == "login":
     login_page()
-elif st.session_state["page"] == "kayit":
+elif page == "kayit":
     kayit_page()
-elif st.session_state["page"] == "ders":
+elif page == "ders":
     ders_secim_page()
-elif st.session_state["page"] == "konu":
+elif page == "konu":
     if "ders" in st.session_state:
         konu_secim_page(st.session_state["ders"])
     else:
         st.session_state["page"] = "ders"
         st.rerun()
-elif st.session_state["page"] == "test":
+elif page == "test":
     if "ders" in st.session_state and "konu" in st.session_state:
         test_secim_page(st.session_state["ders"], st.session_state["konu"])
     else:
         st.session_state["page"] = "ders"
         st.rerun()
-elif st.session_state["page"] == "deneme":
+elif page == "deneme":
     deneme_secim_page()
-elif st.session_state["page"] == "soru":
+elif page == "soru":
     soru_goster_page()
-elif st.session_state["page"] == "rapor":
+elif page == "rapor":
     genel_rapor_page()
-elif st.session_state["page"] == "profil":
+elif page == "profil":
     profil_page()
-
-
-
-
-
-
-
-
-
+    
