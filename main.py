@@ -582,11 +582,11 @@ def genel_rapor_page():
 
                     st.markdown(f"- **{konu}** → ✅ {dogru} | ❌ {yanlis} | Başarı: {oran}")
 
-                    testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
-                    if testler:
-                        with st.expander(f"📑 Test Detayları"):
-                            for test_no, t_sonuc in testler.items():
-                                st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
+#                    testler = {k: v for k, v in sonuc.items() if k.startswith("test_")}
+#                    if testler:
+#                        with st.expander(f"📑 Test Detayları"):
+#                           for test_no, t_sonuc in testler.items():
+#                               st.write(f"➡️ {test_no}: ✅ {t_sonuc['dogru']} | ❌ {t_sonuc['yanlis']}")
 
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
@@ -738,6 +738,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
