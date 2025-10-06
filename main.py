@@ -119,9 +119,9 @@ def login_page():
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
             st.session_state["current_user"] = k_adi
-            aktif_kullanici_kaydet(k_adi)
-            kullanici_sonuclarini_yukle_to_session(k_adi)
-            st.session_state["page"] = "ders"
+            aktif_kullanici_kaydet(kullanici_adi)
+            kullanici_sonuclarini_yukle_to_session(k_adi)               
+            st.session_state["aktif_kullanici"] = kullanici_adi
             st.rerun()
         else:
             st.error("❌ Hatalı kullanıcı adı veya şifre!")
@@ -208,8 +208,8 @@ def ders_secim_page():
 
     if st.button("🔻 Çıkış Yap 🔻"):
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        aktif_kullanici_sil()
-        st.session_state["current_user"] = None
+        aktif_kullanici_sil(st.session_state.get("aktif_kullanici"))
+        st.session_state.pop("aktif_kullanici", None)
         st.session_state["page"] = "login"
         st.rerun()
 
@@ -768,5 +768,6 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
