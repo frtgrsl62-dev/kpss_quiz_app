@@ -430,13 +430,14 @@ def soru_goster_page():
 
         st.markdown(f"✅ Doğru: {dogru}  |  ❌ Yanlış: {yanlis}")
 
-    if st.button("Testi Bitir 🏁"):
-        if secilen_ders == "📝 Deneme Sınavı":
-            st.session_state["page"] = "deneme"
-        else:
-            st.session_state["page"] = "test"
-        st.rerun()
-    return
+        if st.button("Testi Bitir 🏁"):
+            # st.session_state["page"] = "test"
+            if secilen_ders == "📝 Deneme Sınavı":
+                st.session_state["page"] = "deneme"
+            else:
+                st.session_state["page"] = "test"            
+            st.rerun()
+        return
 
     # ===== Soruyu Göster =====
     soru = secilen_test[index]
@@ -737,6 +738,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
