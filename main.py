@@ -11,7 +11,6 @@ from deneme_sinavlari import deneme_sinavlari
 # Dosya yolları
 # ===============================
 DOSYA = "kullanicilar.json"
-AKTIF_DOSYA = "aktif_kullanici.json"
 
 # ===============================
 # Sabit kullanıcılar
@@ -29,85 +28,52 @@ def kullanicilari_yukle():
         with open(DOSYA, "w", encoding="utf-8") as f:
             f.write("{}")
     with open(DOSYA, "r", encoding="utf-8") as f:
-        return json.load(f)
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return {}
 
-def kullanicilari_kaydet():
+def kullanicilari_kaydet(kullanicilar_data):
     with open(DOSYA, "w", encoding="utf-8") as f:
-        json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
+        json.dump(kullanicilar_data, f, ensure_ascii=False, indent=2)
 
 # ===============================
-# Aktif kullanıcı işlemleri (çoklu cihaz desteği - parametresiz çağrı uyumlu)
+# !!! KALDIRILDI: Aktif kullanıcı işlemleri (çoklu cihaz desteği için kaldırıldı)
+# Bu fonksiyonlar küresel bir durum yaratarak oturumların karışmasına neden oluyordu.
+# Artık Streamlit'in kendi session_state'ine güveneceğiz.
+# def aktif_kullanici_kaydet(user): ...
+# def aktif_kullanici_yukle(): ...
+# def aktif_kullanici_sil(user): ...
 # ===============================
-def aktif_kullanici_dosya_yolu(username):
-    """Her kullanıcıya özel aktif dosya yolu döner."""
-    return f"aktif_{username}.json"
 
-def aktif_kullanici_kaydet(user):
-    """Her kullanıcı kendi oturum dosyasına kaydedilir."""
-    if not user:
-        return
-    dosya = aktif_kullanici_dosya_yolu(user)
-    with open(dosya, "w", encoding="utf-8") as f:
-        json.dump({"user": user}, f)
-
-def aktif_kullanici_yukle():
-    """Oturum açılmışsa aktif kullanıcıyı döndürür (çoklu cihaz destekli)."""
-    # Öncelikle session_state'te varsa onu döndür
-    if "current_user" in st.session_state:
-        return st.session_state["current_user"]
-
-    # Yoksa klasördeki aktif dosyaları kontrol et
-    for dosya in os.listdir():
-        if dosya.startswith("aktif_") and dosya.endswith(".json"):
-            with open(dosya, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                return data.get("user")
-    return None
-
-def aktif_kullanici_sil(user):
-    """Belirtilen kullanıcının aktif dosyasını siler."""
-    if not user:
-        return
-    dosya = aktif_kullanici_dosya_yolu(user)
-    if os.path.exists(dosya):
-        os.remove(dosya)
 
 # ===============================
 # Sonuçları kullanıcıya kaydet
 # ===============================
-def kaydet_sonuclar_to_user(user):
+def kaydet_sonuclar_to_user(user, sonuclar):
+    # Kullanıcılar dosyasını her zaman en güncel haliyle oku
+    kullanicilar = kullanicilari_yukle()
     if user not in kullanicilar:
         return
-    kullanicilar[user]["sonuclar"] = st.session_state.get("sonuclar", {})
-    kullanicilari_kaydet()
+    kullanicilar[user]["sonuclar"] = sonuclar
+    kullanicilari_kaydet(kullanicilar)
 
 def kullanici_sonuclarini_yukle_to_session(user):
+    kullanicilar = kullanicilari_yukle()
     if user in kullanicilar and "sonuclar" in kullanicilar[user]:
         st.session_state["sonuclar"] = kullanicilar[user]["sonuclar"]
-
-# ===============================
-# Global değişkenler
-# ===============================
-kullanicilar = kullanicilari_yukle()
+    else:
+        st.session_state["sonuclar"] = {}
 
 
-    
 # ===============================
 # Login Sayfası
 # ===============================
 def login_page():
     # Üst başlık
     st.markdown("<h1 style='text-align: center; color: orange;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")
 
-# color: → yazının rengini ayarlar.
-    # yeşil = #4CAF50
-    # mavi = #1E90FF
-    # red
-    # açık mavi #ADD8E6    #87CEEB
-# text-align: center; → ortalar
-    
-    #st.title("Giriş Ekranı")
     st.markdown("<h1 style='color: ;'>Giriş Ekranı</h1>", unsafe_allow_html=True)
     with st.form("login_form"):
         k_adi = st.text_input("Kullanıcı Adı", key="login_user")
@@ -116,12 +82,14 @@ def login_page():
         kayit_btn = st.form_submit_button("🔹 Kayıt Ol 🔹")
 
     if giris_btn:
+        kullanicilar = kullanicilari_yukle()
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
+            
+            # --- DEĞİŞİKLİK ---
+            # Artık dosya oluşturmuyoruz, sadece session_state'e kaydediyoruz.
             st.session_state["current_user"] = k_adi
-            aktif_kullanici_kaydet(k_adi)  # <- burayı k_adi ile değiştir
-            kullanici_sonuclarini_yukle_to_session(k_adi)               
-            st.session_state["aktif_kullanici"] = k_adi  # burayı da k_adi ile değiştir
+            kullanici_sonuclarini_yukle_to_session(k_adi)
             st.session_state["page"] = "ders"
             st.rerun()
         else:
@@ -131,18 +99,14 @@ def login_page():
         st.session_state["page"] = "kayit"
         st.rerun()
 
-
-
 # ===============================
 # Kayıt Sayfası
 # ===============================
 def kayit_page():
-    # Üst başlık
     st.markdown("<h1 style='text-align: center; color: orange; font-size:36px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # alt çizgi ile ayır
+    st.markdown("---")
 
     st.markdown("<h1 style='color: ;'>Kayıt Ol</h1>", unsafe_allow_html=True)
-    # st.title("Kayıt Ol")
     with st.form("kayit_form"):
         isim = st.text_input("İsim Soyisim", key="register_name")
         k_adi = st.text_input("Kullanıcı Adı", key="register_user")
@@ -152,6 +116,7 @@ def kayit_page():
         geri_btn = st.form_submit_button("↩️ Geri Dön")
 
     if kaydet_btn:
+        kullanicilar = kullanicilari_yukle()
         if not isim or not k_adi or not sifre or not sifre_tekrar:
             st.error("❌ Lütfen tüm alanları doldurun!")
             return
@@ -161,8 +126,10 @@ def kayit_page():
         if k_adi in sabit_kullanicilar or k_adi in kullanicilar:
             st.error("❌ Bu kullanıcı adı zaten kayıtlı!")
             return
-        kullanicilar[k_adi] = {"isim": isim, "sifre": sifre}
-        kullanicilari_kaydet()
+        
+        kullanicilar[k_adi] = {"isim": isim, "sifre": sifre, "sonuclar": {}}
+        kullanicilari_kaydet(kullanicilar)
+        
         st.success(f"✅ {isim} başarıyla kaydedildi!")
         time.sleep(1)
         st.session_state["page"] = "login"
@@ -177,7 +144,6 @@ def kayit_page():
 # Ders Seçim Sayfası
 # ===============================
 def ders_secim_page():
-        # Sağ üst kullanıcı butonu
     col1, col2 = st.columns([8, 2])
     with col2:
         user = st.session_state.get("current_user")
@@ -187,8 +153,7 @@ def ders_secim_page():
                 st.rerun()
     
     st.markdown("<h1 style='font-size:38px;'>Ders Seçiniz</h1>", unsafe_allow_html=True)
-    st.markdown("---")  # üst çizgi
-
+    st.markdown("---")
 
     for ders in soru_bankasi.keys():
         if st.button(ders):
@@ -196,7 +161,6 @@ def ders_secim_page():
             st.session_state["page"] = "konu"
             st.rerun()
 
-    # 🔹 Hatalı girintiyi düzelttim
     if st.button("📝 Deneme Sınavları"):
         st.session_state["page"] = "deneme"
         st.rerun()
@@ -208,15 +172,23 @@ def ders_secim_page():
     st.markdown("---")
 
     if st.button("🔻 Çıkış Yap 🔻"):
-        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        aktif_kullanici_sil(st.session_state.get("aktif_kullanici"))
-        st.session_state.pop("aktif_kullanici", None)
+        # --- DEĞİŞİKLİK ---
+        # Çıkış yaparken sonuçları kaydet ve session_state'i temizle.
+        # Artık aktif kullanıcı dosyasını silmeye gerek yok.
+        user = st.session_state.get("current_user")
+        sonuclar = st.session_state.get("sonuclar", {})
+        if user:
+            kaydet_sonuclar_to_user(user, sonuclar)
+        
+        # Oturumu temizle
+        for key in list(st.session_state.keys()):
+            del st.session_state[key]
+            
         st.session_state["page"] = "login"
         st.rerun()
 
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
-
 
 
 
@@ -724,53 +696,46 @@ def deneme_secim_page():
 
 
 # ===============================
-# Router
+# Router (Uygulama Yönlendirici)
 # ===============================
-# Session başlatılırken aktif kullanıcıyı yükle
-if "current_user" not in st.session_state:
-    user = aktif_kullanici_yukle()  # dosyadan aktif kullanıcıyı al
-    st.session_state["current_user"] = user
-    if user:
-        st.session_state["user"] = user
-        kullanici_sonuclarini_yukle_to_session(user)
-        st.session_state["page"] = "ders"  # sayfa yenilenince direkt ders sayfasına git
 
-if "current_user" not in st.session_state:
-    st.session_state["current_user"] = aktif_kullanici_yukle()
-    if st.session_state["current_user"]:
-        kullanici_sonuclarini_yukle_to_session(st.session_state["current_user"])
+# --- DEĞİŞİKLİK ---
+# Uygulama başlangıcındaki karmaşık dosya kontrolü kaldırıldı.
+# Artık sadece o anki oturumda 'current_user' var mı diye bakıyoruz.
+# Her yeni tarayıcı/cihaz boş bir session_state ile başlar.
 
 if "page" not in st.session_state:
     st.session_state["page"] = "login"
 
-if st.session_state["page"] == "login":
+# Kullanıcı giriş yapmamışsa ve giriş sayfasında değilse, giriş sayfasına yönlendir.
+if "current_user" not in st.session_state and st.session_state.page != "kayit":
+     st.session_state.page = "login"
+
+# Sayfa yönlendirmeleri
+if st.session_state.page == "login":
     login_page()
-elif st.session_state["page"] == "kayit":
+elif st.session_state.page == "kayit":
     kayit_page()
-elif st.session_state["page"] == "ders":
+elif st.session_state.page == "ders":
     ders_secim_page()
-elif st.session_state["page"] == "konu":
+elif st.session_state.page == "konu":
     if "ders" in st.session_state:
         konu_secim_page(st.session_state["ders"])
     else:
         st.session_state["page"] = "ders"
         st.rerun()
-elif st.session_state["page"] == "test":
+elif st.session_state.page == "test":
     if "ders" in st.session_state and "konu" in st.session_state:
         test_secim_page(st.session_state["ders"], st.session_state["konu"])
     else:
         st.session_state["page"] = "ders"
         st.rerun()
-elif st.session_state["page"] == "soru":
+elif st.session_state.page == "soru":
     soru_goster_page()
-elif st.session_state["page"] == "rapor":
+elif st.session_state.page == "rapor":
     genel_rapor_page()
-elif st.session_state["page"] == "profil":
+elif st.session_state.page == "profil":
     profil_page()
-elif st.session_state["page"] == "deneme":
+elif st.session_state.page == "deneme":
     deneme_secim_page()
-
-
-
-
 
