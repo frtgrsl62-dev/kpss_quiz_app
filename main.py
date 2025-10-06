@@ -119,9 +119,9 @@ def login_page():
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
             st.session_state["current_user"] = k_adi
-            aktif_kullanici_kaydet(kullanici_adi)
+            aktif_kullanici_kaydet(k_adi)  # <- burayı k_adi ile değiştir
             kullanici_sonuclarini_yukle_to_session(k_adi)               
-            st.session_state["aktif_kullanici"] = kullanici_adi
+            st.session_state["aktif_kullanici"] = k_adi  # burayı da k_adi ile değiştir
             st.session_state["page"] = "ders"
             st.rerun()
         else:
@@ -769,6 +769,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
