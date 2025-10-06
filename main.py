@@ -183,67 +183,65 @@ def ders_secim_page():
 
 
 # ... (konu_secim_page ve test_secim_page gibi fonksiyonlarda değişiklik yok)
-from ders_konu_notlari import ders_konu_notlari
-
 def konu_secim_page(ders):
+    # Geri butonu
+    if st.button("🏠 Geri"):
+        st.session_state["page"] = "ders"
+        st.rerun()
+    
+    st.markdown(
+        f"<h2 style='font-size:30px;'>{ders} - Konu Seçimi</h2>",
+        unsafe_allow_html=True
+    )
 
-    # Geri butonu
-    if st.button("🏠 Geri"):
-        st.session_state["page"] = "ders"
-        st.rerun()
-    
-    st.markdown(
-        f"<h2 style='font-size:30px;'>{ders} - Konu Seçimi</h2>",
-        unsafe_allow_html=True
-    )
+    # 📚 Ders Notu butonu
+    ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
+    if ders_notu_link:
+        st.markdown(
+            f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:8px; border: 1px solid #007BFF; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",    
+            unsafe_allow_html=True
+        )
 
-    # 📚 Ders Notu butonu
-    ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
-    if ders_notu_link:
-        st.markdown(
-          f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:8px; border: 1px solid #007BFF; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",      
-            unsafe_allow_html=True
-        )
+    konular = list(soru_bankasi[ders].keys())
+    sonuclar = st.session_state.get("sonuclar", {})
+
+    for konu in konular:
+        tum_sorular = soru_bankasi[ders][konu]
+        soru_grubu_sayisi = 5
+        toplam_test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
+
+        # Çözülen test sayısını bul
+        testler = sonuclar.get(ders, {}).get(konu, {})
+        cozulmus_test_sayisi = sum(
+            1 for key in testler if key.startswith("test_")
+        )
+
+        # Yüzdeyi hesapla
+        yuzde = int(cozulmus_test_sayisi / toplam_test_sayisi * 100) if toplam_test_sayisi > 0 else 0
+
+        col1, col2, col3 = st.columns([1, 8, 2])
+        with col1:
+            # Dairesel progress
+            st.markdown(f"""
+            <div style="
+                width:40px; height:40px; border-radius:40%;
+                background: conic-gradient(#4CAF50 {yuzde}%, #E0E0E0 {yuzde}%);
+                display:flex; align-items:center; justify-content:center;
+                font-weight:bold; color:black;">
+                {yuzde}%
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col2:
+            if st.button(f"→ {konu}", key=f"konu_{konu}"):
+                st.session_state["konu"] = konu
+                st.session_state["page"] = "test"
+                st.rerun()
+
+    st.markdown("---")
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
-    konular = list(soru_bankasi[ders].keys())
-    sonuclar = st.session_state.get("sonuclar", {})
-
-    for konu in konular:
-        tum_sorular = soru_bankasi[ders][konu]
-        soru_grubu_sayisi = 5
-        toplam_test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
-
-        # Çözülen test sayısını bul
-        testler = sonuclar.get(ders, {}).get(konu, {})
-        cozulmus_test_sayisi = sum(
-            1 for key in testler if key.startswith("test_")
-        )
-
-        # Yüzdeyi hesapla
-        yuzde = int(cozulmus_test_sayisi / toplam_test_sayisi * 100) if toplam_test_sayisi > 0 else 0
-
-        col1, col2, col3 = st.columns([1, 8, 2])
-        with col1:
-            # Dairesel progress
-            st.markdown(f"""
-            <div style="
-                width:40px; height:40px; border-radius:40%;
-                background: conic-gradient(#4CAF50 {yuzde}%, #E0E0E0 {yuzde}%);
-                display:flex; align-items:center; justify-content:center;
-                font-weight:bold; color:black;">
-                {yuzde}%
-            </div>
-            """, unsafe_allow_html=True)
-
-        with col2:
-            if st.button(f"→ {konu}", key=f"konu_{konu}"):
-                st.session_state["konu"] = konu
-                st.session_state["page"] = "test"
-                st.rerun()
-
-    st.markdown("---")
-    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 def test_secim_page(secilen_ders, secilen_konu):
     # Geri butonu sol üst
@@ -664,3 +662,4 @@ elif st.session_state.page == "profil":
     profil_page()
 elif st.session_state.page == "deneme":
     deneme_secim_page()
+
