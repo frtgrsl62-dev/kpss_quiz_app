@@ -3,7 +3,7 @@ import time
 import json
 import os
 import math
-from soru_bankasi import soru_bankasi  # Soru bankası ayrı dosyada
+from soru_bankasi import soru_bankasi
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
 
@@ -749,6 +749,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
