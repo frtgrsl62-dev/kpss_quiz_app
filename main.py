@@ -122,6 +122,7 @@ def login_page():
             aktif_kullanici_kaydet(kullanici_adi)
             kullanici_sonuclarini_yukle_to_session(k_adi)               
             st.session_state["aktif_kullanici"] = kullanici_adi
+            st.session_state["page"] = "ders"
             st.rerun()
         else:
             st.error("❌ Hatalı kullanıcı adı veya şifre!")
@@ -768,6 +769,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
