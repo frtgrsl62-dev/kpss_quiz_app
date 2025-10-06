@@ -36,22 +36,34 @@ def kullanicilari_kaydet():
         json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
 
 # ===============================
-# Aktif kullanıcı dosyası
+# Aktif kullanıcı işlemleri (çoklu cihaz desteği)
 # ===============================
+def aktif_kullanici_dosya_yolu(username):
+    """Her kullanıcıya özel aktif dosya yolu döner."""
+    return f"aktif_{username}.json"
+
 def aktif_kullanici_kaydet(user):
-    with open(AKTIF_DOSYA, "w", encoding="utf-8") as f:
+    """Her kullanıcı kendi oturum dosyasına kaydedilir."""
+    if not user:
+        return
+    dosya = aktif_kullanici_dosya_yolu(user)
+    with open(dosya, "w", encoding="utf-8") as f:
         json.dump({"user": user}, f)
 
-def aktif_kullanici_yukle():
-    if os.path.exists(AKTIF_DOSYA):
-        with open(AKTIF_DOSYA, "r", encoding="utf-8") as f:
+def aktif_kullanici_yukle(user):
+    """Belirtilen kullanıcının oturumu varsa yüklenir."""
+    dosya = aktif_kullanici_dosya_yolu(user)
+    if os.path.exists(dosya):
+        with open(dosya, "r", encoding="utf-8") as f:
             data = json.load(f)
             return data.get("user")
     return None
 
-def aktif_kullanici_sil():
-    if os.path.exists(AKTIF_DOSYA):
-        os.remove(AKTIF_DOSYA)
+def aktif_kullanici_sil(user):
+    """Belirtilen kullanıcının aktif dosyasını siler."""
+    dosya = aktif_kullanici_dosya_yolu(user)
+    if os.path.exists(dosya):
+        os.remove(dosya)
 
 # ===============================
 # Sonuçları kullanıcıya kaydet
@@ -189,8 +201,8 @@ def ders_secim_page():
 
     if st.button("🔻 Çıkış Yap 🔻"):
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        aktif_kullanici_sil()
-        st.session_state["current_user"] = None
+        aktif_kullanici_sil(st.session_state.get("aktif_kullanici"))
+        st.session_state.pop("aktif_kullanici", None)
         st.session_state["page"] = "login"
         st.rerun()
 
@@ -749,6 +761,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
