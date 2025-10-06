@@ -130,6 +130,7 @@ def login_page():
         st.session_state["page"] = "kayit"
         st.rerun()
 
+   user = aktif_kullanici_yukle()  # dosyadan aktif kullanıcıyı al
 
 
 # ===============================
@@ -768,6 +769,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
