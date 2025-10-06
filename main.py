@@ -432,7 +432,7 @@ def soru_goster_page():
 
         if st.button("Testi Bitir 🏁"):
                 st.session_state["page"] = "deneme"
-            else:
+        else:
                 st.session_state["page"] = "test"
             st.rerun()
         return
@@ -736,6 +736,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
