@@ -658,27 +658,33 @@ def deneme_secim_page():
             for alt_baslik, sorular in alt_basliklar.items():
                 soru_sayisi = len(sorular)
 
-                # Çözülmüş denemeleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
-                test_sonuc = sonuclar.get("📝 Deneme Sınavı", {}).get(deneme_adi, {}).get(alt_baslik)
+                # Çözülmüş denemeleri renklendir
+                test_sonuc = (
+                    sonuclar.get("📝 Deneme Sınavı", {})
+                    .get(deneme_adi, {})
+                    .get(alt_baslik)
+                )
+
                 if test_sonuc:
-                    dogru_sayi = test_sonuc.get('dogru', 0)
+                    dogru_sayi = test_sonuc.get("dogru", 0)
                     oran = dogru_sayi / soru_sayisi
                     simge = "✅" if oran >= 0.6 else "❌"
-                    label = f"{alt_baslik} {simge} ({dogru_sayi}/{soru_sayisi})"
+                    label = f"{alt_baslik} ({soru_sayisi} soru) {simge} ({dogru_sayi}/{soru_sayisi})"
                 else:
-                    label = f"{alt_baslik} ⏺"
+                    label = f"{alt_baslik} ({soru_sayisi} soru) ⏺"
 
                 if st.button(label, key=f"deneme_{deneme_adi}_{alt_baslik}"):
 
-                    # önceki cevapları temizle
+                    # Önceki cevapları temizle
                     cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
                     for k in cevap_keys:
                         del st.session_state[k]
 
+                    # Test bilgilerini kaydet
                     st.session_state["current_test"] = {
                         "test": sorular,
                         "index": 0,
-                        "ders": "📝 Deneme Sınavı",   # aynı key ile kayıt için
+                        "ders": "📝 Deneme Sınavı",
                         "konu": f"{deneme_adi} - {alt_baslik}",
                         "test_no": 1,
                         "test_sayisi": 1
@@ -691,7 +697,6 @@ def deneme_secim_page():
         "<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>",
         unsafe_allow_html=True
     )
-
 
 
 # ===============================
@@ -740,6 +745,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
