@@ -36,7 +36,7 @@ def kullanicilari_kaydet():
         json.dump(kullanicilar, f, ensure_ascii=False, indent=2)
 
 # ===============================
-# Aktif kullanıcı işlemleri (çoklu cihaz desteği)
+# Aktif kullanıcı işlemleri (çoklu cihaz desteği - parametresiz çağrı uyumlu)
 # ===============================
 def aktif_kullanici_dosya_yolu(username):
     """Her kullanıcıya özel aktif dosya yolu döner."""
@@ -50,17 +50,24 @@ def aktif_kullanici_kaydet(user):
     with open(dosya, "w", encoding="utf-8") as f:
         json.dump({"user": user}, f)
 
-def aktif_kullanici_yukle(user):
-    """Belirtilen kullanıcının oturumu varsa yüklenir."""
-    dosya = aktif_kullanici_dosya_yolu(user)
-    if os.path.exists(dosya):
-        with open(dosya, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return data.get("user")
+def aktif_kullanici_yukle():
+    """Oturum açılmışsa aktif kullanıcıyı döndürür (çoklu cihaz destekli)."""
+    # Öncelikle session_state'te varsa onu döndür
+    if "current_user" in st.session_state:
+        return st.session_state["current_user"]
+
+    # Yoksa klasördeki aktif dosyaları kontrol et
+    for dosya in os.listdir():
+        if dosya.startswith("aktif_") and dosya.endswith(".json"):
+            with open(dosya, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                return data.get("user")
     return None
 
 def aktif_kullanici_sil(user):
     """Belirtilen kullanıcının aktif dosyasını siler."""
+    if not user:
+        return
     dosya = aktif_kullanici_dosya_yolu(user)
     if os.path.exists(dosya):
         os.remove(dosya)
@@ -761,6 +768,7 @@ elif st.session_state["page"] == "profil":
     profil_page()
 elif st.session_state["page"] == "deneme":
     deneme_secim_page()
+
 
 
 
