@@ -182,8 +182,13 @@ def ders_secim_page():
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
-# ... (konu_secim_page ve test_secim_page gibi fonksiyonlarda değişiklik yok)
+# ===============================
+# Konu Seçim Sayfası (Dairesel yüzde gösterimi)
+# ===============================
+from ders_konu_notlari import ders_konu_notlari
+
 def konu_secim_page(ders):
+
     # Geri butonu
     if st.button("🏠 Geri"):
         st.session_state["page"] = "ders"
@@ -198,9 +203,10 @@ def konu_secim_page(ders):
     ders_notu_link = ders_konu_notlari.get(ders, {}).get("__ders_notu__", "")
     if ders_notu_link:
         st.markdown(
-            f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:8px; border: 1px solid #007BFF; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",    
+          f"<a href='{ders_notu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:8px; border: 1px solid #007BFF; border-radius:8px; cursor:pointer;'>📚 Ders Notları</button></a>",      
             unsafe_allow_html=True
         )
+
 
     konular = list(soru_bankasi[ders].keys())
     sonuclar = st.session_state.get("sonuclar", {})
@@ -238,81 +244,98 @@ def konu_secim_page(ders):
                 st.session_state["page"] = "test"
                 st.rerun()
 
+ #       with col3:
+ #           # Konu linki varsa Not butonu
+ #           konu_link = ders_konu_notlari.get(ders, {}).get(konu, "")
+ #           if konu_link:
+ #              st.markdown(
+ #                  f"<a href='{konu_link}' target='_blank' style='text-decoration:none; color:#007BFF;'>📕 pdf</a>",
+ #                  unsafe_allow_html=True
+ #               )  
+
     st.markdown("---")
     st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
 
+# ===============================
+# Test Seçim Sayfası
+# ===============================
+from ders_konu_notlari import ders_konu_notlari
+
 def test_secim_page(secilen_ders, secilen_konu):
-    # Geri butonu sol üst
-    if st.button("🔙 Geri"):
-        st.session_state["page"] = "konu"
-        st.rerun()
-    
-    st.markdown(
-        f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu} </h2>",
-        unsafe_allow_html=True
-    )
+    # Geri butonu sol üst
+    if st.button("🔙 Geri"):
+        st.session_state["page"] = "konu"
+        st.rerun()
+    
+    st.markdown(
+        f"<h2 style='font-size:25px;'>{secilen_ders} - {secilen_konu} </h2>",
+        unsafe_allow_html=True
+    )
 
-    # 📕 Konu Notu butonu
-    konu_link = ders_konu_notlari.get(secilen_ders, {}).get(secilen_konu, "")
-    if konu_link:  # Link varsa göster
-        st.markdown(
-            f"<a href='{konu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:6px; border: 1px solid #007BFF; border-radius:8px; cursor:pointer;'>📕 Konu Notu</button></a>",
-            unsafe_allow_html=True
-        )
-    else:  # Link yoksa bilgi ver
-        st.info("Bu konu için henüz not eklenmemiştir.")
+    # 📕 Konu Notu butonu
+    konu_link = ders_konu_notlari.get(secilen_ders, {}).get(secilen_konu, "")
+    if konu_link:  # Link varsa göster
+        st.markdown(
+            f"<a href='{konu_link}' target='_blank'><button style='background-color: transparent; color: ; padding:6px; border: 1px solid #007BFF; border-radius:8px; cursor:pointer;'>📕 Konu Notu</button></a>",
+            unsafe_allow_html=True
+        )
+    else:  # Link yoksa bilgi ver
+        st.info("Bu konu için henüz not eklenmemiştir.")
 
-    tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
-    if not tum_sorular:
-        st.info("Bu konu için henüz soru eklenmemiş.")
-        if st.button("Geri"):
-            st.session_state["page"] = "konu"
-            st.rerun()
-        return
+    tum_sorular = soru_bankasi[secilen_ders][secilen_konu]
+    if not tum_sorular:
+        st.info("Bu konu için henüz soru eklenmemiş.")
+        if st.button("Geri"):
+            st.session_state["page"] = "konu"
+            st.rerun()
+        return
 
-    soru_grubu_sayisi = 5
-    test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
+    soru_grubu_sayisi = 5
+    test_sayisi = math.ceil(len(tum_sorular) / soru_grubu_sayisi)
 
-    sonuclar = st.session_state.get("sonuclar", {})
+    sonuclar = st.session_state.get("sonuclar", {})
 
-    for i in range(test_sayisi):
-        baslangic = i * soru_grubu_sayisi
-        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
-        soru_sayisi = bitis - baslangic
-        test_adi = f"Test {i+1}: ({soru_sayisi} Soru)"
+    for i in range(test_sayisi):
+        baslangic = i * soru_grubu_sayisi
+        bitis = min((i + 1) * soru_grubu_sayisi, len(tum_sorular))
+        soru_sayisi = bitis - baslangic
+        test_adi = f"Test {i+1}: ({soru_sayisi} Soru)"
 
-        # Çözülmüş testleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
-        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
-        if test_sonuc:
-            dogru_sayi = test_sonuc.get('dogru', 0)
-            oran = dogru_sayi / soru_sayisi if soru_sayisi > 0 else 0
-            simge = "✅" if oran >= 0.6 else "❌"
-            label = f"{test_adi} {simge} ({dogru_sayi}/{soru_sayisi})"
-        else:
-            label = f"{test_adi} ⏺"
+        # Çözülmüş testleri renklendir: doğru oran >=0.6 ise ✅, değilse ❌
+        test_sonuc = sonuclar.get(secilen_ders, {}).get(secilen_konu, {}).get(f"test_{i+1}")
+        if test_sonuc:
+            dogru_sayi = test_sonuc.get('dogru', 0)
+            oran = dogru_sayi / soru_sayisi
+            simge = "✅" if oran >= 0.6 else "❌"
+            label = f"{test_adi} {simge} ({dogru_sayi}/{soru_sayisi})"
+        else:
+            label = f"{test_adi} ⏺"
 
-        if st.button(label, key=f"testbtn_{i}", help=f"Test {i+1}"):
+        if st.button(label, key=f"testbtn_{i}", help=f"Test {i+1}"):
 
-            # önceki cevapları temizle
-            cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
-            for k in cevap_keys:
-                del st.session_state[k]
+            # önceki cevapları temizle
+            cevap_keys = [k for k in list(st.session_state.keys()) if k.startswith("cevap_")]
+            for k in cevap_keys:
+                del st.session_state[k]
 
-            st.session_state["current_test"] = {
-                "test": tum_sorular[baslangic:bitis],
-                "index": 0,
-                "ders": secilen_ders,
-                "konu": secilen_konu,
-                "test_no": i+1,
-                "test_sayisi": test_sayisi
-            }
-            st.session_state["page"] = "soru"
-            st.rerun()
+            st.session_state["current_test"] = {
+                "test": tum_sorular[baslangic:bitis],
+                "index": 0,
+                "ders": secilen_ders,
+                "konu": secilen_konu,
+                "test_no": i+1,
+                "test_sayisi": test_sayisi
+            }
+            st.session_state["page"] = "soru"
+            st.rerun()
 
-    st.markdown("---")  # alt çizgi
-    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+    st.markdown("---")  # alt çizgi
+    st.markdown("<h1 style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
+
+
+
 # ===============================
 # Soru Gösterim Sayfası
 # ===============================
@@ -662,4 +685,5 @@ elif st.session_state.page == "profil":
     profil_page()
 elif st.session_state.page == "deneme":
     deneme_secim_page()
+
 
