@@ -11,3 +11,5 @@ Kullanıcı girişi, ders ve konu seçimi, test çözme ve genel rapor özellikl
    streamlit run main.py
 3. Tarayıcıda açılan URL üzerinden uygulamayı kullanabilirsiniz.
 
+
+https://kpssquizapp-n9z5jc2mbvbrexehbjn4id.streamlit.app/
