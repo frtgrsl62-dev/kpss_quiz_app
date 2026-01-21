@@ -335,7 +335,7 @@ def test_secim_page(secilen_ders, secilen_konu):
 # Deneme Sınavları
 # ===============================
 def deneme_secim_page():
-    if st.button("🔙 Geri"):
+    if st.button("🏠 Geri"):
         st.session_state["page"] = "ders"
         st.rerun()
 
@@ -727,3 +727,4 @@ elif page == "rapor":
 elif page == "profil":
     profil_page()
     
+
