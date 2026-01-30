@@ -911,7 +911,64 @@
 
 "📜 Tarih": {
     "1. İslamiyet Öncesi Türk Tarihi": [
+
+        
+
+
   {
+    "soru": "İstanbul'u kuşatan ilk Türk devleti olarak bilinen ve hem Asya'da hem de Avrupa'da devlet kuran Türk topluluğu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Hunlar",
+      "B": "Avarlar",
+      "C": "Bulgarlar",
+      "D": "Hazarlar",
+      "E": "Peçenekler"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Avarlar, hem Göktürkler tarafından Orta Asya'dan sürülmüş hem de Bayan Kağan liderliğinde Avrupa'da devlet kurarak Sasanilerle birlikte İstanbul'u kuşatmışlardır (626)."
+  },
+  {
+    "soru": "I. Kutluk Devleti olarak da bilinen ve Orhun Abideleri'ni diken Türk devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Asya Hun Devleti",
+      "B": "I. Göktürk Kağanlığı",
+      "C": "Uygur Devleti",
+      "D": "II. Göktürk Kağanlığı",
+      "E": "Kırgızlar"
+    },
+    "dogru_cevap": "D",
+    "cozum": "II. Göktürk Kağanlığı, Kutluk Kağan (İlteriş) tarafından kurulduğu için Kutluk Devleti olarak da bilinir. Orhun Abideleri bu dönemde dikilmiştir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk devletlerinde hükümdarlar 'Kağan, Hakan, Şanyü, İlteber, İdikut' gibi çeşitli unvanlar kullanmışlardır. Bu durumun aşağıdakilerden hangisini gösterdiği savunulabilir?",
+    "secenekler": {
+      "A": "Hükümdarlık anlayışının zamanla değiştiğini",
+      "B": "Tek bir ortak kültürün olmadığını",
+      "C": "Farklı devlet ve dönemlerde çeşitli hükümdarlık geleneklerinin olduğunu",
+      "D": "Bütün unvanların Çince kökenli olduğunu",
+      "E": "Sadece askeri başarılara göre unvan verildiğini"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Farklı devletlerin, farklı coğrafyalarda ve dönemlerde kendi siyasi geleneklerine ve komşularıyla etkileşimlerine göre çeşitli unvanlar kullanması doğaldır."
+  },
+  {
+    "soru": "Tuna Bulgarları, Boris Han zamanında Hristiyanlığı benimsemiş ve zamanla Slav kültürü içinde asimile olarak Türklük özelliklerini kaybetmişlerdir. Bu durumun tam tersine, İslamiyet'i kabul ederek milli benliklerini koruyan ilk büyük Türk devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Göktürkler",
+      "B": "Karahanlılar",
+      "C": "Uygurlar",
+      "D": "Hazarlar",
+      "E": "Tolunoğulları"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Karahanlılar, Satuk Buğra Han zamanında topluca İslamiyet'i kabul etmiş ve Türk kültürünü İslamiyet ile sentezleyerek milli kimliklerini koruyan ilk büyük Türk-İslam devleti olmuşlardır."
+  }     
+        
+        
+        
+        
+        
+{
     "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
     "maddeler": [
       "I. Türk siyasi birliğini sağlamıştır.",
@@ -994,13 +1051,8 @@
             "cozum": "Bu soru tipi, her devlet hakkında birer kilit bilgi vererek genel tekrar yapmanı sağlar. Bir yanlış, dört doğru bilgi içerir.\n\nAnaliz: Seçenekleri tek tek kontrol edelim.\nA) Doğru. Mete Han onlu sistemi kurmuştu.\nB) Doğru. \"Türk\" adını kullanan ilk devlettir.\nC) Doğru. Hazarların en ayırt edici özelliğidir.\nD) Doğru. Uygurlar yerleşik hayatla birlikte matbaayı da kullanmıştır.\nE) Yanlış. İstanbul'u kuşatan ilk Türk devleti Avarlardır. Kırgızlar ise Manas Destanı ve Cengiz Han'a itaat eden ilk Türk devleti olmalarıyla bilinir.\n\nDoğru Cevap: E) Kırgızlar, İstanbul'u kuşatan ilk Türk devletidir.\n\nKoçunun Yorumu: ÖSYM, \"ilk\"leri sormayı sever. İstanbul'u kuşatan ilk Türk devleti (Avarlar), yerleşik hayata geçen ilk Türk devleti (Uygurlar), Türk adını kullanan ilk devlet (Göktürkler) gibi bilgileri ayrı bir yere not etmelisin. Bu soru, o notların ne kadar önemli olduğunu gösteriyor."
         }
 ],
-    
+
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [
-
-
-
-
-
   {
     "soru": "Büyük Selçuklu Devleti'nde hükümdarın başkanlık ettiği, üst düzey devlet görevlileri hakkındaki şikayetlerin ve idari-adli uyuşmazlıkların karara bağlandığı yüksek mahkeme aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -1385,11 +1437,6 @@
     "dogru_cevap": "B",
     "cozum": "Gulam sistemi, savaş esirleri veya satın alınan kölelerin sarayda yetiştirilerek ordu ve devlet hizmetinde kullanılmasıdır. Bu askerlere Gulam denir."
   }
-
-
-
-        
-        
     ],
     "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [
   {
@@ -7426,6 +7473,7 @@
     }
 
 }
+
 
 
 
