@@ -1055,7 +1055,67 @@
 
         
         
-        
+   {
+    "soru": "İstanbul Hükûmeti'nin, Temsil Heyeti'nin siyasi varlığını ve Anadolu'daki Milli Mücadele hareketini resmen tanıdığı ilk gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Havza Genelgesi'nin yayınlanması",
+      "B": "Erzurum Kongresi'nin toplanması",
+      "C": "Sivas Kongresi sonrası Damat Ferit Paşa'nın istifa etmesi ve Ali Rıza Paşa Hükûmeti ile Amasya Görüşmeleri'nin yapılması",
+      "D": "Son Osmanlı Mebusan Meclisi'nin toplanması",
+      "E": "Misakımillî'nin kabul edilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Sivas Kongresi'nin gücü karşısında direnemeyen Damat Ferit Hükûmeti'nin istifası, Anadolu hareketinin ilk siyasi zaferidir. Yerine kurulan ılımlı Ali Rıza Paşa Hükûmeti'nin, Temsil Heyeti ile masaya oturup Amasya Görüşmeleri'ni yapması ise, isyancı olarak gördüğü bu hareketi artık resmen bir muhatap olarak kabul ettiğini, yani \"resmen tanıdığını\" gösterir."
+  },
+  {
+    "soru": "Sivas Kongresi'nde tüm milli cemiyetlerin \"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti\" adı altında birleştirilmesinin temel amacı nedir?",
+    "secenekler": {
+      "A": "Padişaha bağlılığı bildirmek",
+      "B": "İtilaf Devletleri'nden yardım istemek",
+      "C": "Manda ve himayeyi kabul etmek",
+      "D": "Milli Mücadele'yi tek bir merkezden yöneterek ulusal birliği sağlamak",
+      "E": "Yeni bir anayasa hazırlamak"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Dağınık ve bölgesel direnişleri tek bir çatı altında toplayarak, mücadeleye ulusal bir karakter kazandırmak ve daha etkili kılmak amaçlanmıştır. Bu karar, Milli Mücadele'nin \"örgütlenme\" aşamasının zirvesidir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Temsil Heyeti'nin Sivas Kongresi'nden sonra Ankara'yı Milli Mücadele'nin merkezi olarak seçmesinin nedenlerinden biri değildir?",
+    "secenekler": {
+      "A": "Batı Cephesi'ne yakın olması",
+      "B": "İşgal altında olmaması ve güvenli bir konumda bulunması",
+      "C": "İstanbul'daki Mebusan Meclisi çalışmalarını yakından takip etme imkânı sunması",
+      "D": "Ulaşım ve haberleşme hatlarının kesişim noktasında yer alması",
+      "E": "Ankara'nın Osmanlı Devleti'ne başkentlik yapmış olması"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Ankara, Osmanlı'ya hiç başkentlik yapmamıştır. Bu seçim tamamen stratejik ve coğrafi nedenlere dayanmaktadır. ÖSYM, bir kararın arkasındaki \"stratejik\" nedenleri sorgular. Ankara'nın seçimi, tesadüf değil, iyi düşünülmüş bir askeri ve siyasi hamledir."
+  },
+  {
+    "soru": "Son Osmanlı Mebusan Meclisi'nde kabul edilen Misakımillî kararları arasında, Kars, Ardahan, Batum ve Batı Trakya'nın geleceğinin belirlenmesi için hangi yönteme başvurulması istenmiştir?",
+    "secenekler": {
+      "A": "İtilaf Devletleri'nin kararına",
+      "B": "Padişahın fermanına",
+      "C": "Milletler Cemiyeti'nin hakemliğine",
+      "D": "Halk oylamasına (Referandum)",
+      "E": "Silahlı mücadeleye"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Misakımillî, Wilson İlkeleri'ndeki \"self-determinasyon\" (halkların kendi kaderini tayin etmesi) ilkesine dayanarak, bu bölgelerin geleceğine halkın kendisinin karar vermesi gerektiğini savunmuştur. Bu madde, Milli Mücadele'nin ne kadar demokratik ve uluslararası hukuka uygun bir zemine dayandırılmaya çalışıldığının kanıtıdır."
+  },
+  {
+    "soru": "Misakımillî'de yer alan \"Siyasi, adli ve mali gelişmemizi engelleyen her türlü sınırlamalar (kapitülasyonlar) kaldırılmalıdır.\" maddesi ile aşağıdakilerden hangisine ilk kez açıkça karşı çıkılmıştır?",
+    "secenekler": {
+      "A": "Padişahın otoritesine",
+      "B": "Azınlık haklarına",
+      "C": "Manda ve himayeye",
+      "D": "Kapitülasyonlara",
+      "E": "Dış borçlara"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Manda ve himaye kongrelerde reddedilmişti. Kapitülasyonların, yani ekonomik bağımsızlığı yok eden ayrıcalıkların kaldırılması fikri ise ilk kez resmi bir metin olan Misakımillî'de bu kadar net bir şekilde ifade edilmiştir. Misakımillî, sadece toprak bütünlüğünü değil, aynı zamanda \"tam bağımsızlığı\" (ekonomik, siyasi, adli) hedefler."
+  },
+      
         
         
         
@@ -3156,6 +3216,7 @@
     }
 
 }
+
 
 
 
