@@ -1001,10 +1001,16 @@
     "5. Osmanlı Devleti Kültür ve Medeniyeti": [],
     "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [    ],
     "7. 19. yy (Dağılma) ve Islahatlar": [],
-    "8. Trablusgarp ve Balkan Savaşları": [],
-    "9. I. Dünya Savaşı ve Sonuçları": [
-  
+    "8. Trablusgarp ve Balkan Savaşları": [
+
+
+
+
         
+
+        
+    ],
+    "9. I. Dünya Savaşı ve Sonuçları": [  
     {
         "soru": "I. Dünya Savaşı'nı sona erdiren ateşkes antlaşmalarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
         "secenekler": {
@@ -1018,8 +1024,6 @@
         "cozum": "Macaristan doğrudan Trianon ile barış yaptı, ateşkes yapmadı.",
         "koc_yorumu": "Detay sorusu olsa da kronoloji bilmek önemlidir."
     },
-
-
     {
         "soru": "Aşağıdakilerden hangisi, savaş sonunda yıkılan imparatorlukların topraklarında kurulan 'Manda ve Himaye' rejiminin tanımıdır?",
         "secenekler": {
@@ -1033,9 +1037,6 @@
         "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' ilkesini delmek için İngiltere ve Fransa'nın bulduğu bir formüldür. Orta Doğu'daki Osmanlı toprakları (Irak, Suriye, Filistin vb.) bu sistemle paylaşılmıştır.",
         "koc_yorumu": "Manda-himaye sistemi aslında sömürgeciliğin kılıf değiştirmiş halidir."
     },
-        
-        
-        
        {
         "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine neden olan olay hangisidir?",
         "secenekler": {
@@ -4353,6 +4354,7 @@
     }
 
 }
+
 
 
 
