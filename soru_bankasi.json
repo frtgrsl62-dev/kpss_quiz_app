@@ -1116,134 +1116,18 @@
         
         
 
- {
-    "soru": "Erzurum Kongresi'nde kurulan Temsil Heyeti'nin yetkisi, Sivas Kongresi'nde nasıl bir değişikliğe uğramıştır?",
-    "secenekler": {
-    "A": "Yetkisi tamamen kaldırılmıştır.",
-    "B": "Yetkisi sadece Doğu illerini kapsayacak şekilde sınırlandırılmıştır.",
-    "C": "Yetkisi tüm yurdu kapsayacak şekilde genişletilmiştir.",
-    "D": "Yetkisi İstanbul Hükûmeti'ne devredilmiştir.",
-    "E": "Yetkisi sadece askeri konularla sınırlandırılmıştır.",
-    },
-    "dogru_cevap": "C",
-    "cozum": "Erzurum'da sadece Doğu illerini temsil eden heyet, Sivas'ta tüm Anadolu ve Rumeli'yi temsil eden ulusal bir organ haline getirilmiştir. Temsil Heyeti'nin bu evrimi, Milli Mücadele'nin bölgesellikten ulusallığa geçişinin en somut göstergesidir."
-  },
-  {
-    "soru": "Sivas Kongresi sırasında yaşanan en önemli tartışma konusu aşağıdakilerden hangisidir?",
-    "secenekler": {
-    "A": "Saltanatın kaldırılması",
-    "B": "Cumhuriyetin ilanı",
-    "C": "Kongre başkanlığı ve manda ve himaye fikri",
-    "D": "Yeni bir anayasa hazırlanması",
-    "E": "Başkentin Ankara'ya taşınması",
-    },
-    "dogru_cevap": "C",
-    "cozum": "Kongre başlamadan önce Mustafa Kemal'in başkanlığına karşı çıkanlar olmuş, kongre sırasında ise bazı delegeler kurtuluşun ancak bir büyük devletin (ABD) mandası altına girmekle mümkün olacağını savunmuş, ancak bu fikir kesin olarak reddedilmiştir. Bu tartışmalar, Milli Mücadele'nin başlangıcında tam bir fikir birliği olmadığını, \"tam bağımsızlık\" fikrinin Mustafa Kemal'in liderliğinde zorlu tartışmalarla kabul ettirildiğini gösterir."
-  },
-  {
-    "soru": "Amasya Genelgesi'nde yer alan \"Milletin durumunu ve davranışını belirlemek ve sesini dünyaya duyurmak için her türlü etki ve denetimden uzak milli bir kurulun varlığı gereklidir.\" maddesi, aşağıdakilerden hangisinin kurulmasına işaret etmektedir?",
-    "secenekler": {
-    "A": "TBMM",
-    "B": "Kuvayımilliye",
-    "C": "Tekâlif-i Milliye",
-    "D": "Temsil Heyeti",
-    "E": "Müdafaa-i Hukuk Grubu",
-    },
-    "dogru_cevap": "D",
-    "cozum": "Bu \"milli kurul\" ifadesi, Erzurum Kongresi'nde vücut bulacak olan ve Sivas'ta ulusallaşacak olan Temsil Heyeti'nin ilk teorik temelidir. Amasya Genelgesi bir \"plan\", Erzurum ve Sivas ise bu \"planın uygulamasıdır\"."
-  },
-  {
-    "soru": "Aşağıdaki gelişmelerden hangisi, kronolojik olarak diğerlerinden daha sonra gerçekleşmiştir?",
-    "secenekler": {
-    "A": "Amasya Genelgesi'nin yayınlanması",
-    "B": "Erzurum Kongresi'nin toplanması",
-    "C": "Misakımillî'nin kabul edilmesi",
-    "D": "Havza Genelgesi'nin yayınlanması",
-    "E": "Sivas Kongresi'nin toplanması",
-    },
-    "dogru_cevap": "C",
-    "cozum": "Sıralama: Havza (Mayıs 1919) -> Amasya G. (Haziran 1919) -> Erzurum (Temmuz 1919) -> Sivas (Eylül 1919) -> Misakımillî (Ocak 1920). Hazırlık döneminin kronolojisine hakim olmak, bu dönemden gelecek soruların yarısını doğru çözmek demektir."
-  },
-  {
-    "soru": "Son Osmanlı Mebusan Meclisi'ndeki milli mücadele yanlısı milletvekillerinin, Misakımillî'yi kabul etmek için oluşturdukları grubun adı nedir?",
-    "secenekler": {
-    "A": "Müdafaa-i Hukuk Grubu",
-    "B": "İttihat ve Terakki Fırkası",
-    "C": "Felâh-ı Vatan Grubu",
-    "D": "Tesanüt Grubu",
-    "E": "Halk Zümresi",
-    },
-    "dogru_cevap": "C",
-    "cozum": "Mustafa Kemal, vekillerden mecliste bir Müdafaa-i Hukuk Grubu kurmalarını istemişti. Ancak padişahın ve İtilaf Devletleri'nin baskısından çekinen vekiller, daha ılımlı bir isim olan \"Vatanın Kurtuluşu\" anlamına gelen Felâh-ı Vatan grubunu kurmuşlardır. Bu isim değişikliği bile, meclisin İstanbul'da ne kadar büyük bir baskı altında çalıştığının bir göstergesidir."
-  },
-  {
-    "soru": "Aşağıdakilerden hangisi, Sivas Kongresi'nde alınan kararlardan biri değildir?",
-    "secenekler": {
-    "A": "Manda ve himayenin kesin olarak reddedilmesi",
-    "B": "Tüm milli cemiyetlerin tek çatı altında birleştirilmesi",
-    "C": "Temsil Heyeti'nin yetkilerinin tüm ülkeyi kapsayacak şekilde genişletilmesi",
-    "D": "İrade-i Milliye adıyla bir gazete çıkarılması",
-    "E": "Ankara'da yeni bir meclisin toplanması",
-    },
-    "dogru_cevap": "E",
-    "cozum": "Ankara'da yeni bir meclis toplanması kararı, Sivas Kongresi'nde değil, Son Osmanlı Mebusan Meclisi'nin İstanbul'da İtilaf Devletleri tarafından dağıtılmasından sonra alınmıştır. Her olayın kararını kendi bağlamında bilmek önemlidir. TBMM'nin açılışı, Misakımillî'nin ve İstanbul'un işgalinin bir sonucudur."
-  },
-  {
-    "soru": "\"Vatanın bütünlüğü ve milletin bağımsızlığı tehlikededir.\" hükmü, Milli Mücadele'nin hangi temel belgesinde yer almıştır?",
-    "secenekler": {
-    "A": "Havza Genelgesi",
-    "B": "Amasya Genelgesi",
-    "C": "Erzurum Kongresi Kararları",
-    "D": "Misakımillî",
-    "E": "Sivas Kongresi Kararları",
-    },
-    "dogru_cevap": "B",
-    "cozum": "Bu madde, Milli Mücadele'nin \"gerekçesini\", yani \"Neden savaşıyoruz?\" sorusunun cevabını ortaya koyan maddedir. Her belgenin bir \"anahtar cümlesi\" vardır. Amasya Genelgesi'nin anahtar cümlelerinden biri budur."
-  },
-  {
-    "soru": "Damat Ferit Paşa Hükûmeti'nin, Sivas Kongresi'ni engellemek amacıyla Ali Galip'i görevlendirmesi ve bu girişimin başarısız olması, aşağıdakilerden hangisini göstermiştir?",
-    "secenekler": {
-    "A": "Milli Mücadele'nin sona erdiğini",
-    "B": "Padişahın Temsil Heyeti'ni desteklediğini",
-    "C": "Temsil Heyeti'nin İstanbul Hükûmeti karşısındaki siyasi ve askeri gücünü ve kararlılığını",
-    "D": "İtilaf Devletleri'nin kongreyi desteklediğini",
-    "E": "Ali Galip'in Temsil Heyeti'ne katıldığını",
-   },
-    "dogru_cevap": "C",
-    "cozum": "Bu olay, Temsil Heyeti'nin artık sadece kararlar alan bir kurul değil, aynı zamanda bu kararları uygulayabilecek ve kendisine yönelik saldırıları püskürtebilecek bir güce ulaştığını göstermiştir. Bu olayın sonunda Damat Ferit istifa etmek zorunda kalmıştır."
-  },
-  {
-    "soru": "Aşağıdaki kararlardan hangisinin alınmasında, diğerlerinden farklı olarak, Wilson İlkeleri'nde yer alan \"self-determinasyon\" ilkesinden yararlanma amacı vardır?",
-    "secenekler": {
-    "A": "\"Manda ve himaye kabul olunamaz.\"",
-    "B": "\"Milli sınırlar içinde vatan bir bütündür.\"",
-    "C": "\"Kuvayımilliyeyi etken ve milli iradeyi hakim kılmak esastır.\"",
-    "D": "\"Batı Trakya'nın hukuki durumunun tespitinde halkoyuna başvurulmalıdır.\"",
-    "E": "\"Kapitülasyonlar kaldırılmalıdır.\"",
-    },
-    "dogru_cevap": "D",
-    "cozum": "Wilson İlkeleri, bir bölgenin geleceğine orada yaşayan halkın karar vermesi gerektiğini savunuyordu. Misakımillî'de Batı Trakya ve \"Elviye-i Selase\" için referandum (halk oylaması) istenmesi, bu ilkenin kendi lehimize kullanılma çabasıdır."
-  },
-  {
-    "soru": "Mustafa Kemal'in askerlik görevinden ve resmi müfettişlik yetkisinden istifa etmesi, hangi olaydan hemen sonra gerçekleşmiştir?",
-    "secenekler": {
-    "A": "Samsun'a çıktıktan sonra",
-    "B": "Havza Genelgesi'nden sonra",
-    "C": "Amasya Genelgesi'nden sonra",
-    "D": "Erzurum Kongresi'nden sonra",
-    "E": "Sivas Kongresi'nden sonra",
-    },
-    "dogru_cevap": "C",
-    "cozum": "Amasya Genelgesi'nin ihtilalci karakteri nedeniyle İstanbul Hükûmeti tarafından geri çağrılan Mustafa Kemal, bu emre uymayarak Erzurum Kongresi öncesinde \"sine-i millete\" yani milletin sinesine döndüğünü belirterek tüm resmi görevlerinden istifa etmiştir. Artık o bir sivildir."
-  },
-  {
+
+
+
+
+   {
     "soru": "Milli Mücadele'nin hazırlık döneminde, yürütme gücünü kullanarak Ali Fuat Paşa'yı Batı Cephesi Komutanlığı'na atayan organ hangisidir?",
     "secenekler": {
     "A": "Son Osmanlı Mebusan Meclisi",
     "B": "Sivas Kongresi'nde yetkileri genişletilen Temsil Heyeti",
     "C": "Erzurum Kongresi",
     "D": "İstanbul Hükûmeti",
-    "E": "Balıkesir Kongresi",
+    "E": "Balıkesir Kongresi"
    },
     "dogru_cevap": "B",
     "cozum": "Temsil Heyeti, Sivas Kongresi'nden sonra bir hükümet gibi hareket etmeye başlamıştır. Bir komutan ataması yapması, \"yürütme\" gücünü kullandığının en net kanıtıdır."
@@ -1296,9 +1180,10 @@
     "dogru_cevap": "A",
     "cozum": "Erzurum Kongresi’nde Temsil Heyeti kurulmuş, başına Mustafa Kemal getirilmiştir."
   },
+       
 
 
-
+        
         
         
       {
@@ -3453,6 +3338,7 @@
     }
 
 }
+
 
 
 
