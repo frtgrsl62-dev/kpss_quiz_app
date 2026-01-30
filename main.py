@@ -779,75 +779,68 @@ def admin_page():
                 st.success("Kullanıcı silindi")
                 st.rerun()
 
-    # ==================================================
-    # ➕ SORU EKLE
-    # ==================================================
-    # ==================================================
-    # ➕ SORU EKLE
-    # ==================================================
+    # ===============================
+    # ➕ SORU EKLEME
+    # ===============================
     with tab2:
-        st.subheader("Yeni Soru Ekle")
+        st.subheader("➕ Yeni Soru Ekle")
 
-        ders = st.selectbox(
-            "Ders Seçiniz",
-            list(soru_bankasi.keys()),
-            key="ekle_ders"
+        dersler = list(soru_bankasi.keys())
+        if not dersler:
+            st.warning("Henüz ders yok.")
+            return
+
+        ders = st.selectbox("Ders Seç", dersler)
+
+        mevcut_konular = list(soru_bankasi.get(ders, {}).keys())
+        konu_secim = st.selectbox(
+            "Konu Seç",
+            mevcut_konular + ["➕ Yeni Konu"]
         )
 
-        konu = st.selectbox(
-            "Konu Seçiniz",
-            list(soru_bankasi[ders].keys()),
-            key="ekle_konu"
-        )
+        if konu_secim == "➕ Yeni Konu":
+            konu = st.text_input("Yeni Konu Adı")
+        else:
+            konu = konu_secim
 
-        soru_metin = st.text_area("Soru", key="soru_metin")
-        a = st.text_input("A şıkkı", key="sec_a")
-        b = st.text_input("B şıkkı", key="sec_b")
-        c = st.text_input("C şıkkı", key="sec_c")
-        d = st.text_input("D şıkkı", key="sec_d")
-        e = st.text_input("E şıkkı", key="sec_e")
+        st.markdown("---")
 
-        dogru = st.selectbox(
-            "Doğru Cevap",
-            ["A", "B", "C", "D", "E"],
-            key="dogru"
-        )
+        soru_metin = st.text_area("Soru")
+        a = st.text_input("A şıkkı")
+        b = st.text_input("B şıkkı")
+        c = st.text_input("C şıkkı")
+        d = st.text_input("D şıkkı")
+        e = st.text_input("E şıkkı")
 
-        cozum = st.text_area("Çözüm", key="cozum")
+        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
+        cozum = st.text_area("Çözüm")
 
         if st.button("➕ Soruyu Kaydet"):
-            if not soru_metin.strip():
-                st.error("Soru metni boş olamaz")
-            else:
-                yeni_soru = {
-                    "id": str(uuid.uuid4()),
-                    "soru": soru_metin,
-                    "secenekler": {
-                        "A": a, "B": b, "C": c, "D": d, "E": e
-                    },
-                    "dogru_cevap": dogru,
-                    "cozum": cozum
-                }
+            if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
+                st.error("❌ Tüm alanları doldurun!")
+                return
 
-                soru_bankasi[ders][konu].append(yeni_soru)
-                soru_bankasini_kaydet(soru_bankasi)
+            yeni_soru = {
+                "soru": soru_metin,
+                "secenekler": {
+                    "A": a,
+                    "B": b,
+                    "C": c,
+                    "D": d,
+                    "E": e
+                },
+                "dogru_cevap": dogru,
+                "cozum": cozum
+            }
 
-                st.success("✅ Soru başarıyla eklendi")
+            soru_bankasi.setdefault(ders, {})
+            soru_bankasi[ders].setdefault(konu, [])
+            soru_bankasi[ders][konu].append(yeni_soru)
 
-                # 🔄 FORM + SEÇİMLERİ TEMİZLE
-                for key in [
-                    "soru_metin", "sec_a", "sec_b",
-                    "sec_c", "sec_d", "sec_e", "cozum"
-                ]:
-                    st.session_state[key] = ""
+            soru_bankasini_kaydet(soru_bankasi)
 
-                st.session_state["dogru"] = "A"
-                st.session_state["ekle_ders"] = list(soru_bankasi.keys())[0]
-                st.session_state["ekle_konu"] = list(
-                    soru_bankasi[st.session_state["ekle_ders"]].keys()
-                )[0]
-
-                st.rerun()
+            st.success("✅ Soru başarıyla kaydedildi!")
+            st.rerun()
 
     # ==================================================
     # 🗑️ SORU SİL
@@ -957,6 +950,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
