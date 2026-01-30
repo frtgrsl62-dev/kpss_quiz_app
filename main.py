@@ -792,10 +792,11 @@ def admin_page():
                 list(soru_bankasi.keys())
             )
 
-            konu = st.selectbox(
-                "Konu Seçiniz",
-                list(soru_bankasi[ders].keys())
-            )
+        konu = st.selectbox(
+            "Konu Seçiniz",
+            list(soru_bankasi[ders].keys()),
+            key="ekle_konu"
+        )
 
             soru_metin = st.text_area("Soru")
             a = st.text_input("A şıkkı")
@@ -940,6 +941,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
