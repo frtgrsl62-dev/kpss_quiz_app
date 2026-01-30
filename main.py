@@ -769,8 +769,8 @@ def admin_page():
                         del kullanicilar[st.session_state["kullanici_onay"]]
                         kullanicilari_kaydet()
                         st.error("👤 Kullanıcı silindi")
-                        del st.session_state["kullanici_onay"]
-                        st.rerun()
+                     #   del st.session_state["kullanici_onay"]
+                     #  st.rerun()
 
                 with col2:
                     if st.button("❌ İptal"):
@@ -927,8 +927,8 @@ def admin_page():
                         sorular.pop(idx)
                         soru_bankasini_kaydet(soru_bankasi)
                         st.error("🗑️ Soru silindi")
-                        del st.session_state["sil_onay"]
-                        st.rerun()
+                     #   del st.session_state["sil_onay"]
+                    #  st.rerun()
 
                 with col2:
                     if st.button("❌ İptal"):
@@ -1000,6 +1000,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
