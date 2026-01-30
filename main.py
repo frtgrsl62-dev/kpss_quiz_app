@@ -761,8 +761,9 @@ def admin_page():
         st.subheader("Yeni Soru Ekle")
 
         ders = st.selectbox("Ders", list(soru_bankasi.keys()))
-        konu = st.text_input("Konu (yeni veya mevcut)")
-
+    #    konu = st.text_input("Konu (yeni veya mevcut)")
+        konu = st.selectbox("Konu", list(soru_bankasi.keys()))
+        
         soru_metin = st.text_area("Soru")
         a = st.text_input("A şıkkı")
         b = st.text_input("B şıkkı")
@@ -862,6 +863,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
