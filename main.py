@@ -782,56 +782,55 @@ def admin_page():
     # ==================================================
     # ➕ SORU EKLE
     # ==================================================
-    with tab2:
-        st.subheader("Yeni Soru Ekle")
+with tab2:
+    st.subheader("Yeni Soru Ekle")
 
-        with st.form("soru_ekle_form", clear_on_submit=True):
+    ders = st.selectbox(
+        "Ders Seçiniz",
+        list(soru_bankasi.keys()),
+        key="ekle_ders",
+        on_change=ders_degisti,
+        args=("ekle",)
+    )
 
-            ders = st.selectbox(
-                "Ders Seçiniz",
-                list(soru_bankasi.keys())
-            )
+    konu = st.selectbox(
+        "Konu Seçiniz",
+        list(soru_bankasi[ders].keys()),
+        key="ekle_konu"
+    )
 
-        konu = st.selectbox(
-            "Konu Seçiniz",
-            list(soru_bankasi[ders].keys()),
-            key="ekle_konu"
+    with st.form("soru_ekle_form", clear_on_submit=True):
+
+        soru_metin = st.text_area("Soru")
+        a = st.text_input("A şıkkı")
+        b = st.text_input("B şıkkı")
+        c = st.text_input("C şıkkı")
+        d = st.text_input("D şıkkı")
+        e = st.text_input("E şıkkı")
+
+        dogru = st.selectbox(
+            "Doğru Cevap",
+            ["A", "B", "C", "D", "E"]
         )
 
-            soru_metin = st.text_area("Soru")
-            a = st.text_input("A şıkkı")
-            b = st.text_input("B şıkkı")
-            c = st.text_input("C şıkkı")
-            d = st.text_input("D şıkkı")
-            e = st.text_input("E şıkkı")
+        cozum = st.text_area("Çözüm")
 
-            dogru = st.selectbox(
-                "Doğru Cevap",
-                ["A", "B", "C", "D", "E"]
-            )
+        submit = st.form_submit_button("➕ Soruyu Kaydet")
 
-            cozum = st.text_area("Çözüm")
+        if submit:
+            yeni_soru = {
+                "id": str(uuid.uuid4()),
+                "soru": soru_metin,
+                "secenekler": {
+                    "A": a, "B": b, "C": c, "D": d, "E": e
+                },
+                "dogru_cevap": dogru,
+                "cozum": cozum
+            }
 
-            submit = st.form_submit_button("➕ Soruyu Kaydet")
-
-            if submit:
-                if not soru_metin.strip():
-                    st.error("Soru metni boş olamaz")
-                else:
-                    yeni_soru = {
-                        "id": str(uuid.uuid4()),
-                        "soru": soru_metin,
-                        "secenekler": {
-                            "A": a, "B": b, "C": c, "D": d, "E": e
-                        },
-                        "dogru_cevap": dogru,
-                        "cozum": cozum
-                    }
-
-                    soru_bankasi[ders][konu].append(yeni_soru)
-                    soru_bankasini_kaydet(soru_bankasi)
-
-                    st.success("✅ Soru başarıyla eklendi")
+            soru_bankasi[ders][konu].append(yeni_soru)
+            soru_bankasini_kaydet(soru_bankasi)
+            st.success("✅ Soru eklendi")
 
     # ==================================================
     # 🗑️ SORU SİL
@@ -941,6 +940,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
