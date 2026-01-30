@@ -883,8 +883,8 @@ def admin_page():
                         }
                         soru_bankasini_kaydet(soru_bankasi)
                         st.success("✏️ Soru güncellendi")
-                        del st.session_state["guncelle_onay"]
-                        st.rerun()
+                   #     del st.session_state["guncelle_onay"]
+                     #   st.rerun()
 
                 with col2:
                     if st.button("❌ İptal"):
@@ -1000,6 +1000,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
