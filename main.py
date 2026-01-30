@@ -1,16 +1,18 @@
 import streamlit as st
+import time
 import json
 import os
-from soru_bankasi import soru_bankasini_yukle, soru_bankasini_kaydet
-import time
 import math
+from streamlit_cookies_manager import EncryptedCookieManager
+
 from soru_bankasi import soru_bankasini_yukle, soru_bankasini_kaydet
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
 
-from streamlit_cookies_manager import EncryptedCookieManager
-
-
+# ===============================
+# SORU BANKASI (GLOBAL)
+# ===============================
+soru_bankasi = soru_bankasini_yukle()
 
 ADMIN_USERS = ["a"]  # admin kullanıcı adları
 
@@ -882,6 +884,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
