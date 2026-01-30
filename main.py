@@ -773,7 +773,7 @@ def admin_page():
                         st.rerun()
 
                 with col2:
-                    if st.button("❎ İptal"):
+                    if st.button("❌ İptal"):
                         st.session_state.pop("confirm_user_delete")
                         st.info("İşlem iptal edildi")
 
@@ -811,6 +811,8 @@ def admin_page():
                 })
                 soru_bankasini_kaydet(soru_bankasi)
                 st.success("✅ Soru eklendi")
+
+                    st.success("✅ Kullanıcı silindi")
 
     # ==================================================
     # ✏️ SORU DÜZENLE (ONAYLI)
@@ -860,9 +862,11 @@ def admin_page():
                         st.success("Soru güncellendi")
                         st.rerun()
                 with c2:
-                    if st.button("❎ İptal"):
+                    if st.button("❌ İptal"):
                         st.session_state.pop("confirm_edit")
                         st.info("Güncelleme iptal edildi")
+
+                    st.success("✅ Soru güncellendi")
 
     # ==================================================
     # 🗑️ SORU SİL (ONAYLI)
@@ -896,10 +900,11 @@ def admin_page():
                         st.success("Soru silindi")
                         st.rerun()
                 with c2:
-                    if st.button("❎ İptal"):
+                    if st.button("❌ İptal"):
                         st.session_state.pop("confirm_delete")
                         st.info("Silme iptal edildi")
-
+                        
+                st.success("🗑️ Soru silindi")
         
 
 
@@ -966,6 +971,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
