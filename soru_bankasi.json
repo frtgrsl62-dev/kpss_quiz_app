@@ -998,11 +998,336 @@
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [ ],
     "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [ ],
     "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [],
-    "5. Osmanlı Devleti Kültür ve Medeniyeti": [],
+    "5. Osmanlı Devleti Kültür ve Medeniyeti": [
+
+
+
+  {
+    "soru": "Osmanlı Devleti'nde Divan-ı Hümayun üyesi olan ve temel görevi adalet işlerini yürütmenin yanı sıra kadı ve müderrislerin atamasını yapmak olan görevli aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Defterdar",
+      "B": "Nişancı",
+      "C": "Kazasker",
+      "D": "Reisülküttab",
+      "E": "Kaptan-ı Derya"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Soru kökündeki iki sihirli kelime 'kadı' ve 'müderris' atamasıdır. Adalet ve Eğitim işlerinden sorumlu olan Divan üyesi Kazasker'dir.\nDoğru Cevap: C) Kazasker\nKoçunun Yorumu: Bu, en temel Divan üyesi sorularından biridir. Kazasker (Adalet+Eğitim) ile Defterdar'ı (Maliye) karıştırmamaya dikkat et."
+  },
+  {
+    "soru": "Osmanlı ordusunun en kalabalık bölümünü oluşturan, geçimlerini kendilerine verilen dirlik topraklarından sağlayan, barış zamanı bulundukları bölgenin güvenliğinden sorumlu olan ve tamamen Türklerden oluşan askeri sınıf aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yeniçeriler",
+      "B": "Cebeciler",
+      "C": "Tımarlı Sipahiler",
+      "D": "Akıncılar",
+      "E": "Humbaracılar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Anahtar kelimeler: 'en kalabalık', 'dirlik toprağı', 'Türklerden oluşan'. Bu doğrudan Tımarlı Sipahileri işaret eder.\nDoğru Cevap: C) Tımarlı Sipahiler\nKoçunun Yorumu: Kapıkulu (maaşlı-devşirme) ile Eyalet Ordusu (topraklı-Türk) ayrımını iyi bil."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde Mısır, Yemen, Bağdat gibi merkeze uzak eyaletlerde tımar sistemi uygulanmamış, bu bölgelerin vergileri iltizam usulüyle toplanarak yıllık olarak doğrudan merkez hazinesine gönderilmiştir. Bu özelliklere sahip eyalet türü aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Salyanesiz Eyalet",
+      "B": "İmtiyazlı Eyalet",
+      "C": "Salyaneli Eyalet",
+      "D": "Yurtluk-Ocaklık",
+      "E": "Has Arazi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 'tımar uygulanmaz' ve 'yıllık olarak hazineye gider'. Yıl = Salyane. Bu eyaletler Salyaneli eyaletlerdir.\nDoğru Cevap: C) Salyaneli Eyalet\nKoçunun Yorumu: Tımar yoksa para var; para varsa salyane vardır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde padişahın fermanlarına tuğrasını çekmek, fethedilen toprakları tahrir defterlerine kaydetmek ve dirliklerin dağıtımını yapmakla görevli Divan üyesi kimdir?",
+    "secenekler": {
+      "A": "Kazasker",
+      "B": "Defterdar",
+      "C": "Sadrazam",
+      "D": "Nişancı",
+      "E": "Şeyhülislam"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Anahtar kelimeler 'tuğra' ve 'tahrir defteri'. Bu görev Nişancı’ya aittir.\nDoğru Cevap: D) Nişancı\nKoçunun Yorumu: Nişancı = Tuğra + Tahrir + Dirlik dağıtımı."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde devşirme sistemiyle saraya alınan zeki ve yetenekli çocukların, üst düzey bir devlet adamı veya komutan olarak yetiştirildiği saray okulu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Medrese",
+      "B": "Sıbyan Mektebi",
+      "C": "Enderun Mektebi",
+      "D": "Lonca",
+      "E": "Tekke"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 'Devşirme kökenli' ve 'devlet adamı yetiştiren okul' = Enderun Mektebi.\nDoğru Cevap: C) Enderun Mektebi\nKoçunun Yorumu: Medrese-halk, Enderun-devlet, Lonca-esnaf. Bu üç ayrımı iyi bil."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde toprağını mazeretsiz olarak üç yıl üst üste ekmeyen veya boş bırakan köylüden, üretimin devamlılığını sağlamak amacıyla alınan ceza vergisi aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Öşür",
+      "B": "Cizye",
+      "C": "Avarız",
+      "D": "Çiftbozan",
+      "E": "Bac"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Toprağı ekmemek = çifti bozmak. Bunun cezası Çiftbozan vergisidir.\nDoğru Cevap: D) Çiftbozan\nKoçunun Yorumu: ÖSYM vergilerin mantığını sorar. Çiftbozan üretim sürekliliğini koruma amacını yansıtır."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Osmanlı ordusunda Kapıkulu Ocağı'na bağlı askerî birliklerden biri değildir?",
+    "secenekler": {
+      "A": "Yeniçeriler",
+      "B": "Cebeciler",
+      "C": "Silahtarlar",
+      "D": "Topçular",
+      "E": "Azaplar"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Yeniçeri, Cebeci, Topçu, Silahtar = Kapıkulu. Azap = Eyalet ordusu.\nDoğru Cevap: E) Azaplar\nKoçunun Yorumu: Merkez (Kapıkulu) - Taşra (Eyalet) ayrımını iyi bil."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde gelirleri doğrudan devlet hazinesine aktarılan ve genellikle iltizam usulüyle işletilen topraklara ne ad verilir?",
+    "secenekler": {
+      "A": "Dirlik",
+      "B": "Vakıf",
+      "C": "Mülk",
+      "D": "Mukataa",
+      "E": "Paşmaklık"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Geliri doğrudan hazineye giden topraklar = Mukataa.\nDoğru Cevap: D) Mukataa\nKoçunun Yorumu: Dirlik (maaş için), Mukataa (doğrudan hazineye)."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde esnaf ve zanaatkârların örgütlendiği, malların kalitesini, fiyatını (narh) ve usta-çırak ilişkisiyle mesleki eğitimi düzenleyen teşkilat aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Divan-ı Hümayun",
+      "B": "Enderun Mektebi",
+      "C": "Lonca Teşkilatı",
+      "D": "Tımar Sistemi",
+      "E": "İltizam Sistemi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Anahtar kelimeler 'esnaf', 'narh', 'usta-çırak' = Lonca.\nDoğru Cevap: C) Lonca Teşkilatı\nKoçunun Yorumu: Lonca = Osmanlı şehir ekonomisinin bel kemiği."
+  },
+  {
+    "soru": "Osmanlı hukuk sisteminde, kaynağını Kur'an, sünnet ve icmadan alan ve daha çok evlenme, boşanma, miras gibi konularda geçerli olan hukuk dalı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Örfi Hukuk",
+      "B": "Ceza Hukuku",
+      "C": "Şer'i Hukuk",
+      "D": "Kanunname",
+      "E": "Töre"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Kaynağı din olan hukuk = Şer’i hukuk.\nDoğru Cevap: C) Şer’i Hukuk\nKoçunun Yorumu: Osmanlı’da ikili hukuk vardı: Şer’i (din), Örfi (padişah-gelenek)."
+  },
+  {
+    "soru": "17. yüzyıldan itibaren Divan-ı Hümayun'un önemi artan ve Osmanlı Devleti'nin dış ilişkilerinden sorumlu hale gelen Divan görevlisi kimdir?",
+    "secenekler": {
+      "A": "Nişancı",
+      "B": "Defterdar",
+      "C": "Kaptan-ı Derya",
+      "D": "Reisülküttab",
+      "E": "Kazasker"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Başlangıçta Nişancı'nın katibiydi. Zamanla dış işlerin başına geçti.\nDoğru Cevap: D) Reisülküttab\nKoçunun Yorumu: Görevlerin dönüşümünü bilmek önemlidir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde geliri padişahın annesine, eşlerine ve kızlarına ayrılan Miri Arazi türü aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Has",
+      "B": "Yurtluk",
+      "C": "Ocaklık",
+      "D": "Vakıf",
+      "E": "Paşmaklık"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Paşmaklık, hanedan kadınlarının gelirleri için ayrılan topraklardır.\nDoğru Cevap: E) Paşmaklık\nKoçunun Yorumu: Miri arazi türlerini ayrıntılı bilmek gerekir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Osmanlı Devleti'nde uygulanan Şer’i vergilerden biridir?",
+    "secenekler": {
+      "A": "Avarız",
+      "B": "İspenç",
+      "C": "Çift Resmi",
+      "D": "Cizye",
+      "E": "Ağnam"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Cizye, gayrimüslimlerden alınan Şer’i vergidir.\nDoğru Cevap: D) Cizye\nKoçunun Yorumu: Şer’i vergiler üçtür: Öşür, Haraç, Cizye."
+  },
+  {
+    "soru": "Osmanlı Kapıkulu ordusunun süvari (atlı) birliklerini oluşturan ve 'Altı Bölük Halkı' olarak da bilinen grubun içinde aşağıdakilerden hangisi yer almaz?",
+    "secenekler": {
+      "A": "Sipahlar",
+      "B": "Silahtarlar",
+      "C": "Sağ Ulufeciler",
+      "D": "Sol Garipler",
+      "E": "Cebeciler"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Sipahi, Silahtar, Ulufeci, Garip = Süvari. Cebeciler = piyade.\nDoğru Cevap: E) Cebeciler\nKoçunun Yorumu: Piyade-süvari ayrımı kritik."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde kitapları süsleme sanatına tezhip, bu sanatı icra eden sanatçıya ise ne ad verilirdi?",
+    "secenekler": {
+      "A": "Nakkaş",
+      "B": "Hattat",
+      "C": "Müzehhip",
+      "D": "Mücellit",
+      "E": "Kündekâr"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Tezhip yapan sanatçı = Müzehhip.\nDoğru Cevap: C) Müzehhip\nKoçunun Yorumu: Sanat dallarıyla sanatçıları eşleştirmeyi öğren."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde padişahtan sonra en yetkili kişi olan ve padişahın mührünü taşıyan görevli aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Şeyhülislam",
+      "B": "Kazasker",
+      "C": "Vezir-i Azam",
+      "D": "Defterdar",
+      "E": "Nişancı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Padişahın mutlak vekili = Vezir-i Azam.\nDoğru Cevap: C) Vezir-i Azam\nKoçunun Yorumu: Sadrazam = Mühr-ü Hümayun."
+  },
+  {
+    "soru": "Tımar sisteminde, dirlik sahibinin toprağın gelirleriyle beslemek ve savaş zamanı sefere göndermekle yükümlü olduğu atlı askere ne ad verilirdi?",
+    "secenekler": {
+      "A": "Yeniçeri",
+      "B": "Cebeci",
+      "C": "Cebelü",
+      "D": "Saka",
+      "E": "Akıncı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Tımar sahibinin yetiştirdiği asker = Cebelü.\nDoğru Cevap: C) Cebelü\nKoçunun Yorumu: Tımar → Sipahi → Cebelü zincirini bil."
+  },
+  {
+    "soru": "Bir malın satılabileceği en yüksek fiyatın devlet tarafından belirlenmesi uygulamasına ne denir?",
+    "secenekler": {
+      "A": "Narh",
+      "B": "Gedik",
+      "C": "İltizam",
+      "D": "Müsadere",
+      "E": "Menzil"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: Devletin fiyat belirlemesi = Narh.\nDoğru Cevap: A) Narh\nKoçunun Yorumu: Narh, Lonca ve Kadı denetiminde uygulanırdı."
+  },
+  {
+    "soru": "Osmanlı taşra teşkilatında kaza biriminin hem adli hem de idari amiri olarak görev yapan kişi aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sancakbeyi",
+      "B": "Subaşı",
+      "C": "Kadı",
+      "D": "Muhtesip",
+      "E": "Beylerbeyi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Kadı hem hâkim hem yönetici rolündeydi.\nDoğru Cevap: C) Kadı\nKoçunun Yorumu: Kadı'nın çift rolü çok önemlidir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde savaş esirlerinin beşte birinin orduya alınmasıyla başlayan, sonrasında ise Balkanlardaki Hristiyan tebaanın küçük yaştaki çocuklarının alınarak yetiştirilmesi esasına dayanan sistemin genel adı nedir?",
+    "secenekler": {
+      "A": "Tımar Sistemi",
+      "B": "İltizam Sistemi",
+      "C": "Devşirme Sistemi",
+      "D": "Müsadere Sistemi",
+      "E": "Vakıf Sistemi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Esirlerin ve çocukların alınması = Devşirme.\nDoğru Cevap: C) Devşirme Sistemi\nKoçunun Yorumu: Devşirme = Osmanlı’nın sosyal mühendislik sistemidir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde olağanüstü durumlarda (savaş, doğal afet vb.) halktan toplanan vergi aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Cizye",
+      "B": "Haraç",
+      "C": "Öşür",
+      "D": "İspenç",
+      "E": "Avarız"
+    },
+    "dogru_cevap": "E",
+    "cozum": "_"
+  },
+        {
+            "soru": "Osmanlı Devleti'nde, şehzadelerin sancağa çıkmadan önce aldığı, sarayda eğitim gördüğü ve tecrübe kazandığı okula ne ad verilir?",
+            "secenekler": {
+                "A": "Enderun",
+                "B": "Cinslik",
+                "C": "Lonca",
+                "D": "Darüşşifa",
+                "E": "Medrese"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu soru, Osmanlı'da şehzadelerin eğitim sistemini sorguluyor.\n\nAnaliz: Enderun, Osmanlı Devleti'nde, saray içinde bulunan ve devlet adamı yetiştirmek amacıyla kurulmuş olan yükseköğretim okuludur. Şehzadeler de burada eğitim alırdı.\nDoğru Cevap: A) Enderun\nKoçunun Yorumu: Enderun'un devşirme sistemiyle bağlantısını ve amacını bilmek çok önemlidir. Sadece şehzade değil, aynı zamanda üst düzey devlet görevlileri de burada yetişirdi."
+        },
+        {
+            "soru": "Divan-ı Hümayun'da, büyük davalara bakan, adalet işlerinden sorumlu olan ve kadıları atayan Divan üyesi aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Defterdar",
+                "B": "Sadrazam",
+                "C": "Nişancı",
+                "D": "Kazasker",
+                "E": "Reisülküttab"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu soru, Osmanlı Divan-ı Hümayun'daki görevlilerin yetkilerini sorgulamaktadır.\n\nAnaliz: Kazasker, Divan'da adalet ve eğitim işlerinden sorumlu olan görevlidir. Kadıları ve müderrisleri atama yetkisine sahiptir.\nDoğru Cevap: D) Kazasker\nKoçunun Yorumu: Her Divan üyesinin görevini net bir şekilde bilmek, bu tür soruları kolayca çözmeni sağlar."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, toprağın kullanım hakkının devlet tarafından, kullanım ve işleme karşılığında asker yetiştirmek şartıyla dirlik sahiplerine verildiği sisteme ne ad verilir?",
+            "secenekler": {
+                "A": "İltizam",
+                "B": "Mukataa",
+                "C": "Tımar",
+                "D": "Vakıf",
+                "E": "Müsadere"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu soru, Osmanlı'nın temel arazi ve askeri sistemi olan tımar sistemini sorgulamaktadır.\n\nAnaliz: Tımar sistemi, toprağın işlenmesi karşılığında gelirinin bir kısmıyla asker (tımar sipahisi) yetiştirilmesi esasına dayanır. Hem askeri hem de ekonomik bir sistemdir.\nDoğru Cevap: C) Tımar\nKoçunun Yorumu: Tımar, Osmanlı'nın hem ekonomisi hem de ordusu için hayati bir öneme sahiptir. Özelliklerini, faydalarını ve bozulma nedenlerini iyi bilmelisin."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, cami, medrese, kütüphane, hastane gibi yapıların yapımı ve bakımı için ayrılan gelir kaynaklarına ne ad verilir?",
+            "secenekler": {
+                "A": "İltizam",
+                "B": "Mukataa",
+                "C": "Tımar",
+                "D": "Vakıf",
+                "E": "Müsadere"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu soru, Osmanlı'nın sosyal ve kültürel yapısını finanse eden sistemi sormaktadır.\n\nAnaliz: Vakıf sistemi, bir kişinin mülkünün gelirini hayır işlerine, yani cami, medrese, hastane gibi sosyal ve kültürel yapıların finansmanına ayırmasıdır. Osmanlı Devleti'nin sosyal yapısının temel direklerinden biridir.\nDoğru Cevap: D) Vakıf\nKoçunun Yorumu: Vakıf sistemi, Osmanlı toplumundaki sosyal yardımlaşma ve dayanışmanın en önemli göstergelerindendir."
+        },
+        {
+            "soru": "Osmanlı mimarisinde, özellikle külliye olarak bilinen yapı topluluklarının merkezinde yer alan, ibadet mekanı olan en büyük yapı aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Darüşşifa",
+                "B": "Medrese",
+                "C": "Cami",
+                "D": "İmarethane",
+                "E": "Kervansaray"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu soru, Osmanlı külliye mimarisinin ana bileşenini sorgulamaktadır.\n\nAnaliz: Külliye, bir caminin etrafında toplanmış, birden çok işlevi olan yapıların (medrese, darüşşifa, kütüphane vb.) oluşturduğu komplekstir. Bu yapıların merkezinde her zaman Cami yer alır.\nDoğru Cevap: C) Cami\nKoçunun Yorumu: Külliye yapısı, Osmanlı'nın çok fonksiyonlu ve bütüncül şehir planlamasının bir örneğidir."
+        }
+
+
+
+
+
+
+
+
+
+
+
+        
+    ],
     "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [
-
-
-
  {
     "soru": "Osmanlı Devleti'nde 18. yüzyılda yapılan ıslahatların, 17. yüzyıldakilerden temel farkı aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -1747,13 +2072,6 @@
     "dogru_cevap": "C",
     "cozum": "Analiz: Tarhuncu Ahmet Paşa ilk kez devlet bütçesi hazırlamıştır.\nDoğru Cevap: C) Devletin gelir ve giderlerini hesaplayarak ilk modern bütçeyi hazırlamak\nKoçunun Yorumu: Tarhuncu’nun odak noktası maliye idi."
   }
-
-
-        
-
-
-        
-        
     ],
     "7. 19. yy (Dağılma) ve Islahatlar": [
    {
@@ -5814,6 +6132,7 @@
     }
 
 }
+
 
 
 
