@@ -1018,18 +1018,7 @@
         "cozum": "Macaristan doğrudan Trianon ile barış yaptı, ateşkes yapmadı.",
         "koc_yorumu": "Detay sorusu olsa da kronoloji bilmek önemlidir."
     },
-    {
-        "soru": "'Vilayet-i Sitte' (Altı İl) olan Van, Erzurum, Sivas, Bitlis, Diyarbakır ve Harput'ta karışıklık çıkması durumunda İtilaf Devletleri'nin işgal hakkı hangi belgede yer almıştır?",
-        "secenekler": {
-            "A": "Wilson İlkeleri",
-            "B": "Mondros Ateşkes Antlaşması (24. Madde)",
-            "C": "Sevr Antlaşması",
-            "D": "Amasya Genelgesi",
-            "E": "Paris Barış Konferansı"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Kut'ül Amare Kuşatması. 1916'daki bu zafer, I. Dünya Savaşı'nda Osmanlı ordusunun kazandığı en büyük ve son zaferlerden biridir. Koçunun Yorumu: Çanakkale kadar bilinmese de, Kut'ül Amare, İngilizlere karşı kazanılmış çok önemli bir prestij zaferidir.",
-   },
+
 
 
         
@@ -4352,6 +4341,7 @@
     }
 
 }
+
 
 
 
