@@ -184,19 +184,22 @@ def ders_secim_page():
 
     st.markdown("---")
 
-if st.button("🔻 Çıkış Yap 🔻"):
-    # Sonuçları kaydet
-    kaydet_sonuclar_to_user(st.session_state.get("current_user"))
 
-    # 🔥 COOKIE SİL (KRİTİK)
-    cookies.pop("current_user", None)
-    cookies.save()
+    if st.button("🔻 Çıkış Yap 🔻"):
+        # Sonuçları kaydet
+        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
 
-    # Session temizle
-    st.session_state.current_user = None
-    st.session_state.page = "login"
+        # COOKIE ve SESSION TAM TEMİZLE
+        cookies.pop("current_user", None)
+        cookies.save()
 
-    st.rerun()
+        st.session_state.current_user = None
+        st.session_state.page = "login"
+
+        # ⚠️ COOKIE AUT0 LOGIN BLOĞUNU ATLATMAK İÇİN FLAG
+        st.session_state["logout"] = True
+
+        st.rerun()
 
     st.markdown("---")
     st.markdown("<p style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</p>", unsafe_allow_html=True)
@@ -718,7 +721,7 @@ if "initialized" not in st.session_state:
 # ===============================
 # COOKIE'DEN OTOMATİK GİRİŞ (TEK VE KONTROLLÜ)
 # ===============================
-if not st.session_state.get("current_user"):
+if not st.session_state.get("current_user") and not st.session_state.get("logout"):
     cookie_user = cookies.get("current_user")
     if cookie_user and cookie_user in kullanicilar:
         st.session_state.current_user = cookie_user
@@ -766,6 +769,7 @@ elif page == "rapor":
     genel_rapor_page()
 elif page == "profil":
     profil_page()
+
 
 
 
