@@ -1003,8 +1003,423 @@
     "7. 19. yy (Dağılma) ve Islahatlar": [],
     "8. Trablusgarp ve Balkan Savaşları": [
 
+   {
+      "soru": "Osmanlı Devleti'nin, Trablusgarp Savaşı'nda İtalya'ya karşı karadan ve denizden etkili bir savunma yapamamasının temel nedeni aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Balkan devletlerinin İtalya'yı desteklemesi",
+        "B": "Padişahın savaşa karşı çıkması",
+        "C": "Donanmanın yetersiz olması ve Mısır'ın İngiliz işgali altında olması nedeniyle kara bağlantısının bulunmaması",
+        "D": "Savaşın halk tarafından desteklenmemesi",
+        "E": "Almanya'nın Osmanlı Devleti'ne yardım göndermemesi"
+      },
+      "dogru_cevap": "C",
+      "cozum": "Donanmanın yetersiz olması ve Mısır'ın İngiliz işgali altında olması nedeniyle Osmanlı Trablusgarp'a ulaşamadı.",
+      "koc_yorumu": "ÖSYM neden-sonuç ilişkisini sever. Trablusgarp kaybının sebebi savaşı kaybetmek değil, savaşa ulaşamamaktır."
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi Balkan Savaşları'nın sonuçlarından biri değildir?",
+      "secenekler": {
+        "A": "Balkanlarda kalan Türklerin azınlık statüsüne düşmesi",
+        "B": "Osmanlıcılık fikir akımının iflas etmesi",
+        "C": "Balkanlardan Anadolu'ya yoğun Türk göçlerinin yaşanması",
+        "D": "Osmanlı Devleti'nin Kuzey Afrika'daki son toprağını kaybetmesi",
+        "E": "İttihat ve Terakki'nin yönetime tamamen hâkim olması"
+      },
+      "dogru_cevap": "D",
+      "cozum": "Kuzey Afrika'daki son toprak Trablusgarp, Balkan Savaşları'ndan önce kaybedildi.",
+      "koc_yorumu": "ÖSYM yakın tarihli olayların sonuçlarını karıştırmaya yönelik sorular sorar. Trablusgarp = Kuzey Afrika kaybı, Balkan Savaşları = Rumeli kaybı."
+    },
+    {
+      "soru": "Mustafa Kemal'in, 'Gazeteci Şerif' takma adıyla gönüllü olarak katıldığı ve ilk askeri başarısını kazandığı savaş aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "I. Balkan Savaşı",
+        "B": "II. Balkan Savaşı",
+        "C": "Trablusgarp Savaşı",
+        "D": "I. Dünya Savaşı",
+        "E": "93 Harbi"
+      },
+      "dogru_cevap": "C",
+      "cozum": "Mustafa Kemal, Trablusgarp'ta Derne ve Tobruk'ta başarı göstermiştir.",
+      "koc_yorumu": "ÖSYM Mustafa Kemal’in katıldığı savaşları sıkça sorar. Trablusgarp = ilk askeri başarı."
+    },
+    {
+      "soru": "I. Balkan Savaşı'nda Osmanlı ordusunun ağır bir yenilgi alması ve Edirne'yi kaybetmesi, aşağıdaki iç siyasi gelişmelerden hangisine zemin hazırlamıştır?",
+      "secenekler": {
+        "A": "31 Mart Olayı'na",
+        "B": "II. Meşrutiyet'in ilanına",
+        "C": "Bab-ı Âli Baskını'na",
+        "D": "Vaka-i Hayriye'ye",
+        "E": "Sened-i İttifak'ın imzalanmasına"
+      },
+      "dogru_cevap": "C",
+      "cozum": "İttihat ve Terakki, Bab-ı Âli Baskını ile iktidarı ele geçirdi.",
+      "koc_yorumu": "ÖSYM dış politika hezimetlerinin iç siyasetteki yansımalarını sorar."
+    },
+    {
+      "soru": "1912 Uşi Antlaşması ile İtalya'ya bırakılan Oniki Ada'nın statüsü ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "secenekler": {
+        "A": "Kalıcı olarak İtalya'ya verilmiştir.",
+        "B": "Yunanistan'a bırakılmıştır.",
+        "C": "Bağımsız bir devlet olmuştur.",
+        "D": "Balkan Savaşları'nın sonuna kadar geçici olarak İtalya'ya bırakılmıştır.",
+        "E": "Osmanlı ve İtalya'nın ortak yönetimine bırakılmıştır."
+      },
+      "dogru_cevap": "D",
+      "cozum": "Oniki Ada geçici olarak İtalya'ya bırakıldı, ancak kalıcı oldu.",
+      "koc_yorumu": "Diplomatik belgelerdeki 'geçici' ifadeler ÖSYM’nin klasik tuzak sorusudur."
+    },
+    {
+      "soru": "Aşağıdaki Balkan devletlerinden hangisi, I. Balkan Savaşı'na katılmadığı halde, II. Balkan Savaşı'na katılmıştır?",
+      "secenekler": {
+        "A": "Bulgaristan",
+        "B": "Yunanistan",
+        "C": "Sırbistan",
+        "D": "Karadağ",
+        "E": "Romanya"
+      },
+      "dogru_cevap": "E",
+      "cozum": "Romanya, Bulgaristan’ın fazla toprak almasına karşı II. Balkan Savaşı'na katıldı.",
+      "koc_yorumu": "İki Balkan Savaşı’na katılan devlet farkı kritik bir ayrıntıdır."
+    },
+    {
+      "soru": "Balkan Savaşları'nda, Osmanlı vatandaşı olan Arnavut, Bulgar, Sırp gibi milletlerin hep birlikte Osmanlı'ya karşı savaşması, aşağıdaki fikir akımlarından hangisinin geçerliliğini tamamen yitirdiğini göstermiştir?",
+      "secenekler": {
+        "A": "Batıcılık",
+        "B": "Türkçülük",
+        "C": "İslamcılık",
+        "D": "Osmanlıcılık",
+        "E": "Adem-i Merkeziyetçilik"
+      },
+      "dogru_cevap": "D",
+      "cozum": "Osmanlı kimliği fikri Balkan Savaşları ile tamamen çöktü.",
+      "koc_yorumu": "Balkan Savaşları = Osmanlıcılığın iflası."
+    },
+    {
+      "soru": "Osmanlı Devleti'nden ayrılarak bağımsızlığını ilan eden son Balkan ulusu aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Sırbistan",
+        "B": "Yunanistan",
+        "C": "Bulgaristan",
+        "D": "Arnavutluk",
+        "E": "Romanya"
+      },
+      "dogru_cevap": "D",
+      "cozum": "Arnavutluk, 1912'de bağımsızlığını ilan etti.",
+      "koc_yorumu": "İlkler kadar son bağımsız olan devlet de önemlidir."
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi II. Balkan Savaşı'nın çıkmasının temel nedenidir?",
+      "secenekler": {
+        "A": "Osmanlı Devleti'nin kaybettiği toprakları geri almak istemesi",
+        "B": "Rusya'nın Balkan devletlerini kışkırtması",
+        "C": "Bulgaristan'ın, I. Balkan Savaşı sonunda elde edilen toprakların paylaşımında en büyük payı alması ve diğer Balkan devletlerinin buna tepki göstermesi",
+        "D": "Avusturya-Macaristan'ın Sırbistan'a savaş ilan etmesi",
+        "E": "İttihat ve Terakki'nin Edirne'yi geri almak istemesi"
+      },
+      "dogru_cevap": "C",
+      "cozum": "II. Balkan Savaşı, galiplerin ganimeti paylaşamaması sonucu çıktı.",
+      "koc_yorumu": "I. Balkan Savaşı = Osmanlı’ya karşı, II. Balkan Savaşı = galipler arası paylaşım kavgası."
+    },
+    {
+      "soru": "Balkan Savaşları sonunda Bulgaristan ile imzalanan İstanbul Antlaşması ile belirlenen ve günümüz Türkiye-Bulgaristan sınırını büyük ölçüde çizen nehir aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Tuna",
+        "B": "Prut",
+        "C": "Meriç",
+        "D": "Aras",
+        "E": "Fırat"
+      },
+      "dogru_cevap": "C",
+      "cozum": "Meriç Nehri, Osmanlı-Bulgaristan sınırı kabul edildi.",
+      "koc_yorumu": "Kasr-ı Şirin doğu sınırını belirlerken, İstanbul Antlaşması batı sınırını şekillendirdi."
+    },
+    {
+      "soru": "Trablusgarp Savaşı sonunda imzalanan Uşi Antlaşması ile Osmanlı Devleti, aşağıdaki bölgelerden hangisindeki hâkimiyetini kaybetmiştir?",
+      "secenekler": {
+        "A": "Balkanlar",
+        "B": "Orta Doğu",
+        "C": "Kafkasya",
+        "D": "Kuzey Afrika",
+        "E": "Doğu Avrupa"
+      },
+      "dogru_cevap": "D",
+      "cozum": "Trablusgarp ve Bingazi’nin kaybıyla Osmanlı Kuzey Afrika’dan çekildi.",
+      "koc_yorumu": "Her savaşın en temel sonucu bilinmeli. Trablusgarp = Kuzey Afrika kaybı."
+    },
+    {
+      "soru": "Osmanlı Devleti'nin, II. Balkan Savaşı'nda Balkan devletlerinin kendi aralarında savaşmasından faydalanarak geri aldığı topraklar arasında aşağıdakilerden hangisi yer alır?",
+      "secenekler": {
+        "A": "Selanik ve Manastır",
+        "B": "Batı Trakya ve Makedonya",
+        "C": "Edirne ve Kırklareli",
+        "D": "Kosova ve Arnavutluk",
+        "E": "Oniki Ada ve Girit"
+      },
+      "dogru_cevap": "C",
+      "cozum": "Osmanlı, Edirne ve Kırklareli’yi geri aldı.",
+      "koc_yorumu": "II. Balkan Savaşı Osmanlı için kısmi kazanım sağlamıştır."
+    },
+    {
+      "soru": "Balkan Savaşları'ndan sonra Balkanlardan Anadolu'ya yaşanan yoğun Türk göçleri ve bölgedeki Müslümanlara yönelik katliamlar, Osmanlı aydınları ve halkı arasında hangi fikir akımının güçlenmesine neden olmuştur?",
+      "secenekler": {
+        "A": "Osmanlıcılık",
+        "B": "İslamcılık",
+        "C": "Batıcılık",
+        "D": "Türkçülük",
+        "E": "Adem-i Merkeziyetçilik"
+      },
+      "dogru_cevap": "D",
+      "cozum": "Göçler ve katliamlar, Türkçülük akımını güçlendirdi.",
+      "koc_yorumu": "Balkan felaketi Osmanlıcılığı bitirdi, Türkçülüğü güçlendirdi."
+    },
+    {
+      "soru": "I. Balkan Savaşı'nı sona erdiren ve Osmanlı Devleti'nin Midye-Enez hattının batısındaki tüm topraklarını kaybettiği antlaşma hangisidir?",
+      "secenekler": {
+        "A": "Bükreş Antlaşması",
+        "B": "Atina Antlaşması",
+        "C": "İstanbul Antlaşması",
+        "D": "Uşi Antlaşması",
+        "E": "Londra Antlaşması"
+      },
+      "dogru_cevap": "E",
+      "cozum": "Londra Antlaşması ile I. Balkan Savaşı sona erdi.",
+      "koc_yorumu": "Savaşları bitiren antlaşmalar temel ezber bilgisidir."
+    },
+    {
+      "soru": "Trablusgarp Savaşı'nın başlamasında İtalya'yı cesaretlendiren en önemli dış etken aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Almanya'nın İtalya'yı desteklemesi",
+        "B": "Rusya ve İngiltere'nin, İtalya'nın Trablusgarp'ı işgaline zımnen onay vermesi (Reval ve Racconigi Görüşmeleri)",
+        "C": "Balkan devletlerinin Osmanlı'ya savaş ilan etmesi",
+        "D": "Fransa'nın Cezayir'i işgal etmesi",
+        "E": "Avusturya'nın Bosna-Hersek'i ilhak etmesi"
+      },
+      "dogru_cevap": "B",
+      "cozum": "İtalya, büyük devletlerden onay alarak Trablusgarp’ı işgal etti.",
+      "koc_yorumu": "ÖSYM, olayların arkasındaki gizli diplomatik pazarlıkları da sorabilir."
+    },
+    {
+        "soru": "Osmanlı Devleti'nin Trablusgarp'a karadan ordu gönderememesi Mısır'ın İngiliz işgali altında olmasına bağlanırken, denizden yardım gönderememesi öncelikle aşağıdakilerden hangisinin bir sonucudur?",
+        "secenekler": {
+            "A": "Balkan Savaşları'nın başlamasının",
+            "B": "II. Abdülhamid döneminde donanmanın Haliç'te pasif halde bırakılmasının",
+            "C": "İtalyan donanmasının Cebelitarık Boğazı'nı kapatmasının",
+            "D": "Süveyş Kanalı'nın ulaşıma kapalı olmasının",
+            "E": "Almanya'nın donanma yardımını reddetmesinin"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: II. Abdülhamid, kendisine karşı darbe yapılmasından çekindiği için 30 yılı aşkın bir süre donanmayı Haliç'te hareketsiz bırakmış, bu da Osmanlı deniz gücünün tamamen çürümesine yol açmıştır. Trablusgarp'a denizden yardım edilememesinin temel nedeni budur.\nDoğru Cevap: B) II. Abdülhamid döneminde donanmanın Haliç'te pasif halde bırakılmasının\nKoçunun Yorumu: Bu soru, bir olayın nedenini daha önceki bir dönemin politikasıyla ilişkilendirerek derinlemesine analiz yeteneğini ölçer. ÖSYM, bu tür neden-sonuç zincirlerini sever."
+    },
+    {
+        "soru": "Mustafa Kemal'in Trablusgarp'ta yerel halkı İtalyanlara karşı başarıyla örgütlemesi, onun öncelikle hangi kişilik özelliğini kanıtlar niteliktedir?",
+        "secenekler": {
+            "A": "İleri görüşlülüğü",
+            "B": "Teşkilatçılığı (Örgütleyiciliği)",
+            "C": "İnkılapçılığı",
+            "D": "Çok yönlülüğü",
+            "E": "Sanatseverliği"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: Dağınık haldeki yerel kabileleri ve halkı ortak bir düşmana karşı bir araya getirip onlardan düzenli bir direniş gücü oluşturmak, doğrudan örgütleme ve bir araya getirme yeteneği olan teşkilatçılıkla ilgilidir.\nDoğru Cevap: B) Teşkilatçılığı (Örgütleyiciliği)\nKoçunun Yorumu: ÖSYM, Mustafa Kemal'in hayatındaki olayları, onun kişilik özellikleriyle eşleştiren sorular sorar. Trablusgarp = Teşkilatçılık, Çanakkale = İleri Görüşlülük, Sakarya = Liderlik gibi temel eşleştirmeleri bilmek önemlidir."
+    },
+    {
+        "soru": "Osmanlı Devleti'nin Trablusgarp'taki kara direnişinde başarılı olmasına rağmen Uşi Antlaşması'nı imzalayarak bölgeden çekilmek zorunda kalmasının en temel nedeni nedir?",
+        "secenekler": {
+            "A": "İtalya'nın Oniki Ada'yı işgal etmesi",
+            "B": "I. Balkan Savaşı'nın patlak vermesi",
+            "C": "Padişahın barış istemesi",
+            "D": "Gönüllü subayların geri çağrılması",
+            "E": "Yerel halkın desteğini çekmesi"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: İtalya'nın Oniki Ada'yı işgali bir baskı unsurudur, ancak Osmanlı'yı masaya oturtan asıl mecburi sebep Balkan Savaşı'nın başlamasıdır. Devlet, vatan toprağı olan Rumeli'yi savunmak için Afrika'daki toprağını feda etmek zorunda kalmıştır.\nDoğru Cevap: B) I. Balkan Savaşı'nın patlak vermesi\nKoçunun Yorumu: Bu soru, olaylar arasındaki öncelik-sonralık ve önem sırasını bilip bilmediğini ölçer. Balkan Savaşı, Trablusgarp'ın kaderini belirleyen dış gelişmedir."
+    },
+    {
+        "soru": "Uşi Antlaşması'nda yer alan 'Trablusgarp halkı dini açıdan Osmanlı Halifesi'ne bağlı kalacaktır.' maddesi ile Osmanlı Devleti'nin neyi amaçladığı söylenebilir?",
+        "secenekler": {
+            "A": "Bölgeden vergi almaya devam etmeyi",
+            "B": "İtalya'nın bölgedeki egemenliğini tanımadığını göstermeyi",
+            "C": "Bölge halkı ile kültürel ve dini bağları sürdürmeyi",
+            "D": "Halifeliğin gücünü İtalya'ya karşı kullanmayı",
+            "E": "Bölgeye ileride asker gönderme hakkını saklı tutmayı"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Analiz: Bu madde, siyasi egemenlik kaybedilse bile halifelik makamı üzerinden manevi ve kültürel bağların devam ettirilmesi amacını taşır. Bu, daha önce Kırım'ın kaybedildiği Küçük Kaynarca Antlaşması'nda da denenmiş bir yöntemdir.\nDoğru Cevap: C) Bölge halkı ile kültürel ve dini bağları sürdürmeyi\nKoçunun Yorumu: ÖSYM, farklı antlaşmalardaki benzer maddelerin arkasında yatan ortak amacı sorgulayabilir. Kırım ve Trablusgarp'taki bu 'halifeye bağlılık' maddeleri, kaybedilen topraklardan 'kopmama' siyasetinin bir yansımasıdır."
+    },
+    {
+        "soru": "I. Balkan Savaşı'nda Osmanlı ordusunun ağır bir yenilgi almasında, subaylar arasındaki 'İttihatçı-Hürriyet ve İtilafçı' ayrışmasının etkili olması, aşağıdakilerden hangisinin bir göstergesidir?",
+        "secenekler": {
+            "A": "Ordunun lojistik imkanlarının yetersizliğinin",
+            "B": "Siyasetin ordu içine girmesinin yıkıcı sonuçlarının",
+            "C": "Padişahın ordu üzerindeki otoritesinin kalmadığının",
+            "D": "Donanmanın savaşa yeterli katkıyı sağlayamadığının",
+            "E": "Balkan devletlerinin askeri olarak çok üstün olduğunun"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: Farklı siyasi görüşlere sahip subayların birbirlerinin emirlerini dinlememesi ve birbirlerine destek olmaması, ordunun savaş gücünü felç etmiştir. Bu durum, siyasetin orduya karışmasının en trajik sonucudur.\nDoğru Cevap: B) Siyasetin ordu içine girmesinin yıkıcı sonuçlarının\nKoçunun Yorumu: Bu, günümüz için de önemli bir ders içeren tarihsel bir olaydır. ÖSYM, bu tür tarihsel olaylardan yola çıkarak 'tarihten ders çıkarma' niteliğindeki yorum soruları sorabilir."
+     },
+         {
+        "soru": "Balkan Savaşları sırasında Bulgarların Çatalca’ya kadar ilerleyebilmesi, Osmanlı Devleti açısından aşağıdakilerden hangisini ortaya koyar?",
+        "secenekler": {
+            "A": "Rumeli’deki Osmanlı ordusunun yetersizliğini",
+            "B": "İstanbul’un doğrudan tehdit altında kaldığını",
+            "C": "İtilaf Devletleri’nin Osmanlı’ya yardım etmediğini",
+            "D": "Balkan devletlerinin birleşik hareket ettiğini",
+            "E": "Edirne’nin Osmanlı için önemini kaybettiğini"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: Bulgarların Çatalca’ya kadar ilerlemesi, Osmanlı başkenti İstanbul’un doğrudan tehlike altına girdiğini gösterir. Bu durum Osmanlı için en kritik güvenlik tehdididir.\nDoğru Cevap: B) İstanbul’un doğrudan tehdit altında kaldığını\nKoçunun Yorumu: ÖSYM, coğrafi ilerlemelerin stratejik sonuçlarını sorgulamayı sever. Çatalca = İstanbul kapısıdır."
+    },
+    {
+        "soru": "Balkan Savaşları sonunda imzalanan Londra Antlaşması ile Osmanlı Devleti, Midye-Enez hattının batısındaki tüm topraklarını kaybetmiştir. Bu durum, Osmanlı açısından hangi gelişmeye doğrudan zemin hazırlamıştır?",
+        "secenekler": {
+            "A": "Edirne’nin Bulgarlara bırakılmasına",
+            "B": "Arnavutluk’un bağımsız olmasına",
+            "C": "Rumeli’de Türk nüfusun Anadolu’ya göç etmesine",
+            "D": "Yunanistan’ın Ege Adaları’nı almasına",
+            "E": "Bulgaristan’ın Ege Denizi’ne ulaşmasına"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Analiz: Midye-Enez hattı, Osmanlı’nın Rumeli’deki hâkimiyetinin sona erdiği hattır. Bu kayıptan sonra yüzbinlerce Türk Anadolu’ya göç etmek zorunda kalmıştır.\nDoğru Cevap: C) Rumeli’de Türk nüfusun Anadolu’ya göç etmesine\nKoçunun Yorumu: ÖSYM, antlaşma maddelerinin doğrudan sosyal sonuçlarını da sorabilir. Burada göç olgusu öne çıkmaktadır."
+    },
+    {
+        "soru": "I. Balkan Savaşı’nda Osmanlı Devleti’nin kaybettiği Edirne ve Kırklareli’nin II. Balkan Savaşı’nda geri alınabilmesinin en temel nedeni aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Bulgaristan’ın diğer Balkan devletleriyle savaşması",
+            "B": "Osmanlı ordusunun modernleşmesi",
+            "C": "Rusya’nın Osmanlı’ya destek vermesi",
+            "D": "İngiltere’nin Osmanlı’ya siyasi baskı yapması",
+            "E": "Yunanistan’ın geri çekilmesi"
+        },
+        "dogru_cevap": "A",
+        "cozum": "Analiz: II. Balkan Savaşı, Balkan devletlerinin birbirine düşmesiyle başlamıştır. Bulgaristan birden fazla cephede savaşınca Osmanlı fırsattan yararlanarak Edirne ve Kırklareli’ni geri almıştır.\nDoğru Cevap: A) Bulgaristan’ın diğer Balkan devletleriyle savaşması\nKoçunun Yorumu: Bu, klasik bir 'fırsat değerlendirme' örneğidir. ÖSYM, Osmanlı’nın bu şekilde kazançlı çıktığı nadir olaylara dikkat çeker."
+    },
+    {
+        "soru": "I. Balkan Savaşı sonunda kurulan Arnavutluk Devleti’nin bağımsızlığı hangi devletin çıkarlarını güvence altına almıştır?",
+        "secenekler": {
+            "A": "İngiltere",
+            "B": "Rusya",
+            "C": "Avusturya-Macaristan",
+            "D": "Almanya",
+            "E": "Fransa"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Analiz: Avusturya-Macaristan, Sırbistan’ın Adriyatik Denizi’ne inmesini istemediği için Arnavutluk’un bağımsızlığını desteklemiştir. Böylece Sırbistan’ın önü kesilmiştir.\nDoğru Cevap: C) Avusturya-Macaristan\nKoçunun Yorumu: Burada Balkan politikalarının arkasındaki büyük güçlerin hesaplarını görmek önemlidir."
+    },
+    {
+        "soru": "Balkan Savaşları sonucunda Osmanlı Devleti’nin Batı Trakya’da yaşayan Türklerle bağı kopmuş, bu durum hangi antlaşma ile kesinleşmiştir?",
+        "secenekler": {
+            "A": "Londra Antlaşması",
+            "B": "Bükreş Antlaşması",
+            "C": "İstanbul (Bulgaristan) Antlaşması",
+            "D": "İstanbul (Yunanistan) Antlaşması",
+            "E": "Atina Antlaşması"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Analiz: 1913 İstanbul (Bulgaristan) Antlaşması ile Batı Trakya Osmanlı’dan tamamen kopmuştur. Böylece buradaki Türkler Bulgar yönetimine bırakılmıştır.\nDoğru Cevap: C) İstanbul (Bulgaristan) Antlaşması\nKoçunun Yorumu: ÖSYM, aynı isimli antlaşmaların hangi devletle yapıldığını özellikle karıştırmaya yönelik sorar."
+    },
+    {
+        "soru": "Balkan Savaşları’ndan sonra Osmanlı Devleti’nin sadece Doğu Trakya ve İstanbul çevresinde toprak sahibi olması, Osmanlı için hangi tarihi gerçeği ortaya koymuştur?",
+        "secenekler": {
+            "A": "Osmanlı’nın Avrupa’da artık küçük bir kara parçasına sıkıştığını",
+            "B": "Rumeli’de Türk nüfusun kalmadığını",
+            "C": "İstanbul’un artık stratejik önemini kaybettiğini",
+            "D": "Halifeliğin gücünün azaldığını",
+            "E": "Donanmanın tamamen yok edildiğini"
+        },
+        "dogru_cevap": "A",
+        "cozum": "Analiz: Balkan Savaşları sonrasında Osmanlı’nın Avrupa’daki toprakları neredeyse tamamen kaybolmuş, sadece küçük bir bölge kalmıştır.\nDoğru Cevap: A) Osmanlı’nın Avrupa’da artık küçük bir kara parçasına sıkıştığını\nKoçunun Yorumu: Bu soru, Osmanlı’nın jeopolitik küçülmesini vurgulayan bir tarihsel gerçeğe işaret eder."
+    },
+    {
+        "soru": "Balkan Savaşları sonrasında Ege Adaları’nın Yunanistan’ın eline geçmesi hangi uluslararası sorunu gündeme getirmiştir?",
+        "secenekler": {
+            "A": "Kıbrıs Sorunu",
+            "B": "Ege Adaları Sorunu",
+            "C": "Musul Sorunu",
+            "D": "Hatay Sorunu",
+            "E": "Boğazlar Sorunu"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: Balkan Savaşları’ndan sonra Osmanlı, Ege Adaları’nı kaybetmiş ve bu durum ilerleyen dönemde Lozan’a kadar sürecek Ege Adaları Sorunu’nu doğurmuştur.\nDoğru Cevap: B) Ege Adaları Sorunu\nKoçunun Yorumu: ÖSYM, kayıpların hangi 'sorun' başlığını doğurduğunu özellikle sorabilir."
+    },
+    {
+        "soru": "Balkan Savaşları’ndan sonra imzalanan İstanbul Antlaşması (1913) ile Osmanlı Devleti Bulgaristan’a Batı Trakya’yı bırakmış, ancak Edirne ve Kırklareli’ni geri almıştır. Bu durum Osmanlı açısından hangi sonucu doğurmuştur?",
+        "secenekler": {
+            "A": "Rumeli’de tamamen topraksız kalmasını engellemiştir",
+            "B": "Doğu Trakya’da Türk nüfusun güvence altına alınmasını sağlamıştır",
+            "C": "Avrupa devletleriyle ilişkilerin düzelmesini sağlamıştır",
+            "D": "Bulgaristan’ın Osmanlı’ya yakınlaşmasına yol açmıştır",
+            "E": "Arnavutluk’un bağımsızlığını engellemiştir"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: Edirne ve Kırklareli’nin geri alınması, Osmanlı’nın Doğu Trakya’da Türk nüfus üzerindeki hakimiyetini korumasını sağlamıştır.\nDoğru Cevap: B) Doğu Trakya’da Türk nüfusun güvence altına alınmasını sağlamıştır\nKoçunun Yorumu: Bu soru, toprak kazanımlarının nüfus üzerindeki etkisini ölçmektedir."
+    },
+    {
+        "soru": "Balkan Savaşları’nın sonunda Osmanlı Devleti’nin Anadolu’ya yönelik kitlesel göç dalgaları yaşaması, Osmanlı için hangi sosyal sonucu ortaya çıkarmıştır?",
+        "secenekler": {
+            "A": "Kültürel çeşitliliğin azalması",
+            "B": "Nüfusun homojenleşmesi",
+            "C": "Şehirlerde işsizliğin azalması",
+            "D": "Sanayileşmenin hızlanması",
+            "E": "Azınlıkların Osmanlı’da güçlenmesi"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Analiz: Rumeli’den gelen Türklerin Anadolu’ya yerleşmesiyle, Osmanlı nüfusu giderek daha çok Türk ve Müslüman kimliğine bürünmüştür.\nDoğru Cevap: B) Nüfusun homojenleşmesi\nKoçunun Yorumu: Bu soru, göçlerin uzun vadeli toplumsal sonuçlarını ölçer."
+    },
+    {
+        "soru": "Balkan Savaşları’nın sonucunda Osmanlı Devleti, Ege Denizi’nde etkinliğini kaybetmiştir. Bu durum Osmanlı için hangi stratejik sonuca yol açmıştır?",
+        "secenekler": {
+            "A": "Deniz ticaret yollarında hâkimiyetini yitirmesi",
+            "B": "Karadeniz’e kapanması",
+            "C": "Akdeniz’de sömürge kurma girişimlerinden vazgeçmesi",
+            "D": "İngiltere ile ittifak yapması",
+            "E": "Rusya’nın Osmanlı’ya yaklaşması"
+        },
+        "dogru_cevap": "A",
+        "cozum": "Analiz: Osmanlı, Ege Adaları’nı kaybettikten sonra Ege Denizi’ndeki ticaret yollarında etkinliğini kaybetmiştir.\nDoğru Cevap: A) Deniz ticaret yollarında hâkimiyetini yitirmesi\nKoçunun Yorumu: ÖSYM, askeri kayıpların ekonomik sonuçlarını da sorgulayabilir."
+    },
+    {
+        "soru": "Balkan Savaşları, Osmanlı Devleti’nin 'hasta adam' imajını pekiştirmiştir. Bu durumun uluslararası siyaset açısından en önemli sonucu aşağıdakilerden hangisi olmuştur?",
+        "secenekler": {
+            "A": "Avrupa devletlerinin Osmanlı topraklarını paylaşma planlarını hızlandırması",
+            "B": "Osmanlı’nın İttifak Devletleri’ne katılması",
+            "C": "İngiltere’nin Osmanlı’ya yaklaşması",
+            "D": "Rusya’nın Balkanlardan çekilmesi",
+            "E": "Almanya’nın Osmanlı’ya yardım etmesi"
+        },
+        "dogru_cevap": "A",
+        "cozum": "Analiz: Balkan Savaşları’ndaki yenilgiler Osmanlı’nın zayıflığını göstererek Avrupalı devletlerin paylaşım planlarını hızlandırmıştır.\nDoğru Cevap: A) Avrupa devletlerinin Osmanlı topraklarını paylaşma planlarını hızlandırması\nKoçunun Yorumu: Bu soru, savaşların Osmanlı’nın dış politikadaki imajına etkisini ölçer."
+    },
+    {
+        "soru": "Balkan Savaşları’ndan sonra Osmanlı Devleti’nde ordu ıslahatına büyük önem verilmiştir. Bu durumun en önemli nedeni aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Ordunun siyasetten arındırılmak istenmesi",
+            "B": "Ordunun mali yükünün azaltılması",
+            "C": "Ordunun teknolojik olarak geri kalması",
+            "D": "Ordunun savaşlarda büyük başarısızlık göstermesi",
+            "E": "Ordunun çok büyük olması"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Analiz: Balkan Savaşları’ndaki yenilgi, Osmanlı ordusunun büyük başarısızlık yaşadığını ortaya koymuş ve ıslahatların zorunlu hale gelmesine neden olmuştur.\nDoğru Cevap: D) Ordunun savaşlarda büyük başarısızlık göstermesi\nKoçunun Yorumu: ÖSYM, reformların hangi somut olayla ilişkilendirildiğini sorgulamayı sever."
+    },
+    {
+        "soru": "Balkan Savaşları’ndan sonra Osmanlı Devleti’nin iç politikasında İttihat ve Terakki’nin güçlenmesi hangi olayla doğrudan ilgilidir?",
+        "secenekler": {
+            "A": "Babıali Baskını",
+            "B": "31 Mart Olayı",
+            "C": "Trablusgarp Savaşı",
+            "D": "Meşrutiyet’in ilanı",
+            "E": "II. Abdülhamid’in tahttan indirilmesi"
+        },
+        "dogru_cevap": "A",
+        "cozum": "Analiz: 1913 Babıali Baskını ile İttihat ve Terakki iktidarı ele geçirmiş ve Balkan Savaşları sonrası Osmanlı iç politikasına damga vurmuştur.\nDoğru Cevap: A) Babıali Baskını\nKoçunun Yorumu: Bu soru, askeri yenilgilerin siyasi sonuçlarını ölçer."
+    }
 
 
+
+
+
+        
 
         
 
@@ -4354,6 +4769,7 @@
     }
 
 }
+
 
 
 
