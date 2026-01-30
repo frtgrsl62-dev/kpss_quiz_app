@@ -1005,6 +1005,90 @@
     "9. I. Dünya Savaşı ve Sonuçları": [],
     "10. Milli Mücadele'nin Hazırlık Dönemi": [
   {
+    "soru": "Amasya Genelgesi'nin yayımlanmasından hemen sonra Mustafa Kemal'in askerlik görevinden istifa etmesi, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Milli Mücadele'den vazgeçtiğinin",
+      "B": "Mücadeleyi artık sivil bir halk hareketi olarak sürdüreceğinin",
+      "C": "İstanbul Hükûmeti ile anlaştığının",
+      "D": "Padişahın emrine uyduğunun",
+      "E": "İtilaf Devletleri'nden çekindiğinin"
+    },
+    "dogru_cevap": "B",
+    "cozum": "İstanbul Hükûmeti'nin kendisini görevden alma girişimine karşı, onlardan önce davranarak istifa etmiş ve 'sine-i millete' (milletin sinesine) döndüğünü, yani mücadelenin liderliğini artık bir sivil olarak yapacağını ilan etmiştir."
+  },
+  {
+    "soru": "'Milli sınırlar içinde vatan bir bütündür, parçalanamaz.' kararı ilk kez nerede alınmıştır?",
+    "secenekler": {
+      "A": "Havza Genelgesi",
+      "B": "Amasya Genelgesi",
+      "C": "Erzurum Kongresi",
+      "D": "Sivas Kongresi",
+      "E": "Amasya Görüşmeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Misakımillî'nin temelini oluşturan bu ilke, vatan topraklarının bir bütün olduğu ve Mondros Ateşkesi'nin dayattığı parçalanmanın kabul edilmeyeceği fikrini ilk kez net bir şekilde ortaya koymuştur. Bu madde, Milli Mücadele'nin 'toprak bütünlüğü' ve 'tam bağımsızlık' hedeflerinin ilk somut ifadesidir."
+  },
+  {
+    "soru": "İstanbul Hükûmeti'nin, Sivas Kongresi'ni engellemek amacıyla Ali Galip'i görevlendirmesi ancak başarısız olması neyi kanıtlar?",
+    "secenekler": {
+      "A": "İstanbul Hükûmeti'nin Anadolu'daki otoritesinin kalmadığını",
+      "B": "Ali Galip'in Milli Mücadele'ye katıldığını",
+      "C": "Padişahın kongreyi gizlice desteklediğini",
+      "D": "Kongrenin yasa dışı olduğunu",
+      "E": "İtilaf Devletleri'nin Milli Mücadele'ye destek verdiğini"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Merkezden gönderilen bir valinin, Anadolu'daki milli güçler karşısında aciz kalması, İstanbul'un Anadolu'ya söz geçiremediğini ve Temsil Heyeti'nin fiili otorite haline geldiğini gösterir. Bu olay, Damat Ferit Hükûmeti'nin sonunu getiren ve Amasya Görüşmeleri'ne zemin hazırlayan önemli bir güç gösterisidir."
+  },
+  {
+    "soru": "Aşağıdaki gelişmelerden hangisinin, Ankara'da Türkiye Büyük Millet Meclisi'nin açılmasına doğrudan zemin hazırladığı söylenebilir?",
+    "secenekler": {
+      "A": "Amasya Genelgesi'nin yayımlanması",
+      "B": "Sivas Kongresi'nin toplanması",
+      "C": "Amasya Görüşmeleri'nin yapılması",
+      "D": "İstanbul'un resmen işgal edilerek Mebusan Meclisi'nin dağıtılması",
+      "E": "Temsil Heyeti'nin Ankara'ya gelmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Milli iradenin tecelli ettiği Mebusan Meclisi'nin İtilaf Devletleri tarafından kapatılması, millet iradesini temsil edecek yeni ve tam bağımsız bir meclisin Ankara'da açılmasını zorunlu ve meşru kılmıştır. İtilaf Devletleri, Mebusan Meclisi'ni kapatarak milli iradeyi yok edeceklerini sandılar ama aslında farkında olmadan Ankara'da daha güçlü bir şekilde doğmasına neden oldular."
+  },
+  {
+    "soru": "'Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.' ilkesi, aşağıdakilerden hangisine ilk kez işaret etmiştir?",
+    "secenekler": {
+      "A": "Saltanatın devamlılığına",
+      "B": "Manda ve himaye fikrine",
+      "C": "Milli egemenlik anlayışına",
+      "D": "Dış yardım alınması gerektiğine",
+      "E": "Halifeliğin gücüne"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kurtuluşun padişah veya halifeden değil, bizzat 'milletin kendi kararından' geleceğini söylemek, yönetme gücünün (egemenliğin) kaynağının millet olduğunu üstü kapalı bir şekilde ifade etmektir. Bu madde, Kurtuluş Savaşı'nın sadece bir 'milli bağımsızlık' mücadelesi değil, aynı zamanda bir 'milli egemenlik' mücadelesi olacağının da ilk sinyalidir."
+  },
+  {
+    "soru": "Misakımillî'de aşağıdaki konulardan hangisiyle ilgili bir karar yoktur?",
+    "secenekler": {
+      "A": "Kapitülasyonlar",
+      "B": "Boğazlar",
+      "C": "Azınlık Hakları",
+      "D": "Saltanatın geleceği",
+      "E": "Dış Borçlar"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Misakımillî, ülkenin sınırları ve bağımsızlığı ile ilgili bir metindir. Henüz milli birlik ve beraberliğin en çok ihtiyaç duyulduğu bu aşamada, saltanat veya rejim gibi tartışmalı bir konuya girmekten özellikle kaçınılmıştır. Milli Mücadele'nin hazırlık dönemindeki strateji, öncelikle 'tam bağımsızlığı' sağlamak, rejim tartışmalarını ise daha sonraya bırakmaktı."
+  },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ {
     "soru": "Milli Mücadele'nin hazırlık döneminde kurulan Temsil Heyeti'nin görevi ne zaman sona ermiştir?",
     "secenekler": {
       "A": "Sivas Kongresi'nde",
@@ -1040,17 +1124,7 @@
     "dogru_cevap": "C",
     "cozum": "Bu kongreler, Yunan işgaline karşı Batı Anadolu'yu savunmak amacıyla toplanmış ve kararları da bu bölgeyle sınırlı kalmıştır. Sivas Kongresi ise tüm yurdu kapsayan kararlar almıştır. Sivas Kongresi'nin en önemli işlevlerinden biri, bu tür faydalı ama dağınık bölgesel hareketleri tek bir ulusal çatı altında birleştirmek olmuştur."
   },  
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         {
     "soru": "Mustafa Kemal'in Son Osmanlı Mebusan Meclisi'ne Erzurum mebusu seçilmesine rağmen İstanbul'a gitmeyip Ankara'da kalmasının temel nedeni nedir?",
     "secenekler": {
@@ -1136,25 +1210,6 @@
     "cozum": "Bu ifadeler, vatan toprakları üzerinde yabancı bir gücün işgalini ve müdahalesini kabul etmeme, yani kayıtsız şartsız bağımsızlık arzusunu ifade eder. Milli Mücadele'nin iki temel ilkesi vardır: 'Tam Bağımsızlık' (düşmandan kurtulma) ve 'Milli Egemenlik' (yönetimi halka verme)."
   }
     ],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     "11. Kurtuluş Savaşı Muharebeler Dönemi": [
             {
     "soru": "TBMM Hükûmeti'nin uluslararası alanda imzaladığı ilk antlaşma olan ve kazandığı ilk askeri ve siyasi zafer olarak kabul edilen antlaşma aşağıdakilerden hangisidir?",
@@ -2921,6 +2976,7 @@
     }
 
 }
+
 
 
 
