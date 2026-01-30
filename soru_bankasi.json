@@ -915,6 +915,93 @@
         
 
 
+  {
+    "soru": "Uygurlar, kendilerinden önceki Göktürk ve Hun devletlerinden farklı olarak Maniheizm dinini benimsemiş ve zamanla yerleşik hayata geçmişlerdir. Bu kültürel değişimin Uygurlarda aşağıdakilerden hangisine yol açtığı savunulamaz?",
+    "secenekler": {
+      "A": "Tarımsal faaliyetlerin başlamasına",
+      "B": "Savaşçılık özelliklerinin zayıflamasına",
+      "C": "Şehir ve tapınak mimarisinin gelişmesine",
+      "D": "Yazılı kültür ve sanatın canlanmasına",
+      "E": "'Töre'nin tamamen ortadan kalkmasına"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Uygurların yerleşik hayata geçmesi ve din değiştirmesi töre kurallarını etkilemiş, bazı değişikliklere yol açmış ancak töre tamamen ortadan kalkmamıştır. Hukuk sistemi devam etmiştir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk devletlerinde devlet işlerinin görüşülüp karara bağlandığı meclise 'Kurultay' (Toy/Kengeş) denirdi. Aşağıdakilerden hangisi Kurultay'ın özelliklerinden biri değildir?",
+    "secenekler": {
+      "A": "Hükümdarın seçiminde rol oynaması",
+      "B": "Savaş ve barış kararları alması",
+      "C": "Törelerde değişiklik yapabilmesi",
+      "D": "Sadece hanedan üyelerinden oluşması",
+      "E": "Hükümdarın yetkilerini bir ölçüde sınırlandırması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Kurultaya kağan, hatun, hanedan üyeleri ve en önemlisi boy beyleri katılırdı. Sadece hanedan üyelerinden oluşmazdı."
+  },
+  {
+    "soru": "Avrupa’ya göç ederek burada devlet kuran Türk toplulukları, zamanla Hristiyanlığı benimseyerek milli kimliklerini büyük ölçüde yitirmişlerdir. Aşağıdakilerden hangisi bu genellemenin dışında kalarak günümüzdeki varlığını ve adını Macaristan olarak sürdüren devlettir?",
+    "secenekler": {
+      "A": "Avarlar",
+      "B": "Peçenekler",
+      "C": "Macarlar",
+      "D": "Tuna Bulgarları",
+      "E": "Kıpçaklar (Kumanlar)"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Macarlar (Magyarlar), Arpad liderliğinde bugünkü Macaristan'a yerleşmiş ve Hristiyanlığı benimsemelerine rağmen varlıklarını bir devlet olarak sürdürmüşlerdir."
+  }, 
+  {
+    "soru": "Eski Türklerde toplumsal hayatı düzenleyen yazısız hukuk kurallarına 'töre' denirdi. Kağanın bile uymak zorunda olduğu törenin değişmez hükümleri arasında adalet (köni), iyilik (uzluk) ve eşitlik (tüzlük) yer alırdı. Bu durum, İslamiyet öncesi Türk devletleriyle ilgili aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Hukuk devleti anlayışının ilkelerinin varlığının",
+      "B": "Özel mülkiyetin gelişmediğinin",
+      "C": "Göçebe yaşam tarzının hukuku şekillendirdiğinin",
+      "D": "Hukukun sadece kağan tarafından belirlendiğinin",
+      "E": "Dini kuralların töreden üstün olduğunun"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Kağanın bile töreye uymak zorunda olması ve törenin adalet, eşitlik gibi değişmez hükümler içermesi, keyfi yönetimin önünde bir engel olduğunu ve bir hukuk devleti anlayışının ilkel formunun varlığını gösterir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk toplumunda sosyal yapı; Oguş (aile), Urug (sülale), Boy (kabile) ve Budun (millet) şeklinde sıralanırdı. Boyların bir araya gelmesiyle Budun, Budun'un teşkilatlanmasıyla da 'İl' (devlet) ortaya çıkardı. Bu yapı aşağıdakilerden hangisini göstermektedir?",
+    "secenekler": {
+      "A": "Sınıflı bir toplum yapısının olduğunu",
+      "B": "Devletin, sosyal örgütlenmenin en üst aşaması olduğunu",
+      "C": "Yerleşik hayatın yaygın olduğunu",
+      "D": "Töre kurallarının geçerliliğini yitirdiğini",
+      "E": "Sadece askeri yapıya önem verildiğini"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Yapı, ailenin temel olduğu ve en üst teşkilatlanmanın devlet (İl) olduğunu gösteren hiyerarşik bir sosyal ve siyasi örgütlenmedir."
+  },
+  {
+    "soru": "Doğu Avrupa'da kurulan Hazarlar, ticarette ileri gitmiş ve farklı dinlerin bir arada barış içinde yaşadığı bir hoşgörü ortamı oluşturmuşlardır. Yöneticilerinin Museviliği benimsemesiyle de diğer Türk devletlerinden ayrılmışlardır. Bu bilgilere göre Hazarlar ile ilgili aşağıdakilerden hangisine ulaşılamaz?",
+    "secenekler": {
+      "A": "Dini hoşgörünün egemen olduğuna",
+      "B": "Yönetici sınıfının farklı bir dini benimsediğine",
+      "C": "Ekonomik yaşamlarının canlı olduğuna",
+      "D": "Gök Tanrı inancını tamamen terk ettiklerine",
+      "E": "Farklı medeniyetlerle etkileşim içinde olduklarına"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Hazarlarda yönetici sınıf Museviliği benimsemiş olsa da halk arasında Gök Tanrı inancı, Hristiyanlık ve Müslümanlık da yaygındı. Gök Tanrı inancı tamamen terk edilmemiştir."
+  },
+  {
+    "soru": "Kavimler Göçü'nün sonucunda;\n- Roma İmparatorluğu ikiye ayrılmıştır.\n- Avrupa'nın bugünkü milletleri oluşmaya başlamıştır.\n- Avrupa'da feodalite (derebeylik) rejimi ortaya çıkmıştır.\nAşağıdakilerden hangisi Kavimler Göçü'nün sonuçlarından biri değildir?",
+    "secenekler": {
+      "A": "Avrupa’da skolastik düşüncenin zayıflaması",
+      "B": "İlk Çağ'ın sona erip Orta Çağ'ın başlaması",
+      "C": "Avrupa Hun Devleti'nin kurulması",
+      "D": "Avrupa’nın etnik yapısının değişmesi",
+      "E": "Hristiyanlığın barbar kavimler arasında yayılması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Kavimler Göçü sonrası Avrupa'da kilisenin baskısı artmış ve skolastik (dogmatik) düşünce güçlenmiştir. Zayıflaması Rönesans ve Reform ile olacaktır."
+  },
+        
+        
+
 
 
   {
@@ -965,11 +1052,6 @@
     "dogru_cevap": "C",
     "cozum": "Göçebe ve atlı-konar göçer bozkır yaşam tarzı, ordunun hızlı, manevra kabiliyeti yüksek ve süvarilere dayalı olmasını zorunlu kılmıştır."
   },
-
-
-
-        
-
   {
     "soru": "İstanbul'u kuşatan ilk Türk devleti olarak bilinen ve hem Asya'da hem de Avrupa'da devlet kuran Türk topluluğu aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -7523,6 +7605,7 @@
     }
 
 }
+
 
 
 
