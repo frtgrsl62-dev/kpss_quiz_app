@@ -785,15 +785,14 @@ def admin_page():
 
         st.markdown("---")
 
-        soru_metin = st.text_area("Soru")
-        a = st.text_input("A şıkkı")
-        b = st.text_input("B şıkkı")
-        c = st.text_input("C şıkkı")
-        d = st.text_input("D şıkkı")
-        e = st.text_input("E şıkkı")
-
-        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
-        cozum = st.text_area("Çözüm")
+        soru_metin = st.text_area("Soru", key="soru_metin")
+        a = st.text_input("A şıkkı", key="sec_a")
+        b = st.text_input("B şıkkı", key="sec_b")
+        c = st.text_input("C şıkkı", key="sec_c")
+        d = st.text_input("D şıkkı", key="sec_d")
+        e = st.text_input("E şıkkı", key="sec_e")
+        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"], key="dogru")
+        cozum = st.text_area("Çözüm", key="cozum")
 
         if st.button("➕ Soruyu Kaydet"):
             if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
@@ -884,6 +883,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
