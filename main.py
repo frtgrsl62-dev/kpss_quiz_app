@@ -782,7 +782,14 @@ def admin_page():
     # ==================================================
     # ➕ SORU EKLE
     # ==================================================
-with tab2:
+  def ders_degisti(prefix):
+    ders = st.session_state[f"{prefix}_ders"]
+    konular = list(soru_bankasi[ders].keys())
+    st.session_state[f"{prefix}_konu"] = konular[0]
+
+    
+    
+    with tab2:
     st.subheader("Yeni Soru Ekle")
 
     ders = st.selectbox(
@@ -940,6 +947,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
