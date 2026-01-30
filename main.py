@@ -877,7 +877,7 @@ def admin_page():
                 soru_bankasini_kaydet(soru_bankasi)
                 st.success("✅ Soru güncellendi")
 
-    # ==================================================
+      # ==================================================
     # 🗑️ SORU SİL
     # ==================================================
     with tab4:
@@ -902,25 +902,9 @@ def admin_page():
             )
 
             if st.button("❌ Soruyu Sil"):
-                st.session_state["sil_onay"] = idx
-
-            if "sil_onay" in st.session_state:
-                st.warning("⚠️ Bu soru silinsin mi?")
-                col1, col2 = st.columns(2)
-
-                with col1:
-                    if st.button("✅ Onayla"):
-                        sorular.pop(idx)
-                        soru_bankasini_kaydet(soru_bankasi)
-                        st.error("🗑️ Soru silindi")
-                     #   del st.session_state["sil_onay"]
-                    #  st.rerun()
-
-                with col2:
-                    if st.button("❌ İptal"):
-                        del st.session_state["sil_onay"]
-                        st.info("Silme işlemi iptal edildi")
-        
+                sorular.pop(idx)
+                soru_bankasini_kaydet(soru_bankasi)
+                 st.error("🗑️ Soru silindi")
 
 
 
@@ -986,6 +970,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
