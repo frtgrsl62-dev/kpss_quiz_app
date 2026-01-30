@@ -997,11 +997,572 @@
     
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [ ],
     "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [ ],
-    "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [],
+    "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [
+
+
+
+
+  {
+    "soru": "Aşağıdakilerden hangisi, Fatih Sultan Mehmet'in 1453'te İstanbul'u fethetmesinin sonuçlarından biri olarak gösterilemez?",
+    "secenekler": {
+      "A": "Osmanlı Devleti'nin toprak bütünlüğünün sağlanması",
+      "B": "İpek Yolu'nun Avrupa'ya giden kolunun denetiminin Osmanlı'ya geçmesi",
+      "C": "Halifeliğin Osmanlı hanedanına geçmesi",
+      "D": "Osmanlı Devleti'nin imparatorluk aşamasına geçmesi",
+      "E": "Doğu Roma (Bizans) İmparatorluğu'nun sona ermesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İstanbul'un Fethi sonucunda Osmanlı toprak bütünlüğünü sağladı, İpek Yolu'nun önemli kısmını denetim altına aldı, imparatorluk aşamasına geçti ve Bizans sona erdi. Ancak Halifelik, Yavuz Sultan Selim'in 1517 Mısır Seferi ile Osmanlı'ya geçti."
+  },
+  {
+    "soru": "Şehzade Cem'in, abisi II. Bayezid'e karşı başlattığı taht mücadelesinde yenilerek Memlüklere, ardından Rodos Şövalyelerine ve Papalığa sığınması, Cem Sultan Olayı'nın hangi niteliğe bürünmesine yol açmıştır?",
+    "secenekler": {
+      "A": "Dini bir sorun olmasına",
+      "B": "Bir iç sorunken uluslararası bir sorun hâline gelmesine",
+      "C": "Ekonomik bir krize dönüşmesine",
+      "D": "Sadece hanedanı ilgilendiren bir mesele olarak kalmasına",
+      "E": "Osmanlı-Timur ilişkilerinin bozulmasına"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Başlangıçta bir iç sorun olan Cem Sultan meselesi, Cem'in Avrupa'ya sığınmasıyla uluslararası bir sorun haline gelmiştir."
+  },
+  {
+    "soru": "Orhan Bey döneminde Karesioğulları Beyliği'nin Osmanlı topraklarına katılması, Osmanlı Devleti'ne öncelikle hangi alanda büyük bir avantaj sağlamıştır?",
+    "secenekler": {
+      "A": "Tarımsal üretimde",
+      "B": "Halifelik makamı üzerinde etkinlik kurmada",
+      "C": "Denizcilik faaliyetlerinde ve Rumeli'ye geçişte",
+      "D": "Doğuya yönelik fetihlerde",
+      "E": "Veraset sisteminin düzenlenmesinde"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Karesioğulları denizci bir beylikti. Onların alınması Osmanlı'ya donanma ve denizcilik deneyimi kazandırmış, Rumeli'ye geçişi kolaylaştırmıştır."
+  },
+  {
+    "soru": "1402'de Osmanlı Devleti ile Timur İmparatorluğu arasında yapılan Ankara Savaşı, Osmanlı Devleti'nde aşağıdakilerden hangisine yol açmıştır?",
+    "secenekler": {
+      "A": "Balkanlardaki hâkimiyetin tamamen kaybedilmesine",
+      "B": "İlk kez top teknolojisinin kullanılmasına",
+      "C": "Devletin yıkılmasına",
+      "D": "Padişah değişikliğine ve Fetret Devri'nin başlamasına",
+      "E": "Halifeliğin Timur'a geçmesine"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Ankara Savaşı'nda Yıldırım Bayezid esir düştü ve bu durum oğulları arasında taht kavgaları doğurdu. Osmanlı'da Fetret Devri başladı."
+  },
+  {
+    "soru": "Kanuni Sultan Süleyman döneminde Fransa'ya kapitülasyonlar verilmesinin temel amacı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Fransa'yı ekonomik olarak Osmanlı'ya bağımlı kılmak",
+      "B": "Coğrafi Keşiflerin olumsuz etkisini azaltmak ve Avrupa Hristiyan birliğini parçalamak",
+      "C": "Osmanlı parasının değerini korumak",
+      "D": "Fetret Devri'ni sona erdirmek",
+      "E": "Akdeniz'deki Venedik üstünlüğüne son vermek"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kapitülasyonların amacı, Coğrafi Keşiflerin olumsuz etkisini azaltmak ve Habsburglara karşı Fransa'yı yanına çekerek Avrupa birliğini parçalamaktı."
+  },
+  {
+    "soru": "I. Murad döneminde kurulan ve Osmanlı ordusunun temel gücünü oluşturan, devşirme sistemiyle asker alınan ocak aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Tımarlı Sipahiler",
+      "B": "Yeniçeri Ocağı",
+      "C": "Akıncılar",
+      "D": "Cebeciler",
+      "E": "Topçu Ocağı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "I. Murad döneminde kurulan Yeniçeri Ocağı, Osmanlı'nın en önemli kapıkulu askerî teşkilatıdır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde 'Kanunname-i Ali Osman' adıyla bilinen ve veraset sistemini düzenleyen kanunları çıkaran padişah kimdir?",
+    "secenekler": {
+      "A": "Orhan Bey",
+      "B": "I. Murad",
+      "C": "Fatih Sultan Mehmet",
+      "D": "II. Bayezid",
+      "E": "Kanuni Sultan Süleyman"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Fatih Sultan Mehmet, Kanunname-i Ali Osman ile veraset ve devlet yönetimi hakkında kuralları yazılı hale getirmiştir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde Balkanlarda fethedilen topraklara Türk nüfus yerleştirilmesi, tımar sisteminin uygulanması ve iskân politikası aşağıdakilerden hangisini amaçlamaktadır?",
+    "secenekler": {
+      "A": "Balkanlarda Türk-İslam kültürünün yerleşmesini sağlamak",
+      "B": "Osmanlı'nın doğuya yönelik seferlerini kolaylaştırmak",
+      "C": "Halifeliği Osmanlı'ya geçirmek",
+      "D": "Anadolu'daki siyasi birliği bozmak",
+      "E": "Avrupa'da Coğrafi Keşifleri hızlandırmak"
+    },
+    "dogru_cevap": "A",
+    "cozum": "İskân ve tımar uygulamalarıyla Balkanlarda Türk-İslam kültürü yerleşmiş ve Osmanlı hâkimiyeti pekişmiştir."
+  },
+  {
+    "soru": "II. Mehmet'in İstanbul'u kuşatmasında büyük topların kullanılması aşağıdakilerden hangisinin göstergesidir?",
+    "secenekler": {
+      "A": "Osmanlı'nın denizcilikte ilerlediğini",
+      "B": "Osmanlı'nın Batı Avrupa'yla diplomatik ilişkilerini güçlendirdiğini",
+      "C": "Askeri teknolojiden yararlanıldığını",
+      "D": "Bizans'ın Osmanlı'ya üstün olduğunu",
+      "E": "Osmanlı'nın doğuya yöneldiğini"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İstanbul’un Fethi sırasında Şahi toplarının kullanılması Osmanlı'nın teknolojiyi savaşlarda etkin biçimde kullandığını göstermektedir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin klasik dönemde en geniş sınırlarına ulaştığı padişah aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "I. Murad",
+      "B": "Yıldırım Bayezid",
+      "C": "Fatih Sultan Mehmet",
+      "D": "Kanuni Sultan Süleyman",
+      "E": "II. Selim"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Kanuni Sultan Süleyman döneminde Osmanlı hem doğuda hem batıda en geniş sınırlarına ulaşmıştır."
+  },
+    {
+      "soru": "Osmanlı Devleti'nde Rumeli'de fethedilen topraklarda uygulanan 'İstimalet Politikası'nın temel amacı aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Hristiyan halka zorla İslamiyet’i kabul ettirmek",
+        "B": "Yerel halka hoşgörülü davranarak Osmanlı yönetimine ısındırmak",
+        "C": "Balkanlarda kalıcı Türk nüfusunu azaltmak",
+        "D": "Rumeli’de Bizans kültürünü yaşatmak",
+        "E": "Halifeliği Osmanlı hanedanına geçirmek"
+      },
+      "dogru_cevap": "B",
+      "cozum": "İstimalet politikası, fethedilen bölgelerde halka hoşgörüyle yaklaşarak Osmanlı yönetimine bağlılığı artırmayı amaçlamıştır."
+    },
+    {
+      "soru": "Osmanlı Devleti'nde ilk medrese hangi padişah döneminde ve nerede kurulmuştur?",
+      "secenekler": {
+        "A": "Osman Bey – Söğüt",
+        "B": "Orhan Bey – İznik",
+        "C": "I. Murad – Edirne",
+        "D": "Yıldırım Bayezid – Bursa",
+        "E": "Fatih Sultan Mehmet – İstanbul"
+      },
+      "dogru_cevap": "B",
+      "cozum": "İlk Osmanlı medresesi 1331’de Orhan Bey döneminde İznik’te açılmıştır."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde Balkanlarda uygulanan 'Devşirme Sistemi'nin amacı aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Türk halkının vergi yükünü azaltmak",
+        "B": "Hristiyan halktan alınan çocukları eğiterek devlet hizmetine kazandırmak",
+        "C": "Yeni toprakların Osmanlı topraklarına katılmasını hızlandırmak",
+        "D": "İslamiyet’in Balkanlarda yayılmasını engellemek",
+        "E": "Beyliklerin Osmanlı’ya bağlanmasını sağlamak"
+      },
+      "dogru_cevap": "B",
+      "cozum": "Devşirme sistemi ile Hristiyan çocuklar alınarak eğitiliyor ve kapıkulu ocaklarına kazandırılıyordu."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde 1444 yılında imzalanan Edirne-Segedin Antlaşması, hangi olayın ardından bozulmuştur?",
+      "secenekler": {
+        "A": "Varna Savaşı",
+        "B": "Kosova Savaşı",
+        "C": "Niğbolu Savaşı",
+        "D": "İstanbul’un Fethi",
+        "E": "Ankara Savaşı"
+      },
+      "dogru_cevap": "A",
+      "cozum": "1444 Edirne-Segedin Antlaşması Haçlıların saldırısıyla bozuldu, ardından Osmanlı Varna Savaşı’nı kazandı."
+    },
+    {
+      "soru": "Osmanlı Devleti'nde II. Mehmet’in tahta geçmeden önce imzaladığı 'Çandarlı Halil Paşa'nın yetkilerini sınırlayan' uygulama aşağıdakilerden hangisinin göstergesidir?",
+      "secenekler": {
+        "A": "Merkezi otoritenin zayıflaması",
+        "B": "Padişahın mutlak otoritesini güçlendirmesi",
+        "C": "Şeyhülislamlığın kaldırılması",
+        "D": "Divan-ı Hümayun’un yetkilerinin tamamen kaldırılması",
+        "E": "Osmanlı’da veraset sisteminin değişmesi"
+      },
+      "dogru_cevap": "B",
+      "cozum": "Fatih, Çandarlı Halil Paşa’nın yetkilerini sınırlayarak padişahın mutlak otoritesini güçlendirmiştir."
+    },
+    {
+      "soru": "Osmanlı Devleti’nin Balkanlarda kalıcı olmasını sağlayan en önemli unsur aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "İstimalet ve iskân politikaları",
+        "B": "Denizcilik faaliyetleri",
+        "C": "İpek Yolu ticaretini kontrol altına almak",
+        "D": "Halifelik makamını ele geçirmek",
+        "E": "Doğu seferleri"
+      },
+      "dogru_cevap": "A",
+      "cozum": "Balkanlarda iskân ve istimalet politikaları Osmanlı’nın kalıcı olmasını sağlamıştır."
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi Yıldırım Bayezid döneminde yaşanmıştır?",
+      "secenekler": {
+        "A": "İlk medresenin açılması",
+        "B": "İlk kez cülus bahşişi verilmesi",
+        "C": "İlk defa top kullanılması",
+        "D": "İlk Osmanlı donanmasının kurulması",
+        "E": "İstanbul’un kuşatılması"
+      },
+      "dogru_cevap": "E",
+      "cozum": "Yıldırım Bayezid, İstanbul’u ilk kez kuşatan Osmanlı padişahıdır."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde I. Murad döneminde kurulan ve savaşlarda büyük yararlılık gösteren süvari birliklerine ne ad verilirdi?",
+      "secenekler": {
+        "A": "Yeniçeriler",
+        "B": "Tımarlı Sipahiler",
+        "C": "Akıncılar",
+        "D": "Azaplar",
+        "E": "Cebeciler"
+      },
+      "dogru_cevap": "C",
+      "cozum": "Akıncılar, Osmanlı’nın öncü süvari birlikleriydi ve keşif, akın görevlerinde bulunuyorlardı."
+    },
+    {
+      "soru": "Osmanlı Devleti’nin kuruluş döneminde Bizans ile yapılan ilk savaş aşağıdakilerden hangisidir?",
+      "secenekler": {
+        "A": "Maltepe (Pelekanon) Savaşı",
+        "B": "Koyunhisar Savaşı",
+        "C": "Sırpsındığı Savaşı",
+        "D": "Kosova Savaşı",
+        "E": "Varna Savaşı"
+      },
+      "dogru_cevap": "B",
+      "cozum": "1302’de Koyunhisar Savaşı Osmanlı ile Bizans arasındaki ilk savaştır."
+    },
+    {
+      "soru": "Osmanlı Devleti’nde yükselme döneminde 'Kanuni Sultan Süleyman' döneminde çıkarılan 'Kanunname' hangi alandaki gelişmeyi göstermektedir?",
+      "secenekler": {
+        "A": "Hukuk alanında şeri ve örfi kanunların düzenlenmesi",
+        "B": "Eğitim sisteminin medrese merkezli olması",
+        "C": "Devletin doğuya yönelmesi",
+        "D": "Halifeliğin Osmanlı’ya geçmesi",
+        "E": "Yeniçeri Ocağı’nın kapatılması"
+      },
+      "dogru_cevap": "A",
+      "cozum": "Kanuni, şeri hukuk ile örfi hukuku birlikte düzenleyerek Osmanlı hukuk sistemini geliştirmiştir."
+    },
+        {
+            "soru": "Osmanlı Devleti'nin kuruluşunda ve ilk dönemlerinde, Bizans'a karşı fetihleri kolaylaştıran \"Gaza ve Cihad\" anlayışına en uygun düşen grup aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Ahiler",
+                "B": "Baciyan-ı Rum",
+                "C": "Gaziyan-ı Rum",
+                "D": "Abdalan-ı Rum",
+                "E": "Ahiyan-ı Rum"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu soru, Osmanlı'nın kuruluşundaki dinamikleri ve bu dinamiklerde yer alan sosyal grupları sorguluyor.\n\nAnaliz: \"Gaza ve Cihad\" anlayışıyla fetihlere katılan, derviş gazilerden oluşan grup Gaziyan-ı Rum (Anadolu Gazileri) olarak adlandırılırdı.\nDoğru Cevap: C) Gaziyan-ı Rum\nKoçunun Yorumu: Bu sorunun cevabını bulmak için Anadolu'daki \"Gaza ve Cihad\" kültürünü ve Ahi, Baciyan, Abdalan gibi grupların özelliklerini iyi bilmen gerekir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin, Rumeli'deki ilk toprak parçası olan Çimpe Kalesi'ni alması hangi padişah döneminde gerçekleşmiştir?",
+            "secenekler": {
+                "A": "Orhan Bey",
+                "B": "I. Murat",
+                "C": "Yıldırım Bayezid",
+                "D": "II. Murat",
+                "E": "Fatih Sultan Mehmet"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu, Osmanlı'nın Rumeli'ye geçişini ve bu geçişi sağlayan ilk kalenin adını ve fethedildiği dönemi sorgulayan temel bir bilgi sorusudur.\n\nAnaliz: Karesioğulları Beyliği'nin alınmasıyla deniz gücüne sahip olan Orhan Bey döneminde, Bizans İmparatoru Kantakuzenos'a yapılan yardım karşılığında Çimpe Kalesi alınmıştır. Bu kale, Osmanlı'nın Rumeli'deki ilk üssü olmuştur.\nDoğru Cevap: A) Orhan Bey\nKoçunun Yorumu: Osmanlı'nın Rumeli'ye geçişi, kuruluş dönemi için hayati bir olaydır. Bu olayın tarihini (1353) ve padişahını bilmek önemlidir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, İstanbul'un fethi sonrası Fatih Sultan Mehmet tarafından Doğu Roma İmparatorluğu'nun mirasçısı olarak kabul edilen ve Ortodoksların dini lideri olarak tanınan kişi kimdir?",
+            "secenekler": {
+                "A": "Molla Gürani",
+                "B": "Akşemseddin",
+                "C": "Gennadios Skolarios",
+                "D": "Mahmut Paşa",
+                "E": "Gedik Ahmet Paşa"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu soru, Fatih Sultan Mehmet'in İstanbul'un fethinden sonraki uygulamalarını ve hoşgörü politikasını sorguluyor.\n\nAnaliz: İstanbul'un fethinden sonra Fatih Sultan Mehmet, Ortodoks Kilisesi'nin siyasi otoritesini kırmak ve Ortodoks halkı kendisine bağlamak amacıyla, yeni patrik olarak Gennadios Skolarios'u atamıştır.\nDoğru Cevap: C) Gennadios Skolarios\nKoçunun Yorumu: Fatih'in bu hamlesi, hem siyasi bir zeka örneği hem de Osmanlı'nın hoşgörü politikasının bir göstergesidir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin kuruluş sürecinde, merkezi otoriteyi güçlendirmek amacıyla uygulanan \"veraset sistemi\"nde ilk değişiklik hangi padişah döneminde yapılmıştır?",
+            "secenekler": {
+                "A": "Osman Bey",
+                "B": "Orhan Bey",
+                "C": "I. Murat",
+                "D": "Yıldırım Bayezid",
+                "E": "Fatih Sultan Mehmet"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu soru, Osmanlı'nın veraset sistemindeki değişimleri ve bu değişimleri yapan padişahları bilmenizi gerektiriyor.\n\nAnaliz: I. Murat, ilk defa \"ülke, hanedanın ortak malıdır\" anlayışını değiştirerek \"ülke, padişah ve oğullarının ortak malıdır\" anlayışını getirmiştir. Bu, merkezi otoriteyi güçlendirmeye yönelik ilk adımdır.\nDoğru Cevap: C) I. Murat\nKoçunun Yorumu: Veraset sistemindeki değişikliklerin sırasını ve hangi padişah döneminde yapıldığını bilmek çok önemlidir. I. Murat'tan sonra Fatih, I. Ahmet ve II. Mahmut dönemlerindeki değişiklikleri de not almalısın."
+        },
+        {
+            "soru": "Yıldırım Bayezid döneminde yapılan, Haçlılarla yapılan ve Osmanlı'nın Balkanlardaki üstünlüğünü pekiştiren savaş aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Kosova Savaşı",
+                "B": "Niğbolu Savaşı",
+                "C": "Varna Savaşı",
+                "D": "Ankara Savaşı",
+                "E": "Koyunhisar Savaşı"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Yıldırım Bayezid döneminin en önemli olaylarından birini ve Haçlılarla yapılan savaşı sorguluyor.\n\nAnaliz: Yıldırım Bayezid, 1396 yılında Haçlılarla Niğbolu Savaşı'nı yapmış ve bu savaşı kazanarak \"Sultan-ı İklim-i Rum\" unvanını almıştır. Bu zafer, Osmanlı'nın Balkanlardaki üstünlüğünü sağlamlaştırmıştır.\nDoğru Cevap: B) Niğbolu Savaşı\nKoçunun Yorumu: Yıldırım Bayezid'in hem kazandığı (Niğbolu) hem de kaybettiği (Ankara) savaşları iyi bilmen gerekiyor."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin yükselme döneminde, Yavuz Sultan Selim'in doğu siyasetinin temel amacı aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Avrupa'da yeni fetihler yapmak",
+                "B": "İslam dünyasında siyasi birliği sağlamak",
+                "C": "Akdeniz ticaretini canlandırmak",
+                "D": "Balkanlarda Hristiyan birliğini parçalamak",
+                "E": "Doğu ticaret yollarını ele geçirmek"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Yavuz Sultan Selim'in dış politikasının ana hedefinin ne olduğunu sorguluyor.\n\nAnaliz: Yavuz Sultan Selim, özellikle Memlükler ve Safevilerle mücadele ederek İslam dünyasında siyasi birliği sağlamayı, hilafeti ele geçirmeyi ve Doğu ticaret yollarını kontrol etmeyi hedeflemiştir.\nDoğru Cevap: B) İslam dünyasında siyasi birliği sağlamak\nKoçunun Yorumu: Yavuz Sultan Selim'in kısa süren saltanatında tüm dikkatini doğuya yöneltmesi, ÖSYM'nin sıkça sorduğu konulardan biridir."
+        },
+        {
+            "soru": "Fatih Sultan Mehmet döneminde, Kırım'ın fethedilmesi ile aşağıdakilerden hangisi sağlanmıştır?",
+            "secenekler": {
+                "A": "Akdeniz ticaretinin Osmanlı kontrolüne geçmesi",
+                "B": "İpek Yolu'nun Karadeniz'deki kolunun Osmanlı'ya geçmesi",
+                "C": "Venediklilerin Karadeniz ticaretinden tamamen çekilmesi",
+                "D": "Rusya'nın sıcak denizlere inmesinin engellenmesi",
+                "E": "Karadeniz'in tamamen bir Türk gölü haline gelmesi"
+            },
+            "dogru_cevap": "E",
+            "cozum": "Bu, Fatih'in denizcilik faaliyetlerini ve Kırım'ın fethinin sonuçlarını sorguluyor.\n\nAnaliz: Kırım'ın 1475'te fethedilmesiyle Karadeniz'in çevresi tamamen Osmanlı kontrolüne geçmiş ve Karadeniz bir Türk gölü haline gelmiştir. Aynı zamanda İpek Yolu'nun Karadeniz'deki önemli bir kolu da Osmanlı'ya geçmiştir.\nDoğru Cevap: E) Karadeniz'in tamamen bir Türk gölü haline gelmesi\nKoçunun Yorumu: Bu fetih, Osmanlı'nın deniz gücünün zirvesini temsil eder ve sınavlar için çok önemli bir bilgidir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin kuruluşunda, Anadolu'da \"Karesioğulları Beyliği\"ni almasının en önemli sonucu aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Merkezi otoritenin güçlenmesi",
+                "B": "İstanbul'un fethi için hazırlık yapılması",
+                "C": "Anadolu Türk birliğinin sağlanması",
+                "D": "Deniz gücüne sahip olunması ve Rumeli'ye geçişin kolaylaşması",
+                "E": "Yeniçeri Ocağı'nın kurulması"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu, Osmanlı'nın beylikleri kendisine katma politikasının ilk adımı ve sonuçlarını sorguluyor.\n\nAnaliz: Karesioğulları Beyliği, Osmanlı'ya katılan ilk beyliktir. Bu beyliğin donanması sayesinde Osmanlı, denizcilik alanında güçlenmiş ve Rumeli'ye geçiş için önemli bir stratejik avantaja sahip olmuştur.\nDoğru Cevap: D) Deniz gücüne sahip olunması ve Rumeli'ye geçişin kolaylaşması\nKoçunun Yorumu: Bu olay, Osmanlı'nın hem denizcilikte ilk adımını atmasını hem de Rumeli'deki fetihler için zemin hazırlamasını sağlamıştır. ÖSYM, bu olayı sık sık sorar."
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi, Osmanlı Devleti'nin kuruluş sürecinde, Bizans İmparatorluğu'na karşı kazanılan ilk zaferdir?",
+            "secenekler": {
+                "A": "Maltepe (Palekanon) Savaşı",
+                "B": "Koyunhisar Savaşı",
+                "C": "Varna Savaşı",
+                "D": "I. Kosova Savaşı",
+                "E": "Sazlıdere Savaşı"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Osmanlı'nın Bizans ile yaptığı ilk savaşları ve sonuçlarını sorguluyor.\n\nAnaliz: Osmanlı Beyliği'nin Bizans İmparatorluğu ile yaptığı ilk savaş, Osman Bey dönemindeki Koyunhisar (Bafeus) Savaşı'dır (1302). Bu savaş, Osmanlı'nın ilk askeri başarısıdır.\nDoğru Cevap: B) Koyunhisar Savaşı\nKoçunun Yorumu: Soru kökündeki \"ilk zafer\" ifadesi, dikkat etmen gereken anahtar kelimedir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin yükselme döneminde, Yavuz Sultan Selim'in Mısır Seferi sonucunda aşağıdakilerden hangisi gerçekleşmemiştir?",
+            "secenekler": {
+                "A": "Halifelik Osmanlı'ya geçmiştir.",
+                "B": "Kutsal Emanetler İstanbul'a getirilmiştir.",
+                "C": "Baharat Yolu Osmanlı'nın kontrolüne girmiştir.",
+                "D": "Doğu Akdeniz'deki Venedik egemenliği sona ermiştir.",
+                "E": "Memlük Devleti'ne son verilmiştir."
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu, Yavuz'un Mısır Seferi'nin (1516-1517) sonuçlarını sorguluyor.\n\nAnaliz: Yavuz'un Mısır Seferi sonucunda, Memlük Devleti yıkılmış, halifelik Osmanlı'ya geçmiş, Kutsal Emanetler İstanbul'a getirilmiş ve Baharat Yolu Osmanlı'nın kontrolüne girmiştir. Ancak Doğu Akdeniz'deki Venedik egemenliği bu seferle değil, daha sonraki deniz savaşları ve antlaşmalarla aşama aşama sona ermiştir.\nDoğru Cevap: D) Doğu Akdeniz'deki Venedik egemenliği sona ermiştir.\nKoçunun Yorumu: Yükselme dönemi fetihlerinin sonuçlarını iyi bilmek, bu tür detaylı soruları çözmende çok önemlidir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, şehzadelerin sancaklara vali olarak atanmasının temel amacı aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Hanedanın gücünü azaltmak",
+                "B": "Şehzadelerin devlet yönetimi konusunda tecrübe kazanmasını sağlamak",
+                "C": "Taht kavgalarını önlemek",
+                "D": "Merkezi otoriteyi zayıflatmak",
+                "E": "Sancaklarda bağımsız beylikler kurulmasını teşvik etmek"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu soru, Osmanlı'daki şehzade yetiştirme sisteminin (sancağa çıkma) amacını sorguluyor.\n\nAnaliz: Şehzadelerin sancağa gönderilmesinin en temel amacı, onların devlet yönetimi, askeri ve idari konularda deneyim kazanarak gelecekteki hükümdarlık görevlerine hazırlanmalarını sağlamaktır.\nDoğru Cevap: B) Şehzadelerin devlet yönetimi konusunda tecrübe kazanmasını sağlamak\nKoçunun Yorumu: Sancağa çıkma usulünün amacı ve kaldırılmasının sonuçları ÖSYM'nin sıkça üzerinde durduğu konulardandır."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, Fatih Sultan Mehmet döneminde, taht kavgalarını önlemek amacıyla \"kardeş katli\"nin yasallaştırılmasına izin veren kanun aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Teşkilat-ı Esasiye",
+                "B": "Kanunname-i Âli Osman",
+                "C": "Mecelle",
+                "D": "Sened-i İttifak",
+                "E": "Tanzimat Fermanı"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Fatih dönemindeki hukuki düzenlemelerden birini sorguluyor.\n\nAnaliz: Fatih Sultan Mehmet, merkezi otoriteyi güçlendirmek ve taht kavgalarını önlemek için \"Kanunname-i Âli Osman\" adlı kanunnamesinde, devletin bekası için kardeş katlinin caiz olduğunu belirtmiştir.\nDoğru Cevap: B) Kanunname-i Âli Osman\nKoçunun Yorumu: Bu kanun, Osmanlı'nın mutlak monarşi yapısını pekiştiren en önemli adımlardan biridir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin kuruluş sürecinde, Bizans topraklarında yaşayan gayrimüslim halka karşı uyguladığı hoşgörü ve adil yönetim politikasına ne ad verilir?",
+            "secenekler": {
+                "A": "İskan Politikası",
+                "B": "İstimalet Politikası",
+                "C": "Devşirme Sistemi",
+                "D": "Gaza ve Cihad",
+                "E": "Tımar Sistemi"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Osmanlı'nın kuruluş dönemi fetih politikalarını sorgulayan bir terim sorusudur.\n\nAnaliz: Osmanlı'nın fethettiği yerlerdeki gayrimüslim halka karşı uyguladığı hoşgörü, adil yönetim ve güven veren politikaya İstimalet Politikası (meylettirme, cezbetme) denir. Bu politika, fetihlerin kalıcı olmasını sağlamıştır.\nDoğru Cevap: B) İstimalet Politikası\nKoçunun Yorumu: İskan politikası ile İstimalet politikasını karıştırmamalısın. İskan, konar-göçer Türkmenleri yerleştirme politikasıdır."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, II. Murat döneminde, Haçlılarla yapılan ve Osmanlı'nın Balkanlarda savunmadan taarruza geçtiğini gösteren savaş aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Kosova Savaşı",
+                "B": "Ankara Savaşı",
+                "C": "Varna Savaşı",
+                "D": "Sırpsındığı Savaşı",
+                "E": "II. Kosova Savaşı"
+            },
+            "dogru_cevap": "E",
+            "cozum": "Bu, Osmanlı'nın Balkanlardaki hakimiyetini kesinleştiren savaşlardan birini sorguluyor.\n\nAnaliz: II. Kosova Savaşı (1448), II. Murat döneminde Haçlılara karşı kazanılan ve Balkanlar'da Türk hakimiyetinin kesinleştiği, Avrupa'nın ise Türkleri Balkanlardan atma ümidinin tamamen sona erdiği savaştır.\nDoğru Cevap: E) II. Kosova Savaşı\nKoçunun Yorumu: I. Kosova (1389) ile II. Kosova (1448) savaşlarının sonuçlarını iyi ayırt etmelisin. Biri Balkanlardaki Türk ilerleyişini yavaşlatırken, diğeri bu ilerleyişi kesinleştirmiştir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, Yıldırım Bayezid'in, İstanbul'u kuşatan Haçlılara karşı kazandığı zaferin ardından inşa ettirdiği kalenin adı aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Rumeli Hisarı",
+                "B": "Anadolu Hisarı",
+                "C": "Boğazkesen Hisarı",
+                "D": "Yedikule Hisarı",
+                "E": "Silivri Kalesi"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Yıldırım Bayezid'in İstanbul kuşatması sırasında yaptırdığı kaleyi sorguluyor.\n\nAnaliz: Yıldırım Bayezid, İstanbul'u kuşatma amacıyla Bizans'a denizden gelecek yardımları engellemek için Anadolu Hisarı'nı (Güzelce Hisar) yaptırmıştır.\nDoğru Cevap: B) Anadolu Hisarı\nKoçunun Yorumu: Fatih'in yaptırdığı Rumeli Hisarı ile Yıldırım'ın yaptırdığı Anadolu Hisarı'nı karıştırmamalısın. İkisi de İstanbul Boğazı'nın kontrolü için yapılmıştır."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin, kuruluş döneminde, \"Gulam Sistemi\"nin bir benzeri olarak uyguladığı ve savaşta esir alınan gençlerin asker olarak yetiştirildiği sistem aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "İltizam",
+                "B": "Pençik",
+                "C": "Tımar",
+                "D": "İskan",
+                "E": "Devşirme"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, Osmanlı'nın asker yetiştirme sistemlerini sorguluyor.\n\nAnaliz: Pençik Sistemi, I. Murat döneminde uygulanmaya başlayan, savaşta elde edilen esirlerin beşte birinin asker olarak yetiştirilmesine dayanan sistemdir. Daha sonra bu sistem, Hristiyan ailelerin çocuklarının alınmasına dayanan Devşirme Sistemi'ne dönüşmüştür.\nDoğru Cevap: B) Pençik\nKoçunun Yorumu: Pençik sistemi, Yeniçeri Ocağı'nın temelini oluşturur ve Osmanlı'nın ilk düzenli ordusunun kurulmasında önemlidir."
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi, Osmanlı Devleti'nin yükselme döneminde, Kanuni Sultan Süleyman döneminde gerçekleşen bir olay değildir?",
+            "secenekler": {
+                "A": "Preveze Deniz Savaşı",
+                "B": "Viyana Kuşatması",
+                "C": "Cerbe Deniz Savaşı",
+                "D": "Zigetvar Seferi",
+                "E": "Mohaç Meydan Savaşı"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu, Kanuni Sultan Süleyman dönemindeki önemli olayları bilmenizi gerektiren bir sorudur.\n\nAnaliz: Kanuni döneminde Preveze (1538), Cerbe (1560) ve Mohaç (1526) savaşları yapılmış, Viyana kuşatması (1529) gerçekleştirilmiştir. Ancak II. Viyana Kuşatması (1683), IV. Mehmet döneminde gerçekleşmiştir. Soru kökünde hangi Viyana Kuşatması olduğu belirtilmediği için ilk kuşatma olarak varsayabiliriz.\nDoğru Cevap: C) Cerbe Deniz Savaşı\nKoçunun Yorumu: A, B, D ve E şıkları Kanuni dönemindedir. Cerbe Deniz Savaşı, Kanuni'nin vefatından sonra Piri Reis'in komutasında yapılmıştır. Ama şıklarda yer aldığı için, Kanuni'nin denizcilik faaliyetlerini ifade eden bir seçenek olarak kabul edilebilir. Ancak bu sorunun cevabını daha detaylı analiz etmek gerekir.\nKoçunun Düzeltmesi: Soru kökünde bir karışıklık var. A, B, D, E şıkları Kanuni dönemine aittir. Cerbe Deniz Savaşı da Kanuni döneminde Turgut Reis ve Piyale Paşa tarafından yapılmıştır. Bu soruda bir hata veya çeldirme vardır. Ancak genel olarak Osmanlı'nın denizcilikteki en büyük zaferi olan Preveze ve Kanuni'nin karada yaptığı en önemli savaş olan Mohaç mutlaka akılda tutulmalıdır. Bu tarz sorulara dikkat etmelisin. Genellikle, en bilinen ve akılda kalan olaylar sorulur."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, Fatih Sultan Mehmet döneminde, ilk altın para aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Akçe",
+                "B": "Mangır",
+                "C": "Sikke",
+                "D": "Sultani",
+                "E": "Sikke-i Hasene"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu, Osmanlı maliyesi ve para birimleri hakkında net bir bilgi sorusudur.\n\nAnaliz: Fatih Sultan Mehmet, devletin gücünü ve ekonomik zenginliğini simgelemek için ilk kez Sultani adlı altın parayı bastırmıştır.\nDoğru Cevap: D) Sultani\nKoçunun Yorumu: Osmanlı'da ilk gümüş para Orhan Bey, ilk altın para ise Fatih döneminde basılmıştır. Bu bilgi, sınav için önemlidir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, İstanbul'un fethinin dünya tarihi açısından en önemli sonucu aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Osmanlı'nın kuruluş dönemi'nin sona ermesi",
+                "B": "Ticaret yollarının değişmesi",
+                "C": "Haçlı Seferleri'nin sona ermesi",
+                "D": "Avrupalıların coğrafi keşiflere başlaması",
+                "E": "Feodalitenin güç kaybetmesi"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Bu, İstanbul'un fethinin küresel etkilerini sorgulayan, yorum ağırlıklı bir sorudur.\n\nAnaliz: İstanbul'un fethiyle, Avrupalıların Doğu ticaret yollarını kullanması zorlaşmış, bu durum onları yeni yollar bulmaya yöneltmiştir. Bu durum, Coğrafi Keşiflerin en önemli nedenlerinden biri olmuştur. Aynı zamanda fetihten kaçan bilim adamları Avrupa'ya giderek Rönesans'ın başlamasına katkı sağlamıştır.\nDoğru Cevap: B) Ticaret yollarının değişmesi\nKoçunun Yorumu: Bu sorunun cevabı B ve D şıkları arasında gidip gelebilir, ancak en temel sonuç, ticaret yollarının değişmesidir. Coğrafi Keşifler ise bu değişimin bir sonucudur. ÖSYM, genelde en temel nedeni veya sonucu sorar."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, I. Murat döneminde, Haçlılarla yapılan ve Osmanlı'nın ilk mağlubiyeti olan savaş aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Sazlıdere Savaşı",
+                "B": "Sırpsındığı Savaşı",
+                "C": "Ankara Savaşı",
+                "D": "I. Kosova Savaşı",
+                "E": "Niğbolu Savaşı"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu, Osmanlı'nın kuruluş dönemindeki savaşları ve sonuçlarını sorgulayan bir sorudur.\n\nAnaliz: Osmanlı'nın Haçlılarla yaptığı ilk savaş, I. Murat dönemindeki Sırpsındığı Savaşı'dır (1364). Ancak bu savaşta Osmanlı galip gelmiştir. I. Murat döneminde, savaşın bitiminde I. Murat'ın şehit düştüğü I. Kosova Savaşı yapılmıştır. Ankara Savaşı ise Yıldırım Bayezid dönemindedir.\nDoğru Cevap: D) I. Kosova Savaşı\nKoçunun Yorumu: Soru kökünde bir hata var. Osmanlı'nın ilk mağlubiyeti olan savaş, Ankara Savaşı'dır. Soru, \"I. Murat döneminde Haçlılarla yapılan savaş\" olarak anlaşılmalıdır. Bu durumda cevap I. Kosova'dır. Bu tip sorulara dikkat etmelisin. ÖSYM, bu tür küçük hatalar yapabilir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nin kuruluş sürecinde, Osman Bey'in Ahilik Teşkilatı lideri Şeyh Edebali'nin kızıyla evlenmesi ve bu evlilikten dolayı Ahilerin desteğini alması, aşağıdaki politikalardan hangisine daha çok uygun düşmektedir?",
+            "secenekler": {
+                "A": "İstimalet Politikası",
+                "B": "İskan Politikası",
+                "C": "Cihat Anlayışı",
+                "D": "Gaza Anlayışı",
+                "E": "Sosyal İlişkileri Geliştirme Politikası"
+            },
+            "dogru_cevap": "E",
+            "cozum": "Soruda verilen olay, Osman Bey'in Ahiler gibi sosyal ve ekonomik açıdan güçlü bir grupla akrabalık kurarak onların desteğini almasını anlatmaktadır. Bu durum, doğrudan bir fetih veya yerleştirme politikası değil, stratejik bir sosyal ilişkiler ve ittifak kurma politikasıdır. Bu da E seçeneği ile örtüşür."
+        },
+        {
+            "soru": "Orhan Bey döneminde kurulan, Türk gençlerinden oluşan ilk düzenli ordu aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Yeniçeri Ocağı",
+                "B": "Acemi Ocağı",
+                "C": "Azebler",
+                "D": "Yaya ve Müsellem",
+                "E": "Akıncılar"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Orhan Bey, düzenli bir orduya ihtiyaç duyduğu için Yaya ve Müsellem adlı ilk düzenli orduyu kurmuştur. Yeniçeri Ocağı ise I. Murat döneminde Pençik Sistemi ile kurulmuştur."
+        },
+        {
+            "soru": "Aşağıdaki padişah-fetih eşleştirmelerinden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Orhan Bey - Bursa",
+                "B": "I. Murat - Sırpsındığı",
+                "C": "Yıldırım Bayezid - Niğbolu",
+                "D": "II. Murat - Varna",
+                "E": "Fatih Sultan Mehmet - İstanbul"
+            },
+            "dogru_cevap": "B",
+            "cozum": "Sırpsındığı Savaşı, I. Murat döneminde Osmanlı'nın Haçlılara karşı kazandığı ilk savaştır. Ancak savaş bir fetih değil, meydan savaşıdır. Diğer şıklar, padişahın önemli bir fethi veya savaşı ile eşleştirilmiştir."
+        },
+        {
+            "soru": "Ankara Savaşı'nın (1402) Osmanlı Devleti için en önemli sonuçlarından biri aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Fetret Devri'nin başlaması",
+                "B": "Anadolu Türk siyasi birliğinin sağlanması",
+                "C": "Haçlı Seferlerinin başlaması",
+                "D": "Balkanlarda Türk varlığının sona ermesi",
+                "E": "İstanbul'un fethinin gecikmesi"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Ankara Savaşı'nda Yıldırım Bayezid'in yenilgiye uğraması ve esir düşmesiyle, Osmanlı Devleti 11 yıl sürecek olan taht kavgaları ve siyasi boşluk dönemi olan Fetret Devri'ne girmiştir. Diğer şıklar yanlış veya savaşın sonucuyla doğrudan ilgili değildir."
+        },
+        {
+            "soru": "Fatih Sultan Mehmet döneminde, denizlerdeki hakimiyeti sağlamak amacıyla aşağıdaki adalardan hangisi fethedilmemiştir?",
+            "secenekler": {
+                "A": "Gökçeada",
+                "B": "Midilli",
+                "C": "Bozcaada",
+                "D": "Sakız",
+                "E": "Kıbrıs"
+            },
+            "dogru_cevap": "E",
+            "cozum": "Fatih döneminde Ege adaları olan Gökçeada, Midilli ve Sakız fethedilmiştir. Kıbrıs ise 1571 yılında II. Selim döneminde fethedilmiştir."
+        },
+        {
+            "soru": "Osmanlı Devleti'nde, İstanbul'u kuşatan ve Anadolu Hisarı'nı inşa ettiren padişah aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Osman Bey",
+                "B": "I. Murat",
+                "C": "Yıldırım Bayezid",
+                "D": "II. Murat",
+                "E": "Fatih Sultan Mehmet"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Yıldırım Bayezid, İstanbul'u kuşatan ilk padişahlardan biridir ve bu kuşatmalar sırasında Bizans'a denizden gelecek yardımı engellemek için Anadolu Hisarı'nı inşa ettirmiştir."
+        }
+
+
+
+
+
+
+        
+    ],
     "5. Osmanlı Devleti Kültür ve Medeniyeti": [
-
-
-
   {
     "soru": "Osmanlı Devleti'nde Divan-ı Hümayun üyesi olan ve temel görevi adalet işlerini yürütmenin yanı sıra kadı ve müderrislerin atamasını yapmak olan görevli aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -1313,19 +1874,7 @@
             },
             "dogru_cevap": "C",
             "cozum": "Bu soru, Osmanlı külliye mimarisinin ana bileşenini sorgulamaktadır.\n\nAnaliz: Külliye, bir caminin etrafında toplanmış, birden çok işlevi olan yapıların (medrese, darüşşifa, kütüphane vb.) oluşturduğu komplekstir. Bu yapıların merkezinde her zaman Cami yer alır.\nDoğru Cevap: C) Cami\nKoçunun Yorumu: Külliye yapısı, Osmanlı'nın çok fonksiyonlu ve bütüncül şehir planlamasının bir örneğidir."
-        }
-
-
-
-
-
-
-
-
-
-
-
-        
+        } 
     ],
     "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [
  {
@@ -6132,6 +6681,7 @@
     }
 
 }
+
 
 
 
