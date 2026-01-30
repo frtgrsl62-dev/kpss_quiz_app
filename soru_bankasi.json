@@ -1118,7 +1118,42 @@
 
 
 
-
+  {
+    "soru": "İtilaf Devletleri'nin 16 Mart 1920'de İstanbul'u resmen işgal etmelerinin doğrudan nedeni aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sivas Kongresi'nin toplanması",
+      "B": "Temsil Heyeti'nin Ankara'ya gelmesi",
+      "C": "Son Osmanlı Mebusan Meclisi'nin Misakımillî'yi kabul etmesi",
+      "D": "Mustafa Kemal'in Samsun'a çıkması",
+      "E": "Havza Genelgesi'nin yayınlanması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İtilaf Devletleri, kendi kontrollerinde toplandığını düşündükleri meclisten, Sevr'i kabul etmesini beklerken, tam tersine bir bağımsızlık yemini olan Misakımillî'nin çıkması üzerine planları bozulmuş ve işgale başvurmuşlardır. İstanbul'un işgali, Milli Mücadele için olumsuz bir olay gibi görünse de, aslında Mustafa Kemal'in haklılığını ortaya çıkarmış ve Ankara'da yeni bir meclisin (TBMM) kurulmasını meşrulaştırmıştır."
+  },
+  {
+    "soru": "Amasya Genelgesi'nin, Mustafa Kemal'in tek başına aldığı bir karar olmadığını, Kazım Karabekir, Rauf Orbay, Refet Bele ve Ali Fuat Cebesoy gibi komutanların da onayını aldığını göstermesi, aşağıdakilerden hangisine yöneliktir?",
+    "secenekler": {
+      "A": "Padişaha bağlılığı sürdürmeye",
+      "B": "Mücadeleyi kişisel olmaktan çıkarıp, ulusa mal etmeye",
+      "C": "İtilaf Devletleri ile uzlaşma aramaya",
+      "D": "İstanbul Hükûmeti ile ortak hareket etmeye",
+      "E": "Bolşevik Rusya'dan yardım istemeye"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Mustafa Kemal, en başından beri hareketin tek bir kişinin değil, ordunun ve milletin ortak hareketi olduğunu göstermeye çalışmıştır. Bu, mücadeleye katılımı ve meşruiyeti artırmıştır. Mustafa Kemal'in liderliğinin en önemli özelliği, hep \"millet adına\" hareket ettiğini vurgulaması ve önemli kararlara saygın komutanları da dahil etmesidir."
+  },
+  {
+    "soru": "Havza Genelgesi'nin temel amacı olan \"milli bilinci uyandırmak\" için önerdiği yöntem ne olmuştur?",
+    "secenekler": {
+    "A": "Silahlı direniş başlatmak",
+    "B": "Kongreler toplamak",
+    "C": "Yabancı devletlere telgraflar çekmek",
+    "D": "İşgallere karşı mitingler ve protestolar düzenlemek",
+    "E": "İstanbul'a bir heyet göndermek",
+    },
+    "dogru_cevap": "D",
+    "cozum": "Havza'daki ilk adım, halkın işgallere karşı sessiz kalmamasını sağlamak, tepkisini organize ve sivil bir şekilde göstermesini teşvik etmekti. Milli Mücadele, önce \"fikir\" ve \"protesto\" olarak başlamış, sonra \"örgütlenme\" ve en sonunda \"silahlı mücadele\"ye dönüşmüştür. Havza, bu sürecin ilk adımıdır."
+  },
 
 
 
@@ -1186,9 +1221,6 @@
     "dogru_cevap": "B",
     "cozum": "Bu madde, milli sınırların belirlenmesine yönelik bir karar niteliğindedir."
   },    
-        
-        
-        
         {
     "soru": "TBMM’nin açılışının temel nedeni aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -3281,6 +3313,7 @@
     }
 
 }
+
 
 
 
