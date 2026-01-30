@@ -1005,6 +1005,45 @@
     "9. I. Dünya Savaşı ve Sonuçları": [
   
         
+    {
+        "soru": "I. Dünya Savaşı'nı sona erdiren ateşkes antlaşmalarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+        "secenekler": {
+            "A": "Osmanlı Devleti - Mondros",
+            "B": "Bulgaristan - Selanik",
+            "C": "Avusturya - Villa Gusti",
+            "D": "Macaristan - Rethondes",
+            "E": "Almanya - Rethondes"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Macaristan doğrudan Trianon ile barış yaptı, ateşkes yapmadı.",
+        "koc_yorumu": "Detay sorusu olsa da kronoloji bilmek önemlidir."
+    },
+    {
+        "soru": "'Vilayet-i Sitte' (Altı İl) olan Van, Erzurum, Sivas, Bitlis, Diyarbakır ve Harput'ta karışıklık çıkması durumunda İtilaf Devletleri'nin işgal hakkı hangi belgede yer almıştır?",
+        "secenekler": {
+            "A": "Wilson İlkeleri",
+            "B": "Mondros Ateşkes Antlaşması (24. Madde)",
+            "C": "Sevr Antlaşması",
+            "D": "Amasya Genelgesi",
+            "E": "Paris Barış Konferansı"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Kut'ül Amare Kuşatması. 1916'daki bu zafer, I. Dünya Savaşı'nda Osmanlı ordusunun kazandığı en büyük ve son zaferlerden biridir. Koçunun Yorumu: Çanakkale kadar bilinmese de, Kut'ül Amare, İngilizlere karşı kazanılmış çok önemli bir prestij zaferidir.",
+   },
+    {
+        "soru": "Aşağıdakilerden hangisi, savaş sonunda yıkılan imparatorlukların topraklarında kurulan 'Manda ve Himaye' rejiminin tanımıdır?",
+        "secenekler": {
+            "A": "Halkların kendi kaderini tayin etmesi",
+            "B": "Sömürgeciliğin, 'az gelişmiş toplumları medenileştirme' adı altında Milletler Cemiyeti kontrolünde devam ettirilmesi",
+            "C": "Ülkeler arasında tam bir ekonomik serbestlik olması",
+            "D": "İşçi haklarının uluslararası güvence altına alınması",
+            "E": "Silahsızlanma ve orduların lağvedilmesi"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' ilkesini delmek için İngiltere ve Fransa'nın bulduğu bir formüldür. Orta Doğu'daki Osmanlı toprakları (Irak, Suriye, Filistin vb.) bu sistemle paylaşılmıştır.",
+        "koc_yorumu": "Manda-himaye sistemi aslında sömürgeciliğin kılıf değiştirmiş halidir."
+    },
+
         
         
         
@@ -1047,12 +1086,6 @@
         "cozum": "Mondros Ateşkesi imzalandıktan sonra bile teslim olmayan Fahrettin Paşa'nın bu kahramanca direnişi, I. Dünya Savaşı'nın en önemli direniş öykülerindendir.",
         "koc_yorumu": "Fahrettin Paşa’nın Medine savunması, Osmanlı’nın fedakârlık örneklerinden biridir."
     },     
-        
-        
-        
- 
-
-
     {
         "soru": "Osmanlı Devleti'nin, I. Dünya Savaşı'nın başında tarafsızlığını ilan etmesine rağmen kısa bir süre sonra İttifak Devletleri yanında savaşa girmesinde aşağıdakilerden hangisi etkili olmamıştır?",
         "secenekler": {
@@ -4331,6 +4364,7 @@
     }
 
 }
+
 
 
 
