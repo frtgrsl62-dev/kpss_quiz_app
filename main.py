@@ -865,31 +865,17 @@ def admin_page():
             cozum = st.text_area("Çözüm", s["cozum"])
 
             if st.button("💾 Güncelle"):
-                st.session_state["guncelle_onay"] = idx
+                sorular[idx] = {
+                    "soru": soru,
+                    "secenekler": {
+                        "A": a, "B": b, "C": c, "D": d, "E": e
+                    },
+                    "dogru_cevap": dogru,
+                    "cozum": cozum
+                }
 
-            if "guncelle_onay" in st.session_state:
-                st.warning("⚠️ Bu soru güncellensin mi?")
-                col1, col2 = st.columns(2)
-
-                with col1:
-                    if st.button("✅ Onayla"):
-                        sorular[idx] = {
-                            "soru": soru,
-                            "secenekler": {
-                                "A": a, "B": b, "C": c, "D": d, "E": e
-                            },
-                            "dogru_cevap": dogru,
-                            "cozum": cozum
-                        }
-                        soru_bankasini_kaydet(soru_bankasi)
-                        st.success("✏️ Soru güncellendi")
-                   #     del st.session_state["guncelle_onay"]
-                     #   st.rerun()
-
-                with col2:
-                    if st.button("❌ İptal"):
-                        del st.session_state["guncelle_onay"]
-                        st.info("Güncelleme iptal edildi")
+                soru_bankasini_kaydet(soru_bankasi)
+                st.success("✅ Soru güncellendi")
 
     # ==================================================
     # 🗑️ SORU SİL
@@ -1000,6 +986,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
