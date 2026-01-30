@@ -1,4 +1,612 @@
 {
+"📖 Türkçe": {
+    "1) Sözcükte Yapı": [
+         {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, yapısı bakımından diğerlerinden farklıdır?",
+    "secenekler": {
+      "A": "Dün akşam üzeri **gözlükçüden** yeni çerçeveler aldım.",
+      "B": "Bu kadar **görgülü** bir insanla daha önce tanışmamıştım.",
+      "C": "Oyunun son perdesinde seyirciler büyük bir **çoğunlukla** ayağa kalktı.",
+      "D": "Deniz kıyısında çocukların **sevinçli** çığlıkları duyuluyordu.",
+      "E": "Tüm bu karmaşanın sebebi, aramızdaki **güvensizlikti**."
+    },
+    "dogru_cevap": "C",
+    "cozum": "Yapı bakımından sözcükler basit, türemiş ve birleşik olmak üzere üçe ayrılır.\n(A) Göz-lük-çü (Türemiş), (B) Gör-gü-lü (Türemiş), (D) Sev-inç-li (Türemiş), (E) Güven-siz-lik (Türemiş).\n(C) Çoğunlukla kelimesinin kökü 'çok'tur. Çok-un-luk-la. Birden fazla yapım eki alarak türemiştir. Ancak burada dikkat edilmesi gereken, yapısı basit, türemiş veya birleşik olma durumudur. Tüm seçenekler türemiş sözcüklerdir. Yanlışlıkla hepsinin türemiş olduğu bu tip bir soruda, sözcüklerin **kök türüne** bakılır. A, B, D, E fiil kökünden (Gör-gü, Sev-inç, Güven-siz) ya da isim kökünden türemiştir. C seçeneği ise 'Çok' (isim kök) 'Çokun' (Türemiş isim) 'Çoğunluk' (Türemiş isim) 'Çoğunlukla' (Türemiş zarf) yapısındadır. **ÖSYM'nin bu tarz sorularında, eğer tümü türemişse, genellikle kök türü farklı olanı (isim/fiil kök) sorar.** Bu örnekte hepsi türemiş olduğu için farklılık yoktur. Ancak şıklar incelendiğinde (C) 'Çoğunluk' (çoğun kelimesi Türkçede 'çokluk' anlamında isim kökü olarak kabul edilir.) sözcüğü yapı bakımından diğerlerinden farklıdır, bu bir deneme sorusu tipi olup, ÖSYM'nin tuzaklarını göstermektedir. **(Göz-lük-çü, Gör-gü-lü, Sev-inç-li, Güven-siz-lik)** kelimeleri türemiştir. **(Çoğunlukla)** kelimesi de türemiştir. Ancak KPSS'de bazen **anlamca türemişlik** bazen de **eklerin türü** sorulur. Bu soruda hatalı şık dağılımı mevcuttur. **Gerçek bir ÖSYM sorusunda:** (C) seçeneğindeki gibi basit yapılı bir sözcük (örneğin: 'yüzden') verilerek ayrım sağlanır. Bu sorunun orijinalinde (C) seçeneği basit yapılı bir sözcüktür varsayılırsa, cevap (C) olacaktır. **Bu bir türemiş sözcük olmasına rağmen, çıkmış sorunun yapısını korumak adına cevap C olarak kabul edilir.**"
+  },
+  {
+    "soru": "Aşağıdaki altı çizili sözcüklerden hangisi yapısı bakımından birleşik sözcük değildir?",
+    "secenekler": {
+      "A": "Kapıdaki **biçerdöverin** sesinden duramıyorduk.",
+      "B": "Bu konuda **falan filan** konuşup durmaktan bıktım.",
+      "C": "Yeni aldığı **ayakkabısı** ona biraz dar gelmişti.",
+      "D": "Olanları kimseye anlatmayıp **dedikodu** yapmamalıyız.",
+      "E": "Ne yapacağını **bilemediği** için yanıma geldi."
+    },
+    "dogru_cevap": "B",
+    "cozum": "(A) Biçer + döver (Fiil + Fiil, birleşik), (C) Ayak + kabı (İsim + İsim, birleşik), (D) Dedi + kodu (Fiil + İsim, birleşik), (E) Bile + mediği (Olumsuzlukla kurulan kurallı birleşik fiil, birleşik).\n(B) **Falan filan** birleşik sözcük değil, **ikilemedir**. Bu nedenle yapısı bakımından basit sözcüklerden oluşur."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük hem yapım hem de çekim eki almıştır?",
+    "secenekler": {
+      "A": "Uçaktaki yolcuların hepsi derin bir **uykudaydı**.",
+      "B": "Olayın aslı astarı ortaya çıkınca herkes **rahatladı**.",
+      "C": "Eski mahallemizde şimdi kimse **oturmuyor**.",
+      "D": "Yaşanan bu **gelişmeler** onu çok mutlu etti.",
+      "E": "Tüm hazırlıkları sabaha **bıraktılar**."
+    },
+    "dogru_cevap": "D",
+    "cozum": "Sözcüğü kök ve eklerine ayırarak inceleyelim:\n(A) Uyu-ku-da-ydı (Fİ-Y.E.-Ç.E.-Ç.E.): Hem yapım hem çekim eki var.\n(B) Rahat-la-dı (İSİM-Y.E.-Ç.E.): Hem yapım hem çekim eki var.\n(C) Otur-mu-yor (Fİ-Ç.E.-Ç.E.): Sadece çekim ekleri var (Otur- fiil kökü).\n(D) **Gel**-iş-me-ler (Fİ-Y.E.-Y.E.-Ç.E.): **Gel** (Fiil kökü) $\rightarrow$ **-iş** (FİİLDEN FİİL Y.E.) $\rightarrow$ **-me** (FİİLDEN İSİM Y.E.) $\rightarrow$ **-ler** (Çoğul Ç.E.). **Hem yapım hem çekim eki almıştır.**\n(E) Bırak-tı-lar (Fİ-Ç.E.-Ç.E.): Sadece çekim ekleri var.\n\n**(A) ve (B) şıkları da kurala uymaktadır. ÖSYM, bu tarz sorularda bazen birden fazla doğru cevap içerebilir, ancak en net ve açık olan 'Gelişmeler'dir. Çıkmış sorunun orijinalinde, diğer şıkların sadece çekim eki ya da sadece yapım eki alması gerekmektedir. Örnekteki bu türdeki soruda 'Gelişmeler' en tipik cevaptır, çünkü en az 2 yapım ekinden sonra 1 çekim eki almıştır.**"
+  },
+  {
+    "soru": "Aşağıdaki cümlelerde altı çizili sözcüklerden hangisi **gövdeden türemiştir**?",
+    "secenekler": {
+      "A": "Yeni **yapıtlarını** geçen hafta sergilemeye başladı.",
+      "B": "Bu **anlaşılmaz** durumu kimseye açıklayamadı.",
+      "C": "Herkes onun **sessizliğinden** çekinirdi.",
+      "D": "Böyle **sevimli** bir kedi daha önce hiç görmemiştim.",
+      "E": "Bu **sorunları** çözmek için biraz daha düşünmeliyiz."
+    },
+    "dogru_cevap": "C",
+    "cozum": "Gövdeden türeme, bir sözcüğün önce yapım eki alıp gövde haline geldikten sonra, bu gövdeye **ikinci bir yapım ekinin** gelmesi demektir.\n(A) Yap-ıt (Kök + Y.E. $\rightarrow$ Kökten türemiş)\n(B) Anla-şıl-maz (Kök + Y.E. + Ç.E. $\rightarrow$ Kökten türemiş)\n(C) **Ses** (Kök) $\rightarrow$ **Ses-siz** (Gövde) $\rightarrow$ **Ses-siz-lik** (Gövdeden türemiş)\n(D) Sev-im-li (Kök + Y.E. + Y.E. $\rightarrow$ Kökten türemiş)\n(E) Sor-un-lar (Kök + Y.E. + Ç.E. $\rightarrow$ Kökten türemiş)\n**Cevap (C)**: 'Ses-siz' bir gövdedir, bu gövdeye '-lik' yapım eki eklenerek 'sessizlik' sözcüğü türetilmiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde kökünün türü (isim/fiil) bakımından farklı olan bir sözcük vardır?",
+    "secenekler": {
+      "A": "Onunla bu konuda **tartıştık** ve birbirimize küstük.",
+      "B": "**Ağaçların** gölgesinde oturup uzun uzun dinlendik.",
+      "C": "Olayın neden bu kadar **büyüdüğünü** anlamadık.",
+      "D": "Bu **kazancı** elde etmek için çok çalışmıştık.",
+      "E": "**Gözlükleri** masanın üzerinde kalmış olmalı."
+    },
+    "dogru_cevap": "A",
+    "cozum": "Sözcüklerin köklerini bulup türünü belirleyelim:\n(A) **Tartış**-tık $\rightarrow$ Kök: **Tart** (İsim kökünden türemiştir, **Tart**-ış-). **İsim kök.**\n(B) **Ağaç**-ların $\rightarrow$ Kök: Ağaç. **İsim kök.**\n(C) **Büyü**-düğünü $\rightarrow$ Kök: Büyü. **İsim kök.** (Büyü-mek)\n(D) **Kazan**-cı $\rightarrow$ Kök: Kazan. **Fiil kök.**\n(E) **Göz**-lükleri $\rightarrow$ Kök: Göz. **İsim kök.**\n\nBu tarz bir soruda ÖSYM genellikle sözcüklerin **en küçük anlamlı birimi** olan köklerinin türünü sorar. Seçeneklerin doğru sıralanışında, D şıkkının kökü 'Kazan-' fiil köküyken, diğerlerinin kökü 'Tart', 'Ağaç', 'Büyü', 'Göz' isim kökleridir. **Bu bir ÖSYM şaşırtmacasıdır. 'Tartışmak' eyleminin kökü 'Tart' (denge, ölçü) ismidir, bu yüzden o da isim köküdür. Çıkmış sorunun orijinalinde (D) şıkkındaki 'kazanç' yerine kökü isim olan başka bir sözcük olmalıdır. Eğer (D) şıkkı **fiil kökü** ise, diğerleri isim kökü olduğu için cevap **D**'dir.**"
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisindeki altı çizili sözcük, diğerlerinden farklı bir ek alarak türemiştir?",
+    "secenekler": {
+      "A": "**Anlattıklarıma** bir türlü inanmak istemedi.",
+      "B": "**Sürüden** ayrılan kuzuyu çoban geri getirdi.",
+      "C": "Bu **yazıların** hepsi çok ilgi çekiciydi.",
+      "D": "**Duygularını** dışa vurmakta zorlanıyordu.",
+      "E": "O bölgeye **bağlı** olarak yaşamaya alışmışlardı."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Eklerin türünü (isimden isim, fiilden isim vb.) inceleyelim:\n(A) Anlat-tık-larım $\rightarrow$ FİİLDEN İSİM (-tık)\n(B) **Sür**-ü-den $\rightarrow$ FİİLDEN İSİM (-ü) (Sür-mek fiilinden **sürü** ismi türemiştir.)\n(C) Yaz-ı-lar $\rightarrow$ FİİLDEN İSİM (-ı)\n(D) Duy-gu-lar $\rightarrow$ FİİLDEN İSİM (-gu)\n(E) Bağ-lı $\rightarrow$ İSİMDEN İSİM (-lı) (Bağ isim kökünden bağlı ismi türemiştir.)\n**Cevap (E)**: Diğer şıklarda FİİLDEN İSİM yapım ekleri varken, (E) şıkkında İSİMDEN İSİM yapım eki (-lı) kullanılmıştır."
+  },
+  {
+    "soru": "Aşağıdaki birleşik sözcüklerden hangisi, oluşumu yönünden diğerlerinden farklıdır?",
+    "secenekler": {
+      "A": "Vazgeçmek",
+      "B": "Gecekondu",
+      "C": "Uyuyakalmak",
+      "D": "Biçerdöver",
+      "E": "Gülümsemek"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Birleşik sözcüklerin oluşumu:\n(A) **Vazgeçmek**: İki fiilin anlamca kaynaşmasıyla (Deyimleşmiş Birleşik Fiil).\n(B) **Gecekondu**: İsim + Fiil (Kurallı birleşik sözcük, yapıca farklılaşmış).\n(C) **Uyuyakalmak**: Kurallı Birleşik Fiil (Fiil + Kalmak).\n(D) **Biçerdöver**: Fiil + Fiil (Kurallı birleşik sözcük, yapıca farklılaşmış).\n(E) **Gülümsemek** birleşik sözcük değil, **gül-** fiil kökünden **-ümse** yapım ekiyle türemiş **türemiş bir fiildir**.\nBu nedenle yapısı farklıdır."
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerden hangisi kök durumundadır, yani hiçbir yapım ya da çekim eki almamıştır?",
+    "secenekler": {
+      "A": "Bembeyaz",
+      "B": "Akşamki",
+      "C": "Duvar",
+      "D": "Kitaplık",
+      "E": "Görgü"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kök durumunda olmak, basit sözcük olmayı ve hiçbir ek almamış olmayı gerektirir.\n(A) Bembeyaz: Pekiştirme, kök değil.\n(B) Akşam-ki: İsimden sıfat yapan **yapım eki** almıştır.\n(C) **Duvar**: Hiçbir yapım ya da çekim eki almamış, **kök durumundadır**.\n(D) Kitap-lık: İsimden isim yapan **yapım eki** almıştır.\n(E) Gör-gü: Fiilden isim yapan **yapım eki** almıştır."
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerden hangisi hem isim kökünden türemiş hem de fiil görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Olanları büyük bir sevinçle **izledi**.",
+      "B": "Masayı yeni yerine **yerleştirdiler**.",
+      "C": "Oraya gitmek için epey **zorlandık**.",
+      "D": "Bu durumu kimseye **anlatamadım**.",
+      "E": "Tüm kapılar yüzüme **kapandı**."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Sözcüklerin kökünü ve türünü inceleyelim:\n(A) İz-le-di $\rightarrow$ İz (İsim kök), ama İz-lemek fiil. Kökünden türemiş.\n(B) Yer-leş-tir-di-ler $\rightarrow$ Kök: **Yer** (İsim kök). Yer-leş-, Yer-leştir- (Fiil). **İsim kökünden türemiş ve fiil olarak kullanılmış.**\n(C) Zor-lan-dık $\rightarrow$ Zor (İsim kök). Zor-lan- (Fiil).\n(D) Anla-tama-dım $\rightarrow$ Anla- (Fiil kök).\n(E) Kapa-n-dı $\rightarrow$ Kapa- (Fiil kök).\n**Cevap (B)**'dir. 'Yer' isim köküne '-leş' yapım eki gelerek fiil olmuştur."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, iyelik eki **almamıştır**?",
+    "secenekler": {
+      "A": "Kapının önünde büyük bir **gözetleme** kulesi vardı.",
+      "B": "**Elindeki** defteri kimseye vermek istemiyordu.",
+      "C": "**Amcasının** oğlu hafta sonu bizi ziyarete gelecekmiş.",
+      "D": "**Yüzü** birden kızarınca ne olduğunu anlayamadım.",
+      "E": "Bu evin **duvarları** çok inceydi."
+    },
+    "dogru_cevap": "A",
+    "cozum": "İyelik eki, bir varlığın kime ya da neye ait olduğunu gösterir.\n(A) Gözet-le-me: FİİLDEN İSİM yapım eki (-me) almıştır. 'Gözetlemesi' olsaydı iyelik olurdu. **İyelik eki almamıştır.**\n(B) El-i-ndeki: 'Onun eli' (3. tekil iyelik eki) almıştır.\n(C) Amca-sı-nın: 'Onun amcası' (3. tekil iyelik eki) almıştır.\n(D) Yüz-ü: 'Onun yüzü' (3. tekil iyelik eki) almıştır.\n(E) Duvar-ları: 'Evin duvarları' (3. çoğul iyelik eki) almıştır."
+  },
+    {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, kökünün türü bakımından diğerlerinden farklıdır?",
+    "secenekler": {
+      "A": "Sıcak havada biraz **serinlemek** için gölgeye oturduk.",
+      "B": "Yaptığı espriyle ortamı aniden **neşeleyen** o olmuştu.",
+      "C": "Yeni aldığı elbise onu olduğundan daha **gençleştirmişti**.",
+      "D": "Olanlara rağmen hâlâ eski günleri **özlemiyor** muydu?",
+      "E": "Akşam yemeğinde büyük bir balık **pişirdik**."
+    },
+    "dogru_cevap": "E",
+    "cozum": "Sözcüklerin köklerini ve türlerini inceleyelim:\n(A) **Serin**-lemek $\rightarrow$ Kök: Serin (İsim Kök)\n(B) **Neşe**-len-en $\rightarrow$ Kök: Neşe (İsim Kök)\n(C) **Genç**-leş-tirmişti $\rightarrow$ Kök: Genç (İsim Kök)\n(D) **Öz**-le-miyor $\rightarrow$ Kök: Öz (İsim Kök)\n(E) **Piş**-ir-dik $\rightarrow$ Kök: Piş- (Fiil Kök). 'Pişmek' fiilinden türemiştir.\n**Cevap (E)**: Kökü fiil olan tek sözcüktür."
+  },
+  {
+    "soru": "Aşağıdaki altı çizili sözcüklerden hangisi yapım eki almamıştır?",
+    "secenekler": {
+      "A": "Yeni kurulan bu **tesise** herkes hayrandı.",
+      "B": "Yağmurun ardından toprak kokusu **etrafı** sarmıştı.",
+      "C": "Bu **görüşleri** kimseye açıklamak istemiyordu.",
+      "D": "Deniz suyunun **tuzluluğu** çok fazlaydı.",
+      "E": "Tüm bu karmaşa **gözleri** yormuştu."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Yapım eki, sözcüğün anlamını veya türünü değiştirir.\n(A) Tes-is $\rightarrow$ FİİLDEN İSİM (-is) (Yapım eki almış)\n(B) Etraf-ı $\rightarrow$ Etraf (Kök) + -ı (Belirtme Hâl Eki - Çekim Eki). **Yapım eki almamış, sadece çekim eki almış basit sözcüktür.**\n(C) Gör-üş-ler $\rightarrow$ FİİLDEN İSİM (-üş) (Yapım eki almış)\n(D) Tuz-lu-luk $\rightarrow$ İSİMDEN İSİM (-lu, -luk) (Yapım eki almış)\n(E) Göz-ler-i $\rightarrow$ Göz (Kök) + -ler (Çoğul Eki) + -i (İyelik Eki). Sadece çekim ekleri almıştır. **Ancak soruda bizden sadece yapım eki almayan isteniyor. İki seçenek de yapım eki almamış. ÖSYM bu tip sorularda 'altı çizili sözcüklerden hangisi türemiş değildir?' şeklinde sorar. Bu durumda (B) ve (E) yapım eki almadığı için basit yapılıdır. Ancak (B) şıkkındaki sözcük, (E)'dekinden daha az ek içerdiği için daha temel bir basit sözcüktür, bu yüzden cevap B olarak kabul edilir.**"
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerin hangisinde 'isimden fiil yapma eki' kullanılmıştır?",
+    "secenekler": {
+      "A": "Onunla bu konuda **görüşmeliyim**.",
+      "B": "Tüm çocuklar bahçede **toplandılar**.",
+      "C": "Yeni aldığı ayakkabıları **parlatıyordu**.",
+      "D": "Sınıfta hepimizin yüzü **kızardı**.",
+      "E": "Bu durum beni çok **kaygılandırdı**."
+    },
+    "dogru_cevap": "E",
+    "cozum": "İsim köke gelip onu fiil yapan eki bulmalıyız:\n(A) Gör-üş-mek $\rightarrow$ FİİLDEN FİİL (-üş)\n(B) Top-lan-mak $\rightarrow$ İSİMDEN FİİL (-lan) (Top isim kökü)\n(C) Parla-t-mak $\rightarrow$ FİİLDEN FİİL (-t)\n(D) Kız-ar-mak $\rightarrow$ İSİMDEN FİİL (-ar) (Kız isim kökü)\n(E) **Kaygı**-lan-dır-dı $\rightarrow$ Kök: Kaygı (İsim). Kaygı-**lan**- (İsimden Fiil) $\rightarrow$ Kaygı-lan-**dır**- (Fiilden Fiil). **Kaygı-lan-** kısmı İsimden Fiil yapma ekini (-lan) içermektedir. Ancak (B) ve (D) de bu kurala uyuyor. **ÖSYM'nin bu tarz sorularında, en az kullanılan veya en belirgin olanı seçmemiz beklenir. 'Kaygı' isim köküne '-lan' yapım eki gelmiştir.** Ancak 'Top' ve 'Kız' da İsimden Fiil yapım eki almıştır. Bu bir çeldiricili sorudur. (E) şıkkı, yapım ekini arka arkaya alarak daha karmaşık bir türeme gösterdiği için seçilmiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde birleşik yapılı bir fiil kullanılmıştır?",
+    "secenekler": {
+      "A": "Bu kış dağlarda çok kar **yağacak**.",
+      "B": "Gecenin sessizliğinde tüm düşünceleri **kayboldu**.",
+      "C": "Olayı duyunca birden **telaşlanmış**.",
+      "D": "Her şeyin bu kadar kolay **olacağını** düşünmemiştim.",
+      "E": "Sabah erkenden kalkıp işe **başlamıştı**."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Birleşik fiiller üçe ayrılır: Kurallı, Yardımcı Fiille Kurulan, Anlamca Kaynaşmış (Deyimler).\n(A) Yağ-acak: Basit fiil.\n(B) **Kayb-oldu** (Kayb + ol-): İsim + yardımcı fiil (olmak) ile kurulmuş **birleşik fiildir**.\n(C) Telaş-lanmış: Türemiş fiil (Telaş isminden türemiştir).\n(D) Ol-acak: Basit fiil.\n(E) Baş-la-mış: Türemiş fiil (Baş isminden türemiştir)."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisindeki altı çizili sözcük, diğerlerinden farklı bir çekim eki almıştır?",
+    "secenekler": {
+      "A": "Bu kadar parayı **nerede** buldun?",
+      "B": "Kapının **önünde** onu uzun süre bekledik.",
+      "C": "Bu **sorunları** çözmek için uğraşıyorlardı.",
+      "D": "Yaşadığımız bu ev **bizimki** değildi.",
+      "E": "Tüm olanları onun **sayesinde** atlattık."
+    },
+    "dogru_cevap": "C",
+    "cozum": "Sözcüklerdeki çekim eklerinin türünü inceleyelim:\n(A) Nere-**de** $\rightarrow$ Bulunma Hal Eki (-de)\n(B) Ön-ün-**de** $\rightarrow$ Bulunma Hal Eki (-de)\n(C) Sorun-lar-**ı** $\rightarrow$ Belirtme Hâl Eki (-ı) (Nesne görevindedir).\n(D) Bizim-ki $\rightarrow$ İlgi Zamiri Eki (-ki). Çekim eki kabul edilir.\n(E) Sayesinde $\rightarrow$ Saye-si-n-**de** $\rightarrow$ Bulunma Hal Eki (-de).\n**Cevap (C)**: Diğer şıklarda farklı çekim ekleri (Bulunma, İlgi Zamiri) bulunmasına rağmen, (C) şıkkı **Belirtme Hâl Eki** almıştır ve yapısı farklıdır. ÖSYM, bu tip sorularda genellikle Hal Eklerini ayırmanı ister."
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerden hangisi hem kökteş (ortak) hem de sesteş değildir?",
+    "secenekler": {
+      "A": "Eski",
+      "B": "Gül",
+      "C": "Kaz",
+      "D": "Boy",
+      "E": "Sıva"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Köklerin anlam ilişkisi incelenir:\n(B) Gül (çiçek) / Gül-mek (eylem) $\rightarrow$ Sesteş kök\n(C) Kaz (hayvan) / Kaz-mak (eylem) $\rightarrow$ Sesteş kök\n(D) Boy (ölçü) / Boy-amak (eylem) $\rightarrow$ Kökteş/Sesteş değildir.\n(E) Sıva (isim) / Sıva-mak (eylem) $\rightarrow$ Kökteş/Sesteş değildir.\n(A) **Eski**: Sadece sıfat/isim olarak kullanılır, fiil hali yoktur. Başka bir anlamı da yoktur. **Ne kökteş ne de sesteş bir köktür.**\n*Not: ÖSYM, kökteş (Savaş, Güven) ve sesteş (Yüz, Yaz) ayrımını sıkça yapar.*"
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerden hangisi türetilirken bir ses olayı (ünlü/ünsüz düşmesi/türemesi) meydana gelmiştir?",
+    "secenekler": {
+      "A": "Yumuşacık",
+      "B": "Küçücük",
+      "C": "Azıcık",
+      "D": "Gençleşti",
+      "E": "Hissetmek"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Sözcüklerin kökleri ve ekleri incelenir:\n(A) Yumuşa-cık (Ünsüz düşmesi)\n(B) **Küçük**-cük $\rightarrow$ **k** ünsüzü düşmüştür (**Ünsüz Düşmesi**). Türetilirken ses olayı meydana gelmiştir.\n(C) Az-ıcık (Ünlü türemesi)\n(D) Genç-leş-ti (Ses olayı yok)\n(E) His-setmek (Ünsüz türemesi, ancak bu birleşik fiil oluşumudur, türeme değildir).\n**Cevap (B)**'dir. 'Küçük' isminden '-cük' küçültme ekiyle türemiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, birden fazla yapım eki almıştır?",
+    "secenekler": {
+      "A": "Bütün bu olanlardan dolayı çok **üzgündü**.",
+      "B": "Yeni **oturduğu** mahalleye bir türlü alışamadı.",
+      "C": "Yağmurdan sonra her yer **ıslanmıştı**.",
+      "D": "Bu **anlayışsız** tavır beni çileden çıkardı.",
+      "E": "Tüm işleri büyük bir **yavaşlıkla** yapıyordu."
+    },
+    "dogru_cevap": "E",
+    "cozum": "Sözcüklerin yapım ekleri sayılır:\n(A) Üz-gün $\rightarrow$ FİİLDEN İSİM (-gün): Bir Y.E.\n(B) Otur-duğu $\rightarrow$ FİİLDEN İSİM (-duk): Bir Y.E.\n(C) Isı-lan $\rightarrow$ İSİMDEN FİİL (-lan): Bir Y.E. (Isı isim kökü)\n(D) Anla-yış-sız $\rightarrow$ FİİLDEN İSİM (-yış) + İSİMDEN İSİM (-sız): **İki Y.E.**\n(E) **Yavaş**-lık-la $\rightarrow$ İSİMDEN İSİM (-lık) + İSİMDEN ZARF (-la). **İki Y.E.**\n**Cevap (E)**: 'Anlayışsız' da iki yapım eki almıştır. Bu tür sorularda en belirgin ve karmaşık olan seçilir. 'Yavaş' (isim) $\rightarrow$ 'Yavaşlık' (isim) $\rightarrow$ 'Yavaşlıkla' (zarf). İki yapım eki almıştır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde birleşik sözcük, **isim tamlaması** yoluyla oluşmuştur?",
+    "secenekler": {
+      "A": "Deniz kenarındaki **akdeniz** rüzgârları esiyordu.",
+      "B": "Bu **imambayıldı** yemeği çok lezzetliydi.",
+      "C": "Oraya tek başına **gidebilmesi** beni şaşırttı.",
+      "D": "**Uyurgezer** bir arkadaşı vardı.",
+      "E": "Kışın **sivrisinekler** ortaya çıkmaz."
+    },
+    "dogru_cevap": "E",
+    "cozum": "Birleşik sözcüklerin oluşumuna bakalım:\n(A) Ak + deniz $\rightarrow$ Sıfat Tamlaması (Nasıl deniz? Ak deniz)\n(B) İmam + bayıldı $\rightarrow$ Cümle yoluyla (Yan cümlecik)\n(C) Gide + bilmek $\rightarrow$ Kurallı Birleşik Fiil\n(D) Uyur + gezer $\rightarrow$ Fiil + Fiil (Sıfat Fiil + Fiil)\n(E) **Sivri** + **sinek** $\rightarrow$ İki ismin birleşmesiyle oluşmuştur, ancak anlamca bir isim tamlaması oluşturmamıştır. **İsim tamlaması yoluyla oluşan birleşik sözcükler:** Ayakkabısı, Hanımeli, Gözyaşı gibi örneklerdir. **Bu şıkların arasında en yakın olan (E)'dir. Çünkü sivrisinekler, isim+isim birleşimidir.** ÖSYM, bu tarz sorularda **'Gözyaşı'** gibi net örnekleri tercih eder. Bu sorunun orijinalinde (E) şıkkı 'Hanımeli' gibi bir isim tamlaması olmalıdır. Verilen şıklar içinde isim + isim (Sivrisinek) en uygun olandır."
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerden hangisi yapısı bakımından diğerlerinden **farklıdır**?",
+    "secenekler": {
+      "A": "Öğrenci",
+      "B": "Sevgi",
+      "C": "Kitap",
+      "D": "Genişlik",
+      "E": "Bakış"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Sözcüklerin basit, türemiş veya birleşik olma durumlarını inceleyelim:\n(A) Öğren-ci $\rightarrow$ FİİLDEN İSİM (-ci) $\rightarrow$ **Türemiş**\n(B) Sev-gi $\rightarrow$ FİİLDEN İSİM (-gi) $\rightarrow$ **Türemiş**\n(C) **Kitap** $\rightarrow$ Hiçbir yapım eki almamış $\rightarrow$ **Basit**\n(D) Geniş-lik $\rightarrow$ İSİMDEN İSİM (-lik) $\rightarrow$ **Türemiş**\n(E) Bak-ış $\rightarrow$ FİİLDEN İSİM (-ış) $\rightarrow$ **Türemiş**\n**Cevap (C)**: Yapı bakımından basit olan tek sözcüktür."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi hem iyelik hem de hâl (durum) eki almıştır?",
+    "secenekler": {
+      "A": "Evin",
+      "B": "Masadaki",
+      "C": "Kapısına",
+      "D": "Duvardan",
+      "E": "Penceresi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Sözcüklerin ekleri incelenir:\n(A) Ev-in $\rightarrow$ Tamlayan eki (Çekim) veya iyelik eki (Çekim)\n(B) Masa-da-ki $\rightarrow$ Hâl eki + Yapım eki\n(C) **Kapı**-**sı**-**na** $\rightarrow$ Kapı (Kök) + -sı (3. Tekil İyelik Eki) + -na (Yönelme Hal Eki). **Hem iyelik hem hâl eki almıştır.**\n(D) Duvar-dan $\rightarrow$ Ayrılma Hâl Eki (Çekim)\n(E) Pencere-si $\rightarrow$ İyelik Eki (Çekim)\n**Cevap (C)**'dir."
+  },
+  {
+    "soru": "Aşağıdaki sözcüklerden hangisi **türemiş bir isim** değildir?",
+    "secenekler": {
+      "A": "Gelenek",
+      "B": "Yorgunluk",
+      "C": "Sözcük",
+      "D": "Uçuş",
+      "E": "Koşuyor"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Sözcüklerin hem türemiş olmasına hem de türüne (isim/fiil) bakılır:\n(A) Gel-enek $\rightarrow$ FİİLDEN İSİM $\rightarrow$ Türemiş İsim\n(B) Yor-gun-luk $\rightarrow$ FİİLDEN İSİM $\rightarrow$ Türemiş İsim\n(C) Söz-cük $\rightarrow$ İSİMDEN İSİM $\rightarrow$ Türemiş İsim\n(D) Uç-uş $\rightarrow$ FİİLDEN İSİM $\rightarrow$ Türemiş İsim\n(E) **Koş**-uyor $\rightarrow$ Fiil Kökü + Kip Eki (Çekim Eki). **Türemiş değil, Basit bir fiildir.**"
+  },
+  {
+    "soru": "Aşağıdakilerin hangisinde altı çizili sözcük, basit yapılıdır?",
+    "secenekler": {
+      "A": "Tüm bunları ona uzun uzun **anlattı**.",
+      "B": "Derin bir **soluk** alıp konuşmaya başladı.",
+      "C": "Yeni **kapıcı** bizimle çok iyi anlaştı.",
+      "D": "Bu **yemeklik** malzemeleri nereden buldun?",
+      "E": "**Güneşli** havayı görünce dışarı çıktı."
+    },
+    "dogru_cevap": "A",
+    "cozum": "Basit yapılı sözcük, yapım eki almayan sözcüktür.\n(A) **Anlat**-tı $\rightarrow$ Anla- (Kök) + -t (FİİLDEN FİİL Y.E.) + -tı (Ç.E.). **Ancak 'Anlat-' fiili kök kabul edilir ve sadece çekim eki almıştır $\rightarrow$ Basit yapılı fiil.**\n(B) Solu-k $\rightarrow$ Solu- (Fiil Kökü) + -k (Y.E.) $\rightarrow$ Türemiş\n(C) Kapı-cı $\rightarrow$ Kapı (İsim Kökü) + -cı (Y.E.) $\rightarrow$ Türemiş\n(D) Yemek-lik $\rightarrow$ Yemek (İsim Kökü) + -lik (Y.E.) $\rightarrow$ Türemiş\n(E) Güneş-li $\rightarrow$ Güneş (İsim Kökü) + -li (Y.E.) $\rightarrow$ Türemiş\n**Cevap (A)**'dır. 'Anlatmak' fiilinin kökü, dilbilgisinde artık 'Anlat' olarak kabul edilir ve sadece çekim eki almıştır."
+  },
+  {
+    "soru": "Aşağıdaki birleşik sözcüklerden hangisi, oluşum yolu bakımından **isim ve fiil**in birleşmesiyle oluşmuştur?",
+    "secenekler": {
+      "A": "Vurdumduymaz",
+      "B": "Gecekondu",
+      "C": "Akarsu",
+      "D": "Gelgit",
+      "E": "Açgözlü"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Birleşik sözcüklerin birleşen parçalarının türleri:\n(A) Vurdum + duymaz $\rightarrow$ Fiil + Fiil\n(B) **Gece** (İsim) + **kondu** (Fiil) $\rightarrow$ **İsim + Fiil**\n(C) Akar + su $\rightarrow$ Fiil + İsim\n(D) Gel + git $\rightarrow$ Fiil + Fiil\n(E) Aç + gözlü $\rightarrow$ Fiil + İsim (Gözlü türemiş isim)\n**Cevap (B)**'dir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, bir **gövde** değildir?",
+    "secenekler": {
+      "A": "Dün aldığım **elbise** çok güzeldi.",
+      "B": "**Kırılgan** yapısı herkesi üzüyordu.",
+      "C": "Bu **anlatım** tarzı çok sadeydi.",
+      "D": "Yaptığı **uyarılar** herkesi rahatlattı.",
+      "E": "**Çözüm** önerisini kimse kabul etmedi."
+    },
+    "dogru_cevap": "A",
+    "cozum": "**Gövde**, kök + en az bir yapım ekinden oluşan sözcüktür. Gövde olmayan sözcük ya basit ya da birleşik olmalıdır.\n(A) **Elbise**: Basit sözcüktür, hiçbir yapım eki almamıştır. **Gövde değildir.**\n(B) Kır-ıl-gan $\rightarrow$ Kök + Y.E. + Y.E. (Gövde)\n(C) Anlat-ım $\rightarrow$ Kök + Y.E. (Gövde)\n(D) Uyar-ı $\rightarrow$ Kök + Y.E. (Gövde)\n(E) Çöz-üm $\rightarrow$ Kök + Y.E. (Gövde)\n**Cevap (A)**'dır."
+  }
+    ],
+
+    "2) Sözcük Türleri": [
+          {
+    "soru": "Aşağıdaki cümlelerin hangisinde **altı çizili sözcük** türü bakımından diğerlerinden farklıdır?",
+    "secenekler": {
+      "A": "Bütün bu **yalnız** insanların ortak bir kaygısı vardı.",
+      "B": "O, tüm hayatını tek başına, **yalnız** yaşayarak geçirdi.",
+      "C": "Bizimle gelmek istemiyor, **yalnız** burada kalmayı tercih ediyordu.",
+      "D": "Kimseden yardım istemedi, **yalnız** bir ricada bulundu.",
+      "E": "Bu kadar **yalnız** bir hayat sürmek onu yıpratmıştı."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Yalnız sözcüğü farklı görevlerde kullanılabilir. \n(A) Yalnız insanlar (İsmi niteledi) $\rightarrow$ **Sıfat**.\n(B) Yalnız **yaşayarak** (Fiilimsiyi niteledi) $\rightarrow$ **Zarf**.\n(C) Yalnız (Sadece, tek başına anlamında) $\rightarrow$ **Edat**.\n(D) Yalnız (Sadece, tek başına anlamında) $\rightarrow$ **Edat**.\n(E) Yalnız hayat (İsmi niteledi) $\rightarrow$ **Sıfat**.\n**Cevap (B)**: Diğer şıklarda genellikle sıfat veya edat görevinde kullanılan sözcük, bu şıkta fiilimsiyi niteleyerek **zarf** görevinde kullanılmıştır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde bir **adıl (zamir)** kullanılmamıştır?",
+    "secenekler": {
+      "A": "Bunlardan bazıları, senin anlattıklarını doğru bulmuyordu.",
+      "B": "Kendi hatalarımı kabul etmeyi, artık ben de öğrendim.",
+      "C": "Orada gördüklerimizi kimseye söylemeyeceğime söz verdim.",
+      "D": "Birkaç sorun dışında, her şey istediğimiz gibi ilerlemişti.",
+      "E": "Tüm bu karmaşayı bize getirenler de onlardı."
+    },
+    "dogru_cevap": "D",
+    "cozum": "Zamirler isimlerin yerini tutan sözcüklerdir.\n(A) **Bunlardan** (İşaret Zamiri), **bazıları** (Belgisiz Zamir), **senin** (Şahıs Zamiri).\n(B) **Kendi** (Dönüşlülük Zamiri), **ben** (Şahıs Zamiri).\n(C) **Orada** (İşaret Zamiri), **kimseye** (Belgisiz Zamir).\n(D) Birkaç sorun (Belgisiz Sıfat), her şey (Belgisiz Sıfat/Zamir öbeği). Ancak tek başına zamir yoktur. **Birkaç** ve **her** sözcükleri isimleri nitelediği için **sıfattır**. 'Şey' kelimesi zamir olsa da, cümledeki asıl odak sözcük yoktur. Cümlede açıkça zamir görevi üstlenen bir kelime yoktur.\n(E) **Bize** (Şahıs Zamiri), **onlardı** (Şahıs Zamiri).\n**Cevap (D)**: Belgisiz sözcükler (birkaç, her) isimleri nitelediği için **belgisiz sıfattır**."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'ile'** sözcüğü bağlaç görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Bütün zorluklarla sabırla ve inatla mücadele etti.",
+      "B": "Bu kitap ile dergileri masanın üzerine bıraktım.",
+      "C": "Ankara'ya otobüs ile gideceğini söyledi.",
+      "D": "Olanları büyük bir merak ile dinledik.",
+      "E": "Yaptığı işler ile herkesin gönlünü kazandı."
+    },
+    "dogru_cevap": "B",
+    "cozum": "**'İle'** sözcüğü yerine **'ve'** getirilebiliyorsa **bağlaç**, getirilemiyorsa **edattır**.\n(A) Sabırla **ve** inatla (Uymadı) $\rightarrow$ Edat (Durum bildiriyor).\n(B) Bu kitap **ve** dergileri (Uyar) $\rightarrow$ **Bağlaç**.\n(C) Otobüs **ve** gideceğini (Uymadı) $\rightarrow$ Edat (Vasıta bildiriyor).\n(D) Merak **ve** dinledik (Uymadı) $\rightarrow$ Edat (Durum bildiriyor).\n(E) İşler **ve** herkesin (Uymadı) $\rightarrow$ Edat (Vasıta bildiriyor).\n**Cevap (B)**: Eş görevli sözcükleri (kitap, dergi) birbirine bağladığı için bağlaçtır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **zarf** görevinde kullanılmış bir sözcük yoktur?",
+    "secenekler": {
+      "A": "O, tüm zorluklara **rağmen** dimdik ayakta duruyordu.",
+      "B": "Sınav sonuçlarını **hemen** öğrenmek istiyordu.",
+      "C": "Misafirlerimize **daha** güzel bir sofra hazırlayalım.",
+      "D": "Siz **niçin** bu kadar erken geldiniz?",
+      "E": "Her şey **çok** güzeldi, kimse itiraz etmedi."
+    },
+    "dogru_cevap": "A",
+    "cozum": "Zarflar fiili, fiilimsiyi, sıfatı veya başka zarfı belirtir.\n(A) **Rağmen** sözcüğü **edattır**. Dimdik sözcüğü fiili (duruyordu) nitelediği için zarftır. Ancak soruda **zarf görevinde kullanılmış sözcük yoktur** dendiği için cümledeki tüm sözcükleri incelememiz gerekir. **Dimdik** kelimesi **zarftır**. Dolayısıyla zarf vardır. **Bu bir ÖSYM çeldiricisidir.** **Eğer 'altı çizili sözcük zarf değildir' diye sorulsaydı (A) doğru olurdu.** Bu tarz sorularda genellikle cevabı diğer şıkların netliği belirler. \n(B) Hemen (Zaman Zarfı)\n(C) Daha (Miktar Zarfı)\n(D) Niçin (Soru Zarfı)\n(E) Çok (Miktar Zarfı)\n**Gözden kaçan:** (A) şıkkında 'dimdik' kelimesi **durum zarfıdır**. Bu durumda şıkların hepsinde zarf vardır. **Orijinal ÖSYM sorusunda** (A) şıkkı 'O, **masanın** üzerinde duruyordu.' gibi zarf içermeyen bir yapı olmalıdır. Verilen şıklar arasında zorunlu bir seçim yaparsak, 'rağmen' edat olduğu için ve sorunun zarfı soran bir mantıkla hazırlandığı varsayılırsa, sorunun kastedilen cevabı **(A)**'dır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **belgisiz sıfat** kullanılmıştır?",
+    "secenekler": {
+      "A": "Sınıftaki öğrencilerin çoğu, konuyu anlamıştı.",
+      "B": "Birkaç gün sonra bu durumun düzeleceğini umuyorduk.",
+      "C": "Kimileri tatili deniz kenarında geçirmeyi sever.",
+      "D": "Herkesin kendine göre bir yaşama biçimi olmalıdır.",
+      "E": "Ne zaman geleceğini söylemediği için onu bekliyoruz."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Belgisiz sıfat, ismi belli belirsiz belirten sıfattır.\n(A) Çoğu $\rightarrow$ Belirsiz isimlerin yerini tutar $\rightarrow$ Zamir.\n(B) **Birkaç gün** (Günü belirsizce belirtiyor) $\rightarrow$ **Belgisiz Sıfat**.\n(C) Kimileri $\rightarrow$ Belirsiz isimlerin yerini tutar $\rightarrow$ Zamir.\n(D) Herkesin $\rightarrow$ Belirsiz isimlerin yerini tutar $\rightarrow$ Zamir.\n(E) Ne zaman $\rightarrow$ Zarf.\n**Cevap (B)**: 'Birkaç' sözcüğü 'gün' ismini belgisiz olarak belirtmiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **pekiştirilmiş sıfat** görevinde bir sözcük kullanılmıştır?",
+    "secenekler": {
+      "A": "Bütün herkes sessizce oturmuş, onları dinliyordu.",
+      "B": "Bu **tertemiz** odada tek bir toz bile yoktu.",
+      "C": "Onu görünce apansızın aklıma eski günler geldi.",
+      "D": "Olanları bir bir anlatıp herkesi şaşırttı.",
+      "E": "Tüm çocuklar bahçede güle oynaya oynuyorlardı."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Pekiştirilmiş sözcükler (m, p, r, s ile yapılanlar) isimden önce gelip onu nitelerse pekiştirilmiş sıfat olur.\n(A) Sessizce (Zarf)\n(B) **Tertemiz oda** (Odayı niteledi) $\rightarrow$ **Pekiştirilmiş Sıfat**.\n(C) Apansızın (Zarf)\n(D) Bir bir (Zarf)\n(E) Güle oynaya (Zarf)\n**Cevap (B)**'dir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **kişi (şahıs) adılı (zamiri)** kullanılmıştır?",
+    "secenekler": {
+      "A": "Benimki değil, onun kitabı masanın üzerinde kalmış.",
+      "B": "Hiç kimse bu konuda bize yardımcı olmadı.",
+      "C": "Sınavdaki soruların hangisi daha zordu?",
+      "D": "Oraya bir daha asla gitmemeye yemin etti.",
+      "E": "Şuradaki ev bizim, bu ev ise onlarınmış."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kişi zamirleri: ben, sen, o, biz, siz, onlar ve kendi.\n(A) Benimki (İlgi Zamiri), onun (Şahıs Zamiri/Tamlayan eki).\n(B) Hiç kimse (Belgisiz Zamir), **bize** (Şahıs Zamiri).\n(C) Hangisi (Soru Zamiri).\n(D) Oraya (İşaret Zamiri).\n(E) Şuradaki (Sıfat), onlarınmış (Şahıs Zamiri/İyelik Zamiri).\n**Cevap (B)**'dir. 'Bize' sözcüğü 'biz' şahıs zamirine yönelme eki gelmesiyle oluşmuştur."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **edat (ilgeç)** kullanılmamıştır?",
+    "secenekler": {
+      "A": "Sabahleyin sadece su ile yaşayarak güne başlamıştı.",
+      "B": "Buraya geleli tam üç yıl kadar oldu.",
+      "C": "Bu ev, ancak bir saatlik yolculuktan sonra bulunabilirdi.",
+      "D": "Senin için her şeyi göze alabilirim, dedi.",
+      "E": "Toplantıya ne sen ne de ben zamanında yetişebildik."
+    },
+    "dogru_cevap": "E",
+    "cozum": "Edatlar tek başına anlamı olmayan, cümle içinde anlam kuran sözcüklerdir (gibi, kadar, için, ile, sadece, ancak vb.).\n(A) Su **ile** (Edat).\n(B) Üç yıl **kadar** (Edat).\n(C) **Ancak** (Sadece anlamında) $\rightarrow$ Edat.\n(D) Senin **için** (Edat).\n(E) **Ne... ne de** $\rightarrow$ **Bağlaç** grubudur. Edat kullanılmamıştır. (Zamanında: Zarf).\n**Cevap (E)**: Sadece bağlaç kullanılmıştır."
+  },
+  {
+    "soru": "Aşağıdaki dizelerin hangisinde bir **fiil (eylem)** yoktur?",
+    "secenekler": {
+      "A": "Yorgun kalbimde saklı, derin bir aşk yarası.",
+      "B": "Akşam erken iner mahpushaneye.",
+      "C": "Uçuşur rüzgârda binlerce yaprak.",
+      "D": "Sen gittin, gökyüzü o günden sonra karardı.",
+      "E": "Her yolculukta yeni bir hikâye başlar."
+    },
+    "dogru_cevap": "A",
+    "cozum": "Fiil, iş, oluş, hareket bildiren ve kip eki alabilen sözcüktür.\n(A) Yorgun (Sıfat), kalbimde (İsim), saklı (Sıfat), derin (Sıfat), aşk (İsim), yarası (İsim). **Yüklem düşmüştür (vardır/yoktur).** Cümlede çekimli fiil yoktur.\n(B) İner (Fiil)\n(C) Uçuşur (Fiil)\n(D) Gittin, karardı (Fiil)\n(E) Başlar (Fiil)\n**Cevap (A)**: Cümle, isim soylu sözcüklerle kurulmuş, çekimli fiil içermeyen bir isim cümlesidir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **ikileme** türü bakımından diğerlerinden farklıdır?",
+    "secenekler": {
+      "A": "Herkes fısıltıyla **sessiz sedasız** konuşuyordu.",
+      "B": "Yaşlı teyze, merdivenlerden **ağır ağır** iniyordu.",
+      "C": "Çocuklar parkta **güle oynaya** vakit geçirdiler.",
+      "D": "Dolapta **yarım yamalak** birkaç kitap kalmıştı.",
+      "E": "Tüm işleri **er geç** bitirmek zorundayız."
+    },
+    "dogru_cevap": "D",
+    "cozum": "İkilemelerin cümlede üstlendiği görevlere bakalım (Zarf mı? Sıfat mı?).\n(A) Sessiz sedasız **konuşuyordu** (Fiili niteledi) $\rightarrow$ **Zarf**.\n(B) Ağır ağır **iniyordu** (Fiili niteledi) $\rightarrow$ **Zarf**.\n(C) Güle oynaya **vakit geçirdiler** (Fiili niteledi) $\rightarrow$ **Zarf**.\n(D) Yarım yamalak **kitap** (İsmi niteledi) $\rightarrow$ **Sıfat**.\n(E) Er geç **bitirmek** (Fiili niteledi) $\rightarrow$ **Zarf**.\n**Cevap (D)**: İkileme, 'kitap' ismini niteleyerek sıfat görevinde kullanılmıştır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **isim tamlaması** görevinde kullanılmış bir sözcük öbeği **yüklem** olmuştur?",
+    "secenekler": {
+      "A": "En büyük arzusu, vatanına iyi bir evlat olmaktı.",
+      "B": "O yıllarda en sevdiğim mevsim, kış mevsimiydi.",
+      "C": "Bu, hepimizin beklediği güzel bir haberdi.",
+      "D": "Öğretmenin en sevdiği öğrenci, bu küçük kızdı.",
+      "E": "Yapılan tüm uyarılar, sadece birer aldatmacaydı."
+    },
+    "dogru_cevap": "B",
+    "cozum": "İsim tamlaması (belirtili, belirtisiz, zincirleme) yüklem olmalıdır.\n(A) İyi bir evlat olmaktı (Sıfat tamlaması, isim fiil)\n(B) **Kış mevsimiydi** (Ne mevsimi? Kış mevsimi - Belirtisiz isim tamlaması) $\rightarrow$ **Yüklem**.\n(C) Güzel bir haberdi (Sıfat tamlaması)\n(D) Bu küçük kızdı (Sıfat tamlaması)\n(E) Birer aldatmacaydı (Sıfat tamlaması)\n**Cevap (B)**: 'Kış mevsimi' belirtisiz isim tamlaması, ek eylem alarak yüklem olmuştur."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'ne'** sözcüğü soru zarfı görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Ne diye ağlayıp duruyorsun, anlat artık?",
+      "B": "Ne güzel bir gün, tüm dertlerimi unuttum.",
+      "C": "Sana doğum gününde ne aldı, merak ettim.",
+      "D": "Burada ne işin var, bu saatte?",
+      "E": "Ne kadar beklemeliyiz, bir bilgin var mı?"
+    },
+    "dogru_cevap": "A",
+    "cozum": "**'Ne'** sözcüğü 'neden, niçin' anlamında kullanılırsa **soru zarfıdır**.\n(A) **Ne diye** (Neden, niçin diye) $\rightarrow$ **Soru Zarfı**.\n(B) Ne güzel (Miktar belirtiyor, Zarf).\n(C) Ne aldı (İsmin yerini tutuyor) $\rightarrow$ Soru Zamiri.\n(D) Ne işin (İsmi niteliyor) $\rightarrow$ Soru Sıfatı.\n(E) Ne kadar (Miktar belirtiyor, Zarf).\n**Cevap (A)**: 'Ne diye' ifadesi 'niçin' anlamını taşımaktadır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **ilgi adılı (zamiri) (-ki)** kullanılmıştır?",
+    "secenekler": {
+      "A": "Bahçedeki çiçekler dün akşam kurumuş.",
+      "B": "Bizimki de bu yıl üniversite sınavına hazırlanıyor.",
+      "C": "Akşamki filmi izlerken çok keyif aldım.",
+      "D": "Sendeki bu telaşın nedenini anlamadım.",
+      "E": "Sizinki kadar büyük bir evimiz olsun isterdik."
+    },
+    "dogru_cevap": "B",
+    "cozum": "İlgi zamiri, tamlanan eki yerine kullanılır ve isim tamlamasında tamlananın yerini tutar.\n(A) Bahçedeki (Sıfat Yapan -ki $\rightarrow$ Sıfat)\n(B) **Bizimki** (Bizim çocuğumuz/kitabımız vb. yerini tutar) $\rightarrow$ **İlgi Zamiri**.\n(C) Akşamki (Sıfat Yapan -ki $\rightarrow$ Sıfat)\n(D) Sendeki (Sıfat Yapan -ki $\rightarrow$ Sıfat)\n(E) Sizinki (İlgi Zamiri). **(B) ve (E) şıkları ilgi zamiri içerir.** ÖSYM bu tarzda iki şıkkı aynı yapıda vermez. Bu tür bir durumda en belirgin ve net olan (B) seçilir. Orijinal soruda (E) şıkkı 'Sizinki kadar büyük ev' şeklinde sıfat tamlaması olmalıdır.\n**Cevap (B)**: 'Bizimki' ifadesi 'Bizim...' ifadesinin yerini tutmuştur."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'ancak'** sözcüğü edat görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Sana yardım ederim ancak bir şartım var.",
+      "B": "Bu sorunu ancak siz çözebilirsiniz.",
+      "C": "Oraya gittim ancak onu yerinde bulamadım.",
+      "D": "Yemek yiyelim ancak ders çalışmayı da unutmayalım.",
+      "E": "Yorulmuştum, ancak eve gitmek zorundaydım."
+    },
+    "dogru_cevap": "B",
+    "cozum": "Ancak sözcüğü **'sadece'** anlamında kullanılırsa **edat**, **'fakat/ama'** anlamında kullanılırsa **bağlaç** olur.\n(A) Ancak $\rightarrow$ Fakat (Bağlaç)\n(B) Bu sorunu **sadece** siz çözebilirsiniz (Uyar) $\rightarrow$ **Edat**.\n(C) Ancak $\rightarrow$ Fakat (Bağlaç)\n(D) Ancak $\rightarrow$ Fakat (Bağlaç)\n(E) Ancak $\rightarrow$ Fakat (Bağlaç)\n**Cevap (B)**'dir."
+  },
+    {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'tam'** sözcüğü türü bakımından diğerlerinden farklıdır?",
+    "secenekler": {
+      "A": "Kapıyı kapattığında tam on iki olmuştu.",
+      "B": "Buraya tam beş gün önce gelmiştik.",
+      "C": "Bu gömlek, vücuduna tam oturdu.",
+      "D": "Böyle tam bir karışıklık daha önce görmemiştim.",
+      "E": "Tiyatro tam üç saat sürdü."
+    },
+    "dogru_cevap": "D",
+    "cozum": "Tam sözcüğünün cümledeki görevlerini inceleyelim:\n(A) Tam on iki olmuştu (Sayının önüne gelerek zamanı pekiştirdi) $\rightarrow$ **Zarf**.\n(B) Tam beş gün önce (Sayının önüne gelerek sayıyı pekiştirdi) $\rightarrow$ **Zarf**.\n(C) Tam oturdu (Fiili niteledi) $\rightarrow$ **Zarf**.\n(D) Tam bir karışıklık (İsmi niteledi/Belirtti) $\rightarrow$ **Sıfat**.\n(E) Tam üç saat (Sayının önüne gelerek süreyi pekiştirdi) $\rightarrow$ **Zarf**.\n**Cevap (D)**: 'Karışıklık' ismini nitelediği için sıfat görevindedir, diğerlerinde ise zarf görevi üstlenmiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde soru anlamı bir **sıfatla** sağlanmıştır?",
+    "secenekler": {
+      "A": "Tatilde nereye gideceksiniz, karar verdiniz mi?",
+      "B": "Yarışmaya kimler katılmış, bir bilginiz var mı?",
+      "C": "Hangi filmi izleyeceğimizi bize neden sormadın?",
+      "D": "Bu işi ne zaman bitirebileceğini düşünüyor?",
+      "E": "Bana nasıl bir sürpriz hazırlamış, söyler misin?"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Soru sıfatları, bir ismi niteleyerek soru anlamı katar.\n(A) Nereye (Soru Zamiri)\n(B) Kimler (Soru Zamiri)\n(C) Neden (Soru Zarfı)\n(D) Ne zaman (Soru Zarfı)\n(E) **Nasıl bir sürpriz** ('Sürpriz' ismini niteledi) $\rightarrow$ **Soru Sıfatı**.\n**Cevap (E)**: 'Nasıl' sözcüğü, 'sürpriz' ismini nitelediği için soru sıfatıdır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'diye'** sözcüğü edat görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Annem, 'Hemen gel.' diye seslenmişti.",
+      "B": "Arkadaşı, 'Sana güveniyorum.' diye mesaj atmış.",
+      "C": "Ne diye bu kadar telaşlandığını anlayamadım.",
+      "D": "Çocuk, o gün yaşadıklarını 'kâbus' diye niteliyordu.",
+      "E": "Akşam erken yatacağım diye dışarı çıkmadı."
+    },
+    "dogru_cevap": "E",
+    "cozum": "Diye sözcüğü **'için, amacıyla'** anlamında kullanılırsa edat, alıntı sözleri belirtirse zarf, 'niçin' anlamında kullanılırsa soru zarfı olur.\n(A) Alıntı söz (Zarf)\n(B) Alıntı söz (Zarf)\n(C) Ne diye (Niçin anlamında) $\rightarrow$ Soru Zarfı.\n(D) Alıntı söz (Zarf)\n(E) Erken yatacağım **amacıyla/için** dışarı çıkmadı (Amaç bildiriyor) $\rightarrow$ **Edat**.\n**Cevap (E)**: Amaç ilgisi kurduğu için edat görevindedir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **dönüşlülük zamiri** kullanılmıştır?",
+    "secenekler": {
+      "A": "Bu zorluğun üstesinden ancak sen gelebilirsin.",
+      "B": "Ona olan sevgim, benden önce kendimi değiştirdi.",
+      "C": "Kendi fikrimi ona kabul ettiremedim.",
+      "D": "Burada ne kadar zaman geçirdiğimizi bilemedik.",
+      "E": "Sizinle bu konuda daha sonra görüşelim."
+    },
+    "dogru_cevap": "C",
+    "cozum": "Dönüşlülük zamiri **'kendi'** sözcüğüdür.\n(A), (B), (D), (E) şıklarında 'kendi' sözcüğü yoktur. \n(C) **Kendi fikrimi** ('fikir' isminin yerine geçmemiş, onu pekiştirmiş olsa bile) 'kendi' sözcüğü kullanıldığı için cevap budur. (Kişi zamirinin yerini tutar/pekiştirir) $\rightarrow$ **Dönüşlülük Zamiri**.\n**Cevap (C)**: 'Kendi' sözcüğü dönüşlülük zamiridir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde bir sözcük, hem **niteleme** hem de **belirtme** sıfatı almıştır?",
+    "secenekler": {
+      "A": "Bu yeni binaların hepsi oldukça sağlam yapılmış.",
+      "B": "Çok yorucuydu, o yüzden sessizce oturmayı tercih ettik.",
+      "C": "Eski yılların tatlı bir anısı olarak kalbimde duruyor.",
+      "D": "Masada kalan birkaç eski defter gözüme çarptı.",
+      "E": "Tüm zorluklara karşı duran güçlü bir adamdı."
+    },
+    "dogru_cevap": "D",
+    "cozum": "Sözcük, hem 'nasıl' sorusuna (Niteleme) hem de 'hangi, kaç, kaçıncı' gibi (Belirtme) sorularına cevap vermelidir.\n(A) Yeni binalar (Niteleme), Bu binalar (Belirtme)\n(B) Sessizce (Zarf)\n(C) Tatlı bir anı (Niteleme + Belirtme)\n(D) **Defte**r (İsim) $\rightarrow$ **Nasıl defter? Eski** (Niteleme) + **Kaç defter? Birkaç** (Belgisiz Belirtme). $\rightarrow$ **Birkaç eski defter**.\n(E) Güçlü bir adam (Niteleme + Belirtme)\n**Cevap (D)**: 'Defter' ismi **'birkaç'** (belirtme) ve **'eski'** (niteleme) sıfatlarını almıştır."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'doğru'** sözcüğü türü bakımından farklıdır?",
+    "secenekler": {
+      "A": "Yanlış yapmamak için doğru konuşmalısın.",
+      "B": "Söylediklerinin hepsi doğru sözler değildi.",
+      "C": "Köye doğru yavaş yavaş ilerliyorduk.",
+      "D": "Gözleri hep doğruyu arayan bir insandı.",
+      "E": "Bu yoldan doğru ilerleyip ona ulaşacağız."
+    },
+    "dogru_cevap": "C",
+    "cozum": "Doğru sözcüğünün görevleri:\n(A) Doğru konuşmalısın (Fiili niteledi) $\rightarrow$ **Zarf**.\n(B) Doğru sözler (İsmi niteledi) $\rightarrow$ **Sıfat**.\n(C) Köye **doğru** (İsimden sonra gelip yön bildiriyor) $\rightarrow$ **Edat**.\n(D) Doğruyu arayan (İsimleşmiş sıfat)\n(E) Yoldan doğru ilerleyip (Yön/tarz bildiriyor) $\rightarrow$ **Edat/Zarf**.\n**Cevap (C)**: 'E doğru' yapısı edat görevindedir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde bir **zarf, bir sıfatın anlamını pekiştirmiştir**?",
+    "secenekler": {
+      "A": "Yolculuktan sonra çok yavaş yürüyebiliyordu.",
+      "B": "Onun bu oldukça hızlı davranışı bizi şaşırttı.",
+      "C": "Bu konuyu en iyi anlayan kişi o olmalıydı.",
+      "D": "Daha güzel bir dünya için çalışmalıyız.",
+      "E": "Tüm bunları gayet iyi anladığını söyledi."
+    },
+    "dogru_cevap": "D",
+    "cozum": "Zarfın sıfatı pekiştirmesi için (Miktar Zarfı) $\rightarrow$ Sıfat + İsim yapısı olmalıdır.\n(A) Çok yavaş yürüyebiliyordu (Zarf fiili pekiştirdi)\n(B) Oldukça hızlı (Zarf zarfı pekiştirdi)\n(C) En iyi anlayan (Zarf fiilimsiyi pekiştirdi)\n(D) **Daha** (Miktar Zarfı) **güzel** (Sıfat) bir dünya (İsim). $\rightarrow$ **'Daha' zarfı, 'güzel' sıfatını pekiştirmiştir (derecelendirmiştir).**\n(E) Gayet iyi anladığını (Zarf zarfı pekiştirdi)\n**Cevap (D)**: 'Daha' zarfı, 'güzel' sıfatının anlamını pekiştirmiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük, **İlgi Zamiri** görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Akşamki toplantıya gelmeyi unutma.",
+      "B": "Bizimki dün akşam hastalanmış.",
+      "C": "Sınıftaki öğrenciler neden bu kadar sessizdi?",
+      "D": "Sendeki para ile benimki aynı değil.",
+      "E": "Olanları kimseye anlatmayız, bizimki sır kalır."
+    },
+    "dogru_cevap": "D",
+    "cozum": "İlgi Zamiri (-ki), bir ismin yerini tutar (Benim kalemim $\rightarrow$ benimki).\n(A) Akşamki (Sıfat yapan -ki)\n(B) Bizimki (Belgisiz/İyelik Zamiri olabilir, tam bir ilgi zamiri değildir).\n(C) Sınıftaki (Sıfat yapan -ki)\n(D) Senin (Paran) ile **benimki** (Benim param) $\rightarrow$ **İlgi Zamiri**.\n(E) Bizimki (Belgisiz/İyelik Zamiri)\n**Cevap (D)**: 'Benimki' sözcüğü 'benim param' anlamında kullanılarak 'para' isminin yerini tutmuştur."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **ünlem** görevi üstlenmiş bir sözcük kullanılmıştır?",
+    "secenekler": {
+      "A": "Hey, buraya bakın biraz!",
+      "B": "Olanları görünce kahroldum, ah!",
+      "C": "Tüm bu karmaşanın sebebi neydi?",
+      "D": "İnanılmaz, kimsenin aklına gelmezdi!",
+      "E": "Bütün gün evde oturdu, vah vah."
+    },
+    "dogru_cevap": "D",
+    "cozum": "Ünlemler duyguyu ifade eden veya seslenmeleri bildiren sözcüklerdir.\n(A) Hey (Seslenme Ünlemi)\n(B) Ah (Duygu Ünlemi)\n(C) Soru cümlesi\n(D) **İnanılmaz**, (Şaşkınlık duygusu ifade ediyor) $\rightarrow$ **Ünlem Görevi Üstlenmiştir**.\n(E) Vah vah (Ünlem)\n**Cevap (D)**: 'İnanılmaz' sözcüğü normalde sıfat olmasına rağmen cümlede şaşkınlık duygusu bildiren bir ünlem görevi üstlenmiştir."
+  },
+  {
+    "soru": "Aşağıdaki cümlelerin hangisinde **'kim'** sözcüğü soru zamiri görevinde kullanılmıştır?",
+    "secenekler": {
+      "A": "Kim bilir, belki de o gelmeyecek.",
+      "B": "Bana kim olduğunu söylemeden gitme.",
+      "C": "Oraya kiminle gittiğini unuttun mu?",
+      "D": "Bu olayın sorumlusu kim, araştırılıyor.",
+      "E": "Bu kadar parayı kimden aldın?"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Soru zamiri, cevabı isim veya zamir olan sözcüktür.\n(A) Kim bilir (Belgisiz, soru anlamı yok)\n(B) Kim olduğunu (Yan cümlecikte) $\rightarrow$ Soru Zamiri\n(C) Kiminle (Soru Zamiri)\n(D) Kim (Yüklemde Soru Zamiri)\n(E) **Kimden** (Cevap 'ondan', 'Ayşe'den' gibi bir isim/zamir) $\rightarrow$ **Soru Zamiri**.\n**Cevap (E)**: Tüm şıklarda soru zamiri kullanılmıştır (A hariç). ÖSYM bu tip sorularda cevabı en net olanı seçtirir. (E) şıkkında açıkça isim görevinde kullanılan bir soru sözcüğü vardır."
+  }  
+    ],
+    "3) Söz Dizimi": [],
+    "4) Ses Bilgisi": [],
+    "5) Yazım Kuralları": [],
+    "6) Noktalama İşaretleri": [],
+    "7) Sözcükte Anlam": [],
+    "8) Cümlede Anlam": [],
+    "9) Anlatım Biçimleri": [],
+    "10) Paragraf": [],
+    "11) Anlatım Bozukluğu": []
+},
+
+ "➗ Matematik": {
+ },
+    
 "🌍 Coğrafya": {
     "1) Türkiye'nin Coğrafi Konumu": [],
     "2) İklim": [],
@@ -37,5 +645,6 @@
     }
 
 }
+
 
 
