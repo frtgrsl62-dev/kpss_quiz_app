@@ -3,7 +3,7 @@ import time
 import json
 import os
 import math
-from soru_bankasi import soru_bankasi
+from soru_bankasi import soru_bankasini_yukle, soru_bankasini_kaydet
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
 
@@ -870,6 +870,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
