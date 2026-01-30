@@ -758,19 +758,28 @@ def admin_page():
     # ➕ SORU EKLEME
     # ===============================
     with tab2:
-        st.subheader("Yeni Soru Ekle")
+        st.subheader("➕ Yeni Soru Ekle")
 
-    dersler = list(soru_bankasi.keys())
-    ders = st.selectbox("Ders Seç", dersler)
+        dersler = list(soru_bankasi.keys())
+        if not dersler:
+            st.warning("Henüz ders yok.")
+            return
 
-    mevcut_konular = list(soru_bankasi.get(ders, {}).keys())
-    konu_secim = st.selectbox("Konu Seç", mevcut_konular + ["➕ Yeni Konu"])
+        ders = st.selectbox("Ders Seç", dersler)
 
-    if konu_secim == "➕ Yeni Konu":
-        konu = st.text_input("Yeni Konu Adı")
-    else:
-        konu = konu_secim
-        
+        mevcut_konular = list(soru_bankasi.get(ders, {}).keys())
+        konu_secim = st.selectbox(
+            "Konu Seç",
+            mevcut_konular + ["➕ Yeni Konu"]
+        )
+
+        if konu_secim == "➕ Yeni Konu":
+            konu = st.text_input("Yeni Konu Adı")
+        else:
+            konu = konu_secim
+
+        st.markdown("---")
+
         soru_metin = st.text_area("Soru")
         a = st.text_input("A şıkkı")
         b = st.text_input("B şıkkı")
@@ -781,34 +790,32 @@ def admin_page():
         dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
         cozum = st.text_area("Çözüm")
 
-      if st.button("➕ Soruyu Kaydet"):
-         if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
-        st.error("❌ Tüm alanları doldurun!")
-        return
+        if st.button("➕ Soruyu Kaydet"):
+            if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
+                st.error("❌ Tüm alanları doldurun!")
+                return
 
-    yeni_soru = {
-        "soru": soru_metin,
-        "secenekler": {
-            "A": a,
-            "B": b,
-            "C": c,
-            "D": d,
-            "E": e
-        },
-        "dogru_cevap": dogru,
-        "cozum": cozum
-    }
+            yeni_soru = {
+                "soru": soru_metin,
+                "secenekler": {
+                    "A": a,
+                    "B": b,
+                    "C": c,
+                    "D": d,
+                    "E": e
+                },
+                "dogru_cevap": dogru,
+                "cozum": cozum
+            }
 
-    # 🔥 GÜVENLİ EKLEME
-    soru_bankasi.setdefault(ders, {})
-    soru_bankasi[ders].setdefault(konu, [])
-    soru_bankasi[ders][konu].append(yeni_soru)
+            soru_bankasi.setdefault(ders, {})
+            soru_bankasi[ders].setdefault(konu, [])
+            soru_bankasi[ders][konu].append(yeni_soru)
 
-    # 🔴 EN KRİTİK SATIR (SENİN KAÇIRDIĞIN YER)
-    soru_bankasini_kaydet(soru_bankasi)
+            soru_bankasini_kaydet(soru_bankasi)
 
-    st.success("✅ Soru başarıyla eklendi!")
-    st.rerun()
+            st.success("✅ Soru başarıyla kaydedildi!")
+            st.rerun()
 
 
 # ===============================
@@ -872,6 +879,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
