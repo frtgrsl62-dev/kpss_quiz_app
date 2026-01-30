@@ -1051,10 +1051,7 @@
     },
     "dogru_cevap": "B",
     "cozum": "Tam bağımsızlığa aykırı olan manda ve himaye fikri, ilk kez Erzurum Kongresi'nde \"kabul edilemez\" denilerek reddedilmiştir. Ancak tartışmalar devam edince, Sivas Kongresi'nde \"bir daha gündeme gelmemek üzere kesin olarak\" reddedilmiştir."
-  },
-
-        
-        
+  },   
    {
     "soru": "İstanbul Hükûmeti'nin, Temsil Heyeti'nin siyasi varlığını ve Anadolu'daki Milli Mücadele hareketini resmen tanıdığı ilk gelişme aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -1118,9 +1115,77 @@
       
         
         
+
+
+
+
+
+
+
+
+
         
         
-        
+      {
+    "soru": "Sivas Kongresi’nde alınan hangi karar, ulusal birliği güçlendirmiştir?",
+    "secenekler": {
+      "A": "Milli sınırlar içinde vatan bir bütündür, parçalanamaz.",
+      "B": "Cemiyetlerin Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştirilmesi",
+      "C": "Temsil Heyeti’nin kurulması",
+      "D": "TBMM’nin açılması",
+      "E": "Lozan Antlaşması’nın imzalanması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Sivas Kongresi’nde tüm cemiyetler tek çatı altında birleşerek ulusal birlik sağlandı."
+  },
+  {
+    "soru": "Amasya Görüşmeleri’nin en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Misak-ı Milli’nin kabul edilmesi",
+      "B": "Temsil Heyeti’nin İstanbul Hükûmeti tarafından resmen tanınması",
+      "C": "TBMM’nin açılması",
+      "D": "Saltanatın kaldırılması",
+      "E": "Mudanya Ateşkes Antlaşması’nın imzalanması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Amasya Görüşmeleri’nde İstanbul Hükûmeti Temsil Heyeti’ni resmen muhatap aldı."
+  },
+  {
+    "soru": "Mustafa Kemal, Erzurum Kongresi sırasında hangi nedenle askerlik görevinden istifa etmiştir?",
+    "secenekler": {
+      "A": "İngiliz baskısı",
+      "B": "Milli Mücadele’yi sivil olarak sürdürebilmek",
+      "C": "Saltanatı desteklemek",
+      "D": "Yeni ordu kurmak",
+      "E": "TBMM açılışına hazırlanmak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Erzurum Kongresi sırasında Mustafa Kemal, bağımsız hareket edebilmek için askerlikten istifa etti."
+  },
+  {
+    "soru": "Misak-ı Milli kararları hangi mecliste kabul edilmiştir?",
+    "secenekler": {
+      "A": "TBMM",
+      "B": "Erzurum Kongresi",
+      "C": "Sivas Kongresi",
+      "D": "Son Osmanlı Mebusan Meclisi",
+      "E": "İzmir İktisat Kongresi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Misak-ı Milli kararları 28 Ocak 1920’de Son Osmanlı Mebusan Meclisi’nde kabul edilmiştir."
+  },
+  {
+    "soru": "Misak-ı Milli’de yer alan “Türklerin çoğunlukta bulunduğu yerler vatan toprağıdır.” maddesi hangi düşünceyi yansıtır?",
+    "secenekler": {
+      "A": "Ulusal egemenlik",
+      "B": "Milli sınırlar",
+      "C": "Saltanat",
+      "D": "Halifelik",
+      "E": "Merkeziyetçilik"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Bu madde, milli sınırların belirlenmesine yönelik bir karar niteliğindedir."
+  },    
         
         
         
@@ -3216,6 +3281,7 @@
     }
 
 }
+
 
 
 
