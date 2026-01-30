@@ -7,6 +7,17 @@ from soru_bankasi import soru_bankasi
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
 
+from streamlit_cookies_manager import EncryptedCookieManager
+
+cookies = EncryptedCookieManager(
+    prefix="kpss_app",
+    password="kpss_super_secret_2026"
+)
+
+if not cookies.ready():
+    st.stop()
+
+
 # ===============================
 # Dosya yolları
 # ===============================
@@ -89,11 +100,15 @@ def login_page():
     if giris_btn:
         if (k_adi in sabit_kullanicilar and sabit_kullanicilar[k_adi]["sifre"] == sifre) or \
            (k_adi in kullanicilar and kullanicilar[k_adi]["sifre"] == sifre):
+
             st.session_state["current_user"] = k_adi
-            # aktif_kullanici_kaydet(k_adi) # <-- KALDIRILDI
+            cookies["current_user"] = k_adi
+            cookies.save()
+
             kullanici_sonuclarini_yukle_to_session(k_adi)
             st.session_state["page"] = "ders"
             st.rerun()
+            
         else:
             st.error("❌ Hatalı kullanıcı adı veya şifre!")
 
@@ -174,8 +189,13 @@ def ders_secim_page():
         kaydet_sonuclar_to_user(st.session_state.get("current_user"))
         # aktif_kullanici_sil() # <-- KALDIRILDI
         # Session state'den kullanıcıyı silerek oturumu sonlandır
-        if "current_user" in st.session_state:
-            del st.session_state["current_user"]
+
+     cookies.pop("current_user", None)
+     cookies.save()
+
+     if "current_user" in st.session_state:
+         del st.session_state["current_user"]
+
         st.session_state["page"] = "login"
         st.rerun()
 
@@ -694,6 +714,16 @@ def profil_page():
 # Bu mantık, her kullanıcının oturumunu kendi içinde yönetir.
 
 # ===============================
+# COOKIE'DEN OTOMATİK GİRİŞ
+# ===============================
+if "current_user" not in st.session_state or st.session_state.get("current_user") is None:
+    cookie_user = cookies.get("current_user")
+    if cookie_user and cookie_user in kullanicilar:
+        st.session_state["current_user"] = cookie_user
+        kullanici_sonuclarini_yukle_to_session(cookie_user)
+        st.session_state.page = "ders"
+
+# ===============================
 # SESSION İLK KURULUM
 # ===============================
 if "initialized" not in st.session_state:
@@ -744,5 +774,6 @@ elif page == "rapor":
     genel_rapor_page()
 elif page == "profil":
     profil_page()
+
 
 
