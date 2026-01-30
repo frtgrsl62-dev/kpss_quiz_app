@@ -980,7 +980,43 @@
             },
             "dogru_cevap": "A",
             "cozum": "Net, ezbere dayalı bir kavram sorusu. Bu kavramları bilip bilmediğini ölçer.\n\nAnaliz: Soru, \"Tanrı tarafından verilen yönetme yetkisini\" soruyor. Bu tanım doğrudan tek bir kavrama aittir.\n\nKavramların Anlamları:\nKut: Tanrı tarafından verilen yönetme yetkisi.\nKurgan: Mezar.\nBalbal: Mezar taşı.\nTöre: Yazısız hukuk kuralları.\nYabgu: İkili teşkilatta batı kanadını yöneten kişi.\n\nDoğru Cevap: A) Kut\n\nKoçunun Yorumu: Gördüğün gibi, temel kavramların tanımlarını bilmek, sana net bir soru kazandırır. ÖSYM, bu temel kavramları her sınavda bir şekilde yoklar."
-        }
+        },
+                {
+            "soru": "Aşağıdakilerden hangisi İslamiyet öncesi Türk devletleriyle ilgili doğru bir bilgi değildir?",
+            "secenekler": {
+                "A": "Asya Hunları, onlu sisteme dayalı bir ordu yapısı oluşturmuşlardır.",
+                "B": "Göktürkler, Türk adıyla kurulan ilk devlettir.",
+                "C": "Hazarlar, Museviliği benimseyen tek Türk devletidir.",
+                "D": "Uygurlar, matbaayı kullanarak kitap basmışlardır.",
+                "E": "Kırgızlar, İstanbul'u kuşatan ilk Türk devletidir."
+            },
+            "dogru_cevap": "E",
+            "cozum": "Bu soru tipi, her devlet hakkında birer kilit bilgi vererek genel tekrar yapmanı sağlar. Bir yanlış, dört doğru bilgi içerir.\n\nAnaliz: Seçenekleri tek tek kontrol edelim.\nA) Doğru. Mete Han onlu sistemi kurmuştu.\nB) Doğru. \"Türk\" adını kullanan ilk devlettir.\nC) Doğru. Hazarların en ayırt edici özelliğidir.\nD) Doğru. Uygurlar yerleşik hayatla birlikte matbaayı da kullanmıştır.\nE) Yanlış. İstanbul'u kuşatan ilk Türk devleti Avarlardır. Kırgızlar ise Manas Destanı ve Cengiz Han'a itaat eden ilk Türk devleti olmalarıyla bilinir.\n\nDoğru Cevap: E) Kırgızlar, İstanbul'u kuşatan ilk Türk devletidir.\n\nKoçunun Yorumu: ÖSYM, \"ilk\"leri sormayı sever. İstanbul'u kuşatan ilk Türk devleti (Avarlar), yerleşik hayata geçen ilk Türk devleti (Uygurlar), Türk adını kullanan ilk devlet (Göktürkler) gibi bilgileri ayrı bir yere not etmelisin. Bu soru, o notların ne kadar önemli olduğunu gösteriyor."
+        },
+          {
+    "soru": "İslamiyet öncesi Türk toplumlarında görülen 'töre', sosyal hayatı düzenleyen kurallar bütünüydü. Yazılı olmamasına rağmen herkes için bağlayıcı olan bu kuralların oluşumunda aşağıdakilerden hangisinin etkili olduğu söylenemez?",
+    "secenekler": {
+    "A": "Hükümdarların koyduğu kurallar",
+    "B": "Kurultayda alınan kararlar",
+    "C": "Toplum içinde oluşan gelenekler",
+    "D": "Komşu medeniyetlerle yapılan antlaşmalar",
+    "E": "Gök Tanrı inancına dayalı kutsal inanışlar",
+    },
+    "dogru_cevap": "D",
+    "cozum": "Töre, toplumsal hayatı düzenleyen yazısız hukuk kurallarıdır. Kaynakları kağan emirleri, kurultay kararları, gelenekler ve dini inanışlardır. Komşu devletlerle yapılan antlaşmalar ise töreyi oluşturmaz."
+  },
+  {
+    "soru": "Avrupa'ya göç ederek burada devlet kuran Türk toplulukları, zamanla milli benliklerini kaybetmişlerdir. Bu duruma rağmen Balkanlar'da varlığını uzun süre devam ettiren ve özellikle Slavları devlet yönetimi ve askeri teşkilatlanma alanlarında etkileyen Türk devleti aşağıdakilerden hangisidir?",
+    "secenekler": {
+    "A": "Avrupa Hunları",
+    "B": "Avarlar",
+    "C": "Tuna Bulgarları",
+    "D": "Macarlar",
+    "E": "Kıpçaklar",
+    },
+    "dogru_cevap": "C",
+    "cozum": "Tuna Bulgarları, Balkanlar'da uzun süre varlık göstermiş ve Slavları devlet yönetimi ve askeri teşkilatlanma açısından etkilemiştir. 'Çar' unvanı gibi izler bu etkileşimin göstergesidir."
+  }
 ],
     
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [ ],
@@ -1035,6 +1071,7 @@
     }
 
 }
+
 
 
 
