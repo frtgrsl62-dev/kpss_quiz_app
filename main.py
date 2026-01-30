@@ -9,6 +9,9 @@ from deneme_sinavlari import deneme_sinavlari
 
 from streamlit_cookies_manager import EncryptedCookieManager
 
+ADMIN_USERS = ["a"]  # admin kullanıcı adları
+
+
 cookies = EncryptedCookieManager(
     prefix="kpss_app",
     password="kpss_super_secret_2026"
@@ -156,7 +159,14 @@ def kayit_page():
 # ===============================
 # Ders Seçim Sayfası
 # ===============================
+
 def ders_secim_page():
+    user = st.session_state.get("current_user")
+    if user in ADMIN_USERS:
+        if st.button("👨‍🏫 Admin Panel"):
+            st.session_state.page = "admin"
+            st.rerun()
+    
     col1, col2 = st.columns([8, 2])
     with col2:
         user = st.session_state.get("current_user")
@@ -203,8 +213,6 @@ def ders_secim_page():
 
     st.markdown("---")
     st.markdown("<p style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</p>", unsafe_allow_html=True)
-
-# 
 
 
 # ===============================
@@ -706,7 +714,90 @@ def profil_page():
     st.markdown("<h1 style='text-align:center; color:orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</h1>", unsafe_allow_html=True)
 
 
+# ===============================
+# ADMIN PANEL
+# ===============================
+def admin_page():
+    user = st.session_state.get("current_user")
 
+    if user not in ADMIN_USERS:
+        st.error("⛔ Yetkisiz erişim!")
+        st.session_state.page = "login"
+        st.rerun()
+        return
+
+    if st.button("🔙 Geri"):
+        st.session_state.page = "ders"
+        st.rerun()
+
+    st.markdown("## 👨‍🏫 Admin Panel")
+
+    tab1, tab2 = st.tabs(["👥 Kullanıcı Yönetimi", "➕ Soru Ekle"])
+
+    # ===============================
+    # 👥 KULLANICI YÖNETİMİ
+    # ===============================
+    with tab1:
+        st.subheader("Kayıtlı Kullanıcılar")
+
+        for k_adi, bilgi in kullanicilar.items():
+            col1, col2 = st.columns([4, 1])
+            with col1:
+                st.write(f"👤 {k_adi} — {bilgi.get('isim','')}")
+            with col2:
+                if st.button("🗑 Sil", key=f"sil_{k_adi}"):
+                    if k_adi in ADMIN_USERS:
+                        st.warning("Admin silinemez!")
+                    else:
+                        del kullanicilar[k_adi]
+                        kullanicilari_kaydet()
+                        st.success(f"{k_adi} silindi")
+                        st.rerun()
+
+    # ===============================
+    # ➕ SORU EKLEME
+    # ===============================
+    with tab2:
+        st.subheader("Yeni Soru Ekle")
+
+        ders = st.selectbox("Ders", list(soru_bankasi.keys()))
+        konu = st.text_input("Konu (yeni veya mevcut)")
+
+        soru_metin = st.text_area("Soru")
+        a = st.text_input("A şıkkı")
+        b = st.text_input("B şıkkı")
+        c = st.text_input("C şıkkı")
+        d = st.text_input("D şıkkı")
+        e = st.text_input("E şıkkı")
+
+        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
+        cozum = st.text_area("Çözüm")
+
+        if st.button("➕ Soruyu Kaydet"):
+            if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
+                st.error("❌ Tüm alanları doldurun!")
+                return
+
+            yeni_soru = {
+                "soru": soru_metin,
+                "secenekler": {
+                    "A": a,
+                    "B": b,
+                    "C": c,
+                    "D": d,
+                    "E": e
+                },
+                "dogru_cevap": dogru,
+                "cozum": cozum
+            }
+
+            if konu not in soru_bankasi[ders]:
+                soru_bankasi[ders][konu] = []
+
+            soru_bankasi[ders][konu].append(yeni_soru)
+
+            # ⚠️ JSON dosyaya yazmak istersen burada save gerekir
+            st.success("✅ Soru başarıyla eklendi!")
 
 
 
@@ -733,7 +824,7 @@ if not st.session_state.get("current_user") and not st.session_state.get("logout
 page = st.session_state.page
 
 korumali_sayfalar = [
-    "ders", "konu", "test", "soru", "rapor", "profil", "deneme"
+    "ders", "konu", "test", "soru", "rapor", "profil", "deneme", "admin"
 ]
 
 if page in korumali_sayfalar and not st.session_state.get("current_user"):
@@ -769,6 +860,9 @@ elif page == "rapor":
     genel_rapor_page()
 elif page == "profil":
     profil_page()
+elif page == "admin":
+    admin_page()
+
 
 
 
