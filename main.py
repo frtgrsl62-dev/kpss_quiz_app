@@ -728,23 +728,6 @@ def profil_page():
 # ADMIN PANEL
 # ===============================
 
-
-def admin_page():
-  
-
-    
-    st.title("👨‍🏫 Admin Paneli")
-
-    tab1, tab2, tab3 = st.tabs([
-        "👥 Kullanıcı Yönetimi",
-        "➕ Soru Ekle",
-        "🗑️ Soru Sil"
-    ])
-
-    
-    # ==================================================
-    # 👥 KULLANICI YÖNETİMİ
-    # ==================================================
 def admin_page():
     st.title("👨‍🏫 Admin Paneli")
 
@@ -761,7 +744,7 @@ def admin_page():
     ])
 
     # ==================================================
-    # 👥 KULLANICI YÖNETİMİ
+    # 👥 KULLANICI YÖNETİMİ (ONAYLI)
     # ==================================================
     with tab1:
         st.subheader("👥 Kullanıcı Sil")
@@ -775,13 +758,27 @@ def admin_page():
             )
 
             if st.button("❌ Kullanıcıyı Sil"):
-                del kullanicilar[silinecek]
-                kullanicilari_kaydet()
-                st.success("✅ Kullanıcı silindi")
-                st.rerun()
+                st.session_state["confirm_user_delete"] = silinecek
+
+            if st.session_state.get("confirm_user_delete") == silinecek:
+                st.warning(f"⚠️ **{silinecek}** kullanıcısını silmek istediğinize emin misiniz?")
+
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button("✅ Onayla"):
+                        del kullanicilar[silinecek]
+                        kullanicilari_kaydet()
+                        st.session_state.pop("confirm_user_delete")
+                        st.success("Kullanıcı silindi")
+                        st.rerun()
+
+                with col2:
+                    if st.button("❎ İptal"):
+                        st.session_state.pop("confirm_user_delete")
+                        st.info("İşlem iptal edildi")
 
     # ==================================================
-    # ➕ SORU EKLE
+    # ➕ SORU EKLE (AYNI)
     # ==================================================
     with tab2:
         st.subheader("➕ Yeni Soru Ekle")
@@ -791,12 +788,7 @@ def admin_page():
 
         konu_secim = st.selectbox("Konu", konu_listesi + ["➕ Yeni Konu"])
 
-        if konu_secim == "➕ Yeni Konu":
-            konu = st.text_input("Yeni Konu Adı")
-        else:
-            konu = konu_secim
-
-        st.markdown("---")
+        konu = st.text_input("Yeni Konu Adı") if konu_secim == "➕ Yeni Konu" else konu_secim
 
         soru = st.text_area("Soru Metni")
         a = st.text_input("A")
@@ -804,48 +796,33 @@ def admin_page():
         c = st.text_input("C")
         d = st.text_input("D")
         e = st.text_input("E")
-
-        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
+        dogru = st.selectbox("Doğru Cevap", ["A","B","C","D","E"])
         cozum = st.text_area("Çözüm")
 
         if st.button("➕ Soruyu Kaydet"):
             if not all([ders, konu, soru, a, b, c, d, e, cozum]):
                 st.error("❌ Tüm alanları doldurun")
-                return
-
-            soru_bankasi.setdefault(ders, {})
-            soru_bankasi[ders].setdefault(konu, [])
-
-            soru_bankasi[ders][konu].append({
-                "soru": soru,
-                "secenekler": {
-                    "A": a, "B": b, "C": c, "D": d, "E": e
-                },
-                "dogru_cevap": dogru,
-                "cozum": cozum
-            })
-
-            soru_bankasini_kaydet(soru_bankasi)
-            st.success("✅ Soru eklendi")
+            else:
+                soru_bankasi.setdefault(ders, {}).setdefault(konu, []).append({
+                    "soru": soru,
+                    "secenekler": {"A":a,"B":b,"C":c,"D":d,"E":e},
+                    "dogru_cevap": dogru,
+                    "cozum": cozum
+                })
+                soru_bankasini_kaydet(soru_bankasi)
+                st.success("✅ Soru eklendi")
 
     # ==================================================
-    # ✏️ SORU DÜZENLE
+    # ✏️ SORU DÜZENLE (ONAYLI)
     # ==================================================
     with tab3:
         st.subheader("✏️ Soru Düzenle")
 
         ders = st.selectbox("Ders", list(soru_bankasi.keys()), key="edit_ders")
-        konu = st.selectbox(
-            "Konu",
-            list(soru_bankasi[ders].keys()),
-            key="edit_konu"
-        )
-
+        konu = st.selectbox("Konu", list(soru_bankasi[ders].keys()), key="edit_konu")
         sorular = soru_bankasi[ders][konu]
 
-        if not sorular:
-            st.info("Bu konuda soru yok")
-        else:
+        if sorular:
             idx = st.selectbox(
                 "Düzenlenecek Soru",
                 range(len(sorular)),
@@ -853,52 +830,51 @@ def admin_page():
             )
 
             s = sorular[idx]
-
             soru = st.text_area("Soru", s["soru"])
             a = st.text_input("A", s["secenekler"]["A"])
             b = st.text_input("B", s["secenekler"]["B"])
             c = st.text_input("C", s["secenekler"]["C"])
             d = st.text_input("D", s["secenekler"]["D"])
             e = st.text_input("E", s["secenekler"]["E"])
-            dogru = st.selectbox(
-                "Doğru",
-                ["A", "B", "C", "D", "E"],
-                index=["A","B","C","D","E"].index(s["dogru_cevap"])
-            )
+            dogru = st.selectbox("Doğru", ["A","B","C","D","E"],
+                                 index=["A","B","C","D","E"].index(s["dogru_cevap"]))
             cozum = st.text_area("Çözüm", s["cozum"])
 
             if st.button("💾 Güncelle"):
-                sorular[idx] = {
-                    "soru": soru,
-                    "secenekler": {
-                        "A": a, "B": b, "C": c, "D": d, "E": e
-                    },
-                    "dogru_cevap": dogru,
-                    "cozum": cozum
-                }
+                st.session_state["confirm_edit"] = idx
 
-                soru_bankasini_kaydet(soru_bankasi)
-                st.success("✅ Soru güncellendi")
-   
+            if st.session_state.get("confirm_edit") == idx:
+                st.warning("⚠️ Bu soruyu güncellemek istiyor musunuz?")
+
+                c1, c2 = st.columns(2)
+                with c1:
+                    if st.button("✅ Onayla"):
+                        sorular[idx] = {
+                            "soru": soru,
+                            "secenekler": {"A":a,"B":b,"C":c,"D":d,"E":e},
+                            "dogru_cevap": dogru,
+                            "cozum": cozum
+                        }
+                        soru_bankasini_kaydet(soru_bankasi)
+                        st.session_state.pop("confirm_edit")
+                        st.success("Soru güncellendi")
+                        st.rerun()
+                with c2:
+                    if st.button("❎ İptal"):
+                        st.session_state.pop("confirm_edit")
+                        st.info("Güncelleme iptal edildi")
 
     # ==================================================
-    # 🗑️ SORU SİL
+    # 🗑️ SORU SİL (ONAYLI)
     # ==================================================
     with tab4:
         st.subheader("🗑️ Soru Sil")
 
         ders = st.selectbox("Ders", list(soru_bankasi.keys()), key="sil_ders")
-        konu = st.selectbox(
-            "Konu",
-            list(soru_bankasi[ders].keys()),
-            key="sil_konu"
-        )
-
+        konu = st.selectbox("Konu", list(soru_bankasi[ders].keys()), key="sil_konu")
         sorular = soru_bankasi[ders][konu]
 
-        if not sorular:
-            st.info("Soru yok")
-        else:
+        if sorular:
             idx = st.selectbox(
                 "Silinecek Soru",
                 range(len(sorular)),
@@ -906,9 +882,24 @@ def admin_page():
             )
 
             if st.button("❌ Soruyu Sil"):
-                sorular.pop(idx)
-                soru_bankasini_kaydet(soru_bankasi)
-                st.success("🗑️ Soru silindi")
+                st.session_state["confirm_delete"] = idx
+
+            if st.session_state.get("confirm_delete") == idx:
+                st.warning("⚠️ Bu soruyu **kalıcı olarak** silmek istiyor musunuz?")
+
+                c1, c2 = st.columns(2)
+                with c1:
+                    if st.button("✅ Onayla"):
+                        sorular.pop(idx)
+                        soru_bankasini_kaydet(soru_bankasi)
+                        st.session_state.pop("confirm_delete")
+                        st.success("Soru silindi")
+                        st.rerun()
+                with c2:
+                    if st.button("❎ İptal"):
+                        st.session_state.pop("confirm_delete")
+                        st.info("Silme iptal edildi")
+
         
 
 
@@ -975,6 +966,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
