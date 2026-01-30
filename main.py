@@ -9,6 +9,11 @@ from soru_bankasi import soru_bankasini_yukle, soru_bankasini_kaydet
 from ders_konu_notlari import ders_konu_notlari
 from deneme_sinavlari import deneme_sinavlari
 
+
+
+import uuid
+
+
 # ===============================
 # SORU BANKASI (GLOBAL)
 # ===============================
@@ -722,8 +727,7 @@ def profil_page():
 # ===============================
 # ADMIN PANEL
 # ===============================
-import streamlit as st
-import uuid
+
 
 def admin_page():
     st.title("👨‍🏫 Admin Paneli")
@@ -917,6 +921,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
