@@ -184,20 +184,20 @@ def ders_secim_page():
 
     st.markdown("---")
 
-    if st.button("🔻 Çıkış Yap 🔻"):
-        # Çıkış yapmadan önce son sonuçları kaydet
-        kaydet_sonuclar_to_user(st.session_state.get("current_user"))
-        # aktif_kullanici_sil() # <-- KALDIRILDI
-        # Session state'den kullanıcıyı silerek oturumu sonlandır
+if st.button("🔻 Çıkış Yap 🔻"):
+    # Sonuçları kaydet
+    kaydet_sonuclar_to_user(st.session_state.get("current_user"))
 
-     cookies.pop("current_user", None)
-     cookies.save()
+    # Cookie temizle
+    cookies.pop("current_user", None)
+    cookies.save()
 
-     if "current_user" in st.session_state:
-         del st.session_state["current_user"]
+    # Session temizle
+    if "current_user" in st.session_state:
+        del st.session_state["current_user"]
 
-        st.session_state["page"] = "login"
-        st.rerun()
+    st.session_state["page"] = "login"
+    st.rerun()
 
     st.markdown("---")
     st.markdown("<p style='text-align: center; color: orange; font-size:15px;'>KPSS SORU ÇÖZÜM PLATFORMU</p>", unsafe_allow_html=True)
@@ -732,11 +732,20 @@ if "initialized" not in st.session_state:
     st.session_state.current_user = None
 
 # ===============================
+# COOKIE'DEN OTOMATİK GİRİŞ
+# ===============================
+if not st.session_state.get("current_user"):
+    cookie_user = cookies.get("current_user")
+    if cookie_user and cookie_user in kullanicilar:
+        st.session_state.current_user = cookie_user
+        kullanici_sonuclarini_yukle_to_session(cookie_user)
+        st.session_state.page = "ders"
+
+# ===============================
 # ROUTER
 # ===============================
 page = st.session_state.page
 
-# Login olmadan girilemeyecek sayfalar
 korumali_sayfalar = [
     "ders", "konu", "test", "soru", "rapor", "profil", "deneme"
 ]
@@ -774,6 +783,3 @@ elif page == "rapor":
     genel_rapor_page()
 elif page == "profil":
     profil_page()
-
-
-
