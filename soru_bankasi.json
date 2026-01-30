@@ -996,12 +996,382 @@
 ],
     
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [ ],
-    "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [ ],
+    "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [
+
+
+
+
+
+
+  {
+    "soru": "Türkiye Selçuklu Devleti'nin, Anadolu'daki ticaret yolları üzerinde belirli aralıklarla kervansaraylar inşa etmesinin temel amacı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Tarımsal üretimi artırmak",
+      "B": "Göçebe Türkmenleri yerleşik hayata geçirmek",
+      "C": "Ticari faaliyetlerin güvenli ve sürekli bir şekilde yapılmasını sağlamak",
+      "D": "Ülkeyi Haçlı saldırılarına karşı korumak",
+      "E": "Yeni şehirler kurarak idari yapıyı güçlendirmek"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kervansaraylar, ticari faaliyetlerin güvenli ve sürekli yapılmasını sağlamak amacıyla inşa edilmiştir."
+  },
+  {
+    "soru": "1243 Kösedağ Savaşı'nın Anadolu'daki en önemli siyasi sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Türkiye Selçuklu Devleti'nin en parlak dönemine girmesi",
+      "B": "Anadolu'da ilk Türk beyliklerinin kurulması",
+      "C": "Anadolu'da Türk siyasi birliğinin bozularak ikinci beylikler döneminin başlaması",
+      "D": "Haçlı Seferleri'nin başlaması",
+      "E": "Bizans'ın Anadolu'daki varlığının sona ermesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kösedağ yenilgisi sonrası Selçuklu otoritesi yıkıldı ve II. Beylikler dönemi başladı."
+  },
+  {
+    "soru": "Anadolu'nun kesin olarak Türk yurdu hâline gelmesini sağlayan ve Bizans'ın Türkleri Anadolu'dan atma ümidini tamamen sona erdiren savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Dandanakan Savaşı",
+      "B": "Malazgirt Savaşı",
+      "C": "Miryokefalon Savaşı",
+      "D": "Kösedağ Savaşı",
+      "E": "Yassıçemen Savaşı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Miryokefalon Savaşı ile Bizans'ın Anadolu'dan Türkleri atma umudu sona erdi."
+  },
+  {
+    "soru": "Türkiye Selçuklularında, esnaf ve zanaatkârların kendi aralarında kurdukları; üyelerinin mesleki, dini ve ahlaki eğitiminden sorumlu olan, aynı zamanda üretilen malın kalitesini ve fiyatını denetleyen örgüte ne ad verilir?",
+    "secenekler": {
+      "A": "İkta",
+      "B": "Gulam",
+      "C": "Fütüvvet",
+      "D": "Ahilik",
+      "E": "Vakıf"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Esnaf ve zanaatkârların örgütlenmesi Ahilik sistemiyle sağlanmıştır."
+  },
+  {
+    "soru": "Aşağıdaki beyliklerden hangisi, kendisini Türkiye Selçuklu Devleti'nin mirasçısı olarak görmüş ve Türkçeyi resmi dil ilan ederek Osmanlı Devleti'ni en çok uğraştıran beylik olmuştur?",
+    "secenekler": {
+      "A": "Karesioğulları",
+      "B": "Germiyanoğulları",
+      "C": "Karamanoğulları",
+      "D": "Hamitoğulları",
+      "E": "Dulkadiroğulları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Karamanoğulları hem Türkçeyi resmi dil yaptı hem de Osmanlı'nın en büyük rakibi oldu."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin Rumeli'ye geçişini kolaylaştıran en önemli gelişme, aşağıdaki beyliklerden hangisinin donanmasıyla birlikte Osmanlı topraklarına katılmasıdır?",
+    "secenekler": {
+      "A": "Saruhanoğulları",
+      "B": "Karesioğulları",
+      "C": "Aydınoğulları",
+      "D": "Menteşeoğulları",
+      "E": "Candaroğulları"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Karesioğulları'nın donanması Osmanlı'nın Rumeli'ye geçişini kolaylaştırmıştır."
+  },
+  {
+    "soru": "Türkiye Selçukluları döneminde inşa edilen ve tıp eğitimi ile birlikte sağlık hizmetlerinin de verildiği, bu alanda Anadolu'daki en eski ve önemli merkezlerden olan yapı türü aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Rasathane",
+      "B": "Kümbet",
+      "C": "Darüşşifa",
+      "D": "İmarethane",
+      "E": "Külliye"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Darüşşifalar Selçuklular döneminde sağlık ve tıp eğitimi için yapılan kurumlardır."
+  },
+  {
+    "soru": "Türkiye Selçuklu Sultanlarının, Venedik ve Ceneviz gibi devletlere düşük gümrük vergileri uygulaması ve Anadolu'da soyulan tüccarların zararını devlet hazinesinden karşılaması, aşağıdakilerden hangisine yönelik bir politikadır?",
+    "secenekler": {
+      "A": "Askeri gücü artırmaya",
+      "B": "Anadolu'daki ticari hayatı canlandırmaya",
+      "C": "Beylikleri kontrol altında tutmaya",
+      "D": "Tarımsal faaliyetleri desteklemeye",
+      "E": "Fetih hareketlerini hızlandırmaya"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Düşük gümrük ve zarar telafisi ticari hayatı canlandırma politikalarıdır."
+  },
+  {
+    "soru": "Türkiye Selçuklu Devleti'nin zayıflamasında etkili olan ve Moğol istilasına zemin hazırlayan, Anadolu'daki ilk büyük toplumsal ve dini nitelikli isyan aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Şeyh Bedreddin İsyanı",
+      "B": "Baba İshak İsyanı",
+      "C": "Patrona Halil İsyanı",
+      "D": "Canberdi Gazali İsyanı",
+      "E": "Kalenderoğlu İsyanı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Baba İshak İsyanı Selçuklu'yu zayıflatarak Moğol istilasına zemin hazırlamıştır."
+  },
+  {
+    "soru": "Aşağıdaki beyliklerden hangisi, topraklarını Osmanlı Devleti'ne para karşılığı satarak Osmanlı egemenliğine girmiştir?",
+    "secenekler": {
+      "A": "Karamanoğulları",
+      "B": "Dulkadiroğulları",
+      "C": "Hamitoğulları",
+      "D": "Saruhanoğulları",
+      "E": "Aydınoğulları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Hamitoğulları Beyliği topraklarını Osmanlı'ya para karşılığı satmıştır."
+  },
+  {
+    "soru": "Mevlevilik düşüncesinin temelini atan, 'Mesnevi' adlı eseriyle dünya çapında tanınan Mevlana Celaleddin-i Rumi, hayatının büyük bir kısmını aşağıdaki şehirlerin hangisinde geçirmiş ve bu şehirle özdeşleşmiştir?",
+    "secenekler": {
+      "A": "Kayseri",
+      "B": "Sivas",
+      "C": "Erzurum",
+      "D": "Konya",
+      "E": "Bursa"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Mevlana, Konya'da yaşamış ve bu şehirle özdeşleşmiştir."
+  },
+  {
+    "soru": "Yavuz Sultan Selim'in 1515 Turnadağ Savaşı ile Dulkadiroğulları Beyliği'ne son vermesinin en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Osmanlı Devleti'nin kurulması",
+      "B": "İstanbul'un fethinin kolaylaşması",
+      "C": "Anadolu Türk siyasi birliğinin kesin olarak sağlanması",
+      "D": "Balkanlardaki fetihlerin başlaması",
+      "E": "Halifeliğin Osmanlı'ya geçmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Turnadağ Savaşı sonrası Dulkadiroğulları'na son verilerek Anadolu Türk siyasi birliği kesin olarak sağlandı."
+  },
+  {
+    "soru": "Türkiye Selçuklularına ait anıt mezarlar, genellikle konik veya piramidal bir çatı ile örtülen silindirik veya çokgen gövdeli yapılardır. Bu yapı türüne verilen isim aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Medrese",
+      "B": "Kümbet",
+      "C": "Han",
+      "D": "Kale",
+      "E": "Cami"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Selçukluların anıt mezarlarına Kümbet adı verilmiştir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, II. Beylikler Dönemi'nin genel özelliklerinden biri değildir?",
+    "secenekler": {
+      "A": "Anadolu'da Türk siyasi birliğinin bozulmuş olması",
+      "B": "Moğol (İlhanlı) baskısının hissedilmesi",
+      "C": "Türkçenin bir edebiyat ve bilim dili olarak gelişme göstermesi",
+      "D": "Anadolu'nun tamamen Bizans egemenliğine girmesi",
+      "E": "Osmanlı Beyliği'nin de bu dönemde kurulmuş olması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "II. Beylikler Dönemi'nde Anadolu Bizans'ın egemenliğinde değil, beyliklerin hâkimiyetindeydi."
+  },
+  {
+    "soru": "Türkiye Selçuklularında deniz ve kara ticaretinin gelişmesinde aşağıdakilerden hangisinin etkisi en azdır?",
+    "secenekler": {
+      "A": "Önemli liman şehirlerinin fethedilmesi",
+      "B": "Kervansaray ağının kurulması",
+      "C": "Yabancı tüccarlara düşük gümrük uygulanması",
+      "D": "Devlet sigorta sisteminin oluşturulması",
+      "E": "İkta sisteminin yaygınlaştırılması"
+    },
+    "dogru_cevap": "E",
+    "cozum": "İkta sistemi tarım ve askeri düzenle ilgilidir; ticaretin gelişmesine en az katkı sağlayan unsurdur."
+  },
+        {
+            "soru": "I. Gıyaseddin Keyhüsrev döneminde, Venediklilerle ticaret antlaşması yapılarak Karadeniz'deki ticari faaliyetleri geliştirmek amacıyla kurulan liman şehri aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Sinop",
+                "B": "Alanya",
+                "C": "Antalya",
+                "D": "Samsun",
+                "E": "Amasya"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu soru, Türkiye Selçuklu Devleti'nin ticareti geliştirmeye yönelik faaliyetlerini ve liman şehirlerini sormaktadır.\n\nAnaliz: I. Gıyaseddin Keyhüsrev, 1214 yılında Karadeniz'deki önemli liman şehri olan Sinop'u fethederek Anadolu'daki deniz ticaretini geliştirmeye çalışmıştır. Bu fetihle birlikte Venediklilerle ilk ticaret antlaşması imzalanmıştır.\nDoğru Cevap: A) Sinop\nKoçunun Yorumu: ÖSYM, Türkiye Selçukluları'nın ticareti geliştirmek için yaptığı hamleleri ve fethettiği liman şehirlerini sıkça sorar."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nde, Türkmenlerin devlete karşı isyan etmelerine sebep olan, sosyal ve ekonomik boyutları olan isyan aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Babai Ayaklanması",
+                "B": "Şeyh Bedreddin İsyanı",
+                "C": "Celali İsyanları",
+                "D": "Vaka-i Vakvakiye",
+                "E": "İbn-i Batuta Seyahati"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu soru, Anadolu Selçuklu Devleti'nin en büyük iç karışıklığını ve isyanını sormaktadır.\n\nAnaliz: 1240 yılında yaşanan Babai Ayaklanması, Baba İshak önderliğinde çıkan, dini-sosyal ve ekonomik nedenleri olan büyük bir Türkmen isyanıdır. Bu isyan, Anadolu Selçuklu Devleti'ni derinden sarsmış ve 1243'teki Kösedağ Savaşı öncesi devleti zayıflatmıştır.\nDoğru Cevap: A) Babai Ayaklanması\nKoçunun Yorumu: Babai Ayaklanması'nın dini, sosyal ve ekonomik boyutları olduğunu ve bu isyanın Anadolu Selçuklu Devleti'ni zayıflatarak Moğol istilasına zemin hazırladığını unutmamalısın."
+        },
+        {
+            "soru": "Türkiye Selçuklu Devleti'nin Moğollarla yaptığı ve devleti yıkılış sürecine sokan savaş aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Pasinler Savaşı",
+                "B": "Miryokefalon Savaşı",
+                "C": "Kösedağ Savaşı",
+                "D": "Malazgirt Savaşı",
+                "E": "Yassı Çemen Savaşı"
+            },
+            "dogru_cevap": "C",
+            "cozum": "Bu, Anadolu Selçuklu Devleti'nin sonunu getiren en önemli savaş hakkında net bir bilgi sorusudur.\n\nAnaliz: 1243 yılında gerçekleşen Kösedağ Savaşı, Anadolu Selçuklu ordusunun Moğol ordusuna karşı ağır bir yenilgi almasıyla sonuçlanmıştır. Bu yenilgi sonrası Anadolu'da otorite boşluğu oluşmuş, II. Beylikler dönemi başlamış ve Anadolu Selçuklu Devleti Moğol egemenliğine girerek yıkılış sürecine girmiştir.\nDoğru Cevap: C) Kösedağ Savaşı\nKoçunun Yorumu: Malazgirt Savaşı, Anadolu'nun kapılarını Türklere açarken; Kösedağ Savaşı, Anadolu Selçuklu Devleti'nin kapılarını Moğollara açmıştır. Bu iki savaşın sonuçlarını iyi ayırt etmelisin."
+        },
+        {
+            "soru": "Anadolu'da kurulan ilk Türk beylikleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+            "secenekler": {
+                "A": "Danişmentliler, Sivas ve çevresinde kurulmuştur.",
+                "B": "Saltuklular, Anadolu'da kurulan ilk Türk beyliğidir.",
+                "C": "Artuklular, Mardin, Harput ve Hasankeyf'te hüküm sürmüşlerdir.",
+                "D": "Mengücekler, Erzincan ve Divriği çevresinde kurulmuştur.",
+                "E": "Çaka Beyliği, Karadeniz'de denizcilik faaliyetleri yürütmüştür."
+            },
+            "dogru_cevap": "E",
+            "cozum": "Bu, ilk Türk beyliklerinin coğrafi konumları ve özellikleri hakkında bilgi isteyen bir sorudur.\n\nAnaliz: Seçenekleri tek tek inceleyelim: A, B, C ve D şıkları doğrudur. E şıkkı ise yanlıştır. Çaka Beyliği İzmir ve çevresinde kurulmuş, ilk Türk denizcilik faaliyetlerini Ege Denizi'nde yürütmüştür. Karadeniz'de değil.\nDoğru Cevap: E) Çaka Beyliği, Karadeniz'de denizcilik faaliyetleri yürütmüştür.\nKoçunun Yorumu: ÖSYM, bu tür beyliklerin yerlerini ve ana faaliyetlerini karıştırarak sorular hazırlar. Özellikle beyliklerin kuruluş yerlerini ve önemli eserlerini eşleştirerek çalışmak faydalı olur."
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi II. Beylikler Dönemi'nde kurulan beyliklerden biri değildir?",
+            "secenekler": {
+                "A": "Germiyanoğulları",
+                "B": "Karesioğulları",
+                "C": "Hamitoğulları",
+                "D": "Karahanlılar",
+                "E": "Karamanoğulları"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu, II. Beylikler döneminin genel yapısını ve hangi beyliklerin bu döneme ait olduğunu bilmenizi gerektiren bir sorudur.\n\nAnaliz: II. Beylikler Dönemi, 1243 Kösedağ Savaşı sonrası Moğol baskısının zayıfladığı ortamda Anadolu'da kurulan beylikleri kapsar. Germiyanoğulları, Karesioğulları, Hamitoğulları, Karamanoğulları gibi beylikler bu döneme aittir. Karahanlılar ise çok daha önceki bir dönemde, Orta Asya'da kurulan ilk Türk-İslam devletidir.\nDoğru Cevap: D) Karahanlılar\nKoçunun Yorumu: İlk Türk-İslam devletleri ile II. Beylikler Dönemi'ni karıştırmaman çok önemli. Bu tür beyliklerin kuruluş yerleri ve Osmanlı'ya katılış şekilleri de sorulabilir."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nde, esnaf ve zanaatkarların örgütlendiği, sosyal ve ekonomik alanda önemli bir yere sahip olan teşkilat aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Ahilik Teşkilatı",
+                "B": "Lonca",
+                "C": "Gedik",
+                "D": "İhşidiye",
+                "E": "Tımar"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu soru, Anadolu Selçuklu Devleti'nin ekonomik ve sosyal hayatına dair önemli bir kurumu sormaktadır.\n\nAnaliz: Ahilik Teşkilatı, Ahi Evran tarafından kurulan, esnaf ve zanaatkarları bir araya getiren, onlara mesleki eğitim veren ve ahlaki değerleri öğreten bir örgüttür. Anadolu'nun Türkleşmesi ve İslamlaşmasında da önemli bir rol oynamıştır.\nDoğru Cevap: A) Ahilik Teşkilatı\nKoçunun Yorumu: Ahilik Teşkilatı, hem Anadolu Selçuklu hem de erken dönem Osmanlı tarihi için çok kritik bir konudur. ÖSYM, bu kurumun fonksiyonlarını ve önemini sıkça sorgular."
+        },
+        {
+            "soru": "Türkiye Selçuklu Devleti'nin ticareti geliştirmek amacıyla aldığı önlemler arasında aşağıdakilerden hangisi yer almaz?",
+            "secenekler": {
+                "A": "Kervansaraylar inşa etmek",
+                "B": "Sigorta sistemini uygulamak",
+                "C": "Liman kentlerini ele geçirmek",
+                "D": "Haçlı Seferlerine karşı mücadele etmek",
+                "E": "Yabancı devletlerle ticaret antlaşmaları yapmak"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu soru, Türkiye Selçukluları'nın ticari faaliyetlerini ve bu alanda aldıkları önlemleri sorgulamaktadır.\n\nAnaliz: Türkiye Selçukluları, Anadolu'yu uluslararası bir ticaret merkezi haline getirmek için büyük çaba harcamıştır. Kervansaraylar, liman kentlerinin fethi (Antalya, Sinop) ve sigorta sistemi bu çabaların bir sonucudur. Ancak Haçlı Seferlerine karşı mücadele etmek, ticari bir faaliyetten ziyade siyasi ve askeri bir durumdur.\nDoğru Cevap: D) Haçlı Seferlerine karşı mücadele etmek\nKoçunun Yorumu: ÖSYM, benzer şıklar arasında fonksiyonel farkı görmeni ister. Haçlı Seferleri, ticareti olumsuz etkileyen bir faktördür, bu yüzden Haçlılarla mücadele etmek ticari bir hamle değildir."
+        },
+        {
+            "soru": "Miryokefalon Savaşı'nın (1176) en önemli sonucu aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Anadolu'nun kesin olarak Türk yurdu haline gelmesi",
+                "B": "Malazgirt Savaşı'nın kazanılması",
+                "C": "Bizans İmparatorluğu'nun yıkılması",
+                "D": "Haçlı Seferlerinin başlaması",
+                "E": "Anadolu'da ilk Türk beyliklerinin kurulması"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu, Anadolu Selçuklu tarihi için dönüm noktası olan Miryokefalon Savaşı'nın sonucunu sorgulayan temel bir bilgi sorusudur.\n\nAnaliz: Miryokefalon Savaşı, II. Kılıç Arslan döneminde Bizans'a karşı kazanılan önemli bir zaferdir. Bu zaferle birlikte, Bizans'ın Anadolu'daki Türkleri Anadolu'dan atma ümidi tamamen sona ermiş ve Anadolu'nun bir daha geri dönülmemek üzere Türk yurdu haline geldiği kanıtlanmıştır.\nDoğru Cevap: A) Anadolu'nun kesin olarak Türk yurdu haline gelmesi\nKoçunun Yorumu: Bu savaşın \"Yurt Tutan Savaş\" olarak da anıldığını unutma. Bu bilgi sana ipucu verebilir."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nde, Moğol istilası sonrası kurulan beyliklerden biri değildir?",
+            "secenekler": {
+                "A": "Karesioğulları",
+                "B": "Germiyanoğulları",
+                "C": "Karamanoğulları",
+                "D": "Artuklular",
+                "E": "Saruhanoğulları"
+            },
+            "dogru_cevap": "D",
+            "cozum": "Bu, ilk ve ikinci beylikleri ayırt etmenizi gerektiren bir sorudur.\n\nAnaliz: Karesioğulları, Germiyanoğulları, Karamanoğulları ve Saruhanoğulları, Kösedağ Savaşı sonrası kurulan II. Beyliklerdendir. Artuklular ise Malazgirt Savaşı sonrası kurulan ilk beyliklerden biridir.\nDoğru Cevap: D) Artuklular\nKoçunun Yorumu: Bu soru, beyliklerin hangi dönemde kurulduğunu net olarak bilmenin önemini gösteriyor."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nde, ticaretin gelişmesi için yapılan en önemli mimari yapılar aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Kervansaraylar",
+                "B": "Medreseler",
+                "C": "Hanikahlar",
+                "D": "Türbeler",
+                "E": "Kümbetler"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu, Anadolu Selçukluları'nın ekonomi politikasını ve bu alandaki mimari eserlerini sorgulamaktadır.\n\nAnaliz: Kervansaraylar, tüccarların konaklaması, dinlenmesi ve güvenli bir şekilde seyahat etmesi için yapılan ticari yapılardır. Anadolu Selçukluları döneminde önemli ticaret yolları üzerine çok sayıda kervansaray inşa edilmiştir.\nDoğru Cevap: A) Kervansaraylar\nKoçunun Yorumu: Medreseler eğitim, hanikahlar ve türbeler dini ve sosyal yapılar, kümbetler ise mezar yapılarıdır. Doğru cevabı bulmak için bu yapıların işlevlerini bilmek önemlidir."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nin kurucusu aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Kutalmışoğlu Süleyman Şah",
+                "B": "I. Gıyaseddin Keyhüsrev",
+                "C": "II. Kılıç Arslan",
+                "D": "II. Gıyaseddin Keyhüsrev",
+                "E": "I. Alaaddin Keykubat"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu, Anadolu Selçuklu Devleti'nin kurucusu hakkında temel bir bilgi sorusudur.\n\nAnaliz: Kutalmışoğlu Süleyman Şah, 1075 yılında İznik'i fethederek Anadolu Selçuklu Devleti'ni kurmuştur.\nDoğru Cevap: A) Kutalmışoğlu Süleyman Şah\nKoçunun Yorumu: Devletlerin kurucuları ve en parlak dönemini yaşatan hükümdarları mutlaka bilinmelidir."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nde, özellikle ticari yolların güvenliği için devlet tarafından görevlendirilen birliklere ne ad verilirdi?",
+            "secenekler": {
+                "A": "Gulam",
+                "B": "Sipahi",
+                "C": "Yaya",
+                "D": "Derviş",
+                "E": "Subaşı"
+            },
+            "dogru_cevap": "E",
+            "cozum": "Bu, Anadolu Selçuklu'nun askeri ve idari teşkilatından bir terim sorusudur.\n\nAnaliz: Anadolu Selçuklu Devleti'nde, şehirlerin ve ticaret yollarının güvenliğini sağlayan, aynı zamanda idari işlerden de sorumlu olan komutanlara Subaşı denirdi.\nDoğru Cevap: E) Subaşı\nKoçunun Yorumu: Bu terimler, hem Osmanlı hem de Anadolu Selçuklu tarihi için önemlidir. Fonksiyonlarını iyi öğrenmelisin."
+        },
+        {
+            "soru": "Aşağıdaki eserlerden hangisi Anadolu Selçuklu Devleti dönemine ait değildir?",
+            "secenekler": {
+                "A": "Sırçalı Medrese",
+                "B": "Alara Han",
+                "C": "İnce Minareli Medrese",
+                "D": "Gevher Nesibe Şifahanesi",
+                "E": "Divriği Ulu Camii ve Darüşşifası"
+            },
+            "dogru_cevap": "E",
+            "cozum": "Bu, Anadolu Selçuklu mimarisini ve diğer dönemlerden eserleri ayırt etmenizi gerektiren bir sorudur.\n\nAnaliz: Sırçalı Medrese (Konya), Alara Han (Alanya), İnce Minareli Medrese (Konya), Gevher Nesibe Şifahanesi (Kayseri) Anadolu Selçuklu dönemine aittir. Divriği Ulu Camii ve Darüşşifası ise Danişmentliler değil, Mengücekler dönemine aittir ve Anadolu beyliklerinden biridir.\nDoğru Cevap: E) Divriği Ulu Camii ve Darüşşifası\nKoçunun Yorumu: Bu eser, UNESCO Dünya Mirası Listesi'nde yer alması sebebiyle özel bir önem taşır. Beylikler dönemi eserleriyle Anadolu Selçuklu dönemi eserlerini karıştırmamak gerekir."
+        },
+        {
+            "soru": "Anadolu Selçuklu Devleti'nde, hükümdar ailesinin ve önde gelen devlet adamlarının gömüldüğü anıt mezarlara verilen ad aşağıdakilerden hangisidir?",
+            "secenekler": {
+                "A": "Kümbet",
+                "B": "Türbe",
+                "C": "Zaviye",
+                "D": "Tekke",
+                "E": "Şifahane"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu, Anadolu Selçuklu mimarisindeki mezar yapılarını sorgulayan bir terim sorusudur.\n\nAnaliz: Kümbetler, genellikle Selçuklular döneminde görülen, anıt mezar niteliği taşıyan ve içinde bir mumyalık bulunan yapılardır. Genellikle konik veya piramit şeklinde bir çatısı vardır. Türbe ise daha çok Osmanlı döneminde yaygınlaşmıştır.\nDoğru Cevap: A) Kümbet\nKoçunun Yorumu: Kümbetlerin özelliklerini ve diğer mezar yapılarından farkını bilmek, bu tür soruları çözmende sana yardımcı olur."
+        },
+        {
+            "soru": "Türkiye Selçuklu Devleti'nde, Haçlı Seferlerine karşı mücadele ederek Konya'yı başkent yapan hükümdar kimdir?",
+            "secenekler": {
+                "A": "I. Kılıç Arslan",
+                "B": "II. Kılıç Arslan",
+                "C": "Süleyman Şah",
+                "D": "I. Mesut",
+                "E": "I. Gıyaseddin Keyhüsrev"
+            },
+            "dogru_cevap": "A",
+            "cozum": "Bu, Haçlı Seferleri dönemindeki önemli hükümdarı ve onun icraatlarını sormaktadır.\n\nAnaliz: I. Kılıç Arslan, I. Haçlı Seferi sırasında başkent İznik'i kaybetmiş ve devleti toparlamak için başkenti Konya'ya taşımıştır.\nDoğru Cevap: A) I. Kılıç Arslan\nKoçunun Yorumu: Haçlı Seferleri'nin Türk tarihine etkileri ve bu süreçte görev alan hükümdarlar önemli bir konudur. Bu tür sorularla sıkça karşılaşabilirsin."
+        }
+
+
+
+
+
+
+        
+    ],
     "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [
-
-
-
-
   {
     "soru": "Aşağıdakilerden hangisi, Fatih Sultan Mehmet'in 1453'te İstanbul'u fethetmesinin sonuçlarından biri olarak gösterilemez?",
     "secenekler": {
@@ -1554,13 +1924,6 @@
             "dogru_cevap": "C",
             "cozum": "Yıldırım Bayezid, İstanbul'u kuşatan ilk padişahlardan biridir ve bu kuşatmalar sırasında Bizans'a denizden gelecek yardımı engellemek için Anadolu Hisarı'nı inşa ettirmiştir."
         }
-
-
-
-
-
-
-        
     ],
     "5. Osmanlı Devleti Kültür ve Medeniyeti": [
   {
@@ -6681,6 +7044,7 @@
     }
 
 }
+
 
 
 
