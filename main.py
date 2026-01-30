@@ -781,32 +781,34 @@ def admin_page():
         dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
         cozum = st.text_area("Çözüm")
 
-        if st.button("➕ Soruyu Kaydet"):
-            if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
-                st.error("❌ Tüm alanları doldurun!")
-                return
+      if st.button("➕ Soruyu Kaydet"):
+         if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
+        st.error("❌ Tüm alanları doldurun!")
+        return
 
-            yeni_soru = {
-                "soru": soru_metin,
-                "secenekler": {
-                    "A": a,
-                    "B": b,
-                    "C": c,
-                    "D": d,
-                    "E": e
-                },
-                "dogru_cevap": dogru,
-                "cozum": cozum
-            }
+    yeni_soru = {
+        "soru": soru_metin,
+        "secenekler": {
+            "A": a,
+            "B": b,
+            "C": c,
+            "D": d,
+            "E": e
+        },
+        "dogru_cevap": dogru,
+        "cozum": cozum
+    }
 
-            if konu not in soru_bankasi[ders]:
-                soru_bankasi[ders][konu] = []
+    # 🔥 GÜVENLİ EKLEME
+    soru_bankasi.setdefault(ders, {})
+    soru_bankasi[ders].setdefault(konu, [])
+    soru_bankasi[ders][konu].append(yeni_soru)
 
-            soru_bankasi[ders][konu].append(yeni_soru)
+    # 🔴 EN KRİTİK SATIR (SENİN KAÇIRDIĞIN YER)
+    soru_bankasini_kaydet(soru_bankasi)
 
-            # ⚠️ JSON dosyaya yazmak istersen burada save gerekir
-            st.success("✅ Soru başarıyla eklendi!")
-
+    st.success("✅ Soru başarıyla eklendi!")
+    st.rerun()
 
 
 # ===============================
@@ -870,6 +872,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
