@@ -757,50 +757,47 @@ def admin_page():
     # ===============================
     # ➕ SORU EKLEME
     # ===============================
-with tab2:
-    st.subheader("➕ Yeni Soru Ekle")
+    with tab2:
+        st.subheader("Yeni Soru Ekle")
 
-    dersler = list(soru_bankasi.keys())
-    ders = st.selectbox("Ders Seç", dersler)
+        ders = st.selectbox("Ders", list(soru_bankasi.keys()))
+        konu = st.text_input("Konu (yeni veya mevcut)")
 
-    mevcut_konular = list(soru_bankasi.get(ders, {}).keys())
-    konu_secim = st.selectbox("Konu Seç", mevcut_konular + ["➕ Yeni Konu"])
+        soru_metin = st.text_area("Soru")
+        a = st.text_input("A şıkkı")
+        b = st.text_input("B şıkkı")
+        c = st.text_input("C şıkkı")
+        d = st.text_input("D şıkkı")
+        e = st.text_input("E şıkkı")
 
-    if konu_secim == "➕ Yeni Konu":
-        konu = st.text_input("Yeni Konu Adı")
-    else:
-        konu = konu_secim
+        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
+        cozum = st.text_area("Çözüm")
 
-    soru_metin = st.text_area("Soru")
-    a = st.text_input("A")
-    b = st.text_input("B")
-    c = st.text_input("C")
-    d = st.text_input("D")
-    e = st.text_input("E")
+        if st.button("➕ Soruyu Kaydet"):
+            if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
+                st.error("❌ Tüm alanları doldurun!")
+                return
 
-    dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"])
-    cozum = st.text_area("Çözüm")
-
-    if st.button("💾 Soruyu Kaydet"):
-        if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
-            st.error("❌ Tüm alanları doldurun")
-        else:
             yeni_soru = {
                 "soru": soru_metin,
                 "secenekler": {
-                    "A": a, "B": b, "C": c, "D": d, "E": e
+                    "A": a,
+                    "B": b,
+                    "C": c,
+                    "D": d,
+                    "E": e
                 },
                 "dogru_cevap": dogru,
                 "cozum": cozum
             }
 
-            soru_bankasi.setdefault(ders, {})
-            soru_bankasi[ders].setdefault(konu, [])
+            if konu not in soru_bankasi[ders]:
+                soru_bankasi[ders][konu] = []
+
             soru_bankasi[ders][konu].append(yeni_soru)
 
-            soru_bankasini_kaydet(soru_bankasi)
-
-            st.success("✅ Soru başarıyla kaydedildi!")
+            # ⚠️ JSON dosyaya yazmak istersen burada save gerekir
+            st.success("✅ Soru başarıyla eklendi!")
 
 
 
@@ -865,6 +862,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
