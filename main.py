@@ -822,6 +822,17 @@ def admin_page():
             st.rerun()
 
 
+        # 🔄 Formu temizle
+        for key in [
+            "soru_metin", "sec_a", "sec_b", "sec_c",
+            "sec_d", "sec_e", "cozum"
+        ]:
+            st.session_state[key] = ""
+
+        st.session_state["dogru"] = "A"
+
+
+
 # ===============================
 # SESSION İLK KURULUM
 # ===============================
@@ -883,6 +894,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
