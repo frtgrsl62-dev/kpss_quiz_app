@@ -1008,7 +1008,45 @@
         
         
         
-        
+       {
+        "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine neden olan olay hangisidir?",
+        "secenekler": {
+            "A": "Saraybosna suikastı",
+            "B": "Almanya ile gizli bir ittifak antlaşması imzalaması",
+            "C": "Goeben ve Breslau zırhlılarının Rus limanlarını bombalaması",
+            "D": "Kapitülasyonları tek taraflı olarak kaldırması",
+            "E": "Seferberlik ilan etmesi"
+        },
+        "dogru_cevap": "C",
+        "cozum": "İngiliz donanmasından kaçarak Osmanlı'ya sığınan bu iki Alman gemisi, Yavuz ve Midilli adlarıyla Osmanlı bayrağı çekilerek Karadeniz'e açılıp Rus limanlarını bombalamıştır. Bu olay Osmanlı'nın fiilen savaşa girmesine neden olmuştur.",
+        "koc_yorumu": "Bu olay bir oldubittidir, Osmanlı'nın savaşa girişinde dönüm noktasıdır."
+    },
+    {
+        "soru": "Paris Barış Konferansı'nda, daha önce gizli antlaşmalarla İtalya'ya vadedilen İzmir ve çevresinin, İngiltere'nin desteğiyle Yunanistan'a verilmesinin temel nedeni nedir?",
+        "secenekler": {
+            "A": "İtalya'nın savaştan çekilmesi",
+            "B": "Yunanistan'ın askeri olarak daha güçlü olması",
+            "C": "Bölgedeki Rum nüfusunun fazlalığı bahanesi",
+            "D": "Doğu Akdeniz'de güçlü bir İtalya yerine, kendi kontrolünde zayıf bir Yunanistan'ı tercih etmesi",
+            "E": "ABD'nin bu yönde baskı yapması"
+        },
+        "dogru_cevap": "D",
+        "cozum": "İngiltere, Akdeniz'deki çıkarları için güçlü bir İtalya'nın bölgeye yerleşmesini istememiş, bunun yerine kontrol edebileceği Yunanistan'ı desteklemiştir.",
+        "koc_yorumu": "Bu karar İtilaf Devletleri arasındaki ilk ciddi çıkar çatışmasını göstermiştir. İtalya’nın küsüp konferansı terk etmesine yol açmıştır."
+    },
+    {
+        "soru": "'Çöl Kaplanı' lakabıyla bilinen Fahrettin Paşa'nın, zor şartlar altında kutsal emanetleri korumak için aylarca direndiği ve 'Medine Müdafaası' olarak tarihe geçen olay hangi cephede yaşanmıştır?",
+        "secenekler": {
+            "A": "Kafkas Cephesi",
+            "B": "Irak Cephesi",
+            "C": "Suriye-Filistin Cephesi",
+            "D": "Hicaz-Yemen Cephesi",
+            "E": "Kanal Cephesi"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Mondros Ateşkesi imzalandıktan sonra bile teslim olmayan Fahrettin Paşa'nın bu kahramanca direnişi, I. Dünya Savaşı'nın en önemli direniş öykülerindendir.",
+        "koc_yorumu": "Fahrettin Paşa’nın Medine savunması, Osmanlı’nın fedakârlık örneklerinden biridir."
+    }     
         
         
         
@@ -1236,17 +1274,6 @@
         "cozum": "Enver Paşa ve İttihatçılar Almanya sayesinde toprakların geri alınacağını düşündü.",
         "koc_yorumu": "Enver Paşa’nın Alman hayranlığı çok belirleyiciydi."
     },
-       
-        
-        
-        
-        
-   
-        
-        
-        
-        
-        
         {
         "soru": "I. Dünya Savaşı'ndan sonra imzalanan barış antlaşmaları, yenilen devletlere çok ağır şartlar dayatmıştır. Bu durumun en önemli uzun vadeli sonucu ne olmuştur?",
         "secenekler": {
@@ -4304,6 +4331,7 @@
     }
 
 }
+
 
 
 
