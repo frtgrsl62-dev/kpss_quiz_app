@@ -1004,6 +1004,54 @@
     "8. Trablusgarp ve Balkan Savaşları": [],
     "9. I. Dünya Savaşı ve Sonuçları": [],
     "10. Milli Mücadele'nin Hazırlık Dönemi": [
+ {
+    "soru": "Mustafa Kemal'in 9. Ordu Müfettişi olarak Samsun'a gönderilmesindeki resmi görevi \"bölgedeki asayişi sağlamak ve Türklerin elindeki silahları toplamak\" iken, kendisinin asıl amacı Milli Mücadele'yi başlatmaktı. Bu durum, aşağıdakilerden hangisini en iyi şekilde açıklar?",
+    "secenekler": {
+      "A": "Padişah Vahdettin'in Milli Mücadele'yi gizlice desteklediğini",
+      "B": "Mustafa Kemal'in, İstanbul Hükûmeti'nin verdiği görevi kendi amaçları doğrultusunda bir fırsat olarak kullandığını",
+      "C": "İtilaf Devletleri'nin Mustafa Kemal'in Samsun'a çıkışına izin verdiğini",
+      "D": "İstanbul Hükûmeti'nin Anadolu'daki direnişi örgütlemek istediğini",
+      "E": "Bölgedeki Rum çetelerinin çok güçlü olduğunu"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Soru, Mustafa Kemal'in stratejik dehasını sorguluyor. O, kendisine verilen yasal ve resmi bir görevi, tam tersi bir amaç için, yani milli bir direniş başlatmak için bir kalkan ve bir fırsat olarak kullanmıştır."
+  },
+  {
+    "soru": "Amasya Genelgesi'nin \"Milletin bağımsızlığını, yine milletin azim ve kararı kurtaracaktır.\" maddesi, Kurtuluş Savaşı'nın hangi iki temel unsurunu bir arada belirtmiştir?",
+    "secenekler": {
+      "A": "Gerekçe ve Yöntem",
+      "B": "Amaç ve Yöntem",
+      "C": "Gerekçe ve Süre",
+      "D": "Amaç ve Lider",
+      "E": "Yöntem ve Süre"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Bu, genelgenin en can alıcı maddesidir. Maddenin ilk kısmı, \"milletin bağımsızlığı\", mücadelenin amacını belirtir. İkinci kısım, \"milletin azim ve kararı\", bu amaca nasıl ulaşılacağını, yani yöntemi belirtir."
+  },
+  {
+    "soru": "Erzurum Kongresi'nin \"toplanış amacı bakımından bölgesel, aldığı kararlar bakımından ulusal\" olarak nitelendirilmesinin nedeni aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sadece Doğu illerinden delegelerin katılmasına rağmen, alınan kararların tüm vatanı ilgilendirmesi",
+      "B": "Kongre'nin Erzurum gibi doğuda bir şehirde toplanması",
+      "C": "Kongre'ye katılan delege sayısının az olması",
+      "D": "Padişahın onayıyla toplanmış olması",
+      "E": "Kararların İtilaf Devletleri tarafından tanınması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Kongre, Doğu Anadolu Müdafaa-i Hukuk Cemiyeti tarafından, yani Doğu illerini temsilen toplanmıştır (bölgesel amaç). Ancak kongrede alınan \"Milli sınırlar içinde vatan bir bütündür\" veya \"Manda ve himaye kabul olunamaz\" gibi kararlar, sadece Doğu'yu değil, tüm ülkeyi (ulusu) ilgilendiren kararlardır."
+  },
+  {
+    "soru": "Milli Mücadele'nin hazırlık döneminde \"manda ve himaye\" fikrinin ilk kez reddedildiği ve kesin olarak reddedildiği kongreler, sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
+    "secenekler": {
+      "A": "Havza - Amasya",
+      "B": "Erzurum - Sivas",
+      "C": "Sivas - Erzurum",
+      "D": "Amasya - Sivas",
+      "E": "Erzurum - Amasya Görüşmeleri"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Tam bağımsızlığa aykırı olan manda ve himaye fikri, ilk kez Erzurum Kongresi'nde \"kabul edilemez\" denilerek reddedilmiştir. Ancak tartışmalar devam edince, Sivas Kongresi'nde \"bir daha gündeme gelmemek üzere kesin olarak\" reddedilmiştir."
+  },
 
         
         
@@ -3108,6 +3156,7 @@
     }
 
 }
+
 
 
 
