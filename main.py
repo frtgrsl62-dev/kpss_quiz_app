@@ -693,19 +693,31 @@ def profil_page():
 # ===============================
 # Bu mantık, her kullanıcının oturumunu kendi içinde yönetir.
 
-# 1. Oturumda bir sayfa bilgisi yoksa, başlangıç sayfası 'login' olsun.
-if "page" not in st.session_state:
+# ===============================
+# SESSION İLK KURULUM
+# ===============================
+if "initialized" not in st.session_state:
+    st.session_state.initialized = True
     st.session_state.page = "login"
+    st.session_state.current_user = None
 
-# 2. Oturumda bir kullanıcı yoksa (None veya tanımsız) ve gidilmek istenen sayfa
-#    login veya kayıt değilse, kullanıcıyı login sayfasına yönlendir.
-if st.session_state.get("current_user") is None:
-    if st.session_state.page not in ["login", "kayit"]:
-        st.session_state.page = "login"
-
-# 3. Mevcut sayfaya göre ilgili fonksiyonu çalıştır.
+# ===============================
+# ROUTER
+# ===============================
 page = st.session_state.page
 
+# Login olmadan girilemeyecek sayfalar
+korumali_sayfalar = [
+    "ders", "konu", "test", "soru", "rapor", "profil", "deneme"
+]
+
+if page in korumali_sayfalar and not st.session_state.get("current_user"):
+    st.session_state.page = "login"
+    st.rerun()
+
+# ===============================
+# SAYFA YÖNLENDİRME
+# ===============================
 if page == "login":
     login_page()
 elif page == "kayit":
@@ -716,13 +728,13 @@ elif page == "konu":
     if "ders" in st.session_state:
         konu_secim_page(st.session_state["ders"])
     else:
-        st.session_state["page"] = "ders"
+        st.session_state.page = "ders"
         st.rerun()
 elif page == "test":
     if "ders" in st.session_state and "konu" in st.session_state:
         test_secim_page(st.session_state["ders"], st.session_state["konu"])
     else:
-        st.session_state["page"] = "ders"
+        st.session_state.page = "ders"
         st.rerun()
 elif page == "deneme":
     deneme_secim_page()
@@ -732,5 +744,5 @@ elif page == "rapor":
     genel_rapor_page()
 elif page == "profil":
     profil_page()
-    
+
 
