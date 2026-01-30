@@ -1020,7 +1020,19 @@
     },
 
 
-
+    {
+        "soru": "Aşağıdakilerden hangisi, savaş sonunda yıkılan imparatorlukların topraklarında kurulan 'Manda ve Himaye' rejiminin tanımıdır?",
+        "secenekler": {
+            "A": "Halkların kendi kaderini tayin etmesi",
+            "B": "Sömürgeciliğin, 'az gelişmiş toplumları medenileştirme' adı altında Milletler Cemiyeti kontrolünde devam ettirilmesi",
+            "C": "Ülkeler arasında tam bir ekonomik serbestlik olması",
+            "D": "İşçi haklarının uluslararası güvence altına alınması",
+            "E": "Silahsızlanma ve orduların lağvedilmesi"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' ilkesini delmek için İngiltere ve Fransa'nın bulduğu bir formüldür. Orta Doğu'daki Osmanlı toprakları (Irak, Suriye, Filistin vb.) bu sistemle paylaşılmıştır.",
+        "koc_yorumu": "Manda-himaye sistemi aslında sömürgeciliğin kılıf değiştirmiş halidir."
+    },
         
         
         
@@ -4341,6 +4353,7 @@
     }
 
 }
+
 
 
 
