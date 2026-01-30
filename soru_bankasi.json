@@ -1000,9 +1000,322 @@
     "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [],
     "5. Osmanlı Devleti Kültür ve Medeniyeti": [],
     "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [    ],
-    "7. 19. yy (Dağılma) ve Islahatlar": [],
-    "8. Trablusgarp ve Balkan Savaşları": [
+    "7. 19. yy (Dağılma) ve Islahatlar": [
 
+
+   {
+        "soru": "Osmanlı Devleti'nde padişahın yetkilerini kanun gücüyle ilk kez sınırlayan ve anayasal düzene geçişin ilk adımı olarak kabul edilen belge aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Sened-i İttifak",
+            "B": "Tanzimat Fermanı",
+            "C": "Islahat Fermanı",
+            "D": "Kanun-i Esasi"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Tanzimat Fermanı ile padişah, kendi gücünün üstünde bir kanun gücü olduğunu kabul etmiştir.",
+        "kocunun_yorumu": "Anahtar ifade 'kanun gücüyle'dir. Sened-i İttifak bir sözleşme, Tanzimat anayasal düzene geçişin ilk adımıdır. Kanun-i Esasi ise bu sürecin sonucudur."
+    },
+    {
+        "soru": "II. Mahmut döneminde, ıslahatların önündeki en büyük engel olarak görülen Yeniçeri Ocağı'nın kaldırılması olayına ne ad verilir?",
+        "secenekler": {
+            "A": "Vaka-i Vakvakiye",
+            "B": "Edirne Vakası",
+            "C": "Vaka-i Hayriye",
+            "D": "31 Mart Vakası"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Yeniçeri Ocağı'nın kaldırılması 'Hayırlı Olay' olarak adlandırılmıştır.",
+        "kocunun_yorumu": "Vaka-i Hayriye, II. Mahmut'un en radikal ıslahatıdır. Vaka-i Vakvakiye ile karıştırma."
+    },
+    {
+        "soru": "Osmanlı Devleti'nin Kırım Savaşı sırasında Rusya'ya karşı İngiltere ve Fransa'nın desteğini alması, 19. yüzyılda izlediği hangi dış politika stratejisine örnektir?",
+        "secenekler": {
+            "A": "Osmanlıcılık",
+            "B": "Denge Politikası",
+            "C": "İslamcılık",
+            "D": "Batıcılık"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Zayıflayan Osmanlı, büyük devletler arasındaki çıkar çatışmalarından yararlanarak varlığını sürdürmeye çalıştı.",
+        "kocunun_yorumu": "Kırım Savaşı, bu politikanın en başarılı örneğidir."
+    },
+    {
+        "soru": "Din, dil, ırk ayrımı yapmaksızın bütün Osmanlı tebaasını eşit vatandaşlık hakları temelinde birleştirmeyi amaçlayan fikir akımı aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Türkçülük",
+            "B": "İslamcılık",
+            "C": "Batıcılık",
+            "D": "Osmanlıcılık"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Osmanlıcılık fikri, eşitlik ve Osmanlı vatandaşlığı temeline dayanır.",
+        "kocunun_yorumu": "Tanzimat, Islahat Fermanları ve I. Meşrutiyet bu fikri hayata geçirmek için atılmış adımlardır."
+    },
+    {
+        "soru": "1856'da ilan edilen Islahat Fermanı'nın temel amacı ve Tanzimat Fermanı'ndan farkı nedir?",
+        "secenekler": {
+            "A": "Kanun üstünlüğünü ilk kez getirmesi",
+            "B": "Padişahın yetkilerini ayanlara karşı sınırlaması",
+            "C": "Avrupalı devletlerin baskısı olmadan ilan edilmesi",
+            "D": "Gayrimüslimlere tam eşitlik tanıyarak Avrupalıların iç işlerine karışmasını engellemek"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Islahat Fermanı gayrimüslimlere tam eşitlik tanımayı amaçladı.",
+        "kocunun_yorumu": "Kırım Savaşı sonrası Avrupalı baskısıyla ilan edilmiştir."
+    },
+    {
+        "soru": "Aşağıdakilerden hangisi, II. Mahmut dönemi ıslahatlarından biri değildir?",
+        "secenekler": {
+            "A": "Divan-ı Hümayun'un kaldırılması",
+            "B": "Takvim-i Vekayi'nin çıkarılması",
+            "C": "Kanun-i Esasi'nin ilan edilmesi",
+            "D": "Asakir-i Mansure-i Muhammediye ordusunun kurulması"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Kanun-i Esasi 1876'da II. Abdülhamid döneminde ilan edilmiştir.",
+        "kocunun_yorumu": "Kronolojik ayrımları bilmek çok önemlidir."
+    },
+    {
+        "soru": "Türk tarihinde halkın, seçtiği temsilciler aracılığıyla yönetime ilk kez ortak olduğu gelişme hangisidir?",
+        "secenekler": {
+            "A": "Sened-i İttifak",
+            "B": "Tanzimat Fermanı",
+            "C": "I. Meşrutiyet",
+            "D": "Islahat Fermanı"
+        },
+        "dogru_cevap": "C",
+        "cozum": "I. Meşrutiyet ile Meclis-i Mebusan açılmıştır.",
+        "kocunun_yorumu": "Katılımı sağlayan unsur meclistir."
+    },
+    {
+        "soru": "1877-1878 Osmanlı-Rus Savaşı sonunda imzalanan ancak ağır şartları nedeniyle yürürlüğe girmeyen antlaşma hangisidir?",
+        "secenekler": {
+            "A": "Paris Antlaşması",
+            "B": "Berlin Antlaşması",
+            "C": "Edirne Antlaşması",
+            "D": "Ayastefanos Antlaşması"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Ayastefanos Antlaşması yürürlüğe girmemiştir.",
+        "kocunun_yorumu": "ÖSYM bu 'ölü doğmuş' antlaşmayı sık sorar."
+    },
+    {
+        "soru": "Osmanlı Devleti'nde ilk kez çok partili hayata geçiş hangi dönemde gerçekleşmiştir?",
+        "secenekler": {
+            "A": "Tanzimat",
+            "B": "I. Meşrutiyet",
+            "C": "II. Meşrutiyet",
+            "D": "Lale Devri"
+        },
+        "dogru_cevap": "C",
+        "cozum": "1908 II. Meşrutiyet ile partiler kurulmuştur.",
+        "kocunun_yorumu": "I. Meşrutiyet'te meclis vardı ama parti yoktu."
+    },
+    {
+        "soru": "Osmanlı Devleti'nin dağılmasını önlemek amacıyla bütün Müslümanları halifenin liderliğinde birleştirmeyi hedefleyen fikir akımı hangisidir?",
+        "secenekler": {
+            "A": "Batıcılık",
+            "B": "Osmanlıcılık",
+            "C": "İslamcılık",
+            "D": "Türkçülük"
+        },
+        "dogru_cevap": "C",
+        "cozum": "İslamcılık özellikle II. Abdülhamid döneminde resmi politika oldu.",
+        "kocunun_yorumu": "Anahtar kelimeler: Müslüman, halife, ümmet."
+    },
+    {
+        "soru": "Osmanlıcılık fikrinin başarısızlığını en net gösteren gelişme hangisidir?",
+        "secenekler": {
+            "A": "Arapların isyanı",
+            "B": "Balkan Savaşları",
+            "C": "31 Mart Olayı",
+            "D": "Kırım Savaşı"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Balkan Savaşları, Osmanlı kimliği altında birleşmenin imkansız olduğunu gösterdi.",
+        "kocunun_yorumu": "Osmanlıcılık Balkan Savaşları'nda, İslamcılık I. Dünya Savaşı'nda çöktü."
+    },
+    {
+        "soru": "Kavalalı Mehmet Ali Paşa isyanı hangi antlaşma ile Boğazlar Sorunu'na dönüşmüştür?",
+        "secenekler": {
+            "A": "Paris Antlaşması",
+            "B": "Londra Boğazlar Sözleşmesi",
+            "C": "Hünkâr İskelesi Antlaşması",
+            "D": "Berlin Antlaşması"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Rusya ile imzalanan bu antlaşma, Boğazlar sorununu uluslararası krize dönüştürdü.",
+        "kocunun_yorumu": "Bir iç sorun dış meseleye dönüştü."
+    },
+    {
+        "soru": "1878 Berlin Antlaşması'yla ilk kez uluslararası bir sorun hâline gelen mesele hangisidir?",
+        "secenekler": {
+            "A": "Boğazlar Meselesi",
+            "B": "Mısır Meselesi",
+            "C": "Ermeni Meselesi",
+            "D": "Kapitülasyonlar"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Ermeni meselesi ilk kez Berlin Antlaşması'na girdi.",
+        "kocunun_yorumu": "ÖSYM 'ilk'leri sever."
+    },
+    {
+        "soru": "Osmanlı tarihinde ilk dış borç hangi savaş sırasında alınmıştır?",
+        "secenekler": {
+            "A": "93 Harbi",
+            "B": "Kırım Savaşı",
+            "C": "Balkan Savaşları",
+            "D": "Trablusgarp Savaşı"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Kırım Savaşı sırasında ilk dış borç alınmıştır.",
+        "kocunun_yorumu": "Bu, Osmanlı maliyesinin çöküş sürecinin başlangıcıdır."
+    },
+    {
+        "soru": "II. Abdülhamid'i Meşrutiyet'i ikinci kez ilan etmeye zorlayan örgütlenme hangisidir?",
+        "secenekler": {
+            "A": "Genç Osmanlılar",
+            "B": "Ahrar Fırkası",
+            "C": "İttihat ve Terakki Cemiyeti",
+            "D": "Hürriyet ve İtilaf Fırkası"
+        },
+        "dogru_cevap": "C",
+        "cozum": "1908'de İttihat ve Terakki baskısıyla II. Meşrutiyet ilan edildi.",
+        "kocunun_yorumu": "I. Meşrutiyet'i Jön Türkler, II.'yi İttihatçılar sağladı."
+    },
+    {
+        "soru": "Sened-i İttifak'ın 'Magna Carta'ya benzetilme nedeni nedir?",
+        "secenekler": {
+            "A": "Seçme ve seçilme hakkı tanıması",
+            "B": "Padişahın yetkilerinin halk tarafından sınırlandırılması",
+            "C": "Hükümdarın ilk kez başka bir gücü tanıyarak yetkilerini sınırlaması",
+            "D": "Yazılı bir anayasa olması"
+        },
+        "dogru_cevap": "C",
+        "cozum": "II. Mahmut, ayanların gücünü tanıdı.",
+        "kocunun_yorumu": "Bir anayasa değildir ama anayasal gelişmelere başlangıç sayılır."
+    },
+    {
+        "soru": "Hangisi Tanzimat Dönemi ıslahatlarından değildir?",
+        "secenekler": {
+            "A": "Kaime'nin çıkarılması",
+            "B": "Demiryolu hattı yapılması",
+            "C": "Darülfünun'un açılması",
+            "D": "Yeniçeri Ocağı'nın kaldırılması"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Yeniçeri Ocağı 1826'da kaldırılmıştır.",
+        "kocunun_yorumu": "Tanzimat Dönemi ile II. Mahmut dönemi ayrımını bilmek gerekir."
+    },
+    {
+        "soru": "Osmanlı Devleti'ne karşı isyan eden ilk millet hangisidir?",
+        "secenekler": {
+            "A": "Yunanlar",
+            "B": "Sırplar",
+            "C": "Bulgarlar",
+            "D": "Ermeniler"
+        },
+        "dogru_cevap": "B",
+        "cozum": "1804 Kara Yorgi liderliğinde Sırplar isyan etmiştir.",
+        "kocunun_yorumu": "İlk isyan Sırplar, ilk bağımsız olan Yunanlardır."
+    },
+    {
+        "soru": "Osmanlı gelirlerine el koymak için kurulan kurum hangisidir?",
+        "secenekler": {
+            "A": "Bank-ı Osmani",
+            "B": "Düyun-u Umumiye",
+            "C": "Memleket Sandıkları",
+            "D": "Islah-ı Sanayi Komisyonu"
+        },
+        "dogru_cevap": "B",
+        "cozum": "1881 Muharrem Kararnamesi ile kuruldu.",
+        "kocunun_yorumu": "Osmanlı'nın ekonomik iflasının göstergesidir."
+    },
+    {
+        "soru": "II. Meşrutiyet sırasında bağımsızlığını ilan eden Balkan devleti hangisidir?",
+        "secenekler": {
+            "A": "Yunanistan",
+            "B": "Sırbistan",
+            "C": "Bulgaristan",
+            "D": "Arnavutluk"
+        },
+        "dogru_cevap": "C",
+        "cozum": "1908'de Bulgaristan bağımsızlığını ilan etti.",
+        "kocunun_yorumu": "Her iç karışıklık dış kayıpla sonuçlanmıştır."
+    },
+    {
+        "soru": "Milli Mücadele'nin temel ideolojisi hangisidir?",
+        "secenekler": {
+            "A": "Osmanlıcılık",
+            "B": "İslamcılık",
+            "C": "Batıcılık",
+            "D": "Türkçülük"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Türkçülük Milli Mücadele'nin birleştirici ideolojisidir.",
+        "kocunun_yorumu": "Osmanlıcılık ve İslamcılık iflas edince Türkçülük öne çıktı."
+    },
+    {
+        "soru": "II. Abdülhamid'in meclisi kapatmasıyla başlayan 30 yıllık döneme ne ad verilir?",
+        "secenekler": {
+            "A": "Lale Devri",
+            "B": "Fetret Devri",
+            "C": "Tanzimat Dönemi",
+            "D": "İstibdat Dönemi"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Meclissiz, anayasasız baskıcı dönemdir.",
+        "kocunun_yorumu": "II. Meşrutiyet ile sona ermiştir."
+    },
+    {
+        "soru": "I. Meşrutiyet'in anayasal niteliği nedir?",
+        "secenekler": {
+            "A": "Tam halk egemenliği",
+            "B": "Laik yönetim",
+            "C": "Monarşik otoritenin anayasal unsurlardan güçlü olması",
+            "D": "Çok partili sistem"
+        },
+        "dogru_cevap": "C",
+        "cozum": "Kanun-i Esasi padişaha geniş yetkiler tanımıştır.",
+        "kocunun_yorumu": "Bu nedenle tam demokrasi değil, meşruti monarşidir."
+    },
+    {
+        "soru": "Osmanlı Devleti, Avrupa devletler hukukuna ilk kez hangi gelişme ile dahil edilmiştir?",
+        "secenekler": {
+            "A": "Tanzimat Fermanı",
+            "B": "Paris Antlaşması",
+            "C": "I. Meşrutiyet",
+            "D": "Sened-i İttifak"
+        },
+        "dogru_cevap": "B",
+        "cozum": "Kırım Savaşı sonrası Paris Antlaşması ile Osmanlı Avrupa devletler ailesine katıldı.",
+        "kocunun_yorumu": "Kağıt üzerinde başarı olsa da Osmanlı'nın zayıflığını gösterir."
+    },
+    {
+        "soru": "II. Mahmut'un reformlarının öncelikli amacı nedir?",
+        "secenekler": {
+            "A": "Gayrimüslimlerin bağlılığını artırmak",
+            "B": "Merkezi otoriteyi güçlendirmek",
+            "C": "Avrupa ekonomik baskısını azaltmak",
+            "D": "Ulemanın etkisini kırmak"
+        },
+        "dogru_cevap": "B",
+        "cozum": "II. Mahmut taşradaki yerel güçleri zayıflatıp merkezi otoriteyi güçlendirmeyi hedefledi.",
+        "kocunun_yorumu": "Yaptığı her reformun temelinde merkeziyetçilik vardır."
+    }
+
+
+
+
+
+        
+
+
+
+
+        
+    ],
+    "8. Trablusgarp ve Balkan Savaşları": [
    {
       "soru": "Osmanlı Devleti'nin, Trablusgarp Savaşı'nda İtalya'ya karşı karadan ve denizden etkili bir savunma yapamamasının temel nedeni aşağıdakilerden hangisidir?",
       "secenekler": {
@@ -1414,16 +1727,6 @@
         "dogru_cevap": "A",
         "cozum": "Analiz: 1913 Babıali Baskını ile İttihat ve Terakki iktidarı ele geçirmiş ve Balkan Savaşları sonrası Osmanlı iç politikasına damga vurmuştur.\nDoğru Cevap: A) Babıali Baskını\nKoçunun Yorumu: Bu soru, askeri yenilgilerin siyasi sonuçlarını ölçer."
     }
-
-
-
-
-
-        
-
-        
-
-        
     ],
     "9. I. Dünya Savaşı ve Sonuçları": [  
     {
@@ -4769,6 +5072,7 @@
     }
 
 }
+
 
 
 
