@@ -782,62 +782,72 @@ def admin_page():
     # ==================================================
     # ➕ SORU EKLE
     # ==================================================
-  def ders_degisti(prefix):
-    ders = st.session_state[f"{prefix}_ders"]
-    konular = list(soru_bankasi[ders].keys())
-    st.session_state[f"{prefix}_konu"] = konular[0]
-
-    
-    
+    # ==================================================
+    # ➕ SORU EKLE
+    # ==================================================
     with tab2:
-    st.subheader("Yeni Soru Ekle")
+        st.subheader("Yeni Soru Ekle")
 
-    ders = st.selectbox(
-        "Ders Seçiniz",
-        list(soru_bankasi.keys()),
-        key="ekle_ders",
-        on_change=ders_degisti,
-        args=("ekle",)
-    )
+        ders = st.selectbox(
+            "Ders Seçiniz",
+            list(soru_bankasi.keys()),
+            key="ekle_ders"
+        )
 
-    konu = st.selectbox(
-        "Konu Seçiniz",
-        list(soru_bankasi[ders].keys()),
-        key="ekle_konu"
-    )
+        konu = st.selectbox(
+            "Konu Seçiniz",
+            list(soru_bankasi[ders].keys()),
+            key="ekle_konu"
+        )
 
-    with st.form("soru_ekle_form", clear_on_submit=True):
-
-        soru_metin = st.text_area("Soru")
-        a = st.text_input("A şıkkı")
-        b = st.text_input("B şıkkı")
-        c = st.text_input("C şıkkı")
-        d = st.text_input("D şıkkı")
-        e = st.text_input("E şıkkı")
+        soru_metin = st.text_area("Soru", key="soru_metin")
+        a = st.text_input("A şıkkı", key="sec_a")
+        b = st.text_input("B şıkkı", key="sec_b")
+        c = st.text_input("C şıkkı", key="sec_c")
+        d = st.text_input("D şıkkı", key="sec_d")
+        e = st.text_input("E şıkkı", key="sec_e")
 
         dogru = st.selectbox(
             "Doğru Cevap",
-            ["A", "B", "C", "D", "E"]
+            ["A", "B", "C", "D", "E"],
+            key="dogru"
         )
 
-        cozum = st.text_area("Çözüm")
+        cozum = st.text_area("Çözüm", key="cozum")
 
-        submit = st.form_submit_button("➕ Soruyu Kaydet")
+        if st.button("➕ Soruyu Kaydet"):
+            if not soru_metin.strip():
+                st.error("Soru metni boş olamaz")
+            else:
+                yeni_soru = {
+                    "id": str(uuid.uuid4()),
+                    "soru": soru_metin,
+                    "secenekler": {
+                        "A": a, "B": b, "C": c, "D": d, "E": e
+                    },
+                    "dogru_cevap": dogru,
+                    "cozum": cozum
+                }
 
-        if submit:
-            yeni_soru = {
-                "id": str(uuid.uuid4()),
-                "soru": soru_metin,
-                "secenekler": {
-                    "A": a, "B": b, "C": c, "D": d, "E": e
-                },
-                "dogru_cevap": dogru,
-                "cozum": cozum
-            }
+                soru_bankasi[ders][konu].append(yeni_soru)
+                soru_bankasini_kaydet(soru_bankasi)
 
-            soru_bankasi[ders][konu].append(yeni_soru)
-            soru_bankasini_kaydet(soru_bankasi)
-            st.success("✅ Soru eklendi")
+                st.success("✅ Soru başarıyla eklendi")
+
+                # 🔄 FORM + SEÇİMLERİ TEMİZLE
+                for key in [
+                    "soru_metin", "sec_a", "sec_b",
+                    "sec_c", "sec_d", "sec_e", "cozum"
+                ]:
+                    st.session_state[key] = ""
+
+                st.session_state["dogru"] = "A"
+                st.session_state["ekle_ders"] = list(soru_bankasi.keys())[0]
+                st.session_state["ekle_konu"] = list(
+                    soru_bankasi[st.session_state["ekle_ders"]].keys()
+                )[0]
+
+                st.rerun()
 
     # ==================================================
     # 🗑️ SORU SİL
@@ -947,6 +957,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
