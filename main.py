@@ -782,37 +782,38 @@ def admin_page():
     # ==================================================
     # ➕ SORU EKLE
     # ==================================================
-    with tab2:
-        st.subheader("Yeni Soru Ekle")
+   with tab2:
+    st.subheader("Yeni Soru Ekle")
+
+    with st.form("soru_ekle_form", clear_on_submit=True):
 
         ders = st.selectbox(
             "Ders Seçiniz",
-            list(soru_bankasi.keys()),
-            key="ekle_ders"
+            list(soru_bankasi.keys())
         )
 
         konu = st.selectbox(
             "Konu Seçiniz",
-            list(soru_bankasi[ders].keys()),
-            key="ekle_konu"
+            list(soru_bankasi[ders].keys())
         )
 
-        soru_metin = st.text_area("Soru", key="soru_metin")
-        a = st.text_input("A şıkkı", key="sec_a")
-        b = st.text_input("B şıkkı", key="sec_b")
-        c = st.text_input("C şıkkı", key="sec_c")
-        d = st.text_input("D şıkkı", key="sec_d")
-        e = st.text_input("E şıkkı", key="sec_e")
+        soru_metin = st.text_area("Soru")
+        a = st.text_input("A şıkkı")
+        b = st.text_input("B şıkkı")
+        c = st.text_input("C şıkkı")
+        d = st.text_input("D şıkkı")
+        e = st.text_input("E şıkkı")
 
         dogru = st.selectbox(
             "Doğru Cevap",
-            ["A", "B", "C", "D", "E"],
-            key="dogru"
+            ["A", "B", "C", "D", "E"]
         )
 
-        cozum = st.text_area("Çözüm", key="cozum")
+        cozum = st.text_area("Çözüm")
 
-        if st.button("➕ Soruyu Kaydet"):
+        submit = st.form_submit_button("➕ Soruyu Kaydet")
+
+        if submit:
             if not soru_metin.strip():
                 st.error("Soru metni boş olamaz")
             else:
@@ -960,6 +961,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
