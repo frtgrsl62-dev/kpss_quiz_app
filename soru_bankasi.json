@@ -1003,309 +1003,592 @@
     "7. 19. yy (Dağılma) ve Islahatlar": [],
     "8. Trablusgarp ve Balkan Savaşları": [],
     "9. I. Dünya Savaşı ve Sonuçları": [
+    {
+        "soru": "I. Dünya Savaşı'ndan sonra imzalanan barış antlaşmaları, yenilen devletlere çok ağır şartlar dayatmıştır. Bu durumun en önemli uzun vadeli sonucu ne olmuştur?",
+        "secenekler": {
+            "A": "Dünya barışının kalıcı olarak sağlanması",
+            "B": "Sömürgeciliğin tamamen sona ermesi",
+            "C": "ABD'nin dünyanın tek süper gücü olması",
+            "D": "Almanya'da hoşnutsuzluğun artması ve II. Dünya Savaşı'na zemin hazırlaması",
+            "E": "Rusya'da komünizmin yıkılması"
+        },
+        "dogru_cevap": "D",
+        "cozum": "Özellikle Almanya’ya dayatılan Versay Antlaşması’nın ağır şartları, Alman halkında büyük bir öfke ve intikam duygusu yaratarak Hitler’in yükselişine ve II. Dünya Savaşı’nın çıkmasına zemin hazırlamıştır.",
+        "koc_yorumu": "Tarih bir bütündür: I. Dünya Savaşı’nın sonuçları, II. Dünya Savaşı’nın nedenlerini doğurmuştur."
+    },
+      {
+    "soru": "Osmanlı Devleti'nin I. Dünya Savaşı başında İtilaf Devletleri'ne yaptığı ittifak teklifinin İngiltere tarafından reddedilmesinin altında yatan temel stratejik neden aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Osmanlı ordusunun askeri gücünün yetersiz görülmesi",
+      "B": "Padişahın Halifelik gücünden çekinmeleri",
+      "C": "Savaş sonunda paylaşmayı planladıkları Osmanlı toprakları üzerinde bir hak iddia etmesini engellemek",
+      "D": "Almanya'nın Osmanlı üzerindeki ekonomik nüfuzundan rahatsız olmaları",
+      "E": "Boğazların tarafsız kalmasını istemeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İngiltere, Osmanlı'yı yanına almak istemedi çünkü savaştan sonra Osmanlı topraklarını paylaşmayı planlıyordu. Osmanlı'nın yanında yer alması, bu paylaşım planlarını bozardı. Bu nedenle teklif reddedildi.\n\nDoğru Cevap: C) Savaş sonunda paylaşmayı planladıkları Osmanlı toprakları üzerinde bir hak iddia etmesini engellemek\nKoçunun Yorumu: İngiltere'nin amacı Osmanlı'yı 'kurtarmak' değil, 'paylaşmaktı'."
+  },
+  {
+    "soru": "I. Dünya Savaşı sırasında yapılan gizli antlaşmalarla İtalya'ya vadedilen İzmir ve çevresinin, savaş sonundaki Paris Barış Konferansı'nda İngiltere'nin desteğiyle Yunanistan'a verilmesi, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Wilson İlkeleri'nin tam olarak uygulandığının",
+      "B": "İtilaf Devletleri arasında görüş ayrılıkları ve çıkar çatışmaları yaşandığının",
+      "C": "İtalya'nın askeri olarak Yunanistan'dan daha zayıf olduğunun",
+      "D": "Anadolu'daki Rum nüfusunun Türk nüfusundan fazla olduğunun",
+      "E": "Osmanlı Devleti'nin konferansta başarılı bir diplomasi yürüttüğünün"
+    },
+    "dogru_cevap": "B",
+    "cozum": "İzmir'in İtalya yerine Yunanistan'a verilmesi, İtilaf Devletleri'nin kendi aralarındaki çıkar çatışmalarını ve ikiyüzlü politikalarını gösterir.\n\nDoğru Cevap: B) İtilaf Devletleri arasında görüş ayrılıkları ve çıkar çatışmaları yaşandığının\nKoçunun Yorumu: Bu anlaşmazlık, Milli Mücadele döneminde Türk tarafının yararlanacağı diplomatik boşlukların habercisidir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Osmanlı Devleti'nin Kafkas Cephesi'ni açmasının hem askeri hem de ideolojik hedeflerini bir arada yansıtır?",
+    "secenekler": {
+      "A": "Süveyş Kanalı'nı ele geçirip Mısır'ı geri almak",
+      "B": "İngilizlerin Irak petrollerine ulaşmasını engellemek",
+      "C": "Rusya'nın güneye inmesini engelleyerek Bakü petrollerini ele geçirmek ve Orta Asya Türkleri ile birleşmek (Turancılık)",
+      "D": "Çanakkale Boğazı'nı savunarak İstanbul'un işgalini önlemek",
+      "E": "Müttefiklere yardım ederek Balkanlardaki Alman ilerleyişini kolaylaştırmak"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kafkas Cephesi'nin askeri hedefi Bakü petrolleri, ideolojik hedefi ise Enver Paşa'nın Turancılık hayaliydi.\n\nDoğru Cevap: C) Rusya'nın güneye inmesini engelleyerek Bakü petrollerini ele geçirmek ve Orta Asya Türkleri ile birleşmek (Turancılık)\nKoçunun Yorumu: Bu cephe, İttihat ve Terakki'nin Türkçülük politikasının bir yansımasıdır."
+  },
+  {
+    "soru": "Çanakkale Savaşları'nın kazanılması, I. Dünya Savaşı'nın genel seyrini etkileyen önemli sonuçlar doğurmuştur. Aşağıdakilerden hangisi bu sonuçlardan biri değildir?",
+    "secenekler": {
+      "A": "Savaşın süresinin uzaması",
+      "B": "Bulgaristan'ın İttifak Devletleri yanında savaşa girmesi",
+      "C": "Rusya'da ekonomik krizin derinleşmesi ve Bolşevik İhtilali'ne zemin hazırlaması",
+      "D": "Osmanlı Devleti'nin savaştan çekilmesi",
+      "E": "Mustafa Kemal'in yurt içinde ve dışında tanınan bir komutan haline gelmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Çanakkale Zaferi Osmanlı'yı güçlendirdi, savaştan çekilmesine değil, devam etmesine neden oldu.\n\nDoğru Cevap: D) Osmanlı Devleti'nin savaştan çekilmesi\nKoçunun Yorumu: Zafer, savaşa devamı sağlar; çekilmeye değil."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması'nın 24. Maddesi'nde yer alan 'Vilayet-i Sitte'de (Altı İl) bir karışıklık çıkarsa İtilaf Devletleri bu illeri işgal edebilecektir.' hükmünün asıl amacı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Bölgedeki Türk halkının güvenliğini sağlamak",
+      "B": "Rusya'nın bölgeyi işgal etmesini önlemek",
+      "C": "Bölgedeki isyanları bastırmak için Osmanlı yönetimine yardımcı olmak",
+      "D": "Gelecekte kurulması planlanan bir Ermeni devletine zemin hazırlamak",
+      "E": "Bölgedeki petrol kaynaklarını kontrol altına almak"
+    },
+    "dogru_cevap": "D",
+    "cozum": "24. Madde, Doğu Anadolu'da kurulması planlanan Ermeni devleti için hukuki zemin oluşturmayı amaçlıyordu.\n\nDoğru Cevap: D) Gelecekte kurulması planlanan bir Ermeni devletine zemin hazırlamak\nKoçunun Yorumu: 7. Madde genel işgal gerekçesiyken, 24. Madde özel amaçlıdır."
+  },
+    {
+    "soru": "Osmanlı Devleti'nin I. Dünya Savaşı başında İtilaf Devletleri'ne yaptığı ittifak teklifinin İngiltere tarafından reddedilmesinin altında yatan temel stratejik neden aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Osmanlı ordusunun askeri gücünün yetersiz görülmesi",
+      "B": "Padişahın Halifelik gücünden çekinmeleri",
+      "C": "Savaş sonunda paylaşmayı planladıkları Osmanlı toprakları üzerinde bir hak iddia etmesini engellemek",
+      "D": "Almanya'nın Osmanlı üzerindeki ekonomik nüfuzundan rahatsız olmaları",
+      "E": "Boğazların tarafsız kalmasını istemeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İngiltere, Osmanlı'yı yanına almak istemedi çünkü savaştan sonra Osmanlı topraklarını paylaşmayı planlıyordu. Osmanlı'nın yanında yer alması, bu paylaşım planlarını bozardı.\n\nDoğru Cevap: C\nKoçunun Yorumu: İngiltere'nin amacı Osmanlı'yı 'kurtarmak' değil, 'paylaşmaktı'."
+  },
+  {
+    "soru": "I. Dünya Savaşı sırasında yapılan gizli antlaşmalarla İtalya'ya vadedilen İzmir ve çevresinin, savaş sonundaki Paris Barış Konferansı'nda İngiltere'nin desteğiyle Yunanistan'a verilmesi, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Wilson İlkeleri'nin tam olarak uygulandığının",
+      "B": "İtilaf Devletleri arasında görüş ayrılıkları ve çıkar çatışmaları yaşandığının",
+      "C": "İtalya'nın askeri olarak Yunanistan'dan daha zayıf olduğunun",
+      "D": "Anadolu'daki Rum nüfusunun Türk nüfusundan fazla olduğunun",
+      "E": "Osmanlı Devleti'nin konferansta başarılı bir diplomasi yürüttüğünün"
+    },
+    "dogru_cevap": "B",
+    "cozum": "İzmir'in İtalya yerine Yunanistan'a verilmesi, İtilaf Devletleri'nin kendi aralarındaki çıkar çatışmalarını ve ikiyüzlü politikalarını gösterir.\n\nDoğru Cevap: B\nKoçunun Yorumu: Bu anlaşmazlık, Türk tarafının ileride yararlanacağı diplomatik boşlukların habercisidir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Osmanlı Devleti'nin Kafkas Cephesi'ni açmasının hem askeri hem de ideolojik hedeflerini bir arada yansıtır?",
+    "secenekler": {
+      "A": "Süveyş Kanalı'nı ele geçirip Mısır'ı geri almak",
+      "B": "İngilizlerin Irak petrollerine ulaşmasını engellemek",
+      "C": "Rusya'nın güneye inmesini engelleyerek Bakü petrollerini ele geçirmek ve Orta Asya Türkleri ile birleşmek (Turancılık)",
+      "D": "Çanakkale Boğazı'nı savunarak İstanbul'un işgalini önlemek",
+      "E": "Müttefiklere yardım ederek Balkanlardaki Alman ilerleyişini kolaylaştırmak"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kafkas Cephesi'nin askeri hedefi Bakü petrolleri, ideolojik hedefi ise Enver Paşa'nın Turancılık hayaliydi.\n\nDoğru Cevap: C\nKoçunun Yorumu: Bu cephe, İttihat ve Terakki'nin Türkçülük politikasının bir yansımasıdır."
+  },
+  {
+    "soru": "Çanakkale Savaşları'nın kazanılması, I. Dünya Savaşı'nın genel seyrini etkileyen önemli sonuçlar doğurmuştur. Aşağıdakilerden hangisi bu sonuçlardan biri değildir?",
+    "secenekler": {
+      "A": "Savaşın süresinin uzaması",
+      "B": "Bulgaristan'ın İttifak Devletleri yanında savaşa girmesi",
+      "C": "Rusya'da ekonomik krizin derinleşmesi ve Bolşevik İhtilali'ne zemin hazırlaması",
+      "D": "Osmanlı Devleti'nin savaştan çekilmesi",
+      "E": "Mustafa Kemal'in yurt içinde ve dışında tanınan bir komutan haline gelmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Çanakkale Zaferi Osmanlı'yı güçlendirdi, savaştan çekilmesine değil, devam etmesine neden oldu.\n\nDoğru Cevap: D\nKoçunun Yorumu: Zafer, savaşa devamı sağlar; çekilmeye değil."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması'nın 24. Maddesi'nde yer alan 'Vilayet-i Sitte'de (Altı İl) bir karışıklık çıkarsa İtilaf Devletleri bu illeri işgal edebilecektir.' hükmünün asıl amacı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Bölgedeki Türk halkının güvenliğini sağlamak",
+      "B": "Rusya'nın bölgeyi işgal etmesini önlemek",
+      "C": "Bölgedeki isyanları bastırmak için Osmanlı yönetimine yardımcı olmak",
+      "D": "Gelecekte kurulması planlanan bir Ermeni devletine zemin hazırlamak",
+      "E": "Bölgedeki petrol kaynaklarını kontrol altına almak"
+    },
+    "dogru_cevap": "D",
+    "cozum": "24. Madde, Doğu Anadolu'da kurulması planlanan Ermeni devleti için hukuki zemin oluşturmayı amaçlıyordu.\n\nDoğru Cevap: D\nKoçunun Yorumu: 7. Madde genel işgal gerekçesiyken, 24. Madde özel amaçlıdır."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması'nın imzalanmasından sonra İtilaf Devletleri'nin 7. Maddeye dayanarak Anadolu'nun farklı bölgelerini işgal etmeye başlamalarının en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Osmanlı Devleti'nin hızla toparlanarak işgallere karşı koyması",
+      "B": "Mustafa Kemal'in Anadolu'ya geçerek ulusal direnişi başlatması",
+      "C": "Saltanatın işgallere karşı direnç göstermesi",
+      "D": "İngiltere'nin Osmanlı ile ittifak kurması",
+      "E": "Anadolu'da Türk halkının işgalleri sevinçle karşılaması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "İşgaller, Mustafa Kemal'in Samsun'a çıkışını ve Milli Mücadele'nin başlamasını tetiklemiştir.\n\nDoğru Cevap: B\nKoçunun Yorumu: İşgaller, direnişi doğurdu."
+  },
+  {
+    "soru": "Mustafa Kemal'in 'Ya istiklal ya ölüm!' sözü aşağıdaki kongrelerden hangisinde alınan kararların temel felsefesini en iyi açıklar?",
+    "secenekler": {
+      "A": "Erzurum Kongresi",
+      "B": "Sivas Kongresi",
+      "C": "Amasya Görüşmeleri",
+      "D": "Balıkesir Kongresi",
+      "E": "Afyon Kongresi"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Erzurum Kongresi'nde alınan kararların özünde bağımsızlık ilkesi vardır.\n\nDoğru Cevap: A\nKoçunun Yorumu: Erzurum'da bağımsızlık fikri tüm kararların merkezindeydi."
+  },
+  {
+    "soru": "Misak-ı Milli kararlarının alınması, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Saltanatın bağımsızlık için mücadele ettiğinin",
+      "B": "Milli Mücadele'nin halk desteğinden yoksun olduğunun",
+      "C": "Ulusal sınırların belirlendiğinin",
+      "D": "İtilaf Devletleri ile uzlaşı sağlandığının",
+      "E": "Osmanlı Devleti'nin savaştan çekildiğinin"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Misak-ı Milli, Türk milletinin kabul ettiği ulusal sınırları ortaya koymuştur.\n\nDoğru Cevap: C\nKoçunun Yorumu: Misak-ı Milli, bağımsızlığın coğrafi çerçevesidir."
+  },
+  {
+    "soru": "Sevr Antlaşması'nın en önemli özelliği aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Osmanlı Devleti'nin fiilen sona erdiğini tescil etmesi",
+      "B": "Osmanlı Devleti'nin sınırlarını genişletmesi",
+      "C": "İtilaf Devletleri'nin Osmanlı ile eşit şartlarda antlaşma imzalaması",
+      "D": "Türk halkının bağımsızlık mücadelesini desteklemesi",
+      "E": "Osmanlı'nın topraklarını korumasına izin vermesi"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Sevr, Osmanlı'yı fiilen ortadan kaldıran antlaşmadır.\n\nDoğru Cevap: A\nKoçunun Yorumu: Sevr, Türk milletini yok sayan bir belgedir."
+  },
+  {
+    "soru": "Sakarya Meydan Muharebesi'nin sonucunda imzalanan Ankara Antlaşması ile aşağıdakilerden hangisi gerçekleşmiştir?",
+    "secenekler": {
+      "A": "İngiltere ile dostane ilişkiler kurulmuştur",
+      "B": "İtalya Anadolu'dan tamamen çekilmiştir",
+      "C": "Fransa ile savaş sona ermiş ve güney cephesi kapanmıştır",
+      "D": "Boğazlar Türk kontrolüne geçmiştir",
+      "E": "Sevr Antlaşması tamamen yürürlükten kalkmıştır"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Ankara Antlaşması ile Fransa, TBMM'yi tanıdı ve güney cephesi kapandı.\n\nDoğru Cevap: C\nKoçunun Yorumu: Sakarya zaferi, diplomatik kazanımları da beraberinde getirdi."
+  },
+  {
+    "soru": "Mudanya Ateşkes Antlaşması'nın en önemli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yunanistan'ın Anadolu'dan çekilmesi",
+      "B": "Doğu sınırlarının kesinleşmesi",
+      "C": "Osmanlı Devleti'nin resmen sona ermesi",
+      "D": "İstanbul ve Boğazların savaş yapılmadan TBMM yönetimine bırakılması",
+      "E": "Lozan Antlaşması'nın imzalanması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Mudanya ile İstanbul ve Boğazlar savaş yapılmadan Türk yönetimine bırakıldı.\n\nDoğru Cevap: D\nKoçunun Yorumu: Diplomasi, askeri başarıların sonucunu taçlandırdı."
+  },
+  {
+    "soru": "Lozan Antlaşması'nın kapitülasyonlar ile ilgili maddeleri aşağıdakilerden hangisini göstermektedir?",
+    "secenekler": {
+      "A": "Ekonomik bağımsızlığın sağlandığını",
+      "B": "Osmanlı borçlarının tamamen silindiğini",
+      "C": "Türkiye'nin manda altına alındığını",
+      "D": "Azınlıklara özel ayrıcalıklar tanındığını",
+      "E": "Boğazların tamamen Türk egemenliğine geçtiğini"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Lozan'da kapitülasyonlar kaldırıldı, bu da ekonomik bağımsızlığın sağlandığını gösterir.\n\nDoğru Cevap: A\nKoçunun Yorumu: Kapitülasyonların kalkması, tam bağımsızlık yolunun temelidir."
+  },
      {
-        "soru": "Osmanlı Devleti'nin, I. Dünya Savaşı'nın başında tarafsızlığını ilan etmesine rağmen kısa bir süre sonra İttifak Devletleri yanında savaşa girmesinde aşağıdakilerden hangisi etkili olmamıştır?",
-        "secenekler": {
-            "A": "Kaybedilen toprakları (özellikle Balkanlar ve Kırım) geri alma isteği",
-            "B": "İttihat ve Terakki liderlerinin Alman hayranlığı ve Almanya'nın savaşı kazanacağına olan inancı",
-            "C": "İngiltere ve Fransa'nın, Osmanlı'nın kapitülasyonları tek taraflı kaldırmasına sert tepki göstermesi",
-            "D": "İngiltere'nin, parası peşin ödenen Goeben ve Breslau zırhlılarına el koyması",
-            "E": "Padişah V. Mehmet Reşat'ın savaşa girme yönündeki ısrarlı tutumu"
-        },
-        "dogru_cevap": "E",
-        "cozum": "A, B, C ve D seçenekleri Osmanlı'nın savaşa girmesinde etkili olan siyasi, askeri ve ekonomik nedenlerdir. Ancak Padişah V. Mehmet Reşat savaşa isteksizdi. İttihat ve Terakki'nin baskın rolü belirleyici oldu.",
-        "koc_yorumu": "İttihat ve Terakki'nin oldubittici tavrı çok önemlidir, ÖSYM bu ayrımı seviyor."
+    "soru": "Lozan Antlaşması’nda çözüme kavuşturulamayan ve ilerleyen yıllarda Türk dış politikasının temel meselelerinden biri olan sorun aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Kapitülasyonlar",
+      "B": "Musul Sorunu",
+      "C": "Boğazlar Meselesi",
+      "D": "Yunanistan ile sınır sorunu",
+      "E": "Osmanlı borçları"
     },
-    {
-        "soru": "Osmanlı Devleti'nin, müttefiklerine yardım etmek amacıyla kendi sınırları dışında savaştığı cepheler aşağıdakilerden hangisinde doğru olarak verilmiştir?",
-        "secenekler": {
-            "A": "Kafkas - Kanal",
-            "B": "Galiçya - Romanya - Makedonya",
-            "C": "Irak - Suriye - Filistin",
-            "D": "Çanakkale - Hicaz - Yemen",
-            "E": "Galiçya - Çanakkale - Suriye"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Kafkas ve Kanal taarruz; Irak, Suriye, Çanakkale, Hicaz savunma cepheleridir. Osmanlı'nın yardım cepheleri Galiçya, Romanya ve Makedonya'dır.",
-        "koc_yorumu": "Cepheleri Taarruz-Savunma-Yardım diye gruplandırmak akılda kalıcı olur."
+    "dogru_cevap": "B",
+    "cozum": "Lozan’da Musul Sorunu çözülememiş, Türkiye ile İngiltere arasında sonraki yıllarda gündemde kalmıştır.\n\nDoğru Cevap: B\nKoçunun Yorumu: Lozan her meseleyi çözmedi, bazı konular ileriye bırakıldı."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Lozan Antlaşması ile Türkiye’nin elde ettiği kazanımlardan biridir?",
+    "secenekler": {
+      "A": "Doğu Anadolu’da Ermeni Devleti kurulması",
+      "B": "Kapitülasyonların kaldırılması",
+      "C": "Musul’un Türkiye’ye bırakılması",
+      "D": "Kıbrıs’ın Türkiye’ye verilmesi",
+      "E": "Hatay’ın Türkiye sınırlarına dahil edilmesi"
     },
-    {
-        "soru": "I. Dünya Savaşı sırasında İtilaf Devletleri'nin, Osmanlı topraklarını kendi aralarında paylaştıkları gizli antlaşmalarda yer alan Boğazlar bölgesinin Rusya'ya verilmesi kararı, aşağıdaki gelişmelerin hangisiyle geçersiz hale gelmiştir?",
-        "secenekler": {
-            "A": "ABD'nin savaşa girmesi",
-            "B": "Wilson İlkeleri'nin yayımlanması",
-            "C": "Çanakkale Savaşları'nın kazanılması",
-            "D": "Rusya'da Bolşevik Devrimi'nin yaşanması ve yeni yönetimin savaştan çekilmesi",
-            "E": "Mondros Ateşkes Antlaşması'nın imzalanması"
-        },
-        "dogru_cevap": "D",
-        "cozum": "Bolşevik Devrimi sonrası Sovyetler savaştan çekildi, gizli antlaşmalar ifşa edilerek Rusya'nın payı ortadan kalktı.",
-        "koc_yorumu": "Bolşevik Devrimi, sadece Rusya değil Osmanlı'nın geleceği için de dönüm noktasıdır."
+    "dogru_cevap": "B",
+    "cozum": "Lozan ile kapitülasyonlar kaldırıldı ve ekonomik bağımsızlık sağlandı.\n\nDoğru Cevap: B\nKoçunun Yorumu: Bu kazanım, Misak-ı Milli’nin en temel hedeflerinden biriydi."
+  },
+  {
+    "soru": "Lozan Antlaşması’nda Boğazlar konusunda alınan karar aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Boğazlar tamamen Türk egemenliğine bırakıldı",
+      "B": "Boğazlar Milletler Cemiyeti’ne bırakıldı",
+      "C": "Boğazlar uluslararası bir komisyon tarafından yönetilecek, Türkiye’nin asker bulundurması yasaklanacak",
+      "D": "Boğazlar Yunanistan’a bırakıldı",
+      "E": "Boğazların yönetimi ABD’nin kontrolüne verildi"
     },
-    {
-        "soru": "Mondros Ateşkes Antlaşması'nın 'İtilaf Devletleri, güvenliklerini tehdit edecek bir durum ortaya çıkması hâlinde, herhangi bir stratejik noktayı işgal etme hakkına sahip olacaktır.' maddesi aşağıdakilerden hangisidir?",
-        "secenekler": {
-            "A": "1. Madde",
-            "B": "7. Madde",
-            "C": "12. Madde",
-            "D": "24. Madde",
-            "E": "25. Madde"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Bu madde İtilaf Devletleri’ne Anadolu’yu keyfi işgal hakkı tanıyordu. Bu madde 7. Madde'dir.",
-        "koc_yorumu": "Mondros’un 7. ve 24. maddelerini ayrı ayrı ezberle."
+    "dogru_cevap": "C",
+    "cozum": "Lozan’da Boğazlar uluslararası komisyona bırakıldı, Türkiye’nin asker bulundurması yasaklandı. (1936 Montrö Antlaşması ile değişecektir.)\n\nDoğru Cevap: C\nKoçunun Yorumu: Lozan kazanımlarının yanında bazı tavizleri de içeriyordu."
+  },
+  {
+    "soru": "Lozan Antlaşması’nın azınlıklarla ilgili maddeleri hangi ilkeye dayandırılmıştır?",
+    "secenekler": {
+      "A": "Azınlıklara özerklik verilmesi",
+      "B": "Azınlıklara ayrı devlet kurma hakkı verilmesi",
+      "C": "Türk vatandaşı sayılan herkesin eşit haklara sahip olması",
+      "D": "Azınlıkların tamamen sürülmesi",
+      "E": "Azınlıklara kapitülasyonların devam etmesi"
     },
-    {
-        "soru": "ABD Başkanı Wilson'un yayımladığı ilkelerde yer alan 'Osmanlı İmparatorluğu'ndaki Türklerin oturduğu bölgelerin egemenliği sağlanmalı, diğer uluslara da kendilerini geliştirme ve özerklik hakkı tanınmalıdır.' maddesi, aşağıdakilerden hangisine temel oluşturmuştur?",
-        "secenekler": {
-            "A": "Manda ve himaye sistemine",
-            "B": "Milli Mücadele'nin haklılığına ve Misakımilli'nin belirlenmesine",
-            "C": "Kapitülasyonların kaldırılmasına",
-            "D": "Padişahlığın devam etmesi fikrine",
-            "E": "Gizli antlaşmaların uygulanmasına"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Bu madde, Türklerin çoğunlukta olduğu bölgelerde bağımsızlık hakkını öngörüyordu. Misakımilli’nin temel dayanağı oldu.",
-        "koc_yorumu": "Wilson İlkeleri, Milli Mücadele’nin haklılığının hukuki dayanağıdır."
+    "dogru_cevap": "C",
+    "cozum": "Lozan’da azınlıklar, Türk vatandaşı kabul edilmiş ve eşit haklara sahip oldukları belirtilmiştir.\n\nDoğru Cevap: C\nKoçunun Yorumu: Bu madde, ulusal bütünlüğün korunması için büyük önem taşır."
+  },
+  {
+    "soru": "Lozan Antlaşması’nın imzalanmasıyla birlikte aşağıdaki sonuçlardan hangisi kesin olarak sağlanmıştır?",
+    "secenekler": {
+      "A": "Türkiye’nin bağımsızlığının uluslararası alanda tanınması",
+      "B": "Musul’un Türkiye’ye bırakılması",
+      "C": "Hatay’ın Türkiye’ye bağlanması",
+      "D": "Kıbrıs’ın Türkiye’ye verilmesi",
+      "E": "Boğazların tamamen Türk hakimiyetine girmesi"
     },
-    {
-        "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'nda İngiltere'nin sömürge yollarını kesmek ve Mısır'ı geri almak amacıyla açtığı taarruz cephesi aşağıdakilerden hangisidir?",
-        "secenekler": {
-            "A": "Kafkas Cephesi",
-            "B": "Çanakkale Cephesi",
-            "C": "Irak Cephesi",
-            "D": "Kanal Cephesi",
-            "E": "Hicaz Cephesi"
-        },
-        "dogru_cevap": "D",
-        "cozum": "Süveyş Kanalı’nı ele geçirip İngiltere’nin Hindistan bağlantısını kesmek amaçlandı.",
-        "koc_yorumu": "Osmanlı’nın iki taarruz cephesini bil: Kafkas (Rusya’ya), Kanal (İngiltere’ye)."
+    "dogru_cevap": "A",
+    "cozum": "Lozan ile Türkiye’nin bağımsızlığı uluslararası alanda kesin olarak tanınmıştır.\n\nDoğru Cevap: A\nKoçunun Yorumu: Lozan, Türk milletinin Kurtuluş Savaşı’yla kazandığı zaferi diplomasiyle taçlandırdı."
+  },
+     {
+    "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na katılmasında en önemli etkenlerden biri aşağıdakilerden hangisidir?",
+    "secenekler": {
+    "A": "Rusya ile ilişkileri düzeltmek",
+    "B": "Kaybettiği toprakları geri almak",
+    "C": "İngiltere ile ittifak kurmak",
+    "D": "Fransa'nın desteğini sağlamak",
+    "E": "ABD ile yakınlaşmak"
     },
-    {
-        "soru": "Aşağıdakilerden hangisi I. Dünya Savaşı'nın siyasi sonuçlarından biri değildir?",
-        "secenekler": {
-            "A": "İmparatorlukların yıkılması",
-            "B": "Yeni ulus devletlerin kurulması",
-            "C": "Sivil savunma teşkilatlarının kurulması",
-            "D": "Totaliter rejimlerin ortaya çıkması",
-            "E": "Milletler Cemiyeti'nin kurulması"
-        },
-        "dogru_cevap": "C",
-        "cozum": "Sivil savunma teşkilatları savaşın askeri/sosyal sonucudur, siyasi değil.",
-        "koc_yorumu": "ÖSYM, sonuçları siyasi-ekonomik-sosyal diye ayırmanı ister."
+    "dogru_cevap": "B",
+    "cozum": "Osmanlı Devleti savaşa girerken temel amacı kaybettiği toprakları geri almak ve eski gücünü kazanabilmekti. Bu yüzden Almanya ile ittifak yaptı."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması'nın 7. maddesi İtilaf Devletlerine ne gibi bir hak tanımıştır?",
+    "secenekler": {
+    "A": "Osmanlı ordusunu terhis etme",
+    "B": "Boğazları işgal etme",
+    "C": "Güvenliklerini tehdit eden bölgeleri işgal etme",
+    "D": "Saltanatı kaldırma",
+    "E": "Vergi toplama yetkisini devralma"
     },
-    {
-        "soru": "İngiltere ve Fransa'nın, savaş sonrasında Osmanlı'nın Orta Doğu topraklarını kendi aralarında paylaştıkları gizli antlaşma aşağıdakilerden hangisidir?",
-        "secenekler": {
-            "A": "Londra Paktı",
-            "B": "Petrograd Protokolü",
-            "C": "Sykes-Picot Antlaşması",
-            "D": "St. Jean de Maurienne Antlaşması",
-            "E": "Versay Antlaşması"
-        },
-        "dogru_cevap": "C",
-        "cozum": "Musul dahil Irak ve Suriye, İngiltere ve Fransa arasında paylaşıldı.",
-        "koc_yorumu": "En çok sorulan gizli antlaşmadır, günümüze etkisi büyüktür."
+    "dogru_cevap": "C",
+    "cozum": "7. maddeye göre İtilaf Devletleri, güvenliklerini tehdit eden herhangi bir stratejik bölgeyi işgal edebilecekti. Bu madde işgallerin temel dayanağı olmuştur."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Osmanlı Devleti'nin I. Dünya Savaşı'nda başarılı olduğu cephedir?",
+    "secenekler": {
+    "A": "Kafkas Cephesi",
+    "B": "Kanal Cephesi",
+    "C": "Çanakkale Cephesi",
+    "D": "Suriye-Filistin Cephesi",
+    "E": "Hicaz-Yemen Cephesi"
     },
-    {
-        "soru": "Çanakkale Savaşları'nın kazanılmasının, savaşın genel gidişatı üzerindeki en önemli etkisi ne olmuştur?",
-        "secenekler": {
-            "A": "Osmanlı Devleti'nin savaşı kazanmasını sağlamıştır.",
-            "B": "Savaşın en az iki yıl uzamasına ve Rusya'da ihtilal çıkmasına zemin hazırlamıştır.",
-            "C": "ABD'nin savaşa girmesine neden olmuştur.",
-            "D": "Almanya'nın savaştan çekilmesine yol açmıştır.",
-            "E": "Gizli antlaşmaların iptal edilmesini sağlamıştır."
-        },
-        "dogru_cevap": "B",
-        "cozum": "İtilaf Devletleri Rusya’ya yardım ulaştıramayınca, Rusya’da Bolşevik İhtilali hızlandı.",
-        "koc_yorumu": "Çanakkale Zaferi dünya tarihi için de kritik sonuçlar doğurdu."
+    "dogru_cevap": "C",
+    "cozum": "Osmanlı Devleti Çanakkale Cephesi'nde başarılı olmuş, İtilaf Devletleri boğazları geçememiştir. Bu sonuç Rusya'ya yardım ulaşamamasına neden olmuştur."
+  },
+  {
+    "soru": "Sarıkamış Harekâtı hangi cephede gerçekleşmiştir?",
+    "secenekler": {
+    "A": "Irak Cephesi",
+    "B": "Kafkas Cephesi",
+    "C": "Çanakkale Cephesi",
+    "D": "Suriye Cephesi",
+    "E": "Kanal Cephesi"
     },
-    {
-        "soru": "I. Dünya Savaşı'nın süresini kısaltan ve savaşın İtilaf Devletleri lehine sonuçlanmasında belirleyici olan gelişme aşağıdakilerden hangisidir?",
-        "secenekler": {
-            "A": "Rusya'nın savaştan çekilmesi",
-            "B": "Çanakkale Savaşları'nın kazanılması",
-            "C": "ABD'nin savaşa girmesi",
-            "D": "Bulgaristan'ın savaşa girmesi",
-            "E": "Sarıkamış Harekatı"
-        },
-        "dogru_cevap": "C",
-        "cozum": "ABD, güçlü ordusu ile dengeyi İtilaf lehine kesin biçimde değiştirdi.",
-        "koc_yorumu": "ABD’nin savaşa girişi = savaşın bitiş sürecini hızlandırdı."
+    "dogru_cevap": "B",
+    "cozum": "Sarıkamış Harekâtı 1914 yılında Kafkas Cephesi'nde gerçekleşmiş ve Osmanlı büyük kayıplar vermiştir."
+  },
+  {
+    "soru": "Mustafa Kemal I. Dünya Savaşı'nda aşağıdaki cephelerin hangisinde görev yapmamıştır?",
+    "secenekler": {
+    "A": "Çanakkale",
+    "B": "Kafkas",
+    "C": "Suriye-Filistin",
+    "D": "Trablusgarp",
+    "E": "Irak"
     },
-    {
-        "soru": "Kafkas Cephesi'nde mücadele eden Mustafa Kemal'in, Ruslardan Muş ve Bitlis'i geri alması, onun hangi askeri rütbeyi almasını sağlamıştır?",
-        "secenekler": {
-            "A": "Miralay (Albay)",
-            "B": "Mirliva (Tuğgeneral)",
-            "C": "Ferik (Korgeneral)",
-            "D": "Birinci Ferik (Orgeneral)",
-            "E": "Müşir (Mareşal)"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Bu başarısı üzerine Mirliva (Tuğgeneral) rütbesine terfi etti.",
-        "koc_yorumu": "Mustafa Kemal’in terfi ettiği olayları bilmek çok önemlidir."
+    "dogru_cevap": "E",
+    "cozum": "Mustafa Kemal Irak Cephesi'nde görev yapmamıştır. Çanakkale, Kafkas ve Suriye-Filistin cephelerinde görev almıştır."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması'nın 24. maddesi hangi bölgeyi ilgilendirmektedir?",
+    "secenekler": {
+    "A": "Boğazlar",
+    "B": "Trakya",
+    "C": "Doğu Anadolu",
+    "D": "İzmir ve çevresi",
+    "E": "Musul"
     },
-    {
-        "soru": "I. Dünya Savaşı'nı bitiren barış antlaşmaları ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
-        "secenekler": {
-            "A": "Almanya - Versay Antlaşması",
-            "B": "Avusturya - Saint-Germain Antlaşması",
-            "C": "Macaristan - Trianon Antlaşması",
-            "D": "Bulgaristan - Nöyyi Antlaşması",
-            "E": "Osmanlı Devleti - Mondros Antlaşması"
-        },
-        "dogru_cevap": "E",
-        "cozum": "Mondros ateşkes antlaşmasıdır, barış antlaşması değildir. Osmanlı ile barış Sevr’dir.",
-        "koc_yorumu": "Ateşkes-barış farkını bilmek kritik."
+    "dogru_cevap": "C",
+    "cozum": "24. madde, Doğu Anadolu’daki 6 vilayeti kapsamaktadır. Bu bölgelerde karışıklık çıkarsa İtilaf Devletleri işgal edebilecekti."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin savaştığı yardım cephelerinden biri aşağıdakilerden hangisidir?",
+    "secenekler": {
+    "A": "Çanakkale",
+    "B": "Kafkas",
+    "C": "Galiçya",
+    "D": "Suriye",
+    "E": "Irak"
     },
-    {
-        "soru": "Mondros Ateşkes Antlaşması'ndan sonra Anadolu'da İtilaf Devletleri tarafından işgal edilen ilk yer neresidir?",
-        "secenekler": {
-            "A": "İstanbul",
-            "B": "İzmir",
-            "C": "Musul",
-            "D": "Antalya",
-            "E": "Kars"
-        },
-        "dogru_cevap": "C",
-        "cozum": "3 Kasım 1918’de İngilizler Musul’u işgal etti.",
-        "koc_yorumu": "Mondros sonrası işgal sürecinin nasıl başladığını gösterir."
+    "dogru_cevap": "C",
+    "cozum": "Galiçya, Osmanlı'nın müttefiklerine asker göndererek destek verdiği yardım cephelerinden biridir."
+  },
+  {
+    "soru": "Aşağıdaki antlaşmalardan hangisi I. Dünya Savaşı’nı Osmanlı Devleti açısından sona erdirmiştir?",
+    "secenekler": {
+    "A": "Lozan",
+    "B": "Mondros",
+    "C": "Sevr",
+    "D": "Mudanya",
+    "E": "Ankara"
     },
-    {
-        "soru": "Aşağıdakilerden hangisi Wilson İlkeleri'nde yer alan kararlardan biri değildir?",
-        "secenekler": {
-            "A": "Yenen devletler, yenilen devletlerden toprak almayacak.",
-            "B": "Devletler arasında gizli antlaşmalar yapılmayacak.",
-            "C": "Uluslararası barışı sağlamak için Milletler Cemiyeti kurulacak.",
-            "D": "Sömürgeciliğin yerini manda ve himaye sistemi alacak.",
-            "E": "Boğazlar, bütün devletlerin ticaret gemilerine açık olacak."
-        },
-        "dogru_cevap": "D",
-        "cozum": "Manda ve himaye sistemi Paris Barış Konferansı’nda ortaya çıktı, Wilson İlkeleri’nde yoktur.",
-        "koc_yorumu": "Wilson İlkeleri idealistti, manda sistemi ise gerçekçi-emperyalist çözümdü."
+    "dogru_cevap": "B",
+    "cozum": "Osmanlı Devleti, 30 Ekim 1918'de imzalanan Mondros Ateşkes Antlaşması ile I. Dünya Savaşı’ndan çekilmiştir."
+  },
+  {
+    "soru": "Kut'ül Amare Zaferi hangi cephede kazanılmıştır?",
+    "secenekler": {
+    "A": "Çanakkale",
+    "B": "Irak",
+    "C": "Kafkas",
+    "D": "Kanal",
+    "E": "Suriye"
     },
-    {
-        "soru": "Mondros Ateşkes Antlaşması sonrası başlayan işgallere karşı Türk halkının ilk tepkisi ne şekilde olmuştur?",
-        "secenekler": {
-            "A": "Padişahın etrafında birleşmek",
-            "B": "ABD mandasını istemek",
-            "C": "Bölgesel direniş cemiyetleri kurmak",
-            "D": "Topluca Hristiyanlığa geçmek",
-            "E": "Saltanat Şûrası'nı toplamak"
-        },
-        "dogru_cevap": "C",
-        "cozum": "Halk, Müdafaa-i Hukuk gibi cemiyetlerle bölgesel örgütlenmelere gitti.",
-        "koc_yorumu": "Milli Mücadele’nin temeli bu cemiyetlerdir."
+    "dogru_cevap": "B",
+    "cozum": "1916 yılında Osmanlı ordusu Irak Cephesi’nde İngilizlere karşı Kut’ül Amare Zaferi’ni kazanmıştır."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi I. Dünya Savaşı'nın genel sonuçlarından biri değildir?",
+    "secenekler": {
+    "A": "Milletler Cemiyeti'nin kurulması",
+    "B": "Yeni devletlerin kurulması",
+    "C": "Saltanatın kaldırılması",
+    "D": "Osmanlı İmparatorluğu'nun yıkılması",
+    "E": "Avusturya-Macaristan'ın parçalanması"
     },
-    {
-        "soru": "Kafkas Cephesi'nde yaşanan Sarıkamış Felaketi'nden sonra Rusların Doğu Anadolu'da ilerlemesi, bölgede hangi isyanın çıkmasına ve Tehcir Kanunu’nun çıkarılmasına neden olmuştur?",
-        "secenekler": {
-            "A": "Rum İsyanı",
-            "B": "Arap İsyanı",
-            "C": "Ermeni İsyanı",
-            "D": "Yörük Ali Efe İsyanı",
-            "E": "Şeyh Sait İsyanı"
-        },
-        "dogru_cevap": "C",
-        "cozum": "Ermeniler Ruslarla işbirliği yapınca Tehcir Kanunu çıkarıldı.",
-        "koc_yorumu": "Sarıkamış sonrası Ermeni olaylarını bilmek önemli."
+    "dogru_cevap": "C",
+    "cozum": "Saltanatın kaldırılması I. Dünya Savaşı'nın değil, Cumhuriyet döneminin sonucudur."
+  },
+  {
+    "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti’nin İngiltere’ye karşı açtığı taarruz cephesi aşağıdakilerden hangisidir?",
+    "secenekler": {
+    "A": "Çanakkale",
+    "B": "Irak",
+    "C": "Kanal",
+    "D": "Suriye",
+    "E": "Hicaz"
     },
-    {
-        "soru": "Aşağıdakilerden hangisi, Osmanlı Devleti'nin I. Dünya Savaşı'na Almanya'nın yanında girme nedenlerinden biridir?",
-        "secenekler": {
-            "A": "Rusya ile tarihi dostluk ilişkileri",
-            "B": "İngiltere ve Fransa'nın Osmanlı toprak bütünlüğünü garanti etmesi",
-            "C": "İttihat ve Terakki yöneticilerinin, Almanya'nın savaşı kazanarak kaybedilen toprakları geri alabileceğine inanması",
-            "D": "Halkın büyük bir çoğunluğunun savaşa girilmesini istemesi",
-            "E": "ABD'nin ekonomik yardım vaadi"
-        },
-        "dogru_cevap": "C",
-        "cozum": "Enver Paşa ve İttihatçılar Almanya sayesinde toprakların geri alınacağını düşündü.",
-        "koc_yorumu": "Enver Paşa’nın Alman hayranlığı çok belirleyiciydi."
+    "dogru_cevap": "C",
+    "cozum": "Osmanlı, Süveyş Kanalı'nı ele geçirmek amacıyla Kanal Cephesi'nde İngiltere'ye karşı taarruz başlatmıştır."
+  },
+  {
+    "soru": "Mustafa Kemal'in 'Anafartalar Kahramanı' unvanını aldığı savaş aşağıdakilerden hangisidir?",
+    "secenekler": {
+    "A": "Sakarya Meydan Muharebesi",
+    "B": "I. İnönü Savaşı",
+    "C": "Çanakkale Savaşı",
+    "D": "Büyük Taarruz",
+    "E": "Kafkas Cephesi"
     },
-    {
-        "soru": "I. Dünya Savaşı'nı sona erdiren ateşkes antlaşmalarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
-        "secenekler": {
-            "A": "Osmanlı Devleti - Mondros",
-            "B": "Bulgaristan - Selanik",
-            "C": "Avusturya - Villa Gusti",
-            "D": "Macaristan - Rethondes",
-            "E": "Almanya - Rethondes"
-        },
-        "dogru_cevap": "D",
-        "cozum": "Macaristan doğrudan Trianon ile barış yaptı, ateşkes yapmadı.",
-        "koc_yorumu": "Detay sorusu olsa da kronoloji bilmek önemlidir."
+    "dogru_cevap": "C",
+    "cozum": "Mustafa Kemal, Çanakkale Cephesi’nde Anafartalar Muharebesi'ndeki başarısından dolayı 'Anafartalar Kahramanı' unvanını almıştır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na katılmasıyla aşağıdakilerden hangisi amaçlanmamıştır?",
+    "secenekler": {
+    "A": "Kapitülasyonlardan kurtulmak",
+    "B": "Kaybettiği toprakları geri almak",
+    "C": "Almanya’ya yakınlaşmak",
+    "D": "Saltanatı kaldırmak",
+    "E": "Halifelik gücünü kullanmak"
     },
-    {
-        "soru": "'Vilayet-i Sitte' (Altı İl) olan Van, Erzurum, Sivas, Bitlis, Diyarbakır ve Harput'ta karışıklık çıkması durumunda İtilaf Devletleri'nin işgal hakkı hangi belgede yer almıştır?",
-        "secenekler": {
-            "A": "Wilson İlkeleri",
-            "B": "Mondros Ateşkes Antlaşması (24. Madde)",
-            "C": "Sevr Antlaşması",
-            "D": "Amasya Genelgesi",
-            "E": "Paris Barış Konferansı"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Kut'ül Amare Kuşatması. 1916'daki bu zafer, I. Dünya Savaşı'nda Osmanlı ordusunun kazandığı en büyük ve son zaferlerden biridir. Koçunun Yorumu: Çanakkale kadar bilinmese de, Kut'ül Amare, İngilizlere karşı kazanılmış çok önemli bir prestij zaferidir.",
-   },
-    {
-        "soru": "Aşağıdakilerden hangisi, savaş sonunda yıkılan imparatorlukların topraklarında kurulan 'Manda ve Himaye' rejiminin tanımıdır?",
-        "secenekler": {
-            "A": "Halkların kendi kaderini tayin etmesi",
-            "B": "Sömürgeciliğin, 'az gelişmiş toplumları medenileştirme' adı altında Milletler Cemiyeti kontrolünde devam ettirilmesi",
-            "C": "Ülkeler arasında tam bir ekonomik serbestlik olması",
-            "D": "İşçi haklarının uluslararası güvence altına alınması",
-            "E": "Silahsızlanma ve orduların lağvedilmesi"
-        },
-        "dogru_cevap": "B",
-        "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' ilkesini delmek için İngiltere ve Fransa'nın bulduğu bir formüldür. Orta Doğu'daki Osmanlı toprakları (Irak, Suriye, Filistin vb.) bu sistemle paylaşılmıştır.",
-        "koc_yorumu": "Manda-himaye sistemi aslında sömürgeciliğin kılıf değiştirmiş halidir."
+    "dogru_cevap": "D",
+    "cozum": "Saltanatın kaldırılması Osmanlı’nın savaşa giriş amaçları arasında değildir. Bu Cumhuriyet dönemine aittir."
+  },
+  {
+    "soru": "Osmanlı Devleti, I. Dünya Savaşı'nda hangi cephede İngiliz destekli Arap isyanıyla uğraşmıştır?",
+    "secenekler": {
+    "A": "Kafkas",
+    "B": "Irak",
+    "C": "Hicaz-Yemen",
+    "D": "Kanal",
+    "E": "Suriye"
     },
-    {
-        "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine neden olan olay hangisidir?",
-        "secenekler": {
-            "A": "Saraybosna suikastı",
-            "B": "Almanya ile gizli bir ittifak antlaşması imzalaması",
-            "C": "Goeben ve Breslau zırhlılarının Rus limanlarını bombalaması",
-            "D": "Kapitülasyonları tek taraflı olarak kaldırması",
-            "E": "Seferberlik ilan etmesi"
-        },
-        "dogru_cevap": "C",
-        "cozum": "İngiliz donanmasından kaçarak Osmanlı'ya sığınan bu iki Alman gemisi, Yavuz ve Midilli adlarıyla Osmanlı bayrağı çekilerek Karadeniz'e açılıp Rus limanlarını bombalamıştır. Bu olay Osmanlı'nın fiilen savaşa girmesine neden olmuştur.",
-        "koc_yorumu": "Bu olay bir oldubittidir, Osmanlı'nın savaşa girişinde dönüm noktasıdır."
+    "dogru_cevap": "C",
+    "cozum": "Osmanlı, Hicaz-Yemen Cephesi'nde Şerif Hüseyin önderliğinde İngiliz destekli Arap isyanı ile karşılaşmıştır."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Çanakkale Cephesi’nin sonuçlarından biri değildir?",
+    "secenekler": {
+    "A": "Rusya’ya yardım ulaştırılamadı",
+    "B": "Bulgaristan İttifak Devletleri yanında savaşa katıldı",
+    "C": "Mustafa Kemal komutan olarak tanındı",
+    "D": "İtilaf Devletleri büyük kayıp verdi",
+    "E": "İngiltere Musul’u işgal etti"
     },
-    {
-        "soru": "Paris Barış Konferansı'nda, daha önce gizli antlaşmalarla İtalya'ya vadedilen İzmir ve çevresinin, İngiltere'nin desteğiyle Yunanistan'a verilmesinin temel nedeni nedir?",
-        "secenekler": {
-            "A": "İtalya'nın savaştan çekilmesi",
-            "B": "Yunanistan'ın askeri olarak daha güçlü olması",
-            "C": "Bölgedeki Rum nüfusunun fazlalığı bahanesi",
-            "D": "Doğu Akdeniz'de güçlü bir İtalya yerine, kendi kontrolünde zayıf bir Yunanistan'ı tercih etmesi",
-            "E": "ABD'nin bu yönde baskı yapması"
-        },
-        "dogru_cevap": "D",
-        "cozum": "İngiltere, Akdeniz'deki çıkarları için güçlü bir İtalya'nın bölgeye yerleşmesini istememiş, bunun yerine kontrol edebileceği Yunanistan'ı desteklemiştir.",
-        "koc_yorumu": "Bu karar İtilaf Devletleri arasındaki ilk ciddi çıkar çatışmasını göstermiştir. İtalya’nın küsüp konferansı terk etmesine yol açmıştır."
+    "dogru_cevap": "E",
+    "cozum": "İngiltere’nin Musul’u işgali Çanakkale ile ilgili değil, Mondros’tan sonra gerçekleşmiştir."
+  },
+  {
+    "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti'nin savaştığı cephelerden hangisi savaşın genel seyrini değiştirmiştir?",
+    "secenekler": {
+    "A": "Kafkas",
+    "B": "Irak",
+    "C": "Çanakkale",
+    "D": "Kanal",
+    "E": "Hicaz-Yemen"
     },
-    {
-        "soru": "'Çöl Kaplanı' lakabıyla bilinen Fahrettin Paşa'nın, zor şartlar altında kutsal emanetleri korumak için aylarca direndiği ve 'Medine Müdafaası' olarak tarihe geçen olay hangi cephede yaşanmıştır?",
-        "secenekler": {
-            "A": "Kafkas Cephesi",
-            "B": "Irak Cephesi",
-            "C": "Suriye-Filistin Cephesi",
-            "D": "Hicaz-Yemen Cephesi",
-            "E": "Kanal Cephesi"
-        },
-        "dogru_cevap": "D",
-        "cozum": "Mondros Ateşkesi imzalandıktan sonra bile teslim olmayan Fahrettin Paşa'nın bu kahramanca direnişi, I. Dünya Savaşı'nın en önemli direniş öykülerindendir.",
-        "koc_yorumu": "Fahrettin Paşa’nın Medine savunması, Osmanlı’nın fedakârlık örneklerinden biridir."
-    }
+    "dogru_cevap": "C",
+    "cozum": "Çanakkale Cephesi İtilaf Devletleri için başarısızlıkla sonuçlanmış, Rusya’ya yardım ulaşamamış ve savaşın genel seyrini değiştirmiştir."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması hangi tarihte imzalanmıştır?",
+    "secenekler": {
+    "A": "30 Ekim 1918",
+    "B": "23 Nisan 1920",
+    "C": "24 Temmuz 1923",
+    "D": "29 Ekim 1923",
+    "E": "10 Ağustos 1920"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Mondros Ateşkes Antlaşması 30 Ekim 1918’de imzalanmıştır."
+  },
+  {
+    "soru": "Aşağıdaki antlaşmalardan hangisi Almanya’nın I. Dünya Savaşı sonrasında imzaladığı antlaşmadır?",
+    "secenekler": {
+    "A": "Nöyyi",
+    "B": "Trianon",
+    "C": "Versay",
+    "D": "Sen Jermen",
+    "E": "Sevr"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Almanya I. Dünya Savaşı sonunda Versay Antlaşması’nı imzalamıştır."
+  },
+  {
+    "soru": "Aşağıdaki devletlerden hangisi I. Dünya Savaşı'nda İtilaf Devletleri arasında yer almıştır?",
+    "secenekler": {
+    "A": "Almanya",
+    "B": "Avusturya-Macaristan",
+    "C": "Bulgaristan",
+    "D": "İtalya",
+    "E": "Osmanlı"
+    },
+    "dogru_cevap": "D",
+    "cozum": "İtalya başlangıçta tarafsız kalmış, 1915’te İtilaf Devletleri yanında savaşa katılmıştır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin savaştığı cephelerden hangisi savaş sonrası işgallere gerekçe yapılmamıştır?",
+    "secenekler": {
+    "A": "Kafkas",
+    "B": "Çanakkale",
+    "C": "Irak",
+    "D": "Suriye",
+    "E": "Hicaz"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Çanakkale Cephesi Osmanlı’nın başarı gösterdiği cephe olduğundan işgallere gerekçe oluşturmadı."
+  },
+  {
+    "soru": "I. Dünya Savaşı sonucunda aşağıdaki imparatorluklardan hangisi yıkılmamıştır?",
+    "secenekler": {
+    "A": "Avusturya-Macaristan",
+    "B": "Almanya",
+    "C": "Rusya",
+    "D": "Osmanlı",
+    "E": "İspanya"
+    },
+    "dogru_cevap": "E",
+    "cozum": "İspanya savaşa katılmamış ve imparatorluğu devam etmiştir. Diğer imparatorluklar yıkılmıştır."
+  },
+  {
+    "soru": "Osmanlı Devleti hangi cephede İngiltere’ye karşı Kut’ül Amare Zaferi’ni kazanmıştır?",
+    "secenekler": {
+    "A": "Çanakkale",
+    "B": "Irak",
+    "C": "Suriye",
+    "D": "Kanal",
+    "E": "Hicaz"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Kut’ül Amare Zaferi Irak Cephesi’nde kazanılmıştır."
+  },
+  {
+    "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti'nin asker gönderdiği Avrupa cephesi aşağıdakilerden hangisidir?",
+    "secenekler": {
+    "A": "Makedonya",
+    "B": "Kafkasya",
+    "C": "Suriye",
+    "D": "Hicaz",
+    "E": "Irak"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Osmanlı, müttefiklerine destek için Makedonya’ya asker göndermiştir."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "secenekler": {
+    "A": "Osmanlı ordusu terhis edilecektir",
+    "B": "Boğazlar İtilaf Devletlerine açılacaktır",
+    "C": "İtilaf Devletleri her yeri işgal edebilir",
+    "D": "Toros Tünelleri işgal edilecektir",
+    "E": "Osmanlı hükümeti yargılanacaktır"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Mondros’ta Osmanlı hükümetinin yargılanacağına dair bir madde yoktur. Diğer maddeler doğru ifadelerdir."
+  },
+  {
+    "soru": "Aşağıdaki gelişmelerden hangisi I. Dünya Savaşı'nın sonuçları arasında gösterilemez?",
+    "secenekler": {
+    "A": "Cemiyet-i Akvam’ın kurulması",
+    "B": "SSCB’nin kurulması",
+    "C": "Yeni devletlerin ortaya çıkması",
+    "D": "Saltanatın kaldırılması",
+    "E": "İmparatorlukların dağılması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Saltanatın kaldırılması Türkiye Cumhuriyeti döneminde gerçekleşmiştir, savaşın doğrudan bir sonucu değildir."
+  }
 
+ 
     ],
 
 
 
+
+
+    
 
 
     
@@ -3786,6 +4069,7 @@
     }
 
 }
+
 
 
 
