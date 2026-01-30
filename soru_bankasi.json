@@ -1597,7 +1597,34 @@
   }
     ],
         
-    "13) Çağdaş Türk ve Dünya Tarihi": []
+    "13) Çağdaş Türk ve Dünya Tarihi": [
+        {
+    "soru": "II. Dünya Savaşı sırasında Cumhurbaşkanı İsmet İnönü liderliğindeki Türkiye'nin izlediği temel dış politika aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Mihver Devletleri yanında savaşa girmek",
+      "B": "Müttefik Devletler ile birlikte Balkanlarda yeni bir cephe açmak",
+      "C": "Tarafsız kalarak savaşın dışında kalmaya çalışmak (Denge Politikası)",
+      "D": "Sovyetler Birliği ile askeri bir ittifak kurmak",
+      "E": "Kaybedilen toprakları geri almak için yayılmacı bir politika izlemek"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Türkiye'nin II. Dünya Savaşı'ndaki temel amacı, I. Dünya Savaşı'ndaki gibi bir yıkım yaşamamak ve ülke bütünlüğünü korumaktı. Bu amaçla, her iki tarafı da idare eden ve savaşa fiilen girmemeyi hedefleyen bir Denge Politikası izlenmiştir. Koçunun Yorumu: Türkiye'nin bu savaştaki en büyük başarısı, savaşa girmemiş olmasıdır. ÖSYM, bu denge politikasını sıkça sorgular."
+  },
+  {
+    "soru": "II. Dünya Savaşı'ndan sonra ABD'nin, Sovyet tehdidi altındaki ülkelerin komünizme karşı direnmelerine yardımcı olmak amacıyla, ilk olarak Türkiye ve Yunanistan'a askeri yardım yapmasını öngören politika aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Marshall Planı",
+      "B": "Truman Doktrini",
+      "C": "Eisenhower Doktrini",
+      "D": "Monroe Doktrini",
+      "E": "Balfour Deklarasyonu"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Sovyetler Birliği'nin Türkiye'den Boğazlarda üs ve doğuda toprak talep etmesi üzerine ABD Başkanı Truman, SSCB'nin yayılmacılığına karşı çevreleme politikasını başlatmış ve bu doktrinle Türkiye ve Yunanistan'a acil askeri yardım yapma kararı almıştır. Koçunun Yorumu: Truman Doktrini (askeri yardım) ile Marshall Planı'nı (ekonomik yardım) ayırt etmek çok önemlidir."
+  }
+
+        
+    ]
       
 },    
     
@@ -1639,6 +1666,7 @@
     }
 
 }
+
 
 
 
