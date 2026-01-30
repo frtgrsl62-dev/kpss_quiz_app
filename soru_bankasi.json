@@ -980,122 +980,8 @@
             },
             "dogru_cevap": "A",
             "cozum": "Net, ezbere dayalı bir kavram sorusu. Bu kavramları bilip bilmediğini ölçer.\n\nAnaliz: Soru, \"Tanrı tarafından verilen yönetme yetkisini\" soruyor. Bu tanım doğrudan tek bir kavrama aittir.\n\nKavramların Anlamları:\nKut: Tanrı tarafından verilen yönetme yetkisi.\nKurgan: Mezar.\nBalbal: Mezar taşı.\nTöre: Yazısız hukuk kuralları.\nYabgu: İkili teşkilatta batı kanadını yöneten kişi.\n\nDoğru Cevap: A) Kut\n\nKoçunun Yorumu: Gördüğün gibi, temel kavramların tanımlarını bilmek, sana net bir soru kazandırır. ÖSYM, bu temel kavramları her sınavda bir şekilde yoklar."
-        },
-        {
-            "soru": "Aşağıdakilerden hangisi İslamiyet öncesi Türk devletleriyle ilgili doğru bir bilgi değildir?",
-            "secenekler": {
-                "A": "Asya Hunları, onlu sisteme dayalı bir ordu yapısı oluşturmuşlardır.",
-                "B": "Göktürkler, Türk adıyla kurulan ilk devlettir.",
-                "C": "Hazarlar, Museviliği benimseyen tek Türk devletidir.",
-                "D": "Uygurlar, matbaayı kullanarak kitap basmışlardır.",
-                "E": "Kırgızlar, İstanbul'u kuşatan ilk Türk devletidir."
-            },
-            "dogru_cevap": "E",
-            "cozum": "Bu soru tipi, her devlet hakkında birer kilit bilgi vererek genel tekrar yapmanı sağlar. Bir yanlış, dört doğru bilgi içerir.\n\nAnaliz: Seçenekleri tek tek kontrol edelim.\nA) Doğru. Mete Han onlu sistemi kurmuştu.\nB) Doğru. \"Türk\" adını kullanan ilk devlettir.\nC) Doğru. Hazarların en ayırt edici özelliğidir.\nD) Doğru. Uygurlar yerleşik hayatla birlikte matbaayı da kullanmıştır.\nE) Yanlış. İstanbul'u kuşatan ilk Türk devleti Avarlardır. Kırgızlar ise Manas Destanı ve Cengiz Han'a itaat eden ilk Türk devleti olmalarıyla bilinir.\n\nDoğru Cevap: E) Kırgızlar, İstanbul'u kuşatan ilk Türk devletidir.\n\nKoçunun Yorumu: ÖSYM, \"ilk\"leri sormayı sever. İstanbul'u kuşatan ilk Türk devleti (Avarlar), yerleşik hayata geçen ilk Türk devleti (Uygurlar), Türk adını kullanan ilk devlet (Göktürkler) gibi bilgileri ayrı bir yere not etmelisin. Bu soru, o notların ne kadar önemli olduğunu gösteriyor."
-        },
-          {
-    "soru": "İslamiyet öncesi Türk toplumlarında görülen 'töre', sosyal hayatı düzenleyen kurallar bütünüydü. Yazılı olmamasına rağmen herkes için bağlayıcı olan bu kuralların oluşumunda aşağıdakilerden hangisinin etkili olduğu söylenemez?",
-    "secenekler": {
-    "A": "Hükümdarların koyduğu kurallar",
-    "B": "Kurultayda alınan kararlar",
-    "C": "Toplum içinde oluşan gelenekler",
-    "D": "Komşu medeniyetlerle yapılan antlaşmalar",
-    "E": "Gök Tanrı inancına dayalı kutsal inanışlar",
-    },
-    "dogru_cevap": "D",
-    "cozum": "Töre, toplumsal hayatı düzenleyen yazısız hukuk kurallarıdır. Kaynakları kağan emirleri, kurultay kararları, gelenekler ve dini inanışlardır. Komşu devletlerle yapılan antlaşmalar ise töreyi oluşturmaz."
-  },
-  {
-    "soru": "Avrupa'ya göç ederek burada devlet kuran Türk toplulukları, zamanla milli benliklerini kaybetmişlerdir. Bu duruma rağmen Balkanlar'da varlığını uzun süre devam ettiren ve özellikle Slavları devlet yönetimi ve askeri teşkilatlanma alanlarında etkileyen Türk devleti aşağıdakilerden hangisidir?",
-    "secenekler": {
-    "A": "Avrupa Hunları",
-    "B": "Avarlar",
-    "C": "Tuna Bulgarları",
-    "D": "Macarlar",
-    "E": "Kıpçaklar",
-    },
-    "dogru_cevap": "C",
-    "cozum": "Tuna Bulgarları, Balkanlar'da uzun süre varlık göstermiş ve Slavları devlet yönetimi ve askeri teşkilatlanma açısından etkilemiştir. 'Çar' unvanı gibi izler bu etkileşimin göstergesidir."
-  },
-  {
-    "soru": "İslamiyet öncesi Türk devletlerinde 'kurgan' adı verilen mezarların oda şeklinde yapılması ve bu mezarlara ölüyle birlikte değerli eşyaların konulması, aşağıdakilerden hangisinin bir göstergesidir?",
-    "secenekler": {
-    "A": "Özel mülkiyetin geliştiğinin",
-    "B": "Ahiret inancının varlığının",
-    "C": "Yazılı hukukun başladığının",
-    "D": "Yerleşik hayata geçildiğinin",
-    "E": "Ticaretin yaygın olduğunun",
-    },
-    "dogru_cevap": "B",
-    "cozum": "Ölüyle birlikte değerli eşyaların konulması, İslamiyet öncesi Türklerde ahiret inancının varlığını gösterir. Kurganlar bu inancın en temel kanıtlarından biridir."
-  },
-     {
-    "soru": "İslamiyet öncesi Türk devletlerinde hükümdarın tanrı tarafından bu göreve getirildiğine inanılırdı. 'Kut' adı verilen bu anlayış, hükümdara yönetme yetkisinin Gök Tanrı tarafından verildiğini ifade ederdi. Buna göre, 'kut' anlayışının aşağıdakilerden hangisine neden olduğu söylenemez?",
-    "secenekler": {
-      "A": "Hükümdarın halk nezdindeki otoritesinin artmasına",
-      "B": "Taht kavgalarının yaşanmasına",
-      "C": "Hükümdarın mutlak egemenliğinin teokratik bir temele dayanmasına",
-      "D": "Hanedanın bütün erkek üyelerinin hükümdar olma hakkına sahip olmasına",
-      "E": "Devletin tamamen dini kurallarla yönetilmesine"
-    },
-    "dogru_cevap": "E",
-    "cozum": "Kut anlayışı devleti teokratik (dine dayalı) bir temele oturtsa da devletin tamamen şeriat gibi dini kurallarla yönetildiği anlamına gelmez. Yönetimde asıl olan 'töre'dir."
-  },
-  {
-    "soru": "Göktürkler ve Asya Hunları gibi devletlerde ülke, genellikle doğu ve batı olmak üzere iki yönetim birimine ayrılırdı. Doğuyu asıl hükümdar (kağan) yönetirken, batıda ise genellikle 'yabgu' unvanlı hanedan üyesi bulunurdu. Bu yönetim anlayışının (ikili teşkilat) temel amacı aşağıdakilerden hangisidir?",
-    "secenekler": {
-      "A": "Federal bir yapı oluşturmak",
-      "B": "Ülke yönetimini kolaylaştırmak",
-      "C": "Taht kavgalarını engellemek",
-      "D": "Farklı dinlere hoşgörü göstermek",
-      "E": "Yerleşik hayata geçişi hızlandırmak"
-    },
-    "dogru_cevap": "B",
-    "cozum": "Geniş toprakları yönetmeyi kolaylaştırmak ve denetimi sağlamak temel amaçtır. Ancak bu sistem, taht kavgalarını engellememiş, aksine teşvik etmiştir."
-  },
-  {
-    "soru": "Orhun Abideleri;",
-        "maddeler": [
-      "I. Türk adının geçtiği ilk Türkçe metin olması,",
-      "II. Hükümdarın halka karşı sorumluluklarını belirtmesi,",
-      "III. Sasanilerle yapılan mücadeleleri anlatması\nözelliklerinden hangilerini taşımaktadır?",
-          ],   
-    "secenekler": {
-      "A": "Yalnız I",
-      "B": "Yalnız II",
-      "C": "I ve II",
-      "D": "II ve III",
-      "E": "I, II ve III"
-    },
-    "dogru_cevap": "C",
-    "cozum": "Orhun Abideleri Türk adının geçtiği, siyasi bir beyanname niteliğinde olan ilk Türkçe metinlerdir ve hükümdarın halka hesap verdiği bir sosyal devlet anlayışını yansıtır. Sasanilerle ilgili bilgi içermez."
-  },
-  {
-    "soru": "Uygurlar, kendilerinden önceki Göktürk ve Hun devletlerinden farklı olarak Maniheizm dinini benimsemiş ve zamanla yerleşik hayata geçmişlerdir. Bu kültürel değişimin Uygurlarda aşağıdakilerden hangisine yol açtığı savunulamaz?",
-    "secenekler": {
-      "A": "Tarımsal faaliyetlerin başlamasına",
-      "B": "Savaşçılık özelliklerinin zayıflamasına",
-      "C": "Şehir ve tapınak mimarisinin gelişmesine",
-      "D": "Yazılı kültür ve sanatın canlanmasına",
-      "E": "'Töre'nin tamamen ortadan kalkmasına"
-    },
-    "dogru_cevap": "E",
-    "cozum": "Uygurların yerleşik hayata geçmesi ve din değiştirmesi töre kurallarını etkilemiş, bazı değişikliklere yol açmış ancak töre tamamen ortadan kalkmamıştır. Hukuk sistemi devam etmiştir."
-  },
-
-  {
-    "soru": "Tuna Bulgarları, Boris Han zamanında Hristiyanlığı benimsemiş ve zamanla Slav kültürü içinde asimile olarak Türklük özelliklerini kaybetmişlerdir. Bu durumun tam tersine, İslamiyet'i kabul ederek milli benliklerini koruyan ilk büyük Türk devleti aşağıdakilerden hangisidir?",
-    "secenekler": {
-      "A": "Göktürkler",
-      "B": "Karahanlılar",
-      "C": "Uygurlar",
-      "D": "Hazarlar",
-      "E": "Tolunoğulları"
-    },
-    "dogru_cevap": "B",
-    "cozum": "Karahanlılar, Satuk Buğra Han zamanında topluca İslamiyet'i kabul etmiş ve Türk kültürünü İslamiyet ile sentezleyerek milli kimliklerini koruyan ilk büyük Türk-İslam devleti olmuşlardır."
-  }     
-    ],
+        }
+],
     
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [ ],
     "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [ ],
@@ -1149,6 +1035,7 @@
     }
 
 }
+
 
 
 
