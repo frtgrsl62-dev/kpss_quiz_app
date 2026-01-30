@@ -745,6 +745,23 @@ def admin_page():
     # ==================================================
     # 👥 KULLANICI YÖNETİMİ
     # ==================================================
+def admin_page():
+    st.title("👨‍🏫 Admin Paneli")
+
+    # 🔙 Geri Butonu
+    if st.button("⬅️ Geri Dön"):
+        st.session_state.page = "anasayfa"
+        st.rerun()
+
+    tab1, tab2, tab3 = st.tabs([
+        "👥 Kullanıcı Yönetimi",
+        "➕ Soru Ekle",
+        "🗑️ Soru Sil"
+    ])
+
+    # ==================================================
+    # 👥 KULLANICI YÖNETİMİ
+    # ==================================================
     with tab1:
         st.subheader("Kullanıcı Sil")
 
@@ -770,12 +787,14 @@ def admin_page():
 
         ders = st.selectbox(
             "Ders Seçiniz",
-            list(soru_bankasi.keys())
+            list(soru_bankasi.keys()),
+            key="ekle_ders"
         )
 
         konu = st.selectbox(
             "Konu Seçiniz",
-            list(soru_bankasi[ders].keys())
+            list(soru_bankasi[ders].keys()),
+            key="ekle_konu"
         )
 
         soru_metin = st.text_area("Soru", key="soru_metin")
@@ -801,11 +820,7 @@ def admin_page():
                     "id": str(uuid.uuid4()),
                     "soru": soru_metin,
                     "secenekler": {
-                        "A": a,
-                        "B": b,
-                        "C": c,
-                        "D": d,
-                        "E": e
+                        "A": a, "B": b, "C": c, "D": d, "E": e
                     },
                     "dogru_cevap": dogru,
                     "cozum": cozum
@@ -814,9 +829,9 @@ def admin_page():
                 soru_bankasi[ders][konu].append(yeni_soru)
                 soru_bankasini_kaydet(soru_bankasi)
 
-                st.success("Soru başarıyla eklendi")
+                st.success("✅ Soru başarıyla eklendi")
 
-                # 🔄 FORM TEMİZLE
+                # 🔄 FORM + SEÇİMLERİ TEMİZLE
                 for key in [
                     "soru_metin", "sec_a", "sec_b",
                     "sec_c", "sec_d", "sec_e", "cozum"
@@ -824,23 +839,29 @@ def admin_page():
                     st.session_state[key] = ""
 
                 st.session_state["dogru"] = "A"
+                st.session_state["ekle_ders"] = list(soru_bankasi.keys())[0]
+                st.session_state["ekle_konu"] = list(
+                    soru_bankasi[st.session_state["ekle_ders"]].keys()
+                )[0]
 
                 st.rerun()
 
     # ==================================================
-    # 🗑️ SORU SİL
+    # 🗑️ SORU SİL (YENİ DÜZEN)
     # ==================================================
     with tab3:
-        st.subheader("Soru Sil")
+        st.subheader("Soru Silme Paneli")
 
+        # 1️⃣ Ders
         ders = st.selectbox(
-            "Ders",
+            "Ders Seçiniz",
             list(soru_bankasi.keys()),
             key="sil_ders"
         )
 
+        # 2️⃣ Konu
         konu = st.selectbox(
-            "Konu",
+            "Konu Seçiniz",
             list(soru_bankasi[ders].keys()),
             key="sil_konu"
         )
@@ -849,17 +870,31 @@ def admin_page():
 
         if not sorular:
             st.info("Bu konuda soru yok.")
-        else:
-            for i, soru in enumerate(sorular):
-                with st.expander(f"Soru {i+1}"):
-                    st.write(soru["soru"])
-                    st.write(f"**Doğru:** {soru['dogru_cevap']}")
+            return
 
-                    if st.button("❌ Sil", key=soru["id"]):
-                        soru_bankasi[ders][konu].remove(soru)
-                        soru_bankasini_kaydet(soru_bankasi)
-                        st.success("Soru silindi")
-                        st.rerun()
+        # 3️⃣ Test / Soru Listesi
+        soru_basliklari = [
+            f"{i+1}. {s['soru'][:60]}..."
+            for i, s in enumerate(sorular)
+        ]
+
+        secilen_index = st.selectbox(
+            "Silinecek Soruyu Seçiniz",
+            range(len(sorular)),
+            format_func=lambda i: soru_basliklari[i]
+        )
+
+        secilen_soru = sorular[secilen_index]
+
+        st.markdown("### 📄 Seçilen Soru")
+        st.write(secilen_soru["soru"])
+        st.write(f"**Doğru Cevap:** {secilen_soru['dogru_cevap']}")
+
+        if st.button("❌ Seçilen Soruyu Sil"):
+            soru_bankasi[ders][konu].remove(secilen_soru)
+            soru_bankasini_kaydet(soru_bankasi)
+            st.success("🗑️ Soru silindi")
+            st.rerun()
 
 
 
@@ -925,6 +960,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
