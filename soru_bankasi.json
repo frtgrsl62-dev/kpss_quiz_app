@@ -924,7 +924,7 @@
     "B": "Kurultayda alınan kararlar",
     "C": "Toplum içinde oluşan gelenekler",
     "D": "Komşu medeniyetlerle yapılan antlaşmalar",
-    "E": "Gök Tanrı inancına dayalı kutsal inanışlar",
+    "E": "Gök Tanrı inancına dayalı kutsal inanışlar"
     },
     "dogru_cevap": "D",
     "cozum": "Töre, toplumsal hayatı düzenleyen yazısız hukuk kurallarıdır. Kaynakları kağan emirleri, kurultay kararları, gelenekler ve dini inanışlardır. Komşu devletlerle yapılan antlaşmalar ise töreyi oluşturmaz."
@@ -936,7 +936,7 @@
     "B": "Avarlar",
     "C": "Tuna Bulgarları",
     "D": "Macarlar",
-    "E": "Kıpçaklar",
+    "E": "Kıpçaklar"
     },
     "dogru_cevap": "C",
     "cozum": "Tuna Bulgarları, Balkanlar'da uzun süre varlık göstermiş ve Slavları devlet yönetimi ve askeri teşkilatlanma açısından etkilemiştir. 'Çar' unvanı gibi izler bu etkileşimin göstergesidir."
@@ -7631,6 +7631,7 @@
     }
 
 }
+
 
 
 
