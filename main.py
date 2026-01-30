@@ -708,23 +708,15 @@ def profil_page():
 
 
 # ===============================
-# YENİ ve DOĞRU ROUTER (YÖNLENDİRİCİ)
+# SESSION İLK KURULUM
 # ===============================
-# Bu mantık, her kullanıcının oturumunu kendi içinde yönetir.
+if "initialized" not in st.session_state:
+    st.session_state.initialized = True
+    st.session_state.page = "login"
+    st.session_state.current_user = None
 
 # ===============================
-# COOKIE'DEN OTOMATİK GİRİŞ
-# ===============================
-if "current_user" not in st.session_state or st.session_state.get("current_user") is None:
-    cookie_user = cookies.get("current_user")
-    if cookie_user and cookie_user in kullanicilar:
-        st.session_state["current_user"] = cookie_user
-        kullanici_sonuclarini_yukle_to_session(cookie_user)
-        st.session_state.page = "ders"
-
-
-# ===============================
-# COOKIE'DEN OTOMATİK GİRİŞ
+# COOKIE'DEN OTOMATİK GİRİŞ (TEK VE KONTROLLÜ)
 # ===============================
 if not st.session_state.get("current_user"):
     cookie_user = cookies.get("current_user")
@@ -732,7 +724,6 @@ if not st.session_state.get("current_user"):
         st.session_state.current_user = cookie_user
         kullanici_sonuclarini_yukle_to_session(cookie_user)
         st.session_state.page = "ders"
-
 # ===============================
 # ROUTER
 # ===============================
@@ -775,5 +766,6 @@ elif page == "rapor":
     genel_rapor_page()
 elif page == "profil":
     profil_page()
+
 
 
