@@ -731,9 +731,7 @@ def profil_page():
 
 def admin_page():
   
-      if st.button("🔙 Geri"):
-        st.session_state.page = "ders"
-        st.rerun()  
+
     
     st.title("👨‍🏫 Admin Paneli")
 
@@ -743,6 +741,10 @@ def admin_page():
         "🗑️ Soru Sil"
     ])
 
+      if st.button("🔙 Geri"):
+        st.session_state.page = "ders"
+        st.rerun()  
+    
     # ==================================================
     # 👥 KULLANICI YÖNETİMİ
     # ==================================================
@@ -926,6 +928,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
