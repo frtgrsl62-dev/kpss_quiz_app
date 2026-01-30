@@ -730,6 +730,11 @@ def profil_page():
 
 
 def admin_page():
+  
+      if st.button("🔙 Geri"):
+        st.session_state.page = "ders"
+        st.rerun()  
+    
     st.title("👨‍🏫 Admin Paneli")
 
     tab1, tab2, tab3 = st.tabs([
@@ -921,6 +926,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
