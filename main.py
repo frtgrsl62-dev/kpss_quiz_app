@@ -722,68 +722,53 @@ def profil_page():
 # ===============================
 # ADMIN PANEL
 # ===============================
+import streamlit as st
+import uuid
+
 def admin_page():
-    user = st.session_state.get("current_user")
+    st.title("👨‍🏫 Admin Paneli")
 
-    if user not in ADMIN_USERS:
-        st.error("⛔ Yetkisiz erişim!")
-        st.session_state.page = "login"
-        st.rerun()
-        return
+    tab1, tab2, tab3 = st.tabs([
+        "👥 Kullanıcı Yönetimi",
+        "➕ Soru Ekle",
+        "🗑️ Soru Sil"
+    ])
 
-    if st.button("🔙 Geri"):
-        st.session_state.page = "ders"
-        st.rerun()
-
-    st.markdown("## 👨‍🏫 Admin Panel")
-
-    tab1, tab2 = st.tabs(["👥 Kullanıcı Yönetimi", "➕ Soru Ekle"])
-
-    # ===============================
+    # ==================================================
     # 👥 KULLANICI YÖNETİMİ
-    # ===============================
+    # ==================================================
     with tab1:
-        st.subheader("Kayıtlı Kullanıcılar")
+        st.subheader("Kullanıcı Sil")
 
-        for k_adi, bilgi in kullanicilar.items():
-            col1, col2 = st.columns([4, 1])
-            with col1:
-                st.write(f"👤 {k_adi} — {bilgi.get('isim','')}")
-            with col2:
-                if st.button("🗑 Sil", key=f"sil_{k_adi}"):
-                    if k_adi in ADMIN_USERS:
-                        st.warning("Admin silinemez!")
-                    else:
-                        del kullanicilar[k_adi]
-                        kullanicilari_kaydet()
-                        st.success(f"{k_adi} silindi")
-                        st.rerun()
+        if not kullanicilar:
+            st.info("Kayıtlı kullanıcı yok.")
+        else:
+            silinecek = st.selectbox(
+                "Silinecek kullanıcı",
+                list(kullanicilar.keys())
+            )
 
-    # ===============================
-    # ➕ SORU EKLEME
-    # ===============================
+            if st.button("❌ Kullanıcıyı Sil"):
+                del kullanicilar[silinecek]
+                kullanicilari_kaydet(kullanicilar)
+                st.success("Kullanıcı silindi")
+                st.rerun()
+
+    # ==================================================
+    # ➕ SORU EKLE
+    # ==================================================
     with tab2:
-        st.subheader("➕ Yeni Soru Ekle")
+        st.subheader("Yeni Soru Ekle")
 
-        dersler = list(soru_bankasi.keys())
-        if not dersler:
-            st.warning("Henüz ders yok.")
-            return
-
-        ders = st.selectbox("Ders Seç", dersler)
-
-        mevcut_konular = list(soru_bankasi.get(ders, {}).keys())
-        konu_secim = st.selectbox(
-            "Konu Seç",
-            mevcut_konular + ["➕ Yeni Konu"]
+        ders = st.selectbox(
+            "Ders Seçiniz",
+            list(soru_bankasi.keys())
         )
 
-        if konu_secim == "➕ Yeni Konu":
-            konu = st.text_input("Yeni Konu Adı")
-        else:
-            konu = konu_secim
-
-        st.markdown("---")
+        konu = st.selectbox(
+            "Konu Seçiniz",
+            list(soru_bankasi[ders].keys())
+        )
 
         soru_metin = st.text_area("Soru", key="soru_metin")
         a = st.text_input("A şıkkı", key="sec_a")
@@ -791,45 +776,83 @@ def admin_page():
         c = st.text_input("C şıkkı", key="sec_c")
         d = st.text_input("D şıkkı", key="sec_d")
         e = st.text_input("E şıkkı", key="sec_e")
-        dogru = st.selectbox("Doğru Cevap", ["A", "B", "C", "D", "E"], key="dogru")
+
+        dogru = st.selectbox(
+            "Doğru Cevap",
+            ["A", "B", "C", "D", "E"],
+            key="dogru"
+        )
+
         cozum = st.text_area("Çözüm", key="cozum")
 
         if st.button("➕ Soruyu Kaydet"):
-            if not all([ders, konu, soru_metin, a, b, c, d, e, cozum]):
-                st.error("❌ Tüm alanları doldurun!")
-                return
+            if not soru_metin.strip():
+                st.error("Soru metni boş olamaz")
+            else:
+                yeni_soru = {
+                    "id": str(uuid.uuid4()),
+                    "soru": soru_metin,
+                    "secenekler": {
+                        "A": a,
+                        "B": b,
+                        "C": c,
+                        "D": d,
+                        "E": e
+                    },
+                    "dogru_cevap": dogru,
+                    "cozum": cozum
+                }
 
-            yeni_soru = {
-                "soru": soru_metin,
-                "secenekler": {
-                    "A": a,
-                    "B": b,
-                    "C": c,
-                    "D": d,
-                    "E": e
-                },
-                "dogru_cevap": dogru,
-                "cozum": cozum
-            }
+                soru_bankasi[ders][konu].append(yeni_soru)
+                soru_bankasini_kaydet(soru_bankasi)
 
-            soru_bankasi.setdefault(ders, {})
-            soru_bankasi[ders].setdefault(konu, [])
-            soru_bankasi[ders][konu].append(yeni_soru)
+                st.success("Soru başarıyla eklendi")
 
-            soru_bankasini_kaydet(soru_bankasi)
+                # 🔄 FORM TEMİZLE
+                for key in [
+                    "soru_metin", "sec_a", "sec_b",
+                    "sec_c", "sec_d", "sec_e", "cozum"
+                ]:
+                    st.session_state[key] = ""
 
-            st.success("✅ Soru başarıyla kaydedildi!")
-            st.rerun()
+                st.session_state["dogru"] = "A"
 
+                st.rerun()
 
-        # 🔄 Formu temizle
-        for key in [
-            "soru_metin", "sec_a", "sec_b", "sec_c",
-            "sec_d", "sec_e", "cozum"
-        ]:
-            st.session_state[key] = ""
+    # ==================================================
+    # 🗑️ SORU SİL
+    # ==================================================
+    with tab3:
+        st.subheader("Soru Sil")
 
-        st.session_state["dogru"] = "A"
+        ders = st.selectbox(
+            "Ders",
+            list(soru_bankasi.keys()),
+            key="sil_ders"
+        )
+
+        konu = st.selectbox(
+            "Konu",
+            list(soru_bankasi[ders].keys()),
+            key="sil_konu"
+        )
+
+        sorular = soru_bankasi[ders][konu]
+
+        if not sorular:
+            st.info("Bu konuda soru yok.")
+        else:
+            for i, soru in enumerate(sorular):
+                with st.expander(f"Soru {i+1}"):
+                    st.write(soru["soru"])
+                    st.write(f"**Doğru:** {soru['dogru_cevap']}")
+
+                    if st.button("❌ Sil", key=soru["id"]):
+                        soru_bankasi[ders][konu].remove(soru)
+                        soru_bankasini_kaydet(soru_bankasi)
+                        st.success("Soru silindi")
+                        st.rerun()
+
 
 
 
@@ -894,6 +917,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
