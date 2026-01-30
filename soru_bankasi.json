@@ -1004,7 +1004,154 @@
     "8. Trablusgarp ve Balkan Savaşları": [],
     "9. I. Dünya Savaşı ve Sonuçları": [],
     "10. Milli Mücadele'nin Hazırlık Dönemi": [
+   {
+    "soru": "TBMM’nin açılışının temel nedeni aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "İstanbul’un işgali",
+      "B": "Saltanatın kaldırılması",
+      "C": "Lozan Antlaşması",
+      "D": "Cumhuriyet’in ilanı",
+      "E": "Hilafetin kaldırılması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "İstanbul’un işgali üzerine Mustafa Kemal, milletin temsilcilerini Ankara’da toplamış ve TBMM açılmıştır."
+  },
+    {
+    "soru": "Erzurum Kongresi’nde alınan kararlar arasında aşağıdakilerden hangisi yer almaz?",
+    "secenekler": {
+      "A": "Temsil Heyeti’nin kurulması",
+      "B": "Milli sınırlar içinde vatan bir bütündür, parçalanamaz",
+      "C": "Cemiyetlerin birleştirilmesi",
+      "D": "İstanbul Hükûmeti ile görüşmeler yapılması",
+      "E": "Milli iradeyi esas alan yönetim anlayışının benimsenmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Cemiyetlerin birleştirilmesi kararı Sivas Kongresi’nde alınmıştır, Erzurum Kongresi’nde bu karar yoktur."
+  },
   {
+    "soru": "Amasya Genelgesi’nin öne çıkan özelliği aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Ulusal iradeyi ve egemenliği vurgulaması",
+      "B": "Misak-ı Milli’nin ilan edilmesi",
+      "C": "TBMM’nin açılması",
+      "D": "Saltanatın kaldırılması",
+      "E": "Lozan Antlaşması’na temel teşkil etmesi"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Amasya Genelgesi, ilk kez ulusal irade ve egemenlik kavramını vurgulamıştır, Misak-ı Milli ve TBMM ise sonrasındaki gelişmelerdir."
+  },
+    {
+    "soru": "Mustafa Kemal'in Havza'dan sonra Amasya'ya geçerek burada bir genelge yayımlamasının temel amacı, Havza'daki çağrısını hangi yönde geliştirmektir?",
+    "secenekler": {
+      "A": "Protestoları sonlandırmak",
+      "B": "Milli bilinci, organize bir eylem planına dönüştürmek",
+      "C": "İstanbul Hükûmeti ile uzlaşmak",
+      "D": "Padişaha bağlılık bildirmek",
+      "E": "Silahlı direnişi derhal başlatmak"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Havza'da uyandırılan milli bilinci, Amasya'da Kurtuluş Savaşı'nın amaç, gerekçe ve yöntemini belirleyen somut bir yol haritasına dönüştürmüştür. Havza'da 'tepki' gösterilmesi istendi, Amasya'da ise bu tepkinin 'nasıl' ve 'ne için' yapılacağı açıklandı."
+  },
+  {
+    "soru": "Amasya Genelgesi'nde yer alan 'İstanbul Hükûmeti, üzerine aldığı sorumluluğun gereğini yerine getirememektedir.' maddesi, Milli Mücadele'nin hangi meşruiyet temelini oluşturur?",
+    "secenekler": {
+      "A": "Askeri meşruiyet",
+      "B": "Hukuki ve siyasi meşruiyet",
+      "C": "Dini meşruiyet",
+      "D": "Ekonomik meşruiyet",
+      "E": "Sosyal meşruiyet"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Mevcut hükümet görevini yapamıyorsa, milletin kendi kaderini eline almasının hukuki ve siyasi olarak meşru olduğunu savunur. Bu madde, 'Mevcut otorite görevini yapmıyorsa, halk kendi kendini yönetme hakkına sahiptir' ilkesine dayanır."
+  },
+  {
+    "soru": "Erzurum Kongresi kararlarından olan 'Kuvayımilliyeyi etken ve milli iradeyi hâkim kılmak esastır.' ilkesi, gelecekte hangi iki temel kurumun kurulacağına işaret etmektedir?",
+    "secenekler": {
+      "A": "Temsil Heyeti ve Mebusan Meclisi",
+      "B": "Tekâlif-i Milliye ve İstiklal Mahkemeleri",
+      "C": "Düzenli Ordu ve Türkiye Büyük Millet Meclisi",
+      "D": "Müdafaa-i Hukuk Cemiyetleri ve Reddi-i İlhak Cemiyeti",
+      "E": "Jandarma Teşkilatı ve Saltanat Şurası"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Kuvayımilliyeyi 'etken' kılmak, onu dağınık bir güçten düzenli bir orduya dönüştürmeyi; 'milli iradeyi hâkim kılmak' ise milletin temsilcilerinden oluşan bir meclisin (TBMM) kurulmasını ifade eder."
+  },
+  {
+    "soru": "Sivas Kongresi'nin, Erzurum Kongresi'nden farklı olarak, toplanış şekli ve katılım açısından 'ulusal' bir nitelik taşımasının en önemli kanıtı nedir?",
+    "secenekler": {
+      "A": "Daha fazla karar alınmış olması",
+      "B": "Mustafa Kemal'in kongre başkanı seçilmesi",
+      "C": "Yurdun her bölgesinden seçilen delegelerin katılmış olması",
+      "D": "İrade-i Milliye gazetesinin çıkarılması",
+      "E": "Manda ve himayenin kesin olarak reddedilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Erzurum'a sadece Doğu illerinden delegeler katılırken, Sivas'a tüm yurttan (Anadolu ve Rumeli) delegeler katılmıştır. Bu da kongreyi ulusal yapar. Bir kongrenin 'ulusal' olmasını sağlayan şey, temsil ettiği coğrafyanın genişliğidir."
+  },
+  {
+    "soru": "Temsil Heyeti'nin, Ali Fuat Paşa'yı Batı Cephesi Komutanlığı'na ataması, hangi yetkiyi kullandığının bir göstergesidir?",
+    "secenekler": {
+      "A": "Yasama yetkisi",
+      "B": "Yargı yetkisi",
+      "C": "Yürütme yetkisi",
+      "D": "Danışma yetkisi",
+      "E": "Mali yetki"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Devlet adına atama yapmak, karar almak ve uygulamak, bir hükümet gibi davranmaktır ve bu da yürütme yetkisini kullanmak anlamına gelir. Bu olay, Temsil Heyeti'nin artık sadece bir danışma kurulu değil, fiilen bir hükümet gibi hareket etmeye başladığının en net kanıtıdır."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Misakımillî'de 'sınırlar' konusunun belirlenmesinde temel alınan ilkedir?",
+    "secenekler": {
+      "A": "1914 yılındaki sınırlar",
+      "B": "Osmanlı Devleti'nin en geniş sınırları",
+      "C": "Mondros Ateşkes Antlaşması imzalandığı sırada işgal edilmemiş olan ve Türk-İslam çoğunluğunun yaşadığı topraklar",
+      "D": "Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti'nin kontrol ettiği topraklar",
+      "E": "I. Balkan Savaşı öncesindeki sınırlar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Misakımillî, hem fiili durumu (işgal edilmemiş topraklar) hem de Wilson İlkeleri'ni (milletlerin çoğunlukta olduğu yerler) temel alan bir sınır tanımı yapmıştır. Misakımillî hayalperest değildir; gerçekçi, hukuki ve savunulabilir bir sınır çizgisi belirlemiştir."
+  },
+  {
+    "soru": "Temsil Heyeti'nin Sivas Kongresi'nden sonra Damat Ferit Paşa Hükûmeti'ni istifaya zorlayarak yerine Ali Rıza Paşa Hükûmeti'nin kurulmasını sağlaması, nasıl bir başarı olarak nitelendirilebilir?",
+    "secenekler": {
+      "A": "Askeri bir zafer",
+      "B": "Ekonomik bir kazanım",
+      "C": "Milli Mücadele'nin İstanbul Hükûmeti'ne karşı kazandığı ilk siyasi zafer",
+      "D": "Manda ve himayenin kabulü yönünde bir adım",
+      "E": "İtilaf Devletleri ile yapılan bir antlaşma"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Anadolu'daki hareketin gücü, İstanbul'da bir hükümeti istifa ettirecek seviyeye gelmiştir. Bu, Temsil Heyeti'nin siyasi otoritesini kanıtlar ve Milli Mücadele'nin artık yok sayılamayacak bir güç olduğunu gösterir."
+  },
+  {
+    "soru": "Misakımillî kararları ilk olarak nerede kabul edilmiştir?",
+    "secenekler": {
+      "A": "Sivas Kongresi",
+      "B": "Erzurum Kongresi",
+      "C": "Amasya Görüşmeleri",
+      "D": "Son Osmanlı Mebusan Meclisi",
+      "E": "Balıkesir Kongresi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Erzurum ve Sivas Kongresi kararlarının bir özeti ve programı niteliğindeki Misakımillî, İstanbul'da toplanan meclis tarafından kabul edilerek resmiyet kazanmıştır. Kararların, padişahın meclisi tarafından kabul edilmesi, Milli Mücadele'ye hem iç hem de dış siyasette büyük bir meşruiyet sağlamıştır."
+  },
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
     "soru": "Amasya Genelgesi'nin yayımlanmasından hemen sonra Mustafa Kemal'in askerlik görevinden istifa etmesi, aşağıdakilerden hangisinin bir göstergesidir?",
     "secenekler": {
       "A": "Milli Mücadele'den vazgeçtiğinin",
@@ -1075,19 +1222,7 @@
     },
     "dogru_cevap": "D",
     "cozum": "Misakımillî, ülkenin sınırları ve bağımsızlığı ile ilgili bir metindir. Henüz milli birlik ve beraberliğin en çok ihtiyaç duyulduğu bu aşamada, saltanat veya rejim gibi tartışmalı bir konuya girmekten özellikle kaçınılmıştır. Milli Mücadele'nin hazırlık dönemindeki strateji, öncelikle 'tam bağımsızlığı' sağlamak, rejim tartışmalarını ise daha sonraya bırakmaktı."
-  },
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+  },   
  {
     "soru": "Milli Mücadele'nin hazırlık döneminde kurulan Temsil Heyeti'nin görevi ne zaman sona ermiştir?",
     "secenekler": {
@@ -2976,6 +3111,7 @@
     }
 
 }
+
 
 
 
