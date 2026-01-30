@@ -11,7 +11,6 @@ from deneme_sinavlari import deneme_sinavlari
 from streamlit_cookies_manager import EncryptedCookieManager
 
 
-soru_bankasi = soru_bankasini_yukle()
 
 ADMIN_USERS = ["a"]  # admin kullanıcı adları
 
@@ -883,6 +882,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
