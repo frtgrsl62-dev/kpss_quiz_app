@@ -915,6 +915,61 @@
         
 
 
+
+
+  {
+    "soru": "Eski Türklerde ölen önemli kişiler için düzenlenen cenaze törenlerine 'yuğ', mezarlara ise 'kurgan' denirdi. Ayrıca ölen kişinin hayattayken öldürdüğü düşman sayısı kadar mezarının başına dikilen küçük heykellere de 'balbal' adı verilirdi. Balbal dikme geleneği, Türklerde aşağıdakilerden hangisinin varlığına işaret eder?",
+    "secenekler": {
+      "A": "Heykel sanatının gelişimine",
+      "B": "Ahiret inancına",
+      "C": "Yerleşik yaşama",
+      "D": "Özel mülkiyete",
+      "E": "Törenin önemine"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Öldürdüğü düşmanların öbür dünyada kendisine hizmet edeceğine olan inanç, balbal dikme geleneğinin temelini oluşturur. Bu da doğrudan ahiret inancının bir kanıtıdır."
+  },
+  {
+    "soru": "Tarihte 'Türk' adıyla kurulan ilk devlet aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Asya Hun Devleti",
+      "B": "Avrupa Hun Devleti",
+      "C": "Göktürk Kağanlığı",
+      "D": "Uygur Devleti",
+      "E": "Avar Kağanlığı"
+    },
+    "dogru_cevap": "C",
+    "cozum": "'Türk' adını siyasi bir kimlik olarak kullanan ve bu isimle kurulan ilk devlet Göktürk Kağanlığı'dır."
+  },
+  {
+    "soru": "Eski Türklerde kağanın erkek çocukları olan tiginler, devlet tecrübesi kazanmaları için 'şad' unvanıyla ülkenin çeşitli bölgelerine yönetici olarak gönderilirdi. Bu uygulama aşağıdaki Osmanlı Devleti'ndeki sistemlerden hangisiyle benzerlik gösterir?",
+    "secenekler": {
+      "A": "Devşirme Sistemi",
+      "B": "Sancak Sistemi",
+      "C": "Tımar Sistemi",
+      "D": "Millet Sistemi",
+      "E": "İltizam Sistemi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Tiginlerin tecrübe kazanmak için eyaletlere gönderilmesi, Osmanlı'daki şehzadelerin sancaklara gönderilerek devlet yönetimini öğrenmesiyle birebir benzerlik gösterir."
+  },
+  {
+    "soru": "İslamiyet öncesi Türk ordusu büyük ölçüde atlı süvarilerden oluşur, savaşlarda hız ve manevra kabiliyeti ön planda tutulurdu. Sahte geri çekilme (turan/bozkır taktiği) en bilinen savaş stratejileriydi. Bu durumun temel nedeni aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yerleşik hayata geçilmiş olması",
+      "B": "Sadece savunma savaşları yapılması",
+      "C": "Bozkır yaşam tarzının etkileri",
+      "D": "Ordu-millet anlayışının olmaması",
+      "E": "Komşu medeniyetlerden etkilenilmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Göçebe ve atlı-konar göçer bozkır yaşam tarzı, ordunun hızlı, manevra kabiliyeti yüksek ve süvarilere dayalı olmasını zorunlu kılmıştır."
+  },
+
+
+
+        
+
   {
     "soru": "İstanbul'u kuşatan ilk Türk devleti olarak bilinen ve hem Asya'da hem de Avrupa'da devlet kuran Türk topluluğu aşağıdakilerden hangisidir?",
     "secenekler": {
@@ -963,12 +1018,7 @@
     "dogru_cevap": "B",
     "cozum": "Karahanlılar, Satuk Buğra Han zamanında topluca İslamiyet'i kabul etmiş ve Türk kültürünü İslamiyet ile sentezleyerek milli kimliklerini koruyan ilk büyük Türk-İslam devleti olmuşlardır."
   },     
-        
-        
-        
-        
-        
-{
+ {
     "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
     "maddeler": [
       "I. Türk siyasi birliğini sağlamıştır.",
@@ -7473,6 +7523,7 @@
     }
 
 }
+
 
 
 
