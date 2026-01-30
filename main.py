@@ -877,7 +877,7 @@ def admin_page():
                 soru_bankasini_kaydet(soru_bankasi)
                 st.success("✅ Soru güncellendi")
 
-      # ==================================================
+     # ==================================================
     # 🗑️ SORU SİL
     # ==================================================
     with tab4:
@@ -904,7 +904,7 @@ def admin_page():
             if st.button("❌ Soruyu Sil"):
                 sorular.pop(idx)
                 soru_bankasini_kaydet(soru_bankasi)
-                 st.error("🗑️ Soru silindi")
+                st.success("🗑️ Soru silindi")
 
 
 
@@ -970,6 +970,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
