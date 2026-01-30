@@ -915,59 +915,34 @@
         
 
 
-  {
-    "soru": "İslamiyet öncesi Türk devletlerinde 'kurgan' adı verilen mezarların oda şeklinde yapılması ve bu mezarlara ölüyle birlikte değerli eşyaların konulması, aşağıdakilerden hangisinin bir göstergesidir?",
+
+
+{
+    "soru": "İslamiyet öncesi Türk toplumlarında görülen 'töre', sosyal hayatı düzenleyen kurallar bütünüydü. Yazılı olmamasına rağmen herkes için bağlayıcı olan bu kuralların oluşumunda aşağıdakilerden hangisinin etkili olduğu söylenemez?",
     "secenekler": {
-    "A": "Özel mülkiyetin geliştiğinin",
-    "B": "Ahiret inancının varlığının",
-    "C": "Yazılı hukukun başladığının",
-    "D": "Yerleşik hayata geçildiğinin",
-    "E": "Ticaretin yaygın olduğunun",
+    "A": "Hükümdarların koyduğu kurallar",
+    "B": "Kurultayda alınan kararlar",
+    "C": "Toplum içinde oluşan gelenekler",
+    "D": "Komşu medeniyetlerle yapılan antlaşmalar",
+    "E": "Gök Tanrı inancına dayalı kutsal inanışlar",
     },
-    "dogru_cevap": "B",
-    "cozum": "Ölüyle birlikte değerli eşyaların konulması, İslamiyet öncesi Türklerde ahiret inancının varlığını gösterir. Kurganlar bu inancın en temel kanıtlarından biridir."
-  },
-     {
-    "soru": "İslamiyet öncesi Türk devletlerinde hükümdarın tanrı tarafından bu göreve getirildiğine inanılırdı. 'Kut' adı verilen bu anlayış, hükümdara yönetme yetkisinin Gök Tanrı tarafından verildiğini ifade ederdi. Buna göre, 'kut' anlayışının aşağıdakilerden hangisine neden olduğu söylenemez?",
-    "secenekler": {
-      "A": "Hükümdarın halk nezdindeki otoritesinin artmasına",
-      "B": "Taht kavgalarının yaşanmasına",
-      "C": "Hükümdarın mutlak egemenliğinin teokratik bir temele dayanmasına",
-      "D": "Hanedanın bütün erkek üyelerinin hükümdar olma hakkına sahip olmasına",
-      "E": "Devletin tamamen dini kurallarla yönetilmesine"
-    },
-    "dogru_cevap": "E",
-    "cozum": "Kut anlayışı devleti teokratik (dine dayalı) bir temele oturtsa da devletin tamamen şeriat gibi dini kurallarla yönetildiği anlamına gelmez. Yönetimde asıl olan 'töre'dir."
+    "dogru_cevap": "D",
+    "cozum": "Töre, toplumsal hayatı düzenleyen yazısız hukuk kurallarıdır. Kaynakları kağan emirleri, kurultay kararları, gelenekler ve dini inanışlardır. Komşu devletlerle yapılan antlaşmalar ise töreyi oluşturmaz."
   },
   {
-    "soru": "Göktürkler ve Asya Hunları gibi devletlerde ülke, genellikle doğu ve batı olmak üzere iki yönetim birimine ayrılırdı. Doğuyu asıl hükümdar (kağan) yönetirken, batıda ise genellikle 'yabgu' unvanlı hanedan üyesi bulunurdu. Bu yönetim anlayışının (ikili teşkilat) temel amacı aşağıdakilerden hangisidir?",
+    "soru": "Avrupa'ya göç ederek burada devlet kuran Türk toplulukları, zamanla milli benliklerini kaybetmişlerdir. Bu duruma rağmen Balkanlar'da varlığını uzun süre devam ettiren ve özellikle Slavları devlet yönetimi ve askeri teşkilatlanma alanlarında etkileyen Türk devleti aşağıdakilerden hangisidir?",
     "secenekler": {
-      "A": "Federal bir yapı oluşturmak",
-      "B": "Ülke yönetimini kolaylaştırmak",
-      "C": "Taht kavgalarını engellemek",
-      "D": "Farklı dinlere hoşgörü göstermek",
-      "E": "Yerleşik hayata geçişi hızlandırmak"
-    },
-    "dogru_cevap": "B",
-    "cozum": "Geniş toprakları yönetmeyi kolaylaştırmak ve denetimi sağlamak temel amaçtır. Ancak bu sistem, taht kavgalarını engellememiş, aksine teşvik etmiştir."
-  },
-  {
-    "soru": "Orhun Abideleri;",
-        "maddeler": [
-      "I. Türk adının geçtiği ilk Türkçe metin olması,",
-      "II. Hükümdarın halka karşı sorumluluklarını belirtmesi,",
-      "III. Sasanilerle yapılan mücadeleleri anlatması\nözelliklerinden hangilerini taşımaktadır?",
-          ],   
-    "secenekler": {
-      "A": "Yalnız I",
-      "B": "Yalnız II",
-      "C": "I ve II",
-      "D": "II ve III",
-      "E": "I, II ve III"
+    "A": "Avrupa Hunları",
+    "B": "Avarlar",
+    "C": "Tuna Bulgarları",
+    "D": "Macarlar",
+    "E": "Kıpçaklar",
     },
     "dogru_cevap": "C",
-    "cozum": "Orhun Abideleri Türk adının geçtiği, siyasi bir beyanname niteliğinde olan ilk Türkçe metinlerdir ve hükümdarın halka hesap verdiği bir sosyal devlet anlayışını yansıtır. Sasanilerle ilgili bilgi içermez."
+    "cozum": "Tuna Bulgarları, Balkanlar'da uzun süre varlık göstermiş ve Slavları devlet yönetimi ve askeri teşkilatlanma açısından etkilemiştir. 'Çar' unvanı gibi izler bu etkileşimin göstergesidir."
   },
+
+
 
         
 
@@ -7656,6 +7631,7 @@
     }
 
 }
+
 
 
 
