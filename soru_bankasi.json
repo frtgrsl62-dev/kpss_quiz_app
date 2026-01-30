@@ -1004,7 +1004,54 @@
     "8. Trablusgarp ve Balkan Savaşları": [],
     "9. I. Dünya Savaşı ve Sonuçları": [],
     "10. Milli Mücadele'nin Hazırlık Dönemi": [
-    {
+  {
+    "soru": "Milli Mücadele'nin hazırlık döneminde kurulan Temsil Heyeti'nin görevi ne zaman sona ermiştir?",
+    "secenekler": {
+      "A": "Sivas Kongresi'nde",
+      "B": "Amasya Görüşmeleri'nde",
+      "C": "Misakımillî'nin kabulüyle",
+      "D": "Türkiye Büyük Millet Meclisi'nin açılmasıyla",
+      "E": "Mudanya Ateşkes Antlaşması'yla"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Temsil Heyeti, geçici bir hükümet gibi görev yapıyordu. 23 Nisan 1920'de, milletin temsilcilerinden oluşan ve tüm yetkileri elinde toplayan TBMM açılınca, Temsil Heyeti'nin görevi de doğal olarak sona ermiştir. Temsil Heyeti'nin görevinin TBMM'nin açılmasıyla sona ermesi, gücün ve yetkinin kişilerden ve kurullardan alınıp tamamen milletin meclisine devredildiğini gösterir."
+  },
+  {
+    "soru": "Mustafa Kemal'e '9. Ordu Müfettişi' olarak verilen yetkilerin genişliği, onun Anadolu'daki valilere ve komutanlara emir verebilmesini sağlamıştır. Bu durumun Milli Mücadele açısından en önemli sonucu ne olmuştur?",
+    "secenekler": {
+      "A": "Padişahın güvenini kazanması",
+      "B": "İstanbul Hükûmeti ile arasının açılması",
+      "C": "Milli Mücadele'yi örgütlemek için kendisine yasal bir zemin ve hareket alanı sağlaması",
+      "D": "İtilaf Devletleri'nin desteğini alması",
+      "E": "Askerlikten istifa etmesini engellemesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Mustafa Kemal, bu geniş yetkileri kullanarak komutanlarla ve valilerle temas kurmuş, genelgeler yayımlamış ve kongreler için hazırlık yapmıştır. Yani resmi bir görevi, milli bir amaç için kullanmıştır. Bu, Mustafa Kemal'in ne kadar zeki bir stratejist olduğunun kanıtıdır."
+  },
+  {
+    "soru": "Balıkesir ve Alaşehir Kongreleri gibi yerel kongrelerin, Sivas Kongresi'nden temel farkı nedir?",
+    "secenekler": {
+      "A": "Padişaha bağlılık bildirmeleri",
+      "B": "Mustafa Kemal tarafından toplanmaları",
+      "C": "Ulusal kararlar yerine sadece kendi bölgelerini kurtarmayı amaçlayan bölgesel nitelikte olmaları",
+      "D": "İtilaf Devletleri tarafından tanınmaları",
+      "E": "Silahlı mücadeleyi reddetmeleri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Bu kongreler, Yunan işgaline karşı Batı Anadolu'yu savunmak amacıyla toplanmış ve kararları da bu bölgeyle sınırlı kalmıştır. Sivas Kongresi ise tüm yurdu kapsayan kararlar almıştır. Sivas Kongresi'nin en önemli işlevlerinden biri, bu tür faydalı ama dağınık bölgesel hareketleri tek bir ulusal çatı altında birleştirmek olmuştur."
+  },  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
     "soru": "Mustafa Kemal'in Son Osmanlı Mebusan Meclisi'ne Erzurum mebusu seçilmesine rağmen İstanbul'a gitmeyip Ankara'da kalmasının temel nedeni nedir?",
     "secenekler": {
       "A": "Ankara'nın başkent olmasını istemesi",
@@ -2874,6 +2921,7 @@
     }
 
 }
+
 
 
 
