@@ -760,9 +760,16 @@ def admin_page():
     with tab2:
         st.subheader("Yeni Soru Ekle")
 
-        ders = st.selectbox("Ders", list(soru_bankasi.keys()))
-    #    konu = st.text_input("Konu (yeni veya mevcut)")
-        konu = st.selectbox("Konu", list(soru_bankasi.keys()))
+    dersler = list(soru_bankasi.keys())
+    ders = st.selectbox("Ders Seç", dersler)
+
+    mevcut_konular = list(soru_bankasi.get(ders, {}).keys())
+    konu_secim = st.selectbox("Konu Seç", mevcut_konular + ["➕ Yeni Konu"])
+
+    if konu_secim == "➕ Yeni Konu":
+        konu = st.text_input("Yeni Konu Adı")
+    else:
+        konu = konu_secim
         
         soru_metin = st.text_area("Soru")
         a = st.text_input("A şıkkı")
@@ -863,6 +870,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
