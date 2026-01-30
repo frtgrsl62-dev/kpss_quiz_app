@@ -910,7 +910,25 @@
  },
 
 "📜 Tarih": {
-    "1. İslamiyet Öncesi Türk Tarihi": [ ],
+    "1. İslamiyet Öncesi Türk Tarihi": [
+          {
+    "soru": "Asya Hun Hükümdarı Mete Han, dağınık halde yaşayan yirmi altıdan fazla Türk ve Moğol boyunu tek bir bayrak altında toplamıştır. Ayrıca orduyu onluk sisteme göre düzenlemiştir. Bu bilgilere dayanarak Mete Han ile ilgili;",
+    "maddeler": [
+      "I. Türk siyasi birliğini sağlamıştır.",
+      "II. Askeri alanda modern bir teşkilatlanma kurmuştur.",
+      "III. Çin medeniyetini tamamen ortadan kaldırmıştır. Yargılarından hangilerine ulaşılabilir?"
+    ],          
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    }, 
+    "dogru_cevap": "C",
+    "cozum": "Mete Han, Türk boylarını birleştirerek siyasi birliği sağlamış ve onlu sistemi kurarak orduyu modernize etmiştir. Ancak Çin'i ortadan kaldırmak gibi bir amacı olmamış, onu vergiye bağlamıştır."
+  }
+    ],
     "2. İlk Türk-İslam Devletleri ve Beylikleri": [ ],
     "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [ ],
     "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [],
@@ -963,6 +981,7 @@
     }
 
 }
+
 
 
 
