@@ -1027,8 +1027,7 @@
             "E": "Almanya - Rethondes"
         },
         "dogru_cevap": "D",
-        "cozum": "Macaristan doğrudan Trianon ile barış yaptı, ateşkes yapmadı.",
-        "koc_yorumu": "Detay sorusu olsa da kronoloji bilmek önemlidir."
+        "cozum": "Macaristan doğrudan Trianon ile barış yaptı, ateşkes yapmadı."
     },
     {
         "soru": "'Vilayet-i Sitte' (Altı İl) olan Van, Erzurum, Sivas, Bitlis, Diyarbakır ve Harput'ta karışıklık çıkması durumunda İtilaf Devletleri'nin işgal hakkı hangi belgede yer almıştır?",
@@ -1052,8 +1051,7 @@
             "E": "Silahsızlanma ve orduların lağvedilmesi"
         },
         "dogru_cevap": "B",
-        "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' ilkesini delmek için İngiltere ve Fransa'nın bulduğu bir formüldür. Orta Doğu'daki Osmanlı toprakları (Irak, Suriye, Filistin vb.) bu sistemle paylaşılmıştır.",
-        "koc_yorumu": "Manda-himaye sistemi aslında sömürgeciliğin kılıf değiştirmiş halidir."
+        "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' ilkesini delmek için İngiltere ve Fransa'nın bulduğu bir formüldür. Orta Doğu'daki Osmanlı toprakları (Irak, Suriye, Filistin vb.) bu sistemle paylaşılmıştır."
     },
     {
         "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine neden olan olay hangisidir?",
@@ -1065,8 +1063,7 @@
             "E": "Seferberlik ilan etmesi"
         },
         "dogru_cevap": "C",
-        "cozum": "İngiliz donanmasından kaçarak Osmanlı'ya sığınan bu iki Alman gemisi, Yavuz ve Midilli adlarıyla Osmanlı bayrağı çekilerek Karadeniz'e açılıp Rus limanlarını bombalamıştır. Bu olay Osmanlı'nın fiilen savaşa girmesine neden olmuştur.",
-        "koc_yorumu": "Bu olay bir oldubittidir, Osmanlı'nın savaşa girişinde dönüm noktasıdır."
+        "cozum": "İngiliz donanmasından kaçarak Osmanlı'ya sığınan bu iki Alman gemisi, Yavuz ve Midilli adlarıyla Osmanlı bayrağı çekilerek Karadeniz'e açılıp Rus limanlarını bombalamıştır. Bu olay Osmanlı'nın fiilen savaşa girmesine neden olmuştur."
     },
     {
         "soru": "Paris Barış Konferansı'nda, daha önce gizli antlaşmalarla İtalya'ya vadedilen İzmir ve çevresinin, İngiltere'nin desteğiyle Yunanistan'a verilmesinin temel nedeni nedir?",
@@ -1078,8 +1075,8 @@
             "E": "ABD'nin bu yönde baskı yapması"
         },
         "dogru_cevap": "D",
-        "cozum": "İngiltere, Akdeniz'deki çıkarları için güçlü bir İtalya'nın bölgeye yerleşmesini istememiş, bunun yerine kontrol edebileceği Yunanistan'ı desteklemiştir.",
-        "koc_yorumu": "Bu karar İtilaf Devletleri arasındaki ilk ciddi çıkar çatışmasını göstermiştir. İtalya’nın küsüp konferansı terk etmesine yol açmıştır."
+        "cozum": "İngiltere, Akdeniz'deki çıkarları için güçlü bir İtalya'nın bölgeye yerleşmesini istememiş, bunun yerine kontrol edebileceği Yunanistan'ı desteklemiştir."
+
     },
     {
         "soru": "'Çöl Kaplanı' lakabıyla bilinen Fahrettin Paşa'nın, zor şartlar altında kutsal emanetleri korumak için aylarca direndiği ve 'Medine Müdafaası' olarak tarihe geçen olay hangi cephede yaşanmıştır?",
@@ -1091,8 +1088,7 @@
             "E": "Kanal Cephesi"
         },
         "dogru_cevap": "D",
-        "cozum": "Mondros Ateşkesi imzalandıktan sonra bile teslim olmayan Fahrettin Paşa'nın bu kahramanca direnişi, I. Dünya Savaşı'nın en önemli direniş öykülerindendir.",
-        "koc_yorumu": "Fahrettin Paşa’nın Medine savunması, Osmanlı’nın fedakârlık örneklerinden biridir."
+        "cozum": "Mondros Ateşkesi imzalandıktan sonra bile teslim olmayan Fahrettin Paşa'nın bu kahramanca direnişi, I. Dünya Savaşı'nın en önemli direniş öykülerindendir."
     },
    
         
@@ -4158,6 +4154,7 @@
     }
 
 }
+
 
 
 
