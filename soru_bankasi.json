@@ -999,10 +999,763 @@
     "3. Türkiye (Anadolu) Selçuklu Devleti ve II. Beylikler Dönemi": [ ],
     "4. Osmanlı Devleti Kuruluş ve Yükselme Dönemleri": [],
     "5. Osmanlı Devleti Kültür ve Medeniyeti": [],
-    "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [    ],
+    "6. 17. yy (Duraklama) ve 18. yy (Gerileme) Dönemleri": [
+
+
+
+ {
+    "soru": "Osmanlı Devleti'nde 18. yüzyılda yapılan ıslahatların, 17. yüzyıldakilerden temel farkı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Daha çok askeri alanda yapılması",
+      "B": "Padişahlar tarafından desteklenmesi",
+      "C": "Batı'nın (Avrupa'nın) askeri ve teknik üstünlüğünün kabul edilerek, Batı'nın örnek alınması",
+      "D": "Halk tarafından benimsenmesi",
+      "E": "Ulemanın tepkisini çekmemesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 17. yüzyılda çözüm geçmişe dönmekte aranırken, 18. yüzyılda çözüm Batı'yı örnek almakta aranmıştır.\nDoğru Cevap: C) Batı'nın (Avrupa'nın) askeri ve teknik üstünlüğünün kabul edilerek, Batı'nın örnek alınması\nKoçunun Yorumu: 17. yüzyılın yüzü geçmişe, 18. yüzyılın yüzü Batı'ya dönüktür."
+  },
+  {
+    "soru": "1774 Küçük Kaynarca Antlaşması'nın aşağıdaki maddelerinden hangisi, Rusya'nın Osmanlı Devleti'nin iç işlerine doğrudan karışmasına zemin hazırlamıştır?",
+    "secenekler": {
+      "A": "Kırım'ın bağımsız olması",
+      "B": "Osmanlı Devleti'nin Rusya'ya savaş tazminatı ödemesi",
+      "C": "Rusya'nın Karadeniz'de donanma bulundurabilmesi",
+      "D": "Rusya'nın, Osmanlı yönetimindeki Ortodoksların koruyuculuğunu üstlenmesi",
+      "E": "Rusya'ya kapitülasyonların verilmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Rusya'nın Osmanlı'daki Ortodoksların koruyucusu olması, Osmanlı iç işlerine sürekli müdahale hakkı doğurdu.\nDoğru Cevap: D) Rusya'nın, Osmanlı yönetimindeki Ortodoksların koruyuculuğunu üstlenmesi\nKoçunun Yorumu: Bu madde, Osmanlı'nın egemenlik haklarına en çok zarar veren maddedir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde Pasarofça Antlaşması ile başlayıp Patrona Halil İsyanı ile sona eren, Batı'dan matbaa ve itfaiye gibi yeniliklerin alındığı ancak askeri alanda bir ıslahatın yapılmadığı dönem aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Nizam-ı Cedid Dönemi",
+      "B": "Köprülüler Dönemi",
+      "C": "Lale Devri",
+      "D": "Tanzimat Dönemi",
+      "E": "I. Meşrutiyet Dönemi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Başlangıcı Pasarofça, sonu Patrona Halil olan dönem Lale Devri'dir. Bu dönemde askeri ıslahat yapılmamıştır.\nDoğru Cevap: C) Lale Devri\nKoçunun Yorumu: Lale Devri denince akla 'askeri ıslahat yok' bilgisi gelmelidir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin, Kutsal İttifak Savaşları'nda aldığı yenilgiler sonucunda 1699'da imzaladığı ve Batı'da ilk kez büyük çapta toprak kaybettiği antlaşma aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Zitvatorok Antlaşması",
+      "B": "Bucaş Antlaşması",
+      "C": "Karlofça Antlaşması",
+      "D": "Vasvar Antlaşması",
+      "E": "Kasr-ı Şirin Antlaşması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 1699 Karlofça, Osmanlı'nın Batı'da ilk kez büyük toprak kaybettiği antlaşmadır.\nDoğru Cevap: C) Karlofça Antlaşması\nKoçunun Yorumu: Karlofça, Duraklama'nın bitip Gerileme'nin başladığı psikolojik sınırdır."
+  },
+  {
+    "soru": "III. Selim tarafından kurulan Nizam-ı Cedid ordusu ve İrad-ı Cedid hazinesi, onun ıslahat anlayışı hakkında neyi gösterir?",
+    "secenekler": {
+      "A": "Sadece mali alanda yapılmıştır.",
+      "B": "Geleneksel kurumları örnek almıştır.",
+      "C": "Yeni kurumlar oluşturarak köklü bir değişim amaçlamıştır.",
+      "D": "Halk tarafından tamamen desteklenmiştir.",
+      "E": "Lale Devri'nde başlamıştır."
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Nizam-ı Cedid ordusu ve İrad-ı Cedid hazinesi, köklü (radikal) bir değişim isteğini gösterir.\nDoğru Cevap: C) Yeni kurumlar oluşturarak köklü bir değişim amaçlamıştır\nKoçunun Yorumu: III. Selim, programlı ve radikal ıslahatlarıyla öne çıkar."
+  },
+  {
+    "soru": "17. yüzyılda Osmanlı Devleti'nde Sancağa Çıkma usulünün kaldırılarak yerine Kafes Usulü'nün getirilmesi, aşağıdakilerden hangisine neden olmuştur?",
+    "secenekler": {
+      "A": "Taht kavgalarının tamamen sona ermesine",
+      "B": "Yönetim tecrübesinden yoksun, dünyadan habersiz şehzadelerin padişah olmasına",
+      "C": "Devletin gelirlerinin artmasına",
+      "D": "Celali İsyanları'nın başlamasına",
+      "E": "Tımar sisteminin güçlenmesine"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Sancakta tecrübe kazanamayan şehzadeler, kafeste kapalı kaldı. Tahta geçince tecrübesiz oldular.\nDoğru Cevap: B) Yönetim tecrübesinden yoksun şehzadeler padişah oldu\nKoçunun Yorumu: Duraklama'nın en önemli nedeni, yönetici kalitesinin düşmesidir."
+  },
+  {
+    "soru": "1606 yılında Avusturya ile imzalanan Zitvatorok Antlaşması'ndaki \"Avusturya Arşidükü Osmanlı Padişahı'na denk sayılacaktır.\" maddesi neyi ifade eder?",
+    "secenekler": {
+      "A": "Askeri bir zaferi",
+      "B": "Ekonomik bir kazancı",
+      "C": "Avrupa devletleri üzerindeki siyasi ve diplomatik üstünlüğün sona erdiğini",
+      "D": "Balkanlardaki toprakların kaybedildiğini",
+      "E": "Avusturya ile bir ittifak kurulduğunu"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Osmanlı padişahının diplomatik üstünlüğü sona erdi.\nDoğru Cevap: C) Avrupa devletleri üzerindeki siyasi ve diplomatik üstünlüğün sona erdiğini\nKoçunun Yorumu: Zitvatorok, Osmanlı'nın masada prestij kaybettiği antlaşmadır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde saraya şartlar sunarak sadrazamlığı kabul eden, sert tedbirlerle devlet otoritesini yeniden sağlayan aile dönemi hangisidir?",
+    "secenekler": {
+      "A": "Tarhuncu Ahmet Paşa",
+      "B": "Lale Devri",
+      "C": "Nizam-ı Cedid",
+      "D": "Köprülüler Dönemi",
+      "E": "Alemdar Mustafa Paşa"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Köprülü Mehmet Paşa şartlı olarak göreve gelmiş, otoriteyi sağlamıştır.\nDoğru Cevap: D) Köprülüler Dönemi\nKoçunun Yorumu: Köprülüler, baskı ve disiplin ile devlet otoritesini güçlendirdiler."
+  },
+  {
+    "soru": "İbrahim Müteferrika ve Said Efendi tarafından Osmanlı Devleti'nde kurulan ilk özel Türk matbaası hangi dönemde açılmıştır?",
+    "secenekler": {
+      "A": "Fetret Devri",
+      "B": "Lale Devri",
+      "C": "I. Mahmut Dönemi",
+      "D": "Nizam-ı Cedid Dönemi",
+      "E": "Köprülüler Dönemi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: İlk matbaa Lale Devri'nde açıldı.\nDoğru Cevap: B) Lale Devri\nKoçunun Yorumu: Şeyhülislam, dini eserlerin basılmaması şartıyla izin vermiştir."
+  },
+  {
+    "soru": "Humbaracı Ocağı'nın modernleştirilmesi ve Hendesehane adlı ilk askeri teknik okulun açılması hangi padişah döneminde gerçekleşmiştir?",
+    "secenekler": {
+      "A": "III. Ahmet",
+      "B": "I. Mahmut",
+      "C": "III. Mustafa",
+      "D": "I. Abdülhamit",
+      "E": "III. Selim"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Batılı uzmanlar getirilerek askeri ıslahatlara I. Mahmut döneminde başlandı.\nDoğru Cevap: B) I. Mahmut\nKoçunun Yorumu: Lale Devri'nde askeri ıslahat yoktu. İlk askeri yenilikler I. Mahmut dönemindedir."
+  },
+  {
+    "soru": "1774 Küçük Kaynarca Antlaşması sonucunda Osmanlı Devleti ilk kez hangi bölgedeki Türk ve Müslüman topluluğu kaybetmiştir?",
+    "secenekler": {
+      "A": "Balkanlar",
+      "B": "Eflak-Boğdan",
+      "C": "Kırım",
+      "D": "Mora",
+      "E": "Kafkasya"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Küçük Kaynarca Antlaşması ile Kırım bağımsız oldu. Osmanlı ilk kez Türk ve Müslüman bir topluluğu kaybetti.\nDoğru Cevap: C) Kırım\nKoçunun Yorumu: Osmanlı'nın çözülme süreci artık Türk ve Müslüman unsurları da kapsamaya başlamıştır."
+  },
+  {
+    "soru": "III. Selim’in Nizam-ı Cedid ordusunu kurması, Osmanlı ıslahat hareketlerinde neyin göstergesidir?",
+    "secenekler": {
+      "A": "Yeniçeri Ocağı'nın güçlendiğini",
+      "B": "Batı tarzı modern bir orduya duyulan ihtiyacı",
+      "C": "Halkın desteğini aradığını",
+      "D": "Vergi sistemini değiştirdiğini",
+      "E": "Saltanat sistemini kaldırmayı düşündüğünü"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Yeniçerilerin yetersizliği ve disiplinsizliği yüzünden III. Selim Batı tarzı modern bir ordu kurdu.\nDoğru Cevap: B) Batı tarzı modern bir orduya duyulan ihtiyaç\nKoçunun Yorumu: Nizam-ı Cedid ordusu, Osmanlı'nın köklü bir dönüşüm isteğinin göstergesidir."
+  },
+  {
+    "soru": "1804-1815 yılları arasında gerçekleşen ve Osmanlı topraklarında başlayan ilk milliyetçi isyan aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yunan İsyanı",
+      "B": "Sırp İsyanı",
+      "C": "Bulgar İsyanı",
+      "D": "Arnavut İsyanı",
+      "E": "Eflak-Boğdan İsyanı"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Osmanlı'daki ilk milliyetçi isyan Sırp İsyanı'dır.\nDoğru Cevap: B) Sırp İsyanı\nKoçunun Yorumu: Balkanlar, milliyetçi hareketlerin başladığı bölge olmuştur."
+  },
+  {
+    "soru": "1829 Edirne Antlaşması ile Yunanistan’ın bağımsızlığını kazanması, Osmanlı açısından neyin göstergesidir?",
+    "secenekler": {
+      "A": "Milliyetçilik akımının Osmanlı’yı parçalamaya başladığının",
+      "B": "Yeniçeri Ocağı'nın kaldırıldığının",
+      "C": "Rusya'nın Osmanlı üzerindeki nüfuzunun sona erdiğinin",
+      "D": "Kapitülasyonların kaldırıldığının",
+      "E": "Osmanlı'nın Batı ile iyi ilişkiler kurduğunun"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: Yunanistan'ın bağımsız olması, Osmanlı'dan kopan ilk ulus-devlet hareketidir.\nDoğru Cevap: A) Milliyetçilik akımının Osmanlı’yı parçalamaya başladığı\nKoçunun Yorumu: 19. yüzyıl, Osmanlı için milliyetçilik isyanlarıyla dolu olacaktır."
+  },
+  {
+    "soru": "1839 Tanzimat Fermanı ile aşağıdakilerden hangisi amaçlanmamıştır?",
+    "secenekler": {
+      "A": "Can, mal ve namus güvenliği sağlamak",
+      "B": "Vergilerin düzenli toplanmasını sağlamak",
+      "C": "Askerlik işlerini düzene koymak",
+      "D": "Halkın eşitliğini ve özgürlüğünü sağlamak",
+      "E": "Meşrutiyet yönetimini ilan etmek"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: Tanzimat Fermanı, meşrutiyet değil; halkın temel haklarını güvence altına almayı amaçlamıştır.\nDoğru Cevap: E) Meşrutiyet yönetimini ilan etmek\nKoçunun Yorumu: Tanzimat, Osmanlı’da modernleşme yolunda bir dönüm noktasıdır."
+  },
+  {
+    "soru": "1856 Islahat Fermanı ile özellikle hangi topluluklara yeni haklar verilmiştir?",
+    "secenekler": {
+      "A": "Türklere",
+      "B": "Müslümanlara",
+      "C": "Gayrimüslimlere",
+      "D": "Askerlere",
+      "E": "Köylülere"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Islahat Fermanı, Avrupalıların baskısıyla hazırlanmış ve özellikle gayrimüslimlere yeni haklar tanımıştır.\nDoğru Cevap: C) Gayrimüslimlere\nKoçunun Yorumu: Bu ferman, Osmanlı iç işlerine müdahaleyi kolaylaştırmıştır."
+  },
+  {
+    "soru": "1876’da ilan edilen I. Meşrutiyet’in en önemli özelliği aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Halifeliğin kaldırılması",
+      "B": "Parlamenter sistemin başlaması",
+      "C": "Kapitülasyonların kaldırılması",
+      "D": "Padişahın yetkilerinin tamamen sona ermesi",
+      "E": "Tanzimat Fermanı'nın yürürlükten kaldırılması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: I. Meşrutiyet ile Osmanlı’da ilk kez parlamenter sisteme geçilmiştir.\nDoğru Cevap: B) Parlamenter sistemin başlaması\nKoçunun Yorumu: Kanun-i Esasi ile anayasal düzene geçiş sağlanmıştır."
+  },
+  {
+    "soru": "1877-1878 Osmanlı-Rus Savaşı’nın (93 Harbi) Osmanlı açısından en önemli sonucu nedir?",
+    "secenekler": {
+      "A": "Meclis-i Mebusan’ın kapatılması",
+      "B": "İngiltere ile ittifak yapılması",
+      "C": "Halifeliğin kaldırılması",
+      "D": "Kapitülasyonların sona ermesi",
+      "E": "Osmanlı’nın tamamen dağılması"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Analiz: 93 Harbi’nde alınan yenilgi nedeniyle II. Abdülhamit Meclis-i Mebusan’ı kapatıp meşrutiyeti askıya almıştır.\nDoğru Cevap: A) Meclis-i Mebusan’ın kapatılması\nKoçunun Yorumu: II. Abdülhamit’in 30 yıl sürecek istibdat yönetimi bu savaş sonrası başlamıştır."
+  },
+  {
+    "soru": "1908 II. Meşrutiyet’in ilanıyla aşağıdakilerden hangisi yeniden açılmıştır?",
+    "secenekler": {
+      "A": "Divan-ı Hümayun",
+      "B": "Meclis-i Mebusan",
+      "C": "Şeriye Mahkemeleri",
+      "D": "Meclis-i Vükela",
+      "E": "Ayan Meclisi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: II. Meşrutiyet ile Meclis-i Mebusan tekrar açılmıştır.\nDoğru Cevap: B) Meclis-i Mebusan\nKoçunun Yorumu: Bu gelişme Osmanlı’da özgürlük hareketlerini hızlandırmıştır."
+  },
+  {
+    "soru": "I. Dünya Savaşı sırasında Osmanlı Devleti’nin açtığı aşağıdaki cephelerden hangisi taarruz amacıyla açılmıştır?",
+    "secenekler": {
+      "A": "Kafkas Cephesi",
+      "B": "Kanal Cephesi",
+      "C": "Irak Cephesi",
+      "D": "Suriye-Filistin Cephesi",
+      "E": "Çanakkale Cephesi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Osmanlı, İngiltere’nin sömürge yollarını kesmek için Kanal Cephesi’ni açmıştır.\nDoğru Cevap: B) Kanal Cephesi\nKoçunun Yorumu: Osmanlı’nın açtığı tek taarruz cephesi Kanal’dır, diğerleri savunma amaçlıdır."
+  },
+  {
+    "soru": "Mondros Ateşkes Antlaşması’nın en ağır maddelerinden biri olan 7. madde neye imkan tanımıştır?",
+    "secenekler": {
+      "A": "Osmanlı ordusunun tamamen terhis edilmesine",
+      "B": "İtilaf Devletleri'nin, güvenliklerini tehdit eden bir durum olduğunda istedikleri yeri işgal etmelerine",
+      "C": "İstanbul’un doğrudan işgaline",
+      "D": "Osmanlı Devleti’nin resmen sona ermesine",
+      "E": "Kapitülasyonların kaldırılmasına"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: 7. madde ile İtilaf Devletleri Anadolu’nun her yerini işgal etme hakkı elde etti.\nDoğru Cevap: B) İtilaf Devletleri'nin, güvenliklerini tehdit eden bir durum olduğunda istedikleri yeri işgal etmeleri\nKoçunun Yorumu: 7. madde, Anadolu işgallerine yasal kılıf olmuştur."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, savaş sonunda yıkılan imparatorlukların topraklarında kurulan 'Manda ve Himaye' rejiminin tanımıdır?",
+    "secenekler": {
+      "A": "Halkların kendi kaderini tayin etmesi",
+      "B": "Sömürgeciliğin, 'az gelişmiş toplumları medenileştirme' adı altında Milletler Cemiyeti kontrolünde devam ettirilmesi",
+      "C": "Ülkeler arasında tam bir ekonomik serbestlik olması",
+      "D": "İşçi haklarının uluslararası güvence altına alınması",
+      "E": "Silahsızlanma ve orduların lağvedilmesi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Manda ve Himaye, sömürgeciliğin modern kılıfıdır. Özellikle Osmanlı toprakları bu şekilde paylaşıldı.\nDoğru Cevap: B) Sömürgeciliğin 'medenileştirme' adı altında Milletler Cemiyeti denetiminde devam ettirilmesi\nKoçunun Yorumu: Orta Doğu’daki paylaşımın meşrulaştırılma yoludur."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine neden olan olay hangisidir?",
+    "secenekler": {
+      "A": "Saraybosna suikastı",
+      "B": "Almanya ile gizli bir ittifak antlaşması imzalaması",
+      "C": "Goeben ve Breslau zırhlılarının Rus limanlarını bombalaması",
+      "D": "Kapitülasyonları tek taraflı olarak kaldırması",
+      "E": "Seferberlik ilan etmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Alman Goeben ve Breslau gemileri Osmanlı bayrağı altında Rus limanlarını bombalayınca Osmanlı savaşa girdi.\nDoğru Cevap: C) Goeben ve Breslau zırhlılarının Rus limanlarını bombalaması\nKoçunun Yorumu: Bu olay, Osmanlı’yı fiilen savaşın içine sokan bir oldubitti olmuştur."
+  },
+  {
+    "soru": "Paris Barış Konferansı'nda, daha önce İtalya'ya vaat edilen İzmir ve çevresinin, İngiltere'nin desteğiyle Yunanistan'a verilmesinin temel nedeni nedir?",
+    "secenekler": {
+      "A": "İtalya'nın savaştan çekilmesi",
+      "B": "Yunanistan'ın askeri olarak daha güçlü olması",
+      "C": "Bölgedeki Rum nüfusunun fazlalığı bahanesi",
+      "D": "İngiltere'nin, Doğu Akdeniz'de güçlü bir İtalya yerine kendi kontrolünde zayıf bir Yunanistan'ı tercih etmesi",
+      "E": "ABD'nin bu yönde baskı yapması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: İngiltere, güçlü bir İtalya yerine kontrol edebileceği zayıf bir Yunanistan'ı tercih etti.\nDoğru Cevap: D) İngiltere'nin güçlü bir İtalya yerine zayıf bir Yunanistan'ı tercih etmesi\nKoçunun Yorumu: Bu karar İtilaf Devletleri arasındaki çıkar çatışmasını gösterir."
+  },
+  {
+    "soru": "\"Çöl Kaplanı\" lakabıyla bilinen Fahrettin Paşa'nın 'Medine Müdafaası' hangi cephede yaşanmıştır?",
+    "secenekler": {
+      "A": "Kafkas Cephesi",
+      "B": "Irak Cephesi",
+      "C": "Suriye-Filistin Cephesi",
+      "D": "Hicaz-Yemen Cephesi",
+      "E": "Kanal Cephesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Fahrettin Paşa'nın Medine Müdafaası Hicaz-Yemen Cephesi'nde gerçekleşti.\nDoğru Cevap: D) Hicaz-Yemen Cephesi\nKoçunun Yorumu: Fahrettin Paşa'nın teslim olmayan direnişi tarihe geçmiştir."
+  },
+  {
+    "soru": "I. Dünya Savaşı'ndan sonra imzalanan ağır barış antlaşmalarının uzun vadeli sonucu ne olmuştur?",
+    "secenekler": {
+      "A": "Dünya barışının kalıcı olarak sağlanması",
+      "B": "Sömürgeciliğin tamamen sona ermesi",
+      "C": "ABD'nin dünyanın tek süper gücü olması",
+      "D": "Almanya’da hoşnutsuzluğun artması ve II. Dünya Savaşı'na zemin hazırlaması",
+      "E": "Rusya'da komünizmin yıkılması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Versay gibi ağır antlaşmalar Almanya'da öfke yarattı ve II. Dünya Savaşı'na zemin hazırladı.\nDoğru Cevap: D) Almanya’da hoşnutsuzluğun artması ve II. Dünya Savaşı’na zemin hazırlaması\nKoçunun Yorumu: Tarih süreklidir. I. Dünya Savaşı'nın sonuçları II. Dünya Savaşı'nın nedenleridir."
+  },
+    {
+    "soru": "17. yüzyılda Koçi Bey ve Kâtip Çelebi gibi aydınların padişaha sundukları raporlarda (risaleler), devlet düzenindeki bozulmaların temel nedeni olarak genellikle aşağıdakilerden hangisi gösterilmiştir?",
+    "secenekler": {
+      "A": "Avrupa'nın bilimsel olarak ilerlemesi",
+      "B": "Tımar sisteminin terk edilip iltizama geçilmesi",
+      "C": "Kanuni Sultan Süleyman dönemindeki kanun ve kurumlardan uzaklaşılması",
+      "D": "Sık sık yapılan saray isyanları",
+      "E": "Coğrafi Keşiflerin olumsuz etkileri"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 17. yüzyıl aydınları, sorunu dış gelişmelerde değil, içeride arıyorlardı. Kanuni dönemi 'Altın Çağ' kabul edilip bozulmanın nedeni bu düzenden uzaklaşmak olarak görülüyordu.\nDoğru Cevap: C) Kanuni Sultan Süleyman dönemindeki kanun ve kurumlardan uzaklaşılması\nKoçunun Yorumu: Bu bakış açısı, 17. yüzyıl ıslahatlarının neden 'eskiye dönüş' üzerine kurulu olduğunu açıklar."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, 17. yüzyılda Anadolu'da çıkan Celali İsyanları ile İstanbul'da çıkan Kapıkulu (Yeniçeri) İsyanları arasındaki temel farklardan biridir?",
+    "secenekler": {
+      "A": "Padişah değişikliklerine neden olmaları",
+      "B": "Temelinde ekonomik sıkıntıların yatması",
+      "C": "Genellikle halk, işsiz kalan medrese öğrencileri (suhte) ve görevden alınan memurlar tarafından desteklenmeleri",
+      "D": "Devletin merkezi otoritesini zayıflatmaları",
+      "E": "Islahatlara karşı çıkma amacı taşımaları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Her iki isyan da ekonomik sebeplerden doğdu ama sosyal tabanları farklıydı. Celali isyanları halk ve taşra kökenliyken, Kapıkulu isyanları saray ve asker merkezlidir.\nDoğru Cevap: C) Genellikle halk, işsiz kalan medrese öğrencileri (suhte) ve görevden alınan memurlar tarafından desteklenmeleri\nKoçunun Yorumu: İsyanların sosyal tabanını doğru ayırt etmek, yorum sorularında kritik önem taşır."
+  },
+  {
+    "soru": "Lale Devri'nde İbrahim Müteferrika tarafından kurulan ilk Türk matbaasında, Şeyhülislam'ın fetvası doğrultusunda başlangıçta dini eserlerin basılmasına izin verilmemiştir. Bu durum, aşağıdakilerden hangisinin bir göstergesidir?",
+    "secenekler": {
+      "A": "Osmanlı'da okuryazar oranının çok düşük olduğunun",
+      "B": "Hattatların işsiz kalmasının önlenmek istendiğinin",
+      "C": "Ulema sınıfının yenilikler üzerindeki kontrol gücünün ve geleneksel eğitim anlayışını koruma çabasının",
+      "D": "Padişahın matbaanın kurulmasına karşı olduğunun",
+      "E": "Basılacak eserler için yeterli kağıt bulunmadığının"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Dini eserlerin elle yazılması geleneği ve ulemanın denetim gücü nedeniyle dini kitaplar basılmadı.\nDoğru Cevap: C) Ulema sınıfının yenilikler üzerindeki kontrol gücünün ve geleneksel eğitim anlayışını koruma çabasının\nKoçunun Yorumu: Yenilikler kadar onların karşılaştığı sınırlamalar da dönemin zihniyetini yansıtır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin 17. yüzyılda imzaladığı aşağıdaki antlaşmalardan hangisi, bugünkü Türkiye-İran sınırının temelini oluşturması bakımından diğerlerinden ayrılır?",
+    "secenekler": {
+      "A": "Ferhat Paşa Antlaşması",
+      "B": "Zitvatorok Antlaşması",
+      "C": "Nasuh Paşa Antlaşması",
+      "D": "Hotin Antlaşması",
+      "E": "Kasr-ı Şirin Antlaşması"
+    },
+    "dogru_cevap": "E",
+    "cozum": "Analiz: 1639 Kasr-ı Şirin Antlaşması ile çizilen sınırlar, küçük değişikliklerle günümüze kadar ulaşmıştır.\nDoğru Cevap: E) Kasr-ı Şirin Antlaşması\nKoçunun Yorumu: Bir antlaşmanın günümüze uzanan sonuçları ÖSYM tarafından önemsenir."
+  },
+  {
+    "soru": "18. yüzyılda, devletin artan nakit ihtiyacını karşılamak için başlatılan ve 'iç borçlanma senedi' olarak da tanımlanabilecek sistem aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "İltizam",
+      "B": "Müsadere",
+      "C": "Esham",
+      "D": "Malikâne",
+      "E": "Tımar"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Esham sistemi, gelirlerin paylara bölünerek halka satılmasıdır. Bu, devletin modern finans yöntemlerine yöneldiğini gösterir.\nDoğru Cevap: C) Esham\nKoçunun Yorumu: Esham, Osmanlı maliyesinin klasik gelir kaynaklarını aşarak borçlanmaya yöneldiğinin kanıtıdır."
+  },
+    {
+    "soru": "1683 II. Viyana Kuşatması'nın başarısızlıkla sonuçlanması, Avrupa'da Osmanlı'ya karşı aşağıdakilerden hangisinin oluşumuna zemin hazırlamıştır?",
+    "secenekler": {
+      "A": "Reform Hareketleri",
+      "B": "Coğrafi Keşifler",
+      "C": "Kutsal İttifak",
+      "D": "Yüzyıl Savaşları",
+      "E": "Napolyon Savaşları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "II. Viyana bozgunu Osmanlı’nın Avrupa karşısında ilk büyük hezimeti oldu. Papa’nın çağrısıyla Avusturya, Venedik, Lehistan, Malta ve sonradan Rusya birleşerek Osmanlı’ya karşı Kutsal İttifak’ı oluşturdu.\nDoğru Cevap: C) Kutsal İttifak\nKoçunun Yorumu: 'II. Viyana = Kutsal İttifak' eşleşmesi kritik. Bu savaş Osmanlı için Gerileme Dönemi’nin başlangıcıdır."
+  },
+  {
+    "soru": "Aşağıdaki isyanlardan hangisi, Lale Devri'nin sona ermesine ve Padişah III. Ahmet'in tahttan indirilmesine neden olmuştur?",
+    "secenekler": {
+      "A": "Kabakçı Mustafa İsyanı",
+      "B": "Celali İsyanları",
+      "C": "Patrona Halil İsyanı",
+      "D": "Edirne Vakası",
+      "E": "Vaka-i Vakvakiye"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Patrona Halil İsyanı, III. Ahmet ve Nevşehirli Damat İbrahim Paşa’nın Batı tarzı eğlencelerine tepki olarak çıktı, kısa sürede büyüyerek Lale Devri’ni bitirdi.\nDoğru Cevap: C) Patrona Halil İsyanı\nKoçunun Yorumu: Islahat dönemlerinin sonunu genellikle isyanlar getirir: Lale Devri → Patrona Halil, Nizam-ı Cedid → Kabakçı Mustafa."
+  },
+  {
+    "soru": "III. Selim döneminde kurulan ve Avrupa tarzında eğitilen yeni ordu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Sekban-ı Cedid",
+      "B": "Humbaracı Ocağı",
+      "C": "Yeniçeri Ocağı",
+      "D": "Nizam-ı Cedid",
+      "E": "Tımarlı Sipahiler"
+    },
+    "dogru_cevap": "D",
+    "cozum": "III. Selim, Avrupa tarzında modern ordu olan Nizam-ı Cedid’i kurdu. Bu orduyu finanse etmek için İrad-ı Cedid hazinesi oluşturuldu.\nDoğru Cevap: D) Nizam-ı Cedid\nKoçunun Yorumu: ÖSYM 'hangi padişah-hangi ıslahat' eşleştirmesini çok sever. Nizam-ı Cedid → III. Selim temel bilgidir."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, 18. yüzyılda Osmanlı Devleti'nde yapılan ıslahatların genel özelliklerinden biri değildir?",
+    "secenekler": {
+      "A": "Batı'dan teknik uzmanlar getirilmiştir.",
+      "B": "Askeri alanda yenilikler yapılmıştır.",
+      "C": "Islahatlar padişah ve devlet adamlarının kişisel çabalarıyla sınırlı kalmıştır.",
+      "D": "Halkın desteği alınarak tabana yayılmıştır.",
+      "E": "Daha çok askeri yenilgilerin etkisiyle yapılmıştır."
+    },
+    "dogru_cevap": "D",
+    "cozum": "18. yy ıslahatlarının en belirgin özelliği, 'yukarıdan aşağıya' yapılmasıdır. Halkın katılımı söz konusu olmamıştır.\nDoğru Cevap: D) Halkın desteği alınarak tabana yayılmıştır\nKoçunun Yorumu: Islahatlarda 'halk desteği yok' vurgusu kritik."
+  },
+  {
+    "soru": "Senedi İttifak (1808) aşağıdaki gelişmelerden hangisinin bir örneğidir?",
+    "secenekler": {
+      "A": "Avrupa tarzı askeri reform",
+      "B": "Padişahın yetkilerinin ayanlarla paylaşılması",
+      "C": "Yeni vergi sisteminin kabulü",
+      "D": "Osmanlı-Rus ittifakı",
+      "E": "İlk kez halkın yönetime katılması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Senedi İttifak, II. Mahmut ile ayanlar arasında imzalandı. Padişah, taşra ayanlarının varlığını resmen tanıdı.\nDoğru Cevap: B) Padişahın yetkilerinin ayanlarla paylaşılması\nKoçunun Yorumu: Senedi İttifak = Osmanlı'da ilk demokratikleşme adımı değildir. Daha çok merkez-taşra güç dengesi ile ilgilidir."
+  },
+  {
+    "soru": "Tanzimat Fermanı (1839) ile Osmanlı halkına verilen haklardan biri aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Din değiştirme özgürlüğü",
+      "B": "Vergilerin herkesten gelirine göre alınması",
+      "C": "Kadınlara seçme ve seçilme hakkı",
+      "D": "Saltanatın kaldırılması",
+      "E": "Basın özgürlüğü"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Tanzimat Fermanı ile vergi adaleti, askerlik düzenlemesi, can-mal-güvenliği garanti altına alındı.\nDoğru Cevap: B) Vergilerin herkesten gelirine göre alınması\nKoçunun Yorumu: Tanzimat → hukuk eşitliği; Islahat → din ve mezhep eşitliği."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, Islahat Fermanı (1856) ile Tanzimat Fermanı'ndan farklı olarak gündeme gelen bir yeniliktir?",
+    "secenekler": {
+      "A": "Can, mal, namus güvenliği",
+      "B": "Vergilerin adaletli toplanması",
+      "C": "Gayrimüslimlerin devlet memuru olabilmesi",
+      "D": "Askerlik hizmetinde düzenleme",
+      "E": "Mahkemelerin açık yapılması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Islahat Fermanı, dış baskılarla hazırlanmış ve gayrimüslimlere geniş haklar tanımıştır.\nDoğru Cevap: C) Gayrimüslimlerin devlet memuru olabilmesi\nKoçunun Yorumu: Tanzimat- Islahat farkını net bilmek çok önemli."
+  },
+  {
+    "soru": "I. Meşrutiyet'in (1876) ilan edilmesinde en etkili olan grup aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yeniçeriler",
+      "B": "Ayanlar",
+      "C": "Jön Türkler (Genç Osmanlılar)",
+      "D": "Ulema",
+      "E": "Esnaf loncaları"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Genç Osmanlılar, Namık Kemal, Ziya Paşa gibi aydınlar meşrutiyetin ilanında en etkili gruptur.\nDoğru Cevap: C) Jön Türkler (Genç Osmanlılar)\nKoçunun Yorumu: I. Meşrutiyet → Genç Osmanlılar; II. Meşrutiyet → İttihat ve Terakki."
+  },
+  {
+    "soru": "1877-1878 Osmanlı-Rus Savaşı (93 Harbi) sonunda imzalanan ve yürürlüğe girmeyen antlaşma aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Edirne Antlaşması",
+      "B": "Paris Antlaşması",
+      "C": "Ayastefanos Antlaşması",
+      "D": "Berlin Antlaşması",
+      "E": "Zitvatorok Antlaşması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Ayastefanos Antlaşması Rusya’ya büyük avantaj sağladığı için İngiltere ve Avusturya’nın tepkisiyle yürürlüğe girmedi, yerine Berlin Antlaşması yapıldı.\nDoğru Cevap: C) Ayastefanos Antlaşması\nKoçunun Yorumu: 'Ayastefanos → yürürlüğe girmedi, yerine Berlin' eşleşmesini bilmek çok önemlidir."
+  },
+  {
+    "soru": "II. Meşrutiyet’in 1908’de ilan edilmesinde etkili olan siyasi örgüt aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Hürriyet ve İtilaf Fırkası",
+      "B": "İttihat ve Terakki Cemiyeti",
+      "C": "Genç Osmanlılar",
+      "D": "Ayan Meclisi",
+      "E": "Yeni Osmanlılar Cemiyeti"
+    },
+    "dogru_cevap": "B",
+    "cozum": "1908’de II. Meşrutiyet, İttihat ve Terakki’nin baskısıyla ilan edildi.\nDoğru Cevap: B) İttihat ve Terakki Cemiyeti\nKoçunun Yorumu: I. Meşrutiyet → Genç Osmanlılar, II. Meşrutiyet → İttihat ve Terakki sorusu sık çıkar."
+  },
+  {
+    "soru": "Trablusgarp Savaşı (1911-1912) sırasında Osmanlı subaylarının yerel halkı örgütleyerek İtalyanlara karşı yürüttüğü direnişin öncülerinden biri aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Mustafa Kemal",
+      "B": "Rauf Orbay",
+      "C": "Kazım Karabekir",
+      "D": "Fevzi Çakmak",
+      "E": "İsmet İnönü"
+    },
+    "dogru_cevap": "A",
+    "cozum": "Mustafa Kemal ve Enver Bey, Trablusgarp’ta halkı örgütleyerek direnişi sürdürdü. Mustafa Kemal, Tobruk ve Derne’de savaştı.\nDoğru Cevap: A) Mustafa Kemal\nKoçunun Yorumu: 'Mustafa Kemal’in ilk askeri başarıları → Trablusgarp' bilgisi çok önemlidir."
+  },
+  {
+    "soru": "Balkan Savaşları (1912-1913) sonucunda Osmanlı Devleti, aşağıdaki bölgelerden hangisini kaybetmiştir?",
+    "secenekler": {
+      "A": "Trakya (Edirne dahil)",
+      "B": "Ege Adaları",
+      "C": "Arnavutluk",
+      "D": "Kıbrıs",
+      "E": "Doğu Anadolu"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Balkan Savaşları sonunda Osmanlı, Batı Trakya ve Arnavutluk’u kaybetti. Edirne II. Balkan Savaşı’nda geri alındı.\nDoğru Cevap: C) Arnavutluk\nKoçunun Yorumu: Balkan Savaşları → Osmanlı Rumeli’den büyük ölçüde çekildi."
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi, savaş sonunda yıkılan imparatorlukların topraklarında kurulan 'Manda ve Himaye' rejiminin tanımıdır?",
+    "secenekler": {
+      "A": "Halkların kendi kaderini tayin etmesi",
+      "B": "Sömürgeciliğin, 'az gelişmiş toplumları medenileştirme' adı altında Milletler Cemiyeti kontrolünde devam ettirilmesi",
+      "C": "Ülkeler arasında tam bir ekonomik serbestlik olması",
+      "D": "İşçi haklarının uluslararası güvence altına alınması",
+      "E": "Silahsızlanma ve orduların lağvedilmesi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Wilson İlkeleri'nde yer alan 'sömürgecilik yapılmayacak' maddesini delmek için İngiltere ve Fransa manda sistemini kurdu. Osmanlı toprakları bu şekilde paylaşıldı.\nDoğru Cevap: B) Sömürgeciliğin, 'az gelişmiş toplumları medenileştirme' adı altında Milletler Cemiyeti kontrolünde devam ettirilmesi\nKoçunun Yorumu: Orta Doğu’daki Irak, Suriye, Filistin bu sistemle paylaşıldı."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine neden olan olay hangisidir?",
+    "secenekler": {
+      "A": "Saraybosna suikastı",
+      "B": "Almanya ile gizli bir ittifak antlaşması imzalaması",
+      "C": "Goeben ve Breslau zırhlılarının Rus limanlarını bombalaması",
+      "D": "Kapitülasyonları tek taraflı olarak kaldırması",
+      "E": "Seferberlik ilan etmesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "İngiliz donanmasından kaçıp Osmanlı’ya sığınan Goeben ve Breslau, Osmanlı bayrağı çekilerek Karadeniz’de Rus limanlarını bombaladı. Bu Osmanlı’yı savaşa soktu.\nDoğru Cevap: C) Goeben ve Breslau zırhlılarının Rus limanlarını bombalaması\nKoçunun Yorumu: Bu olay 'oldu bitti' ile savaşa girişin örneğidir."
+  },
+  {
+    "soru": "Paris Barış Konferansı'nda İzmir ve çevresinin Yunanistan’a verilmesinin temel nedeni nedir?",
+    "secenekler": {
+      "A": "İtalya'nın savaştan çekilmesi",
+      "B": "Yunanistan'ın askeri olarak daha güçlü olması",
+      "C": "Bölgedeki Rum nüfusunun fazlalığı bahanesi",
+      "D": "İngiltere'nin güçlü bir İtalya yerine kendi kontrolünde zayıf bir Yunanistan'ı tercih etmesi",
+      "E": "ABD'nin bu yönde baskı yapması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "İngiltere, Doğu Akdeniz’de güçlü bir İtalya istemedi. Bunun yerine maşa olarak Yunanistan’ı kullandı.\nDoğru Cevap: D) İngiltere'nin güçlü bir İtalya yerine kendi kontrolünde zayıf bir Yunanistan'ı tercih etmesi\nKoçunun Yorumu: Bu karar, İtilaf Devletleri arasındaki ilk ciddi çıkar çatışmasını doğurmuştur."
+  },
+  {
+    "soru": "Fahrettin Paşa'nın 'Medine Müdafaası' olarak tarihe geçen direnişi hangi cephede yaşanmıştır?",
+    "secenekler": {
+      "A": "Kafkas Cephesi",
+      "B": "Irak Cephesi",
+      "C": "Suriye-Filistin Cephesi",
+      "D": "Hicaz-Yemen Cephesi",
+      "E": "Kanal Cephesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Fahrettin Paşa, Hicaz-Yemen Cephesi’nde kutsal emanetleri korumak için Mondros’tan sonra bile teslim olmayarak direndi.\nDoğru Cevap: D) Hicaz-Yemen Cephesi\nKoçunun Yorumu: Bu savunma, I. Dünya Savaşı’nın en kahramanca direnişlerinden biridir."
+  },
+  {
+    "soru": "I. Dünya Savaşı'ndan sonra imzalanan barış antlaşmalarının en önemli uzun vadeli sonucu aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Dünya barışının kalıcı olarak sağlanması",
+      "B": "Sömürgeciliğin tamamen sona ermesi",
+      "C": "ABD'nin dünyanın tek süper gücü olması",
+      "D": "Almanya'da hoşnutsuzluğun artması ve II. Dünya Savaşı'na zemin hazırlaması",
+      "E": "Rusya'da komünizmin yıkılması"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Özellikle Almanya’ya dayatılan Versay Antlaşması, Alman halkında öfke ve intikam duygusu yarattı. Bu da Hitler’in yükselişine ve II. Dünya Savaşı’na zemin hazırladı.\nDoğru Cevap: D) Almanya'da hoşnutsuzluğun artması ve II. Dünya Savaşı'na zemin hazırlaması\nKoçunun Yorumu: Tarih bir bütündür; I. Dünya Savaşı'nın sonuçları, II. Dünya Savaşı'nın nedenlerini oluşturur."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde 18. yüzyılda yapılan ıslahatların, 17. yüzyıldakilerden temel farkı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Daha çok askeri alanda yapılması",
+      "B": "Padişahlar tarafından desteklenmesi",
+      "C": "Batı'nın (Avrupa'nın) askeri ve teknik üstünlüğünün kabul edilerek, Batı'nın örnek alınması",
+      "D": "Halk tarafından benimsenmesi",
+      "E": "Ulemanın tepkisini çekmemesi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 17. yüzyılda çözüm 'geçmişe dönmekte' aranırken, 18. yüzyılda ağır yenilgiler sonrası çözüm 'Batı'yı örnek almakta' aranmıştır.\nDoğru Cevap: C) Batı'nın (Avrupa'nın) askeri ve teknik üstünlüğünün kabul edilerek, Batı'nın örnek alınması\nKoçunun Yorumu: 17. yüzyılın yüzü geçmişe, 18. yüzyılın yüzü Batı'ya dönüktür. Bu ayrımı bilmek, dönem sorularını çözmenin anahtarıdır."
+  },
+  {
+    "soru": "1774 Küçük Kaynarca Antlaşması'nın aşağıdaki maddelerinden hangisi, Rusya'nın Osmanlı Devleti'nin iç işlerine doğrudan karışmasına zemin hazırlamıştır?",
+    "secenekler": {
+      "A": "Kırım'ın bağımsız olması",
+      "B": "Osmanlı Devleti'nin Rusya'ya savaş tazminatı ödemesi",
+      "C": "Rusya'nın Karadeniz'de donanma bulundurabilmesi",
+      "D": "Rusya'nın, Osmanlı yönetimindeki Ortodoksların koruyuculuğunu üstlenmesi",
+      "E": "Rusya'ya kapitülasyonların verilmesi"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Rusya'nın milyonlarca Osmanlı vatandaşının 'koruyucusu' olması, Osmanlı'nın iç işlerine karışma hakkını kendinde görmesine yol açmıştır.\nDoğru Cevap: D) Rusya'nın, Osmanlı yönetimindeki Ortodoksların koruyuculuğunu üstlenmesi\nKoçunun Yorumu: Küçük Kaynarca’nın bu maddesi, Osmanlı egemenlik haklarını en çok zedeleyen hükümdür."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde Pasarofça Antlaşması ile başlayıp Patrona Halil İsyanı ile sona eren, Batı'dan matbaa ve itfaiye gibi yeniliklerin alındığı ancak askeri alanda bir ıslahatın yapılmadığı dönem aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Nizam-ı Cedid Dönemi",
+      "B": "Köprülüler Dönemi",
+      "C": "Lale Devri",
+      "D": "Tanzimat Dönemi",
+      "E": "I. Meşrutiyet Dönemi"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Pasarofça ile başlayıp Patrona Halil ile biten, kültürel yeniliklerin yapıldığı ancak askeri ıslahatların olmadığı dönem Lale Devri'dir.\nDoğru Cevap: C) Lale Devri\nKoçunun Yorumu: Lale Devri dendiğinde 'askeri ıslahat yok' bilgisi mutlaka akılda tutulmalıdır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin, Kutsal İttifak Savaşları'nda aldığı yenilgiler sonucunda 1699'da imzaladığı ve Batı'da ilk kez büyük çapta toprak kaybettiği antlaşma aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Zitvatorok Antlaşması",
+      "B": "Bucaş Antlaşması",
+      "C": "Karlofça Antlaşması",
+      "D": "Vasvar Antlaşması",
+      "E": "Kasr-ı Şirin Antlaşması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: 'Batı’da ilk büyük toprak kaybı' ifadesi doğrudan Karlofça Antlaşması’nı işaret eder.\nDoğru Cevap: C) Karlofça Antlaşması\nKoçunun Yorumu: Karlofça, Duraklama Dönemi’nin sonu ve Gerileme Dönemi’nin başlangıcı kabul edilir."
+  },
+  {
+    "soru": "III. Selim tarafından kurulan Nizam-ı Cedid ordusunun masraflarını karşılamak için oluşturulan yeni hazineye ne ad verilmiştir?",
+    "secenekler": {
+      "A": "Hazine-i Amire",
+      "B": "Hazine-i Bîrûn",
+      "C": "İrad-ı Cedid",
+      "D": "Sekban-ı Cedid",
+      "E": "Miri Hazine"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Yeni ordu (Nizam-ı Cedid) ve yeni hazine (İrad-ı Cedid), köklü değişim arzusunu yansıtır.\nDoğru Cevap: C) İrad-ı Cedid\nKoçunun Yorumu: III. Selim’in reformları programlıdır. 'Cedid' (yeni) ifadesi bunun en belirgin göstergesidir."
+  },
+  {
+    "soru": "17. yüzyılda Osmanlı Devleti'nde Sancağa Çıkma usulünün kaldırılarak yerine Kafes Usulü'nün getirilmesi, aşağıdakilerden hangisine neden olmuştur?",
+    "secenekler": {
+      "A": "Taht kavgalarının tamamen sona ermesine",
+      "B": "Yönetim tecrübesinden yoksun, dünyadan habersiz şehzadelerin padişah olmasına",
+      "C": "Devletin gelirlerinin artmasına",
+      "D": "Celali İsyanları'nın başlamasına",
+      "E": "Tımar sisteminin güçlenmesine"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Sancakta devlet tecrübesi kazanan şehzadeler yerine, Kafes’te hapis hayatı yaşayan tecrübesiz şehzadeler padişah olmuştur.\nDoğru Cevap: B) Yönetim tecrübesinden yoksun şehzadelerin tahta geçmesi\nKoçunun Yorumu: Kafes Usulü, Duraklama Dönemi’nin en önemli sorunlarından biridir."
+  },
+  {
+    "soru": "1606 yılında Avusturya ile imzalanan Zitvatorok Antlaşması'nda yer alan 'Avusturya Arşidükü, protokol bakımından Osmanlı Padişahı'na denk sayılacaktır.' maddesi, Osmanlı Devleti açısından nasıl bir değişimi ifade eder?",
+    "secenekler": {
+      "A": "Askeri bir zaferi",
+      "B": "Ekonomik bir kazancı",
+      "C": "Avrupa devletleri üzerindeki siyasi ve diplomatik üstünlüğün sona erdiğini",
+      "D": "Balkanlardaki toprakların kaybedildiğini",
+      "E": "Avusturya ile bir ittifak kurulduğunu"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Osmanlı padişahının üstünlüğü sona ermiş, eşitlik kabul edilmiştir.\nDoğru Cevap: C) Avrupa devletleri üzerindeki siyasi ve diplomatik üstünlüğün sona erdiğini\nKoçunun Yorumu: Zitvatorok, Osmanlı’nın prestij kaybettiği bir antlaşmadır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde saraya, bütçe açığını kapatmak için şartlar sunarak sadrazamlığı kabul eden ve otoriteyi yeniden sağlayan devlet adamı ve ailesiyle anılan dönem aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Tarhuncu Ahmet Paşa",
+      "B": "Lale Devri",
+      "C": "Nizam-ı Cedid",
+      "D": "Köprülüler Dönemi",
+      "E": "Alemdar Mustafa Paşa"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Köprülü Mehmet Paşa şartlar ileri sürerek göreve gelmiş, devlete yeniden otorite kazandırmıştır.\nDoğru Cevap: D) Köprülüler Dönemi\nKoçunun Yorumu: Köprülüler, baskı ve disiplinle otoriteyi sağlayan ıslahatçılardır."
+  },
+  {
+    "soru": "İbrahim Müteferrika ve Said Efendi tarafından kurulan ilk özel Türk matbaası Osmanlı'da hangi dönemde açılmıştır?",
+    "secenekler": {
+      "A": "Fetret Devri",
+      "B": "Lale Devri",
+      "C": "I. Mahmut Dönemi",
+      "D": "Nizam-ı Cedid Dönemi",
+      "E": "Köprülüler Dönemi"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Matbaa, Lale Devri'nin en sembolik yeniliklerindendir.\nDoğru Cevap: B) Lale Devri\nKoçunun Yorumu: Matbaa, dini eser basmamak şartıyla açılmıştır. Bu, ulemanın yeniliklere bakışını gösterir."
+  },
+  {
+    "soru": "Osmanlı Devleti'nde Batı tarzında ıslah edilen ilk askeri kurum olan Humbaracı Ocağı'nın modernleştirilmesi ve Hendesehane adıyla ilk askeri teknik okulun açılması hangi padişah döneminde gerçekleşmiştir?",
+    "secenekler": {
+      "A": "III. Ahmet",
+      "B": "I. Mahmut",
+      "C": "III. Mustafa",
+      "D": "I. Abdülhamit",
+      "E": "III. Selim"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Humbaracı Ahmet Paşa’nın katkılarıyla I. Mahmut döneminde yapılmıştır.\nDoğru Cevap: B) I. Mahmut\nKoçunun Yorumu: Askeri alandaki ilk Batılılaşma adımları I. Mahmut döneminde görülür."
+  },
+  {
+    "soru": "III. Selim'in kurduğu Nizam-ı Cedid ordusuna ve yeniliklerine karşı çıkanların çıkardığı ve padişahın tahttan indirilmesiyle sonuçlanan isyan aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Patrona Halil İsyanı",
+      "B": "Celali İsyanları",
+      "C": "Şeyh Bedreddin İsyanı",
+      "D": "Kabakçı Mustafa İsyanı",
+      "E": "Edirne Vakası"
+    },
+    "dogru_cevap": "D",
+    "cozum": "Analiz: Nizam-ı Cedid'e karşı Kabakçı Mustafa İsyanı çıkmıştır.\nDoğru Cevap: D) Kabakçı Mustafa İsyanı\nKoçunun Yorumu: Lale Devri’ni Patrona Halil, Nizam-ı Cedid’i Kabakçı Mustafa bitirmiştir."
+  },
+  {
+    "soru": "17. yüzyılda Anadolu'da yaşanan Celali İsyanları'nın temel nedeni aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "İstanbul'da ulemanın yönetime karışması",
+      "B": "Yeniçerilerin maaşlarını zamanında alamaması",
+      "C": "Tımar sisteminin bozulması, artan vergiler ve ekonomik sıkıntılar",
+      "D": "Kırım'ın kaybedilmesi",
+      "E": "Padişahların tecrübesiz olması"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Celali İsyanları ekonomik sıkıntılar ve tımar sisteminin bozulmasından kaynaklanmıştır.\nDoğru Cevap: C) Tımar sisteminin bozulması, artan vergiler ve ekonomik sıkıntılar\nKoçunun Yorumu: Anadolu isyanlarının temelinde ekonomik sorunlar vardır."
+  },
+  {
+    "soru": "Osmanlı Devleti'nin 1718 Pasarofça Antlaşması'nı imzalayarak Batı'nın üstünlüğünü kabul etmesine ve Lale Devri'ne girmesine neden olan temel gelişme aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Rusya karşısında kazanılan Prut Zaferi",
+      "B": "Avusturya karşısında alınan ağır askeri yenilgiler",
+      "C": "Kırım'ın bağımsızlığını kazanması",
+      "D": "Fransa'ya kapitülasyonların verilmesi",
+      "E": "İran savaşlarının başlaması"
+    },
+    "dogru_cevap": "B",
+    "cozum": "Analiz: Avusturya karşısında alınan Petervaradin yenilgisi sonrası Pasarofça imzalanmıştır.\nDoğru Cevap: B) Avusturya karşısında alınan ağır askeri yenilgiler\nKoçunun Yorumu: Olayların zincirini görmek önemlidir: Prut (umut) → Petervaradin (yenilgi) → Pasarofça (kabul)."
+  },
+  {
+    "soru": "17. yüzyıl ıslahatçılarından Tarhuncu Ahmet Paşa'nın temel faaliyeti aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Avrupa'ya elçiler göndermek",
+      "B": "Yeni bir ordu kurmak",
+      "C": "Devletin gelir ve giderlerini hesaplayarak ilk modern bütçeyi hazırlamak",
+      "D": "Matbaayı getirmek",
+      "E": "Taht kavgalarını önlemek için kanun çıkarmak"
+    },
+    "dogru_cevap": "C",
+    "cozum": "Analiz: Tarhuncu Ahmet Paşa ilk kez devlet bütçesi hazırlamıştır.\nDoğru Cevap: C) Devletin gelir ve giderlerini hesaplayarak ilk modern bütçeyi hazırlamak\nKoçunun Yorumu: Tarhuncu’nun odak noktası maliye idi."
+  }
+
+
+        
+
+
+        
+        
+    ],
     "7. 19. yy (Dağılma) ve Islahatlar": [
-
-
    {
         "soru": "Osmanlı Devleti'nde padişahın yetkilerini kanun gücüyle ilk kez sınırlayan ve anayasal düzene geçişin ilk adımı olarak kabul edilen belge aşağıdakilerden hangisidir?",
         "secenekler": {
@@ -1302,18 +2055,7 @@
         "dogru_cevap": "B",
         "cozum": "II. Mahmut taşradaki yerel güçleri zayıflatıp merkezi otoriteyi güçlendirmeyi hedefledi.",
         "kocunun_yorumu": "Yaptığı her reformun temelinde merkeziyetçilik vardır."
-    }
-
-
-
-
-
-        
-
-
-
-
-        
+    } 
     ],
     "8. Trablusgarp ve Balkan Savaşları": [
    {
@@ -5072,6 +5814,7 @@
     }
 
 }
+
 
 
 
