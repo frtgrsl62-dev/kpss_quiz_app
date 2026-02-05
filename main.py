@@ -729,14 +729,12 @@ def profil_page():
 # ===============================
 
 def admin_page():
-     st.title("👨‍🏫 Admin Paneli")
+st.title("👨‍🏫 Admin Paneli")
 
     # 🔙 Geri
     if st.button("🏠 Ana Menüye Dön"):
         st.session_state["page"] = "ders"
         st.rerun()
-
-
 
     tab1, tab2, tab3, tab4 = st.tabs([
         "👥 Kullanıcı Yönetimi",
@@ -972,6 +970,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
