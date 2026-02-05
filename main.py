@@ -729,7 +729,7 @@ def profil_page():
 # ===============================
 
 def admin_page():
-st.title("👨‍🏫 Admin Paneli")
+    st.title("👨‍🏫 Admin Paneli")
 
     # 🔙 Geri
     if st.button("🏠 Ana Menüye Dön"):
@@ -970,6 +970,7 @@ elif page == "profil":
     profil_page()
 elif page == "admin":
     admin_page()
+
 
 
 
